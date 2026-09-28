@@ -92,7 +92,7 @@ export default async function CoursePage({
           </div>
         </section>
 
-        <section className="mt-14 rounded-md border border-current/12 p-8">
+        <section className="glass mt-14 p-8">
           <h2 className="meta mb-6 text-current/50">The curriculum, honestly (§49)</h2>
           <p className="text-[0.9375rem] text-current/70">
             {theoryPracticeBand(course.curriculumReality.theoryToPracticeRatio)} · {WORKLOAD_LABEL[course.curriculumReality.workloadDescriptor]}

@@ -13,7 +13,7 @@ export function InstitutionCard({ institution }: { institution: Institution }) {
   return (
     <Link
       href={`/college/${institution.slug}`}
-      className="glow-border block rounded-md border border-current/12 p-6 transition-colors duration-[var(--dur-quick)] hover:border-cyan/40"
+      className="glass glass-interactive glow-border block p-6"
     >
       <div className="flex items-start justify-between gap-4">
         <div>

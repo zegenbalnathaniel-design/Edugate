@@ -18,7 +18,7 @@ function coverageLabel(coverage: Scholarship["coverage"]): string {
 
 export function ScholarshipCard({ scholarship }: { scholarship: Scholarship }) {
   return (
-    <div className="rounded-md border border-current/12 p-6">
+    <div className="glass p-6">
       <p className="meta text-current/45">{scholarship.basis.map((b) => BASIS_LABEL[b]).join(" · ")}</p>
       <h3 className="mt-1 text-[1.0625rem] font-medium text-current">{scholarship.name}</h3>
       <p className="mt-1 text-[0.8125rem] text-current/55">{scholarship.provider}</p>

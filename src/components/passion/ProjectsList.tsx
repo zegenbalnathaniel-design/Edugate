@@ -28,7 +28,7 @@ export function ProjectsList() {
 
   if (projects.length === 0) {
     return (
-      <div className="rounded-md border border-current/12 p-8 text-center">
+      <div className="glass p-8 text-center">
         <p className="mb-4 text-[0.9375rem] text-current/70">
           Nothing here yet — projects come from Passion Projector.
         </p>

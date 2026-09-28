@@ -15,7 +15,7 @@ export function CourseCard({ course }: { course: Course }) {
   return (
     <Link
       href={`/course/${course.slug}`}
-      className="glow-border block rounded-md border border-current/12 p-6 transition-colors duration-[var(--dur-quick)] hover:border-cyan/40"
+      className="glass glass-interactive glow-border block p-6"
     >
       <p className="meta text-current/45">
         {DEGREE_LABEL[course.degree]} · {FIELD_LABELS[course.field]}

@@ -26,7 +26,7 @@ export function HistoryList() {
 
   if (sessions.length === 0) {
     return (
-      <div className="rounded-md border border-current/12 p-8 text-center">
+      <div className="glass p-8 text-center">
         <p className="mb-4 text-[0.9375rem] text-current/70">
           No completed sessions yet.
         </p>
@@ -44,7 +44,7 @@ export function HistoryList() {
           .sort((a, b) => b.normalized - a.normalized)
           .slice(0, 5);
         return (
-          <li key={s.id} className="rounded-md border border-current/12 p-6">
+          <li key={s.id} className="glass p-6">
             <p className="meta mb-3 text-current/45">
               {s.completedAt ? new Date(s.completedAt).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }) : ""}
             </p>

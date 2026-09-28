@@ -7,7 +7,7 @@ export function CareerCard({ career }: { career: Career }) {
   return (
     <Link
       href={`/career/${career.slug}`}
-      className="glow-border block rounded-md border border-current/12 p-6 transition-colors duration-[var(--dur-quick)] hover:border-cyan/40"
+      className="glass glass-interactive glow-border block p-6"
     >
       <p className="meta text-current/45">{career.fields.map((f) => FIELD_LABELS[f]).join(" · ")}</p>
       <h3 className="mt-1 text-[1.0625rem] font-medium text-current">{career.title}</h3>

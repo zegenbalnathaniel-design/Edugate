@@ -11,9 +11,9 @@ const DIFFICULTY_LABEL: Record<ProjectTemplate["difficulty"], string> = {
 };
 
 /**
- * A recommended project template — docs/04 §7's six questions: what, why,
- * skills, first step, difficulty/time, portfolio value. Accepting it is what
- * turns this into a real `Project` entity (the loop, not the quiz result).
+ * A recommended project template. Accepting it is what turns this into a
+ * real `Project` entity (the loop, not the quiz result) — the plan and
+ * deliverables below are the actual build, not just a first step.
  */
 export function ProjectCard({
   template,
@@ -28,7 +28,7 @@ export function ProjectCard({
   const [accepted, setAccepted] = useState(false);
 
   return (
-    <div className="flex flex-col gap-4 rounded-md border border-current/12 p-6">
+    <div className="glass flex flex-col gap-4 p-6">
       <div>
         <p className="meta text-cyan-deep">{reason}</p>
         <h4 className="display-s mt-1.5">{template.title}</h4>
@@ -57,22 +57,59 @@ export function ProjectCard({
         <p className="text-[0.9375rem] text-current/85">{template.firstStep}</p>
       </div>
 
+      <details className="group">
+        <summary className="meta cursor-pointer list-none text-cyan-deep [&::-webkit-details-marker]:hidden">
+          Full plan — {template.implementationPlan.length} phases ↓
+        </summary>
+        <div className="mt-4 space-y-4 border-t border-current/10 pt-4">
+          {template.implementationPlan.map((phase, i) => (
+            <div key={i}>
+              <div className="flex items-baseline justify-between gap-3">
+                <p className="text-[0.875rem] font-medium text-current/90">{phase.title}</p>
+                <p className="meta shrink-0 text-current/40">{phase.durationDescriptor}</p>
+              </div>
+              <p className="mt-1 text-[0.8125rem] text-current/60">{phase.goal}</p>
+              <ul className="mt-2 space-y-1">
+                {phase.tasks.map((task, j) => (
+                  <li key={j} className="flex gap-2 text-[0.8125rem] text-current/70">
+                    <span aria-hidden className="text-cyan-deep">·</span>
+                    {task}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+
+          <div className="border-t border-current/10 pt-3">
+            <p className="meta mb-1.5 text-current/40">Deliverables</p>
+            <ul className="space-y-1">
+              {template.deliverables.map((d, i) => (
+                <li key={i} className="text-[0.8125rem] text-current/70">{d}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </details>
+
       <p className="text-[0.8125rem] italic text-current/50">{template.portfolioValue}</p>
 
-      <Button
-        variant={accepted ? "secondary" : "primary"}
-        size="sm"
-        magnetic={false}
-        onClick={async () => {
-          if (accepted || accepting) return;
-          setAccepting(true);
-          await onAccept();
-          setAccepting(false);
-          setAccepted(true);
-        }}
-      >
-        {accepted ? "Added to your projects" : accepting ? "Starting…" : "Start this project"}
-      </Button>
+      <div className={accepted ? "" : "moving-border"}>
+        <Button
+          variant={accepted ? "secondary" : "primary"}
+          size="sm"
+          magnetic={false}
+          className="w-full"
+          onClick={async () => {
+            if (accepted || accepting) return;
+            setAccepting(true);
+            await onAccept();
+            setAccepting(false);
+            setAccepted(true);
+          }}
+        >
+          {accepted ? "Added to your projects" : accepting ? "Starting…" : "Start this project"}
+        </Button>
+      </div>
     </div>
   );
 }
@@ -91,6 +128,14 @@ const NEXT_STATUS: Record<ProjectStatus, ProjectStatus | null> = {
   completed: null,
 };
 
+/** How far into the plan this status roughly puts the student — a visual cue only. */
+function activePhaseIndex(status: ProjectStatus, phaseCount: number): number {
+  if (status === "idea") return -1;
+  if (status === "started") return 0;
+  if (status === "completed") return phaseCount - 1;
+  return Math.min(phaseCount - 1, Math.floor(phaseCount / 2));
+}
+
 /** An owned `Project` entity with real status transitions — /student/projects. */
 export function ProjectEntry({
   project,
@@ -101,9 +146,10 @@ export function ProjectEntry({
 }) {
   const [busy, setBusy] = useState(false);
   const next = NEXT_STATUS[project.status];
+  const activePhase = activePhaseIndex(project.status, project.implementationPlan.length);
 
   return (
-    <div className="flex flex-col gap-3 rounded-md border border-current/12 p-6">
+    <div className="glass flex flex-col gap-3 p-6">
       <div className="flex items-start justify-between gap-4">
         <div>
           <h4 className="text-[1.0625rem] font-medium text-current">{project.title}</h4>
@@ -114,11 +160,49 @@ export function ProjectEntry({
         </span>
       </div>
 
+      {project.implementationPlan.length > 0 && (
+        <div className="flex gap-1.5" role="img" aria-label={`Phase ${activePhase + 1} of ${project.implementationPlan.length}`}>
+          {project.implementationPlan.map((_, i) => (
+            <span
+              key={i}
+              aria-hidden
+              className={`h-1.5 flex-1 rounded-full ${i <= activePhase ? "bg-cyan" : "bg-current/12"}`}
+            />
+          ))}
+        </div>
+      )}
+
       {project.status !== "completed" && (
         <div className="border-t border-current/10 pt-3">
-          <p className="meta mb-1 text-current/40">Next step</p>
-          <p className="text-[0.875rem] text-current/80">{project.firstStep}</p>
+          <p className="meta mb-1 text-current/40">
+            {project.status === "idea" ? "First step" : `Now — ${project.implementationPlan[Math.max(0, activePhase)]?.title ?? "Next step"}`}
+          </p>
+          <p className="text-[0.875rem] text-current/80">
+            {project.status === "idea"
+              ? project.firstStep
+              : (project.implementationPlan[Math.max(0, activePhase)]?.tasks[0] ?? project.firstStep)}
+          </p>
         </div>
+      )}
+
+      {project.implementationPlan.length > 0 && (
+        <details>
+          <summary className="meta cursor-pointer list-none text-cyan-deep [&::-webkit-details-marker]:hidden">
+            View full plan ↓
+          </summary>
+          <div className="mt-3 space-y-3 border-t border-current/10 pt-3">
+            {project.implementationPlan.map((phase, i) => (
+              <div key={i} className={i === activePhase ? "opacity-100" : "opacity-60"}>
+                <p className="text-[0.8125rem] font-medium text-current/90">{phase.title}</p>
+                <ul className="mt-1 space-y-0.5">
+                  {phase.tasks.map((task, j) => (
+                    <li key={j} className="text-[0.8125rem] text-current/65">· {task}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </details>
       )}
 
       {next && (

@@ -33,7 +33,7 @@ export default async function DiscoverPage({
         <SectionLabel index="01">Discover</SectionLabel>
         <h1 className="display-m mt-3 mb-10">Institutions</h1>
 
-        <form className="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-4" method="get">
+        <form className="glass mb-10 grid grid-cols-1 gap-4 p-5 sm:grid-cols-4" method="get">
           <input
             type="search"
             name="search"
@@ -70,7 +70,7 @@ export default async function DiscoverPage({
         </form>
 
         {items.length === 0 ? (
-          <div className="rounded-md border border-current/12 p-8 text-center">
+          <div className="glass p-8 text-center">
             <p className="mb-4 text-[0.9375rem] text-current/70">
               No institutions match those filters.
             </p>
