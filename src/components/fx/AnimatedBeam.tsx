@@ -113,13 +113,15 @@ export function AnimatedBeam({
       </defs>
 
       {/* Resting track: always visible, so the topology reads even when the
-          pulses are off (reduced motion) or between cycles. */}
+          pulses are off (reduced motion) or between cycles. A fixed token
+          color, never `currentColor` — inheriting ambient text color made
+          this render as a flat white line in dark sections. */}
       <path
         ref={pathRef}
         d={path}
-        stroke="currentColor"
+        stroke="var(--color-cyan-deep)"
         strokeWidth={1}
-        strokeOpacity={active ? 0.5 : 0.18}
+        strokeOpacity={active ? 0.6 : 0.25}
         className="transition-[stroke-opacity] duration-[var(--dur-quick)]"
       />
 

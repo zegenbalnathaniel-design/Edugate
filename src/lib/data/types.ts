@@ -446,6 +446,16 @@ export interface PassionSession extends Entity {
 
 export type ProjectDifficulty = "starter" | "intermediate" | "ambitious";
 
+/** One concrete phase of a project's implementation plan — a real outline, not a vague blurb. */
+export interface ImplementationPhase {
+  title: string;
+  /** What is true once this phase is done. */
+  goal: string;
+  tasks: string[];
+  /** Roughly how long this phase takes, on the student's own time. */
+  durationDescriptor: string;
+}
+
 export interface ProjectTemplate {
   id: ID;
   title: string;
@@ -459,6 +469,9 @@ export interface ProjectTemplate {
   learningOutcomes: string[];
   /** Concrete, doable within an hour — never "conduct user research". */
   firstStep: string;
+  /** The full build, phase by phase — not just the first step. */
+  implementationPlan: ImplementationPhase[];
+  deliverables: string[];
   portfolioValue: string;
 }
 
@@ -474,6 +487,8 @@ export interface Project extends Entity {
   difficulty: ProjectDifficulty;
   estimatedHours: number;
   firstStep: string;
+  implementationPlan: ImplementationPhase[];
+  deliverables: string[];
   status: ProjectStatus;
   /** → Document ids. Empty in this stage — no doc vault yet (Stage 4). */
   evidence: ID[];

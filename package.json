@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "vitest run",
-    "check:universe": "node --experimental-strip-types scripts/check-universe.mts"
+    "test": "vitest run"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.9",

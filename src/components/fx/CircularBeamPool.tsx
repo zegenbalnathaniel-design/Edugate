@@ -72,7 +72,7 @@ export function CircularBeamPool({
         className="beam-spin absolute inset-0 rounded-full"
         style={{
           background:
-            "conic-gradient(from 0deg, transparent 0deg, transparent 240deg, rgba(55,212,230,0.12) 300deg, rgba(55,212,230,0.75) 350deg, rgba(255,255,255,0.95) 359deg, transparent 360deg)",
+            "conic-gradient(from 0deg, transparent 0deg, transparent 240deg, rgba(47,107,255,0.15) 300deg, rgba(55,212,230,0.8) 350deg, rgba(160,232,240,0.95) 359deg, transparent 360deg)",
           WebkitMask:
             "radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px))",
           mask: "radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px))",

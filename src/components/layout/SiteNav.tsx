@@ -45,12 +45,15 @@ export function SiteNav() {
   return (
     <header
       className={[
-        "fixed inset-x-0 top-0 z-50",
-        "transition-[background-color,border-color,backdrop-filter] duration-[var(--dur-base)]",
+        "fixed inset-x-0 top-0 z-50 border-b backdrop-blur-xl",
+        "transition-[background-color,border-color] duration-[var(--dur-base)]",
         "[transition-timing-function:var(--ease-out-edu)]",
+        // Always a real background — never fully transparent. That is what
+        // keeps light nav text legible over a light-register page and what
+        // stops content scrolling underneath from ghosting through it.
         scrolled
-          ? "border-b border-paper/10 bg-void/72 backdrop-blur-xl"
-          : "border-b border-transparent bg-transparent",
+          ? "border-paper/10 bg-void/96"
+          : "border-paper/6 bg-void/62",
       ].join(" ")}
     >
       <nav

@@ -60,6 +60,15 @@ export const ProjectTemplateSchema = z.object({
   skills: z.array(z.string()).min(1),
   learningOutcomes: z.array(z.string()).min(1),
   firstStep: z.string().min(1),
+  implementationPlan: z.array(
+    z.object({
+      title: z.string().min(1),
+      goal: z.string().min(1),
+      tasks: z.array(z.string().min(1)).min(1),
+      durationDescriptor: z.string().min(1),
+    }),
+  ).min(1),
+  deliverables: z.array(z.string().min(1)).min(1),
   portfolioValue: z.string().min(1),
 });
 

@@ -55,6 +55,8 @@ export const projectRepo: ProjectRepo = {
       difficulty: template.difficulty,
       estimatedHours: template.estimatedHours,
       firstStep: template.firstStep,
+      implementationPlan: template.implementationPlan,
+      deliverables: template.deliverables,
       status: "idea",
       evidence: [],
       reflection: null,

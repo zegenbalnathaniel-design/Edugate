@@ -185,6 +185,16 @@ html.lenis body {
    Never two consecutive sections of the same register (§08).
    ============================================================ */
 
+/* Every register is a self-contained band: relative so its gradient-mesh
+   pseudo-elements anchor correctly, hidden-overflow so their oversized
+   negative inset never creates horizontal scroll. */
+[data-register="dark"],
+[data-register="deep"],
+[data-register="light"],
+[data-register="warm"] {
+  position: relative;
+  overflow: hidden;
+}
 [data-register="dark"] {
   background: var(--color-void);
   color: var(--color-paper);
@@ -193,6 +203,8 @@ html.lenis body {
   background: var(--color-navy-900);
   color: var(--color-paper);
 }
+/* "light"/"warm" are never a flat fill — a soft, slow gradient mesh sits
+   underneath so no surface in the product reads as plain white. */
 [data-register="light"] {
   background: var(--color-paper);
   color: var(--color-ink);
@@ -200,6 +212,152 @@ html.lenis body {
 [data-register="warm"] {
   background: var(--color-paper-warm);
   color: var(--color-ink);
+}
+
+/* ============================================================
+   LIQUID MORPHISM — gradient mesh grounds + glass surfaces
+   ============================================================ */
+
+@keyframes mesh-drift-a {
+  0%, 100% { transform: translate(-6%, -4%) scale(1); }
+  50%      { transform: translate(8%, 6%) scale(1.12); }
+}
+@keyframes mesh-drift-b {
+  0%, 100% { transform: translate(5%, 8%) scale(1.05); }
+  50%      { transform: translate(-8%, -5%) scale(0.95); }
+}
+@keyframes mesh-drift-c {
+  0%, 100% { transform: translate(0%, 0%) scale(1); }
+  50%      { transform: translate(-6%, 10%) scale(1.08); }
+}
+
+/* Every registered section paints 2 huge, softly blurred colour blobs that
+   drift slowly behind its content — automatic via `data-register`, so no
+   section anywhere needs an opt-in class. Cheap (compositor-only transforms,
+   no WebGL) and reads as depth instead of a flat fill. `.mesh-ground` boosts
+   the effect for hero-scale moments. */
+[data-register] {
+  isolation: isolate;
+}
+[data-register]::before,
+[data-register]::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(38% 32% at 18% 22%, var(--mesh-1, rgba(47,107,255,0.22)), transparent 68%),
+    radial-gradient(34% 30% at 82% 18%, var(--mesh-2, rgba(55,212,230,0.16)), transparent 68%),
+    radial-gradient(40% 38% at 70% 82%, var(--mesh-3, rgba(27,58,107,0.2)), transparent 70%);
+  filter: blur(60px);
+  animation: mesh-drift-a 26s ease-in-out infinite;
+}
+[data-register]::after {
+  animation: mesh-drift-b 34s ease-in-out infinite reverse;
+  opacity: 0.7;
+}
+.mesh-ground::before {
+  inset: -30%;
+  filter: blur(80px);
+}
+.mesh-ground::after {
+  inset: -30%;
+  filter: blur(90px);
+  opacity: 1;
+}
+
+[data-register="dark"],
+[data-register="deep"] {
+  --mesh-1: rgba(47, 107, 255, 0.24);
+  --mesh-2: rgba(55, 212, 230, 0.16);
+  --mesh-3: rgba(46, 85, 144, 0.22);
+}
+[data-register="light"] {
+  --mesh-1: rgba(47, 107, 255, 0.1);
+  --mesh-2: rgba(55, 212, 230, 0.1);
+  --mesh-3: rgba(27, 58, 107, 0.07);
+}
+[data-register="warm"] {
+  --mesh-1: rgba(47, 107, 255, 0.08);
+  --mesh-2: rgba(196, 84, 60, 0.06);
+  --mesh-3: rgba(27, 58, 107, 0.08);
+}
+
+/* Glass surface — the base card treatment everywhere a bordered box used to
+   sit on a flat fill. Blur + translucency + a hairline gradient edge instead
+   of a flat 1px border, so surfaces read as floating rather than drawn. */
+.glass {
+  position: relative;
+  background: color-mix(in srgb, currentColor 6%, transparent);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  border-radius: var(--radius-lg);
+  box-shadow:
+    0 1px 0 0 color-mix(in srgb, currentColor 8%, transparent) inset,
+    0 20px 48px -24px rgba(5, 7, 13, 0.55);
+  transition:
+    border-color var(--dur-base) var(--ease-out-edu),
+    transform var(--dur-base) var(--ease-out-edu),
+    box-shadow var(--dur-base) var(--ease-out-edu);
+}
+.glass-interactive:hover {
+  border-color: color-mix(in srgb, var(--color-cyan) 45%, transparent);
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 0 color-mix(in srgb, currentColor 10%, transparent) inset,
+    0 24px 56px -20px rgba(5, 7, 13, 0.6),
+    0 0 0 1px color-mix(in srgb, var(--color-cyan) 20%, transparent);
+}
+
+/* Moving-border button shell — a conic gradient spins behind a solid inset
+   pill, so the border itself is the animated element (Aceternity-style). */
+@keyframes moving-border-spin {
+  to { transform: rotate(360deg); }
+}
+.moving-border {
+  position: relative;
+  border-radius: 999px;
+  padding: 1px;
+  overflow: hidden;
+  isolation: isolate;
+}
+.moving-border::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: 0;
+  background: conic-gradient(
+    from 0deg,
+    var(--color-electric),
+    var(--color-cyan),
+    transparent 30%,
+    transparent 70%,
+    var(--color-electric)
+  );
+  animation: moving-border-spin 4.5s linear infinite;
+}
+.moving-border > * {
+  position: relative;
+  z-index: 1;
+  border-radius: 999px;
+}
+
+/* Subtle grain — keeps large gradient fields from banding and adds the
+   tactile, non-flat quality liquid-morphism surfaces are known for. */
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* ============================================================
