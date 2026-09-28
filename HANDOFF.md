@@ -1,6 +1,6 @@
 # Edugate — Handoff
 
-**Status as of 2026-09-28:** Stage 0 (foundation) and Stage 2 (public landing page) are complete and verified. Build passes, typecheck clean, `/` prerenders as static HTML.
+**Status as of 2026-09-28:** Stage 0 (foundation), Stage 1 (Passion Projector) and Stage 2 (public landing page) are complete and verified. Build passes, typecheck clean, `npm run test` passes (24 tests), `/` prerenders as static HTML.
 
 ---
 
@@ -9,8 +9,9 @@
 ```bash
 npm install
 npm run dev            # http://localhost:3000
-npm run build          # build + typecheck
-npm run check:universe # asserts the hero geometry actually forms rings
+npm run build           # build + typecheck
+npm run test            # vitest — invariants (D7) + passion engine logic
+npm run check:universe  # asserts the hero geometry actually forms rings
 ```
 
 Node 20+. No env vars, no backend, no external services.
@@ -29,20 +30,26 @@ Node 20+. No env vars, no backend, no external services.
 | Animated beams, circular beam pool, spotlight | `src/components/fx/` |
 | Landing narrative + interactive sections | `src/components/landing/` |
 | Primitives (Button, Section, Provenance) | `src/components/primitives/` |
-| Entity types | `src/lib/data/types.ts` |
+| Entity types + Passion/Project domain | `src/lib/data/types.ts` |
 | Geometry regression check | `scripts/check-universe.mts` |
+| Data layer: repositories, demo/localStorage adapter, Zod schemas | `src/lib/data/{repositories,adapters,schema.ts}` |
+| Passion engine: adaptive selection, scoring, archetypes, fields, projects | `src/lib/passion/` |
+| Passion content: 70 questions, 14 archetypes, 60 project templates, field weights | `src/lib/data/fixtures/passion/` |
+| Passion Projector UI + WebGL particle scene (4 phases) | `src/components/passion/`, `src/components/webgl/passion/` |
+| Invariant tests (D7) + passion engine tests | `tests/` |
 
-**One page exists: `/`.** Every nav link points at a route that is not built yet.
+**Three pages exist:** `/`, `/passion-projector`, `/student/projects`, `/student/passion-projector/history` (four, plus the not-found page). Every other nav link points at a route that is not built yet.
 
 ---
 
 ## What is NOT done
 
-1. **91 of 92 routes.** See `docs/02-routes.md` for the full tiered manifest.
-2. **The data layer.** `src/lib/data/types.ts` has the entity types; there are **no repositories, no adapters, no fixtures**. `docs/01-architecture.md` specifies the repository-over-fixtures design.
-3. **`tests/invariants.spec.ts`** (D7). The free/no-fabrication invariants are currently enforced only by the type system, not by a machine check.
-4. **Passion Projector** — the signature feature. Fully specified in `docs/04-passion-engine.md`, zero lines written.
-5. **Auth, onboarding, all four role platforms.**
+1. **88 of 92 routes.** See `docs/02-routes.md` for the full tiered manifest.
+2. **Auth, onboarding, and three of the four role platforms** (parent, institution, admin — student has only the two Passion Projector routes above, no dashboard shell). `/student/projects` and `/student/passion-projector/history` are standalone routes, not yet inside a real dashboard layout.
+3. **The rest of the data layer.** Only the Passion/Project repositories exist. Institution/Course/Career/Scholarship/Application/etc. have types (`src/lib/data/types.ts`, Stage 0) but no repositories, fixtures, or schemas yet.
+4. **Document vault, applications kanban, everything past Stage 2** per `docs/06-build-plan.md`'s Stage 3+.
+
+Passion Projector's local student identity (`getLocalStudentId()` in `src/lib/data/adapters/demo/storage.ts`) is a placeholder for real auth — Stage 3 should replace it, not layer on top of it.
 
 ---
 
@@ -74,25 +81,34 @@ These all looked correct in code and only failed on screen:
 
 ## Continuation prompt
 
-> I'm continuing the Edugate build. The repo contains a complete architecture plan in `docs/` and a working foundation + landing page. **Read `HANDOFF.md`, then `docs/00-decisions.md`, then `docs/06-build-plan.md` before writing any code.**
+> I'm continuing the Edugate build. Stages 0, 1 and 2 are complete and verified — foundation, Passion Projector end to end, and the public landing page. **Read `HANDOFF.md`, then `docs/00-decisions.md`, then `docs/06-build-plan.md` before writing any code.**
 >
-> Build **Stage 1: Passion Projector, end to end**, per `docs/04-passion-engine.md`. That document is the spec — follow it precisely, especially:
+> Build **Stage 3: Auth, onboarding, student core**, per `docs/06-build-plan.md`. In order:
 >
-> - **13 unipolar interest signals and 5 bipolar working-style axes are scored differently.** Axes never get star ratings; a 5-star "independence" score would imply collaboration is a deficiency.
-> - **Normalize scores against the questions actually asked.** Adaptive branching means two students see different question sets, so raw sums are not comparable — a student asked eight technology questions out-scores one asked three regardless of orientation. This is the subtle bug that would quietly invalidate every downstream recommendation.
-> - **Signals with fewer than ~5 observations render "not enough signal yet"**, never stars. No percentages, no decimals, no "87%".
-> - **Archetypes are matched by cosine similarity with a 0.82 floor.** Below it, `archetype = null` and the reveal leads with top signals instead. A person who doesn't match a named pattern is a normal outcome, not a failure.
-> - **Every derived claim stores the response IDs that produced it.** "Why did this appear?" must render real stored evidence, not generated prose. Generated text would sound identical and be worthless — it's what lets a 16-year-old disagree with the output.
-> - **Questions are scenarios, not self-assessments.** "What would you do with a free Saturday", never "rate your creativity 1–5".
-> - **Accepting a project creates a real `Project` entity** that appears in `/student/projects` with status transitions. This loop is what makes the feature a product rather than a quiz result. It is the last thing to cut.
+> - Auth routes and a demo session adapter (`docs/01-architecture.md` describes a NextAuth-shaped interface with a demo adapter behind it). This should *replace* `getLocalStudentId()` in `src/lib/data/adapters/demo/storage.ts` — Passion Projector and its Project entities already key off a student id, so wiring real sessions in means swapping what produces that id, not adding a parallel identity system.
+> - Role selection, the 7-step cinematic onboarding, and `StudentProfile` (types exist in `docs/03-data-model.md` but the entity, repository and fixtures don't exist yet — build them the same repository-over-fixtures way `src/lib/data/repositories/passion.ts` does).
+> - The student dashboard shell (route group layout with sidebar/tab-bar per `docs/01-architecture.md` → Folder structure) — `/student/projects` and `/student/passion-projector/history` currently stand alone with no shell and should move under it.
+> - `/student/discover` with the 13 filters, college/course/career profiles, saved items, profile & completeness, command palette, notifications.
 >
-> Build the data layer first (repositories over typed fixtures, async from day one, writes persisted to localStorage) since Passion Projector needs it — see `docs/01-architecture.md`. Also write `tests/invariants.spec.ts` per D7.
+> **Done when** (per the build plan): signup → onboarding → dashboard → discover → save → compare runs end to end with persistence across reload.
 >
-> Reuse the existing particle/shader infrastructure in `src/components/webgl/` for the chaos → patterns → signals → constellation sequence (§89). The visual must encode actual signal state: if it would look identical regardless of the answers, cut it.
+> Match the existing design system exactly — tokens in `src/app/globals.css`, component vocabulary in `src/components/primitives/`, `src/components/fx/` and now `src/components/passion/`. Do not introduce a UI component library.
 >
-> Match the existing design system exactly — tokens in `src/app/globals.css`, component vocabulary in `src/components/primitives/` and `src/components/fx/`. Do not introduce a UI component library.
->
-> Verify with `npm run build` and `npm run check:universe`, and drive the actual flow in a browser before claiming it works.
+> Verify with `npm run build`, `npm run test`, `npm run check:universe`, and drive the actual flow in a browser before claiming it works.
+
+---
+
+## Passion Projector — decisions made that weren't fully specified
+
+`docs/04-passion-engine.md` didn't cover everything; these were filled in during Stage 1 and should be treated the same as `docs/00-decisions.md` — changeable, but don't relitigate silently:
+
+- **`provenance` on `PassionSession`/`Project`.** Both extend `Entity` per `docs/03-data-model.md`, which mandates the field, but neither "illustrative" nor "institution-supplied" fits a student's own real answers. Used `"verified"` to mean "authentic, not fabricated" rather than "institutionally verified" — documented inline at both repositories. If this reads as misleading once the Institution verification workflow exists (Stage 7), reconsider.
+- **Axis scoring formula.** §4 gives the signal normalization formula explicitly but not axes. `src/lib/passion/scoring.ts` extends the same "normalize against what was askable" logic to axes' -1..+1 position, with the same ~5-observation confidence floor. Reasoning is inline in `scoreAxes`.
+- **Project intake (grade, weekly hours).** There's no `StudentProfile` yet (Stage 3), so grade/time-budget are collected as transient local state on the intro screen, not persisted as profile fields. Once `StudentProfile` exists, this should read from it instead of asking again.
+- **The WebGL "GPGPU"** in §8 is implemented as a single 13×1 `DataTexture` (signal strength + confidence) sampled per-particle, rewritten on every answer — not a multi-pass ping-pong simulation. Same technique the existing hero (`src/components/webgl/`) already uses (precomputed attribute buffers blended by a uniform), extended with a texture so per-signal state can update live. Encodes real answers correctly; just isn't literally GPGPU.
+- **Local identity.** `getLocalStudentId()` (`src/lib/data/adapters/demo/storage.ts`) is a randomly generated id persisted to localStorage, standing in for a logged-in student until Stage 3 wires real auth.
+
+Also fixed in passing: the global nav's un-scrolled state (`src/components/layout/SiteNav.tsx`) renders light text assuming a dark backdrop, which is invisible on a light-register page before scrolling. `/student/projects` and `/student/passion-projector/history` use `register="deep"` to avoid it. Stage 3's dashboard shell should either make the nav register-aware or not reuse the marketing nav on product routes at all.
 
 ---
 
