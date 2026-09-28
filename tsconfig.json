@@ -33,5 +33,11 @@
   // scripts/ runs under `node --experimental-strip-types`, which requires
   // explicit .ts import extensions — incompatible with the bundler resolution
   // the app uses. It is checked by running it, not by tsc.
-  "exclude": ["node_modules", "scripts"]
+  //
+  // vitest.config.ts is excluded because npm's dual-installed `vite` (one
+  // nested under vitest, one hoisted) makes its own Plugin type structurally
+  // incompatible with itself under tsc — a package-resolution artifact, not a
+  // real type error. Vite/Vitest transpile it with esbuild, not tsc, so this
+  // never affects `npm run test` or `npm run build`.
+  "exclude": ["node_modules", "scripts", "vitest.config.mts"]
 }

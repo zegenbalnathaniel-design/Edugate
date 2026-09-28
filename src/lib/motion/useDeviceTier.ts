@@ -10,6 +10,8 @@ export interface TierBudget {
   nodes: number;
   /** Connection lines drawn between nodes. */
   connections: number;
+  /** Particle count for the Passion Projector scene (docs/01 perf budget). */
+  passionParticles: number;
   dpr: [number, number];
   postProcessing: boolean;
   /** True when the user asked for reduced motion — scenes go static. */
@@ -17,9 +19,9 @@ export interface TierBudget {
 }
 
 const BUDGETS: Record<DeviceTier, Omit<TierBudget, "tier" | "reducedMotion">> = {
-  high: { nodes: 8000, connections: 260, dpr: [1, 2], postProcessing: true },
-  mid: { nodes: 2500, connections: 120, dpr: [1, 1.5], postProcessing: false },
-  low: { nodes: 400, connections: 40, dpr: [1, 1], postProcessing: false },
+  high: { nodes: 8000, connections: 260, passionParticles: 60000, dpr: [1, 2], postProcessing: true },
+  mid: { nodes: 2500, connections: 120, passionParticles: 15000, dpr: [1, 1.5], postProcessing: false },
+  low: { nodes: 400, connections: 40, passionParticles: 2000, dpr: [1, 1], postProcessing: false },
 };
 
 /**
