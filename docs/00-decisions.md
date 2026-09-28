@@ -24,13 +24,18 @@ Every decision below is a commitment. If one is wrong, change it *here* first, t
 
 **Conflict.** §97 wants a fully explorable product without a backend. §98 forbids inventing institutions, scholarships, placement rates, rankings, and statistics.
 
-**Resolution — a closed fictional universe, marked at every boundary.**
+**Original resolution (superseded 2026-09-28) — a closed fictional universe.** The first build of this section invented every institution, course, career and scholarship, on the theory that inventing nothing real was the safest way to satisfy §98. In practice this produced the opposite of what §98 wanted: a demo that looked complete but named nothing a visitor could check. Feedback from actual use was direct — a fabricated-institutions catalog reads as fake, not as an honest placeholder, and undermines trust more than a smaller, real dataset would.
 
-1. **No real entity is ever named.** No real college, university, scholarship, counsellor, or company appears anywhere — not in fixtures, not in screenshots, not in copy. Fictional names are drawn from an invented set that is obviously not real on inspection (see `05-design-system.md` → Demo Provenance).
-2. **Every demo record carries `provenance: "illustrative"`** in the type system. It is not an optional field.
-3. **The UI renders provenance, not the developer's discipline.** A shared `<Provenance>` primitive renders the marker. If a record is illustrative and the marker is absent, that is a bug, and it is caught by a test (see D7).
-4. **Numbers that imply measurement are ranges, never points.** No "94% placement rate." Cost and outcome figures in Degree ROI (§50) and Budget Planner (§56) are user-driven calculations over user-entered inputs — the platform supplies the arithmetic and the visualization, not the claim.
-5. **Verification dates are never fabricated** (§22). Where no verification exists, the field renders as "Not yet verified" — which is also the honest default state of a real pre-launch platform.
+**Current resolution — real entities, every claim sourced.**
+
+1. **Institutions, courses and scholarships name real, currently-operating organizations.** `src/lib/data/fixtures/education/institutions.ts`, `courses.ts` and `scholarships.ts` hold a deliberately small, deliberately real set — 10 institutions, a flagship program or two each, and 7 real scholarship/fellowship programs — rather than a large invented catalog. Small-and-checkable beats large-and-fictional.
+2. **Every real record carries a `sources` array** (`SourceRef[]` — label, URL, `retrievedAt`) citing the official page (or, failing that, a reputable secondary aggregator) the facts were drawn from. `provenance: "verified"` may not be set without at least one source — enforced by a Zod `.refine()` on `InstitutionSchema` (docs/03 → schema.ts), the same mechanism that previously enforced "verified requires a verification record."
+3. **Numbers that vary year to year (fees, coverage amounts) are the provider's most recently published range**, not an invented one — D2.4's "ranges, never points" still holds, it's just grounded in a real published range now. Admission deadlines are left unset rather than given a specific date, since admission cycles shift annually and a stale fabricated-looking date is worse than pointing at the source link.
+4. **`outcomes` still stays unset everywhere.** Real placement and outcome statistics exist for some of these institutions but weren't independently verified in this pass — the same "don't set a field you haven't actually checked" discipline from the original D2.4, now applied to real data instead of admitting there's nothing to set.
+5. **Career descriptions stay illustrative** — generic occupational information (what a software engineer's day looks like) was never a claim about a specific real entity, so it didn't need to change. What did change: `relatedCourses`/`relatedInstitutions` on each career now point at real records where a genuine connection exists, and are left empty rather than forced into a weak match.
+6. **The old fictional-universe invariant tests (real-name collision denylist) are removed** — the whole point now is real names — and replaced with a "verified provenance requires real sources" structural test (docs `tests/invariants.spec.ts`).
+
+If this needs to expand — more institutions, deeper per-course detail — the constraint stays research time, not permission: every addition needs its own real source before it ships, following the same pattern the 10 already here set.
 
 ---
 

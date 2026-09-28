@@ -72,7 +72,7 @@ export function SiteNav() {
 
         <ul className="ml-2 hidden flex-1 items-center gap-6 xl:flex">
           {NAV.map((item) => (
-            <li key={item.href}>
+            <li key={item.label}>
               <Link
                 href={item.href}
                 className="link-underline text-[0.8125rem] text-paper/62 transition-colors duration-[var(--dur-quick)] hover:text-paper"
@@ -85,13 +85,13 @@ export function SiteNav() {
 
         <div className="ml-auto flex items-center gap-2 xl:ml-0">
           <Link
-            href="/login"
+            href="/student"
             className="link-underline hidden px-2 text-[0.8125rem] text-paper/62 transition-colors hover:text-paper sm:block"
           >
-            Log in
+            Your hub
           </Link>
-          <Button href="/signup" size="sm" magnetic={false}>
-            Create account
+          <Button href="/passion-projector" size="sm" magnetic={false}>
+            Get started
           </Button>
           <button
             type="button"
@@ -122,7 +122,7 @@ export function SiteNav() {
         >
           <ul className="flex flex-col px-6 py-4">
             {NAV.map((item) => (
-              <li key={item.href}>
+              <li key={item.label}>
                 <Link
                   href={item.href}
                   onClick={() => setOpen(false)}
@@ -134,11 +134,11 @@ export function SiteNav() {
             ))}
             <li>
               <Link
-                href="/login"
+                href="/student"
                 onClick={() => setOpen(false)}
                 className="block py-3.5 text-[0.9375rem] text-paper/80"
               >
-                Log in
+                Your hub
               </Link>
             </li>
           </ul>

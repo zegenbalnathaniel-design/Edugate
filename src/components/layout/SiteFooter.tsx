@@ -6,33 +6,21 @@ const GROUPS = [
     title: "Platform",
     links: [
       { label: "Discover", href: "/discover" },
-      { label: "Compare", href: "/compare" },
+      { label: "Compare (Decision Engine)", href: "/compare" },
       { label: "Passion Projector", href: "/passion-projector" },
-      { label: "Decision Engine", href: "/decision-engine" },
     ],
   },
   {
     title: "Who it's for",
     links: [
-      { label: "Students", href: "/students" },
+      { label: "Students", href: "/student" },
       { label: "Parents", href: "/parents" },
-      { label: "Institutions", href: "/institutions" },
+      { label: "Institutions", href: "/discover" },
     ],
   },
   {
     title: "Trust",
-    links: [
-      { label: "Methodology", href: "/methodology" },
-      { label: "About", href: "/about" },
-    ],
-  },
-  {
-    title: "Support",
-    links: [
-      { label: "Help", href: "/help" },
-      { label: "Contact", href: "/contact" },
-      { label: "Feedback", href: "/feedback" },
-    ],
+    links: [{ label: "Methodology", href: "/methodology" }],
   },
 ];
 
@@ -54,7 +42,7 @@ export function SiteFooter() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             {GROUPS.map((group) => (
               <div key={group.title}>
                 <p className="meta text-paper/40">{group.title}</p>
@@ -83,20 +71,6 @@ export function SiteFooter() {
           <p className="text-[0.875rem] text-paper/55">
             Edugate is free for students, parents and institutions.
           </p>
-          <div className="flex gap-6">
-            <Link
-              href="/privacy"
-              className="link-underline text-[0.8125rem] text-paper/45 hover:text-paper/80"
-            >
-              Privacy
-            </Link>
-            <Link
-              href="/terms"
-              className="link-underline text-[0.8125rem] text-paper/45 hover:text-paper/80"
-            >
-              Terms
-            </Link>
-          </div>
         </div>
       </Container>
     </footer>

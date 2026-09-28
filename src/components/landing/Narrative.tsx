@@ -290,7 +290,7 @@ export function DecideSection() {
 
         <Reveal delay={60}>
           <div className="mt-12 flex flex-wrap gap-3">
-            <Button href="/decision-engine">Open the Decision Engine</Button>
+            <Button href="/compare">Open the Decision Engine</Button>
             <Button href="/passion-projector" variant="secondary">
               Start with Passion Projector
             </Button>
@@ -401,8 +401,8 @@ export function ClosingSection() {
                 <Button href="/discover" size="lg">
                   Start exploring
                 </Button>
-                <Button href="/signup" variant="secondary" size="lg">
-                  Create free account
+                <Button href="/passion-projector" variant="secondary" size="lg">
+                  Try Passion Projector
                 </Button>
               </div>
             </Reveal>

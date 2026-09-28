@@ -180,23 +180,7 @@ describe("D7 — fixture integrity, structurally validated rather than eyeballed
   });
 });
 
-describe("D2 — the closed fictional education universe", () => {
-  // Not exhaustive — a defensive tripwire against the most likely real-world
-  // collisions, not a substitute for the authoring-time judgment call.
-  const REAL_NAME_FRAGMENTS = [
-    "harvard", "stanford", "mit ", "yale", "princeton", "oxford", "cambridge",
-    "iit ", "iim ", "indian institute of technology", "indian institute of management",
-    "delhi university", "berkeley", "columbia university", "cornell", "caltech",
-    "carnegie mellon", "nyu", "ucla", "imperial college", "lse ",
-  ];
-
-  function assertNoRealNameCollision(name: string, context: string) {
-    const lower = ` ${name.toLowerCase()} `;
-    for (const fragment of REAL_NAME_FRAGMENTS) {
-      expect(lower.includes(fragment), `${context} "${name}" collides with a real institution name`).toBe(false);
-    }
-  }
-
+describe("D2 — real institution data, every claim sourced", () => {
   it("every institution matches its schema, including the 'verified requires a verification record' refinement", () => {
     for (const inst of INSTITUTIONS) {
       const result = InstitutionSchema.safeParse(inst);
@@ -219,19 +203,40 @@ describe("D2 — the closed fictional education universe", () => {
     }
   });
 
-  it("no institution or scholarship-provider name collides with a real-world name", () => {
-    for (const inst of INSTITUTIONS) assertNoRealNameCollision(inst.name, "institution");
-    for (const s of SCHOLARSHIPS) {
-      assertNoRealNameCollision(s.name, "scholarship");
-      assertNoRealNameCollision(s.provider, "scholarship provider");
-    }
-  });
-
   it("no institution claims 'verified' provenance without a real verification record", () => {
     for (const inst of INSTITUTIONS) {
       if (inst.provenance === "verified") {
         expect(inst.verification, `institution ${inst.id} claims verified provenance with no verification record`).not.toBeNull();
       }
+    }
+  });
+
+  it("no institution, course or scholarship claims 'verified' provenance without at least one real source citation", () => {
+    for (const inst of INSTITUTIONS) {
+      if (inst.provenance === "verified") {
+        expect(inst.sources.length, `institution ${inst.id} claims verified provenance with no sources`).toBeGreaterThan(0);
+      }
+    }
+    for (const c of COURSES) {
+      if (c.provenance === "verified") {
+        expect(c.sources.length, `course ${c.id} claims verified provenance with no sources`).toBeGreaterThan(0);
+      }
+    }
+    for (const s of SCHOLARSHIPS) {
+      if (s.provenance === "verified") {
+        expect(s.sources.length, `scholarship ${s.id} claims verified provenance with no sources`).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  it("every source citation is a real, well-formed URL", () => {
+    const allSources = [
+      ...INSTITUTIONS.flatMap((i) => i.sources),
+      ...COURSES.flatMap((c) => c.sources),
+      ...SCHOLARSHIPS.flatMap((s) => s.sources),
+    ];
+    for (const src of allSources) {
+      expect(() => new URL(src.url), `source "${src.label}" has a malformed URL: ${src.url}`).not.toThrow();
     }
   });
 
@@ -250,12 +255,15 @@ describe("D2 — the closed fictional education universe", () => {
     }
   });
 
-  it("no fabricated percentage or precise statistic appears in editorial copy", () => {
+  it("a percentage or precise statistic in editorial copy only appears on a sourced record", () => {
+    // A real, cited percentage (e.g. an admit rate) is legitimate now that
+    // D2 permits real sourced data — what's still forbidden is a precise
+    // number with nothing backing it up.
     const PERCENT_CLAIM = /\d+(\.\d+)?\s*%/;
     for (const inst of INSTITUTIONS) {
-      expect(PERCENT_CLAIM.test(inst.description), `institution ${inst.id} description has a fabricated percentage`).toBe(false);
-      for (const theme of inst.studentExperience.testimonialThemes) {
-        expect(PERCENT_CLAIM.test(theme), `institution ${inst.id} testimonial theme has a fabricated percentage`).toBe(false);
+      const hasPercent = PERCENT_CLAIM.test(inst.description) || inst.studentExperience.testimonialThemes.some((t) => PERCENT_CLAIM.test(t));
+      if (hasPercent) {
+        expect(inst.sources.length, `institution ${inst.id} states a percentage/statistic but cites no source`).toBeGreaterThan(0);
       }
     }
   });

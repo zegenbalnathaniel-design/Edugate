@@ -156,12 +156,26 @@ export interface MediaAsset {
   alt: string;
 }
 
+/**
+ * A citation for a real, checkable fact (docs/00-decisions.md → D2, revised).
+ * Every real institution, course and scholarship record carries at least one
+ * of these — the mechanism that makes "accurate" structural rather than a
+ * matter of the author's discipline, the same way `provenance` does for the
+ * honesty model it replaced.
+ */
+export interface SourceRef {
+  label: string;
+  url: string;
+  retrievedAt: ISODate;
+}
+
 export interface Institution extends Entity {
   slug: string;
   name: string;
   type: "university" | "college" | "school" | "institute";
   location: { country: string; state: string; city: string };
   description: string;
+  founded: number;
   programs: ID[];
   tuition: Money;
   scholarships: ID[];
@@ -173,6 +187,8 @@ export interface Institution extends Entity {
   media: MediaAsset[];
   /** Null when genuinely not verified — dates are never fabricated (§22). */
   verification: VerificationRecord | null;
+  /** Real, checkable citations backing this record — required when provenance is "verified". */
+  sources: SourceRef[];
 }
 
 export type RequirementType = "academic" | "language" | "portfolio" | "interview";
@@ -206,6 +222,7 @@ export interface Course extends Entity {
   scholarships: ID[];
   deadlines: { label: string; date: ISODate }[];
   curriculumReality: CurriculumReality;
+  sources: SourceRef[];
 }
 
 /**
@@ -257,6 +274,7 @@ export interface Scholarship extends Entity {
   deadline: ISODate;
   applicationProcess: ApplicationStep[];
   basis: ScholarshipBasis[];
+  sources: SourceRef[];
 }
 
 /* ------------------------------------------------------------------ */

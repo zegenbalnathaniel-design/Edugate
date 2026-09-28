@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Section, Container, SectionLabel } from "@/components/primitives/Section";
 import { Provenance } from "@/components/primitives/Provenance";
+import { Sources } from "@/components/primitives/Sources";
 import { VerificationBadge } from "@/components/education/VerificationBadge";
 import { CourseCard } from "@/components/education/CourseCard";
 import { ScholarshipCard } from "@/components/education/ScholarshipCard";
@@ -37,7 +38,7 @@ export default async function CollegePage({
     <div data-register="deep" className="min-h-screen pt-32 pb-24">
       <Container>
         <SectionLabel index="01">
-          {institution.location.city}, {institution.location.country}
+          {institution.location.city}, {institution.location.country} · Founded {institution.founded}
         </SectionLabel>
         <div className="mt-3 flex flex-wrap items-start justify-between gap-4">
           <h1 className="display-m">{institution.name}</h1>
@@ -71,6 +72,7 @@ export default async function CollegePage({
         <section className="mt-16">
           <h2 className="meta mb-4 text-current/50">Verification</h2>
           <VerificationBadge record={institution.verification} />
+          <Sources sources={institution.sources} className="mt-4" />
         </section>
 
         <section className="mt-16">

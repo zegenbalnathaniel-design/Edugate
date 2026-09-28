@@ -1,5 +1,6 @@
 import type { Scholarship } from "@/lib/data/types";
 import { Provenance } from "@/components/primitives/Provenance";
+import { Sources } from "@/components/primitives/Sources";
 
 const BASIS_LABEL: Record<string, string> = {
   merit: "Merit-based",
@@ -36,6 +37,7 @@ export function ScholarshipCard({ scholarship }: { scholarship: Scholarship }) {
         </div>
       </dl>
       <Provenance kind={scholarship.provenance} className="mt-4" />
+      <Sources sources={scholarship.sources} className="mt-3" />
     </div>
   );
 }

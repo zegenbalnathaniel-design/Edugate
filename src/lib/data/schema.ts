@@ -83,6 +83,12 @@ export const MoneySchema = z.object({
   period: z.enum(["year", "total", "semester"]),
 }).refine((m) => m.max >= m.min, { message: "Money range max must be >= min" });
 
+export const SourceRefSchema = z.object({
+  label: z.string().min(1),
+  url: z.string().url(),
+  retrievedAt: z.string(),
+});
+
 export const VerificationStateSchema = z.enum([
   "unverified",
   "pending",
@@ -120,6 +126,7 @@ export const InstitutionSchema = z
     type: z.enum(["university", "college", "school", "institute"]),
     location: z.object({ country: z.string().min(1), state: z.string().min(1), city: z.string().min(1) }),
     description: z.string().min(1),
+    founded: z.number().int().min(1000).max(2100),
     programs: z.array(z.string()),
     tuition: MoneySchema,
     scholarships: z.array(z.string()),
@@ -142,12 +149,18 @@ export const InstitutionSchema = z
     outcomes: z.object({ narrativeSummary: z.string(), rangeDescriptor: z.string() }).optional(),
     media: z.array(z.object({ type: z.enum(["image", "video"]), url: z.string(), alt: z.string() })),
     verification: VerificationRecordSchema.nullable(),
+    sources: z.array(SourceRefSchema),
   })
   // D2.2 / docs/03: "verified" provenance may only be set alongside a real
-  // verification record — a fixture cannot claim verification it doesn't have.
+  // verification record and at least one real citation — a fixture cannot
+  // claim verification it doesn't have, or facts it can't point at.
   .refine(
     (inst) => inst.provenance !== "verified" || inst.verification !== null,
     { message: "provenance 'verified' requires a real verification record", path: ["verification"] },
+  )
+  .refine(
+    (inst) => inst.provenance !== "verified" || inst.sources.length > 0,
+    { message: "provenance 'verified' requires at least one real source citation", path: ["sources"] },
   );
 
 export const CurriculumRealitySchema = z.object({
@@ -180,6 +193,7 @@ export const CourseSchema = z.object({
   scholarships: z.array(z.string()),
   deadlines: z.array(z.object({ label: z.string(), date: z.string() })),
   curriculumReality: CurriculumRealitySchema,
+  sources: z.array(SourceRefSchema),
 });
 
 export const CareerSchema = z.object({
@@ -220,4 +234,5 @@ export const ScholarshipSchema = z.object({
   deadline: z.string(),
   applicationProcess: z.array(z.object({ order: z.number(), label: z.string(), description: z.string() })),
   basis: z.array(z.enum(["merit", "need", "field", "demographic"])).min(1),
+  sources: z.array(SourceRefSchema),
 });

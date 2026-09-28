@@ -94,10 +94,10 @@ export function Hero() {
             <p className="mt-6 text-[0.875rem] text-paper/45">
               Free for students, parents and institutions.{" "}
               <a
-                href="/signup"
+                href="/passion-projector"
                 className="link-underline text-paper/75 hover:text-paper"
               >
-                Create an account
+                Get started
               </a>
             </p>
           </div>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Container, SectionLabel } from "@/components/primitives/Section";
 import { Provenance } from "@/components/primitives/Provenance";
+import { Sources } from "@/components/primitives/Sources";
 import { CareerCard } from "@/components/education/CareerCard";
 import { courseRepo } from "@/lib/data/repositories/courses";
 import { institutionRepo } from "@/lib/data/repositories/institutions";
@@ -57,6 +58,7 @@ export default async function CoursePage({
           {course.fees.max.toLocaleString()} / {course.fees.period}
         </p>
         <Provenance kind={course.provenance} className="mt-4" />
+        <Sources sources={course.sources} className="mt-4" />
 
         <section className="mt-14">
           <h2 className="meta mb-4 text-current/50">Offered at</h2>
