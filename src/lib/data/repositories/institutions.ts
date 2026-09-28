@@ -54,7 +54,7 @@ export const institutionRepo: InstitutionRepo = {
           (i) => `${i.tuition.currency} ${i.tuition.min.toLocaleString()}–${i.tuition.max.toLocaleString()} / ${i.tuition.period}`,
         ),
       },
-      { label: "Selectivity", values: institutions.map((i) => i.admissions.selectivity) },
+      { label: "Selectivity", values: institutions.map((i) => i.admissions.selectivity.replace("-", " ")) },
       { label: "Setting", values: institutions.map((i) => i.campus.setting) },
       { label: "Programs", values: institutions.map((i) => i.programs.length) },
     ];
