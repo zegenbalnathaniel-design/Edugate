@@ -1,0 +1,135 @@
+import type { Metadata } from "next";
+import { Section, Container, SectionLabel } from "@/components/primitives/Section";
+
+export const metadata: Metadata = { title: "Methodology" };
+
+const TIERS = [
+  {
+    name: "Signature",
+    body: "Bespoke, iterated pages — the ones the product is built around, like Passion Projector.",
+  },
+  {
+    name: "Product",
+    body: "Full interactions: filtering, sorting, state that persists. Discover and Compare are here.",
+  },
+  {
+    name: "Structural",
+    body: "Real data and real navigation, read-mostly. Fewer actions, but every action shown works — nothing says \"coming soon.\"",
+  },
+];
+
+const NEVER_ALWAYS: [string, string][] = [
+  ["“You should study X”", "“One pathway worth exploring”"],
+  ["“Your perfect career”", "“Where this could lead”"],
+  ["“You are 87% entrepreneur”", "“Strong signal: Creation”"],
+  ["“Best match”", "“Why this appears” + criteria list"],
+];
+
+/**
+ * Tier C (docs/00-decisions.md → D1): static content, no data fetch, but a
+ * real page — not a placeholder. This is the honesty model itself (D2, D3,
+ * D6), written for a visitor instead of a contributor.
+ */
+export default function MethodologyPage() {
+  return (
+    <div data-register="light" className="min-h-screen pt-32 pb-24">
+      <Container width="narrow">
+        <SectionLabel index="01">Methodology</SectionLabel>
+        <h1 className="display-m mt-3 mb-6">How Edugate decides what to show you</h1>
+        <p className="measure mb-14 text-[0.9375rem] text-current/65">
+          Everything below is a real commitment we hold ourselves to, not a
+          marketing page. If you find a place where the product breaks one
+          of these, that's a bug — tell us.
+        </p>
+
+        <section className="mb-14">
+          <h2 className="meta mb-4 text-current/50">No dead pages</h2>
+          <p className="measure mb-6 text-[0.9375rem] text-current/70">
+            Every route ships with real data and real interactions. What
+            varies between pages is how much a page can do, never whether
+            what it does show actually works.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {TIERS.map((t) => (
+              <div key={t.name} className="glass p-5">
+                <p className="text-[0.9375rem] font-medium text-current">{t.name}</p>
+                <p className="mt-2 text-[0.8125rem] text-current/60">{t.body}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-14">
+          <h2 className="meta mb-4 text-current/50">Where the data comes from</h2>
+          <p className="measure mb-4 text-[0.9375rem] text-current/70">
+            Institution, course, career and scholarship records on this
+            platform are marked with a provenance label wherever they
+            appear:
+          </p>
+          <ul className="measure space-y-3 text-[0.9375rem] text-current/70">
+            <li>
+              <strong className="text-current">Illustrative</strong> — a demo
+              record used to show how the product works. Never presented as a
+              real institution.
+            </li>
+            <li>
+              <strong className="text-current">Institution-supplied</strong> —
+              submitted directly by the institution, not independently
+              checked yet.
+            </li>
+            <li>
+              <strong className="text-current">Verified</strong> — checked
+              against a dated source, with that source attached to the
+              record.
+            </li>
+          </ul>
+          <p className="measure mt-4 text-[0.9375rem] text-current/70">
+            Where no verification exists, the field says "Not yet verified" —
+            not a fabricated number. Figures that imply measurement (cost,
+            outcomes) are shown as ranges, never as a single suspiciously
+            precise statistic, unless they're arithmetic over numbers you
+            entered yourself.
+          </p>
+        </section>
+
+        <section className="mb-14">
+          <h2 className="meta mb-4 text-current/50">How we phrase recommendations</h2>
+          <p className="measure mb-6 text-[0.9375rem] text-current/70">
+            Passion Projector and the recommendation surfaces on this site
+            never claim certainty they don't have. Every recommendation
+            shows the specific responses or signals that produced it.
+          </p>
+          <div className="glass overflow-hidden">
+            <table className="w-full text-left text-[0.875rem]">
+              <thead>
+                <tr className="border-b border-current/10">
+                  <th className="px-5 py-3 font-medium text-current/50">Never</th>
+                  <th className="px-5 py-3 font-medium text-current/50">Always</th>
+                </tr>
+              </thead>
+              <tbody>
+                {NEVER_ALWAYS.map(([never, always]) => (
+                  <tr key={never} className="border-b border-current/8 last:border-0">
+                    <td className="px-5 py-3 text-current/60 line-through decoration-current/30">{never}</td>
+                    <td className="px-5 py-3 text-current/85">{always}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="meta mb-4 text-current/50">Free, structurally</h2>
+          <p className="measure text-[0.9375rem] text-current/70">
+            There is no pricing page, plan, subscription, or paid placement
+            anywhere in this product — not as a feature we chose to omit,
+            but as a constraint enforced in the data model itself. No listing
+            can be ranked or promoted because payment isn't a field that
+            exists to rank or promote by.
+          </p>
+        </section>
+      </Container>
+    </div>
+  );
+}

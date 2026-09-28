@@ -9,10 +9,10 @@ const NAV = [
   { label: "Discover", href: "/discover" },
   { label: "Compare", href: "/compare" },
   { label: "Passion Projector", href: "/passion-projector" },
-  { label: "Decision Engine", href: "/decision-engine" },
-  { label: "Students", href: "/students" },
+  { label: "Decision Engine", href: "/compare" },
+  { label: "Students", href: "/student" },
   { label: "Parents", href: "/parents" },
-  { label: "Institutions", href: "/institutions" },
+  { label: "Institutions", href: "/discover" },
   { label: "Methodology", href: "/methodology" },
 ];
 
