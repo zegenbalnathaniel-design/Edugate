@@ -79,8 +79,12 @@ describe("D3 — business model is a hard absence, not a memory", () => {
     for (const file of files) {
       const text = readFileSync(file, "utf-8");
       for (const field of FORBIDDEN_FIELDS) {
-        // Matches a field/property declaration shape: `fieldName:` or `fieldName?:`
-        const re = new RegExp(`\\b${field}\\s*\\??\\s*:`, "g");
+        // Matches a field/property declaration shape at the start of a line
+        // (optionally indented): `  fieldName:` or `  fieldName?:`. Anchoring
+        // to line-start is what keeps this from also matching the word
+        // appearing mid-sentence inside a quoted string, e.g. a task
+        // description reading "...write a business plan: the problem...".
+        const re = new RegExp(`^\\s*${field}\\s*\\??\\s*:`, "gm");
         const hit = re.test(text);
         expect(hit, `${relative(process.cwd(), file)} declares forbidden field "${field}"`).toBe(false);
       }

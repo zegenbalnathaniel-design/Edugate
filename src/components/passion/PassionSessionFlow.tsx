@@ -25,20 +25,12 @@ import { AxisIndicator } from "./AxisIndicator";
 import { ArchetypeCard } from "./ArchetypeCard";
 import { FieldConnections } from "./FieldConnections";
 import { ProjectCard } from "./ProjectCard";
-import { PassionParticles, type PassionImpulse } from "@/components/webgl/passion/PassionParticles";
 
 type Stage = "intro" | "active" | "completing" | "reveal";
 
 const INTAKE_KEY = "passionIntake";
-
-function phaseFor(session: PassionSession | null): number {
-  if (!session) return 0;
-  if (session.status === "complete") return 3;
-  const n = session.askedQuestionIds.length;
-  if (n < 8) return 0;
-  if (n < 20) return 1;
-  return 2;
-}
+/** Matches selector.ts — used only to show a sane progress estimate. */
+const ESTIMATED_TOTAL = 17;
 
 function askedQuestionsOf(session: PassionSession): PassionQuestion[] {
   return session.askedQuestionIds
@@ -50,7 +42,6 @@ export function PassionSessionFlow() {
   const [stage, setStage] = useState<Stage>("intro");
   const [session, setSession] = useState<PassionSession | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState<PassionQuestion | null>(null);
-  const [impulse, setImpulse] = useState<PassionImpulse | null>(null);
   const [intake, setIntake] = useState<ProjectIntake>(
     () => readValue<ProjectIntake>(INTAKE_KEY) ?? { grade: 10, weeklyHoursBudget: 3 },
   );
@@ -102,13 +93,6 @@ export function PassionSessionFlow() {
       };
       const updated = await passionRepo.recordResponse(session.id, response);
       setSession(updated);
-      setImpulse({
-        nonce: Date.now(),
-        signals: (Object.entries(option.signals) as [SignalKey, number][]).map(([key, weight]) => ({
-          key,
-          weight,
-        })),
-      });
       await loadNext(updated);
     },
     [session, currentQuestion, loadNext],
@@ -136,8 +120,8 @@ export function PassionSessionFlow() {
     [session],
   );
 
-  const phaseTarget = phaseFor(session);
   const askedCount = session?.askedQuestionIds.length ?? 0;
+  const progressPct = Math.min(100, Math.round((askedCount / ESTIMATED_TOTAL) * 100));
 
   const recommendedProjects = useMemo(() => {
     if (!session?.profile) return [];
@@ -146,16 +130,14 @@ export function PassionSessionFlow() {
 
   return (
     <div className="relative min-h-screen">
-      <PassionParticles signalScores={signalScores} phaseTarget={phaseTarget} impulse={impulse} />
-
       <div className="relative z-10 mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center px-6 py-32">
         {stage === "intro" && (
-          <div className="w-full max-w-lg text-center">
+          <div className="glass w-full max-w-lg p-8 text-center sm:p-10">
             <p className="meta mb-4 text-current/50">Passion Projector</p>
             <h1 className="display-l mb-6">What kinds of problems naturally pull your attention?</h1>
             <p className="measure mx-auto mb-10 text-body-l text-current/70">
-              25–40 scenario questions, no right answers. You&apos;ll leave with real signals,
-              evidence for each one, and a project you could start tonight.
+              Around 15–20 quick scenario questions, no right answers. You&apos;ll leave with
+              real signals, evidence for each one, and a project you could start tonight.
             </p>
 
             <div className="mb-10 grid grid-cols-2 gap-4 text-left">
@@ -191,15 +173,28 @@ export function PassionSessionFlow() {
               </label>
             </div>
 
-            <Button size="lg" onClick={begin}>
-              Begin
-            </Button>
+            <div className="moving-border inline-block">
+              <Button size="lg" onClick={begin} magnetic={false}>
+                Begin
+              </Button>
+            </div>
           </div>
         )}
 
         {stage === "active" && currentQuestion && (
-          <div className="flex w-full flex-col items-center">
-            <p className="meta mb-6 text-current/40">Question {askedCount + 1}</p>
+          <div className="glass flex w-full flex-col items-center p-8 sm:p-10">
+            <div className="mb-8 w-full max-w-2xl">
+              <div className="flex items-baseline justify-between">
+                <p className="meta text-current/40">Question {askedCount + 1}</p>
+                <p className="meta text-current/30">~{Math.max(1, ESTIMATED_TOTAL - askedCount)} to go</p>
+              </div>
+              <div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-current/10">
+                <div
+                  className="h-full rounded-full bg-cyan transition-[width] duration-500 [transition-timing-function:var(--ease-out-edu)]"
+                  style={{ width: `${progressPct}%` }}
+                />
+              </div>
+            </div>
             <QuestionCard question={currentQuestion} onAnswer={handleAnswer} />
           </div>
         )}
@@ -209,7 +204,7 @@ export function PassionSessionFlow() {
         )}
 
         {stage === "reveal" && session?.profile && (
-          <div className="w-full space-y-20 py-12">
+          <div className="w-full space-y-16 py-12">
             <div className="text-center">
               <p className="meta mb-3 text-current/50">Your snapshot</p>
               <p className="measure mx-auto text-[0.9375rem] text-current/60">
@@ -218,12 +213,14 @@ export function PassionSessionFlow() {
             </div>
 
             {session.profile.archetype ? (
-              <ArchetypeCard
-                archetype={session.profile.archetype}
-                blend={session.profile.archetypeBlend}
-              />
+              <div className="glass p-8 sm:p-10">
+                <ArchetypeCard
+                  archetype={session.profile.archetype}
+                  blend={session.profile.archetypeBlend}
+                />
+              </div>
             ) : (
-              <div>
+              <div className="glass p-8 sm:p-10">
                 <p className="meta mb-2 text-current/50">No single pattern dominated</p>
                 <p className="measure text-[0.9375rem] text-current/70">
                   Your signals didn&apos;t settle into one named pattern — that&apos;s a normal,
@@ -232,12 +229,12 @@ export function PassionSessionFlow() {
               </div>
             )}
 
-            <section>
+            <section className="glass p-8 sm:p-10">
               <h3 className="meta mb-4 text-current/50">Interest signals</h3>
               <SignalList session={session} />
             </section>
 
-            <section>
+            <section className="glass p-8 sm:p-10">
               <h3 className="meta mb-4 text-current/50">Working style</h3>
               <div className="space-y-1">
                 {session.profile.axes.map((axis) => (
@@ -246,7 +243,7 @@ export function PassionSessionFlow() {
               </div>
             </section>
 
-            <section>
+            <section className="glass p-8 sm:p-10">
               <h3 className="meta mb-4 text-current/50">Fields worth exploring</h3>
               <FieldConnections connections={session.profile.fieldConnections} />
             </section>

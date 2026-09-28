@@ -126,23 +126,23 @@ describe("adaptive selector — deterministic and never repeats a question", () 
     }
   });
 
-  it("terminates at the 40-question hard cap regardless of stability", () => {
+  it("terminates at the 20-question hard cap regardless of stability", () => {
     let asked: string[] = [];
     let responses: PassionResponse[] = [];
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 20; i++) {
       if (shouldTerminate(PASSION_QUESTIONS, asked, responses)) break;
       const next = pickNextQuestion(PASSION_QUESTIONS, asked, responses);
       if (!next) break;
       asked = [...asked, next.id];
       responses = [...responses, { questionId: next.id, optionId: next.options[0].id, at: "" }];
     }
-    expect(asked.length).toBeLessThanOrEqual(40);
+    expect(asked.length).toBeLessThanOrEqual(20);
   });
 
-  it("never terminates before 25 answered", () => {
+  it("never terminates before 15 answered", () => {
     let asked: string[] = [];
     let responses: PassionResponse[] = [];
-    for (let i = 0; i < 24; i++) {
+    for (let i = 0; i < 14; i++) {
       expect(shouldTerminate(PASSION_QUESTIONS, asked, responses)).toBe(false);
       const next = pickNextQuestion(PASSION_QUESTIONS, asked, responses);
       if (!next) break;

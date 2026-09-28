@@ -16,10 +16,13 @@ import { scoreSignals, toSignalState, emptySignalRecord } from "./scoring";
  * is what makes "why did this appear" answerable and the flow testable.
  */
 
-const HARD_CAP = 40;
-const MIN_BEFORE_TERMINATE = 25;
-const STABILITY_WINDOW = 5;
-const MEAN_CONFIDENCE_TARGET = 0.7;
+// Shortened per direct product feedback: 12 fixed core + a tight 3-8
+// question adaptive tail, instead of up to 28 adaptive questions. Still
+// long enough to resolve real signal, short enough to finish in one sitting.
+const HARD_CAP = 20;
+const MIN_BEFORE_TERMINATE = 15;
+const STABILITY_WINDOW = 3;
+const MEAN_CONFIDENCE_TARGET = 0.68;
 const TOP_N = 5;
 
 function questionVector(q: PassionQuestion): Record<SignalKey, number> {
