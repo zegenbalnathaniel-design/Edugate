@@ -13,7 +13,15 @@ import {
   ArchetypeSchema,
   ProjectTemplateSchema,
   ProvenanceSchema,
+  InstitutionSchema,
+  CourseSchema,
+  CareerSchema,
+  ScholarshipSchema,
 } from "@/lib/data/schema";
+import { INSTITUTIONS } from "@/lib/data/fixtures/education/institutions";
+import { COURSES } from "@/lib/data/fixtures/education/courses";
+import { CAREERS } from "@/lib/data/fixtures/education/careers";
+import { SCHOLARSHIPS } from "@/lib/data/fixtures/education/scholarships";
 
 /**
  * D7: "Invariants are tested, not trusted." Walks the route manifest and the
@@ -164,6 +172,116 @@ describe("D7 — fixture integrity, structurally validated rather than eyeballed
   it("core questions have no eligibility gate and are asked to everyone", () => {
     for (const q of PASSION_QUESTIONS.filter((q) => q.stage === "core")) {
       expect(q.eligibility, `core question ${q.id} should not be gated`).toBeUndefined();
+    }
+  });
+});
+
+describe("D2 — the closed fictional education universe", () => {
+  // Not exhaustive — a defensive tripwire against the most likely real-world
+  // collisions, not a substitute for the authoring-time judgment call.
+  const REAL_NAME_FRAGMENTS = [
+    "harvard", "stanford", "mit ", "yale", "princeton", "oxford", "cambridge",
+    "iit ", "iim ", "indian institute of technology", "indian institute of management",
+    "delhi university", "berkeley", "columbia university", "cornell", "caltech",
+    "carnegie mellon", "nyu", "ucla", "imperial college", "lse ",
+  ];
+
+  function assertNoRealNameCollision(name: string, context: string) {
+    const lower = ` ${name.toLowerCase()} `;
+    for (const fragment of REAL_NAME_FRAGMENTS) {
+      expect(lower.includes(fragment), `${context} "${name}" collides with a real institution name`).toBe(false);
+    }
+  }
+
+  it("every institution matches its schema, including the 'verified requires a verification record' refinement", () => {
+    for (const inst of INSTITUTIONS) {
+      const result = InstitutionSchema.safeParse(inst);
+      expect(result.success, `institution ${inst.id} failed schema: ${result.success ? "" : JSON.stringify(result.error.issues)}`).toBe(true);
+    }
+  });
+
+  it("every course, career and scholarship matches its schema", () => {
+    for (const c of COURSES) {
+      const result = CourseSchema.safeParse(c);
+      expect(result.success, `course ${c.id} failed schema`).toBe(true);
+    }
+    for (const c of CAREERS) {
+      const result = CareerSchema.safeParse(c);
+      expect(result.success, `career ${c.id} failed schema`).toBe(true);
+    }
+    for (const s of SCHOLARSHIPS) {
+      const result = ScholarshipSchema.safeParse(s);
+      expect(result.success, `scholarship ${s.id} failed schema`).toBe(true);
+    }
+  });
+
+  it("no institution or scholarship-provider name collides with a real-world name", () => {
+    for (const inst of INSTITUTIONS) assertNoRealNameCollision(inst.name, "institution");
+    for (const s of SCHOLARSHIPS) {
+      assertNoRealNameCollision(s.name, "scholarship");
+      assertNoRealNameCollision(s.provider, "scholarship provider");
+    }
+  });
+
+  it("no institution claims 'verified' provenance without a real verification record", () => {
+    for (const inst of INSTITUTIONS) {
+      if (inst.provenance === "verified") {
+        expect(inst.verification, `institution ${inst.id} claims verified provenance with no verification record`).not.toBeNull();
+      }
+    }
+  });
+
+  it("outcomes stays absent everywhere — nothing in this universe is genuinely sourced", () => {
+    for (const inst of INSTITUTIONS) {
+      expect(inst.outcomes, `institution ${inst.id} sets outcomes, but D2.4 requires it stay absent unless genuinely sourced`).toBeUndefined();
+    }
+  });
+
+  it("institution tuition and course fees are real ranges, never a fabricated point figure", () => {
+    for (const inst of INSTITUTIONS) {
+      expect(inst.tuition.max, `institution ${inst.id} tuition is a point, not a range`).toBeGreaterThan(inst.tuition.min);
+    }
+    for (const c of COURSES) {
+      expect(c.fees.max, `course ${c.id} fees is a point, not a range`).toBeGreaterThan(c.fees.min);
+    }
+  });
+
+  it("no fabricated percentage or precise statistic appears in editorial copy", () => {
+    const PERCENT_CLAIM = /\d+(\.\d+)?\s*%/;
+    for (const inst of INSTITUTIONS) {
+      expect(PERCENT_CLAIM.test(inst.description), `institution ${inst.id} description has a fabricated percentage`).toBe(false);
+      for (const theme of inst.studentExperience.testimonialThemes) {
+        expect(PERCENT_CLAIM.test(theme), `institution ${inst.id} testimonial theme has a fabricated percentage`).toBe(false);
+      }
+    }
+  });
+
+  it("cross-references resolve to real entities — no dangling ids", () => {
+    const institutionIds = new Set(INSTITUTIONS.map((i) => i.id));
+    const courseIds = new Set(COURSES.map((c) => c.id));
+    const careerIds = new Set(CAREERS.map((c) => c.id));
+    const scholarshipIds = new Set(SCHOLARSHIPS.map((s) => s.id));
+
+    for (const inst of INSTITUTIONS) {
+      for (const id of inst.programs) expect(courseIds.has(id), `institution ${inst.id} programs -> missing course ${id}`).toBe(true);
+      for (const id of inst.scholarships) expect(scholarshipIds.has(id), `institution ${inst.id} scholarships -> missing scholarship ${id}`).toBe(true);
+    }
+    for (const c of COURSES) {
+      for (const id of c.institutions) expect(institutionIds.has(id), `course ${c.id} institutions -> missing institution ${id}`).toBe(true);
+      for (const id of c.careerPathways) expect(careerIds.has(id), `course ${c.id} careerPathways -> missing career ${id}`).toBe(true);
+      for (const id of c.scholarships) expect(scholarshipIds.has(id), `course ${c.id} scholarships -> missing scholarship ${id}`).toBe(true);
+    }
+    for (const c of CAREERS) {
+      for (const id of c.relatedCourses) expect(courseIds.has(id), `career ${c.id} relatedCourses -> missing course ${id}`).toBe(true);
+      for (const id of c.relatedInstitutions) expect(institutionIds.has(id), `career ${c.id} relatedInstitutions -> missing institution ${id}`).toBe(true);
+    }
+  });
+
+  it("every institution shows its provenance marker when rendered", () => {
+    for (const inst of INSTITUTIONS.slice(0, 3)) {
+      const { container, unmount } = render(Provenance({ kind: inst.provenance }));
+      expect(container.textContent?.length).toBeGreaterThan(0);
+      unmount();
     }
   });
 });

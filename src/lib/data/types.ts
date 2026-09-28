@@ -101,6 +101,7 @@ export interface VerificationRecord extends Entity {
   state: VerificationState;
   submittedAt: ISODate;
   reviewedAt: ISODate | null;
+  reviewedBy: ID | null;
   /** Per-category, so a "verified" badge can be honest at that granularity. */
   categories: { key: VerifiableCategory; state: VerificationState }[];
 }
@@ -117,6 +118,44 @@ export interface Money {
   period: "year" | "total" | "semester";
 }
 
+/** Qualitative bands only — D2.4 forbids a fabricated precise number here. */
+export type SelectivityBand = "highly-selective" | "selective" | "moderate" | "open";
+
+export interface AdmissionsInfo {
+  selectivity: SelectivityBand;
+  requirements: string[];
+  deadlines: { label: string; date: ISODate }[];
+}
+
+export interface CampusInfo {
+  setting: "urban" | "suburban" | "rural";
+  sizeDescriptor: string;
+  housingAvailable: boolean;
+  notableFacilities: string[];
+}
+
+export interface ExperienceInfo {
+  classSizeDescriptor: string;
+  clubs: string[];
+  testimonialThemes: string[];
+}
+
+/**
+ * Absent unless genuinely sourced (D2.4) — no illustrative fixture in this
+ * closed demo universe sets this, since nothing here is genuinely measured.
+ * The type exists for when a real placement or outcomes figure is sourced.
+ */
+export interface OutcomeInfo {
+  narrativeSummary: string;
+  rangeDescriptor: string;
+}
+
+export interface MediaAsset {
+  type: "image" | "video";
+  url: string;
+  alt: string;
+}
+
 export interface Institution extends Entity {
   slug: string;
   name: string;
@@ -125,9 +164,32 @@ export interface Institution extends Entity {
   description: string;
   programs: ID[];
   tuition: Money;
-  scholarshipCount: number;
+  scholarships: ID[];
+  admissions: AdmissionsInfo;
+  campus: CampusInfo;
+  studentExperience: ExperienceInfo;
+  /** Optional — absent unless genuinely sourced (D2.4). */
+  outcomes?: OutcomeInfo;
+  media: MediaAsset[];
   /** Null when genuinely not verified — dates are never fabricated (§22). */
   verification: VerificationRecord | null;
+}
+
+export type RequirementType = "academic" | "language" | "portfolio" | "interview";
+
+export interface Requirement {
+  type: RequirementType;
+  description: string;
+}
+
+export interface CurriculumReality {
+  whatYouStudy: string[];
+  /** 0..1 — rendered as a qualitative band in the UI, never a percentage (§49). */
+  theoryToPracticeRatio: number;
+  assessmentTypes: string[];
+  typicalProjects: string[];
+  workloadDescriptor: "light" | "moderate" | "heavy" | "intensive";
+  skillsDeveloped: string[];
 }
 
 export interface Course extends Entity {
@@ -138,7 +200,20 @@ export interface Course extends Entity {
   durationMonths: number;
   subjects: string[];
   institutions: ID[];
+  requirements: Requirement[];
+  fees: Money;
+  careerPathways: ID[];
+  scholarships: ID[];
+  deadlines: { label: string; date: ISODate }[];
+  curriculumReality: CurriculumReality;
 }
+
+/**
+ * Reuses the same bipolar axis vocabulary as Passion Projector (§1) — a
+ * career page and a Passion Projector reveal can share the same
+ * <AxisIndicator>, rather than inventing a second work-style taxonomy.
+ */
+export type WorkStyleTags = Partial<Record<AxisKey, number>>;
 
 export interface Career extends Entity {
   slug: string;
@@ -146,6 +221,42 @@ export interface Career extends Entity {
   description: string;
   fields: FieldKey[];
   skills: string[];
+  degrees: ID[];
+  relatedCourses: ID[];
+  relatedInstitutions: ID[];
+  relatedProjects: ID[];
+  workStyle: WorkStyleTags;
+}
+
+export type ScholarshipBasis = "merit" | "need" | "field" | "demographic";
+
+export interface EligibilityCriteria {
+  description: string;
+  curriculum?: CurriculumBoard[];
+  fields?: FieldKey[];
+  countries?: string[];
+}
+
+export interface Coverage {
+  type: "full" | "partial" | "fixed-amount";
+  amount?: Money;
+}
+
+export interface ApplicationStep {
+  order: number;
+  label: string;
+  description: string;
+}
+
+export interface Scholarship extends Entity {
+  slug: string;
+  name: string;
+  provider: string;
+  eligibility: EligibilityCriteria;
+  coverage: Coverage;
+  deadline: ISODate;
+  applicationProcess: ApplicationStep[];
+  basis: ScholarshipBasis[];
 }
 
 /* ------------------------------------------------------------------ */
@@ -385,4 +496,30 @@ export interface InstitutionQuery {
   city?: string;
   field?: FieldKey;
   limit?: number;
+}
+
+export interface CourseQuery {
+  search?: string;
+  field?: FieldKey;
+  degree?: DegreeLevel;
+  institutionId?: ID;
+  limit?: number;
+}
+
+export interface CareerQuery {
+  search?: string;
+  field?: FieldKey;
+  limit?: number;
+}
+
+export interface ScholarshipQuery {
+  search?: string;
+  field?: FieldKey;
+  basis?: ScholarshipBasis;
+  limit?: number;
+}
+
+export interface ComparisonMatrix {
+  institutions: Institution[];
+  rows: { label: string; values: (string | number)[] }[];
 }
