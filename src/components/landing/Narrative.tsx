@@ -167,7 +167,7 @@ export function DiscoverSection() {
             <Reveal as="li" key={f.k} delay={i * 70}>
               <Spotlight
                 variant="both"
-                className="h-full rounded-md border border-paper/12 bg-navy-900/70 p-7 transition-colors duration-[var(--dur-quick)] hover:border-paper/25"
+                className="glass glass-interactive h-full p-7"
               >
                 <p className="display-s text-paper">{f.k}</p>
                 <p className="mt-3 text-[0.9375rem] leading-[1.55] text-paper/55">

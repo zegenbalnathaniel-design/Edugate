@@ -95,12 +95,9 @@ export function DecisionCriteria() {
                   onClick={() => toggle(c.key)}
                   aria-pressed={active}
                   className={[
-                    "flex w-full items-start gap-3.5 rounded-md border px-4 py-3.5 text-left",
-                    "transition-all duration-[var(--dur-quick)] cursor-pointer",
-                    "[transition-timing-function:var(--ease-out-edu)]",
-                    active
-                      ? "border-cyan/45 bg-cyan/[0.07]"
-                      : "border-paper/12 bg-paper/[0.02] hover:border-paper/25",
+                    "glass glass-interactive flex w-full items-start gap-3.5 px-4 py-3.5 text-left",
+                    "cursor-pointer",
+                    active ? "!border-cyan/50 !bg-cyan/[0.09]" : "",
                   ].join(" ")}
                 >
                   <span
@@ -151,7 +148,7 @@ export function DecisionCriteria() {
         </div>
 
         {shortlist.length === 0 ? (
-          <div className="rounded-md border border-dashed border-paper/20 px-6 py-12 text-center">
+          <div className="glass border-dashed px-6 py-12 text-center">
             <p className="text-[0.9375rem] text-paper/70">
               Nothing meets all five criteria.
             </p>
@@ -167,7 +164,7 @@ export function DecisionCriteria() {
                 key={o.name}
                 as="li"
                 variant="both"
-                className="rounded-md border border-paper/14 bg-navy-800/50 p-5 transition-colors duration-[var(--dur-quick)]"
+                className="glass glass-interactive p-5"
               >
                 <p className="text-[1rem] text-paper">{o.name}</p>
                 <p className="mt-1 text-[0.875rem] text-paper/50">

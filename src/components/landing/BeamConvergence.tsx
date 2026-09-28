@@ -41,12 +41,10 @@ export function BeamConvergence() {
 
   const chip = (label: string) =>
     [
-      "relative z-10 flex items-center justify-center rounded-sm border px-3.5 py-2.5",
+      "glass relative z-10 flex items-center justify-center !rounded-sm px-3.5 py-2.5",
       "text-[0.8125rem] transition-all duration-[var(--dur-quick)]",
       "[transition-timing-function:var(--ease-out-edu)] cursor-default",
-      hovered === label
-        ? "border-cyan/60 bg-cyan/10 text-ink"
-        : "border-ink/12 bg-paper text-ink/55",
+      hovered === label ? "!border-cyan/60 !bg-cyan/10 text-ink" : "text-ink/55",
       hovered && hovered !== label ? "opacity-40" : "opacity-100",
     ].join(" ");
 

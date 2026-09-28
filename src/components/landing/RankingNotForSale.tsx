@@ -66,15 +66,15 @@ export function RankingNotForSale() {
 
       <div>
         <p className="meta mb-4 text-ink/45">Results for this student</p>
-        <ol className="overflow-hidden rounded-md border border-ink/12">
+        <ol className="glass divide-y divide-current/10 overflow-hidden">
           {RESULTS.map((r, i) => {
             const isPayer = r.name === "Northfield University";
             return (
               <li
                 key={r.name}
                 className={[
-                  "flex items-center gap-4 border-b border-ink/10 px-5 py-4 last:border-b-0",
-                  isPayer && paying ? "bg-attention/[0.05]" : "bg-paper",
+                  "flex items-center gap-4 px-5 py-4",
+                  isPayer && paying ? "bg-attention/[0.06]" : "",
                 ].join(" ")}
               >
                 <span className="tabular w-6 shrink-0 text-[0.875rem] text-ink/35">
