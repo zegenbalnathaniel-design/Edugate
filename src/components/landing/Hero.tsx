@@ -3,6 +3,7 @@
 import { Button } from "@/components/primitives/Button";
 import { Container } from "@/components/primitives/Section";
 import { Spotlight } from "@/components/fx/Spotlight";
+import { TextEffect } from "@/components/motion/TextEffect";
 
 const ECOSYSTEM = [
   "Schools",
@@ -36,7 +37,7 @@ export function Hero() {
               className="absolute rounded-full border"
               style={{
                 inset: `${(1 - size) * 50}%`,
-                borderColor: i % 2 === 0 ? "rgba(55,212,230,0.14)" : "rgba(47,107,255,0.12)",
+                borderColor: i % 2 === 0 ? "rgba(127,207,196,0.16)" : "rgba(242,191,42,0.14)",
                 transform: `rotate(${i * 14}deg)`,
               }}
             />
@@ -58,14 +59,12 @@ export function Hero() {
               <span className="mr-3">01</span>Education decision intelligence
             </p>
 
-            <h1 className="display-xl text-paper">
-              Education
-              <br />
-              is too
-              <br />
-              important
-              <br />
-              to guess.
+            <h1 className="display-xl text-paper" aria-label="Education is too important to guess.">
+              {["Education", "is too", "important", "to guess."].map((line, i) => (
+                <TextEffect key={line} as="span" className="block" delay={0.15 + i * 0.14}>
+                  {line}
+                </TextEffect>
+              ))}
             </h1>
 
             <p className="measure mt-7 text-[var(--text-body-l)] leading-[1.6] text-paper/68">

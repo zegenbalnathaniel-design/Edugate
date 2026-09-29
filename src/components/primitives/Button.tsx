@@ -8,7 +8,7 @@ type Size = "sm" | "md" | "lg";
 
 const VARIANTS: Record<Variant, string> = {
   primary:
-    "bg-electric text-paper hover:bg-electric-dim border border-transparent",
+    "bg-electric text-[var(--on-electric)] hover:bg-electric-dim border border-transparent",
   secondary:
     "bg-transparent text-current border border-current/25 hover:border-current/50 hover:bg-current/5",
   ghost: "bg-transparent text-current border border-transparent hover:bg-current/8",

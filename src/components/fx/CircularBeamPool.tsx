@@ -44,7 +44,7 @@ export function CircularBeamPool({
           className="pool-spin absolute inset-[-40%] opacity-70 blur-2xl"
           style={{
             background:
-              "conic-gradient(from 0deg, rgba(47,107,255,0.55), rgba(55,212,230,0.38), rgba(27,58,107,0.15), rgba(47,107,255,0.55))",
+              "conic-gradient(from 0deg, rgba(242,191,42,0.55), rgba(127,207,196,0.38), rgba(179,34,28,0.15), rgba(242,191,42,0.55))",
           }}
         />
         <div
@@ -52,7 +52,7 @@ export function CircularBeamPool({
           className="pool-spin-slow absolute inset-[-25%] opacity-55 blur-3xl"
           style={{
             background:
-              "radial-gradient(circle at 30% 35%, rgba(55,212,230,0.6), transparent 55%), radial-gradient(circle at 70% 65%, rgba(47,107,255,0.55), transparent 55%)",
+              "radial-gradient(circle at 30% 35%, rgba(127,207,196,0.6), transparent 55%), radial-gradient(circle at 70% 65%, rgba(242,191,42,0.55), transparent 55%)",
           }}
         />
         {/* Darken the middle so the pool reads as depth, not as a flat glow. */}
@@ -61,7 +61,7 @@ export function CircularBeamPool({
           className="absolute inset-0 rounded-full"
           style={{
             background:
-              "radial-gradient(circle, rgba(5,7,13,0.88) 28%, rgba(5,7,13,0.25) 62%, transparent 78%)",
+              "radial-gradient(circle, rgba(4,14,17,0.88) 28%, rgba(4,14,17,0.25) 62%, transparent 78%)",
           }}
         />
       </div>
@@ -72,7 +72,7 @@ export function CircularBeamPool({
         className="beam-spin absolute inset-0 rounded-full"
         style={{
           background:
-            "conic-gradient(from 0deg, transparent 0deg, transparent 240deg, rgba(47,107,255,0.15) 300deg, rgba(55,212,230,0.8) 350deg, rgba(160,232,240,0.95) 359deg, transparent 360deg)",
+            "conic-gradient(from 0deg, transparent 0deg, transparent 240deg, rgba(242,191,42,0.15) 300deg, rgba(127,207,196,0.8) 350deg, rgba(248,226,160,0.95) 359deg, transparent 360deg)",
           WebkitMask:
             "radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px))",
           mask: "radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px))",
@@ -115,7 +115,7 @@ export function CircularBeamPool({
                 "block rounded-full transition-all duration-[var(--dur-quick)]",
                 "[transition-timing-function:var(--ease-out-edu)]",
                 on
-                  ? "size-3.5 bg-cyan shadow-[0_0_18px_4px_rgba(55,212,230,0.55)]"
+                  ? "size-3.5 bg-cyan shadow-[0_0_18px_4px_rgba(127,207,196,0.55)]"
                   : "size-2.5 bg-paper/45",
               ].join(" ")}
             />

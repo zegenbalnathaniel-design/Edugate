@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Provenance } from "@/components/primitives/Provenance";
 
 /**
  * §78, made operable.
@@ -12,12 +11,16 @@ import { Provenance } from "@/components/primitives/Provenance";
  * claim, which is not that we refuse payment but that there is no mechanism
  * for it to act through (D3: no such field exists in the data model).
  */
+// Real institutions ordered for one example student. The payer is left
+// unnamed on purpose: naming a real college as trying to buy a ranking
+// would be a claim about it we have no basis for.
 const RESULTS = [
-  { name: "Northfield University", match: "Strong match on 5 of 5 criteria" },
-  { name: "Meridian Institute of Technology", match: "Strong match on 4 of 5" },
-  { name: "Calder School of Design", match: "Moderate match on 3 of 5" },
-  { name: "Ashgrove College of Science", match: "Moderate match on 3 of 5" },
+  { name: "Vellore Institute of Technology", match: "Meets 5 of 5 of this student's criteria" },
+  { name: "National Institute of Design, Ahmedabad", match: "Meets 5 of 5" },
+  { name: "Indian Institute of Technology Bombay", match: "Meets 4 of 5" },
+  { name: "Ashoka University", match: "Meets 2 of 5" },
 ];
+const PAYER = RESULTS.length - 1;
 
 const formatINR = (lakhs: number) =>
   lakhs === 0 ? "₹0" : `₹${lakhs.toFixed(1)} lakh`;
@@ -30,7 +33,7 @@ export function RankingNotForSale() {
     <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
       <div>
         <label htmlFor="bid" className="meta block text-ink/45">
-          Hypothetical payment from Northfield University
+          Hypothetical payment to move result #4 up
         </label>
         <p className="tabular mt-4 text-[2.5rem] leading-none text-ink">
           {formatINR(amount)}
@@ -68,7 +71,7 @@ export function RankingNotForSale() {
         <p className="meta mb-4 text-ink/45">Results for this student</p>
         <ol className="glass divide-y divide-current/10 overflow-hidden">
           {RESULTS.map((r, i) => {
-            const isPayer = r.name === "Northfield University";
+            const isPayer = i === PAYER;
             return (
               <li
                 key={r.name}
@@ -90,7 +93,7 @@ export function RankingNotForSale() {
                 </span>
                 {isPayer && paying && (
                   <span className="meta shrink-0 rounded-full border border-attention/40 px-2.5 py-1 text-attention">
-                    Paid {formatINR(amount)} · unchanged
+                    Offered {formatINR(amount)} · unchanged
                   </span>
                 )}
               </li>
@@ -98,9 +101,9 @@ export function RankingNotForSale() {
           })}
         </ol>
 
-        <div className="mt-5">
-          <Provenance kind="illustrative" />
-        </div>
+        <p className="meta mt-5 text-ink/55">
+          Example student · the payment is hypothetical; no institution offered one
+        </p>
       </div>
     </div>
   );

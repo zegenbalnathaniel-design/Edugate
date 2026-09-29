@@ -70,7 +70,7 @@ export function BeamConvergence() {
       {/* Destination */}
       <div
         ref={hub}
-        className="relative z-10 flex size-24 shrink-0 flex-col items-center justify-center rounded-full border border-ink/15 bg-ink text-paper shadow-[0_0_0_10px_rgba(10,15,26,0.04)] sm:size-32"
+        className="relative z-10 flex size-24 shrink-0 flex-col items-center justify-center rounded-full border border-ink/15 bg-ink text-paper shadow-[0_0_0_10px_rgba(43,19,16,0.04)] sm:size-32"
       >
         <span className="font-display text-[0.8125rem] font-semibold tracking-[-0.01em] sm:text-[0.9375rem]">
           EDUGATE

@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Provenance } from "@/components/primitives/Provenance";
 import { Spotlight } from "@/components/fx/Spotlight";
 
 /**
@@ -20,42 +19,53 @@ type CriterionKey =
   | "location";
 
 const CRITERIA: { key: CriterionKey; label: string; detail: string }[] = [
-  { key: "academic", label: "Academic alignment", detail: "Entry requirements within your range" },
-  { key: "interest", label: "Interest alignment", detail: "Matches your Passion Projector signals" },
-  { key: "budget", label: "Budget alignment", detail: "Total cost inside your stated range" },
-  { key: "timeline", label: "Timeline compatible", detail: "Application window fits your intake" },
-  { key: "location", label: "Location fit", detail: "Within your preferred cities" },
+  { key: "academic", label: "Academic alignment", detail: "Entry route realistic for this student's scores" },
+  { key: "interest", label: "Interest alignment", detail: "Technology or design, per Passion Projector" },
+  { key: "budget", label: "Budget alignment", detail: "Tuition at or under ₹4 lakh a year" },
+  { key: "timeline", label: "Timeline compatible", detail: "Admits for the 2027 intake" },
+  { key: "location", label: "Location fit", detail: "Western or southern India" },
 ];
 
+/*
+ * Real institutions, real programs, real published fees (see
+ * fixtures/education, with sources) — run against one example student
+ * profile. Which boxes each option ticks is about that example student,
+ * not a claim about the institution.
+ */
 const OPTIONS: {
   name: string;
   course: string;
   place: string;
+  fees: string;
   meets: CriterionKey[];
 }[] = [
   {
-    name: "Meridian Institute of Technology",
-    course: "B.Tech Computer Science",
-    place: "Pune, Maharashtra",
+    name: "Vellore Institute of Technology",
+    course: "BTech Computer Science and Engineering",
+    place: "Vellore, Tamil Nadu",
+    fees: "₹6.95–7.83L total",
     meets: ["academic", "interest", "budget", "timeline", "location"],
   },
   {
-    name: "Calder School of Design",
-    course: "B.Des Interaction Design",
-    place: "Bengaluru, Karnataka",
-    meets: ["interest", "timeline", "location"],
+    name: "Indian Institute of Technology Bombay",
+    course: "BTech Computer Science and Engineering",
+    place: "Mumbai, Maharashtra",
+    fees: "₹2.0–2.6L / yr",
+    meets: ["interest", "budget", "timeline", "location"],
   },
   {
-    name: "Northfield University",
-    course: "BSc Economics & Data Science",
-    place: "Hyderabad, Telangana",
-    meets: ["academic", "budget", "timeline"],
+    name: "National Institute of Design, Ahmedabad",
+    course: "Bachelor of Design",
+    place: "Ahmedabad, Gujarat",
+    fees: "₹2.5–4.0L / yr",
+    meets: ["academic", "interest", "budget", "timeline", "location"],
   },
   {
-    name: "Ashgrove College of Science",
-    course: "BSc Applied Mathematics",
-    place: "Chennai, Tamil Nadu",
-    meets: ["academic", "budget"],
+    name: "Ashoka University",
+    course: "BA (Honours) Economics",
+    place: "Sonipat, Haryana",
+    fees: "₹10.2–12.2L / yr",
+    meets: ["academic", "timeline"],
   },
 ];
 
@@ -167,9 +177,10 @@ export function DecisionCriteria() {
                 className="glass glass-interactive p-5"
               >
                 <p className="text-[1rem] text-paper">{o.name}</p>
-                <p className="mt-1 text-[0.875rem] text-paper/50">
+                <p className="mt-1 text-[0.875rem] text-paper/55">
                   {o.course} · {o.place}
                 </p>
+                <p className="tabular mt-1 text-[0.8125rem] text-paper/45">{o.fees}</p>
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {[...on].map((k) => {
                     const c = CRITERIA.find((x) => x.key === k)!;
@@ -188,9 +199,9 @@ export function DecisionCriteria() {
           </ul>
         )}
 
-        <div className="mt-6">
-          <Provenance kind="illustrative" />
-        </div>
+        <p className="meta mt-6 text-paper/45">
+          Example student profile · institutions, programs and fees are real
+        </p>
       </div>
     </div>
   );

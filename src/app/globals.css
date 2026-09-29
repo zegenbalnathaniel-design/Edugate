@@ -6,34 +6,37 @@
    ============================================================ */
 
 @theme {
-  /* --- Depth: dark immersive surfaces --- */
-  /* A warm near-black instead of navy-black — the navy+electric-blue
-     combination is the single most common "AI-generated SaaS" palette
-     right now, so the base hue moved off blue entirely (docs/05, revised). */
-  --color-void: #0b0a08;
-  --color-navy-900: #16130e;
-  --color-navy-800: #221c14;
-  --color-navy-700: #332a1d;
-  --color-navy-600: #4a3c28;
+  /* --- Film grade (docs/05, revised) ---
+     No black, no white. Shadows are Nolan's petrol teal (Tenet, Dunkirk);
+     highlights are Tarantino's film-stock bone, Kill Bill yellow and blood
+     red; mid-tones are Interstellar's dust amber and 70s ochre. */
+
+  /* --- Depth: dark immersive surfaces (Nolan teal shadows) --- */
+  --color-void: #0b1d21;
+  --color-navy-900: #0f262b;
+  --color-navy-800: #163239;
+  --color-navy-700: #1f434b;
+  --color-navy-600: #2c5760;
+  --color-steel: #5f7f8c;
 
   /* --- Academic: structure, chrome, data --- */
-  --color-academic: #8a6a2e;
-  --color-academic-lt: #b08a42;
+  --color-academic: #b0532b;
+  --color-academic-lt: #cf7a45;
 
-  /* --- Action: used sparingly; scarcity makes it read as action --- */
-  /* Warm brass/gold — a decision/seal-of-approval color, not another blue. */
-  --color-electric: #d4a017;
-  --color-electric-dim: #a67c12;
+  /* --- Action: Kill Bill yellow on dark; becomes blood red on light --- */
+  --color-electric: #f2bf2a;
+  --color-electric-dim: #d9a412;
+  --color-blood: #b3221c;
 
-  /* --- Data accent --- */
-  /* Deep teal — pairs against the gold without drifting back toward blue. */
-  --color-cyan: #2fb5a8;
-  --color-cyan-deep: #1e8a80;
+  /* --- Data accent: Nolan's cold teal highlight --- */
+  --color-cyan: #7fcfc4;
+  --color-cyan-deep: #45a39a;
 
-  /* --- Light editorial surfaces --- */
-  --color-paper: #f8f6f1;
-  --color-paper-warm: #f0ebe0;
-  --color-ink: #171310;
+  /* --- Light surfaces: never white — ochre and dust amber --- */
+  --color-paper: #f3e4c4;
+  --color-sand: #dcb574;
+  --color-paper-warm: #c98446;
+  --color-ink: #2b1310;
 
   /* --- Neutrals --- */
   --color-grey-100: #f2f4f7;
@@ -129,7 +132,7 @@ html.lenis body {
 
 ::selection {
   background: var(--color-electric);
-  color: var(--color-paper);
+  color: var(--color-ink);
 }
 
 /* Focus rings are never removed (§95) */
@@ -204,7 +207,9 @@ html.lenis body {
 [data-register="light"],
 [data-register="warm"] {
   position: relative;
-  overflow: hidden;
+  /* clip, not hidden: hidden makes each section a scroll container, which
+     silently breaks position: sticky for anything pinned inside it. */
+  overflow: clip;
 }
 [data-register="dark"] {
   background: var(--color-void);
@@ -217,12 +222,31 @@ html.lenis body {
 /* "light"/"warm" are never a flat fill — a soft, slow gradient mesh sits
    underneath so no surface in the product reads as plain white. */
 [data-register="light"] {
-  background: var(--color-paper);
+  background: var(--color-sand);
   color: var(--color-ink);
 }
 [data-register="warm"] {
   background: var(--color-paper-warm);
   color: var(--color-ink);
+}
+
+/* Accents re-grade on the ochre/amber registers: yellow and pale teal
+   vanish against sand, so action becomes blood red and data becomes a
+   deep Nolan teal. Tailwind v4 utilities read these variables, so every
+   `text-electric` / `text-cyan-deep` inside a light section follows. */
+:root,
+[data-register="dark"],
+[data-register="deep"] {
+  --on-electric: var(--color-ink);
+}
+[data-register="light"],
+[data-register="warm"] {
+  --color-electric: #a8231b;
+  --color-electric-dim: #86190f;
+  --color-cyan: #1e5a55;
+  --color-cyan-deep: #1e5a55;
+  --color-grey-500: #5c3a2c;
+  --on-electric: var(--color-paper);
 }
 
 /* ============================================================
@@ -258,9 +282,9 @@ html.lenis body {
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(38% 32% at 18% 22%, var(--mesh-1, rgba(212,160,23,0.22)), transparent 68%),
-    radial-gradient(34% 30% at 82% 18%, var(--mesh-2, rgba(47,181,168,0.16)), transparent 68%),
-    radial-gradient(40% 38% at 70% 82%, var(--mesh-3, rgba(138,106,46,0.2)), transparent 70%);
+    radial-gradient(38% 32% at 18% 22%, var(--mesh-1, rgba(242,191,42,0.13)), transparent 68%),
+    radial-gradient(34% 30% at 82% 18%, var(--mesh-2, rgba(127,207,196,0.14)), transparent 68%),
+    radial-gradient(40% 38% at 70% 82%, var(--mesh-3, rgba(179,34,28,0.2)), transparent 70%);
   filter: blur(60px);
   animation: mesh-drift-a 26s ease-in-out infinite;
 }
@@ -280,19 +304,19 @@ html.lenis body {
 
 [data-register="dark"],
 [data-register="deep"] {
-  --mesh-1: rgba(212, 160, 23, 0.22);
-  --mesh-2: rgba(47, 181, 168, 0.16);
-  --mesh-3: rgba(138, 106, 46, 0.22);
+  --mesh-1: rgba(242, 191, 42, 0.13);
+  --mesh-2: rgba(127, 207, 196, 0.14);
+  --mesh-3: rgba(179, 34, 28, 0.2);
 }
 [data-register="light"] {
-  --mesh-1: rgba(212, 160, 23, 0.09);
-  --mesh-2: rgba(47, 181, 168, 0.09);
-  --mesh-3: rgba(138, 106, 46, 0.07);
+  --mesh-1: rgba(179, 34, 28, 0.12);
+  --mesh-2: rgba(201, 132, 70, 0.3);
+  --mesh-3: rgba(31, 67, 75, 0.14);
 }
 [data-register="warm"] {
-  --mesh-1: rgba(212, 160, 23, 0.08);
-  --mesh-2: rgba(196, 84, 60, 0.06);
-  --mesh-3: rgba(138, 106, 46, 0.08);
+  --mesh-1: rgba(179, 34, 28, 0.18);
+  --mesh-2: rgba(242, 191, 42, 0.22);
+  --mesh-3: rgba(31, 67, 75, 0.16);
 }
 
 /* Glass surface — the base card treatment everywhere a bordered box used to
@@ -307,7 +331,7 @@ html.lenis body {
   border-radius: var(--radius-lg);
   box-shadow:
     0 1px 0 0 color-mix(in srgb, currentColor 8%, transparent) inset,
-    0 20px 48px -24px rgba(11, 10, 8, 0.55);
+    0 20px 48px -24px rgba(4, 14, 17, 0.55);
   transition:
     border-color var(--dur-base) var(--ease-out-edu),
     transform var(--dur-base) var(--ease-out-edu),
@@ -318,7 +342,7 @@ html.lenis body {
   transform: translateY(-2px);
   box-shadow:
     0 1px 0 0 color-mix(in srgb, currentColor 10%, transparent) inset,
-    0 24px 56px -20px rgba(11, 10, 8, 0.6),
+    0 24px 56px -20px rgba(4, 14, 17, 0.6),
     0 0 0 1px color-mix(in srgb, var(--color-cyan) 20%, transparent);
 }
 

@@ -139,7 +139,7 @@ export function DiscoverSection() {
       <div aria-hidden className="bg-dots absolute inset-0 text-cyan" />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_20%_0%,rgba(47,107,255,0.14),transparent_70%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_20%_0%,rgba(242,191,42,0.14),transparent_70%)]"
       />
 
       <Container width="wide" className="relative">
@@ -260,7 +260,7 @@ export function DecideSection() {
       <div aria-hidden className="bg-dots absolute inset-0 text-electric" />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_80%_10%,rgba(55,212,230,0.12),transparent_70%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_80%_10%,rgba(127,207,196,0.12),transparent_70%)]"
       />
 
       <Container width="wide" className="relative">
@@ -371,7 +371,7 @@ export function ClosingSection() {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(47,107,255,0.14),transparent_62%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(242,191,42,0.14),transparent_62%)]"
       />
       <div aria-hidden className="bg-dots absolute inset-0 text-cyan" />
 
