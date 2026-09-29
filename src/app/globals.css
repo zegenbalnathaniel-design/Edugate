@@ -324,9 +324,9 @@ html.lenis body {
    of a flat 1px border, so surfaces read as floating rather than drawn. */
 .glass {
   position: relative;
-  background: color-mix(in srgb, currentColor 6%, transparent);
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  background: var(--glass-bg);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
   border-radius: var(--radius-lg);
   box-shadow:
@@ -337,6 +337,24 @@ html.lenis body {
     transform var(--dur-base) var(--ease-out-edu),
     box-shadow var(--dur-base) var(--ease-out-edu);
 }
+/* A tinted, not currentColor-mixed, fill per register: on dark sections a
+   bone tint over a blurred yellow mesh blob read as a pale wash in Safari. */
+:root,
+[data-register="dark"],
+[data-register="deep"] {
+  --glass-bg: rgba(15, 38, 43, 0.62);
+}
+[data-register="light"],
+[data-register="warm"] {
+  --glass-bg: rgba(243, 228, 196, 0.3);
+}
+/* Nested glass must not stack backdrop filters — WebKit renders the inner
+   one against an already-filtered layer and bands it. */
+.glass .glass {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
 .glass-interactive:hover {
   border-color: color-mix(in srgb, var(--color-cyan) 45%, transparent);
   transform: translateY(-2px);

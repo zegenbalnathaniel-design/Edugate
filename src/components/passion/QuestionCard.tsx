@@ -27,8 +27,12 @@ export function QuestionCard({
             disabled={disabled}
             onClick={() => onAnswer(option)}
             className={[
-              "glass glass-interactive px-5 py-4 text-left text-[0.9375rem]",
-              "hover:!bg-cyan/[0.07]",
+              // Opaque surface, no backdrop-filter: Safari's blur+saturate
+              // over the drifting mesh washed these out to unreadable bone.
+              "rounded-[var(--radius-lg)] border border-paper/15 bg-navy-800 px-5 py-4 text-left text-[0.9375rem] text-paper",
+              "cursor-pointer transition-[border-color,background-color,transform] duration-[var(--dur-quick)]",
+              "hover:-translate-y-px hover:border-electric/70 hover:bg-navy-700",
+              "focus-visible:border-electric",
               "disabled:pointer-events-none disabled:opacity-50",
             ].join(" ")}
           >
