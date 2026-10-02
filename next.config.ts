@@ -8,6 +8,13 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname),
   },
+  // PGlite ships WASM + data files it loads from its own package directory.
+  serverExternalPackages: ["@electric-sql/pglite"],
+  // Read at runtime with fs (migrations; seed data for the embedded DB), so
+  // they must be traced into the serverless bundle explicitly.
+  outputFileTracingIncludes: {
+    "/**": ["./drizzle/**/*", "./data/universities/**/*"],
+  },
 };
 
 export default nextConfig;

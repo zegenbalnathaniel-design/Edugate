@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { FieldKey } from "@/lib/unis/schema";
+import { FieldKey } from "../unis/schema";
 
 /*
  * Student profile (docs/07 §9). Every field is optional — a student shares

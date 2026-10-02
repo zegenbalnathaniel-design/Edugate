@@ -12,8 +12,8 @@ import {
   timestamp,
   uniqueIndex,
 } from "drizzle-orm/pg-core";
-import type { Program, University } from "@/lib/unis/schema";
-import type { StudentProfile } from "@/lib/profile/schema";
+import type { Program, University } from "../unis/schema";
+import type { StudentProfile } from "../profile/schema";
 
 /*
  * Catalogue: the full sourced record lives in `data` (validated JSONB, keeps
@@ -69,13 +69,6 @@ export const programs = pgTable(
     index("programs_field_idx").on(t.field),
   ],
 );
-
-export const fxRates = pgTable("fx_rates", {
-  currency: text("currency").primaryKey(),
-  perUsd: numeric("per_usd", { mode: "number" }).notNull(), // units of `currency` per 1 USD
-  asOf: date("as_of").notNull(),
-  source: text("source").notNull(),
-});
 
 /* ---------------------------- accounts ---------------------------- */
 

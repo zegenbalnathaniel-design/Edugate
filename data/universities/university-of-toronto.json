@@ -1,0 +1,470 @@
+{
+  "slug": "university-of-toronto",
+  "name": "University of Toronto",
+  "officialName": "University of Toronto",
+  "country": "Canada",
+  "countryCode": "CA",
+  "region": "Ontario",
+  "city": "Toronto",
+  "campuses": [
+    "St. George",
+    "Mississauga",
+    "Scarborough"
+  ],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1827,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.utoronto.ca/",
+  "admissionsUrl": "https://future.utoronto.ca/",
+  "financialAidUrl": "https://future.utoronto.ca/international-student-financial-aid",
+  "internationalUrl": "https://future.utoronto.ca/international-students",
+  "summary": "The University of Toronto is a public research university in Ontario with three campuses (St. George, Mississauga and Scarborough). Undergraduate Economics and Computer Science on the St. George campus are offered through the Faculty of Arts & Science.",
+  "stats": {
+    "totalStudents": {
+      "value": 102431,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Quick Facts reports 102,431 full- and part-time students; reporting year not confirmed."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Quick Facts describes international students as roughly a quarter of students; no exact published percentage was confirmed."
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "32",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "OUAC (Ontario Universities' Application Centre)",
+    "sourceId": "s5",
+    "confidence": "high",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": "CAD 196 (non-refundable, paid through OUAC)",
+    "sourceId": "s5",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Fee as shown on U of T's Applications page; confirm whether additional OUAC charges apply."
+  },
+  "testing": [],
+  "english": [
+    {
+      "test": "IELTS",
+      "minOverall": "6.5",
+      "minSection": "6.0",
+      "waiver": null,
+      "sourceId": "s4",
+      "confidence": "high"
+    },
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "89",
+      "minSection": "22 in Speaking and Writing",
+      "waiver": null,
+      "sourceId": "s4",
+      "confidence": "high"
+    }
+  ],
+  "costs": {
+    "currency": "CAD",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "2026-27 amounts are published in U of T's Tuition Explorer (Computer Science is a separate, higher fee category) but could not be retrieved."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Lester B. Pearson International Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "full",
+        "competitive"
+      ],
+      "eligibility": "International students who must be nominated by their high school, apply to a U of T undergraduate program and begin studies in September 2027; students already in post-secondary study are not eligible.",
+      "coverage": "Tuition, books, incidental fees and residence for four years",
+      "deadline": "2026-11-06",
+      "renewable": true,
+      "url": "https://future.utoronto.ca/pearson-scholarships",
+      "sourceId": "s6",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Pearson Scholarship: school nomination deadline",
+      "date": "2026-10-09",
+      "intake": "Fall 2027",
+      "timezone": "America/Toronto",
+      "sourceId": "s6",
+      "confidence": "high"
+    },
+    {
+      "label": "Pearson Scholarship: apply to U of T by",
+      "date": "2026-10-16",
+      "intake": "Fall 2027",
+      "timezone": "America/Toronto",
+      "sourceId": "s6",
+      "confidence": "high"
+    },
+    {
+      "label": "Recommended early application date",
+      "date": "2026-11-07",
+      "intake": "Fall 2027",
+      "timezone": "America/Toronto",
+      "sourceId": "s3",
+      "confidence": "high"
+    },
+    {
+      "label": "OUAC application deadline",
+      "date": "2027-01-15",
+      "intake": "Fall 2027",
+      "timezone": "America/Toronto",
+      "sourceId": "s3",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [
+    {
+      "category": "internships",
+      "name": "Arts & Science Internship Program (ASIP)",
+      "description": "Work-integrated learning stream for Arts & Science students; students complete at least two years of study before their first work term and apply via a supplementary application.",
+      "url": "https://www.artsci.utoronto.ca/current/experiential-learning/internships/asip",
+      "sourceId": "s8"
+    },
+    {
+      "category": "entrepreneurship",
+      "name": "Creative Destruction Lab",
+      "description": "Seed-stage program founded at the Rotman School in 2012 that gives students experience evaluating and building early-stage technology ventures alongside investors and entrepreneurs.",
+      "url": "https://www.rotman.utoronto.ca/faculty-and-research/education-labs/creative-destruction-lab/",
+      "sourceId": "s7"
+    },
+    {
+      "category": "international",
+      "name": "Learning Abroad Exchange (Centre for International Experience)",
+      "description": "Exchange programs that let undergraduates take courses at partner institutions as non-degree students.",
+      "url": "https://learningabroad.utoronto.ca/learning-abroad/prepare_plan/exchange-opportunities/",
+      "sourceId": "s9"
+    },
+    {
+      "category": "research",
+      "name": "Research Opportunities (Faculty of Arts & Science)",
+      "description": "Faculty of Arts & Science listing of undergraduate research opportunities.",
+      "url": "https://www.artsci.utoronto.ca/current/experiential-learning/research-opportunities",
+      "sourceId": "s15"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "economics-ba",
+      "name": "Economics (Honours Bachelor of Arts)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": "Economics",
+      "school": "Faculty of Arts & Science (St. George)",
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/program/economics",
+      "summary": "Economics Major/Specialist in the Faculty of Arts & Science. Students enter the program after first year; eligibility depends partly on minimum grades in ECO101H1 and ECO102H1 (or ECO105Y1).",
+      "curriculum": [
+        {
+          "year": 1,
+          "courses": [
+            "ECO101H1 and ECO102H1 (min. 63%), or ECO105Y1 (min. 80%)",
+            "One of MAT133Y1, MAT135H1+MAT136H1, MAT137Y1, MAT157Y1 (or other options listed in the calendar)"
+          ]
+        }
+      ],
+      "curriculumSourceId": "s12",
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "HL or SL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Program-specific mathematics prerequisite for the Economics admission category was not confirmed; check the program page."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "All applicants must present senior-level English."
+            }
+          ],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "All India Senior School Certificate (CBSE) accepted; minimum marks not published in retrieved sources."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Indian School Certificate (CISCE) accepted."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "computer-science-bsc",
+      "name": "Computer Science (Honours Bachelor of Science)",
+      "degree": "BSc (Hons)",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science",
+      "school": "Faculty of Arts & Science (St. George)",
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/undergraduate-programs/computer-science/",
+      "summary": "Computer Science (Major, Minor or Specialist) in the Faculty of Arts & Science, admitted through the Computer Science admission category (OUAC code TAD).",
+      "curriculum": [
+        {
+          "year": 1,
+          "courses": [
+            "CSC110Y1",
+            "CSC111H1",
+            "MAT137Y1 or MAT157Y1"
+          ]
+        }
+      ],
+      "curriculumSourceId": "s11",
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "HL or SL",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "U of T states Math AA HL is equivalent to Calculus & Vectors (MCV4U), which the St. George CS program requires. Whether other IB maths courses satisfy it was not confirmed."
+            }
+          ],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics (calculus)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Calculus prerequisite applies; the specific Indian-curriculum equivalent was not confirmed."
+            }
+          ],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Quick facts — University of Toronto",
+      "url": "https://www.utoronto.ca/about-u-of-t/quick-facts",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s2",
+      "label": "University of Toronto — QS World University Rankings 2027 (TopUniversities)",
+      "url": "https://www.topuniversities.com/universities/university-toronto",
+      "type": "ranking-org",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s3",
+      "label": "Dates & Deadlines — Future Students, University of Toronto",
+      "url": "https://future.utoronto.ca/deadlines",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s4",
+      "label": "English Language Requirements — Future Students, University of Toronto",
+      "url": "https://future.utoronto.ca/english-language-requirements",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s5",
+      "label": "Applications — Future Students, University of Toronto",
+      "url": "https://future.utoronto.ca/applications",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s6",
+      "label": "Lester B. Pearson International Scholarship — University of Toronto",
+      "url": "https://future.utoronto.ca/pearson-scholarships",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s7",
+      "label": "Creative Destruction Lab — Rotman School, University of Toronto",
+      "url": "https://www.rotman.utoronto.ca/faculty-and-research/education-labs/creative-destruction-lab/",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s8",
+      "label": "Arts & Science Internship Program (ASIP)",
+      "url": "https://www.artsci.utoronto.ca/current/experiential-learning/internships/asip",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s9",
+      "label": "Exchange Opportunities — U of T Learning and Safety Abroad",
+      "url": "https://learningabroad.utoronto.ca/learning-abroad/prepare_plan/exchange-opportunities/",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s10",
+      "label": "Computer Science — Future Students, University of Toronto",
+      "url": "https://future.utoronto.ca/undergraduate-programs/computer-science/",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s11",
+      "label": "Computer Science Major (ASMAJ1689) — Arts & Science Academic Calendar",
+      "url": "https://artsci.calendar.utoronto.ca/program/asmaj1689",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s12",
+      "label": "Economics Major (ASMAJ1478) — Arts & Science Academic Calendar",
+      "url": "https://artsci.calendar.utoronto.ca/program/asmaj1478",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s13",
+      "label": "Admission Requirements — International High School Students, University of Toronto",
+      "url": "https://future.utoronto.ca/requirements-international-high-schools",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s14",
+      "label": "Economics — Future Students, University of Toronto",
+      "url": "https://future.utoronto.ca/program/economics",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s15",
+      "label": "Research Opportunities — Faculty of Arts & Science",
+      "url": "https://www.artsci.utoronto.ca/current/experiential-learning/research-opportunities",
+      "type": "university",
+      "retrievedAt": "2026-09-29"
+    }
+  ],
+  "lastVerified": "2026-09-29"
+}

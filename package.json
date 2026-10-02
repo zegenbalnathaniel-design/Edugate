@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "vite-node scripts/db-setup.ts && next build",
     "start": "next start",
-    "test": "vitest run"
+    "test": "vitest run",
+    "db:setup": "vite-node scripts/db-setup.ts",
+    "db:validate": "vite-node scripts/validate-universities.ts",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",
