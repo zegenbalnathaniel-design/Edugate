@@ -113,7 +113,7 @@ Role-gated (`users.role = 'admin'`). Views: freshness queue, user reports queue,
 
 ## 15. MVP (§78) — this build
 
-Sourced dataset (~50 universities, 9 regions), country organisation, directory with core filters + keyword search, university & program profiles with trust layer, QS rankings with edition, curriculum requirements, tests, English, tuition, scholarships, key opportunities, compare (≤5), accounts, student profile, per-dimension fit with explanations, gap analysis, application tracker + checklist, report-outdated, admin dashboard.
+Sourced dataset (target ~50 universities across 9 regions; **17 shipped so far** — research stopped when the build environment's web-search allowance ran out and most university sites are blocked by its network policy; the rest are added the same way, one validated file per university), country organisation, directory with core filters + keyword search, university & program profiles with trust layer, QS rankings with edition, curriculum requirements, tests, English, tuition, scholarships, key opportunities, compare (≤5), accounts, student profile, per-dimension fit with explanations, gap analysis, application tracker + checklist, report-outdated, admin dashboard.
 
 ## 16. Version 2
 

@@ -82,6 +82,8 @@ function levelMeets(required: string | null, actual: string | null): boolean | n
 export type GapStatus = "meets" | "missing" | "unclear" | "exceeds" | "not-applicable";
 export type GapRow = { requirement: string; university: string; student: string; status: GapStatus; sourceId: string | null };
 
+const GENERIC_SUBJECT = /^(another|any|other|one other|two (further|other)|three (further|other)|a further|further)\b/i;
+
 export function requirementFor(program: Program, profile: StudentProfile): CurriculumReq | null {
   if (!profile.curriculum) return null;
   return program.requirements.find((r) => r.curriculum === profile.curriculum) ?? null;
@@ -118,8 +120,13 @@ export function gapAnalysis(u: University, program: Program, profile: StudentPro
           rows.push({ requirement: s.subject, university: "Not accepted for this program", student: has ? `${has.name}${has.level ? ` ${has.level}` : ""}` : "—", status: has ? "missing" : "not-applicable", sourceId: req.sourceId });
           continue;
         }
-        const has = profile.subjects.find((x) => subjectMatches(s.subject, x.name));
         const want = [s.subject, s.level, s.minGrade && `grade ${s.minGrade}`].filter(Boolean).join(" · ");
+        if (GENERIC_SUBJECT.test(s.subject.trim())) {
+          // "Another relevant subject", "Any academic subjects": not checkable automatically.
+          rows.push({ requirement: s.subject, university: `${s.status}: ${want}`, student: profile.subjects.length ? `${profile.subjects.length} subject(s) entered` : "Not entered", status: "unclear", sourceId: req.sourceId });
+          continue;
+        }
+        const has = profile.subjects.find((x) => subjectMatches(s.subject, x.name));
         if (!has) {
           rows.push({ requirement: s.subject, university: `${s.status}: ${want}`, student: "Not in your subjects", status: s.status === "required" ? "missing" : "unclear", sourceId: req.sourceId });
           continue;
@@ -133,13 +140,14 @@ export function gapAnalysis(u: University, program: Program, profile: StudentPro
   }
   for (const t of [...program.tests, ...u.testing.filter((t) => !program.tests.some((p) => p.test === t.test))]) {
     if (t.policy !== "required" && t.policy !== "recommended") continue;
-    const key = t.test.toUpperCase() as "SAT" | "ACT";
-    const score = key === "SAT" || key === "ACT" ? profile.tests[key] : null;
+    const key = t.test.toUpperCase();
+    const trackable = key === "SAT" || key === "ACT";
+    const score = trackable ? profile.tests[key as "SAT" | "ACT"] : null;
     rows.push({
       requirement: t.test,
       university: t.policy + (t.typicalRange ? ` (typical ${t.typicalRange})` : ""),
-      student: score != null ? String(score) : "Not entered",
-      status: score != null ? "meets" : t.policy === "required" ? "missing" : "unclear",
+      student: score != null ? String(score) : trackable ? "Not entered" : "Not tracked on Edugate — plan for it",
+      status: score != null ? "meets" : trackable && t.policy === "required" ? "missing" : "unclear",
       sourceId: t.sourceId,
     });
   }
@@ -219,18 +227,27 @@ export function fitDimensions(u: University, profile: StudentProfile, program?: 
     });
   } else dims.push({ key: "curriculum", label: "Curriculum & subjects", weight: "academics", state: "unknown", reasons: ["Add your curriculum and subjects to your profile"], sourceIds: [] });
 
-  // Testing
-  const tests = [...target.tests, ...u.testing].filter((t) => t.policy === "required");
-  const missingTests = tests.filter((t) => {
-    const k = t.test.toUpperCase();
-    return !((k === "SAT" && profile.tests.SAT != null) || (k === "ACT" && profile.tests.ACT != null));
-  });
+  // Testing — a required test you haven't taken yet is a to-do, not a misfit;
+  // tests the profile can't record are unknown.
+  const tests = [...target.tests, ...u.testing.filter((t) => !target.tests.some((x) => x.test === t.test))].filter((t) => t.policy === "required");
+  const trackable = (name: string) => ["SAT", "ACT"].includes(name.toUpperCase());
+  const hasScore = (name: string) => (name.toUpperCase() === "SAT" ? profile.tests.SAT : profile.tests.ACT) != null;
+  const done = tests.filter((t) => trackable(t.test) && hasScore(t.test));
+  const todo = tests.filter((t) => trackable(t.test) && !hasScore(t.test));
+  const untracked = tests.filter((t) => !trackable(t.test));
   dims.push({
     key: "testing",
     label: "Testing",
     weight: "academics",
-    state: tests.length === 0 ? "aligned" : missingTests.length ? (missingTests.length < tests.length ? "partial" : "misaligned") : "aligned",
-    reasons: tests.length === 0 ? ["No admissions test is listed as required"] : tests.map((t) => `${t.test}: ${t.policy}${missingTests.includes(t) ? " — not in your profile" : " ✓"}`),
+    state: tests.length === 0 || done.length === tests.length ? "aligned" : todo.length || done.length ? "partial" : "unknown",
+    reasons:
+      tests.length === 0
+        ? ["No admissions test is listed as required"]
+        : [
+            ...done.map((t) => `✓ ${t.test} required — in your profile`),
+            ...todo.map((t) => `○ ${t.test} required — still to take (not in your profile)`),
+            ...untracked.map((t) => `○ ${t.test} required — Edugate can't track this test yet; plan for it`),
+          ],
     sourceIds: tests.map((t) => t.sourceId).filter((s): s is string => !!s),
   });
 

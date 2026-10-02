@@ -4,12 +4,13 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useScrollStore } from "@/lib/motion/scrollStore";
 import { Button } from "@/components/primitives/Button";
+import { AccountLink } from "./AccountLink";
 
 const NAV = [
-  { label: "Discover", href: "/discover" },
+  { label: "Universities", href: "/universities" },
   { label: "Compare", href: "/compare" },
+  { label: "Scholarships", href: "/scholarships" },
   { label: "Passion Projector", href: "/passion-projector" },
-  { label: "Parents", href: "/parents" },
   { label: "Methodology", href: "/methodology" },
 ];
 
@@ -81,14 +82,9 @@ export function SiteNav() {
         </ul>
 
         <div className="ml-auto flex items-center gap-2 xl:ml-0">
-          <Link
-            href="/student"
-            className="link-underline hidden px-2 text-[0.8125rem] text-paper/62 transition-colors hover:text-paper sm:block"
-          >
-            Your hub
-          </Link>
-          <Button href="/passion-projector" size="sm" magnetic={false}>
-            Get started
+          <AccountLink className="link-underline hidden px-2 text-[0.8125rem] text-paper/62 transition-colors hover:text-paper sm:block" />
+          <Button href="/discover" size="sm" magnetic={false}>
+            Find your fit
           </Button>
           <button
             type="button"
@@ -130,13 +126,7 @@ export function SiteNav() {
               </li>
             ))}
             <li>
-              <Link
-                href="/student"
-                onClick={() => setOpen(false)}
-                className="block py-3.5 text-[0.9375rem] text-paper/80"
-              >
-                Your hub
-              </Link>
+              <AccountLink onNavigate={() => setOpen(false)} className="block py-3.5 text-[0.9375rem] text-paper/80" />
             </li>
           </ul>
         </div>

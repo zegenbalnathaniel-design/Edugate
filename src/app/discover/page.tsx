@@ -1,88 +1,89 @@
 import type { Metadata } from "next";
-import { Section, Container, SectionLabel } from "@/components/primitives/Section";
-import { InstitutionCard } from "@/components/education/InstitutionCard";
-import { institutionRepo } from "@/lib/data/repositories/institutions";
-import type { FieldKey } from "@/lib/data/types";
-import { FIELD_LABELS } from "@/lib/data/types";
+import Link from "next/link";
+import { Container, Section, SectionLabel } from "@/components/primitives/Section";
+import { UniversityCard } from "@/components/unis/UniversityCard";
+import { getCurrentUser } from "@/lib/auth/session";
+import { fitDimensions, type FitDimension } from "@/lib/unis/fit";
+import { allUniversities, type UniversityRow } from "@/lib/unis/repo";
+import { getProfile } from "@/lib/user/repo";
 
-export const metadata: Metadata = { title: "Discover" };
+export const metadata: Metadata = { title: "Your university discovery" };
 
-/**
- * Tier B (docs/00-decisions.md → D1): real filtering, real results, no
- * stubs. Filters are a GET form, not client state — the page works with
- * JavaScript disabled (docs/01-architecture.md → Rendering strategy).
- */
-export default async function DiscoverPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ search?: string; country?: string; field?: string }>;
-}) {
-  const params = await searchParams;
-  const field = params.field as FieldKey | undefined;
+type Scored = { row: UniversityRow; dims: Record<string, FitDimension> };
 
-  const [{ items }, { items: allInstitutions }] = await Promise.all([
-    institutionRepo.list({ search: params.search, country: params.country, field }),
-    institutionRepo.list({}),
-  ]);
+const why = (s: Scored, keys: string[]) =>
+  keys.flatMap((k) => {
+    const d = s.dims[k];
+    if (!d || (d.state !== "aligned" && d.state !== "partial")) return [];
+    const first = d.reasons.find((r) => !r.startsWith("For ")) ?? d.reasons[0];
+    return [`${d.state === "aligned" ? "✓" : "◐"} ${d.label}: ${first.replace(/^[✓✗○] /, "")}`];
+  }).slice(0, 3);
 
-  const countries = Array.from(new Set(allInstitutions.map((i) => i.location.country))).sort();
+export default async function DiscoverPage() {
+  const user = await getCurrentUser();
+  if (!user) {
+    return (
+      <Section register="deep" className="min-h-screen pt-32 pb-24">
+        <Container width="narrow">
+          <SectionLabel index="01">Discover</SectionLabel>
+          <h1 className="display-m mt-3 mb-4">Find the university that fits you.</h1>
+          <p className="measure text-[1.0625rem] text-paper/75">
+            Explore universities by what you actually care about — academics, curriculum, cost, scholarships, opportunities, location —
+            and see exactly why each one appears.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/signup?next=/profile" className="inline-flex h-11 items-center rounded-full bg-electric px-6 font-semibold text-[var(--on-electric)]">Build my profile</Link>
+            <Link href="/universities" className="inline-flex h-11 items-center rounded-full border border-paper/25 px-6">Explore universities</Link>
+            <Link href="/universities?q=" className="inline-flex h-11 items-center rounded-full border border-paper/25 px-6">Search universities</Link>
+          </div>
+        </Container>
+      </Section>
+    );
+  }
+
+  const profile = await getProfile(user.id);
+  const empty = !profile.fields.length && !profile.curriculum && !profile.countries.length && profile.budgetUsdPerYear == null;
+  const rows = await allUniversities();
+  const scored: Scored[] = rows.map((row) => ({ row, dims: Object.fromEntries(fitDimensions(row.data, profile).map((d) => [d.key, d])) }));
+  const ok = (s: Scored, k: string) => s.dims[k]?.state === "aligned";
+  const notBad = (s: Scored, k: string) => s.dims[k]?.state !== "misaligned";
+  const inField = scored.filter((s) => profile.fields.length === 0 || ok(s, "program"));
+
+  const groups: { title: string; blurb: string; items: Scored[]; keys: string[] }[] = [
+    { title: "Strong academic alignment", blurb: "Offers your field, and your curriculum and subjects meet the published requirements we could check.", items: inField.filter((s) => ok(s, "curriculum") && notBad(s, "testing")), keys: ["program", "curriculum", "testing"] },
+    { title: "Financially relevant", blurb: "Published international tuition is within (or close to) your yearly budget.", items: inField.filter((s) => s.dims.cost.state === "aligned" || s.dims.cost.state === "partial"), keys: ["cost", "program", "location"] },
+    { title: "Research opportunities", blurb: "Documented undergraduate research programmes in a university offering your field.", items: inField.filter((s) => ok(s, "research")), keys: ["research", "program"] },
+    { title: "Entrepreneurship", blurb: "Documented incubators, accelerators or founder programmes.", items: inField.filter((s) => ok(s, "entrepreneurship")), keys: ["entrepreneurship", "program"] },
+    { title: "Something unexpected", blurb: "Outside your preferred countries, but offers your field without a known academic mismatch — worth a look.", items: profile.countries.length ? inField.filter((s) => s.dims.location.state === "misaligned" && notBad(s, "curriculum")) : [], keys: ["program", "curriculum", "cost"] },
+  ];
 
   return (
     <Section register="deep" className="min-h-screen pt-32 pb-24">
-      <Container>
-        <SectionLabel index="01">Discover</SectionLabel>
-        <h1 className="display-m mt-3 mb-10">Institutions</h1>
-
-        <form className="glass mb-10 grid grid-cols-1 gap-4 p-5 sm:grid-cols-4" method="get">
-          <input
-            type="search"
-            name="search"
-            defaultValue={params.search}
-            placeholder="Search by name"
-            className="rounded-sm border border-current/20 bg-transparent px-3 py-2.5 text-[0.9375rem] sm:col-span-2"
-          />
-          <select
-            name="country"
-            defaultValue={params.country ?? ""}
-            className="rounded-sm border border-current/20 bg-transparent px-3 py-2.5 text-[0.9375rem]"
-          >
-            <option value="" className="bg-navy-900">All countries</option>
-            {countries.map((c) => (
-              <option key={c} value={c} className="bg-navy-900">{c}</option>
-            ))}
-          </select>
-          <select
-            name="field"
-            defaultValue={params.field ?? ""}
-            className="rounded-sm border border-current/20 bg-transparent px-3 py-2.5 text-[0.9375rem]"
-          >
-            <option value="" className="bg-navy-900">All fields</option>
-            {(Object.entries(FIELD_LABELS) as [FieldKey, string][]).map(([key, label]) => (
-              <option key={key} value={key} className="bg-navy-900">{label}</option>
-            ))}
-          </select>
-          <button
-            type="submit"
-            className="rounded-sm border border-cyan/40 bg-cyan/10 px-4 py-2.5 text-[0.875rem] text-cyan sm:col-span-4 sm:w-fit"
-          >
-            Filter
-          </button>
-        </form>
-
-        {items.length === 0 ? (
-          <div className="glass p-8 text-center">
-            <p className="mb-4 text-[0.9375rem] text-current/70">
-              No institutions match those filters.
-            </p>
-            <a href="/discover" className="link-underline text-cyan-deep">Clear filters</a>
-          </div>
-        ) : (
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {items.map((inst) => (
-              <InstitutionCard key={inst.id} institution={inst} />
-            ))}
-          </div>
+      <Container width="wide">
+        <SectionLabel index="01">Your university discovery</SectionLabel>
+        <h1 className="display-m mt-3 mb-3">Based on your profile</h1>
+        <p className="measure text-[0.9375rem] text-paper/65">
+          Groups are built from transparent fit checks — open any university to see every dimension and its source. Edugate doesn&apos;t
+          label universities “safety”, “target” or “reach”: there&apos;s no validated method behind those labels.
+        </p>
+        {empty && (
+          <p className="mt-6 rounded-[var(--radius-md)] border border-pending/50 bg-pending/10 p-4 text-[0.9375rem]">
+            ⚠ Your profile is empty, so nothing can be matched yet. <Link href="/profile" className="text-cyan underline">Add your fields, curriculum and budget →</Link>
+          </p>
         )}
+        {groups.map((g) => (
+          <section key={g.title} className="mt-14">
+            <h2 className="font-display text-[1.5rem]">{g.title} <span className="text-paper/45">({g.items.length})</span></h2>
+            <p className="mt-1 mb-5 text-[0.875rem] text-paper/60">{g.blurb}</p>
+            {g.items.length === 0 ? (
+              <p className="text-[0.875rem] text-paper/50">Nothing here yet for your profile.</p>
+            ) : (
+              <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+                {g.items.slice(0, 6).map((s) => <UniversityCard key={s.row.slug} row={s.row} why={why(s, g.keys)} />)}
+              </div>
+            )}
+          </section>
+        ))}
       </Container>
     </Section>
   );

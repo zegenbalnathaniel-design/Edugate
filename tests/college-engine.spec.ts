@@ -158,3 +158,12 @@ describe("fit dimensions are not admission predictions (spec §2)", () => {
     expect(a.unknownShare).toBeGreaterThan(0);
   });
 });
+
+describe("generic requirements are never auto-failed", () => {
+  it("'Another relevant subject' reads as unclear, not missing", () => {
+    const base = uni();
+    const p = { ...base.programs[0], requirements: [{ ...base.programs[0].requirements[0], subjects: [{ subject: "Another relevant subject", level: "HL", minGrade: "7", status: "required" as const }] }] };
+    const rows = gapAnalysis(base, p, StudentProfileSchema.parse({ curriculum: "IB", subjects: [{ name: "Physics", level: "HL", grade: "7" }] }));
+    expect(rows.find((r) => r.requirement === "Another relevant subject")?.status).toBe("unclear");
+  });
+});

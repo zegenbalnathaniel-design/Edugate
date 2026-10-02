@@ -5,17 +5,19 @@ const GROUPS = [
   {
     title: "Platform",
     links: [
-      { label: "Discover", href: "/discover" },
-      { label: "Compare (Decision Engine)", href: "/compare" },
+      { label: "Universities", href: "/universities" },
+      { label: "By country", href: "/universities/countries" },
+      { label: "Compare", href: "/compare" },
+      { label: "Scholarships", href: "/scholarships" },
       { label: "Passion Projector", href: "/passion-projector" },
     ],
   },
   {
     title: "Who it's for",
     links: [
-      { label: "Students", href: "/student" },
+      { label: "Students", href: "/discover" },
       { label: "Parents", href: "/parents" },
-      { label: "Institutions", href: "/discover" },
+      { label: "Application tracker", href: "/tracker" },
     ],
   },
   {

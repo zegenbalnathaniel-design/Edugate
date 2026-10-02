@@ -252,18 +252,11 @@
           "typical": "42 points",
           "subjects": [
             {
-              "subject": "Mathematics: Analysis and Approaches",
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
               "level": "HL",
               "minGrade": "7",
               "status": "required",
-              "notes": "Imperial states AA or AI is accepted at HL with no preference"
-            },
-            {
-              "subject": "Mathematics: Applications and Interpretation",
-              "level": "HL",
-              "minGrade": "7",
-              "status": "required",
-              "notes": "Accepted at HL with no preference between AA and AI"
+              "notes": "Imperial accepts either AA or AI at HL, with no preference."
             },
             {
               "subject": "Another relevant subject",
@@ -406,18 +399,11 @@
           "typical": null,
           "subjects": [
             {
-              "subject": "Mathematics: Analysis and Approaches",
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
               "level": "HL",
               "minGrade": "7",
               "status": "required",
-              "notes": "Imperial states AA and AI are both accepted at HL with no preference"
-            },
-            {
-              "subject": "Mathematics: Applications and Interpretation",
-              "level": "HL",
-              "minGrade": "7",
-              "status": "required",
-              "notes": "Accepted at HL with no preference between AA and AI"
+              "notes": "Imperial accepts either AA or AI at HL, with no preference."
             },
             {
               "subject": "Two further subjects",
@@ -505,49 +491,49 @@
   "sources": [
     {
       "id": "s1",
-      "label": "Computing BEng — Imperial course page",
+      "label": "Computing BEng \u2014 Imperial course page",
       "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s2",
-      "label": "Economics, Finance and Data Science BSc — Imperial course page",
+      "label": "Economics, Finance and Data Science BSc \u2014 Imperial course page",
       "url": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s3",
-      "label": "How to apply — BSc Economics, Finance and Data Science (Imperial Business School)",
+      "label": "How to apply \u2014 BSc Economics, Finance and Data Science (Imperial Business School)",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/how-to-apply/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s4",
-      "label": "Undergraduate application deadlines — Imperial",
+      "label": "Undergraduate application deadlines \u2014 Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s5",
-      "label": "Test of Mathematics for University Admissions (TMUA) — Imperial",
+      "label": "Test of Mathematics for University Admissions (TMUA) \u2014 Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/admissions-tests/tmua/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s6",
-      "label": "Accepted qualifications — Imperial undergraduate entry requirements",
+      "label": "Accepted qualifications \u2014 Imperial undergraduate entry requirements",
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/entry-requirements/accepted-qualifications/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s7",
-      "label": "Undergraduate tuition fees 2026-27, Faculty of Engineering — Imperial",
+      "label": "Undergraduate tuition fees 2026-27, Faculty of Engineering \u2014 Imperial",
       "url": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
       "type": "university",
       "retrievedAt": "2026-10-02"
@@ -568,70 +554,70 @@
     },
     {
       "id": "s10",
-      "label": "Funding and scholarships — BSc Economics, Finance and Data Science",
+      "label": "Funding and scholarships \u2014 BSc Economics, Finance and Data Science",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/funding-scholarships/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s11",
-      "label": "Our people in numbers — Imperial annual report 2024-25",
+      "label": "Our people in numbers \u2014 Imperial annual report 2024-25",
       "url": "https://www.imperial.ac.uk/admin-services/finance/annual-report/imperial-in-202425/our-environment/our-people-in-numbers/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s12",
-      "label": "QS World University Rankings 2027 — Imperial College London",
+      "label": "QS World University Rankings 2027 \u2014 Imperial College London",
       "url": "https://www.topuniversities.com/universities/imperial-college-london",
       "type": "ranking-org",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s13",
-      "label": "Imperial College London — Wikipedia",
+      "label": "Imperial College London \u2014 Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Imperial_College_London",
       "type": "secondary",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s14",
-      "label": "English language requirements — Imperial",
+      "label": "English language requirements \u2014 Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/english-language/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s15",
-      "label": "Enterprise Lab — Imperial",
+      "label": "Enterprise Lab \u2014 Imperial",
       "url": "https://www.imperial.ac.uk/enterprise/students/enterprise-lab/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s16",
-      "label": "Undergraduate Research Opportunities Programme (UROP) — Imperial",
+      "label": "Undergraduate Research Opportunities Programme (UROP) \u2014 Imperial",
       "url": "https://www.imperial.ac.uk/urop/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s17",
-      "label": "Careers — BSc Economics, Finance and Data Science",
+      "label": "Careers \u2014 BSc Economics, Finance and Data Science",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/careers/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s18",
-      "label": "Dates and deadlines for uni applications — UCAS",
+      "label": "Dates and deadlines for uni applications \u2014 UCAS",
       "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
       "type": "testing-org",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s19",
-      "label": "South Asia — Imperial international students by region",
+      "label": "South Asia \u2014 Imperial international students by region",
       "url": "https://www.imperial.ac.uk/study/international-students/information-by-region/south-asia/",
       "type": "university",
       "retrievedAt": "2026-10-02"
