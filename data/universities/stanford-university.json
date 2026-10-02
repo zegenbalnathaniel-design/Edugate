@@ -1,0 +1,684 @@
+{
+  "slug": "stanford-university",
+  "name": "Stanford University",
+  "officialName": "Leland Stanford Junior University",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "California",
+  "city": "Stanford",
+  "campuses": [
+    "Stanford"
+  ],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1885,
+  "setting": "suburban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.stanford.edu/",
+  "admissionsUrl": "https://admission.stanford.edu/",
+  "financialAidUrl": "https://financialaid.stanford.edu/undergrad/",
+  "internationalUrl": "https://admission.stanford.edu/apply/international/index.html",
+  "summary": "Stanford is a private research university in California, founded in 1885 and opened in 1891. First-year applicants apply to the university rather than to a major. Stanford is need-blind for US citizens and permanent residents but treats a request for financial aid as a factor in admission for international applicants.",
+  "stats": {
+    "totalStudents": {
+      "value": 17314,
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": "Autumn 2025",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Sum of 7,289 undergraduates and 10,025 graduate students quoted from Stanford Facts."
+    },
+    "undergraduates": {
+      "value": 7289,
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": "Autumn 2025",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+    },
+    "internationalShare": {
+      "value": "13% of undergraduates; 35% of graduate students",
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": "Autumn 2025",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Stanford reports 12.7% of the Class of 2029 first-year students self-identify as international."
+    },
+    "studentFacultyRatio": {
+      "value": "5:1 (approximate)",
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": "Autumn 2025",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Stanford Facts describes an approximate 5-to-1 ratio with 2,402 faculty."
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "2",
+      "sourceId": "s10"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "Common Application (required for Restrictive Early Action and Regular Decision)",
+    "sourceId": "s2",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+  },
+  "applicationFee": {
+    "value": "USD 100 non-refundable (or fee waiver request)",
+    "sourceId": "s2",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+  },
+  "testing": [
+    {
+      "test": "SAT",
+      "policy": "required",
+      "typicalRange": "Class of 2029 enrolled students who submitted SAT: middle 50% composite 1520-1570",
+      "sourceId": "s3",
+      "confidence": "high",
+      "notes": "Stanford requires either the SAT or ACT for first-year applicants; no preferred test, no minimum score. Scores are self-reported at application; official scores required on enrolment for all self-reported sittings. Latest SAT sitting: end of October (REA) or end of December (RD). Range from Stanford admission statistics (Class of 2029)."
+    },
+    {
+      "test": "ACT",
+      "policy": "required",
+      "typicalRange": "Class of 2029 enrolled students who submitted ACT: middle 50% composite 34-36",
+      "sourceId": "s3",
+      "confidence": "high",
+      "notes": "Latest ACT sitting: end of September (REA) or end of December (RD)."
+    }
+  ],
+  "english": [
+    {
+      "test": "OTHER",
+      "minOverall": null,
+      "minSection": null,
+      "waiver": "Stanford does not require any English proficiency exam; applicants may self-report TOEFL, IELTS, Duolingo or other scores (fluency in English is a prerequisite for admission).",
+      "sourceId": "s4",
+      "confidence": "high"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 67731,
+        "max": 67731,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Undergraduate tuition in the 2026-27 student budget; same budget applies to all undergraduates."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 67731,
+        "max": 67731,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 29814,
+        "max": 29814,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Derived: Stanford's 2026-27 undergraduate student budget total of $97,545 minus tuition of $67,731. Includes housing and food ($22,944) plus allowances for fees, books, personal expenses and travel; the itemised remainder was not retrieved."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Stanford need-based financial aid (international students)",
+      "kind": [
+        "need",
+        "international",
+        "partial"
+      ],
+      "eligibility": "International applicants must indicate on the admission application that they will apply for aid; the request is a factor in admission and aid funds for international students are limited. Applicants should submit the CSS Profile (or ISAFA if the CSS Profile is unavailable). International students who do not request aid when applying are not eligible to apply for aid later.",
+      "coverage": "Awarded from institutional funds based on family financial circumstances; amount varies",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://financialaid.stanford.edu/undergrad/how/international.html",
+      "sourceId": "s6",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Restrictive Early Action (Common Application)",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s7",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision (Common Application)",
+      "date": "2027-01-05",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s7",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [
+    {
+      "category": "research",
+      "name": "Undergraduate Research (VPUE)",
+      "description": "The Vice Provost for Undergraduate Education dedicates nearly $7.5 million a year to support about 1,200 students in research projects; roughly one third of students use VPUE research funding at some point.",
+      "url": "https://undergrad.stanford.edu/about-vpue",
+      "sourceId": "s11"
+    },
+    {
+      "category": "international",
+      "name": "Bing Overseas Studies Program",
+      "description": "Lets Stanford undergraduates study abroad while remaining enrolled at Stanford; about 900 students (around 50% of a class year) study away on Stanford programs each year.",
+      "url": "https://undergrad.stanford.edu/about-vpue",
+      "sourceId": "s11"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "computer-science-bs",
+      "name": "Computer Science (BS)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science",
+      "school": "School of Engineering",
+      "durationYears": 4,
+      "url": "https://bulletin.stanford.edu/programs/CS-BS",
+      "summary": "Per the Stanford Bulletin, the CS major requires a minimum of 96 units: 26 units of mathematics, 11 of science, 10 of engineering fundamentals, one Technology in Society course and 43 units of CS core, depth and senior project. Core includes CS 103, CS 106 (A/B), CS 109.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "economics-ba",
+      "name": "Economics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": "Economics",
+      "school": "School of Humanities and Sciences (Department of Economics)",
+      "durationYears": 4,
+      "url": "https://economics.stanford.edu/undergraduate/major/economics-ba",
+      "summary": "Economics BA requires 80 units (at least 55 taken at Stanford in California). The core includes ECON 1, ECON 50 (or 50Q), ECON 51 and ECON 102A (basic statistics); a grade of C or better is required in core courses beginning Fall 2024.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English (four years, emphasis on writing and literature)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Stanford has no required courses; these are curriculum recommendations."
+            },
+            {
+              "subject": "Mathematics (four years of rigorous mathematics, including calculus)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Science (at least three years, e.g. biology, chemistry, physics, computer science)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "History / social studies (at least three years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "World language (at least three years of the same language)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Stanford admits to the university, not a major, and has no required high school courses or published minimum grades/scores for IB, A-levels, CBSE or AP. Subjects listed are Stanford's recommended preparation only; it does not require AP/IB/Honors for their own sake."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Application and Testing Deadlines — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/deadlines/index.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "First-Year Applicants — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/first-year/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "Standardized Testing — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/first-year/testing.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "International Applicants — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/international/index.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "The Student Budget — Stanford Financial Aid Office",
+      "url": "https://financialaid.stanford.edu/undergrad/budget/index.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "International Students — Stanford Financial Aid Office",
+      "url": "https://financialaid.stanford.edu/undergrad/how/international.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "Regular Decision and Restrictive Early Action — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/first-year/decision_process.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "Preparing for Stanford Academics — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/first-year/prepare.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "Stanford Facts — Undergraduate Education",
+      "url": "https://facts.stanford.edu/academics/undergraduate-education",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "QS World University Rankings 2027 — TopUniversities",
+      "url": "https://www.topuniversities.com/qs-world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "About VPUE — Stanford Undergrad",
+      "url": "https://undergrad.stanford.edu/about-vpue",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "Admission Statistics — Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/selection/statistics.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "Our History — Stanford University",
+      "url": "https://www.stanford.edu/about/history",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s14",
+      "label": "CS-BS Program — Stanford Bulletin",
+      "url": "https://bulletin.stanford.edu/programs/CS-BS",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s15",
+      "label": "Economics BA — Stanford Economics Department",
+      "url": "https://economics.stanford.edu/undergraduate/major/economics-ba",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    }
+  ],
+  "lastVerified": "2026-10-02"
+}

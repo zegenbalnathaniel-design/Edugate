@@ -1,0 +1,641 @@
+{
+  "slug": "imperial-college-london",
+  "name": "Imperial College London",
+  "officialName": "Imperial College of Science, Technology and Medicine",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "London",
+  "campuses": [
+    "South Kensington"
+  ],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1907,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.imperial.ac.uk/",
+  "admissionsUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/",
+  "financialAidUrl": "https://www.imperial.ac.uk/study/fees-and-funding/",
+  "internationalUrl": "https://www.imperial.ac.uk/study/international-students/information-by-region/south-asia/",
+  "summary": "Imperial College London is a public university in London focused on science, engineering, medicine and business, chartered in 1907. UK undergraduate applications are made through UCAS.",
+  "stats": {
+    "totalStudents": {
+      "value": 23248,
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": "2024-25"
+    },
+    "undergraduates": {
+      "value": 12191,
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": "2024-25"
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Sources retrieved gave conflicting or non-comparable figures; use the Imperial statistics guide."
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Imperial publishes ratios by faculty only (e.g. Business School 24.4:1), no university-wide figure retrieved."
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=2",
+      "sourceId": "s12"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2027 entry"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [
+    {
+      "test": "IELTS",
+      "minOverall": "6.5 (Standard level) or 7.0 (Higher level), depending on course",
+      "minSection": "6.0 (Standard) or 6.5 (Higher) in each element",
+      "waiver": null,
+      "sourceId": "s14",
+      "confidence": "high"
+    }
+  ],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": {
+        "min": 42700,
+        "max": 45500,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Range across the 2026-27 overseas fees retrieved: Imperial Business School 42,700 and Department of Computing 45,500. Fees vary by course."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 10050,
+        "max": 10050,
+        "period": "year"
+      },
+      "sourceId": "s2",
+      "confidence": "high",
+      "asOf": "2027-28",
+      "notes": "Home fee shown on the 2027-entry course page."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Imperial Inspires scholarships",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "International applicants paying the Overseas rate of tuition and applying for a full-time undergraduate course (or selected PGT) in Engineering, Natural Sciences, Medicine or Imperial Business School for 2027 entry.",
+      "coverage": "At least GBP 15,000 per year for the full duration of the course; at least 300 scholarships for 2027 entry",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+      "sourceId": "s9",
+      "confidence": "high"
+    },
+    {
+      "name": "Imperial Excellence Scholarship (BSc Economics, Finance and Data Science)",
+      "kind": [
+        "merit",
+        "departmental"
+      ],
+      "eligibility": "Recognises outstanding candidates joining the programme for academic achievement, leadership potential and commitment to the Business School community.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/funding-scholarships/",
+      "sourceId": "s10",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "UCAS equal-consideration deadline (all courses except MBBS Medicine)",
+      "date": "2027-01-13",
+      "intake": "2027 entry",
+      "timezone": "Europe/London",
+      "sourceId": "s4",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [
+    {
+      "category": "entrepreneurship",
+      "name": "Imperial Enterprise Lab",
+      "description": "Student-focused innovation and entrepreneurship programmes, including the seven-week Venture Catalyst Challenge with a GBP 80,000 prize fund.",
+      "url": "https://www.imperial.ac.uk/enterprise/students/enterprise-lab/",
+      "sourceId": "s15"
+    },
+    {
+      "category": "research",
+      "name": "Undergraduate Research Opportunities Programme (UROP)",
+      "description": "Paid research placements, mainly 6-10 weeks over the summer, with around 450+ opportunities each year.",
+      "url": "https://www.imperial.ac.uk/urop/",
+      "sourceId": "s16"
+    },
+    {
+      "category": "careers",
+      "name": "Careers support for BSc Economics, Finance and Data Science",
+      "description": "One-to-one guidance for spring weeks, internships and graduate roles in finance, consulting, technology and the public sector.",
+      "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/careers/",
+      "sourceId": "s17"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "computing-beng",
+      "name": "Computing (BEng)",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computing",
+      "school": "Department of Computing, Faculty of Engineering",
+      "durationYears": 3,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+      "summary": "Imperial's Department of Computing BEng built on discrete mathematics, logic and programming, with small-group tutorials in year 1. Applicants must sit the TMUA.",
+      "curriculum": [
+        {
+          "year": 1,
+          "courses": [
+            "Introduction to Computer Systems",
+            "Introduction to Databases",
+            "Introduction to Computer Architecture",
+            "Computing Practical 1",
+            "Discrete Mathematics, Logic and Reasoning",
+            "Graphs and Algorithms",
+            "Calculus",
+            "Linear Algebra"
+          ]
+        }
+      ],
+      "curriculumSourceId": "s1",
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A to A*AAA, to include A* in Mathematics and either A* and A in two further subjects or AAA in three further subjects",
+          "typical": "A*A*A (three A-levels) or A*A*AA (four A-levels)",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A*",
+              "status": "required"
+            },
+            {
+              "subject": "Further Mathematics",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Further Mathematics preferred"
+            },
+            {
+              "subject": "Computer Science",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "A-level Computer Science is not required"
+            },
+            {
+              "subject": "ICT, Business Studies, General Studies, Critical Thinking",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "not-accepted",
+              "notes": "Not accepted as part of the offer"
+            }
+          ],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "Wording relayed through a web-search summary of the official course page; the page also notes the practical endorsement is required for English-board science A-levels."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "41 points, to include 7 in Mathematics at higher level and 7 in another relevant subject at higher level",
+          "typical": "42 points",
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "Imperial states AA or AI is accepted at HL with no preference"
+            },
+            {
+              "subject": "Mathematics: Applications and Interpretation",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "Accepted at HL with no preference between AA and AI"
+            },
+            {
+              "subject": "Another relevant subject",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "IB maths syllabus wording relayed through a web-search summary of the official course page."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "90% overall across five subjects, with 90% in relevant subjects (Imperial general minimum for CBSE AISSE Class XII)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "90% or above in relevant subjects per the general minimum; the course may require higher"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "Imperial states some courses require more than the general minimum; no course-specific CBSE figure found for this programme."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "90% overall across five subjects, with 90% in relevant subjects (Imperial general minimum for CISCE ISC Class XII)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "90% or above in relevant subjects per the general minimum; the course may require higher"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "Imperial states some courses require more than the general minimum; no course-specific ISC figure found for this programme."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high",
+          "notes": "Mandatory for Department of Computing courses for 2027 entry. Test windows: 12-16 October 2026 and 4-8 January 2027."
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 45500,
+          "max": 45500,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Faculty of Engineering / Department of Computing overseas fee for 2026-27. The course page shows the 2027-entry overseas fee as not yet set."
+      }
+    },
+    {
+      "slug": "economics-finance-data-science-bsc",
+      "name": "Economics, Finance and Data Science (BSc)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": "Economics, Finance and Data Science",
+      "school": "Imperial College Business School",
+      "durationYears": 3,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+      "summary": "A BSc from Imperial College Business School combining economics, finance and data science, with eight compulsory first-year modules. The TMUA is mandatory and successful candidates are invited to a 20-30 minute online interview.",
+      "curriculum": [
+        {
+          "year": 1,
+          "courses": [
+            "Mathematical Foundations",
+            "Probability and Statistics",
+            "Introduction to Data Science",
+            "Big Issues in Economics and Finance",
+            "Accounting",
+            "Microeconomics 1",
+            "Macroeconomics 1",
+            "Data Structures and Algorithms"
+          ]
+        }
+      ],
+      "curriculumSourceId": "s2",
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA, with A* in Mathematics and AA in two other subjects",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A*",
+              "status": "required"
+            },
+            {
+              "subject": "Further Mathematics",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Further Mathematics and/or Economics are useful but not required"
+            },
+            {
+              "subject": "Economics",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Useful but not required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "Figures relayed through a web-search summary of the official course page."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "39 points, to include 7 in Mathematics at higher level and 6 in each of two further subjects at higher level",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "Imperial states AA and AI are both accepted at HL with no preference"
+            },
+            {
+              "subject": "Mathematics: Applications and Interpretation",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "Accepted at HL with no preference between AA and AI"
+            },
+            {
+              "subject": "Two further subjects",
+              "level": "HL",
+              "minGrade": "6",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "high",
+          "asOf": "2027 entry"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "90% overall across five subjects, with 90% in relevant subjects (Imperial general minimum for CBSE AISSE Class XII)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "90% or above in relevant subjects per the general minimum; the course may require higher"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "Imperial states some courses require more than the general minimum; no course-specific CBSE figure found for this programme."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "90% overall across five subjects, with 90% in relevant subjects (Imperial general minimum for CISCE ISC Class XII)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "90% or above in relevant subjects per the general minimum; the course may require higher"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "high",
+          "asOf": "2027 entry",
+          "notes": "Imperial states some courses require more than the general minimum; no course-specific ISC figure found for this programme."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "high",
+          "notes": "Mandatory; no minimum score is set and the score is one element of a holistic assessment. Test windows: 12-16 October 2026 and 4-8 January 2027."
+        }
+      ],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "7.0",
+          "minSection": "6.5 in each element",
+          "waiver": null,
+          "sourceId": "s3",
+          "confidence": "high"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 44800,
+          "max": 44800,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2027 entry",
+        "notes": "Course page lists GBP 44,800 Overseas for 2027 entry."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Computing BEng — Imperial course page",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "Economics, Finance and Data Science BSc — Imperial course page",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "How to apply — BSc Economics, Finance and Data Science (Imperial Business School)",
+      "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/how-to-apply/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "Undergraduate application deadlines — Imperial",
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "Test of Mathematics for University Admissions (TMUA) — Imperial",
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/admissions-tests/tmua/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "Accepted qualifications — Imperial undergraduate entry requirements",
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/entry-requirements/accepted-qualifications/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "Undergraduate tuition fees 2026-27, Faculty of Engineering — Imperial",
+      "url": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "Undergraduate tuition fees 2026-27, Imperial Business School",
+      "url": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/imperial-business-school/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "Imperial Inspires scholarships (2027 entry)",
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "Funding and scholarships — BSc Economics, Finance and Data Science",
+      "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/funding-scholarships/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "Our people in numbers — Imperial annual report 2024-25",
+      "url": "https://www.imperial.ac.uk/admin-services/finance/annual-report/imperial-in-202425/our-environment/our-people-in-numbers/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "QS World University Rankings 2027 — Imperial College London",
+      "url": "https://www.topuniversities.com/universities/imperial-college-london",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "Imperial College London — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Imperial_College_London",
+      "type": "secondary",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s14",
+      "label": "English language requirements — Imperial",
+      "url": "https://www.imperial.ac.uk/study/apply/english-language/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s15",
+      "label": "Enterprise Lab — Imperial",
+      "url": "https://www.imperial.ac.uk/enterprise/students/enterprise-lab/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s16",
+      "label": "Undergraduate Research Opportunities Programme (UROP) — Imperial",
+      "url": "https://www.imperial.ac.uk/urop/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s17",
+      "label": "Careers — BSc Economics, Finance and Data Science",
+      "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/careers/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s18",
+      "label": "Dates and deadlines for uni applications — UCAS",
+      "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s19",
+      "label": "South Asia — Imperial international students by region",
+      "url": "https://www.imperial.ac.uk/study/international-students/information-by-region/south-asia/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    }
+  ],
+  "lastVerified": "2026-10-02"
+}

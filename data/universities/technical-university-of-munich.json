@@ -1,0 +1,245 @@
+{
+  "slug": "technical-university-of-munich",
+  "name": "Technical University of Munich",
+  "officialName": "Technische Universität München (TUM)",
+  "country": "Germany",
+  "countryCode": "DE",
+  "region": "Bavaria",
+  "city": "Munich",
+  "campuses": ["Munich", "Garching", "Weihenstephan (Freising)", "Straubing", "Heilbronn"],
+  "control": "public",
+  "category": "technical",
+  "founded": 1868,
+  "setting": "mixed",
+  "languages": ["German", "English"],
+  "website": "https://www.tum.de/en/",
+  "admissionsUrl": "https://www.tum.de/en/studies/application/bachelor/application-bachelor",
+  "financialAidUrl": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships",
+  "internationalUrl": "https://www.tum.de/en/studies/application/application-info-portal/application-international",
+  "summary": "TUM is a public technical university in Bavaria, founded in 1868 as the Royal Bavarian Polytechnic School. It enrolled 51,954 students in winter semester 2025/26, about 45% of them international. Non-EU bachelor's students pay tuition of EUR 2,000 or 3,000 per semester depending on the program.",
+  "stats": {
+    "totalStudents": { "value": 51954, "sourceId": "s1", "confidence": "high", "asOf": "WS 2025/26 (1 Dec 2025)", "notes": "Figure quoted in a search-result summary of the TUM 'TUM in figures' page; tum.de could not be fetched directly." },
+    "undergraduates": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null },
+    "internationalShare": { "value": "45%", "sourceId": "s1", "confidence": "high", "asOf": "WS 2025/26", "notes": "Share of total enrolment, as quoted in a search-result summary of the TUM 'TUM in figures' page." },
+    "studentFacultyRatio": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+  },
+  "rankings": [
+    { "org": "QS", "category": "World University Rankings", "edition": 2027, "rank": "25", "sourceId": "s2" }
+  ],
+  "applicationPlatform": { "value": "TUM online application portal; applicants with a non-German school certificate must first obtain a Preliminary Documentation (VPD) from uni-assist (Indian applicants also need an APS certificate)", "sourceId": "s9", "confidence": "high", "asOf": "2026-27", "notes": "Via search-result summaries of tum.de pages (tum.de blocked to fetch)." },
+  "applicationFee": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null, "notes": "uni-assist VPD fee not verified." },
+  "testing": [
+    { "test": "SAT", "policy": "not-applicable", "typicalRange": null, "sourceId": null, "confidence": "requires-verification", "notes": "No general SAT/ACT requirement found on TUM pages; admission is by program-level aptitude assessment." }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "EUR",
+    "internationalTuition": { "value": { "min": 4000, "max": 6000, "period": "year" }, "sourceId": "s5", "confidence": "high", "asOf": "2026-27", "notes": "TUM states bachelor's tuition for non-EU students is EUR 2,000 or 3,000 per semester depending on the program (x2 semesters). Informatics EUR 3,000/semester; Management and Technology (Munich) EUR 2,000/semester. A semester fee (EUR 97 in SS 2026 in Munich/Garching) is charged on top. Waivers exist for some students." },
+    "domesticTuition": { "value": { "min": 0, "max": 0, "period": "year" }, "sourceId": "s5", "confidence": "high", "asOf": "2026-27", "notes": "TUM tuition applies only to students from non-EU countries; EU/EEA students pay only the semester fee (EUR 97 per semester in SS 2026, Munich/Garching/Weihenstephan)." },
+    "livingEstimate": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+  },
+  "scholarships": [
+    {
+      "name": "TUM Scholarship for International Students",
+      "kind": ["need", "merit", "international", "partial", "competitive"],
+      "eligibility": "Students not eligible for BAföG because of nationality; enrolled at TUM from the 3rd bachelor's semester (2nd master's semester); good academic record and proven financial need.",
+      "coverage": "One-time financial aid of EUR 500 to EUR 1,800 per semester; reapply each semester, maximum funding period 36 months",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships/scholarship-for-international-students-of-tum",
+      "sourceId": "s14",
+      "confidence": "high"
+    },
+    {
+      "name": "Deutschlandstipendium at TUM",
+      "kind": ["merit", "partial", "competitive"],
+      "eligibility": "Admitted or enrolled TUM students including international students new to TUM; considers achievement, commitment, responsibility and personal circumstances. Recipients must be resident in Germany with a German bank account.",
+      "coverage": "EUR 300 per month, half federal and half private sponsor",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships/deutschlandstipendium",
+      "sourceId": "s15",
+      "confidence": "high"
+    },
+    {
+      "name": "Tuition fee waivers for international students",
+      "kind": ["need", "international", "partial"],
+      "eligibility": "Waiver rules for non-EU tuition are set out on TUM's tuition page; the student-union semester fee is not waived. Specific criteria not verified here.",
+      "coverage": "Waiver of non-EU tuition fees where granted",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.tum.de/en/studies/fees/tuition/scholarships-and-waivers",
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [
+    { "category": "entrepreneurship", "name": "UnternehmerTUM and TUM Venture Labs", "description": "TUM students can use the entrepreneurship offers of TUM, UnternehmerTUM and the TUM Venture Labs free of charge; TUM-linked teams launched a record 103 start-ups in 2024.", "url": "https://www.unternehmertum.de/en/about/tum-venture-labs", "sourceId": "s16" },
+    { "category": "international", "name": "TUMexchange and scholarships for stays abroad", "description": "TUM Global runs exchange programs and publishes scholarship and funding options for stays abroad.", "url": "https://www.international.tum.de/en/global/scholarships/", "sourceId": "s20" }
+  ],
+  "programs": [
+    {
+      "slug": "informatics-bsc",
+      "name": "Informatics (B.Sc.)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Informatics",
+      "school": "TUM School of Computation, Information and Technology",
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc",
+      "summary": "Six-semester, 180 ECTS bachelor's program taught in German, located at Garching, starting in the winter semester. Admission is by aptitude assessment (points-based first stage, then a written test for some applicants).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": null,
+          "confidence": "requires-verification",
+          "asOf": null,
+          "notes": "Not verified. All non-German certificates require a uni-assist VPD; if not comparable to the Abitur, the Studienkolleg route applies."
+        }
+      ],
+      "tests": [
+        { "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)", "policy": "required", "typicalRange": null, "sourceId": "s18", "confidence": "high", "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points." },
+        { "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)", "policy": "required", "typicalRange": null, "sourceId": "s12", "confidence": "high", "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic; exact 2027 dates not verified)." }
+      ],
+      "english": [],
+      "fees": { "value": { "min": 6000, "max": 6000, "period": "year" }, "sourceId": "s4", "confidence": "high", "asOf": "2026-27", "notes": "EUR 3,000 per semester for non-EU students, per the program page." }
+    },
+    {
+      "slug": "management-and-technology-bsc",
+      "name": "Management and Technology (B.Sc., Munich campus)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": "Management and Technology",
+      "school": "TUM School of Management",
+      "durationYears": null,
+      "url": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
+      "summary": "Taught in English (100% English or bilingual track offered). Admission is by a two-stage aptitude assessment including a group interview.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            { "subject": "Mathematics", "level": null, "minGrade": null, "status": "recommended", "notes": "Grades in German or English, Mathematics and an advanced natural science subject (including Informatics) from the last two years of school enter the stage-1 score." }
+          ],
+          "sourceId": "s7",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "IB is named as an accepted secondary certificate; uni-assist evaluation is mandatory for international certificates. Stage 1 (Abitur example): 88+ points direct admission, 67-87 interview, 66 or less rejection; stage 2 interview needs 70+ points. Exact conversion for IB scores not found."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are evaluated by uni-assist; if not comparable to the Abitur, Studienkolleg + Feststellungsprüfung is required. Program-specific A-level subject/grade requirements not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. Class XII from an Indian board does not give direct admission to German universities per DAAD India (exception: JEE Advanced for subject-specific access); Studienkolleg + Feststellungsprüfung otherwise. TUM requires an APS certificate for Indian applicants."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN, as for CBSE."
+        }
+      ],
+      "tests": [
+        { "test": "TUM School of Management aptitude assessment (stage 1 grade-based score; stage 2 group interview of about 50 minutes)", "policy": "required", "typicalRange": null, "sourceId": "s7", "confidence": "high", "notes": "If half-year grades in English for the last two years of school cannot be shown, applicants are invited to an interview conducted in English." }
+      ],
+      "english": [],
+      "fees": { "value": { "min": 4000, "max": 4000, "period": "year" }, "sourceId": "s7", "confidence": "high", "asOf": "2026-27", "notes": "EUR 2,000 per semester for non-EU students (as quoted in search summary of the mgt.tum.de page). No English language certificate is required for this program; proficiency is assessed in the selection procedure. Application window for winter semester: until 15 July (generic)." }
+    }
+  ],
+  "sources": [
+    { "id": "s1", "label": "TUM in figures", "url": "https://www.tum.de/en/about-tum/facts-and-figures/tum-in-figures", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s2", "label": "QS Rankings: TUM once again named the best university in the EU (Research in Bavaria, 18 June 2026)", "url": "https://www.research-in-bavaria.de/research-news/details/article/qs-rankings-tum-once-again-named-the-best-university-in-the-eu/", "type": "secondary", "retrievedAt": "2026-10-02" },
+    { "id": "s3", "label": "History of TUM", "url": "https://www.tum.de/en/about-tum/facts-and-figures/history", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s4", "label": "Informatics B.Sc. — TUM", "url": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s5", "label": "Tuition Fees for Students from Non-EU Countries — TUM", "url": "https://www.tum.de/en/studies/fees/tuition", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s7", "label": "Bachelor in Management & Technology (Munich) — How to apply", "url": "https://www.mgt.tum.de/programs/bachelor-management-technology/munich/how-to-apply", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s8", "label": "International Higher Education Entrance Qualification — TUM", "url": "https://www.tum.de/en/studies/application/higher-education-entrance-qualification/international-higher-education-entrance-qualification", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s9", "label": "Special Conditions for Certain Countries (India) — TUM", "url": "https://www.tum.de/en/studies/application/application-info-portal/special-conditions-for-certain-countries", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s12", "label": "Language Certificates — TUM", "url": "https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s13", "label": "Bachelor Studies — DAAD India", "url": "https://www.daad.in/en/study-research-in-germany/studying-in-germany/bachelor-studies/", "type": "government", "retrievedAt": "2026-10-02" },
+    { "id": "s14", "label": "Scholarship for international students of TUM", "url": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships/scholarship-for-international-students-of-tum", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s15", "label": "The Deutschlandstipendium at TUM", "url": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships/deutschlandstipendium", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s16", "label": "TUM Venture Labs — UnternehmerTUM", "url": "https://www.unternehmertum.de/en/about/tum-venture-labs", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s18", "label": "Bachelor of Informatics — Apply for admission (TUM Department of Informatics)", "url": "https://www.in.tum.de/en/in/for-prospective-students/apply-for-admission/bachelor-of-informatics/", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s20", "label": "Scholarships and funding opportunities for stays abroad — TUM Global", "url": "https://www.international.tum.de/en/global/scholarships/", "type": "university", "retrievedAt": "2026-10-02" }
+  ],
+  "lastVerified": "2026-10-02"
+}

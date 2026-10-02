@@ -1,0 +1,167 @@
+{
+  "slug": "iiit-hyderabad",
+  "name": "International Institute of Information Technology, Hyderabad",
+  "officialName": "International Institute of Information Technology, Hyderabad",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Telangana",
+  "city": "Hyderabad",
+  "campuses": [],
+  "control": "public-private",
+  "category": "technical",
+  "founded": 1998,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.iiit.ac.in/",
+  "admissionsUrl": null,
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "IIIT Hyderabad was set up in 1998 as a not-for-profit public-private partnership focused on computer science, electronics and interdisciplinary technology research, and became the model other IIITs across India were built on. Admission is purely merit-based with no category-based reservation, run through the institute's own undergraduate and postgraduate entrance examinations alongside JEE Main and board-score routes.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "computer-science-btech-ms-dual",
+      "name": "BTech + MS by Research (Dual Degree) in Computer Science",
+      "degree": "BTech + MS",
+      "level": "integrated",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": null,
+      "summary": "Five-year dual degree combining a BTech with an MS by research in Computer Science. Admission is purely merit-based with no category reservation.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by UGEE (IIIT Hyderabad Undergraduate Entrance Examination); Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the UGEE (IIIT Hyderabad Undergraduate Entrance Examination) eligibility rules — check the source."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by UGEE (IIIT Hyderabad Undergraduate Entrance Examination); Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the UGEE (IIIT Hyderabad Undergraduate Entrance Examination) eligibility rules — check the source."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by UGEE (IIIT Hyderabad Undergraduate Entrance Examination); Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the UGEE (IIIT Hyderabad Undergraduate Entrance Examination) eligibility rules — check the source."
+        }
+      ],
+      "tests": [
+        {
+          "test": "UGEE (IIIT Hyderabad Undergraduate Entrance Examination)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s1",
+          "confidence": "high",
+          "notes": "UGEE is the route to the dual-degree programmes; JEE Main and board-score routes lead to single-degree programmes."
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Undergraduate Admissions — IIIT Hyderabad official site",
+      "url": "https://www.iiit.ac.in/undergraduate-admissions/",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s2",
+      "label": "History — IIIT Hyderabad official site",
+      "url": "https://www.iiit.ac.in/history/",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    }
+  ],
+  "lastVerified": "2026-09-28"
+}

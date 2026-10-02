@@ -1,0 +1,172 @@
+{
+  "slug": "manipal-academy-of-higher-education",
+  "name": "Manipal Academy of Higher Education",
+  "officialName": "Manipal Academy of Higher Education",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Karnataka",
+  "city": "Manipal",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1953,
+  "setting": "suburban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.manipal.edu/",
+  "admissionsUrl": null,
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "MAHE traces back to 1953, when T. M. A. Pai founded Kasturba Medical College as India's first self-financing private medical school. The group of institutions built around it was declared a deemed-to-be university in 1993 and now spans over 370 programs across medicine, engineering, management and more, with campuses in Manipal, Mangaluru, Bengaluru and Jamshedpur plus international campuses in Dubai and Malaysia.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 252000,
+        "max": 7234000,
+        "period": "total"
+      },
+      "sourceId": "s2",
+      "confidence": "secondary",
+      "asOf": "2026-27",
+      "notes": "Aggregator range across all MAHE undergraduate programmes (MBBS sits at the top of it). Verify programme fees on manipal.edu."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "mbbs-kasturba-medical-college",
+      "name": "MBBS (Kasturba Medical College, Manipal)",
+      "degree": "MBBS",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": "Kasturba Medical College, Manipal",
+      "durationYears": 5.5,
+      "url": null,
+      "summary": "Bachelor of Medicine and Bachelor of Surgery at Kasturba Medical College, founded in 1953 as India's first self-financing private medical college. Includes a compulsory rotating internship.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by NEET-UG; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NEET-UG eligibility rules \u2014 check the source."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by NEET-UG; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NEET-UG eligibility rules \u2014 check the source."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by NEET-UG; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NEET-UG eligibility rules \u2014 check the source."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NEET-UG",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "notes": "MBBS admission in India is through NEET-UG."
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "History \u2014 MAHE official site",
+      "url": "https://www.manipal.edu/mu/about-us/history.html",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s2",
+      "label": "MAHE fee structure overview \u2014 Shiksha",
+      "url": "https://www.shiksha.com/university/manipal-academy-of-higher-education-30822/fees",
+      "type": "secondary",
+      "retrievedAt": "2026-09-28"
+    }
+  ],
+  "lastVerified": "2026-09-28"
+}

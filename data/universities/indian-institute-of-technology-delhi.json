@@ -1,0 +1,520 @@
+{
+  "slug": "indian-institute-of-technology-delhi",
+  "name": "IIT Delhi",
+  "officialName": "Indian Institute of Technology Delhi",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Delhi",
+  "city": "New Delhi",
+  "campuses": [
+    "Hauz Khas"
+  ],
+  "control": "public",
+  "category": "institute-of-national-importance",
+  "founded": 1961,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://home.iitd.ac.in/",
+  "admissionsUrl": "https://home.iitd.ac.in/ug-admissions.php",
+  "financialAidUrl": "https://academics.iitd.ac.in/financial-assistance/",
+  "internationalUrl": "https://outreach.iitd.ac.in/international/about-iitd",
+  "summary": "IIT Delhi was established in 1961 as the College of Engineering and was declared an Institution of National Importance in 1963. Its 320-acre campus is in Hauz Khas, New Delhi, and B.Tech admission is through JEE Advanced and JoSAA.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Total enrolment not found on a checkable source; the institute states it admits about 850 B.Tech and 1,400 postgraduate students a year."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "118",
+      "sourceId": "s2"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "4",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "2",
+      "sourceId": "s4"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "JoSAA counselling after JEE Main and JEE Advanced",
+    "sourceId": "s5",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null,
+    "notes": "JoSAA / JEE Advanced fees not verified."
+  },
+  "testing": [
+    {
+      "test": "JEE Advanced",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "high",
+      "notes": "Foreign nationals may register for JEE Advanced directly without JEE Main; supernumerary seats capped at 10% of seats per course."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "IIT Delhi publishes foreign-national tuition in USD per semester (USD 1,000 SAARC / USD 2,000 non-SAARC plus INR 31,000 other charges, per a search result quoting the 2026-27 fee structure); not convertible into the INR field without guessing an exchange rate."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 0,
+        "max": 200000,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Tuition INR 1,00,000 per semester for General/OBC-NCL/EWS with family income above INR 5 lakh; INR 33,333 per semester for income INR 1-5 lakh; nil for income below INR 1 lakh and for SC/ST/PwD. Other charges are extra. 2025-26 entry structure; 2026-27 document not read."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Merit-cum-Means (MCM) Scholarship",
+      "kind": [
+        "merit",
+        "need",
+        "domestic",
+        "partial"
+      ],
+      "eligibility": "Awarded to 25% of admitted/sanctioned strength from General, OBC and EWS categories with parental income from all sources not exceeding INR 8 lakh per annum.",
+      "coverage": "INR 4,000 per month plus exemption from tuition fee",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://academics.iitd.ac.in/financial-assistance/",
+      "sourceId": "s8",
+      "confidence": "high"
+    },
+    {
+      "name": "Free Studentship",
+      "kind": [
+        "need",
+        "domestic",
+        "full"
+      ],
+      "eligibility": "Based on financial need for up to 10% of students when MCM slots are full.",
+      "coverage": "100% tuition fee waiver",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://academics.iitd.ac.in/financial-assistance/",
+      "sourceId": "s8",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [
+    {
+      "category": "entrepreneurship",
+      "name": "FITT start-up incubation",
+      "description": "The Foundation for Innovation and Technology Transfer has run start-up incubation at IIT Delhi since 1999-2000 and reports 150+ start-ups incubated.",
+      "url": "https://fitt-iitd.in/web/incubation",
+      "sourceId": "s10"
+    },
+    {
+      "category": "research",
+      "name": "Research and Innovation Park",
+      "description": "IIT Delhi's Research and Innovation Park hosts scale-up facilities with space for more than 125 start-ups.",
+      "url": "https://fitt-iitd.in/web/incubation",
+      "sourceId": "s10"
+    },
+    {
+      "category": "entrepreneurship",
+      "name": "Startup@IITD",
+      "description": "Institute page listing start-ups and start-up programmes associated with IIT Delhi.",
+      "url": "https://home.iitd.ac.in/startup-all.php",
+      "sourceId": "s11"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "computer-science-and-engineering-btech",
+      "name": "Computer Science and Engineering (B.Tech)",
+      "degree": "BTech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science and Engineering",
+      "school": null,
+      "durationYears": 4,
+      "url": "https://homecse.iitd.ac.in/",
+      "summary": "Four-year B.Tech offered by the Department of Computer Science and Engineering; admission via JEE Advanced and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "mathematics-and-computing-btech",
+      "name": "Mathematics and Computing (B.Tech)",
+      "degree": "BTech",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": "Mathematics and Computing",
+      "school": null,
+      "durationYears": 4,
+      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=MT1",
+      "summary": "Four-year B.Tech offered by the Department of Mathematics, covering mathematical foundations together with algorithms, operating systems and theory of computation.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "About Us - IIT Delhi",
+      "url": "https://home.iitd.ac.in/about.php",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027: IIT Delhi remains India's highest-ranked institution (All India Radio News)",
+      "url": "https://newsonair.gov.in/iit-delhi-remains-indias-highest-ranked-institution-in-qs-world-university-rankings-2027/",
+      "type": "journalism",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "India Rankings 2025: Overall - NIRF",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html",
+      "type": "government",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "India Rankings 2025: Engineering - NIRF",
+      "url": "https://www.nirfindia.org/Home/engg",
+      "type": "government",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "JEE (Advanced) 2026 - Admission criteria",
+      "url": "https://jeeadv.ac.in/admission_criteria.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "JEE (Advanced) 2026 - Foreign national candidates",
+      "url": "https://jeeadv.ac.in/foreign.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "Institute Fee structure for 2025 Entry B.Tech and Dual Degree - IIT Delhi",
+      "url": "https://home.iitd.ac.in/uploads/ug/25-26/Fee%20Structure_2025-26_UG%20Entry%20Students.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "Financial Assistance - IIT Delhi Academics",
+      "url": "https://academics.iitd.ac.in/financial-assistance/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "UG Admissions - IIT Delhi",
+      "url": "https://home.iitd.ac.in/ug-admissions.php",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "FITT - Incubation, IIT Delhi",
+      "url": "https://fitt-iitd.in/web/incubation",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "Startup@IITD - IIT Delhi",
+      "url": "https://home.iitd.ac.in/startup-all.php",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "IIT Delhi Curriculum (2025 onwards): Mathematics and Computing (MT1)",
+      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=MT1",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "All Courses - Computer Science and Engineering, IIT Delhi",
+      "url": "https://homecse.iitd.ac.in/all-courses/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s14",
+      "label": "Fee Structure 2026-27 UG entry (IIT Delhi Academic Section)",
+      "url": "https://academics.iitd.ac.in/wp-content/uploads/2026/07/UG-26_compressed.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    }
+  ],
+  "lastVerified": "2026-10-02"
+}

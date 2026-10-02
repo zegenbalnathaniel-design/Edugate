@@ -1,0 +1,186 @@
+{
+  "slug": "ashoka-university",
+  "name": "Ashoka University",
+  "officialName": "Ashoka University",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Haryana",
+  "city": "Sonipat",
+  "campuses": [],
+  "control": "private",
+  "category": "liberal-arts",
+  "founded": 2014,
+  "setting": "suburban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ashoka.edu.in/",
+  "admissionsUrl": null,
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Ashoka University is a private liberal-arts research university founded in 2014 near Delhi, built on a collective-philanthropy model with over 200 founders. It offers 25+ undergraduate majors and minors across the humanities, sciences and social sciences, with an unusually large need-based financial aid program relative to most Indian private universities.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": "No application fee for undergraduate applicants",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 1022000,
+        "max": 1022000,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Tuition component of the official 2025-26 fee structure; residence (≈INR 2 lakh) and service charges are extra. Read via a search summary of the official PDF."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Ashoka need-based financial aid",
+      "kind": [
+        "need",
+        "partial",
+        "full"
+      ],
+      "eligibility": "Admitted undergraduates whose family's assessed ability to pay falls short of the cost; families with gross annual income under roughly INR 12–15 lakh are encouraged to apply.",
+      "coverage": "Up to 100% of tuition; the percentage is fixed at admission for the whole programme.",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://www.ashoka.edu.in/admissions/scholarships/",
+      "sourceId": "s2",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba-hons",
+      "name": "BA (Hons) Economics",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": null,
+      "summary": "Economics major within Ashoka's liberal-arts undergraduate programme, admitted through a holistic application (academic record, essays, and an interview for some applicants).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Class XII from a recognised Indian board is accepted; check the source for subject expectations."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Class XII from a recognised Indian board is accepted; check the source for subject expectations."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Class XII from a recognised Indian board is accepted; check the source for subject expectations."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Undergraduate Students — Ashoka University official site",
+      "url": "https://www.ashoka.edu.in/admissions/undergraduate-students/",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s2",
+      "label": "Merit and Need-Based Scholarships — Ashoka University official site",
+      "url": "https://www.ashoka.edu.in/admissions/scholarships/",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s3",
+      "label": "Ashoka University Undergraduate Fee Structure (August 2025 intake)",
+      "url": "https://www.ashoka.edu.in/wp-content/uploads/2024/11/Fee-Structure-and-Refund-Policy_August-2025-Intake.docx.pdf",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    }
+  ],
+  "lastVerified": "2026-09-28"
+}

@@ -1,0 +1,738 @@
+{
+  "slug": "massachusetts-institute-of-technology",
+  "name": "Massachusetts Institute of Technology",
+  "officialName": "Massachusetts Institute of Technology",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Massachusetts",
+  "city": "Cambridge",
+  "campuses": [
+    "Cambridge"
+  ],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1861,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.mit.edu/",
+  "admissionsUrl": "https://mitadmissions.org/",
+  "financialAidUrl": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+  "internationalUrl": "https://mitadmissions.org/apply/firstyear/international/",
+  "summary": "MIT is a private research university in Cambridge, Massachusetts, incorporated in 1861. Applicants apply to the Institute as a whole, begin undeclared and choose a major (such as Course 6-3 or 14-1) after admission. MIT is need-blind and meets full demonstrated need for international as well as US students.",
+  "stats": {
+    "totalStudents": {
+      "value": 11816,
+      "sourceId": "s8",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). MIT Facts enrollment statistics: 4,561 undergraduates and 7,255 graduate students."
+    },
+    "undergraduates": {
+      "value": 4561,
+      "sourceId": "s8",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+    },
+    "internationalShare": {
+      "value": "12% of undergraduates (529); 41% of graduate students (2,908)",
+      "sourceId": "s8",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). MIT's own breakdown; overall international share is not stated here."
+    },
+    "studentFacultyRatio": {
+      "value": "8:1",
+      "sourceId": "s8",
+      "confidence": "high",
+      "asOf": "Fall 2025",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Based on 11,379 students and 1,466 faculty as quoted in search result."
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "1",
+      "sourceId": "s9"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "MyMIT (MIT's own application portal; MIT does not use the Common Application)",
+    "sourceId": "s10",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+  },
+  "applicationFee": {
+    "value": "USD 75 (or fee waiver)",
+    "sourceId": "s1",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+  },
+  "testing": [
+    {
+      "test": "SAT",
+      "policy": "required",
+      "typicalRange": "Class of 2029 admitted/enrolled middle 50%: SAT Math 780-800, SAT Evidence-Based Reading & Writing 740-780",
+      "sourceId": "s2",
+      "confidence": "high",
+      "notes": "MIT requires SAT or ACT for all first-year applicants; optional SAT essay not required; scores are self-reported at application and verified at enrollment; section superscoring; no minimum scores. Typical range from MIT class profile (Class of 2029). Score range source: s3 (class profile)."
+    },
+    {
+      "test": "ACT",
+      "policy": "required",
+      "typicalRange": "Class of 2029 middle 50%: ACT Composite 34-36 (Math 34-36, Reading 33-36, English 34-36)",
+      "sourceId": "s2",
+      "confidence": "high",
+      "notes": "ACT writing and science sections not required."
+    }
+  ],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "5.5 recommended (minimum 5)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": "7.5 recommended (minimum 7)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    },
+    {
+      "test": "PTE",
+      "minOverall": "70 recommended (minimum 65)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    },
+    {
+      "test": "CAMBRIDGE",
+      "minOverall": "190 recommended (minimum 185)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    },
+    {
+      "test": "DUOLINGO",
+      "minOverall": "125 recommended (minimum 120)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 66720,
+        "max": 66720,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Tuition is the same for domestic and international students ($33,360 per term)."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 66720,
+        "max": 66720,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy)."
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 26040,
+        "max": 27010,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Retrieved via WebSearch result quoting this official page (direct fetch blocked by the sandbox proxy). Itemised non-tuition costs: housing $14,090, food $8,104, books/supplies $930, personal $2,496, student life fee $420 = $26,040. MIT's catalog also quotes a total estimated cost of attendance of $93,730 (implying ~$27,010 beyond tuition); another MIT source shows $92,760. Retrieved sources disagree slightly; confirm with MIT Student Financial Services."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "MIT Scholarship (need-based financial aid)",
+      "kind": [
+        "need",
+        "international",
+        "partial",
+        "full"
+      ],
+      "eligibility": "Available to US and international undergraduates on the basis of demonstrated financial need only. MIT is need-blind in admissions for international students and meets the full demonstrated need of admitted students who apply for aid. No merit or athletic scholarships.",
+      "coverage": "Meets 100% of demonstrated financial need; amount varies by family circumstances",
+      "deadline": "Financial aid application due Nov 30 (Early Action applicants) and Feb 15 (Regular Action applicants)",
+      "renewable": true,
+      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+      "sourceId": "s16",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Action application (non-binding)",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Action application",
+      "date": "2027-01-04",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s1",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [
+    {
+      "category": "research",
+      "name": "Undergraduate Research Opportunities Program (UROP)",
+      "description": "Program letting MIT undergraduates join faculty research projects in any department for pay or credit; MIT reports 73% of first-years in the Class of 2028 participated in AY2025.",
+      "url": "https://urop.mit.edu/about/",
+      "sourceId": "s11"
+    },
+    {
+      "category": "international",
+      "name": "MISTI internships",
+      "description": "MIT International Science and Technology Initiatives places undergraduates in 3-12 month internships, teaching and research roles abroad, designed to be cost-neutral for students.",
+      "url": "https://misti.mit.edu/types-programs/internships",
+      "sourceId": "s12"
+    },
+    {
+      "category": "entrepreneurship",
+      "name": "MIT delta v (Martin Trust Center for MIT Entrepreneurship)",
+      "description": "Student venture accelerator running June-August with funding, mentorship and office space; participants have included undergraduates.",
+      "url": "https://entrepreneurship.mit.edu/mit-delta-v-the-v-is-for-virtual/",
+      "sourceId": "s13"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "computer-science-and-engineering-6-3",
+      "name": "Computer Science and Engineering (Course 6-3, BS)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science and Engineering",
+      "school": "School of Engineering / EECS (MIT Schwarzman College of Computing)",
+      "durationYears": 4,
+      "url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "summary": "Course 6-3 leads to the BS in Computer Science and Engineering. Per MIT's degree chart the required core includes 2.5 subjects in programming, 3 in systems and 3 in algorithmic thinking and theory, plus a linear algebra or probability and statistics subject. Applicants apply to MIT as a whole, begin undeclared and may declare a major from spring of the first year.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements. MIT treats IB coursework as college-level."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements. AP coursework treated as college-level."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "economics-14-1",
+      "name": "Economics (Course 14-1, BS)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": "Economics",
+      "school": "School of Humanities, Arts, and Social Sciences (Department of Economics)",
+      "durationYears": 4,
+      "url": "https://catalog.mit.edu/degree-charts/economics-course-14/",
+      "summary": "Course 14-1 leads to the BS in Economics. Required departmental subjects per the degree chart include 14.01 Principles of Microeconomics (or 14.03), 14.02 Principles of Macroeconomics, 14.30 Introduction to Statistical Methods in Economics, 14.32 Econometric Data Science and a thesis (14.THU). Applicants apply to MIT as a whole and declare a major after admission.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements. MIT treats IB coursework as college-level."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Calculus (at least the fundamentals before end of high school)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "MIT states it has no required high school classes; this is its stated ideal preparation."
+            },
+            {
+              "subject": "Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Chemistry",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            },
+            {
+              "subject": "English (four years)",
+              "level": null,
+              "minGrade": null,
+              "status": "recommended"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "MIT has no required high school classes and no stated minimum grades or scores for IB/A-level/CBSE; it does not convert international grades. Subjects listed are MIT's recommended preparation, not requirements. AP coursework treated as college-level."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Deadlines & requirements — MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "Tests & scores — MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "Class profile — MIT Admissions (Class of 2029)",
+      "url": "https://mitadmissions.org/apply/process/profile/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "Academic foundations (high school preparation) — MIT Admissions",
+      "url": "https://mitadmissions.org/apply/prepare/foundations/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "International applicants — MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/international/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "Cost of attendance 2026-27 — MIT Student Financial Services / MIT Catalog",
+      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/coa/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "Making MIT affordable — MIT Student Financial Services",
+      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "Enrollment Statistics — MIT Facts",
+      "url": "https://facts.mit.edu/enrollment-statistics/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "QS World University Rankings 2027 — TopUniversities",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "MyMIT — MIT Admissions",
+      "url": "https://my.mit.edu/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "About UROP — MIT",
+      "url": "https://urop.mit.edu/about/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "MISTI Internships — MIT",
+      "url": "https://misti.mit.edu/types-programs/internships",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "MIT delta v — Martin Trust Center for MIT Entrepreneurship",
+      "url": "https://entrepreneurship.mit.edu/mit-delta-v-the-v-is-for-virtual/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s14",
+      "label": "Computer Science and Engineering (Course 6-3) degree chart — MIT Catalog",
+      "url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s15",
+      "label": "Economics (Course 14-1) degree chart — MIT Catalog",
+      "url": "https://catalog.mit.edu/degree-charts/economics-course-14/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s16",
+      "label": "Need-blind and full-need aid — MIT Admissions",
+      "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s17",
+      "label": "How do international students apply to MIT? — MIT Admissions FAQ",
+      "url": "https://mitadmissions.org/help/faq/international-admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    }
+  ],
+  "lastVerified": "2026-10-02"
+}

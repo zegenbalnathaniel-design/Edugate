@@ -1,0 +1,166 @@
+{
+  "slug": "national-institute-of-design-ahmedabad",
+  "name": "National Institute of Design, Ahmedabad",
+  "officialName": "National Institute of Design, Ahmedabad",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "campuses": [],
+  "control": "public",
+  "category": "institute-of-national-importance",
+  "founded": 1961,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.nid.edu/",
+  "admissionsUrl": null,
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "NID Ahmedabad was established in 1961 with assistance from the Ford Foundation and the Sarabhai family, following a design program the Government of India commissioned from Charles and Ray Eames. It was declared an Institute of National Importance by an Act of Parliament in 2014, and now runs a four-year Bachelor of Design across eight specializations plus a Master of Design and doctoral programs.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bachelor-of-design",
+      "name": "Bachelor of Design (BDes)",
+      "degree": "BDes",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": null,
+      "summary": "Four-year Bachelor of Design across eight specialisations, with deliberately small cohorts per specialisation. Admission is through the NID Design Aptitude Test (written, then studio test and interview for shortlisted candidates).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by NID DAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NID DAT eligibility rules \u2014 check the source."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by NID DAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NID DAT eligibility rules \u2014 check the source."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "secondary",
+          "asOf": "2026-27",
+          "notes": "Admission is decided by NID DAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NID DAT eligibility rules \u2014 check the source."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s2",
+          "confidence": "secondary"
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "History of NID \u2014 official site",
+      "url": "https://www.nid.edu/about/history-of-nid",
+      "type": "university",
+      "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s2",
+      "label": "NID Ahmedabad admissions overview \u2014 CollegeDekho",
+      "url": "https://www.collegedekho.com/colleges/nid",
+      "type": "secondary",
+      "retrievedAt": "2026-09-28"
+    }
+  ],
+  "lastVerified": "2026-09-28"
+}

@@ -1,0 +1,499 @@
+{
+  "slug": "national-university-of-singapore",
+  "name": "National University of Singapore",
+  "officialName": "National University of Singapore",
+  "country": "Singapore",
+  "countryCode": "SG",
+  "region": "Singapore",
+  "city": "Singapore",
+  "campuses": [
+    "Kent Ridge",
+    "Bukit Timah",
+    "Outram"
+  ],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1905,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.nus.edu.sg/",
+  "admissionsUrl": "https://www.nus.edu.sg/oam/admissions",
+  "financialAidUrl": "https://www.nus.edu.sg/oam/financial-aid",
+  "internationalUrl": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/admission-requirements",
+  "summary": "Singapore's national research university, founded in 1905, with campuses at Kent Ridge, Bukit Timah and Outram. International applicants with IB, A-Level, CBSE/ISC and other qualifications apply through the Office of Admissions and are assessed holistically, with no fixed minimum grades published.",
+  "stats": {
+    "totalStudents": {
+      "value": 45000,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "2026",
+      "notes": "Published as 'over 45,000 students'."
+    },
+    "undergraduates": {
+      "value": 29600,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "2026"
+    },
+    "internationalShare": {
+      "value": "More than one third",
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "2026",
+      "notes": "Published as 'more than a third hailing from overseas'; nearly 100 nationalities in student body."
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "10",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "NUS Office of Admissions online application",
+    "sourceId": "s8",
+    "confidence": "high",
+    "asOf": null,
+    "notes": "Official page content was retrieved via search-result excerpts (nus.edu.sg is blocked for direct fetch in this environment); wording follows the excerpt of the official page."
+  },
+  "applicationFee": {
+    "value": "S$20 (international students with international qualifications); S$10 for other applicants",
+    "sourceId": "s8",
+    "confidence": "high",
+    "asOf": null,
+    "notes": "Non-refundable, GST inclusive, per application (except Music). Academic year the fee applies to not confirmed. Official page content was retrieved via search-result excerpts (nus.edu.sg is blocked for direct fetch in this environment); wording follows the excerpt of the official page."
+  },
+  "testing": [
+    {
+      "test": "SAT",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "high",
+      "notes": "Not required for CBSE/ISC applicants (also AP, ACT with Writing). For A-Level, NUS states SAT/ACT is not required with completed A-Level results but is required if exams are completed after the application closing date. Not required for IB Diploma applicants who apply on predicted results. Confirm current-year rule on NUS pages."
+    },
+    {
+      "test": "ACT",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "high",
+      "notes": "ACT with Writing; same conditions as SAT."
+    }
+  ],
+  "english": [
+    {
+      "test": "IELTS",
+      "minOverall": null,
+      "minSection": null,
+      "waiver": null,
+      "sourceId": null,
+      "confidence": "requires-verification"
+    }
+  ],
+  "costs": {
+    "currency": "SGD",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "NUS publishes AY2026/27 undergraduate fee tables (subsidised fees for international students receiving the MOE Tuition Grant, and non-subsidised fees) at the NUS Registrar PDF (s9), but the figures could not be read reliably here and search excerpts conflicted, so none are recorded. MOE Tuition Grant (s10, s18): international students who accept the grant are bonded to work for a Singapore entity for 3 years after graduation; liquidated damages (the subsidy plus interest) apply if breached."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Domestic (Singapore citizen/PR) fees not recorded; see NUS Registrar fee table."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "NUS International Undergraduate Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "full",
+        "competitive"
+      ],
+      "eligibility": "Citizens of all countries except Singapore with strong leadership potential, outstanding co-curricular records and outstanding high-school results, applying to a full-time NUS undergraduate degree. Transfer applicants not eligible.",
+      "coverage": "100% of subsidised tuition (after MOE Tuition Grant), S$5,800 annual living allowance, S$1,750 one-time computer allowance, S$5,000 annual accommodation allowance",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
+      "sourceId": "s11",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [
+    {
+      "category": "entrepreneurship",
+      "name": "NUS Overseas Colleges (NOC)",
+      "description": "Half- or full-year internships at start-ups in global entrepreneurial hubs (e.g. Silicon Valley, Beijing, Stockholm) while taking courses at partner universities.",
+      "url": "https://enterprise.nus.edu.sg/education-programmes/nus-overseas-colleges/programmes/",
+      "sourceId": "s13"
+    },
+    {
+      "category": "research",
+      "name": "Undergraduate Research Opportunities Programme (UROP)",
+      "description": "Undergraduates in Computing and other faculties undertake supervised research for credit.",
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/project/urop/",
+      "sourceId": "s14"
+    },
+    {
+      "category": "international",
+      "name": "Student Exchange Programme",
+      "description": "Exchange study at over 180 partner universities worldwide.",
+      "url": "https://nus.edu.sg/gro/global-programmes/student-exchange/partner-universities",
+      "sourceId": "s15"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "economics-bsocsci",
+      "name": "Economics (Bachelor of Social Sciences, Honours)",
+      "degree": "BSocSci (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": "Economics",
+      "school": "Faculty of Arts and Social Sciences — Department of Economics",
+      "durationYears": 4,
+      "url": "https://fass.nus.edu.sg/ecs/requirements-for-economics-major/",
+      "summary": "Four-year honours degree in Economics offered by the Department of Economics, NUS FASS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "conditional",
+              "notes": "A Mathematics prerequisite for the stand-alone Economics major in the IB table was not confirmed. Only the BBA (pass in SL MAA or HL MAI) and Business Analytics & Economics double degree (pass in HL MAA) were seen."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NUS states there is no fixed minimum IB score; applicants need the IB Diploma (3 HL + 3 SL, TOK and EE, English as one subject) and are assessed on final or predicted results. NUS publishes no IB grade profile (sample too small). Economics IB subject prerequisite not confirmed."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Good pass in at least four 'Advanced' Level subjects (minimum to apply; no fixed grade published)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "conditional",
+              "notes": "Stand-alone Economics prerequisite for international A-Level not confirmed; check the NUS programme pre-requisites page."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": ""
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "Good pass in five subjects including English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Main/Advanced not required; SAT/ACT/AP not required; no separate English test required. All programmes open; NUS assesses holistically. No marks cut-off published."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "Good pass in five subjects including English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Main/Advanced not required; SAT/ACT/AP not required; no separate English test required. All programmes open; NUS assesses holistically. No marks cut-off published."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null,
+        "notes": "Programme-specific fees not retrieved; see university-level costs note."
+      }
+    },
+    {
+      "slug": "computer-science-bcomp",
+      "name": "Computer Science (Bachelor of Computing, Honours)",
+      "degree": "BComp (Hons)",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science",
+      "school": "School of Computing",
+      "durationYears": 4,
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/curr/",
+      "summary": "Four-year BComp (Computer Science) at the NUS School of Computing, requiring at least 160 units.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Computer Science, Mathematics: Analysis and Approaches, or Physics (see notes)",
+              "level": "HL",
+              "minGrade": null,
+              "status": "conditional",
+              "notes": "NUS prerequisite for Computer Science as excerpted: a pass in HL Computer Science, HL Mathematics AA or HL Physics, or a good pass in SL Mathematics AA or HL Mathematics AI. Confirm exact wording in the NUS IBDP prerequisite table."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NUS states there is no fixed minimum IB score; applicants need the IB Diploma (3 HL + 3 SL, TOK and EE, English as one subject) and are assessed on final or predicted results. NUS publishes no IB grade profile (sample too small). "
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Good pass in at least four 'Advanced' Level subjects (minimum to apply; no fixed grade published)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Year 12 or higher level",
+              "minGrade": null,
+              "status": "required",
+              "notes": "As excerpted for Computer Science under International Qualifications (Category D): Year 12 or higher-level pass in Mathematics, no selection test. Confirm in NUS cat-d programme prerequisite table."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": ""
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "Good pass in five subjects including English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Main/Advanced not required; SAT/ACT/AP not required; no separate English test required. All programmes open; NUS assesses holistically. No marks cut-off published."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "Good pass in five subjects including English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Main/Advanced not required; SAT/ACT/AP not required; no separate English test required. All programmes open; NUS assesses holistically. No marks cut-off published."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null,
+        "notes": "Programme-specific fees not retrieved; see university-level costs note."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "NUS This Is NUS 2026 (key facts)",
+      "url": "https://nus.edu.sg/docs/default-source/corporate-files/about/this-is-nus.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027 — Top Global Universities",
+      "url": "https://www.topuniversities.com/qs-top-uni-wur",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "NUS OAM — Indian Standard 12 (CBSE and ISC)",
+      "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/indian-standard-12-cbse-and-isc",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "NUS OAM — IB Diploma admission requirements",
+      "url": "https://nus.edu.sg/oam/admissions/ib-diploma/admission-requirements",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "NUS OAM — International A-Level",
+      "url": "https://nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/international-a-level",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "NUS OAM — Programme Pre-requisites (international qualifications)",
+      "url": "https://www.nus.edu.sg/oam/apply-to-nus/international-qualifications/before-you-apply/programme-pre-requisites",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "NUS OAM — IB Diploma programme prerequisites (IBDP May 2021 and beyond)",
+      "url": "https://nus.edu.sg/oam/docs/default-source/international-baccalaureate/ibdp-may-2021-and-beyond-sdp-pre-req.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "NUS OAM — Undergraduate Admissions (application fee, platform)",
+      "url": "https://www.nus.edu.sg/oam/admissions/admissions",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "NUS Registrar — Undergraduate tuition fees per annum (AY2026/27)",
+      "url": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "MOE — Tuition Grant Scheme: bond matters",
+      "url": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters",
+      "type": "government",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "NUS OAM — NUS International Undergraduate Scholarship",
+      "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "NUS OAM — Indicative Grade Profile (IGP)",
+      "url": "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "NUS Enterprise — NUS Overseas Colleges",
+      "url": "https://enterprise.nus.edu.sg/education-programmes/nus-overseas-colleges/programmes/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s14",
+      "label": "NUS Computing — Undergraduate Research Opportunities Programme (UROP)",
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/project/urop/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s15",
+      "label": "NUS Global Relations Office — Student Exchange Partner Universities",
+      "url": "https://nus.edu.sg/gro/global-programmes/student-exchange/partner-universities",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s16",
+      "label": "NUS Department of Economics — Requirements for Economics Major",
+      "url": "https://fass.nus.edu.sg/ecs/requirements-for-economics-major/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s17",
+      "label": "NUS Computing — BComp (Computer Science) curriculum",
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/curr/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s18",
+      "label": "MOE — Tuition Grant Scheme",
+      "url": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme",
+      "type": "government",
+      "retrievedAt": "2026-10-02"
+    }
+  ],
+  "lastVerified": "2026-10-02"
+}

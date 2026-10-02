@@ -1,0 +1,180 @@
+{
+  "slug": "eth-zurich",
+  "name": "ETH Zurich",
+  "officialName": "Eidgenössische Technische Hochschule Zürich (ETH Zurich)",
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "region": "Canton of Zurich",
+  "city": "Zurich",
+  "campuses": ["Zentrum", "Hönggerberg"],
+  "control": "public",
+  "category": "technical",
+  "founded": 1855,
+  "setting": "urban",
+  "languages": ["German", "English"],
+  "website": "https://ethz.ch/en.html",
+  "admissionsUrl": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate.html",
+  "financialAidUrl": "https://ethz.ch/students/en/studies/financial.html",
+  "internationalUrl": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate.html",
+  "summary": "ETH Zurich is a Swiss federal technical university founded in 1855. Bachelor's programmes are taught mainly in German (first year entirely in German, with English increasing from year two), and applicants with foreign school certificates need German C1 and, in many cases, an entrance examination. From autumn 2025, new bachelor's students with a foreign entrance qualification pay CHF 2,190 tuition per semester.",
+  "stats": {
+    "totalStudents": { "value": 26942, "sourceId": "s1", "confidence": "high", "asOf": null, "notes": "As quoted in a search-result summary of ETH's 'Figures' page (includes 4,266 doctoral students); reference year not stated in the snippet." },
+    "undergraduates": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null },
+    "internationalShare": { "value": "44.2%", "sourceId": "s1", "confidence": "high", "asOf": "2024", "notes": "Share of international students as of 2024, per ETH facts-and-figures pages quoted in search-result summary." },
+    "studentFacultyRatio": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+  },
+  "rankings": [
+    { "org": "QS", "category": "World University Rankings", "edition": 2027, "rank": "8", "sourceId": "s2" }
+  ],
+  "applicationPlatform": { "value": "ETH eApply online application (non-Swiss matriculation certificate route); documents also sent by post", "sourceId": "s3", "confidence": "high", "asOf": "2026-27", "notes": "eApply named in search results for ETH application pages; postal-submission detail not verified." },
+  "applicationFee": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null },
+  "testing": [
+    { "test": "SAT", "policy": "not-applicable", "typicalRange": null, "sourceId": "s4", "confidence": "high", "notes": "ETH admission rests on the school-leaving certificate (and, if required, the ETH entrance examination). No SAT requirement found; US applicants need AP tests (see program)." }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "CHF",
+    "internationalTuition": { "value": { "min": 4380, "max": 4380, "period": "year" }, "sourceId": "s5", "confidence": "high", "asOf": "2025-26 onward", "notes": "CHF 2,190 per semester (threefold fee) for new bachelor's students with a foreign university entrance qualification, from autumn semester 2025. Compulsory semester fees (ASVZ 35, scholarship fund 7, VSETH 32 = CHF 74 per semester) come on top. Foreign students resident in Switzerland/Liechtenstein when they obtained their Matura pay the simple fee." },
+    "domesticTuition": { "value": { "min": 1460, "max": 1460, "period": "year" }, "sourceId": "s5", "confidence": "high", "asOf": "2025-26 onward", "notes": "CHF 730 per semester simple fee for Swiss citizens (and foreign students resident in Switzerland/Liechtenstein when acquiring their entrance qualification). There is no separate EU/EEA rate: EU/EEA students with a foreign entrance qualification pay the same higher fee as other international students." },
+    "livingEstimate": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null, "notes": "ETH publishes a 'Study and Living Costs International students' PDF but the figures were not retrieved." }
+  },
+  "scholarships": [
+    {
+      "name": "ETH scholarships for international bachelor's students",
+      "kind": ["need", "international", "partial"],
+      "eligibility": "International bachelor's students may apply for an ETH scholarship after passing the first-year examinations (Basisprüfung).",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/cost-of-living/international-students.html",
+      "sourceId": "s6",
+      "confidence": "high"
+    },
+    {
+      "name": "Solidarity Fund for Foreign Students",
+      "kind": ["need", "international", "partial"],
+      "eligibility": "Foreign bachelor's and master's students may apply for financial support from the second semester onward.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/solidarity-fund.html",
+      "sourceId": "s6",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    { "label": "Application deadline, foreign school-leaving certificate (window opens 1 Dec 2026)", "date": "2027-03-31", "intake": "Autumn 2027", "timezone": "Europe/Zurich", "sourceId": "s7", "confidence": "high" },
+    { "label": "Registration deadline for the ETH entrance examination (held 18-28 January 2027), if required", "date": "2026-10-15", "intake": "Autumn 2027", "timezone": "Europe/Zurich", "sourceId": "s7", "confidence": "high" }
+  ],
+  "opportunities": [
+    { "category": "entrepreneurship", "name": "Student Project House", "description": "A 1,200 m2 makerspace at the Zentrum campus where students work on their own projects outside the curriculum.", "url": "https://sph.ethz.ch/news/student-project-house-opens-in-zentrum", "sourceId": "s8" },
+    { "category": "entrepreneurship", "name": "ETH Pioneer Fellowship", "description": "Incubation programme with funding and 12-18 months of coaching; open to ETH Master's and doctoral students and researchers, not bachelor's students.", "url": "https://entrepreneurship.ethz.ch/startups-spinoffs/find-offers-programs-space-grants-for-entrepreneurs/pioneer-fellowship.html", "sourceId": "s9" },
+    { "category": "internships", "name": "Internships and external thesis projects", "description": "ETH's partnerships office lists internships and external thesis projects with industry partners for students.", "url": "https://partnerships.ethz.ch/for-students/internships-and-external-thesis-projects.html", "sourceId": "s10" }
+  ],
+  "programs": [
+    {
+      "slug": "computer-science-bsc",
+      "name": "Computer Science (BSc)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science",
+      "school": "Department of Computer Science (D-INFK)",
+      "durationYears": null,
+      "url": "https://inf.ethz.ch/studies/bachelor.html",
+      "summary": "German-taught bachelor's programme: first-year courses and exams must be in German (56 compulsory credits), then English-taught courses may make up at most a quarter of year two and half of year three.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            { "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation", "level": "HL", "minGrade": null, "status": "required", "notes": "Both AA and AI accepted for the no-exam route." },
+            { "subject": "Physics, chemistry or biology (one)", "level": null, "minGrade": null, "status": "required", "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there." },
+            { "subject": "Language of instruction or a foreign language", "level": null, "minGrade": null, "status": "required", "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there." }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            { "subject": "Mathematics", "level": "A-level", "minGrade": "A", "status": "required" },
+            { "subject": "Physics or chemistry or biology", "level": "A-level", "minGrade": "A", "status": "required" },
+            { "subject": "Language of instruction or a foreign language", "level": "A-level", "minGrade": "A", "status": "required" }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            { "subject": "Mathematics (AP)", "level": "AP", "minGrade": "3", "status": "required" },
+            { "subject": "Biology or physics or chemistry (AP)", "level": "AP", "minGrade": "3", "status": "required" },
+            { "subject": "One language (AP)", "level": "AP", "minGrade": "3", "status": "required" }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        { "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)", "policy": "required", "typicalRange": null, "sourceId": "s7", "confidence": "high", "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing." },
+        { "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)", "policy": "required", "typicalRange": null, "sourceId": "s11", "confidence": "high", "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates." }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    { "id": "s1", "label": "Figures — ETH Zurich", "url": "https://ethz.ch/en/the-eth-zurich/education/figures.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s2", "label": "ETH Zurich once again makes the top 10 universities in the world (QS 2027)", "url": "https://www.iamexpat.ch/education/education-news/eth-zurich-makes-top-universities-world", "type": "journalism", "retrievedAt": "2026-10-02" },
+    { "id": "s3", "label": "Application process — non-Swiss matriculation certificate", "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s4", "label": "Admission prerequisites — ETH Zurich (non-Swiss matriculation certificate)", "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/admission-prerequisites.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s5", "label": "Tuition fees — ETH Zurich", "url": "https://ethz.ch/students/en/studies/financial/tuition-fees.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s6", "label": "Scholarships — International students (ETH Zurich)", "url": "https://ethz.ch/students/en/studies/financial/scholarships/cost-of-living/international-students.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s7", "label": "Dates Autumn Semester 2026 & 2027 — ETH Zurich bachelor application", "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/dates.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s8", "label": "Student Project House opens in Zentrum", "url": "https://sph.ethz.ch/news/student-project-house-opens-in-zentrum", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s9", "label": "ETH Pioneer Fellowship", "url": "https://entrepreneurship.ethz.ch/startups-spinoffs/find-offers-programs-space-grants-for-entrepreneurs/pioneer-fellowship.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s10", "label": "Internships and External Thesis Projects — ETH Partnerships", "url": "https://partnerships.ethz.ch/for-students/internships-and-external-thesis-projects.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s11", "label": "Language requirements — ETH Zurich bachelor (non-Swiss certificate)", "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/language-requirements.html", "type": "university", "retrievedAt": "2026-10-02" },
+    { "id": "s12", "label": "Bachelor's Programme — D-INFK Computer Science", "url": "https://inf.ethz.ch/studies/bachelor.html", "type": "university", "retrievedAt": "2026-10-02" }
+  ],
+  "lastVerified": "2026-10-02"
+}

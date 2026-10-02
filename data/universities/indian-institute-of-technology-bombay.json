@@ -1,0 +1,574 @@
+{
+  "slug": "indian-institute-of-technology-bombay",
+  "name": "IIT Bombay",
+  "officialName": "Indian Institute of Technology Bombay",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Maharashtra",
+  "city": "Mumbai",
+  "campuses": [
+    "Powai"
+  ],
+  "control": "public",
+  "category": "institute-of-national-importance",
+  "founded": 1958,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.iitb.ac.in/",
+  "admissionsUrl": "https://acad.iitb.ac.in/admissions/bachelors",
+  "financialAidUrl": "https://acad.iitb.ac.in/ug-scholarships",
+  "internationalUrl": "https://acad.iitb.ac.in/admissions/international",
+  "summary": "IIT Bombay is a public Institute of National Importance established in 1958, with a 200-hectare campus at Powai, Mumbai. Undergraduate B.Tech admission is through JEE Advanced and JoSAA; the B.Des programme at the IDC School of Design is entered through UCEED.",
+  "stats": {
+    "totalStudents": {
+      "value": 12986,
+      "sourceId": "s2",
+      "confidence": "high",
+      "asOf": "2022-23",
+      "notes": "Total on-roll students per the IIT Bombay pocket statistics 2022-23 (latest edition located)."
+    },
+    "undergraduates": {
+      "value": 5972,
+      "sourceId": "s2",
+      "confidence": "high",
+      "asOf": "2022-23",
+      "notes": "Undergraduate/Dual Degree students per pocket statistics 2022-23."
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "134",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "3",
+      "sourceId": "s4"
+    },
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "3",
+      "sourceId": "s4"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "JoSAA counselling after JEE Main and JEE Advanced (B.Tech); UCEED common application form for B.Des",
+    "sourceId": "s5",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null,
+    "notes": "JEE Advanced / JoSAA / UCEED fees are set by the exam and counselling bodies; UCEED 2027 registration fee is INR 2,000 (female, SC/ST/PwD) or INR 4,000 (other Indian nationals) per a search result quoting the UCEED site; not verified on the page."
+  },
+  "testing": [
+    {
+      "test": "JEE Advanced",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "high",
+      "notes": "B.Tech entry for Indian candidates is via JEE Main then JEE Advanced and JoSAA. Foreign nationals may register for JEE Advanced directly without JEE Main (supernumerary seats capped at 10% of seats per course)."
+    },
+    {
+      "test": "UCEED",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s9",
+      "confidence": "high",
+      "notes": "Required for B.Des."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": {
+        "min": 600000,
+        "max": 600000,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "INR 3,00,000 per semester for foreign nationals (two semesters per year); per a search result quoting the fee circular. PIO/OCI cardholders (cards issued before 04/03/2021) admitted in OPEN pay Indian-national fees."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 200000,
+        "max": 200000,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "INR 1,00,000 per semester for Indian nationals (two semesters per year), excluding other fees; SC/ST/PwD are exempt from tuition fee."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Institute Merit-cum-Means (MCM) Scholarship",
+      "kind": [
+        "merit",
+        "need",
+        "domestic",
+        "partial"
+      ],
+      "eligibility": "For new entrants the criterion is JEE rank (B.Tech/dual degree) or UCEED rank (B.Des); parental gross annual income must not exceed INR 4,50,000.",
+      "coverage": "Free tuition fee per semester plus INR 1,000 per month, for up to 25% of sanctioned UG intake",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://acad.iitb.ac.in/ug-scholarships",
+      "sourceId": "s8",
+      "confidence": "high"
+    },
+    {
+      "name": "Tuition fee exemption and free messing for SC/ST students",
+      "kind": [
+        "need",
+        "domestic",
+        "partial"
+      ],
+      "eligibility": "All SC/ST students (and PwD for tuition) are exempt from tuition fee; free messing for eligible SC/ST B.Tech and dual degree students.",
+      "coverage": "Tuition fee exemption; free messing where eligible",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://acad.iitb.ac.in/ug-scholarships",
+      "sourceId": "s8",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "UCEED 2027 online registration closes (regular fee)",
+      "date": "2026-10-31",
+      "intake": "Fall 2027",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s10",
+      "confidence": "high"
+    },
+    {
+      "label": "UCEED 2027 examination",
+      "date": "2027-01-17",
+      "intake": "Fall 2027",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s10",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [
+    {
+      "category": "entrepreneurship",
+      "name": "SINE (Society for Innovation and Entrepreneurship)",
+      "description": "Technology business incubator at IIT Bombay supporting start-ups with incubation, mentorship and funding; alumni ventures include ideaForge and Atomberg.",
+      "url": "https://www.sineiitb.org/",
+      "sourceId": "s13"
+    },
+    {
+      "category": "research",
+      "name": "IIT Bombay Research Park",
+      "description": "A research park where companies set up labs and offices on campus and engage students for internships and employment.",
+      "url": "https://www.ee.iitb.ac.in/~bh/pages/articles/Aspire-IIT-Bombay-Research-Park.html",
+      "sourceId": "s14"
+    },
+    {
+      "category": "research",
+      "name": "IITB Research Internship (IRCC)",
+      "description": "Full-time research internship awarded to eligible students for projects proposed by IIT Bombay faculty.",
+      "url": "https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/",
+      "sourceId": "s15"
+    },
+    {
+      "category": "international",
+      "name": "International student exchange",
+      "description": "IIT Bombay has MoUs with universities abroad under which students can do coursework or project work.",
+      "url": "https://www.iitb.ac.in/international-exchange-opportunities",
+      "sourceId": "s16"
+    },
+    {
+      "category": "careers",
+      "name": "Campus placements and internships",
+      "description": "The 2023-24 placement and internship report records 1,475 students placed that year.",
+      "url": "https://campus.placements.iitb.ac.in/static/docs/placement_report_2023_24.pdf",
+      "sourceId": "s17"
+    }
+  ],
+  "programs": [
+    {
+      "slug": "computer-science-and-engineering-btech",
+      "name": "Computer Science and Engineering (B.Tech)",
+      "degree": "BTech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computer Science and Engineering",
+      "school": "Department of Computer Science and Engineering",
+      "durationYears": 4,
+      "url": "https://www.cse.iitb.ac.in/",
+      "summary": "Four-year B.Tech offered by the Department of Computer Science and Engineering; admission via JEE Advanced and JoSAA.",
+      "curriculum": [
+        {
+          "year": 1,
+          "courses": [
+            "CS 101 Computer Programming and Utilization"
+          ]
+        },
+        {
+          "year": 2,
+          "courses": [
+            "CS 207 Discrete Structures",
+            "CS 213 Data Structures and Algorithms"
+          ]
+        }
+      ],
+      "curriculumSourceId": "s11",
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Criteria are for the JEE Advanced 2026 cycle. Candidates must also qualify through JEE Main and JEE Advanced and be allotted a seat via JoSAA. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Criteria are for the JEE Advanced 2026 cycle. Candidates must also qualify through JEE Main and JEE Advanced and be allotted a seat via JoSAA. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Criteria are for the JEE Advanced 2026 cycle. Candidates must also qualify through JEE Main and JEE Advanced and be allotted a seat via JoSAA. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "design-bdes",
+      "name": "Bachelor of Design (B.Des)",
+      "degree": "BDes",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": "Design",
+      "school": "IDC School of Design",
+      "durationYears": 4,
+      "url": "https://www.idc.iitb.ac.in/admission/bdes-admission",
+      "summary": "Four-year (eight-semester) B.Des programme at IDC School of Design, started in 2015; a five-year B.Des + M.Des dual degree is also offered.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Class XII (any stream)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Candidates from all streams are eligible for IIT Bombay B.Des; must have passed all five Class XII subjects in the qualifying year(s) stated by UCEED (2025/2026 for the 2026 cycle; Class XII passed in 2026 or appearing in 2027 for UCEED 2027)."
+            }
+          ],
+          "sourceId": "s9",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Class XII (any stream)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Candidates from all streams are eligible for IIT Bombay B.Des; must have passed all five Class XII subjects in the qualifying year(s) stated by UCEED (2025/2026 for the 2026 cycle; Class XII passed in 2026 or appearing in 2027 for UCEED 2027)."
+            }
+          ],
+          "sourceId": "s9",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Class XII (any stream)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Candidates from all streams are eligible for IIT Bombay B.Des; must have passed all five Class XII subjects in the qualifying year(s) stated by UCEED (2025/2026 for the 2026 cycle; Class XII passed in 2026 or appearing in 2027 for UCEED 2027)."
+            }
+          ],
+          "sourceId": "s9",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "UCEED",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s9",
+          "confidence": "high",
+          "notes": "UCEED 2027 is scheduled for 17 January 2027."
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "label": "About IIT Bombay",
+      "url": "https://www.iitb.ac.in/about-iit-bombay",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "IIT Bombay in brief - Pocket statistics 2022-23",
+      "url": "https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-03/Pocket%20statistics%202022_2023.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "QS World University Rankings 2027: IIT Delhi remains India's highest-ranked institution (All India Radio News)",
+      "url": "https://newsonair.gov.in/iit-delhi-remains-indias-highest-ranked-institution-in-qs-world-university-rankings-2027/",
+      "type": "journalism",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "Legacy of Excellence: NIRF 2025 (IIT Bombay Alumni Relations)",
+      "url": "https://acr.iitbombay.org/?p=315190",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "JEE (Advanced) 2026 - Admission criteria",
+      "url": "https://jeeadv.ac.in/admission_criteria.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "JEE (Advanced) 2026 - Foreign national candidates",
+      "url": "https://jeeadv.ac.in/foreign.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "IIT Bombay Fee Circular 2026-27",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Final%20SignedFee_circular_2026-27.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "UG Scholarships - Academic Office, IIT Bombay",
+      "url": "https://acad.iitb.ac.in/ug-scholarships",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "UCEED 2026: Eligibility for Admission (B.Des) - IIT Bombay",
+      "url": "https://www.uceed.iitb.ac.in/2026/eligibility-admission.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "UCEED 2027: Important Dates",
+      "url": "https://www.uceed.iitb.ac.in/2027/important-dates.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "CSE IIT Bombay - 2023 batch semester-wise B.Tech curriculum",
+      "url": "https://www.cse.iitb.ac.in/infoczar/lib/exe/fetch.php?media=public%3Adugc%3Acurriculum_2023batch_cse_-_semester-wise_curriculum.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "B.Des Admission - IDC School of Design",
+      "url": "https://www.idc.iitb.ac.in/admission/bdes-admission",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "SINE - Society for Innovation and Entrepreneurship, IIT Bombay",
+      "url": "https://www.sineiitb.org/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s14",
+      "label": "IIT Bombay Research Park",
+      "url": "https://www.ee.iitb.ac.in/~bh/pages/articles/Aspire-IIT-Bombay-Research-Park.html",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s15",
+      "label": "IITB Research Internship - IRCC",
+      "url": "https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s16",
+      "label": "International exchange opportunities - IIT Bombay",
+      "url": "https://www.iitb.ac.in/international-exchange-opportunities",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s17",
+      "label": "Placement and Internship Report 2023-24",
+      "url": "https://campus.placements.iitb.ac.in/static/docs/placement_report_2023_24.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s18",
+      "label": "UCEED 2027: Eligibility for Exam",
+      "url": "https://www.uceed.iitb.ac.in/2027/eligibility-exam.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-02"
+    }
+  ],
+  "lastVerified": "2026-10-02"
+}
