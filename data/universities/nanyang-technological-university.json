@@ -1,0 +1,311 @@
+{
+  "slug": "nanyang-technological-university",
+  "name": "NTU Singapore",
+  "officialName": "Nanyang Technological University, Singapore",
+  "country": "Singapore",
+  "countryCode": "SG",
+  "region": "Singapore",
+  "city": "Singapore",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1991,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ntu.edu.sg/",
+  "admissionsUrl": "https://www.ntu.edu.sg/admissions/undergraduate",
+  "financialAidUrl": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding",
+  "internationalUrl": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide/international-qualifications",
+  "summary": "NTU was inaugurated on 1 July 1991 and has about 40,700 undergraduate and postgraduate students on a 200-hectare campus. Without the Singapore MOE Tuition Grant, most programmes cost international students S$40,600 a year. New students are guaranteed campus housing for their first two years.",
+  "stats": {
+    "totalStudents": {
+      "value": 40700,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "12",
+      "sourceId": "s3"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "NTU online undergraduate application",
+    "sourceId": "s5",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "SGD",
+    "internationalTuition": {
+      "value": {
+        "min": 40600,
+        "max": 45600,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "International students without the MOE Tuition Grant, GST-inclusive: S$40,600 for most programmes; S$45,600 for Accountancy, Business and related combinations."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "Application deadline — international qualifications",
+      "date": "2027-01-20",
+      "intake": "AY2027-28",
+      "timezone": "Asia/Singapore",
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Application deadline — IB Diploma candidates sitting May 2027",
+      "date": "2027-03-19",
+      "intake": "AY2027-28",
+      "timezone": "Asia/Singapore",
+      "sourceId": "s6",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Undergraduate Computer Science at NTU.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "IB applicants are assessed against other IB applicants on score and subjects; NTU does not publish an IB grade profile because of small numbers."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 40600,
+          "max": 40600,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "International, without the Tuition Grant."
+      }
+    },
+    {
+      "slug": "business",
+      "name": "Business",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Undergraduate Business; charged at NTU's higher business fee band.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "IB applicants are assessed against other IB applicants on score and subjects; NTU does not publish an IB grade profile because of small numbers."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 45600,
+          "max": 45600,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "International, without the Tuition Grant."
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 494,
+      "sourceId": "s2",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "200 hectares, as stated by NTU (converted to acres)."
+    },
+    "housing": {
+      "value": "New students are guaranteed on-campus housing for their first two years if they apply during the designated application period.",
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": null
+    },
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "International-qualification applicants apply by 20 January 2027; IB candidates sitting May 2027 exams by 19 March 2027.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Upload documents",
+        "detail": "Submit documents in the checklist within three days of the closing date.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Tuition Grant decision",
+        "detail": "Decide whether to apply for the MOE Tuition Grant — check its conditions on NTU's fees page — or pay the full fee.",
+        "sourceId": "s4"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition — most programmes (international, no Tuition Grant)",
+        "audience": "international",
+        "amount": {
+          "min": 40600,
+          "max": 40600,
+          "period": "year"
+        },
+        "currency": "SGD",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Tuition — Accountancy/Business programmes (international, no Tuition Grant)",
+        "audience": "international",
+        "amount": {
+          "min": 45600,
+          "max": 45600,
+          "period": "year"
+        },
+        "currency": "SGD",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "NTU — Our history",
+      "url": "https://www.ntu.edu.sg/about-us/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "NTU — Discover NTU",
+      "url": "https://www.ntu.edu.sg/about-us/discover-ntu",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Tabla! — NTU retains 12th spot in QS World University Rankings",
+      "url": "https://www.tabla.com.sg/short-news/nus-drops-10th-place-while-ntu-retains-12th-spot-qs-world-university-rankings",
+      "type": "journalism",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "NTU — Tuition fees (accepted programme offer in 2026)",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "NTU — General admission requirements (international qualifications)",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide/international-qualifications",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "NTU — International Baccalaureate Diploma",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide/international-baccalaureate-diploma",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "NTU — FAQ for international freshmen",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/freshmen/freshmen-info/faq-for-international-freshmen",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

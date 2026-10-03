@@ -1,0 +1,227 @@
+{
+  "slug": "kaist",
+  "name": "KAIST",
+  "officialName": "Korea Advanced Institute of Science and Technology",
+  "country": "South Korea",
+  "countryCode": "KR",
+  "region": "Daejeon",
+  "city": "Daejeon",
+  "campuses": [],
+  "control": "public",
+  "category": "technical",
+  "founded": 1971,
+  "setting": null,
+  "languages": [
+    "Korean",
+    "English"
+  ],
+  "website": "https://www.kaist.ac.kr/en/",
+  "admissionsUrl": "https://admission.kaist.ac.kr/intl-undergraduate/",
+  "financialAidUrl": "https://www.kaist.ac.kr/en/html/edu/03100502.html",
+  "internationalUrl": "https://admission.kaist.ac.kr/intl-undergraduate/",
+  "summary": "KAIST was founded on 16 February 1971 with a mandate to educate scientists and engineers and drive Korea's industrial research. Every admitted international undergraduate receives a full scholarship covering tuition, a monthly allowance and national health insurance.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "65",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "KAIST international undergraduate online application",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2027"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "KRW",
+    "internationalTuition": {
+      "value": {
+        "min": 0,
+        "max": 0,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "high",
+      "asOf": "2027",
+      "notes": "Covered in full by the scholarship given to every admitted international undergraduate."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "KAIST international undergraduate scholarship",
+      "kind": [
+        "full",
+        "international",
+        "automatic"
+      ],
+      "eligibility": "Every admitted international undergraduate student.",
+      "coverage": "Full tuition, about US$300 a month allowance and national health insurance",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s4",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Admission application closes (6pm KST) — Spring and Fall tracks",
+      "date": "2026-10-22",
+      "intake": "Spring / Fall 2027",
+      "timezone": "Asia/Seoul",
+      "sourceId": "s3",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Admission application closes (6pm KST) — Fall track",
+      "date": "2027-01-14",
+      "intake": "Fall 2027",
+      "timezone": "Asia/Seoul",
+      "sourceId": "s3",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "school-of-computing",
+      "name": "Computer Science (School of Computing)",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "School of Computing",
+      "durationYears": null,
+      "url": "https://cs.kaist.ac.kr/",
+      "summary": "International undergraduates can apply to the School of Computing; the full scholarship applies across departments.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Foreign citizenship required; for Fall 2027 you must graduate from high school by 31 August 2027."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Foreign citizenship required; for Fall 2027 you must graduate from high school by 31 August 2027."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Pick a track",
+        "detail": "Early Admission: 22 Sep – 22 Oct 2026 (Spring or Fall entry). Regular Admission: 10 Nov 2026 – 14 Jan 2027 (Fall).",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Check eligibility",
+        "detail": "Foreign citizenship required; for Fall 2027 you must graduate from high school by 31 August 2027.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Scholarship",
+        "detail": "Admitted international students receive the full scholarship automatically.",
+        "sourceId": "s4"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "KAIST — Founding philosophy",
+      "url": "https://www.kaist.ac.kr/en/html/kaist/011701.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "TopUniversities — KAIST",
+      "url": "https://www.topuniversities.com/universities/kaist-korea-advanced-institute-science-technology",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "KAIST Admissions — International undergraduate application timeline",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "KAIST Admissions — Why KAIST (international undergraduate)",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/about/why",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

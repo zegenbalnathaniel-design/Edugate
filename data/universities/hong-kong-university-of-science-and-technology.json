@@ -1,0 +1,310 @@
+{
+  "slug": "hong-kong-university-of-science-and-technology",
+  "name": "HKUST",
+  "officialName": "The Hong Kong University of Science and Technology",
+  "country": "Hong Kong",
+  "countryCode": "HK",
+  "region": "New Territories",
+  "city": "Hong Kong",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1991,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://hkust.edu.hk/",
+  "admissionsUrl": "https://join.hkust.edu.hk/",
+  "financialAidUrl": "https://join.hkust.edu.hk/fees-and-scholarships",
+  "internationalUrl": "https://join.hkust.edu.hk/admissions/international-qualifications",
+  "summary": "HKUST was founded in 1991 and has more than 20,000 students, about 11,000 of them undergraduates. International-qualification applicants have a priority round closing 25 November 2026; admission scholarships are awarded with the offer, without a separate application.",
+  "stats": {
+    "totalStudents": {
+      "value": 20000,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"20,000+\": about 11,000 undergraduates and 8,000 postgraduates."
+    },
+    "undergraduates": {
+      "value": 11000,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "33",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "HKUST online application (international qualifications)",
+    "sourceId": "s5",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "HKD",
+    "internationalTuition": {
+      "value": {
+        "min": 215000,
+        "max": 215000,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Non-local students admitted in 2026-27."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "HKUST admission scholarships",
+      "kind": [
+        "merit",
+        "international",
+        "automatic"
+      ],
+      "eligibility": "Outstanding admitted students; no separate application — decisions come with the offer.",
+      "coverage": "From HK$5,000 one-off up to full tuition plus HK$60,000 a year living allowance (renewable)",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s4",
+      "confidence": "official"
+    },
+    {
+      "name": "Future Leaders Award",
+      "kind": [
+        "need",
+        "merit",
+        "international"
+      ],
+      "eligibility": "Exceptional non-local students with financial need.",
+      "coverage": "HK$50,000 one-off, or full tuition plus living allowance (renewable) for exceptional need",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s4",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Priority round deadline (international qualifications)",
+      "date": "2026-11-25",
+      "intake": "2027 entry",
+      "timezone": "Asia/Hong_Kong",
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Application system closes",
+      "date": "2027-06-30",
+      "intake": "2027 entry",
+      "timezone": "Asia/Hong_Kong",
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "beng-computer-science",
+      "name": "BEng in Computer Science",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "School of Engineering",
+      "durationYears": null,
+      "url": "https://cse.hkust.edu.hk/ug/comp/",
+      "summary": "Broad grounding across the core of computer science with flexibility to specialise; accredited by the Hong Kong Institution of Engineers.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    },
+    {
+      "slug": "economics-and-finance",
+      "name": "Economics and Finance",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "School of Business and Management",
+      "durationYears": null,
+      "url": "https://join.hkust.edu.hk/our-programs/school-of-business-and-management/economics-and-finance",
+      "summary": "Economics and Finance at the School of Business and Management.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "Priority round by 25 November 2026; rolling from 26 November; the system closes 30 June 2027.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Scholarships",
+        "detail": "Admission scholarship decisions arrive with the offer.",
+        "sourceId": "s4"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition (non-local)",
+        "audience": "international",
+        "amount": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "currency": "HKD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "HKUST — Facts & figures",
+      "url": "https://hkust.edu.hk/facts-figures",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "TopUniversities — HKUST",
+      "url": "https://www.topuniversities.com/universities/hong-kong-university-science-technology",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "HKUST Registry — Tuition rates (UG)",
+      "url": "https://registry.hkust.edu.hk/resource-library/tuition-rates-ug",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "HKUST — Fees and scholarships",
+      "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "HKUST — Application procedures for international qualification holders",
+      "url": "https://join.hkust.edu.hk/admissions/international-qualifications/application-procedures",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "HKUST CSE — BEng in Computer Science",
+      "url": "https://cse.hkust.edu.hk/ug/comp/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "HKUST — Economics and Finance",
+      "url": "https://join.hkust.edu.hk/our-programs/school-of-business-and-management/economics-and-finance",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

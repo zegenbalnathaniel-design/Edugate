@@ -1,0 +1,292 @@
+{
+  "slug": "singapore-management-university",
+  "name": "Singapore Management University",
+  "officialName": "Singapore Management University",
+  "country": "Singapore",
+  "countryCode": "SG",
+  "region": "Singapore",
+  "city": "Singapore",
+  "campuses": [],
+  "control": "public",
+  "category": "business-school",
+  "founded": 2000,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.smu.edu.sg/",
+  "admissionsUrl": "https://admissions.smu.edu.sg/",
+  "financialAidUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant",
+  "internationalUrl": "https://admissions.smu.edu.sg/admissions-requirements/international-and-other-qualifications",
+  "summary": "SMU was established in 2000 and has more than 12,000 students. International undergraduates pay a subsidised fee if they take the Singapore MOE Tuition Grant, or a higher non-subsidised fee without it.",
+  "stats": {
+    "totalStudents": {
+      "value": 12000,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"Over 12,000 students\"."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=411",
+      "sourceId": "s3"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "SGD",
+    "internationalTuition": {
+      "value": {
+        "min": 26200,
+        "max": 47700,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Business Management and Economics: S$26,200 with the MOE Tuition Grant (subsidised) or S$47,700 without it (non-subsidised), GST-inclusive."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bachelor-business-management",
+      "name": "Bachelor of Business Management",
+      "degree": "BBM",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://admissions.smu.edu.sg/",
+      "summary": "Undergraduate business degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "International qualifications are assessed per SMU's published requirements; see the international qualifications page."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "International qualifications are assessed per SMU's published requirements; see the international qualifications page."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 26200,
+          "max": 47700,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "With / without the Tuition Grant."
+      }
+    },
+    {
+      "slug": "bsc-economics",
+      "name": "Bachelor of Science (Economics)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://admissions.smu.edu.sg/",
+      "summary": "Undergraduate economics degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "International qualifications are assessed per SMU's published requirements; see the international qualifications page."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "International qualifications are assessed per SMU's published requirements; see the international qualifications page."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 26200,
+          "max": 47700,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "With / without the Tuition Grant."
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Check the dates",
+        "detail": "The AY2026-27 application closed on 19 March 2026; the AY2027-28 dates are published on SMU's important-dates page.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Tuition Grant decision",
+        "detail": "Decide whether to take the MOE Tuition Grant (subsidised fee) — check its conditions — or pay the non-subsidised fee.",
+        "sourceId": "s4"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition — BBM / Economics, with Tuition Grant",
+        "audience": "international",
+        "amount": {
+          "min": 26200,
+          "max": 26200,
+          "period": "year"
+        },
+        "currency": "SGD",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Tuition — BBM / Economics, without Tuition Grant",
+        "audience": "international",
+        "amount": {
+          "min": 47700,
+          "max": 47700,
+          "period": "year"
+        },
+        "currency": "SGD",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "SMU — History",
+      "url": "https://www.smu.edu.sg/about/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "SMU — About",
+      "url": "https://www.smu.edu.sg/about",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "TopUniversities — Singapore Management University",
+      "url": "https://www.topuniversities.com/universities/singapore-management-university",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "SMU Admissions — Tuition fees & grant",
+      "url": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "SMU Admissions — Important dates",
+      "url": "https://admissions.smu.edu.sg/admissions-requirements/important-dates",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "SMU Admissions — International and other qualifications",
+      "url": "https://admissions.smu.edu.sg/admissions-requirements/international-and-other-qualifications",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

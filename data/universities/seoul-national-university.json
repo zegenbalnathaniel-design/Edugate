@@ -1,0 +1,249 @@
+{
+  "slug": "seoul-national-university",
+  "name": "Seoul National University",
+  "officialName": "Seoul National University",
+  "country": "South Korea",
+  "countryCode": "KR",
+  "region": "Seoul",
+  "city": "Seoul",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1946,
+  "setting": null,
+  "languages": [
+    "Korean",
+    "English"
+  ],
+  "website": "https://en.snu.ac.kr/",
+  "admissionsUrl": "https://en.snu.ac.kr/admission",
+  "financialAidUrl": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+  "internationalUrl": "https://en.snu.ac.kr/admission",
+  "summary": "SNU was founded on 22 August 1946 and opened that October with nine colleges and a graduate school. International undergraduate applicants prove proficiency in either Korean (TOPIK 3+) or English (TOEFL iBT 80 / IELTS 6.0); tuition varies by major and credits.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "38",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "80",
+      "minSection": null,
+      "waiver": "Or TOPIK level 3+ (Korean), TEPS 551, or SNU Korean Language Center level 4+",
+      "sourceId": "s3",
+      "confidence": "official"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": "6.0",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s3",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "KRW",
+    "internationalTuition": {
+      "value": {
+        "min": 6034163,
+        "max": 6034163,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Average annual tuition reported by SNU NOW; varies by major and credits. Year of the figure not stated."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Global Korea Scholarship (GKS)",
+      "kind": [
+        "full",
+        "international",
+        "external",
+        "competitive"
+      ],
+      "eligibility": "International applicants to SNU undergraduate programmes.",
+      "coverage": "Tuition for 8 semesters, ₩1,200,000 a month, one return flight and a year of Korean training (TOPIK 3 needed to start the degree)",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s5",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "College of Social Sciences",
+      "durationYears": null,
+      "url": "https://social.snu.ac.kr/en/",
+      "summary": "Economics at SNU's College of Social Sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Korean (TOPIK 3+) or English (TOEFL iBT 80, IELTS 6.0) proficiency is required."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "computer-science-engineering",
+      "name": "Computer Science and Engineering",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://en.snu.ac.kr/admission",
+      "summary": "Computer Science and Engineering at SNU.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Korean (TOPIK 3+) or English (TOEFL iBT 80, IELTS 6.0) proficiency is required."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Check the cycle",
+        "detail": "The 2027 Spring international application ran 6–9 July 2026; watch the admissions announcements for the Fall 2027 window.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Language proof",
+        "detail": "Korean (TOPIK 3+) or English (TOEFL iBT 80, IELTS 6.0) proficiency is required.",
+        "sourceId": "s3"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "SNU — Timeline",
+      "url": "https://en.snu.ac.kr/about/history/timeline",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "Korea JoongAng Daily — SNU leads Korean campuses in latest QS world rankings",
+      "url": "https://www.koreajoongangdaily.com/korea/snu-leads-korean-campuses-in-latest-qs-world-rankings-as-yonsei-ku-hit-historic-highs/12727249",
+      "type": "journalism",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "SNU — 2027 Spring undergraduate admissions guide for international students",
+      "url": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "SNU NOW — Being an SNU student: how much does it really cost?",
+      "url": "https://en.snu.ac.kr/snunow/snu_media/news?md=v&bbsidx=71919",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "SNU — Undergraduate scholarships before application",
+      "url": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}
