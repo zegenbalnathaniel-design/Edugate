@@ -72,15 +72,11 @@
   "costs": {
     "currency": "KRW",
     "internationalTuition": {
-      "value": {
-        "min": 0,
-        "max": 0,
-        "period": "year"
-      },
-      "sourceId": "s4",
-      "confidence": "high",
-      "asOf": "2027",
-      "notes": "Covered in full by the scholarship given to every admitted international undergraduate."
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "The tuition amount was not verified, but it is covered in full by the scholarship every admitted international undergraduate receives."
     },
     "domesticTuition": {
       "value": null,
