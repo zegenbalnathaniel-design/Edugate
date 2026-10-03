@@ -1,0 +1,244 @@
+{
+  "slug": "australian-national-university",
+  "name": "Australian National University",
+  "officialName": "The Australian National University",
+  "country": "Australia",
+  "countryCode": "AU",
+  "region": "Australian Capital Territory",
+  "city": "Canberra",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1946,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.anu.edu.au/",
+  "admissionsUrl": "https://study.anu.edu.au/",
+  "financialAidUrl": "https://study.anu.edu.au/scholarships",
+  "internationalUrl": "https://study.anu.edu.au/apply/undergraduate-program-indicative-entry-requirements/international-baccalaureate-applications",
+  "summary": "ANU was established on 1 August 1946 by an Act of the Federal Parliament — still the only university created by the Parliament of Australia. Every eligible overseas applicant is automatically considered for the Chancellor's International Scholarship, a 25% tuition reduction.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "29",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "AUD",
+    "internationalTuition": {
+      "value": {
+        "min": 56120,
+        "max": 57640,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Annual indicative international fees shown on ANU's programme pages: Economics (Honours) A$57,640; Advanced Computing (Honours) double degree A$56,120. Fees are reviewed every year."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "ANU Chancellor's International Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "automatic"
+      ],
+      "eligibility": "All eligible overseas applicants are considered automatically, ranked on academic merit.",
+      "coverage": "25% tuition reduction",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bachelor-of-economics-honours",
+      "name": "Bachelor of Economics (Honours)",
+      "degree": "BEcon (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://programsandcourses.anu.edu.au/program/hecon",
+      "summary": "Economics with honours at ANU.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      }
+    },
+    {
+      "slug": "advanced-computing-honours-economics",
+      "name": "Bachelor of Advanced Computing (Honours) / Bachelor of Economics",
+      "degree": "BAC (Hons) / BEcon",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://programsandcourses.anu.edu.au/program/becon-aacom",
+      "summary": "Double degree; indicative entry ATAR 85 / IB 33.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": "33 (indicative)",
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56120,
+          "max": 56120,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      }
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "ANU — Our history",
+      "url": "https://www.anu.edu.au/about/our-history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "TopUniversities — Australian National University",
+      "url": "https://www.topuniversities.com/universities/australian-national-university-anu",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "ANU — Bachelor of Economics (Honours)",
+      "url": "https://programsandcourses.anu.edu.au/program/hecon",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "ANU — Flexible Double Degree: Advanced Computing (Honours) / Economics",
+      "url": "https://programsandcourses.anu.edu.au/program/becon-aacom",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "ANU — International Baccalaureate entry (from semester 1, 2027)",
+      "url": "https://study.anu.edu.au/apply/undergraduate-program-indicative-entry-requirements/international-baccalaureate-applications",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "ANU — Chancellor's International Scholarship",
+      "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

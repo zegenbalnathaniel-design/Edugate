@@ -1,0 +1,274 @@
+{
+  "slug": "university-of-melbourne",
+  "name": "University of Melbourne",
+  "officialName": "The University of Melbourne",
+  "country": "Australia",
+  "countryCode": "AU",
+  "region": "Victoria",
+  "city": "Melbourne",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1853,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.unimelb.edu.au/",
+  "admissionsUrl": "https://study.unimelb.edu.au/",
+  "financialAidUrl": "https://scholarships.unimelb.edu.au/",
+  "internationalUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
+  "summary": "Melbourne was established in 1853 by an Act of the Victorian Parliament and is Australia's second-oldest university. International undergraduate fees depend on the subjects taken; accepting an offer requires a minimum A$17,000 deposit credited to first-year fees.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=22",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "AUD",
+    "internationalTuition": {
+      "value": {
+        "min": 55556,
+        "max": 65344,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": "2027",
+      "notes": "Indicative first-year fees for 2027: Commerce A$56,451–62,464; Science A$55,556–65,344. Fees depend on the subjects you take."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Commerce undergraduate international merit scholarships",
+      "kind": [
+        "merit",
+        "international",
+        "partial"
+      ],
+      "eligibility": "International students admitted to the Bachelor of Commerce.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bachelor-of-commerce",
+      "name": "Bachelor of Commerce",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/",
+      "summary": "Commerce degree; 2027 indicative total course fee A$180,714–200,139.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      }
+    },
+    {
+      "slug": "bachelor-of-science",
+      "name": "Bachelor of Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Computing and Software Systems major",
+      "school": null,
+      "durationYears": null,
+      "url": "https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/structure/",
+      "summary": "Science degree; the Computing and Software Systems major is eight subjects taken in second and third year. 2027 indicative total course fee A$181,310–211,405.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 55556,
+          "max": 65344,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Accept and pay the deposit",
+        "detail": "Pay at least A$17,000 to secure your place; it counts as the first tuition instalment.",
+        "sourceId": "s4"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Offer acceptance deposit (credited to tuition)",
+        "audience": "international",
+        "amount": {
+          "min": 17000,
+          "max": 17000,
+          "period": "total"
+        },
+        "currency": "AUD",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2027"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Melbourne — About",
+      "url": "https://about.unimelb.edu.au/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "TopUniversities — The University of Melbourne",
+      "url": "https://www.topuniversities.com/universities/university-melbourne",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "University of Melbourne — Tuition fees 2027 (international fee tables)",
+      "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027-International-Fee-Tables.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "University of Melbourne — Undergraduate international fees and payments",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "University of Melbourne — Bachelor of Commerce",
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "University of Melbourne — Commerce undergraduate international merit scholarships",
+      "url": "https://scholarships.unimelb.edu.au/awards/international-undergraduate-merit-scholarships",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Melbourne — Computing and Software Systems major",
+      "url": "https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/structure/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}
