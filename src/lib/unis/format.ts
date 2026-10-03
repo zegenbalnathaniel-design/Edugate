@@ -11,7 +11,7 @@ export function money(n: number, currency: string) {
 
 export function moneyRange(r: Range | null, currency: string) {
   if (!r) return null;
-  const per = r.period === "year" ? "/yr" : r.period === "semester" ? "/semester" : r.period === "credit" ? "/credit" : " total";
+  const per = r.period === "year" ? "/yr" : r.period === "semester" ? "/semester" : r.period === "month" ? "/month" : r.period === "credit" ? "/credit" : " total";
   return r.min === r.max ? `${money(r.min, currency)}${per}` : `${money(r.min, currency)}–${money(r.max, currency).replace(/^\D+/, "")}${per}`;
 }
 

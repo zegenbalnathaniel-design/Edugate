@@ -15,9 +15,9 @@
     "English"
   ],
   "website": "https://www.ashoka.edu.in/",
-  "admissionsUrl": null,
-  "financialAidUrl": null,
-  "internationalUrl": null,
+  "admissionsUrl": "https://www.ashoka.edu.in/admissions/undergraduate-students/",
+  "financialAidUrl": "https://www.ashoka.edu.in/undergraduate-programme-scholarships/",
+  "internationalUrl": "https://www.ashoka.edu.in/admissions/undergraduate-international-students/",
   "summary": "Ashoka University is a private liberal-arts research university founded in 2014 near Delhi, built on a collective-philanthropy model with over 200 founders. It offers 25+ undergraduate majors and minors across the humanities, sciences and social sciences, with an unusually large need-based financial aid program relative to most Indian private universities.",
   "stats": {
     "totalStudents": {
@@ -45,12 +45,20 @@
       "asOf": null
     }
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2026,
+      "rank": "1201+",
+      "sourceId": "s9"
+    }
+  ],
   "applicationPlatform": {
-    "value": null,
-    "sourceId": null,
-    "confidence": "requires-verification",
-    "asOf": null
+    "value": "Ashoka's own online application (multiple rounds), followed by the Ashoka Aptitude Assessment and an interview",
+    "sourceId": "s6",
+    "confidence": "official",
+    "asOf": "2027-28"
   },
   "applicationFee": {
     "value": "No application fee for undergraduate applicants",
@@ -58,7 +66,16 @@
     "confidence": "official",
     "asOf": "2026-27"
   },
-  "testing": [],
+  "testing": [
+    {
+      "test": "Ashoka Aptitude Assessment",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s7",
+      "confidence": "official",
+      "notes": "90 minutes, 40 multiple-choice questions on logical and quantitative reasoning and critical thinking; no negative marking."
+    }
+  ],
   "english": [],
   "costs": {
     "currency": "INR",
@@ -70,14 +87,14 @@
     },
     "domesticTuition": {
       "value": {
-        "min": 1022000,
-        "max": 1022000,
+        "min": 1122000,
+        "max": 1122000,
         "period": "year"
       },
-      "sourceId": "s3",
-      "confidence": "high",
-      "asOf": "2025-26",
-      "notes": "Tuition component of the official 2025-26 fee structure; residence (≈INR 2 lakh) and service charges are extra. Read via a search summary of the official PDF."
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2027-28",
+      "notes": "First-year tuition for the August 2027 intake (₹10,74,000 for the August 2026 intake). Residence and essential services are extra — see the fee breakdown."
     },
     "livingEstimate": {
       "value": null,
@@ -94,12 +111,12 @@
         "partial",
         "full"
       ],
-      "eligibility": "Admitted undergraduates whose family's assessed ability to pay falls short of the cost; families with gross annual income under roughly INR 12–15 lakh are encouraged to apply.",
-      "coverage": "Up to 100% of tuition; the percentage is fixed at admission for the whole programme.",
+      "eligibility": "Admitted undergraduates, assessed on family income and ability to pay. About 44% of Ashoka students receive some form of financial aid.",
+      "coverage": "From a 20% tuition waiver up to 100% of tuition plus part or all of residence; for the 2026 intake, families with income up to ₹15 lakh were estimated to receive a full tuition + residence waiver.",
       "deadline": null,
       "renewable": true,
       "url": "https://www.ashoka.edu.in/admissions/scholarships/",
-      "sourceId": "s2",
+      "sourceId": "s5",
       "confidence": "high"
     }
   ],
@@ -154,7 +171,15 @@
           "notes": "Class XII from a recognised Indian board is accepted; check the source for subject expectations."
         }
       ],
-      "tests": [],
+      "tests": [
+        {
+          "test": "Ashoka Aptitude Assessment",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
       "english": [],
       "fees": null
     }
@@ -180,7 +205,135 @@
       "url": "https://www.ashoka.edu.in/wp-content/uploads/2024/11/Fee-Structure-and-Refund-Policy_August-2025-Intake.docx.pdf",
       "type": "university",
       "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s4",
+      "label": "Ashoka University — Undergraduate fee structure",
+      "url": "https://www.ashoka.edu.in/undergraduate-fee-structure/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Ashoka University — Undergraduate programme scholarships",
+      "url": "https://www.ashoka.edu.in/undergraduate-programme-scholarships/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Ashoka University — Undergraduate admissions process",
+      "url": "https://www.ashoka.edu.in/undergraduate-admissions-process/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Ashoka University — Holistic admissions and process",
+      "url": "https://www.ashoka.edu.in/undergraduate-programme-holistic-admissions-and-process/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Ashoka University — Undergraduate international students",
+      "url": "https://www.ashoka.edu.in/admissions/undergraduate-international-students/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Ashoka University — QS World University Rankings 2026 entry (press release)",
+      "url": "https://www.ashoka.edu.in/press-releases/ashoka-university-ranked-no-1-in-india-by-iirf-earns-global-recognition-from-qs-world-university-rankings-2026/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-28"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "address": "Plot No. 2, Rajiv Gandhi Education City, Sonipat, Haryana 131029, India",
+    "housing": {
+      "value": "Fully residential undergraduate programme on the Sonipat campus; residence is charged as a separate annual fee.",
+      "sourceId": "s4",
+      "confidence": "high",
+      "asOf": null
+    },
+    "admissionProcess": [
+      {
+        "step": "Submit the application",
+        "detail": "Apply online in one of Ashoka's admission rounds with academics, activities and essays.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Ashoka Aptitude Assessment",
+        "detail": "Shortlisted applicants take a 90-minute, 40-question reasoning assessment (no negative marking).",
+        "sourceId": "s7"
+      },
+      {
+        "step": "Interview",
+        "detail": "A panel interview in one of several Indian cities, or online.",
+        "sourceId": "s7"
+      },
+      {
+        "step": "Decision and financial aid",
+        "detail": "Admission decisions are holistic; financial aid is assessed separately on family income and fixed at admission.",
+        "sourceId": "s5"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition, first year — August 2027 intake",
+        "audience": "all",
+        "amount": {
+          "min": 1122000,
+          "max": 1122000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "Residence, first year — August 2027 intake",
+        "audience": "all",
+        "amount": {
+          "min": 228000,
+          "max": 228000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "Essential services (medical insurance, laundry)",
+        "audience": "all",
+        "amount": {
+          "min": 5400,
+          "max": 5400,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "Tuition, first year — August 2026 intake",
+        "audience": "all",
+        "amount": {
+          "min": 1074000,
+          "max": 1074000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "For comparison; residence was ₹2,11,000."
+      }
+    ]
+  }
 }

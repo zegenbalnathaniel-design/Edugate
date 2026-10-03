@@ -6,7 +6,12 @@
   "countryCode": "IN",
   "region": "Tamil Nadu",
   "city": "Vellore",
-  "campuses": [],
+  "campuses": [
+    "Vellore",
+    "Chennai",
+    "AP (Amaravati)",
+    "Bhopal"
+  ],
   "control": "private",
   "category": "technical",
   "founded": 1984,
@@ -15,9 +20,9 @@
     "English"
   ],
   "website": "https://vit.ac.in/",
-  "admissionsUrl": null,
-  "financialAidUrl": null,
-  "internationalUrl": null,
+  "admissionsUrl": "https://viteee.vit.ac.in/",
+  "financialAidUrl": "https://vit.ac.in/scholarship",
+  "internationalUrl": "https://vit.ac.in/admissions/international/btech-eligibilityandprocedure",
   "summary": "VIT was founded in 1984 as Vellore Engineering College, a self-financing institution, and was granted deemed-university status in 2001. It now offers BTech, BCA, BBA, BDes and postgraduate programs across engineering and allied fields, with admission and fee category driven by its own entrance exam and counselling process.",
   "stats": {
     "totalStudents": {
@@ -45,12 +50,48 @@
       "asOf": null
     }
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "597",
+      "sourceId": "s4"
+    },
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "14",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "16",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "21",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Research",
+      "edition": 2025,
+      "rank": "14",
+      "sourceId": "s3"
+    }
+  ],
   "applicationPlatform": {
-    "value": null,
-    "sourceId": null,
-    "confidence": "requires-verification",
-    "asOf": null
+    "value": "VITEEE online application, then VIT's online counselling, which allots campus, programme and fee category by VITEEE rank. NRI/foreign applicants apply separately.",
+    "sourceId": "s7",
+    "confidence": "official",
+    "asOf": "2026-27"
   },
   "applicationFee": {
     "value": null,
@@ -58,26 +99,36 @@
     "confidence": "requires-verification",
     "asOf": null
   },
-  "testing": [],
+  "testing": [
+    {
+      "test": "VITEEE",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s7",
+      "confidence": "official",
+      "notes": "Indian applicants; NRI/foreign applicants use the international route."
+    }
+  ],
   "english": [],
   "costs": {
     "currency": "INR",
     "internationalTuition": {
-      "value": {
-        "min": 695000,
-        "max": 783000,
-        "period": "total"
-      },
-      "sourceId": "s2",
-      "confidence": "secondary",
-      "asOf": "2026-27",
-      "notes": "Aggregator figure for the whole programme; VIT sets fees by category allotted at counselling. Verify on vit.ac.in before relying on it."
-    },
-    "domesticTuition": {
       "value": null,
       "sourceId": null,
       "confidence": "requires-verification",
-      "asOf": null
+      "asOf": null,
+      "notes": "Charged in US dollars (US$9,000 per year for B.Tech in 2026-27) — shown in the fee breakdown rather than converted."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 195000,
+        "max": 490000,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
     },
     "livingEstimate": {
       "value": null,
@@ -86,7 +137,24 @@
       "asOf": null
     }
   },
-  "scholarships": [],
+  "scholarships": [
+    {
+      "name": "GV School Development Programme (VITEEE rank)",
+      "kind": [
+        "merit",
+        "partial",
+        "automatic",
+        "domestic"
+      ],
+      "eligibility": "Top 500 VITEEE rankers.",
+      "coverage": "Ranks 1–10: 100% tuition waiver; 11–50: 75%; 51–100: 50%; 101–500: 25% — for four years.",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://vit.ac.in/scholarship",
+      "sourceId": "s9",
+      "confidence": "high"
+    }
+  ],
   "deadlines": [],
   "opportunities": [],
   "programs": [
@@ -99,7 +167,7 @@
       "subfield": null,
       "school": null,
       "durationYears": 4,
-      "url": null,
+      "url": "https://viteee.vit.ac.in/",
       "summary": "Four-year BTech in Computer Science and Engineering under VIT's fully flexible credit system. Admission is through VITEEE and counselling, which also allots programme, campus and fee category.",
       "curriculum": [],
       "curriculumSourceId": null,
@@ -107,35 +175,92 @@
         {
           "curriculum": "CBSE",
           "accepted": true,
-          "minimum": null,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
           "typical": null,
-          "subjects": [],
-          "sourceId": "s1",
-          "confidence": "high",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by VITEEE; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the VITEEE eligibility rules — check the source."
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
         },
         {
           "curriculum": "ISC",
           "accepted": true,
-          "minimum": null,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
           "typical": null,
-          "subjects": [],
-          "sourceId": "s1",
-          "confidence": "high",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by VITEEE; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the VITEEE eligibility rules — check the source."
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
         },
         {
           "curriculum": "STATE_BOARD",
           "accepted": true,
-          "minimum": null,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
           "typical": null,
-          "subjects": [],
-          "sourceId": "s1",
-          "confidence": "high",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by VITEEE; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the VITEEE eligibility rules — check the source."
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
         }
       ],
       "tests": [
@@ -143,12 +268,22 @@
           "test": "VITEEE",
           "policy": "required",
           "typicalRange": null,
-          "sourceId": "s1",
-          "confidence": "high"
+          "sourceId": "s7",
+          "confidence": "official"
         }
       ],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      }
     }
   ],
   "sources": [
@@ -160,12 +295,195 @@
       "retrievedAt": "2026-09-28"
     },
     {
-      "id": "s2",
-      "label": "VITEEE fee structure — Careers360",
-      "url": "https://engineering.careers360.com/articles/viteee-fee-structure",
-      "type": "secondary",
-      "retrievedAt": "2026-09-28"
+      "id": "s3",
+      "label": "VIT — Ranking and Recognition",
+      "url": "https://vit.ac.in/ranking-and-recognition/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "VIT blog — QS World University Rankings 2027",
+      "url": "https://blogs.vit.ac.in/qs-world-rankings-2027-vit-leads-private-sector-surge/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "VIT — Fee structure for UG courses",
+      "url": "https://vit.ac.in/admission/ug/fee-structure",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "VIT — International admissions fee structure",
+      "url": "https://vit.ac.in/admissions/international/fee",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "VITEEE 2026 — B.Tech admissions",
+      "url": "https://viteee.vit.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "VIT — International B.Tech eligibility and procedure",
+      "url": "https://vit.ac.in/admissions/international/btech-eligibilityandprocedure",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "VIT — Scholarships",
+      "url": "https://vit.ac.in/scholarship",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "VIT — NIRF 2025 data (Overall)",
+      "url": "https://vit.ac.in/files/ebooks/nirf-overall/files/basic-html/page1.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "VIT blog — Vellore campus facilities guide",
+      "url": "https://blogs.vit.ac.in/vit-vellore-campus-facilities-a-students-complete-guide/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "VIT — Vision & Mission",
+      "url": "https://vit.ac.in/about/vision-mission",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-28"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 372,
+      "sourceId": "s11",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Vellore campus."
+    },
+    "faculty": {
+      "value": 2900,
+      "sourceId": "s12",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "\"Over 2,900 faculty\" across VIT, as stated by the university."
+    },
+    "housing": {
+      "value": "Residential Vellore campus with separate men's and women's hostel zones (AC and non-AC, single and shared rooms) housing over 22,000 students.",
+      "sourceId": "s11",
+      "confidence": "high",
+      "asOf": null
+    },
+    "address": "Katpadi, Vellore 632014, Tamil Nadu, India",
+    "admissionProcess": [
+      {
+        "step": "Check eligibility",
+        "detail": "Class XII with 60% aggregate in PCM and at least 50% in Mathematics.",
+        "sourceId": "s7"
+      },
+      {
+        "step": "Take VITEEE",
+        "detail": "Register for VITEEE-2026 and sit the computer-based test.",
+        "sourceId": "s7"
+      },
+      {
+        "step": "Online counselling",
+        "detail": "Choose campus and programme by VITEEE rank; the fee category (1–5) is allotted with the seat.",
+        "sourceId": "s7"
+      },
+      {
+        "step": "NRI / foreign route",
+        "detail": "NRI and foreign nationals apply through VIT's international admissions with separate eligibility and USD fees.",
+        "sourceId": "s8"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "B.Tech CSE tuition — Category 1 (best ranks)",
+        "audience": "domestic",
+        "amount": {
+          "min": 195000,
+          "max": 195000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Year not confirmed — see tuition note."
+      },
+      {
+        "item": "B.Tech CSE tuition — Category 5",
+        "audience": "domestic",
+        "amount": {
+          "min": 490000,
+          "max": 490000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Year not confirmed; a secondary source reports ₹4.30 lakh for 2026-27."
+      },
+      {
+        "item": "Caution deposit (refundable, first year)",
+        "audience": "domestic",
+        "amount": {
+          "min": 3000,
+          "max": 3000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "B.Tech tuition — international / NRI",
+        "audience": "international",
+        "amount": {
+          "min": 9000,
+          "max": 9000,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Plus a refundable US$100 caution deposit; all payments in USD."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "UG 4-year programmes",
+        "year": "2023-24",
+        "measure": "NIRF 2025 submission: graduates in the minimum time, students placed, median salary of placed graduates, and students going on to higher studies.",
+        "graduates": 5964,
+        "placed": 4031,
+        "higherStudies": 1255,
+        "employmentRate": null,
+        "medianSalary": 899000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s10",
+        "confidence": "high",
+        "notes": "From VIT's published NIRF 2025 data, read via a search result."
+      }
+    ]
+  }
 }

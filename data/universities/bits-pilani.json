@@ -6,7 +6,12 @@
   "countryCode": "IN",
   "region": "Rajasthan",
   "city": "Pilani",
-  "campuses": [],
+  "campuses": [
+    "Pilani",
+    "K K Birla Goa",
+    "Hyderabad",
+    "Dubai"
+  ],
   "control": "private",
   "category": "technical",
   "founded": 1964,
@@ -15,9 +20,9 @@
     "English"
   ],
   "website": "https://www.bits-pilani.ac.in/",
-  "admissionsUrl": null,
-  "financialAidUrl": null,
-  "internationalUrl": null,
+  "admissionsUrl": "https://admissions.bits-pilani.ac.in/FD/FD.html",
+  "financialAidUrl": "https://admissions.bits-pilani.ac.in/FD/scholarship.html",
+  "internationalUrl": "https://admissions.bits-pilani.ac.in/ISA/downloads/ISA_Fee_Structure_2026-27.pdf",
   "summary": "BITS Pilani is a private, deemed-to-be university founded by G. D. Birla, tracing back to a school in Pilani established in 1901 and formally constituted as BITS in 1964. It runs on a single national entrance test rather than reservation-based seats, and today operates across four campuses (Pilani, Goa, Hyderabad and Dubai) offering engineering, pharmacy and management programs.",
   "stats": {
     "totalStudents": {
@@ -45,12 +50,41 @@
       "asOf": null
     }
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "575",
+      "sourceId": "s10"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "16",
+      "sourceId": "s11"
+    },
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "7",
+      "sourceId": "s11"
+    },
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "11",
+      "sourceId": "s11"
+    }
+  ],
   "applicationPlatform": {
-    "value": null,
-    "sourceId": null,
-    "confidence": "requires-verification",
-    "asOf": null
+    "value": "BITSAT-2026 online application on the BITS admissions portal; direct admission for first-rank board toppers",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
   },
   "applicationFee": {
     "value": null,
@@ -58,21 +92,40 @@
     "confidence": "requires-verification",
     "asOf": null
   },
-  "testing": [],
+  "testing": [
+    {
+      "test": "BITSAT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "Merit is based purely on BITSAT score; first-rank holders of central and state boards get direct admission."
+    }
+  ],
   "english": [],
   "costs": {
     "currency": "INR",
     "internationalTuition": {
-      "value": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "asOf": null
+      "value": {
+        "min": 874500,
+        "max": 1485000,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "International Students Admission scheme: ₹4,37,250 per semester for SAARC nationals and ₹7,42,500 for non-SAARC (two semesters)."
     },
     "domesticTuition": {
-      "value": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "asOf": null
+      "value": {
+        "min": 583000,
+        "max": 583000,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "₹2,91,500 per semester (two semesters) for students admitted in 2026-27; summer term ₹1,02,000 extra. Tuition rises each year (₹3,06,000 per semester in 2027-28)."
     },
     "livingEstimate": {
       "value": null,
@@ -81,20 +134,68 @@
       "asOf": null
     }
   },
-  "scholarships": [],
+  "scholarships": [
+    {
+      "name": "Tuition-blind admission for top 500 BITSAT rankers",
+      "kind": [
+        "need",
+        "merit",
+        "full",
+        "domestic"
+      ],
+      "eligibility": "Top 500 BITSAT-2026 rankers with annual family income up to ₹20 lakh.",
+      "coverage": "Full tuition for four years, if CGPA stays at 7.5 or above.",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s9",
+      "confidence": "secondary"
+    },
+    {
+      "name": "Institute merit and merit-cum-need scholarships",
+      "kind": [
+        "merit",
+        "need",
+        "partial",
+        "domestic"
+      ],
+      "eligibility": "About 25% of First Degree students receive semester tuition waivers based on merit or merit-cum-need, reviewed each semester.",
+      "coverage": "10%–100% of semester tuition; admission fee is not waived.",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://admissions.bits-pilani.ac.in/FD/scholarship.html",
+      "sourceId": "s8",
+      "confidence": "high"
+    },
+    {
+      "name": "ISA tuition waivers",
+      "kind": [
+        "international",
+        "merit",
+        "partial"
+      ],
+      "eligibility": "International Students Admission scheme students, ranked by merit.",
+      "coverage": "Top 4%: 80% tuition waiver; next 10%: 50%; next 20%: 30%; remaining: 15%.",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s7",
+      "confidence": "high"
+    }
+  ],
   "deadlines": [],
   "opportunities": [],
   "programs": [
     {
       "slug": "computer-science-be",
-      "name": "BE Computer Science",
+      "name": "B.E. Computer Science (Pilani campus)",
       "degree": "BE",
       "level": "bachelors",
       "field": "computer-science",
       "subfield": null,
       "school": null,
       "durationYears": 4,
-      "url": null,
+      "url": "https://admissions.bits-pilani.ac.in/FD/FD.html",
       "summary": "Four-year Bachelor of Engineering in Computer Science at the Pilani campus. Admission is through BITSAT, with no management quota or reservation-based seats.",
       "curriculum": [],
       "curriculumSourceId": null,
@@ -102,35 +203,92 @@
         {
           "curriculum": "CBSE",
           "accepted": true,
-          "minimum": null,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
           "typical": null,
-          "subjects": [],
-          "sourceId": "s1",
-          "confidence": "high",
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by BITSAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the BITSAT eligibility rules — check the source."
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
         },
         {
           "curriculum": "ISC",
           "accepted": true,
-          "minimum": null,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
           "typical": null,
-          "subjects": [],
-          "sourceId": "s1",
-          "confidence": "high",
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by BITSAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the BITSAT eligibility rules — check the source."
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
         },
         {
           "curriculum": "STATE_BOARD",
           "accepted": true,
-          "minimum": null,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
           "typical": null,
-          "subjects": [],
-          "sourceId": "s1",
-          "confidence": "high",
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by BITSAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the BITSAT eligibility rules — check the source."
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
         }
       ],
       "tests": [
@@ -138,8 +296,8 @@
           "test": "BITSAT",
           "policy": "required",
           "typicalRange": null,
-          "sourceId": "s1",
-          "confidence": "high"
+          "sourceId": "s4",
+          "confidence": "official"
         }
       ],
       "english": [],
@@ -160,7 +318,269 @@
       "url": "https://en.wikipedia.org/wiki/BITS_Pilani",
       "type": "secondary",
       "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s3",
+      "label": "BITS Pilani — First Degree admissions (BITSAT-2026)",
+      "url": "https://admissions.bits-pilani.ac.in/FD/FD.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "BITSAT-2026 information brochure",
+      "url": "https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Direct admission to board toppers (Integrated First Degree)",
+      "url": "https://www.bitsadmission.com/BT/downloads/Board_Toppers_Admissions.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "BITS Pilani — Schedule of fees 2026-27, First Degree",
+      "url": "https://admissions.bits-pilani.ac.in/FD/FD_fee.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "BITS Pilani — International Students Admission fee structure 2026-27",
+      "url": "https://admissions.bits-pilani.ac.in/ISA/downloads/ISA_Fee_Structure_2026-27.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "BITS Pilani — Scholarships (based on BITSAT-2026 score)",
+      "url": "https://admissions.bits-pilani.ac.in/FD/scholarship.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Careers360 — BITS Pilani introduces tuition-blind admissions for top 500 BITSAT 2026 rankers",
+      "url": "https://news.careers360.com/bitsat-2026-bits-pilani-introduces-tuition-blind-admissions-top-500-rankers-btech-test-dates-session-1-2",
+      "type": "journalism",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "TopUniversities — BITS Pilani (QS World University Rankings 2027)",
+      "url": "https://www.topuniversities.com/node/6294",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Careers360 — NIRF 2025 university ranking (BITS Pilani #7)",
+      "url": "https://news.careers360.com/nirf-ranking-2025-university-iisc-bangalore-top-jnu-mahe-manipal-bits-pilani-du-amrita-vishwa-vidyapeetham-amu-jamia-millia/amp",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "BITS Pilani — Pilani campus",
+      "url": "https://www.bits-pilani.ac.in/pilani/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "Careers360 — BITS Pilani placements (reporting NIRF 2025 data)",
+      "url": "https://www.careers360.com/university/birla-institute-of-technology-and-science-pilani/placement",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s14",
+      "label": "Careers360 — BITSAT 2025 cut-off for BE Computer Science",
+      "url": "https://news.careers360.com/bitsat-cut-off-2025-btech-computer-science-drops-increases-for-all-engineering-session-2-result-bits-pilani-hyderabad-goa/amp",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-28"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 328,
+      "sourceId": "s12",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Pilani campus only."
+    },
+    "faculty": {
+      "value": 350,
+      "sourceId": "s12",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Pilani campus figure as described on the campus page (\"around 350 faculty members\")."
+    },
+    "housing": {
+      "value": "Fully residential Pilani campus with 11 boys' hostels and a girls' hostel complex; around 4,500 students live on campus.",
+      "sourceId": "s12",
+      "confidence": "high",
+      "asOf": null
+    },
+    "address": "Vidya Vihar, Pilani, Jhunjhunu district, Rajasthan 333031, India",
+    "schools": [
+      "13 departments at the Pilani campus spanning sciences, engineering, humanities and management"
+    ],
+    "schoolsSourceId": "s12",
+    "admissionProcess": [
+      {
+        "step": "Check eligibility",
+        "detail": "Class XII with 75% aggregate in PCM (or PCB for some programmes) and at least 60% in each subject.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Take BITSAT",
+        "detail": "Register and sit the computer-based BITSAT-2026; merit for admission is the BITSAT score alone.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Apply for programmes and campuses",
+        "detail": "Submit programme and campus preferences in the BITS admission process; seats are offered by score across iterations.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Board toppers route",
+        "detail": "First-rank students of every central and state board can take direct admission irrespective of BITSAT score.",
+        "sourceId": "s5"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition, per semester (admitted 2026-27)",
+        "audience": "domestic",
+        "amount": {
+          "min": 291500,
+          "max": 291500,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Rises annually: ₹3,06,000 in 2027-28, ₹3,21,500 in 2028-29."
+      },
+      {
+        "item": "Summer term fee",
+        "audience": "domestic",
+        "amount": {
+          "min": 102000,
+          "max": 102000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Charged for the summer term."
+      },
+      {
+        "item": "Admission fee (one-time)",
+        "audience": "domestic",
+        "amount": {
+          "min": 64100,
+          "max": 64100,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Hostel fee, per semester",
+        "audience": "all",
+        "amount": {
+          "min": 36000,
+          "max": 36000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Mess & electricity advance, per semester",
+        "audience": "all",
+        "amount": {
+          "min": 10000,
+          "max": 10000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Adjusted at the end of each semester."
+      },
+      {
+        "item": "International (ISA) admission fee, one-time",
+        "audience": "international",
+        "amount": {
+          "min": 156100,
+          "max": 156100,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Plus ₹16,130 facilitation fee and a ₹32,000 refundable caution deposit."
+      },
+      {
+        "item": "International (ISA) hostel & internet, per semester",
+        "audience": "international",
+        "amount": {
+          "min": 82250,
+          "max": 82250,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27"
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "UG 4-year programmes (all campuses)",
+        "year": "2023-24",
+        "measure": "NIRF 2025 submission: median salary of UG 4-year graduates placed through campus placement.",
+        "graduates": null,
+        "placed": 2554,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": 1770000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s13",
+        "confidence": "secondary",
+        "notes": "As reported by Careers360 from BITS Pilani's NIRF 2025 data."
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "BITSAT",
+        "program": "B.E. Computer Science — Pilani campus",
+        "category": "All candidates (no reserved categories)",
+        "round": "Final iteration",
+        "year": 2025,
+        "opening": null,
+        "closing": "304 / 390",
+        "sourceId": "s14",
+        "confidence": "secondary",
+        "notes": "BITSAT score, not rank. Earlier closing scores: 327 (2024), 331 (2023), 320 (2022)."
+      }
+    ]
+  }
 }

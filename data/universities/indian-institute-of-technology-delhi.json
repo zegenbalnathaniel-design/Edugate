@@ -514,7 +514,141 @@
       "url": "https://academics.iitd.ac.in/wp-content/uploads/2026/07/UG-26_compressed.pdf",
       "type": "university",
       "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s15",
+      "label": "NIRF 2025 data submitted by IIT Delhi (Overall category)",
+      "url": "https://home.iitd.ac.in/uploads/nirf/2025/NIRF%202025_Overall_Indian%20Institute%20of%20Technology%20Delhi20250118-3.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s16",
+      "label": "IIT Delhi International Admissions — Life at IITD",
+      "url": "https://intladm.iitd.ac.in/life-at-iitd.php",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s17",
+      "label": "Careers360 — JoSAA 2025 opening and closing ranks (college-wise)",
+      "url": "https://engineering.careers360.com/articles/jossa-opening-and-closing-rank",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "housing": {
+      "value": "Hostels on the main campus are self-contained, each with a reading room, indoor games room, lounge and a dining hall with mess; the international admissions site lists eleven boys' hostels and two girls' hostels.",
+      "sourceId": "s16",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "As described on IIT Delhi's international admissions site; hostel numbers change as new hostels open."
+    },
+    "address": "Hauz Khas, New Delhi 110016, India",
+    "admissionProcess": [
+      {
+        "step": "JEE (Main)",
+        "detail": "Qualify in JEE (Main) to become eligible for JEE (Advanced). Foreign nationals have a separate route.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "JEE (Advanced)",
+        "detail": "Obtain a rank in JEE (Advanced) and meet the Class XII performance criterion.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "JoSAA counselling",
+        "detail": "Register on JoSAA, lock branch choices, and accept a seat through the counselling rounds.",
+        "sourceId": "s5"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition, per semester — Indian nationals, family income above ₹5 lakh",
+        "audience": "domestic",
+        "amount": {
+          "min": 100000,
+          "max": 100000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "₹33,333 per semester for family income ₹1–5 lakh; nil below ₹1 lakh and for SC/ST/PwD."
+      },
+      {
+        "item": "Hostel seat rent, per semester",
+        "audience": "all",
+        "amount": {
+          "min": 8600,
+          "max": 8600,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Mess dues are charged separately."
+      },
+      {
+        "item": "One-time charges at admission (admission, welfare, modernisation, benevolent, alumni, training & placement)",
+        "audience": "all",
+        "amount": {
+          "min": 8150,
+          "max": 8150,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "₹2,000 + ₹750 + ₹1,500 + ₹400 + ₹2,000 + ₹1,500 as itemised in the 2025-26 fee structure."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "UG 4-year programmes",
+        "year": "2023-24",
+        "measure": "NIRF 2025 submission: median salary of UG 4-year graduates placed through campus placement.",
+        "graduates": null,
+        "placed": 711,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": 1908000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s15",
+        "confidence": "high",
+        "notes": "Read via a search result quoting IIT Delhi's official NIRF 2025 PDF."
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "JEE (Advanced) · JoSAA",
+        "program": "B.Tech Computer Science and Engineering (4 years)",
+        "category": "OPEN · Gender-neutral",
+        "round": "Final round",
+        "year": 2025,
+        "opening": null,
+        "closing": "125",
+        "sourceId": "s17",
+        "confidence": "secondary"
+      },
+      {
+        "exam": "JEE (Advanced) · JoSAA",
+        "program": "B.Tech Mathematics and Computing (4 years)",
+        "category": "OPEN · Gender-neutral",
+        "round": "Final round",
+        "year": 2025,
+        "opening": null,
+        "closing": "316",
+        "sourceId": "s17",
+        "confidence": "secondary"
+      }
+    ]
+  }
 }

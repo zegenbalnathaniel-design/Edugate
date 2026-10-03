@@ -15,16 +15,17 @@
     "English"
   ],
   "website": "https://www.iiit.ac.in/",
-  "admissionsUrl": null,
+  "admissionsUrl": "https://ugadmissions.iiit.ac.in/",
   "financialAidUrl": null,
-  "internationalUrl": null,
+  "internationalUrl": "https://ugadmissions.iiit.ac.in/dasa/",
   "summary": "IIIT Hyderabad was set up in 1998 as a not-for-profit public-private partnership focused on computer science, electronics and interdisciplinary technology research, and became the model other IIITs across India were built on. Admission is purely merit-based with no category-based reservation, run through the institute's own undergraduate and postgraduate entrance examinations alongside JEE Main and board-score routes.",
   "stats": {
     "totalStudents": {
-      "value": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "asOf": null
+      "value": 2605,
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "As stated on the At a Glance page (read via search)."
     },
     "undergraduates": {
       "value": null,
@@ -45,12 +46,34 @@
       "asOf": null
     }
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "38",
+      "sourceId": "s10"
+    },
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "55",
+      "sourceId": "s10"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "89",
+      "sourceId": "s10"
+    }
+  ],
   "applicationPlatform": {
-    "value": null,
-    "sourceId": null,
-    "confidence": "requires-verification",
-    "asOf": null
+    "value": "IIIT Hyderabad's own UG admissions portal — channels: JEE (Main) score, UGEE, DASA (abroad), boards, Olympiads (SPEC), lateral entry. IIITH is not part of JoSAA.",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
   },
   "applicationFee": {
     "value": null,
@@ -58,21 +81,56 @@
     "confidence": "requires-verification",
     "asOf": null
   },
-  "testing": [],
+  "testing": [
+    {
+      "test": "JEE (Main)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "For the 4-year B.Tech CSE/ECE via the JEE channel."
+    },
+    {
+      "test": "UGEE",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "official",
+      "notes": "For the 5-year B.Tech + MS by Research dual degrees."
+    },
+    {
+      "test": "SAT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s6",
+      "confidence": "official",
+      "notes": "DASA applicants: minimum SAT 1070/1600."
+    }
+  ],
   "english": [],
   "costs": {
     "currency": "INR",
     "internationalTuition": {
-      "value": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "asOf": null
+      "value": {
+        "min": 1447500,
+        "max": 1447500,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "DASA: US$15,000 per year (shown in USD; record currency is INR — see notes). Converted by IIITH at ₹96.50/US$, i.e. about ₹14,47,500."
     },
     "domesticTuition": {
-      "value": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "asOf": null
+      "value": {
+        "min": 500000,
+        "max": 500000,
+        "period": "year"
+      },
+      "sourceId": "s8",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "₹5,00,000 per year for the 2026 batch (single and dual degree). Hostel and mess are extra."
     },
     "livingEstimate": {
       "value": null,
@@ -86,6 +144,66 @@
   "opportunities": [],
   "programs": [
     {
+      "slug": "computer-science-btech-jee",
+      "name": "B.Tech Computer Science and Engineering (JEE channel)",
+      "degree": "BTech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://ugadmissions.iiit.ac.in/jee/",
+      "summary": "Four-year B.Tech in CSE admitted on JEE (Main) score through IIIT Hyderabad's own process (100 seats via the JEE channel; 25% of these are reserved for women).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null
+    },
+    {
       "slug": "computer-science-btech-ms-dual",
       "name": "BTech + MS by Research (Dual Degree) in Computer Science",
       "degree": "BTech + MS",
@@ -94,7 +212,7 @@
       "subfield": null,
       "school": null,
       "durationYears": 5,
-      "url": null,
+      "url": "https://ugadmissions.iiit.ac.in/ugee/",
       "summary": "Five-year dual degree combining a BTech with an MS by research in Computer Science. Admission is purely merit-based with no category reservation.",
       "curriculum": [],
       "curriculumSourceId": null,
@@ -105,7 +223,7 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s1",
+          "sourceId": "s5",
           "confidence": "high",
           "asOf": "2026-27",
           "notes": "Admission is decided by UGEE (IIIT Hyderabad Undergraduate Entrance Examination); Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the UGEE (IIIT Hyderabad Undergraduate Entrance Examination) eligibility rules — check the source."
@@ -116,7 +234,7 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s1",
+          "sourceId": "s5",
           "confidence": "high",
           "asOf": "2026-27",
           "notes": "Admission is decided by UGEE (IIIT Hyderabad Undergraduate Entrance Examination); Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the UGEE (IIIT Hyderabad Undergraduate Entrance Examination) eligibility rules — check the source."
@@ -127,7 +245,7 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s1",
+          "sourceId": "s5",
           "confidence": "high",
           "asOf": "2026-27",
           "notes": "Admission is decided by UGEE (IIIT Hyderabad Undergraduate Entrance Examination); Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the UGEE (IIIT Hyderabad Undergraduate Entrance Examination) eligibility rules — check the source."
@@ -135,12 +253,11 @@
       ],
       "tests": [
         {
-          "test": "UGEE (IIIT Hyderabad Undergraduate Entrance Examination)",
+          "test": "UGEE",
           "policy": "required",
           "typicalRange": null,
-          "sourceId": "s1",
-          "confidence": "high",
-          "notes": "UGEE is the route to the dual-degree programmes; JEE Main and board-score routes lead to single-degree programmes."
+          "sourceId": "s5",
+          "confidence": "official"
         }
       ],
       "english": [],
@@ -161,7 +278,188 @@
       "url": "https://www.iiit.ac.in/history/",
       "type": "university",
       "retrievedAt": "2026-09-28"
+    },
+    {
+      "id": "s3",
+      "label": "IIIT Hyderabad — UG Admissions portal",
+      "url": "https://ugadmissions.iiit.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "IIIT Hyderabad — Admissions through JEE (Main) score, 2026",
+      "url": "https://ugadmissions.iiit.ac.in/jee/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "IIIT Hyderabad — UGEE 2026",
+      "url": "https://ugadmissions.iiit.ac.in/ugee/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "IIIT Hyderabad — DASA 2026",
+      "url": "https://ugadmissions.iiit.ac.in/dasa/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "IIIT Hyderabad — Special Channel of Admission (Olympiads)",
+      "url": "https://ugadmissions.iiit.ac.in/spec/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "IIIT Hyderabad — Admissions FAQs (fees, hostel)",
+      "url": "https://www.iiit.ac.in/faqs-admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "IIIT Hyderabad — At a Glance",
+      "url": "https://www.iiit.ac.in/at-a-glance/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "IIIT Hyderabad — NIRF 2025 rankings announcement",
+      "url": "https://www.iiit.ac.in/iiit-hyderabad-has-shown-a-significant-improvement-in-this-years-nirf-rankings-among-the-top-universities-in-india-both-government-and-private-iiith-was-ranked-55-74-last-year-in-the-l/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Careers360 — IIIT Hyderabad JEE Main 2025 cut-offs",
+      "url": "https://news.careers360.com/iiit-hyderabad-cutoff-jee-mains-2025-btech-ece-cse-engineering-cut-off-closing-ranks-last-3-years-seat-intake-fees-eligibility",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-28"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 66,
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": null
+    },
+    "faculty": {
+      "value": 114,
+      "sourceId": "s9",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "As stated on the At a Glance page (read via search)."
+    },
+    "housing": {
+      "value": "Residential institute — all students must live on campus. Five hostels: three for men and two for women (e.g. Bakul Nivas for first-years, Palash Nivas, New Parijaat Nivas).",
+      "sourceId": "s8",
+      "confidence": "high",
+      "asOf": null
+    },
+    "address": "Prof. C R Rao Road, Gachibowli, Hyderabad 500032, Telangana, India",
+    "schools": [
+      "29 research centres, including Language Technologies, Machine Learning, Robotics, Security, Theory & Algorithms, VLSI & Embedded Systems, and Spatial Informatics"
+    ],
+    "schoolsSourceId": "s9",
+    "admissionProcess": [
+      {
+        "step": "JEE (Main) channel",
+        "detail": "Apply on IIITH's portal with your JEE (Main) score for B.Tech CSE (100 seats) or ECE (70 seats).",
+        "sourceId": "s4"
+      },
+      {
+        "step": "UGEE channel",
+        "detail": "Sit IIITH's Undergraduate Entrance Examination (and interview) for the B.Tech + MS by Research dual degrees.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "DASA (students abroad / foreign passport)",
+        "detail": "Class XI–XII with PCM completed outside India (or a foreign passport) and SAT ≥ 1070.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Olympiad (SPEC) channel",
+        "detail": "Students who represented India at international science, maths, informatics or linguistics olympiads are invited straight to interview.",
+        "sourceId": "s7"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition (2026 batch)",
+        "audience": "domestic",
+        "amount": {
+          "min": 500000,
+          "max": 500000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s8",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Tuition — DASA",
+        "audience": "international",
+        "amount": {
+          "min": 15000,
+          "max": 15000,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Hostel, per month (approximate)",
+        "audience": "all",
+        "amount": {
+          "min": 6000,
+          "max": 6000,
+          "period": "month"
+        },
+        "currency": "INR",
+        "sourceId": "s8",
+        "confidence": "estimated",
+        "asOf": "2026-27",
+        "notes": "Paid semester-wise before the semester starts."
+      },
+      {
+        "item": "Mess, per month (approximate)",
+        "audience": "all",
+        "amount": {
+          "min": 5000,
+          "max": 5000,
+          "period": "month"
+        },
+        "currency": "INR",
+        "sourceId": "s8",
+        "confidence": "estimated",
+        "asOf": "2026-27",
+        "notes": "About ₹5,000 per month; paid semester-wise."
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "JEE (Main) · IIITH JEE channel",
+        "program": "B.Tech Computer Science and Engineering",
+        "category": "Open (no category reservation)",
+        "round": "Round 1",
+        "year": 2025,
+        "opening": null,
+        "closing": "1004",
+        "sourceId": "s11",
+        "confidence": "secondary",
+        "notes": "JEE (Main) CRL rank as reported by Careers360. Later rounds can close at different ranks; 25% of JEE-channel seats are reserved for women."
+      }
+    ]
+  }
 }

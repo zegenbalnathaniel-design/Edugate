@@ -6,7 +6,14 @@
   "countryCode": "IN",
   "region": "Karnataka",
   "city": "Manipal",
-  "campuses": [],
+  "campuses": [
+    "Manipal",
+    "Mangaluru",
+    "Bengaluru",
+    "Jamshedpur",
+    "Dubai",
+    "Malaysia"
+  ],
   "control": "private",
   "category": "research-university",
   "founded": 1953,
@@ -15,9 +22,9 @@
     "English"
   ],
   "website": "https://www.manipal.edu/",
-  "admissionsUrl": null,
+  "admissionsUrl": "https://www.manipal.edu/mu/admission.html",
   "financialAidUrl": null,
-  "internationalUrl": null,
+  "internationalUrl": "https://www.manipal.edu/mu/admission/international-students/who-can-apply.html",
   "summary": "MAHE traces back to 1953, when T. M. A. Pai founded Kasturba Medical College as India's first self-financing private medical school. The group of institutions built around it was declared a deemed-to-be university in 1993 and now spans over 370 programs across medicine, engineering, management and more, with campuses in Manipal, Mangaluru, Bengaluru and Jamshedpur plus international campuses in Dubai and Malaysia.",
   "stats": {
     "totalStudents": {
@@ -45,12 +52,34 @@
       "asOf": null
     }
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "851-900",
+      "sourceId": "s4"
+    },
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "3",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "14",
+      "sourceId": "s3"
+    }
+  ],
   "applicationPlatform": {
-    "value": null,
-    "sourceId": null,
-    "confidence": "requires-verification",
-    "asOf": null
+    "value": "MAHE online application; B.Tech via MET (Manipal Entrance Test) merit, MBBS via NEET-UG and MCC counselling",
+    "sourceId": "s6",
+    "confidence": "official",
+    "asOf": "2026-27"
   },
   "applicationFee": {
     "value": null,
@@ -58,7 +87,24 @@
     "confidence": "requires-verification",
     "asOf": null
   },
-  "testing": [],
+  "testing": [
+    {
+      "test": "MET",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "official",
+      "notes": "B.Tech merit: 50% MET score + 50% Class XII marks."
+    },
+    {
+      "test": "NEET-UG",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s9",
+      "confidence": "official",
+      "notes": "MBBS and other medical programmes; seats allotted through MCC counselling."
+    }
+  ],
   "english": [],
   "costs": {
     "currency": "INR",
@@ -69,15 +115,11 @@
       "asOf": null
     },
     "domesticTuition": {
-      "value": {
-        "min": 252000,
-        "max": 7234000,
-        "period": "total"
-      },
-      "sourceId": "s2",
-      "confidence": "secondary",
-      "asOf": "2026-27",
-      "notes": "Aggregator range across all MAHE undergraduate programmes (MBBS sits at the top of it). Verify programme fees on manipal.edu."
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Varies widely by programme — see Courses & Fees."
     },
     "livingEstimate": {
       "value": null,
@@ -91,6 +133,133 @@
   "opportunities": [],
   "programs": [
     {
+      "slug": "btech-cse-mit-manipal",
+      "name": "B.Tech Computer Science and Engineering (MIT Manipal)",
+      "degree": "BTech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "Manipal Institute of Technology",
+      "durationYears": 4,
+      "url": "https://www.manipal.edu/mit/program-list/btech/btech-computer-science-engineering.html",
+      "summary": "Four-year B.Tech CSE at Manipal Institute of Technology. Merit list combines MET score (50%) and Class XII marks (50%).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      }
+    },
+    {
       "slug": "mbbs-kasturba-medical-college",
       "name": "MBBS (Kasturba Medical College, Manipal)",
       "degree": "MBBS",
@@ -99,8 +268,8 @@
       "subfield": null,
       "school": "Kasturba Medical College, Manipal",
       "durationYears": 5.5,
-      "url": null,
-      "summary": "Bachelor of Medicine and Bachelor of Surgery at Kasturba Medical College, founded in 1953 as India's first self-financing private medical college. Includes a compulsory rotating internship.",
+      "url": "https://manipal.edu/kmc-manipal/program-list/mbbs-graduation-in-medicine.html",
+      "summary": "MBBS at Kasturba Medical College, Manipal (founded 1953): four and a half years under the CBME curriculum plus a one-year compulsory rotating internship. All General, Foreign and NRI admissions are by NEET rank through MCC counselling.",
       "curriculum": [],
       "curriculumSourceId": null,
       "requirements": [
@@ -110,10 +279,10 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s2",
-          "confidence": "secondary",
+          "sourceId": "s6",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by NEET-UG; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NEET-UG eligibility rules \u2014 check the source."
+          "notes": "Admission by NEET-UG rank through MCC counselling; see MAHE's 2026 UG eligibility document for subject and percentage conditions."
         },
         {
           "curriculum": "ISC",
@@ -121,10 +290,10 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s2",
-          "confidence": "secondary",
+          "sourceId": "s6",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by NEET-UG; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NEET-UG eligibility rules \u2014 check the source."
+          "notes": "Admission by NEET-UG rank through MCC counselling; see MAHE's 2026 UG eligibility document for subject and percentage conditions."
         },
         {
           "curriculum": "STATE_BOARD",
@@ -132,10 +301,10 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s2",
-          "confidence": "secondary",
+          "sourceId": "s6",
+          "confidence": "official",
           "asOf": "2026-27",
-          "notes": "Admission is decided by NEET-UG; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NEET-UG eligibility rules \u2014 check the source."
+          "notes": "Admission by NEET-UG rank through MCC counselling; see MAHE's 2026 UG eligibility document for subject and percentage conditions."
         }
       ],
       "tests": [
@@ -143,30 +312,225 @@
           "test": "NEET-UG",
           "policy": "required",
           "typicalRange": null,
-          "sourceId": "s2",
-          "confidence": "secondary",
-          "notes": "MBBS admission in India is through NEET-UG."
+          "sourceId": "s9",
+          "confidence": "official"
         }
       ],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 7088500,
+          "max": 7088500,
+          "period": "total"
+        },
+        "sourceId": "s8",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "General category, 2025-26 batch: ₹70,88,500 for the course including caution deposit (tuition ₹10,99,000 + other fees ₹6,71,000 a year). 2026-27 figures not confirmed."
+      }
     }
   ],
   "sources": [
     {
       "id": "s1",
-      "label": "History \u2014 MAHE official site",
+      "label": "History — MAHE official site",
       "url": "https://www.manipal.edu/mu/about-us/history.html",
       "type": "university",
       "retrievedAt": "2026-09-28"
     },
     {
-      "id": "s2",
-      "label": "MAHE fee structure overview \u2014 Shiksha",
-      "url": "https://www.shiksha.com/university/manipal-academy-of-higher-education-30822/fees",
+      "id": "s3",
+      "label": "MAHE — advances to top 3 in NIRF rankings (2025)",
+      "url": "https://www.manipal.edu/mu/news-events/mahe-advances-to-top-3-position-in-nirf-rankings--reinforcing-ac.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "TopUniversities — Manipal Academy of Higher Education",
+      "url": "https://www.topuniversities.com/universities/manipal-university-manipal-academy-higher-education",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "MIT Manipal — B.Tech Computer Science & Engineering (Admission 2026)",
+      "url": "https://www.manipal.edu/mit/program-list/btech/btech-computer-science-engineering.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "MAHE — UG Eligibility & Admission Process 2026 (General / Foreign / NRI)",
+      "url": "https://www.manipal.edu/content/dam/manipal/mu/documents/Admissions/adm2026/UG%20Eligibility%202026.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "KMC Manipal — MBBS programme page",
+      "url": "https://manipal.edu/kmc-manipal/program-list/mbbs-graduation-in-medicine.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "MAHE — Fee updation 2025 (General category)",
+      "url": "https://www.manipal.edu/content/dam/manipal/mu/documents/Admissions/adm2025/FEES%20UPDATION%20-%20GENERAL.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "MAHE — NEET 2026 admissions",
+      "url": "https://www.manipal.edu/mu/admission/neet.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "MAHE Manipal — About (PhD admissions page)",
+      "url": "https://www.manipal.edu/mu/academics/phd/about_mahe.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "MAHE — Campus facilities",
+      "url": "https://www.manipal.edu/mu/campus-life/around-campus/campus-facilities.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "Careers360 — MAHE Manipal placements (reporting NIRF 2025 data)",
+      "url": "https://www.careers360.com/university/manipal-academy-of-higher-education-manipal/placement",
       "type": "secondary",
-      "retrievedAt": "2026-09-28"
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "MAHE — Fee & refunds 2026",
+      "url": "https://www.manipal.edu/mu/admission/fees.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-28"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 600,
+      "sourceId": "s10",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "The Manipal campus including KMC; MIT alone occupies about 198 acres."
+    },
+    "faculty": {
+      "value": 2500,
+      "sourceId": "s10",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "\"Nearly 2,500 faculty\" as stated by MAHE."
+    },
+    "housing": {
+      "value": "Residential university town; MIT Manipal alone has 22 hostel blocks with messes and a food court. 28,000+ students from 65+ countries study on the Manipal campus.",
+      "sourceId": "s10",
+      "confidence": "high",
+      "asOf": null
+    },
+    "address": "Madhav Nagar, Manipal, Udupi district, Karnataka 576104, India",
+    "schools": [
+      "39 institutions, schools, centres and departments — including Kasturba Medical College and Manipal Institute of Technology"
+    ],
+    "schoolsSourceId": "s10",
+    "facilities": [
+      {
+        "name": "Museums, libraries and skill labs",
+        "description": null,
+        "sourceId": "s11"
+      },
+      {
+        "name": "Indoor multi-purpose sports complex and gymnasium",
+        "description": "International-level indoor sports complex plus sports grounds.",
+        "sourceId": "s11"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "Apply on MAHE's admissions portal for the programme and campus you want.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "B.Tech: MET",
+        "detail": "Take the Manipal Entrance Test; the merit list weighs MET and Class XII marks 50:50.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "MBBS: NEET-UG + MCC",
+        "detail": "Qualify NEET-UG; seats are allotted by NEET rank through the MCC counselling process.",
+        "sourceId": "s9"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "B.Tech CSE (MIT Manipal) — full course",
+        "audience": "domestic",
+        "amount": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Four annual instalments; includes ₹10,000 refundable caution deposit."
+      },
+      {
+        "item": "MBBS (KMC Manipal) — tuition, per year, General category",
+        "audience": "domestic",
+        "amount": {
+          "min": 1099000,
+          "max": 1099000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s8",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "MBBS (KMC Manipal) — other fees, per year, General category",
+        "audience": "domestic",
+        "amount": {
+          "min": 671000,
+          "max": 671000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s8",
+        "confidence": "high",
+        "asOf": "2025-26"
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "UG 4-year programmes",
+        "year": "2023-24",
+        "measure": "NIRF 2025 submission: median salary of UG 4-year graduates placed through campus placement.",
+        "graduates": null,
+        "placed": 1650,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": 800000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s12",
+        "confidence": "secondary",
+        "notes": "As reported by Careers360 from MAHE's NIRF 2025 data."
+      }
+    ]
+  }
 }

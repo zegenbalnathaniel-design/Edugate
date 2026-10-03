@@ -6,7 +6,11 @@
   "countryCode": "IN",
   "region": "Gujarat",
   "city": "Ahmedabad",
-  "campuses": [],
+  "campuses": [
+    "Ahmedabad (Paldi)",
+    "Gandhinagar",
+    "Bengaluru"
+  ],
   "control": "public",
   "category": "institute-of-national-importance",
   "founded": 1961,
@@ -15,7 +19,7 @@
     "English"
   ],
   "website": "https://www.nid.edu/",
-  "admissionsUrl": null,
+  "admissionsUrl": "https://admissions.nid.edu/",
   "financialAidUrl": null,
   "internationalUrl": null,
   "summary": "NID Ahmedabad was established in 1961 with assistance from the Ford Foundation and the Sarabhai family, following a design program the Government of India commissioned from Charles and Ray Eames. It was declared an Institute of National Importance by an Act of Parliament in 2014, and now runs a four-year Bachelor of Design across eight specializations plus a Master of Design and doctoral programs.",
@@ -47,10 +51,10 @@
   },
   "rankings": [],
   "applicationPlatform": {
-    "value": null,
-    "sourceId": null,
-    "confidence": "requires-verification",
-    "asOf": null
+    "value": "NID admissions portal — online application for the Design Aptitude Test (DAT)",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2027-28"
   },
   "applicationFee": {
     "value": null,
@@ -58,7 +62,16 @@
     "confidence": "requires-verification",
     "asOf": null
   },
-  "testing": [],
+  "testing": [
+    {
+      "test": "NID DAT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "DAT Prelims, then DAT Mains for shortlisted candidates."
+    }
+  ],
   "english": [],
   "costs": {
     "currency": "INR",
@@ -82,7 +95,40 @@
     }
   },
   "scholarships": [],
-  "deadlines": [],
+  "deadlines": [
+    {
+      "label": "Online application closes (11:59 pm)",
+      "date": "2026-11-30",
+      "intake": "2027-28",
+      "timezone": "IST",
+      "sourceId": "s3",
+      "confidence": "official"
+    },
+    {
+      "label": "DAT Prelims admit cards released",
+      "date": "2026-12-10",
+      "intake": "2027-28",
+      "timezone": "IST",
+      "sourceId": "s3",
+      "confidence": "official"
+    },
+    {
+      "label": "DAT Prelims exam",
+      "date": "2026-12-20",
+      "intake": "2027-28",
+      "timezone": "IST",
+      "sourceId": "s3",
+      "confidence": "official"
+    },
+    {
+      "label": "DAT Prelims result",
+      "date": "2027-03-16",
+      "intake": "2027-28",
+      "timezone": "IST",
+      "sourceId": "s3",
+      "confidence": "official"
+    }
+  ],
   "opportunities": [],
   "programs": [
     {
@@ -94,8 +140,8 @@
       "subfield": null,
       "school": null,
       "durationYears": 4,
-      "url": null,
-      "summary": "Four-year Bachelor of Design across eight specialisations, with deliberately small cohorts per specialisation. Admission is through the NID Design Aptitude Test (written, then studio test and interview for shortlisted candidates).",
+      "url": "https://www.nid.edu/academics/programmes/bachelor-of-design-bdes",
+      "summary": "Four-year B.Des offered at NID Ahmedabad across the Faculties of Industrial Design, Communication Design, and Textile, Apparel, Lifestyle & Accessory Design. Admission is through the Design Aptitude Test (Prelims, then Mains).",
       "curriculum": [],
       "curriculumSourceId": null,
       "requirements": [
@@ -105,10 +151,10 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s2",
-          "confidence": "secondary",
-          "asOf": "2026-27",
-          "notes": "Admission is decided by NID DAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NID DAT eligibility rules \u2014 check the source."
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
         },
         {
           "curriculum": "ISC",
@@ -116,10 +162,10 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s2",
-          "confidence": "secondary",
-          "asOf": "2026-27",
-          "notes": "Admission is decided by NID DAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NID DAT eligibility rules \u2014 check the source."
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
         },
         {
           "curriculum": "STATE_BOARD",
@@ -127,10 +173,10 @@
           "minimum": null,
           "typical": null,
           "subjects": [],
-          "sourceId": "s2",
-          "confidence": "secondary",
-          "asOf": "2026-27",
-          "notes": "Admission is decided by NID DAT; Class XII from a recognised Indian board is the eligibility baseline. Subject and percentage conditions are set in the NID DAT eligibility rules \u2014 check the source."
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
         }
       ],
       "tests": [
@@ -138,8 +184,8 @@
           "test": "NID DAT",
           "policy": "required",
           "typicalRange": null,
-          "sourceId": "s2",
-          "confidence": "secondary"
+          "sourceId": "s3",
+          "confidence": "official"
         }
       ],
       "english": [],
@@ -149,18 +195,83 @@
   "sources": [
     {
       "id": "s1",
-      "label": "History of NID \u2014 official site",
+      "label": "History of NID — official site",
       "url": "https://www.nid.edu/about/history-of-nid",
       "type": "university",
       "retrievedAt": "2026-09-28"
     },
     {
-      "id": "s2",
-      "label": "NID Ahmedabad admissions overview \u2014 CollegeDekho",
-      "url": "https://www.collegedekho.com/colleges/nid",
-      "type": "secondary",
-      "retrievedAt": "2026-09-28"
+      "id": "s3",
+      "label": "NID — B.Des / M.Des (Integrated Pathway) admissions handbook 2027-28",
+      "url": "https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "NID Admissions 2027-28 — registration",
+      "url": "https://admissions.nid.edu/NIDA2027/Registration.aspx",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "NID — Bachelor of Design (B.Des.) programme",
+      "url": "https://www.nid.edu/academics/programmes/bachelor-of-design-bdes",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "NID — Life at NID",
+      "url": "https://www.nid.edu/studyofnid/life",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "NID — Main campus Ahmedabad",
+      "url": "https://www.nid.edu/about/campuses/ahmedabad-campus",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-28"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "address": "Paldi, Ahmedabad 380007, Gujarat, India",
+    "housing": {
+      "value": "Separate hostels for men and women on the Paldi campus (for undergraduates, subject to availability), housing about 450 students; mess subscription is compulsory for residents and billed with semester fees.",
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": null
+    },
+    "schools": [
+      "Faculty of Industrial Design",
+      "Faculty of Communication Design",
+      "Faculty of Textile, Apparel, Lifestyle & Accessory Design"
+    ],
+    "schoolsSourceId": "s5",
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "Submit the DAT application on the NID admissions portal (10 Sep – 30 Nov 2026 for the 2027-28 intake).",
+        "sourceId": "s3"
+      },
+      {
+        "step": "DAT Prelims",
+        "detail": "A written design aptitude test held on 20 December 2026.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "DAT Mains",
+        "detail": "Shortlisted candidates take the studio test and interview.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Final result and seat allotment",
+        "detail": "Merit lists are published after the Mains; see the handbook for weightages.",
+        "sourceId": "s3"
+      }
+    ]
+  }
 }
