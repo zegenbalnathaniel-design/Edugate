@@ -1,0 +1,521 @@
+{
+  "slug": "new-york-university",
+  "name": "New York University",
+  "officialName": "New York University",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "New York",
+  "city": "New York City",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1831,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.nyu.edu/",
+  "admissionsUrl": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+  "financialAidUrl": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html",
+  "internationalUrl": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html",
+  "summary": "NYU was founded in 1831 and is one of the largest private universities in the US, with 29,471 undergraduates in fall 2025. Applicants apply to a specific school — such as the College of Arts and Science or the Stern School of Business — and NYU is test-optional through the 2027-28 cycle. The NYU Promise meets full demonstrated need for first-year students on the New York campus, international students included.",
+  "stats": {
+    "totalStudents": {
+      "value": 60525,
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "Fall 2025"
+    },
+    "undergraduates": {
+      "value": 29471,
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "Fall 2025"
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "58",
+      "sourceId": "s1"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT / ACT",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "Test-optional through the 2027-28 application cycle for every school and programme."
+    }
+  ],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "100 (5 on the new 2026 scale)",
+      "minSection": null,
+      "waiver": "High school diploma from an English-medium institution",
+      "sourceId": "s10",
+      "confidence": "official"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": "7.0",
+      "minSection": null,
+      "waiver": "High school diploma from an English-medium institution",
+      "sourceId": "s10",
+      "confidence": "official"
+    },
+    {
+      "test": "DUOLINGO",
+      "minOverall": "125",
+      "minSection": null,
+      "waiver": "High school diploma from an English-medium institution",
+      "sourceId": "s10",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 68576,
+        "max": 70464,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Tuition and fees: US$68,576 for most schools; US$70,464 at Stern."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 68576,
+        "max": 70464,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 26438,
+        "max": 26438,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Food and housing."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "The NYU Promise",
+      "kind": [
+        "need",
+        "full",
+        "partial",
+        "international",
+        "domestic"
+      ],
+      "eligibility": "Every first-year admitted to the New York campus — domestic or international — has 100% of demonstrated need met with scholarships and grants; families earning under US$100,000 with typical assets pay no tuition. International applicants submit the CSS Profile by the deadline.",
+      "coverage": "Full demonstrated need",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s7",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Decision I application",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-01-05",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "stern-bs-business",
+      "name": "BS in Business (Stern School of Business)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": "Leonard N. Stern School of Business",
+      "durationYears": 4,
+      "url": "https://www.stern.nyu.edu/programs-admissions/undergraduate",
+      "summary": "Stern admitted fewer than 5% of applicants for the Class of 2029. Tuition is higher than NYU's other undergraduate schools.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT / ACT",
+          "policy": "optional",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 70464,
+          "max": 70464,
+          "period": "year"
+        },
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Tuition and fees."
+      }
+    },
+    {
+      "slug": "economics-ba-cas",
+      "name": "Economics (BA, College of Arts and Science)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "College of Arts and Science",
+      "durationYears": 4,
+      "url": "https://as.nyu.edu/",
+      "summary": "Economics major in the College of Arts and Science, which admitted fewer than 5% of applicants for the Class of 2029.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s10",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT / ACT",
+          "policy": "optional",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 68576,
+          "max": 68576,
+          "period": "year"
+        },
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Tuition and fees."
+      }
+    }
+  ],
+  "details": {
+    "faculty": {
+      "value": 4633,
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "Fall 2025",
+      "notes": "1,458 tenured/tenure-track and 3,175 non-tenure-track faculty."
+    },
+    "housing": {
+      "value": "Four years of housing are guaranteed to entering first-years who stay in the system; there are 23 residence halls.",
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "70 Washington Square South, New York, NY 10012, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants to the New York campus, Class of 2029",
+        "applicants": 120000,
+        "admitted": null,
+        "enrolled": null,
+        "acceptanceRate": "7.7%",
+        "sourceId": "s2",
+        "confidence": "official",
+        "notes": "\"More than 120,000\" applicants; CAS, Stern and Nursing each admitted fewer than 5%."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Choose a school and programme",
+        "detail": "Apply to a specific NYU school (e.g. Stern or the College of Arts and Science).",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Pick a round",
+        "detail": "Early Decision I by 1 November (decision 15 December) or Regular Decision by 5 January (decision 1 April).",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Testing is optional",
+        "detail": "SAT/ACT may be sent but aren't required through the 2027-28 cycle.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Financial aid",
+        "detail": "Submit the CSS Profile by the deadline — international first-years are eligible for need-based aid.",
+        "sourceId": "s7"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition and fees (most schools)",
+        "audience": "all",
+        "amount": {
+          "min": 68576,
+          "max": 68576,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Tuition and fees (Stern)",
+        "audience": "all",
+        "amount": {
+          "min": 70464,
+          "max": 70464,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Food and housing",
+        "audience": "all",
+        "amount": {
+          "min": 26438,
+          "max": 26438,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Books, transport and personal (estimates)",
+        "audience": "all",
+        "amount": {
+          "min": 5984,
+          "max": 5984,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "estimated",
+        "asOf": "2026-27",
+        "notes": "Books US$1,492, transport US$2,438, personal US$2,054. Total cost of attendance US$100,998 (US$102,886 at Stern)."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Xuanxiao — QS World University Rankings 2027 listing",
+      "url": "https://xuanxiao.org/en/rankings/qs/world-university-rankings?page=2",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "NYU News — offers of admission to the Class of 2029",
+      "url": "https://www.nyu.edu/about/news-publications/news/2025/march/nyu-sends-out-offers-of-admission-to-the-class-of-2029.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "NYU News — applications to the Class of 2029 top 120,000",
+      "url": "https://www.nyu.edu/about/news-publications/news/2025/january/applications-to-nyu-class-of-2029-top-120-000-a-new-record.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "NYU Admissions — Standardized tests",
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/standardized-tests.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "NYU Admissions — First-year applicants",
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "NYU — Cost of attendance",
+      "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "NYU — The NYU Promise",
+      "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying-as-a-prospective-undergraduate-student/first-year-applicants/the-nyu-promise.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "NYU at a Glance",
+      "url": "https://www.nyu.edu/about/news-publications/nyu-at-a-glance.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "NYU Admissions — Housing and dining",
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/life-at-nyu/housing-and-dining.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "NYU Admissions — Resources for international applicants",
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

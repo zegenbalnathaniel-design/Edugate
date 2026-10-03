@@ -1,0 +1,446 @@
+{
+  "slug": "carnegie-mellon-university",
+  "name": "Carnegie Mellon University",
+  "officialName": "Carnegie Mellon University",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Pennsylvania",
+  "city": "Pittsburgh",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1900,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.cmu.edu/",
+  "admissionsUrl": "https://www.cmu.edu/admission/",
+  "financialAidUrl": "https://www.cmu.edu/sfs/",
+  "internationalUrl": "https://www.cmu.edu/admission/admission/international-applicants",
+  "summary": "Carnegie Mellon grew from the Carnegie Technical Schools founded by Andrew Carnegie in 1900 and became Carnegie Mellon University in 1967 after merging with the Mellon Institute. Its School of Computer Science admits undergraduates directly and is far more selective than the university overall. CMU does not award institutional financial aid to international undergraduates.",
+  "stats": {
+    "totalStudents": {
+      "value": 16582,
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "55",
+      "sourceId": "s1"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT or ACT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "Fall 2027: required for the School of Computer Science; other colleges are \"test flexible\" (SAT, ACT, IB, AP, A-level or French Bac results); Fine Arts is test-optional."
+    }
+  ],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": null,
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s8",
+      "confidence": "official"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": null,
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s8",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 69702,
+        "max": 69702,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "First-years entering fall 2026. Same rate for international students."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 69702,
+        "max": 69702,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 19650,
+        "max": 19650,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Standard double room US$11,700 plus traditional first-year meal plan US$7,950."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Need-based aid (US citizens and permanent residents)",
+      "kind": [
+        "need",
+        "domestic"
+      ],
+      "eligibility": "CMU does not award institutional financial aid to international undergraduates; international families must plan to pay the full cost of attendance.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s9",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Decision application",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s3",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-01-04",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s3",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "computer-science-bs",
+      "name": "BS in Computer Science (School of Computer Science)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "School of Computer Science",
+      "durationYears": 4,
+      "url": "https://www.cs.cmu.edu/academics/undergraduate/admissions",
+      "summary": "Admission is directly to the School of Computer Science, which admits a few hundred first-years from thousands of applicants; SAT or ACT is required for SCS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 103,
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Main campus in Pittsburgh's Oakland neighbourhood."
+    },
+    "faculty": {
+      "value": 1615,
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": null
+    },
+    "housing": {
+      "value": "All first-years must live in university housing; housing is guaranteed for four years if students stay in the university system. CMU owns 26 residence halls and apartments.",
+      "sourceId": "s12",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "5000 Forbes Avenue, Pittsburgh, PA 15213, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, fall 2025 (all colleges)",
+        "applicants": 34867,
+        "admitted": 3859,
+        "enrolled": null,
+        "acceptanceRate": "≈11.1%",
+        "sourceId": "s2",
+        "confidence": "official",
+        "notes": "Early Decision: 2,680 applied, 553 admitted. Admits' middle-50% SAT 1500–1560 (65.5% submitted)."
+      },
+      {
+        "year": "Recent cycle",
+        "scope": "School of Computer Science applicants",
+        "applicants": 6700,
+        "admitted": 350,
+        "enrolled": null,
+        "acceptanceRate": "<5.2%",
+        "sourceId": "s5",
+        "confidence": "official",
+        "notes": "\"Approximately 6,700+\" applicants, as described by SCS."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Choose a college",
+        "detail": "Apply to a specific CMU college; testing rules differ by college.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Pick a plan",
+        "detail": "Early Decision by 1 November (notified by 15 December) or Regular Decision by 4 January (notified by 1 April).",
+        "sourceId": "s3"
+      },
+      {
+        "step": "English proficiency",
+        "detail": "Non-native speakers send TOEFL or IELTS results by 1 January.",
+        "sourceId": "s8"
+      },
+      {
+        "step": "Plan finances (international)",
+        "detail": "CMU awards no institutional aid to international undergraduates.",
+        "sourceId": "s9"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition (first-years, fall 2026)",
+        "audience": "all",
+        "amount": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Standard double room",
+        "audience": "all",
+        "amount": {
+          "min": 11700,
+          "max": 11700,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Traditional first-year meal plan",
+        "audience": "all",
+        "amount": {
+          "min": 7950,
+          "max": 7950,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Total resident cost of attendance US$93,614."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "TopUniversities — Carnegie Mellon University",
+      "url": "https://www.topuniversities.com/universities/carnegie-mellon-university",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "CMU Common Data Set 2025-26 — First-year admission",
+      "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2025_26/cds-2025-c-first-time-first-year-admission.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "CMU Admission — Application plans & deadlines",
+      "url": "https://www.cmu.edu/admission/admission/application-plans-deadlines",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "CMU Admission — Standardized testing",
+      "url": "https://www.cmu.edu/admission/admission/standardized-testing",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "CMU School of Computer Science — Meeting the demand",
+      "url": "https://www.cs.cmu.edu/link/meeting-demand",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "CMU School of Computer Science — Undergraduate admissions",
+      "url": "https://www.cs.cmu.edu/academics/undergraduate/admissions",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "CMU Student Financial Services — 2026-27 undergraduate tuition",
+      "url": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "CMU Admission — International applicants",
+      "url": "https://www.cmu.edu/admission/admission/international-applicants",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "CMU — Financial aid policy statement",
+      "url": "https://www.cmu.edu/policies/student-and-student-life/financial-aid-statement.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Carnegie Mellon — History",
+      "url": "https://www.cmu.edu/about/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Carnegie Mellon — About",
+      "url": "https://www.cmu.edu/about",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "CMU Admission — Housing & dining",
+      "url": "https://www.cmu.edu/admission/campus-experience/housing-and-dining",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

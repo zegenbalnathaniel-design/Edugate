@@ -1,0 +1,391 @@
+{
+  "slug": "georgia-institute-of-technology",
+  "name": "Georgia Tech",
+  "officialName": "Georgia Institute of Technology",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Georgia",
+  "city": "Atlanta",
+  "campuses": [],
+  "control": "public",
+  "category": "technical",
+  "founded": 1885,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.gatech.edu/",
+  "admissionsUrl": "https://admission.gatech.edu/",
+  "financialAidUrl": "https://finaid.gatech.edu/",
+  "internationalUrl": "https://admission.gatech.edu/international/first-year",
+  "summary": "Georgia Tech is a public technological university in Atlanta, established in 1885. All first-year applicants must submit SAT or ACT results. Its BS in Computer Science is built around \"Threads\": each student combines two areas such as intelligence, systems and architecture, theory, or people.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT and/or ACT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "At least one SAT or ACT result is required from every first-year applicant."
+    }
+  ],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": null,
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s7",
+      "confidence": "official"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": null,
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s7",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 35610,
+        "max": 35610,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Out-of-country first-years; mandatory student fees add US$1,716."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 14628,
+        "max": 14628,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "On-campus housing US$8,318 plus food US$6,310."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Institutional scholarships (limited for international students)",
+      "kind": [
+        "merit",
+        "need",
+        "domestic"
+      ],
+      "eligibility": "International students cannot receive federal or state aid, and scholarships administered by Georgia Tech's financial aid office are often not awarded to them.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Action 2 application (non-Georgia and international applicants)",
+      "date": "2026-11-02",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s2",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-01-06",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s2",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bs-computer-science",
+      "name": "BS in Computer Science",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "College of Computing",
+      "durationYears": 4,
+      "url": "https://cc.gatech.edu/degree-programs/bachelor-science-computer-science",
+      "summary": "Students choose two Threads — from modelling & simulation, devices, theory, information internetworks, intelligence, media, people, and systems & architecture — to shape the degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT and/or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35610,
+          "max": 35610,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Out-of-country tuition."
+      }
+    }
+  ],
+  "details": {
+    "address": "North Avenue, Atlanta, GA 30332, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants for fall 2025",
+        "applicants": 67000,
+        "admitted": 8500,
+        "enrolled": null,
+        "acceptanceRate": null,
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "\"Almost 67,000\" applied and \"more than 8,500\" were admitted; admit rate 30% for Georgia residents and 9% for nonresidents."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply in the right round",
+        "detail": "Non-Georgia and international students: Early Action 2 by 2 November 2026 (decisions late January) or Regular Decision by 6 January 2027 (mid-March).",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Send test scores",
+        "detail": "Self-report SAT/ACT by the round's test deadline (8 December for EA2; 22 January for RD).",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Show English proficiency",
+        "detail": "International applicants meet the University System of Georgia's English requirement (TOEFL or IELTS).",
+        "sourceId": "s7"
+      },
+      {
+        "step": "Plan finances",
+        "detail": "International students must document funding for the full programme to receive an I-20.",
+        "sourceId": "s6"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition — out-of-country first-year",
+        "audience": "international",
+        "amount": {
+          "min": 35610,
+          "max": 35610,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Mandatory student fees",
+        "audience": "all",
+        "amount": {
+          "min": 1716,
+          "max": 1716,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "On-campus housing",
+        "audience": "all",
+        "amount": {
+          "min": 8318,
+          "max": 8318,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Food service",
+        "audience": "all",
+        "amount": {
+          "min": 6310,
+          "max": 6310,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Total on-campus estimate US$56,520 (first-year, out-of-country)."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "New Georgia Encyclopedia — Georgia Institute of Technology",
+      "url": "https://www.georgiaencyclopedia.org/articles/education/georgia-institute-of-technology-georgia-tech/",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "Georgia Tech Admission — First-year application plans and deadlines",
+      "url": "https://admission.gatech.edu/first-year/deadlines",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Georgia Tech Admission — Standardized tests",
+      "url": "https://admission.gatech.edu/first-year/standardized-tests",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Georgia Tech Enrollment Management — final decision release completes fall 2025 class",
+      "url": "https://news.em.gatech.edu/2025/03/31/final-decision-release-fall-2025-first-year/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Georgia Tech ISSS — Undergraduate estimated cost of attendance",
+      "url": "https://isss.oie.gatech.edu/undergraduate-estimated-cost-attendance",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Georgia Tech Financial Aid — International students",
+      "url": "https://finaid.gatech.edu/apply/international",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Georgia Tech Admission — International first-year admission",
+      "url": "https://admission.gatech.edu/international/first-year",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Georgia Tech College of Computing — BS in Computer Science",
+      "url": "https://cc.gatech.edu/degree-programs/bachelor-science-computer-science",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}
