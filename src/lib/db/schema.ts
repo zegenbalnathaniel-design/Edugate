@@ -14,6 +14,7 @@ import {
 } from "drizzle-orm/pg-core";
 import type { Program, University } from "../unis/schema";
 import type { StudentProfile } from "../profile/schema";
+import type { SavedProject } from "../architect/schemas";
 
 /*
  * Catalogue: the full sourced record lives in `data` (validated JSONB, keeps
@@ -174,3 +175,34 @@ export const auditLog = pgTable("audit_log", {
   verified: boolean("verified").notNull().default(false),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
+
+/* ---------------------- Passion Project Architect ---------------------- */
+
+// Each AI step costs real money, so usage is metered per user per day.
+export const architectUsage = pgTable(
+  "architect_usage",
+  {
+    id: serial("id").primaryKey(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    step: text("step").notNull(),
+    units: integer("units").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index("architect_usage_user_time_idx").on(t.userId, t.createdAt)],
+);
+
+export const architectProjects = pgTable(
+  "architect_projects",
+  {
+    id: text("id").primaryKey(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    title: text("title").notNull(),
+    data: jsonb("data").$type<SavedProject>().notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index("architect_projects_user_idx").on(t.userId)],
+);

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useMemo, useState } from "react";
 import type {
   PassionOption,
@@ -178,6 +179,16 @@ export function PassionSessionFlow() {
                 Begin
               </Button>
             </div>
+
+            <p className="mt-8 border-t border-current/10 pt-6 text-[0.875rem] text-current/65">
+              Want a full plan instead of a snapshot?{" "}
+              <Link href="/passion-projector/architect" className="text-cyan underline-offset-2 hover:underline">
+                Project Architect →
+              </Link>
+              <span className="mt-1 block text-[0.8125rem] text-current/45">
+                An adaptive interview, 8–12 concepts built from your answers, and a blueprint with budget, risks and a 12-week plan.
+              </span>
+            </p>
           </div>
         )}
 
