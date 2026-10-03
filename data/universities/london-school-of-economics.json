@@ -1,0 +1,279 @@
+{
+  "slug": "london-school-of-economics",
+  "name": "LSE",
+  "officialName": "The London School of Economics and Political Science",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "London",
+  "campuses": [],
+  "control": "public",
+  "category": "specialist",
+  "founded": 1895,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.lse.ac.uk/",
+  "admissionsUrl": "https://www.lse.ac.uk/study-at-lse/undergraduate",
+  "financialAidUrl": null,
+  "internationalUrl": "https://www.lse.ac.uk/study-at-lse/Undergraduate/Prospective-Students/How-to-Apply/entry-requirements",
+  "summary": "LSE was founded in 1895 by Fabian social reformers including Sidney and Beatrice Webb. It received about 30,000 undergraduate applications for roughly 1,900 places in 2025. BSc Economics requires Mathematics and the TMUA, and the overseas fee for 2027 entrants stays the same in every year of the degree.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "62",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": {
+        "min": 41900,
+        "max": 41900,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": "2027-28",
+      "notes": "BSc Economics overseas fee for 2027/28 entrants; stays the same for each later year of full-time study."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "UCAS application deadline",
+      "date": "2027-01-13",
+      "intake": "2027 entry",
+      "timezone": "Europe/London",
+      "sourceId": "s3",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bsc-economics",
+      "name": "BSc Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-economics",
+      "summary": "Applicants need A-level Mathematics (or equivalent) and must take the TMUA. In 2025 there were 2,885 applications for 217 places (13:1).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "LSE weighs subject combination as well as grades; see the programme page for the standard offer."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "39 points with 766 at Higher Level, including 7 in Mathematics",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Contextual offer: 38 points with 766 HL and 7 in Mathematics."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 41900,
+          "max": 41900,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027-28",
+        "notes": "Overseas, fixed for the degree."
+      }
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "All first-year undergraduates who book by the guarantee deadline are guaranteed a place in LSE halls, even if they live in London (deadline 9 June 2026 for 2026 entry).",
+      "sourceId": "s5",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "Houghton Street, London WC2A 2AE, United Kingdom",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "All undergraduate applications",
+        "applicants": 30000,
+        "admitted": null,
+        "enrolled": null,
+        "acceptanceRate": null,
+        "sourceId": "s4",
+        "confidence": "high",
+        "notes": "\"Approximately 30,000 applications for roughly 1,900 places\"."
+      },
+      {
+        "year": "2025",
+        "scope": "BSc Economics",
+        "applicants": 2885,
+        "admitted": null,
+        "enrolled": 217,
+        "acceptanceRate": "13 applications per place",
+        "sourceId": "s3",
+        "confidence": "official"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply through UCAS",
+        "detail": "Submit by 13 January 2027 for 2027 entry.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Take the TMUA",
+        "detail": "BSc Economics applicants must sit the TMUA.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Book halls",
+        "detail": "Book by the guarantee deadline to secure first-year accommodation.",
+        "sourceId": "s5"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Overseas tuition — BSc Economics (fixed for the degree)",
+        "audience": "international",
+        "amount": {
+          "min": 41900,
+          "max": 41900,
+          "period": "year"
+        },
+        "currency": "GBP",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027-28"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "LSE — History overview",
+      "url": "https://www.lse.ac.uk/about-lse/our-history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "TopUniversities — LSE",
+      "url": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "LSE — BSc Economics",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-economics",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "LSE — Applying to LSE",
+      "url": "https://www.lse.ac.uk/study-at-lse/Undergraduate/Prospective-Students/Virtual-undergraduate-open-day/applying-to-LSE/applying-to-lse",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "LSE — Book accommodation in halls",
+      "url": "https://www.lse.ac.uk/student-life/accommodation/apply",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

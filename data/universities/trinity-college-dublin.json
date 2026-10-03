@@ -1,0 +1,396 @@
+{
+  "slug": "trinity-college-dublin",
+  "name": "Trinity College Dublin",
+  "officialName": "Trinity College Dublin, the University of Dublin",
+  "country": "Ireland",
+  "countryCode": "IE",
+  "region": "Leinster",
+  "city": "Dublin",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1592,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.tcd.ie/",
+  "admissionsUrl": "https://www.tcd.ie/study/",
+  "financialAidUrl": null,
+  "internationalUrl": "https://www.tcd.ie/study/international/how-to-apply/",
+  "summary": "Trinity was created by royal charter in 1592 and has about 22,000 students. EU applicants apply through the CAO points system; non-EU applicants apply directly to Trinity by 30 June. Business, Economic and Social Studies (BESS) and Computer Science are among its most competitive courses.",
+  "stats": {
+    "totalStudents": {
+      "value": 22000,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Undergraduate and postgraduate."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "75",
+      "sourceId": "s3"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "CAO for EU applicants; direct application to Trinity for non-EU applicants",
+    "sourceId": "s5",
+    "confidence": "official",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "EUR",
+    "internationalTuition": {
+      "value": {
+        "min": 20009,
+        "max": 20009,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Non-EU first-year fee for BESS (and Computer Science and Business); other courses differ. Student levies and charges (€212.75) are extra."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "Non-EU undergraduate application deadline",
+      "date": "2027-06-30",
+      "intake": "2027-28",
+      "timezone": "Europe/Dublin",
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bess",
+      "name": "Business, Economic and Social Studies (BESS)",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/business-economics-and-social-studies/",
+      "summary": "BESS at Trinity; non-EU applicants apply directly by 30 June. See the course page for the subjects it covers.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A to ABB depending on course",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six subjects across GCSE/AS/A-level including English, Mathematics and another language at grade 4/C; two at A-level grade C or above."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "30–40 points (incl. bonus) depending on course",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "A language other than English",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Three HL subjects at 5 and three SL subjects at 4, including English, Mathematics and a language."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 20009,
+          "max": 20009,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Non-EU first-year fee."
+      }
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science/",
+      "summary": "Computer Science at the School of Computer Science and Statistics; the 2025 CAO minimum was 533 points.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A to ABB depending on course",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six subjects across GCSE/AS/A-level including English, Mathematics and another language at grade 4/C; two at A-level grade C or above."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "30–40 points (incl. bonus) depending on course",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "English",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "A language other than English",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Three HL subjects at 5 and three SL subjects at 4, including English, Mathematics and a language."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "Trinity Hall is the designated residence for first-years, housing about 1,000 students in shared apartments; places are filled by random selection from applications (invited from 1 July 2026). Rates start at €178 a week.",
+      "sourceId": "s10",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "address": "College Green, Dublin 2, Ireland",
+    "cutoffs": [
+      {
+        "exam": "CAO points (Leaving Certificate)",
+        "program": "Computer Science",
+        "category": "EU applicants",
+        "round": "2025 entry",
+        "year": 2025,
+        "opening": null,
+        "closing": "533",
+        "sourceId": "s8",
+        "confidence": "official",
+        "notes": "Joint Honours combinations with BESS ranged 554–590 points (with H4/O2 in Mathematics)."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "EU applicants: CAO",
+        "detail": "Apply through the CAO; places are allocated on points.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Non-EU applicants: apply direct",
+        "detail": "Apply to Trinity directly by 30 June.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Accommodation",
+        "detail": "Apply for Trinity Hall when invited (from 1 July); places are allocated by random selection.",
+        "sourceId": "s10"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Non-EU tuition — BESS / Computer Science and Business (first year)",
+        "audience": "international",
+        "amount": {
+          "min": 20009,
+          "max": 20009,
+          "period": "year"
+        },
+        "currency": "EUR",
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Student levies and charges",
+        "audience": "all",
+        "amount": {
+          "min": 212.75,
+          "max": 212.75,
+          "period": "year"
+        },
+        "currency": "EUR",
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Trinity Hall rent (from, per week)",
+        "audience": "all",
+        "amount": {
+          "min": 178,
+          "max": 178,
+          "period": "week"
+        },
+        "currency": "EUR",
+        "sourceId": "s10",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Trinity College Dublin — History",
+      "url": "https://www.tcd.ie/about/history/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "Trinity College Dublin — About Trinity",
+      "url": "https://www.tcd.ie/about/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "TopUniversities — Trinity College Dublin",
+      "url": "https://www.topuniversities.com/universities/trinity-college-dublin-university-dublin",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Trinity — Undergraduate fees",
+      "url": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Trinity — Undergraduate admission guide for non-EU students",
+      "url": "https://www.tcd.ie/study/assets/PDF/AdmissionGuideUGNonEUFinal.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Trinity — Entry requirements for international students",
+      "url": "https://www.tcd.ie/study/international/how-to-apply/entry-requirements.php",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Trinity — Business, Economics and Social Studies",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/business-economics-and-social-studies/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Trinity — Computer Science",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Trinity — 2025 CAO end-of-season minimum entry levels",
+      "url": "https://www.tcd.ie/study/assets/pdfs/2025-cao-minimum-entry-points-final.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Trinity Accommodation — 1st year students",
+      "url": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

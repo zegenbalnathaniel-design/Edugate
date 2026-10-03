@@ -1,0 +1,307 @@
+{
+  "slug": "university-college-london",
+  "name": "UCL",
+  "officialName": "University College London",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "London",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1826,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ucl.ac.uk/",
+  "admissionsUrl": "https://www.ucl.ac.uk/prospective-students/undergraduate",
+  "financialAidUrl": null,
+  "internationalUrl": "https://www.ucl.ac.uk/prospective-students/international",
+  "summary": "UCL was established in 1826 to make higher education accessible to all — the first university in England to admit students of any class, race or religion, and women on equal terms with men. It has more than 50,000 students and 16,000 staff. From the 2027 cycle Economics applicants sit the TMUA, while Computer Science uses its own STAT admissions test.",
+  "stats": {
+    "totalStudents": {
+      "value": 50000,
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"More than 50,000 students from 150 different countries\"."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=8",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": "2027-28",
+      "notes": "UCL lists most 2027/28 overseas fees as \"to be confirmed\"."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-bsc-econ",
+      "name": "Economics BSc (Econ)",
+      "degree": "BSc (Econ)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/economics-bsc-econ",
+      "summary": "All applicants sit the TMUA from the 2027 cycle, alongside the UCAS application.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A*",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "39 points, 19 at Higher Level with no HL score below 5",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "Grade 7 in HL Mathematics"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "computer-science-bsc",
+      "name": "Computer Science BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/computer-science-bsc",
+      "summary": "All Computer Science BSc and MEng applicants sit UCL's STAT admissions test.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics or Further Mathematics",
+              "level": "A-level",
+              "minGrade": "A*",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [
+        {
+          "test": "STAT (Skills for Tertiary Admissions Test)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "UCL guarantees an offer of accommodation to full-time first-year undergraduates studying at UCL for the first time who apply before the deadline — a place in halls, not a specific location, room type or budget.",
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "Gower Street, London WC1E 6BT, United Kingdom",
+    "outcomes": [
+      {
+        "cohort": "All graduates",
+        "year": "2022-23 graduates",
+        "measure": "HESA Graduate Outcomes, 15 months after finishing: in work or study; median undergraduate salary.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": "90% in work or study · 65.1% in highly skilled work · 12.4% in further study",
+        "medianSalary": 34000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "GBP",
+        "sourceId": "s8",
+        "confidence": "official"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply through UCAS",
+        "detail": "Choose the programme; UCL assesses the whole application.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Admissions test",
+        "detail": "TMUA for Economics (2027 cycle); STAT for Computer Science.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Apply for halls",
+        "detail": "Apply before the deadline to receive the first-year accommodation guarantee.",
+        "sourceId": "s7"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "UCL — History",
+      "url": "https://www.ucl.ac.uk/about/who-we-are/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "UCL — Economics BSc (Econ)",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/economics-bsc-econ",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "UCL — Computer Science BSc",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/computer-science-bsc",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "UCL Computer Science — BSc and MEng STAT admissions test",
+      "url": "https://www.ucl.ac.uk/computer-science/study/undergraduate/computer-science-bsc-and-meng-stat-admissions-test",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "UCL — Welcome to UCL",
+      "url": "https://www.ucl.ac.uk/home/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "UCL — First-year accommodation",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate-offer-holders/first-year-accommodation",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "UCL Careers — What are UCL's 2022-23 graduates doing now?",
+      "url": "https://www.ucl.ac.uk/careers/case-studies/2025/aug/what-are-ucls-2022-23-graduates-doing-now",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

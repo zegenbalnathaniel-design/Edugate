@@ -1,0 +1,456 @@
+{
+  "slug": "university-of-oxford",
+  "name": "University of Oxford",
+  "officialName": "University of Oxford",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "Oxford",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1096,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ox.ac.uk/",
+  "admissionsUrl": "https://www.ox.ac.uk/admissions/undergraduate",
+  "financialAidUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding",
+  "internationalUrl": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/for-international-students/applying-international-student",
+  "summary": "Oxford has no clear founding date, but teaching existed there in some form by 1096. Undergraduates belong to one of 32 colleges and permanent private halls that admit them. Applications go through UCAS by a strict 15 October deadline, most courses require an admissions test, and shortlisted applicants are interviewed.",
+  "stats": {
+    "totalStudents": {
+      "value": 26000,
+      "sourceId": "s10",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"More than 26,000 students\"."
+    },
+    "undergraduates": {
+      "value": 12470,
+      "sourceId": "s10",
+      "confidence": "official",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "4",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s6",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": {
+        "min": 39620,
+        "max": 66580,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": "2027-28",
+      "notes": "Overseas course fees for 2027 entry vary by course; Economics and Management is £46,210 a year."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 13275,
+        "max": 19575,
+        "period": "year"
+      },
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "2027-28",
+      "notes": "£1,475–£2,175 a month over a 9-month year."
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "UCAS application deadline (6pm UK time)",
+      "date": "2026-10-15",
+      "intake": "2027 entry",
+      "timezone": "Europe/London",
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-and-management",
+      "name": "Economics and Management (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": "Economics and management",
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/economics-and-management",
+      "summary": "BA combining economics with management. Applicants take an admissions test and shortlisted candidates are interviewed.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "39 points including core, with 766 at HL",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [
+        {
+          "test": "TARA (Test of Academic Reasoning for Admissions)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "high",
+          "notes": "Some college pages still mention the TSA; check the course page for the current test."
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 46210,
+          "max": 46210,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2027-28",
+        "notes": "Overseas course fee."
+      }
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+      "summary": "Undergraduate Computer Science; applicants sit the TMUA and need top grades in Mathematics (and Further Mathematics where available).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A*",
+              "status": "required",
+              "notes": "A*A in Maths and Further Maths, in any order"
+            },
+            {
+              "subject": "Further Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "recommended",
+              "notes": "If available at your school"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "39 points including core, with 766 at HL",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "The 7 must be in HL Mathematics"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null,
+        "notes": "2027-28 overseas fee for Computer Science not confirmed; overseas fees range £39,620–£66,580."
+      }
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "Students live in college accommodation, which is often heavily subsidised; 2026-27 accommodation and meals cost roughly £6,877–£9,725 for 175 days depending on the college.",
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "address": "University Offices, Wellington Square, Oxford OX1 2JD, United Kingdom",
+    "schools": [
+      "36 colleges and 3 societies; 32 colleges and permanent private halls admit undergraduates"
+    ],
+    "schoolsSourceId": "s12",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "All undergraduate applications",
+        "applicants": 23329,
+        "admitted": 3891,
+        "enrolled": 3302,
+        "acceptanceRate": null,
+        "sourceId": "s9",
+        "confidence": "official",
+        "notes": "\"Admitted\" here counts offers; 3,302 students were admitted."
+      },
+      {
+        "year": "2025",
+        "scope": "Economics and Management",
+        "applicants": 1911,
+        "admitted": 156,
+        "enrolled": 142,
+        "acceptanceRate": "14.5% success rate",
+        "sourceId": "s9",
+        "confidence": "official",
+        "notes": "18.8 applicants per place."
+      },
+      {
+        "year": "2025",
+        "scope": "Computer Science",
+        "applicants": 961,
+        "admitted": 96,
+        "enrolled": 92,
+        "acceptanceRate": "20.7% success rate",
+        "sourceId": "s9",
+        "confidence": "official",
+        "notes": "14.8 applicants per place."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "All undergraduates",
+        "year": "2020-21 leavers",
+        "measure": "HESA Graduate Outcomes, 15 months after leaving: high-skilled employment or further study; median salary.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": "93% in high-skilled work or further study",
+        "medianSalary": 32000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "GBP",
+        "sourceId": "s11",
+        "confidence": "official"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply through UCAS",
+        "detail": "Submit by 6pm UK time on 15 October 2026 for 2027 entry.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Admissions test",
+        "detail": "Most courses require one — e.g. TARA for Economics and Management, TMUA for Computer Science.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Shortlisting and interviews",
+        "detail": "Applicants are shortlisted using the application and test result; shortlisted candidates are interviewed.",
+        "sourceId": "s3"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Overseas course fee — Economics and Management",
+        "audience": "international",
+        "amount": {
+          "min": 46210,
+          "max": 46210,
+          "period": "year"
+        },
+        "currency": "GBP",
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "Living costs (estimate, per month)",
+        "audience": "all",
+        "amount": {
+          "min": 1475,
+          "max": 2175,
+          "period": "month"
+        },
+        "currency": "GBP",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2027-28",
+        "notes": "Food £325–£560, accommodation £880–£1,025, personal £165–£320, social £50–£135, study £35–£95 a month."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Oxford — Our history",
+      "url": "https://www.ox.ac.uk/about/organisation/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Oxford — Economics and Management course page",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/economics-and-management",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Oxford — Computer Science course page",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Oxford — Summary table of admissions requirements",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/admissions-requirements/summary-table-of-admissions-requirements",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Oxford — UCAS application",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying/guide-for-applicants/ucas-application",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Oxford — Course fees for 2027 entry",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/course-fees",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Oxford — Living costs",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/living-costs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Oxford — Annual admissions statistical report (June 2026)",
+      "url": "https://assets-oxweb.admin.ox.ac.uk/2026-07/Undergraduate%20Admissions%20Report%202026_0.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Oxford — Student numbers",
+      "url": "https://www.ox.ac.uk/about/facts-and-figures/student-numbers",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Oxford — Facts and figures",
+      "url": "https://www.ox.ac.uk/about/the-university/facts-and-figures",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "Oxford — College listing",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/college-life/college-listing",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

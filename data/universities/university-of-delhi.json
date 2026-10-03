@@ -132,9 +132,9 @@
       "field": "economics",
       "subfield": null,
       "school": null,
-      "durationYears": 4,
+      "durationYears": null,
       "url": "https://admission.uod.ac.in/",
-      "summary": "Four-year undergraduate programme offered by many DU colleges. Seats are allotted through CSAS on CUET (UG) score; Mathematics is compulsory in CUET for this programme.",
+      "summary": "Undergraduate programme offered by many DU colleges. Seats are allotted through CSAS on CUET (UG) score; Mathematics is compulsory in CUET for this programme.",
       "curriculum": [],
       "curriculumSourceId": null,
       "requirements": [
@@ -216,9 +216,9 @@
       "field": "business",
       "subfield": null,
       "school": null,
-      "durationYears": 4,
+      "durationYears": null,
       "url": "https://admission.uod.ac.in/",
-      "summary": "Four-year commerce programme offered across DU colleges, including Shri Ram College of Commerce and Hindu College; admission by CUET (UG) score through CSAS.",
+      "summary": "Commerce programme offered across DU colleges, including Shri Ram College of Commerce and Hindu College; admission by CUET (UG) score through CSAS.",
       "curriculum": [],
       "curriculumSourceId": null,
       "requirements": [

@@ -1,0 +1,421 @@
+{
+  "slug": "university-of-cambridge",
+  "name": "University of Cambridge",
+  "officialName": "University of Cambridge",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "Cambridge",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1209,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.cam.ac.uk/",
+  "admissionsUrl": "https://www.undergraduate.study.cam.ac.uk/",
+  "financialAidUrl": "https://www.undergraduate.study.cam.ac.uk/fees-funding",
+  "internationalUrl": "https://www.undergraduate.study.cam.ac.uk/international-students",
+  "summary": "Cambridge, founded in 1209, admits undergraduates through its colleges. Applications go through UCAS by 15 October, and both Economics and Computer Science require the TMUA. Overseas students pay a separate annual college fee on top of university tuition.",
+  "stats": {
+    "totalStudents": {
+      "value": 24927,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2025-26"
+    },
+    "undergraduates": {
+      "value": 12850,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2025-26"
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "6",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s6",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": {
+        "min": 30798,
+        "max": 46872,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2027-28",
+      "notes": "Overseas tuition: Economics £30,798; Computer Science £46,872 a year. A college fee (about £13,000–£13,848 at the colleges checked) is charged on top."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 11970,
+        "max": 15960,
+        "period": "year"
+      },
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "2027-28",
+      "notes": "About £1,330 a month: £11,970 for 9 months of term, £15,960 for 12 months."
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "UCAS application deadline (6pm UK time)",
+      "date": "2026-10-15",
+      "intake": "2027 entry",
+      "timezone": "Europe/London",
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba",
+      "name": "Economics, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/economics-ba-hons",
+      "summary": "Applicants must sit the TMUA at an authorised assessment centre.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for required subjects."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "41–42 points with 776 at Higher Level",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for required subjects."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 30798,
+          "max": 30798,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2027-28",
+        "notes": "Overseas tuition; college fee extra."
+      }
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science, BA (Hons) and MEng",
+      "degree": "BA (Hons) / MEng",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/computer-science-ba-hons-meng",
+      "summary": "Applicants must sit the TMUA at an authorised assessment centre.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for required subjects."
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "41–42 points with 776 at Higher Level",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for required subjects."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 46872,
+          "max": 46872,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2027-28",
+        "notes": "Overseas tuition; college fee extra."
+      }
+    }
+  ],
+  "details": {
+    "address": "The Old Schools, Trinity Lane, Cambridge CB2 1TN, United Kingdom",
+    "admissionStats": [
+      {
+        "year": "2025 cycle",
+        "scope": "All undergraduate applications",
+        "applicants": 22513,
+        "admitted": 4893,
+        "enrolled": null,
+        "acceptanceRate": null,
+        "sourceId": "s11",
+        "confidence": "official",
+        "notes": "\"Admitted\" counts offers made. Around six people apply for every place."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply through UCAS",
+        "detail": "Submit by 6pm UK time on 15 October 2026 for 2027 entry.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Sit the TMUA",
+        "detail": "Economics and Computer Science applicants take the TMUA at an authorised centre (12–16 October window).",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Overseas costs",
+        "detail": "Budget for university tuition, an annual college fee and living costs.",
+        "sourceId": "s7"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Overseas tuition — Economics",
+        "audience": "international",
+        "amount": {
+          "min": 30798,
+          "max": 30798,
+          "period": "year"
+        },
+        "currency": "GBP",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "Overseas tuition — Computer Science",
+        "audience": "international",
+        "amount": {
+          "min": 46872,
+          "max": 46872,
+          "period": "year"
+        },
+        "currency": "GBP",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "College fee — Magdalene College (example)",
+        "audience": "international",
+        "amount": {
+          "min": 13848,
+          "max": 13848,
+          "period": "year"
+        },
+        "currency": "GBP",
+        "sourceId": "s9",
+        "confidence": "official",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "College fee — Christ's College (example)",
+        "audience": "international",
+        "amount": {
+          "min": 13000,
+          "max": 13000,
+          "period": "year"
+        },
+        "currency": "GBP",
+        "sourceId": "s10",
+        "confidence": "official",
+        "asOf": "2027-28"
+      },
+      {
+        "item": "Living costs (estimate, per month)",
+        "audience": "all",
+        "amount": {
+          "min": 1330,
+          "max": 1330,
+          "period": "month"
+        },
+        "currency": "GBP",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2027-28"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Cambridge — Cambridge at a glance",
+      "url": "https://www.cam.ac.uk/about-the-university/cambridge-at-a-glance",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Cambridge — Economics, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/economics-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Cambridge — Computer Science, BA (Hons) and MEng",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/computer-science-ba-hons-meng",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Cambridge — Test of Mathematics for University Admission (TMUA)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/apply/how/maths-admission-test",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Cambridge — Application dates and deadlines",
+      "url": "https://www.undergraduate.study.cam.ac.uk/apply/application-dates-deadlines",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Cambridge — International fees and costs",
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Cambridge — Living costs",
+      "url": "https://www.undergraduate.study.cam.ac.uk/fees-funding/living-costs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Magdalene College — Tuition fees and living costs",
+      "url": "https://www.magd.cam.ac.uk/study-magdalene/undergraduate-study/fees-funding-and-finance/tuition-fees-and-living-costs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Christ's College — Costs",
+      "url": "https://www.christs.cam.ac.uk/admissions/undergraduate-admissions/finances/costs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Cambridge — Undergraduate admissions statistics, 2025 cycle",
+      "url": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-05/ug_admissions_statistics_2025_cycle.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "University of Cambridge — History",
+      "url": "https://www.cam.ac.uk/about-the-university/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

@@ -1,0 +1,327 @@
+{
+  "slug": "university-of-warwick",
+  "name": "University of Warwick",
+  "officialName": "University of Warwick",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "Coventry",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1965,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://warwick.ac.uk/",
+  "admissionsUrl": "https://warwick.ac.uk/study/undergraduate/",
+  "financialAidUrl": null,
+  "internationalUrl": "https://warwick.ac.uk/study/international/",
+  "summary": "Warwick received its Royal Charter in 1965, the year it took its first 450 undergraduates, and sits on a 710-acre campus on the boundary of Coventry and Warwickshire. Economics applicants are encouraged to sit the TMUA (top scorers can receive a reduced offer); Computer Science applicants must take it.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=68",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": "2027-28",
+      "notes": "Warwick states 2027-28 overseas fees have not all been set; check its overseas fees page."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-bsc",
+      "name": "Economics BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-economics/",
+      "summary": "TMUA is optional but encouraged; scores may be used to decide offers, and the highest scorers can receive a reduced offer of AAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA",
+          "typical": "A*AA",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 points",
+          "typical": "38",
+          "subjects": [
+            {
+              "subject": "Mathematics (Analysis and Approaches or Applications and Interpretation)",
+              "level": "HL",
+              "minGrade": "6",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "recommended",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official",
+          "notes": "High scorers may receive a reduced AAA offer."
+        }
+      ],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "computer-science-bsc",
+      "name": "Computer Science BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+      "summary": "All applicants must take the TMUA unless eligible for a contextual offer.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A",
+          "typical": "A*A*A",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A*",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "39 points with 7, 6, 6 at Higher Level",
+          "typical": "39",
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL",
+              "minGrade": "7",
+              "status": "required",
+              "notes": "Analysis and Approaches only"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [
+        {
+          "test": "TMUA",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official",
+          "notes": "Contextual-offer applicants are exempt."
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 37310,
+          "max": 37310,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2027-28",
+        "notes": "Shown on the course page for 2027-28, though Warwick also says 2027-28 overseas fees are not yet set — confirm before applying."
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 710,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    },
+    "housing": {
+      "value": "Eligible first-year undergraduates who meet the conditions and dates in Warwick's Allocation Principles are guaranteed university-allocated accommodation (on campus or in partner housing).",
+      "sourceId": "s5",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "Coventry CV4 7AL, United Kingdom",
+    "outcomes": [
+      {
+        "cohort": "Economics (UK full-time first-degree graduates)",
+        "year": "2021/22 graduates",
+        "measure": "HESA Graduate Outcomes: graduate-level work and/or graduate-level study 15 months after completing.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": "95% in graduate-level work or study",
+        "medianSalary": null,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "GBP",
+        "sourceId": "s6",
+        "confidence": "official"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply through UCAS",
+        "detail": "Choose your course and apply via UCAS.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "TMUA",
+        "detail": "Required for Computer Science; encouraged for Economics.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Accommodation",
+        "detail": "Meet the Allocation Principles conditions and dates to receive the first-year guarantee.",
+        "sourceId": "s5"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Warwick Calendar — Historical note",
+      "url": "https://warwick.ac.uk/services/gov/calendar/historicalnote/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "TopUniversities — University of Warwick",
+      "url": "https://www.topuniversities.com/universities/university-warwick",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Warwick — Economics BSc",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-economics/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Warwick — Computer Science BSc",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Warwick — Accommodation allocation principles",
+      "url": "https://warwick.ac.uk/services/accommodation/students/prospective/allocation-principles/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Warwick Economics — Graduate Outcomes success",
+      "url": "https://warwick.ac.uk/fac/soc/economics/news/2024/10/graduate_outcomes_success_for_warwick_economics_students/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

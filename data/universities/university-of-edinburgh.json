@@ -1,0 +1,283 @@
+{
+  "slug": "university-of-edinburgh",
+  "name": "University of Edinburgh",
+  "officialName": "The University of Edinburgh",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "Scotland",
+  "city": "Edinburgh",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1583,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ed.ac.uk/",
+  "admissionsUrl": "https://study.ed.ac.uk/undergraduate",
+  "financialAidUrl": "https://study.ed.ac.uk/undergraduate/fees-funding",
+  "internationalUrl": "https://study.ed.ac.uk/undergraduate/fees-funding/fees-costs/international-eu-eea",
+  "summary": "Founded by the Town Council in 1583, Edinburgh is the sixth-oldest university in the UK. International undergraduates pay a fixed annual tuition fee — the same amount each year. Entry requirements are published as a range from a standard to a minimum offer.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "36",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UCAS",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": "s5",
+      "confidence": "requires-verification",
+      "asOf": "2027-28",
+      "notes": "International fees are fixed for the degree; 2027-28 amounts are on Edinburgh's fees page but were not retrieved."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ma",
+      "name": "Economics MA (Hons)",
+      "degree": "MA (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/122-economics",
+      "summary": "Offers range between a standard and a minimum entry requirement.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA (minimum)",
+          "typical": "A*A*A* (standard)",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "B",
+              "status": "required",
+              "notes": "Or AS Mathematics at A"
+            },
+            {
+              "subject": "English",
+              "level": "GCSE",
+              "minGrade": "C / 4",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "37 points with 666 at HL (minimum)",
+          "typical": "40 points with 766 at HL (standard)",
+          "subjects": [
+            {
+              "subject": "English",
+              "level": "SL",
+              "minGrade": "5",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "SL or HL",
+              "minGrade": "6",
+              "status": "required",
+              "notes": "6 if not taken at HL"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "computer-science-bsc",
+      "name": "Computer Science BSc (Hons)",
+      "degree": "BSc (Hons)",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science",
+      "summary": "Offers range between a standard and a minimum entry requirement.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "AAB (minimum)",
+          "typical": "A*A*A* (standard)",
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "English",
+              "level": "GCSE",
+              "minGrade": "C / 4",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "34 points with 665 at HL (minimum)",
+          "typical": "43 points with 777 at HL (standard)",
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL",
+              "minGrade": "6",
+              "status": "required",
+              "notes": "Analysis and Approaches only"
+            },
+            {
+              "subject": "English",
+              "level": "SL",
+              "minGrade": "5",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "address": "Old College, South Bridge, Edinburgh EH8 9YL, United Kingdom",
+    "schools": [
+      "3 Colleges (and 3 Professional Services Groups); about 15,000 staff"
+    ],
+    "schoolsSourceId": "s6"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Edinburgh — Our history",
+      "url": "https://www.ed.ac.uk/about/our-history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027 — United Kingdom",
+      "url": "https://www.topuniversities.com/world-university-rankings?countries=gb",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Edinburgh — Economics MA (Hons) entry requirements",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/122-economics/entry-requirements",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Edinburgh — Computer Science BSc (Hons) entry requirements",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Edinburgh — International and EU/EEA tuition fees and other costs",
+      "url": "https://study.ed.ac.uk/undergraduate/fees-funding/fees-costs/international-eu-eea",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Edinburgh College of Science & Engineering — About the University",
+      "url": "https://science-engineering.ed.ac.uk/other/welcome-from-the-head-of-college/about-the-university-of-edinburgh",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}
