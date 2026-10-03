@@ -1,0 +1,416 @@
+{
+  "slug": "university-of-amsterdam",
+  "name": "University of Amsterdam",
+  "officialName": "Universiteit van Amsterdam",
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "region": "North Holland",
+  "city": "Amsterdam",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1632,
+  "setting": null,
+  "languages": [
+    "Dutch",
+    "English"
+  ],
+  "website": "https://www.uva.nl/en",
+  "admissionsUrl": "https://www.uva.nl/en/education/admissions/bachelors/applying-for-a-bachelors-programme.html",
+  "financialAidUrl": "https://www.uva.nl/en/education/fees-and-funding/fees-and-funding.html",
+  "internationalUrl": null,
+  "summary": "The UvA traces its origins to the Athenaeum Illustre, opened in 1632, and has more than 44,000 students. Its Faculty of Economics and Business teaches the English-language Econometrics and Data Science bachelor's and an English track of Economics and Business Economics. (The UvA's Computer Science bachelor's is taught in Dutch.)",
+  "stats": {
+    "totalStudents": {
+      "value": 44000,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"Over 44,000 students.\""
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "60",
+      "sourceId": "s3"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": "€100, non-refundable (international applicants)",
+    "sourceId": "s5",
+    "confidence": "high",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "EUR",
+    "internationalTuition": {
+      "value": {
+        "min": 13900,
+        "max": 13900,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Institutional fee for bachelor's programmes at the Faculty of Economics and Business (non-EEA). Other faculties differ. 2027-28 rates not yet verified."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 2694,
+        "max": 2694,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Statutory fee, full-time."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Amsterdam Merit Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "Outstanding students from outside the EU.",
+      "coverage": "€6,000 a year (€18,000 in total)",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s6",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Economics and Business Economics (English track): numerus fixus deadline",
+      "date": "2027-01-15",
+      "intake": "September 2027",
+      "timezone": "Europe/Amsterdam",
+      "sourceId": "s11",
+      "confidence": "high"
+    },
+    {
+      "label": "Econometrics and Data Science: non-EU applicants applying for a scholarship",
+      "date": "2027-03-01",
+      "intake": "September 2027",
+      "timezone": "Europe/Amsterdam",
+      "sourceId": "s7",
+      "confidence": "official"
+    },
+    {
+      "label": "Econometrics and Data Science: non-EU applicants needing a visa or UvA housing",
+      "date": "2027-04-01",
+      "intake": "September 2027",
+      "timezone": "Europe/Amsterdam",
+      "sourceId": "s7",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "econometrics-and-data-science",
+      "name": "Econometrics and Data Science",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Faculty of Economics and Business",
+      "durationYears": null,
+      "url": "https://www.uva.nl/en/programmes/bachelors/econometrics-and-data-science/econometrics-and-data-science.html",
+      "summary": "Taught at the Amsterdam School of Economics. Applications for September 2027 open in October 2026.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics or Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": "4",
+              "status": "required",
+              "notes": "At least 5 is highly recommended."
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13900,
+          "max": 13900,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Faculty of Economics and Business institutional fee (non-EEA)."
+      }
+    },
+    {
+      "slug": "economics-and-business-economics",
+      "name": "Economics and Business Economics (English track)",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Faculty of Economics and Business",
+      "durationYears": null,
+      "url": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/international-prior-education-english-track.html",
+      "summary": "Numerus fixus English track with 550 places and an early application deadline of 15 January.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Must be a final-examination subject, at the level of Dutch VWO Mathematics A or B."
+            }
+          ],
+          "sourceId": "s9",
+          "confidence": "official",
+          "asOf": "2027-28"
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Must be a final-examination subject, at the level of Dutch VWO Mathematics A or B."
+            }
+          ],
+          "sourceId": "s9",
+          "confidence": "official",
+          "asOf": "2027-28"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13900,
+          "max": 13900,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Faculty of Economics and Business institutional fee (non-EEA)."
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Check entry requirements",
+        "detail": "The Admissions Office assesses your diploma, English proficiency and mathematics proficiency.",
+        "sourceId": "s10"
+      },
+      {
+        "step": "Apply early for numerus fixus programmes",
+        "detail": "The EBE English track has 550 places and a 15 January deadline.",
+        "sourceId": "s11"
+      },
+      {
+        "step": "Pay the application fee",
+        "detail": "International applicants pay a non-refundable €100 fee.",
+        "sourceId": "s5"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Institutional fee, bachelor's, Faculty of Economics and Business (non-EEA)",
+        "audience": "international",
+        "amount": {
+          "min": 13900,
+          "max": 13900,
+          "period": "year"
+        },
+        "currency": "EUR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Institutional fee, second Dutch degree programme",
+        "audience": "all",
+        "amount": {
+          "min": 11500,
+          "max": 11500,
+          "period": "year"
+        },
+        "currency": "EUR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Statutory fee (full-time)",
+        "audience": "domestic",
+        "amount": {
+          "min": 2694,
+          "max": 2694,
+          "period": "year"
+        },
+        "currency": "EUR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Application fee (international applicants)",
+        "audience": "international",
+        "amount": {
+          "min": 100,
+          "max": 100,
+          "period": "total"
+        },
+        "currency": "EUR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "UvA — Facts and figures",
+      "url": "https://www.uva.nl/en/about-the-uva/about-the-university/facts-and-figures/facts-and-figures.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "UvA — From Athenaeum Illustre to University",
+      "url": "https://www.uva.nl/en/about-the-uva/about-the-university/history/history.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "TopUniversities — University of Amsterdam",
+      "url": "https://www.topuniversities.com/universities/university-amsterdam",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "UvA — Tuition fees",
+      "url": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "UvA — Applying for a Bachelor's programme",
+      "url": "https://www.uva.nl/en/education/admissions/bachelors/applying-for-a-bachelors-programme.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "UvA — Econometrics and Data Science: tuition fee",
+      "url": "https://www.uva.nl/en/programmes/bachelors/econometrics-and-data-science/tuition-fee/tuition-fee.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "UvA — Econometrics and Data Science: international prior education",
+      "url": "https://www.uva.nl/en/programmes/bachelors/econometrics-and-data-science/application-and-admission/international-prior-education/international-prior-education.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "UvA — Econometrics and Data Science: entry requirements",
+      "url": "https://www.uva.nl/en/programmes/bachelors/econometrics-and-data-science/application-and-admission/international-prior-education/entry-requirements.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "UvA — Economics and Business Economics: entry requirements",
+      "url": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/entry-requirements.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "UvA — Economics and Business Economics: application (English track)",
+      "url": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/international-prior-education-english-track.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "UvA — Selection for the English track (EBE)",
+      "url": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/selection-procedure/selection-procedure.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

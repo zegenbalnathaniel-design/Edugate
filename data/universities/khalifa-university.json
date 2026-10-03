@@ -1,0 +1,365 @@
+{
+  "slug": "khalifa-university",
+  "name": "Khalifa University",
+  "officialName": "Khalifa University of Science and Technology",
+  "country": "United Arab Emirates",
+  "countryCode": "AE",
+  "region": "Abu Dhabi",
+  "city": "Abu Dhabi",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 2007,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ku.ac.ae/",
+  "admissionsUrl": "https://www.ku.ac.ae/undergraduate-admissions",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Khalifa University traces back to KUSTAR, established by presidential decree in 2007; in 2017 KUSTAR, the Petroleum Institute and Masdar Institute merged into one university. It is a not-for-profit public institution whose core budget comes from the Government of Abu Dhabi. International applicants are automatically reviewed for merit scholarships.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "147",
+      "sourceId": "s3"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [
+    {
+      "test": "IELTS",
+      "minOverall": "6.0",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s5",
+      "confidence": "official"
+    },
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "79",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s5",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "AED",
+    "internationalTuition": {
+      "value": {
+        "min": 81250,
+        "max": 81250,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "AED 2,500 per credit hour; KU's estimated cost per year. Year of the schedule not stated."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "President's Scholarship",
+      "kind": [
+        "merit",
+        "full",
+        "automatic"
+      ],
+      "eligibility": "Reviewed automatically with the admission application; recipients must keep a cumulative GPA of 3.3 or higher.",
+      "coverage": "Full; benefits may include tuition, textbooks and accommodation",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    },
+    {
+      "name": "Partial scholarships for international students",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "automatic"
+      ],
+      "eligibility": "International students in College of Science programmes; recipients must keep a 3.0 GPA.",
+      "coverage": "75% tuition discount",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s7",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "computer-science",
+      "name": "BSc Computer Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.ku.ac.ae/academics/undergraduate-programs",
+      "summary": "Mathematics is a required school subject; one science subject (Physics, Chemistry or Biology) is optional.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Apply",
+        "detail": "International applicants (from schools outside the UAE) submit English test scores (IELTS or TOEFL) and any advanced-standing credits (A level, IB, AP).",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Scholarship review",
+        "detail": "No separate scholarship application: scholarships are reviewed automatically with the admission application.",
+        "sourceId": "s6"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "BSc tuition per credit hour",
+        "audience": "all",
+        "amount": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "currency": "AED",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      {
+        "item": "BSc estimated cost per year",
+        "audience": "all",
+        "amount": {
+          "min": 81250,
+          "max": 81250,
+          "period": "year"
+        },
+        "currency": "AED",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Khalifa University — History",
+      "url": "https://www.ku.ac.ae/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "Khalifa University — Is KU a government or a private university?",
+      "url": "https://www.ku.ac.ae/faqs/is-khalifa-university-a-government-university-or-a-private-university",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "TopUniversities — Khalifa University",
+      "url": "https://www.topuniversities.com/universities/khalifa-university",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Khalifa University — Fee and payment guidelines",
+      "url": "https://www.ku.ac.ae/fee-and-payment-guidelines",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Khalifa University — Undergraduate admissions FAQs",
+      "url": "https://www.ku.ac.ae/undergraduate-admission-faqs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Khalifa University — Scholarship FAQs",
+      "url": "https://www.ku.ac.ae/scholarship-faqs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Khalifa University — Partial scholarships for international students",
+      "url": "https://www.ku.ac.ae/partial-scholarships-for-international-students",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

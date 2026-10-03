@@ -1,0 +1,309 @@
+{
+  "slug": "bocconi-university",
+  "name": "Bocconi University",
+  "officialName": "Bocconi University",
+  "country": "Italy",
+  "countryCode": "IT",
+  "region": "Lombardy",
+  "city": "Milan",
+  "campuses": [],
+  "control": "private",
+  "category": "specialist",
+  "founded": 1902,
+  "setting": null,
+  "languages": [
+    "English",
+    "Italian"
+  ],
+  "website": "https://www.unibocconi.it/en",
+  "admissionsUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+  "financialAidUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/fees",
+  "internationalUrl": null,
+  "summary": "Bocconi was established in Milan in 1902 with an endowment from the merchant Ferdinando Bocconi. Bachelor's applicants apply in an Early or a Winter selection session, using a Bocconi online test, SAT or ACT score.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "Bocconi online application (apply.unibocconi.it)",
+    "sourceId": "s5",
+    "confidence": "high",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "Bocconi online test, SAT or ACT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "Applicants must already have a score from one of these tests when they apply."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "EUR",
+    "internationalTuition": {
+      "value": {
+        "min": 17000,
+        "max": 17000,
+        "period": "year"
+      },
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Tuition and fees for first-year Bachelor of Science and Law students. 2027-28 not yet verified."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "80/60% partial tuition waivers (Bocconi4Access to Education)",
+      "kind": [
+        "international",
+        "partial"
+      ],
+      "eligibility": "International students enrolled in a Bocconi bachelor's programme in 2026-27.",
+      "coverage": "80% or 60% of tuition and fees",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Session application deadline (3pm Italian time)",
+      "date": "2026-09-29",
+      "intake": "2027-28",
+      "timezone": "Europe/Rome",
+      "sourceId": "s3",
+      "confidence": "official"
+    },
+    {
+      "label": "Winter Session: last Bocconi online test date (book at least 48h ahead)",
+      "date": "2027-01-21",
+      "intake": "2027-28",
+      "timezone": "Europe/Rome",
+      "sourceId": "s4",
+      "confidence": "official"
+    },
+    {
+      "label": "Winter Session application deadline (3pm Italian time)",
+      "date": "2027-01-26",
+      "intake": "2027-28",
+      "timezone": "Europe/Rome",
+      "sourceId": "s3",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-management-and-computer-science",
+      "name": "BSc in Economics, Management and Computer Science (BEMACS)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/economics-management-and-computer-science",
+      "summary": "Combines mathematics, statistics and computer science with economics, management and law; taught in English over three years (180 credits).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      }
+    },
+    {
+      "slug": "international-economics-and-finance",
+      "name": "BSc in International Economics and Finance (BIEF)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/international-economics-and-finance",
+      "summary": "Taught in English over three years (180 credits). After three semesters, students choose an Economics or a Finance track.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Take a selection test",
+        "detail": "Bocconi online test, SAT or ACT. International applicants can book online-test attempts from 13 July 2026 to 19 January 2027.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Apply in a selection session",
+        "detail": "Early Session: 2–29 September 2026 (results mid-November). Winter Session: 25 November 2026 – 26 January 2027 (results mid-March).",
+        "sourceId": "s3"
+      },
+      {
+        "step": "SAT users",
+        "detail": "Designate Bocconi as a College Board score recipient by the application deadline.",
+        "sourceId": "s3"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition and fees, first year (Bachelor of Science)",
+        "audience": "all",
+        "amount": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "currency": "EUR",
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Bocconi — About us",
+      "url": "https://www.unibocconi.it/en/about-us",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "Bocconi — Bachelor and Law programs: fees",
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/fees",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Bocconi — Bachelor admissions",
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Bocconi — Online Bocconi test",
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/online-bocconi-test",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Bocconi — Apply online",
+      "url": "https://apply.unibocconi.it/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Bocconi — 80-60% partial tuition waivers a.y. 2026-27",
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding/80-60-partial-tuition-waivers-ay-2026-27",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Bocconi — BSc Economics, Management and Computer Science",
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/economics-management-and-computer-science",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Bocconi — BSc International Economics and Finance",
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/international-economics-and-finance",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

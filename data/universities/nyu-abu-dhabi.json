@@ -1,0 +1,378 @@
+{
+  "slug": "nyu-abu-dhabi",
+  "name": "NYU Abu Dhabi",
+  "officialName": "New York University Abu Dhabi",
+  "country": "United Arab Emirates",
+  "countryCode": "AE",
+  "region": "Abu Dhabi",
+  "city": "Abu Dhabi",
+  "campuses": [],
+  "control": "private",
+  "category": "liberal-arts",
+  "founded": 2010,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://nyuad.nyu.edu/en/",
+  "admissionsUrl": "https://nyuad.nyu.edu/en/apply/undergraduate/apply.html",
+  "financialAidUrl": "https://nyuad.nyu.edu/en/apply/undergraduate/scholarships-and-financial-aid.html",
+  "internationalUrl": null,
+  "summary": "NYU Abu Dhabi welcomed its inaugural class of 148 students in 2010. Financial aid is based on demonstrated need and is open to applicants of every citizenship; Early Decision applicants are offered the same aid as Regular Decision applicants.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 68574,
+        "max": 68574,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Estimated total cost of attendance is US$90,434 including housing, food, insurance and other costs."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Need-based financial aid",
+      "kind": [
+        "need",
+        "international"
+      ],
+      "eligibility": "All applicants, regardless of citizenship. Submit the CSS Profile (custodial and, if applicable, noncustodial parents) by the deadline for your round.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s5",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Decision I application",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s4",
+      "confidence": "high"
+    },
+    {
+      "label": "Early Decision I CSS Profile",
+      "date": "2026-11-10",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Early Decision II application",
+      "date": "2027-01-01",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s4",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-01-05",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s4",
+      "confidence": "high"
+    },
+    {
+      "label": "Early Decision II CSS Profile",
+      "date": "2027-01-10",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision CSS Profile",
+      "date": "2027-02-01",
+      "intake": "Fall 2027",
+      "timezone": null,
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/computer-science-major/program-structure.html",
+      "summary": "Major in NYUAD's Science division; see the program structure page for required courses.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 68574,
+          "max": 68574,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "Bachelor's",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/economics-major.html",
+      "summary": "Economics major at NYU Abu Dhabi; see the major page for its requirements.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 68574,
+          "max": 68574,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Choose a round",
+        "detail": "Early Decision I (1 Nov; decision 15 Dec), Early Decision II (1 Jan; decision 15 Feb) or Regular Decision (5 Jan; decision 1 Apr).",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Apply for aid",
+        "detail": "Submit the CSS Profile by 10 Nov (ED I), 10 Jan (ED II) or 1 Feb (RD).",
+        "sourceId": "s5"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition",
+        "audience": "all",
+        "amount": {
+          "min": 68574,
+          "max": 68574,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      },
+      {
+        "item": "Housing",
+        "audience": "all",
+        "amount": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      },
+      {
+        "item": "Food",
+        "audience": "all",
+        "amount": {
+          "min": 5800,
+          "max": 5800,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      },
+      {
+        "item": "Transportation",
+        "audience": "all",
+        "amount": {
+          "min": 3550,
+          "max": 3550,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      },
+      {
+        "item": "Student health insurance",
+        "audience": "all",
+        "amount": {
+          "min": 2416,
+          "max": 2416,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      },
+      {
+        "item": "Personal expenses",
+        "audience": "all",
+        "amount": {
+          "min": 2364,
+          "max": 2364,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      },
+      {
+        "item": "Books and supplies",
+        "audience": "all",
+        "amount": {
+          "min": 1730,
+          "max": 1730,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Estimated cost of attendance (fall and spring)."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "NYU Abu Dhabi — NYUAD opens doors to Downtown Campus",
+      "url": "https://nyuad.nyu.edu/en/news/latest-news/community-life/2009/december/nyuad-opens-doors-to-downtown-campus.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "NYU Abu Dhabi — History",
+      "url": "https://nyuad.nyu.edu/en/about/the-nyuad-campus/history.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "NYU Abu Dhabi — Cost of attendance",
+      "url": "https://nyuad.nyu.edu/en/apply/undergraduate/scholarships-and-financial-aid/cost-of-attendance.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "NYU Abu Dhabi — Key dates and deadlines",
+      "url": "https://nyuad.nyu.edu/en/apply/undergraduate/apply/key-dates-and-deadlines.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "NYU Abu Dhabi — Apply for financial aid",
+      "url": "https://nyuad.nyu.edu/en/apply/undergraduate/scholarships-and-financial-aid/apply-for-financial-aid.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "NYU Abu Dhabi — Computer Science major: program structure",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/computer-science-major/program-structure.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "NYU Abu Dhabi — Economics major",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/economics-major.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}
