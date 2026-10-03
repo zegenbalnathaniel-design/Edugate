@@ -732,7 +732,162 @@
       "url": "https://mitadmissions.org/help/faq/international-admissions/",
       "type": "university",
       "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s18",
+      "label": "MIT Admissions — Admissions statistics",
+      "url": "https://mitadmissions.org/apply/process/stats/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s19",
+      "label": "MIT Facts 2025",
+      "url": "https://facts.mit.edu/wp-content/uploads/2025/11/MIT-Facts-2025-Accessible-with-Map-and-Cover.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s20",
+      "label": "MIT Student Financial Services — Return on investment",
+      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/return-on-investment/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s21",
+      "label": "MIT Facts — Undergraduate tuition & aid",
+      "url": "https://facts.mit.edu/undergraduate-admissions/undergraduate-tuition/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 168,
+      "sourceId": "s19",
+      "confidence": "high",
+      "asOf": null
+    },
+    "faculty": {
+      "value": 1087,
+      "sourceId": "s19",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Professors of all ranks; MIT reports a 3:1 undergraduate student-to-faculty and instructional staff ratio."
+    },
+    "address": "77 Massachusetts Avenue, Cambridge, MA 02139, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, Class of 2029",
+        "applicants": 29281,
+        "admitted": 1334,
+        "enrolled": null,
+        "acceptanceRate": "4.6%",
+        "sourceId": "s18",
+        "confidence": "official"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition",
+        "audience": "all",
+        "amount": {
+          "min": 66720,
+          "max": 66720,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Student life fee",
+        "audience": "all",
+        "amount": {
+          "min": 420,
+          "max": 420,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Housing",
+        "audience": "all",
+        "amount": {
+          "min": 14090,
+          "max": 14090,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Food",
+        "audience": "all",
+        "amount": {
+          "min": 8104,
+          "max": 8104,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Books, course materials, supplies & equipment (estimate)",
+        "audience": "all",
+        "amount": {
+          "min": 930,
+          "max": 930,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "estimated",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Personal expenses (estimate)",
+        "audience": "all",
+        "amount": {
+          "min": 2496,
+          "max": 2496,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "estimated",
+        "asOf": "2026-27",
+        "notes": "Total cost of attendance: US$92,760. In 2025-26 about 60% of students received aid and about 40% paid no tuition."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "Bachelor's graduates entering industry",
+        "year": "Latest Graduating Student Survey",
+        "measure": "MIT's Graduating Student Survey as cited by Student Financial Services: average starting salary for graduates entering industry.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": null,
+        "averageSalary": 145820,
+        "highestSalary": null,
+        "currency": "USD",
+        "sourceId": "s20",
+        "confidence": "high",
+        "notes": "MIT does not state the survey year on this page."
+      }
+    ]
+  }
 }

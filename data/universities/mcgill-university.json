@@ -6,47 +6,167 @@
   "countryCode": "CA",
   "region": "Quebec",
   "city": "Montreal",
-  "campuses": ["Montreal"],
+  "campuses": [
+    "Montreal"
+  ],
   "control": "public",
   "category": "research-university",
   "founded": 1821,
   "setting": "urban",
-  "languages": ["English"],
+  "languages": [
+    "English"
+  ],
   "website": "https://www.mcgill.ca/",
   "admissionsUrl": "https://www.mcgill.ca/undergraduate-admissions/",
   "financialAidUrl": "https://www.mcgill.ca/studentaid/scholarships-aid/international-students",
   "internationalUrl": "https://www.mcgill.ca/undergraduate-admissions/international-students",
   "summary": "McGill University is an English-language public research university in Montreal, Quebec; it received its royal charter in 1821. This record covers the BA in Economics (Faculty of Arts) and the BSc in Computer Science (Faculty of Science).",
   "stats": {
-    "totalStudents": { "value": null, "sourceId": "s1", "confidence": "requires-verification", "asOf": null, "notes": "McGill's Quick facts describe 'over 40,000 students' (including more than 10,200 graduate students); no exact figure retrieved." },
-    "undergraduates": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null },
-    "internationalShare": { "value": "27%", "sourceId": "s1", "confidence": "high", "asOf": null, "notes": "Quick facts excerpt: 27% of total enrolment is international (50% Quebec, 23% rest of Canada); other McGill pages say 'nearly 30%'. Reporting year not confirmed." },
-    "studentFacultyRatio": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+    "totalStudents": {
+      "value": 40531,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "Fall 2025"
+    },
+    "undergraduates": {
+      "value": 28167,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "Fall 2025"
+    },
+    "internationalShare": {
+      "value": "27%",
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Quick facts excerpt: 27% of total enrolment is international (50% Quebec, 23% rest of Canada); other McGill pages say 'nearly 30%'. Reporting year not confirmed."
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
   },
   "rankings": [
-    { "org": "QS", "category": "World University Rankings", "edition": 2027, "rank": "30", "sourceId": "s2" }
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "30",
+      "sourceId": "s2"
+    }
   ],
-  "applicationPlatform": { "value": "McGill online application (Applicant Portal); documents uploaded to the portal", "sourceId": "s3", "confidence": "high", "asOf": "Fall 2027" },
-  "applicationFee": { "value": "CAD 140.16 (non-refundable); a second application for the same term and level at no extra cost", "sourceId": "s4", "confidence": "high", "asOf": "2026-27", "notes": "From a search excerpt of McGill's Apply page; confirm the fee for the Fall 2027 cycle." },
+  "applicationPlatform": {
+    "value": "McGill online application (Applicant Portal); documents uploaded to the portal",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "Fall 2027"
+  },
+  "applicationFee": {
+    "value": "CAD 140.16 (non-refundable); a second application for the same term and level at no extra cost",
+    "sourceId": "s4",
+    "confidence": "high",
+    "asOf": "2026-27",
+    "notes": "From a search excerpt of McGill's Apply page; confirm the fee for the Fall 2027 cycle."
+  },
   "testing": [
-    { "test": "SAT/ACT", "policy": "optional", "typicalRange": null, "sourceId": "s9", "confidence": "high", "notes": "For U.S. high school applicants for Fall 2027, submitting SAT or ACT scores is optional; McGill says doing so gives additional information early in the review." }
+    {
+      "test": "SAT/ACT",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s9",
+      "confidence": "high",
+      "notes": "For U.S. high school applicants for Fall 2027, submitting SAT or ACT scores is optional; McGill says doing so gives additional information early in the review."
+    }
   ],
   "english": [
-    { "test": "IELTS", "minOverall": "6.5", "minSection": "6.0", "waiver": "Not required if you have lived and attended high school/university for at least four consecutive years in a country where English is the acknowledged primary language, or completed certain curricula (e.g. IB, A-Level) with qualifying grades.", "sourceId": "s5", "confidence": "high" },
-    { "test": "TOEFL_IBT", "minOverall": "90 (120-point scale, tests up to 20 Jan 2026); 4.5 on the new 6-point scale (tests from 21 Jan 2026)", "minSection": "21 in reading, listening, writing and speaking (120-point scale); 4.5 each in reading, listening, writing and 4.0 in speaking (6-point scale)", "waiver": null, "sourceId": "s5", "confidence": "high", "notes": "Some programs (Education, TESL, Management) require 100; not applicable to the programs listed here." }
+    {
+      "test": "IELTS",
+      "minOverall": "6.5",
+      "minSection": "6.0",
+      "waiver": "Not required if you have lived and attended high school/university for at least four consecutive years in a country where English is the acknowledged primary language, or completed certain curricula (e.g. IB, A-Level) with qualifying grades.",
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "90 (120-point scale, tests up to 20 Jan 2026); 4.5 on the new 6-point scale (tests from 21 Jan 2026)",
+      "minSection": "21 in reading, listening, writing and speaking (120-point scale); 4.5 each in reading, listening, writing and 4.0 in speaking (6-point scale)",
+      "waiver": null,
+      "sourceId": "s5",
+      "confidence": "high",
+      "notes": "Some programs (Education, TESL, Management) require 100; not applicable to the programs listed here."
+    }
   ],
   "costs": {
     "currency": "CAD",
-    "internationalTuition": { "value": { "min": 54000, "max": 56000.1, "period": "year" }, "sourceId": "s6", "confidence": "high", "asOf": "2026-27", "notes": "International undergraduates admitted for 2026-27: BA CAD 56,000.10 tuition per year; BSc CAD 54,000.00 per year; plus society and other fees (about CAD 700-725) and optional health insurance. Figures from a search excerpt of McGill's Student Accounts tuition PDF; rates for the 2027 intake were not retrieved." },
-    "domesticTuition": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null },
-    "livingEstimate": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+    "internationalTuition": {
+      "value": {
+        "min": 54000,
+        "max": 56000.1,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "International undergraduates admitted for 2026-27: BA CAD 56,000.10 tuition per year; BSc CAD 54,000.00 per year; plus society and other fees (about CAD 700-725) and optional health insurance. Figures from a search excerpt of McGill's Student Accounts tuition PDF; rates for the 2027 intake were not retrieved."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
   },
   "scholarships": [
-    { "name": "McGill One-Year Entrance Scholarship", "kind": ["merit", "partial", "automatic"], "eligibility": "Students entering McGill for the first time into a first full-time undergraduate degree; all applicants are automatically considered, regardless of citizenship; no separate application.", "coverage": "CAD 3,000 (non-renewable unless otherwise stated)", "deadline": null, "renewable": false, "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads", "sourceId": "s7", "confidence": "high" },
-    { "name": "McGill Major Entrance Scholarships", "kind": ["merit", "partial", "competitive"], "eligibility": "Awarded on academic achievement and outstanding leadership by selection committees; open to new first-year students regardless of citizenship; transfer, mature, exchange, visiting and part-time students are not eligible.", "coverage": "CAD 12,000-48,000 in total (CAD 3,000-12,000 per year, renewable for up to four years)", "deadline": null, "renewable": true, "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads", "sourceId": "s7", "confidence": "high", "notes": "McGill's deadlines page lists a separate Major Entrance Scholarship application/document deadline of January 21; the year was not confirmed so no date is recorded." }
+    {
+      "name": "McGill One-Year Entrance Scholarship",
+      "kind": [
+        "merit",
+        "partial",
+        "automatic"
+      ],
+      "eligibility": "Students entering McGill for the first time into a first full-time undergraduate degree; all applicants are automatically considered, regardless of citizenship; no separate application.",
+      "coverage": "CAD 3,000 (non-renewable unless otherwise stated)",
+      "deadline": null,
+      "renewable": false,
+      "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads",
+      "sourceId": "s7",
+      "confidence": "high"
+    },
+    {
+      "name": "McGill Major Entrance Scholarships",
+      "kind": [
+        "merit",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "Awarded on academic achievement and outstanding leadership by selection committees; open to new first-year students regardless of citizenship; transfer, mature, exchange, visiting and part-time students are not eligible.",
+      "coverage": "CAD 12,000-48,000 in total (CAD 3,000-12,000 per year, renewable for up to four years)",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads",
+      "sourceId": "s7",
+      "confidence": "high",
+      "notes": "McGill's deadlines page lists a separate Major Entrance Scholarship application/document deadline of January 21; the year was not confirmed so no date is recorded."
+    }
   ],
   "deadlines": [
-    { "label": "Application deadline: applicants in overseas or U.S. high schools", "date": "2027-01-15", "intake": "Fall 2027", "timezone": "America/Toronto", "sourceId": "s8", "confidence": "high" }
+    {
+      "label": "Application deadline: applicants in overseas or U.S. high schools",
+      "date": "2027-01-15",
+      "intake": "Fall 2027",
+      "timezone": "America/Toronto",
+      "sourceId": "s8",
+      "confidence": "high"
+    }
   ],
   "opportunities": [],
   "programs": [
@@ -70,7 +190,13 @@
           "minimum": "IB Diploma with grades of 5 or better on each HL and SL subject is the minimum expected for most programs",
           "typical": "33 to 36 subject points (out of 42) for Faculty of Arts",
           "subjects": [
-            { "subject": "Mathematics: Analysis and Approaches", "level": "HL", "minGrade": null, "status": "recommended", "notes": "Faculty of Arts has no specific admission prerequisites, but McGill accepts HL Math AA for programs with a mathematics prerequisite; SL Math AI is not accepted for those programs. Economics courses assume high-school mathematics mastery." }
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "recommended",
+              "notes": "Faculty of Arts has no specific admission prerequisites, but McGill accepts HL Math AA for programs with a mathematics prerequisite; SL Math AI is not accepted for those programs. Economics courses assume high-school mathematics mastery."
+            }
           ],
           "sourceId": "s10",
           "confidence": "high",
@@ -127,7 +253,12 @@
           "minimum": "U.S. high school diploma from an academic university-entrance program accredited by a U.S. regional accreditation agency",
           "typical": "B+ average (unweighted) in each of grades 11 and 12 and B+ in each English course (Faculty of Arts)",
           "subjects": [
-            { "subject": "English", "level": "Grade 12", "minGrade": null, "status": "required" }
+            {
+              "subject": "English",
+              "level": "Grade 12",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s9",
           "confidence": "high",
@@ -136,7 +267,17 @@
       ],
       "tests": [],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 56000.1,
+          "max": 56000.1,
+          "period": "year"
+        },
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "International, admitted 2026-27; rate guaranteed for the program's duration without a break in enrolment."
+      }
     },
     {
       "slug": "computer-science-bsc",
@@ -158,8 +299,19 @@
           "minimum": "IB Diploma with grades of 5 or better on each HL and SL subject is the minimum expected for most programs",
           "typical": "35 to 38 subject points (Physical, Earth, Math and Computer Sciences group); each math and science subject 5 to 6, with at least one 6, and 6 if SL Math AA",
           "subjects": [
-            { "subject": "Mathematics: Analysis and Approaches", "level": "HL or SL", "minGrade": "6 if SL", "status": "required", "notes": "HL Math AA accepted; SL Math AI is not accepted for programs with a math prerequisite." },
-            { "subject": "Two of Biology, Chemistry or Physics", "level": "HL or SL (at least one math/science subject at HL)", "minGrade": null, "status": "required" }
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "HL or SL",
+              "minGrade": "6 if SL",
+              "status": "required",
+              "notes": "HL Math AA accepted; SL Math AI is not accepted for programs with a math prerequisite."
+            },
+            {
+              "subject": "Two of Biology, Chemistry or Physics",
+              "level": "HL or SL (at least one math/science subject at HL)",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s10",
           "confidence": "high",
@@ -172,8 +324,18 @@
           "minimum": "Minimum of three A-Levels in three different subjects",
           "typical": null,
           "subjects": [
-            { "subject": "Mathematics", "level": "A-level", "minGrade": null, "status": "required" },
-            { "subject": "Biology, Chemistry or Physics (at least one)", "level": "A-level", "minGrade": null, "status": "required" }
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Biology, Chemistry or Physics (at least one)",
+              "level": "A-level",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s11",
           "confidence": "high",
@@ -186,8 +348,20 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "Mathematics (pre-calculus or calculus)", "level": "Class XII", "minGrade": null, "status": "required", "notes": "McGill's general Science prerequisite (Grade 12 math); India-page-specific subject mapping not confirmed." },
-            { "subject": "Two of Biology, Chemistry or Physics", "level": "Class XII", "minGrade": null, "status": "required", "notes": "McGill's general Science prerequisite; India-page-specific mapping not confirmed." }
+            {
+              "subject": "Mathematics (pre-calculus or calculus)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "McGill's general Science prerequisite (Grade 12 math); India-page-specific subject mapping not confirmed."
+            },
+            {
+              "subject": "Two of Biology, Chemistry or Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "McGill's general Science prerequisite; India-page-specific mapping not confirmed."
+            }
           ],
           "sourceId": "s12",
           "confidence": "high",
@@ -200,8 +374,19 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "Mathematics (pre-calculus or calculus)", "level": "Class XII", "minGrade": null, "status": "required", "notes": "McGill's general Science prerequisite; India-page-specific mapping not confirmed." },
-            { "subject": "Two of Biology, Chemistry or Physics", "level": "Class XII", "minGrade": null, "status": "required" }
+            {
+              "subject": "Mathematics (pre-calculus or calculus)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "McGill's general Science prerequisite; India-page-specific mapping not confirmed."
+            },
+            {
+              "subject": "Two of Biology, Chemistry or Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s12",
           "confidence": "high",
@@ -225,8 +410,19 @@
           "minimum": "U.S. high school diploma from an academic university-entrance program accredited by a U.S. regional accreditation agency",
           "typical": null,
           "subjects": [
-            { "subject": "Mathematics (precalculus or calculus)", "level": "Grade 12", "minGrade": null, "status": "required", "notes": "Science programs generally require Grade 12 math and two of Grade 12 Biology, Chemistry or Physics; the typical grade profile for the Computer Science group was not retrieved." },
-            { "subject": "Two of Biology, Chemistry or Physics", "level": "Grade 12", "minGrade": null, "status": "required" }
+            {
+              "subject": "Mathematics (precalculus or calculus)",
+              "level": "Grade 12",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Science programs generally require Grade 12 math and two of Grade 12 Biology, Chemistry or Physics; the typical grade profile for the Computer Science group was not retrieved."
+            },
+            {
+              "subject": "Two of Biology, Chemistry or Physics",
+              "level": "Grade 12",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s9",
           "confidence": "high",
@@ -235,22 +431,156 @@
       ],
       "tests": [],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 54000,
+          "max": 54000,
+          "period": "year"
+        },
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "International, admitted 2026-27; rate guaranteed for the program's duration without a break in enrolment."
+      }
     }
   ],
   "sources": [
-    { "id": "s1", "label": "McGill Quick facts", "url": "https://www.mcgill.ca/about/quickfacts", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s2", "label": "McGill remains Canada's top university in 2027 QS World University Rankings (McGill news)", "url": "https://healthenews.mcgill.ca/mcgill-remains-canadas-top-university-in-2027-qs-world-university-rankings/", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s3", "label": "McGill undergraduate admissions: Apply", "url": "https://www.mcgill.ca/undergraduate-admissions/apply", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s4", "label": "McGill undergraduate admissions: Apply (application fee)", "url": "https://www.mcgill.ca/undergraduate-admissions/apply", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s5", "label": "McGill English language proficiency (undergraduate)", "url": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s6", "label": "McGill Tuition and Fees 2026-27 - International (new undergraduate degree students)", "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s7", "label": "McGill Student Aid: Future undergraduates (entrance scholarships)", "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s8", "label": "McGill: Application deadline for Fall 2027 admission, overseas or U.S. high school applicants", "url": "https://www.mcgill.ca/importantdates/channels/event/application-deadline-fall-2027-admission-undergraduate-programs-applicants-studying-or-who-last-370820", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s9", "label": "McGill Requirements for U.S. applicants", "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/us", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s10", "label": "McGill International Baccalaureate Diploma requirements", "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/ib", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s11", "label": "McGill Advanced Levels, and equivalent", "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/advanced-levels", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s12", "label": "McGill India Senior School Certificates", "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/india", "type": "university", "retrievedAt": "2026-10-02" }
+    {
+      "id": "s1",
+      "label": "McGill Quick facts",
+      "url": "https://www.mcgill.ca/about/quickfacts",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "McGill remains Canada's top university in 2027 QS World University Rankings (McGill news)",
+      "url": "https://healthenews.mcgill.ca/mcgill-remains-canadas-top-university-in-2027-qs-world-university-rankings/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "McGill undergraduate admissions: Apply",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "McGill undergraduate admissions: Apply (application fee)",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "McGill English language proficiency (undergraduate)",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "McGill Tuition and Fees 2026-27 - International (new undergraduate degree students)",
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "McGill Student Aid: Future undergraduates (entrance scholarships)",
+      "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "McGill: Application deadline for Fall 2027 admission, overseas or U.S. high school applicants",
+      "url": "https://www.mcgill.ca/importantdates/channels/event/application-deadline-fall-2027-admission-undergraduate-programs-applicants-studying-or-who-last-370820",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "McGill Requirements for U.S. applicants",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/us",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "McGill International Baccalaureate Diploma requirements",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/ib",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "McGill Advanced Levels, and equivalent",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/advanced-levels",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "McGill India Senior School Certificates",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/india",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "label": "McGill Student Housing — Undergraduate application",
+      "url": "https://www.mcgill.ca/students/housing/fees-applying/undergrad-admissions",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "faculty": {
+      "value": 1677,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Tenured and tenure-stream faculty."
+    },
+    "housing": {
+      "value": "Residence is guaranteed to newly admitted first-year undergraduates aged 22 or under on 1 September who accept their offer and apply for residence before the housing lottery deadline.",
+      "sourceId": "s13",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "845 Sherbrooke Street West, Montréal, QC H3A 0G4, Canada",
+    "feeBreakdown": [
+      {
+        "item": "Tuition — Bachelor of Arts, international",
+        "audience": "international",
+        "amount": {
+          "min": 56000.1,
+          "max": 56000.1,
+          "period": "year"
+        },
+        "currency": "CAD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Guaranteed for the program's duration."
+      },
+      {
+        "item": "Tuition — Bachelor of Science, international",
+        "audience": "international",
+        "amount": {
+          "min": 54000,
+          "max": 54000,
+          "period": "year"
+        },
+        "currency": "CAD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  }
 }

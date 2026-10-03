@@ -38,7 +38,7 @@ export function sourced<T extends z.ZodTypeAny>(value: T) {
 export const MoneyRange = z.object({
   min: z.number().nonnegative(),
   max: z.number().nonnegative(),
-  period: z.enum(["year", "semester", "month", "total", "credit"]),
+  period: z.enum(["year", "semester", "month", "week", "total", "credit"]),
 });
 
 export const TestPolicy = z.enum([

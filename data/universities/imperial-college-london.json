@@ -491,49 +491,49 @@
   "sources": [
     {
       "id": "s1",
-      "label": "Computing BEng \u2014 Imperial course page",
+      "label": "Computing BEng — Imperial course page",
       "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s2",
-      "label": "Economics, Finance and Data Science BSc \u2014 Imperial course page",
+      "label": "Economics, Finance and Data Science BSc — Imperial course page",
       "url": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s3",
-      "label": "How to apply \u2014 BSc Economics, Finance and Data Science (Imperial Business School)",
+      "label": "How to apply — BSc Economics, Finance and Data Science (Imperial Business School)",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/how-to-apply/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s4",
-      "label": "Undergraduate application deadlines \u2014 Imperial",
+      "label": "Undergraduate application deadlines — Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s5",
-      "label": "Test of Mathematics for University Admissions (TMUA) \u2014 Imperial",
+      "label": "Test of Mathematics for University Admissions (TMUA) — Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/admissions-tests/tmua/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s6",
-      "label": "Accepted qualifications \u2014 Imperial undergraduate entry requirements",
+      "label": "Accepted qualifications — Imperial undergraduate entry requirements",
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/entry-requirements/accepted-qualifications/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s7",
-      "label": "Undergraduate tuition fees 2026-27, Faculty of Engineering \u2014 Imperial",
+      "label": "Undergraduate tuition fees 2026-27, Faculty of Engineering — Imperial",
       "url": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
       "type": "university",
       "retrievedAt": "2026-10-02"
@@ -554,74 +554,179 @@
     },
     {
       "id": "s10",
-      "label": "Funding and scholarships \u2014 BSc Economics, Finance and Data Science",
+      "label": "Funding and scholarships — BSc Economics, Finance and Data Science",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/funding-scholarships/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s11",
-      "label": "Our people in numbers \u2014 Imperial annual report 2024-25",
+      "label": "Our people in numbers — Imperial annual report 2024-25",
       "url": "https://www.imperial.ac.uk/admin-services/finance/annual-report/imperial-in-202425/our-environment/our-people-in-numbers/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s12",
-      "label": "QS World University Rankings 2027 \u2014 Imperial College London",
+      "label": "QS World University Rankings 2027 — Imperial College London",
       "url": "https://www.topuniversities.com/universities/imperial-college-london",
       "type": "ranking-org",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s13",
-      "label": "Imperial College London \u2014 Wikipedia",
+      "label": "Imperial College London — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Imperial_College_London",
       "type": "secondary",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s14",
-      "label": "English language requirements \u2014 Imperial",
+      "label": "English language requirements — Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/english-language/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s15",
-      "label": "Enterprise Lab \u2014 Imperial",
+      "label": "Enterprise Lab — Imperial",
       "url": "https://www.imperial.ac.uk/enterprise/students/enterprise-lab/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s16",
-      "label": "Undergraduate Research Opportunities Programme (UROP) \u2014 Imperial",
+      "label": "Undergraduate Research Opportunities Programme (UROP) — Imperial",
       "url": "https://www.imperial.ac.uk/urop/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s17",
-      "label": "Careers \u2014 BSc Economics, Finance and Data Science",
+      "label": "Careers — BSc Economics, Finance and Data Science",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/careers/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s18",
-      "label": "Dates and deadlines for uni applications \u2014 UCAS",
+      "label": "Dates and deadlines for uni applications — UCAS",
       "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
       "type": "testing-org",
       "retrievedAt": "2026-10-02"
     },
     {
       "id": "s19",
-      "label": "South Asia \u2014 Imperial international students by region",
+      "label": "South Asia — Imperial international students by region",
       "url": "https://www.imperial.ac.uk/study/international-students/information-by-region/south-asia/",
       "type": "university",
       "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s20",
+      "label": "Imperial College London — Statistics guide 2024–25",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/planning/public/statistics-guides/24-25-Statistics-Guide.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s21",
+      "label": "Imperial — Careers support after you graduate (undergraduate)",
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/offer-holders/after-you-graduate/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s22",
+      "label": "Imperial — Computing MEng course page",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-meng/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s23",
+      "label": "Imperial — Undergraduate accommodation",
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s24",
+      "label": "Imperial — Undergraduate accommodation fees and payment",
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "housing": {
+      "value": "First-years who make Imperial their firm choice are guaranteed a place in College halls if they apply by the deadline (17 July 2026 for 2026 entry). Rent includes bills, internet and basic contents insurance.",
+      "sourceId": "s23",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "address": "Exhibition Road, South Kensington, London SW7 2AZ, United Kingdom",
+    "admissionStats": [
+      {
+        "year": "2024-25",
+        "scope": "All undergraduate applications",
+        "applicants": 31533,
+        "admitted": 3119,
+        "enrolled": null,
+        "acceptanceRate": null,
+        "sourceId": "s20",
+        "confidence": "official",
+        "notes": "Imperial reports an applications-to-admissions ratio of 10.1:1 overall (Computing 19.6:1, Business School 28.3:1, Engineering 9.4:1, Medicine 10:1). Admissions count entrants, not offers."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "All Imperial graduates",
+        "year": "2022/23 graduates",
+        "measure": "HESA Graduate Outcomes survey: in work or further study 15 months after graduation.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": "96% in work or further study",
+        "medianSalary": null,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "GBP",
+        "sourceId": "s21",
+        "confidence": "official"
+      },
+      {
+        "cohort": "Computing graduates",
+        "year": "2022/23 graduates",
+        "measure": "HESA Graduate Outcomes survey, 15 months after graduation, as shown on Imperial's course page.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": "95% in work or further study · 88% in highly skilled work or further study",
+        "medianSalary": null,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "GBP",
+        "sourceId": "s22",
+        "confidence": "official"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Halls rent (range across halls and room types)",
+        "audience": "all",
+        "amount": {
+          "min": 150,
+          "max": 425,
+          "period": "week"
+        },
+        "currency": "GBP",
+        "sourceId": "s24",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "E.g. Beit Hall £155–£308, Kemp Porter £165–£236, Eastside £194–£425 per week; includes utilities and internet."
+      }
+    ]
+  }
 }

@@ -95,11 +95,15 @@
   "costs": {
     "currency": "CAD",
     "internationalTuition": {
-      "value": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "asOf": null,
-      "notes": "2026-27 amounts are published in U of T's Tuition Explorer (Computer Science is a separate, higher fee category) but could not be retrieved."
+      "value": {
+        "min": 66110,
+        "max": 66110,
+        "period": "year"
+      },
+      "sourceId": "s16",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "First-year international program fee, Faculty of Arts & Science (St. George), 2026-27; excludes incidental/system access fees and UHIP. Computer Science charges a higher, differentiated fee from second year."
     },
     "domesticTuition": {
       "value": null,
@@ -270,7 +274,17 @@
       ],
       "tests": [],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 66110,
+          "max": 66110,
+          "period": "year"
+        },
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year international program fee, Faculty of Arts & Science (St. George), 2026-27; excludes incidental/system access fees and UHIP."
+      }
     },
     {
       "slug": "computer-science-bsc",
@@ -356,7 +370,17 @@
       ],
       "tests": [],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 66110,
+          "max": 69030,
+          "period": "year"
+        },
+        "sourceId": "s17",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Year 1 at the general Arts & Science rate (CAD 66,110); upper years of Computer Science are charged a differentiated fee — CAD 69,030 in 2026-27 for students who entered in 2025."
+      }
     }
   ],
   "sources": [
@@ -464,7 +488,107 @@
       "url": "https://www.artsci.utoronto.ca/current/experiential-learning/research-opportunities",
       "type": "university",
       "retrievedAt": "2026-09-29"
+    },
+    {
+      "id": "s16",
+      "label": "U of T Tuition Explorer — 2026-27, Arts & Science, international",
+      "url": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&campus=UTSG&college=UC&faculty=ARTSC-UG&program=207&residency=INT&sessionType=1&studyLevel=UG",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s17",
+      "label": "U of T — Tuition fee schedules for publicly-funded programs 2026-27",
+      "url": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s18",
+      "label": "U of T Future Students — Housing",
+      "url": "https://future.utoronto.ca/housing",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-09-29"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 138,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "St. George (downtown) campus; U of T also has Mississauga and Scarborough campuses."
+    },
+    "faculty": {
+      "value": 16378,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "Fall 2025",
+      "notes": "All faculty members across the three campuses, as counted in U of T's quick facts."
+    },
+    "housing": {
+      "value": "Residence is guaranteed for new full-time first-year undergraduates who apply through the common residence application by 31 March and accept their offer by 2 June. St. George has 14 residences, most tied to the colleges.",
+      "sourceId": "s18",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "27 King's College Circle, Toronto, ON M5S 1A1, Canada",
+    "feeBreakdown": [
+      {
+        "item": "Program fee — first year, Arts & Science (international)",
+        "audience": "international",
+        "amount": {
+          "min": 66110,
+          "max": 66110,
+          "period": "year"
+        },
+        "currency": "CAD",
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Incidental and system access fees",
+        "audience": "international",
+        "amount": {
+          "min": 2100.29,
+          "max": 2100.29,
+          "period": "year"
+        },
+        "currency": "CAD",
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "University Health Insurance Plan (UHIP)",
+        "audience": "international",
+        "amount": {
+          "min": 948,
+          "max": 948,
+          "period": "year"
+        },
+        "currency": "CAD",
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Full-time first-year total: CAD 69,158.29."
+      },
+      {
+        "item": "Computer Science upper-year program fee (entered 2025)",
+        "audience": "international",
+        "amount": {
+          "min": 69030,
+          "max": 69030,
+          "period": "year"
+        },
+        "currency": "CAD",
+        "sourceId": "s17",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Projected CAD 72,480 in 2027-28."
+      }
+    ]
+  }
 }

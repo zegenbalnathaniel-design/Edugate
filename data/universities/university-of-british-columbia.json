@@ -6,55 +6,225 @@
   "countryCode": "CA",
   "region": "British Columbia",
   "city": "Vancouver",
-  "campuses": ["Vancouver", "Okanagan (Kelowna)"],
+  "campuses": [
+    "Vancouver",
+    "Okanagan (Kelowna)"
+  ],
   "control": "public",
   "category": "research-university",
   "founded": 1908,
   "setting": "urban",
-  "languages": ["English"],
+  "languages": [
+    "English"
+  ],
   "website": "https://www.ubc.ca/",
   "admissionsUrl": "https://you.ubc.ca/applying-ubc/",
   "financialAidUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
   "internationalUrl": "https://you.ubc.ca/international/",
   "summary": "The University of British Columbia is a public research university with two main campuses, Vancouver and Okanagan (Kelowna). This record covers the Vancouver campus: the BA in Economics (Vancouver School of Economics) and the BSc in Computer Science (Faculty of Science; students enter Science first and then enter Computer Science).",
   "stats": {
-    "totalStudents": { "value": 72100, "sourceId": "s1", "confidence": "high", "asOf": "2025-26", "notes": "UBC-wide headcount (both campuses), undergraduate and graduate, per the 2025/26 Annual Enrolment Report; read via search excerpt because the PDF host was not fetchable." },
-    "undergraduates": { "value": 59688, "sourceId": "s1", "confidence": "high", "asOf": "2025-26", "notes": "Search excerpt of the 2025/26 Annual Enrolment Report gives undergraduate enrolment of 59,688; verify against the report." },
-    "internationalShare": { "value": "25%", "sourceId": "s1", "confidence": "high", "asOf": "2025-26", "notes": "Report excerpt: international students are 25% of the total student population (18,009 students) and 25% of Vancouver undergraduates." },
-    "studentFacultyRatio": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+    "totalStudents": {
+      "value": 72100,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "UBC-wide headcount (both campuses), undergraduate and graduate, per the 2025/26 Annual Enrolment Report; read via search excerpt because the PDF host was not fetchable."
+    },
+    "undergraduates": {
+      "value": 59688,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Search excerpt of the 2025/26 Annual Enrolment Report gives undergraduate enrolment of 59,688; verify against the report."
+    },
+    "internationalShare": {
+      "value": "25%",
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "Report excerpt: international students are 25% of the total student population (18,009 students) and 25% of Vancouver undergraduates."
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
   },
   "rankings": [
-    { "org": "QS", "category": "World University Rankings", "edition": 2027, "rank": "45", "sourceId": "s2" }
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "45",
+      "sourceId": "s2"
+    }
   ],
-  "applicationPlatform": { "value": "UBC online application (apply directly to UBC)", "sourceId": "s3", "confidence": "high", "asOf": "2027 intake" },
-  "applicationFee": { "value": "CAD 173.25 for international applicants who require a study permit (non-refundable)", "sourceId": "s3", "confidence": "high", "asOf": "2027 intake", "notes": "Taken from a search excerpt of the official Dates and deadlines/application pages." },
+  "applicationPlatform": {
+    "value": "UBC online application (apply directly to UBC)",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "2027 intake"
+  },
+  "applicationFee": {
+    "value": "CAD 173.25 for international applicants who require a study permit (non-refundable)",
+    "sourceId": "s3",
+    "confidence": "high",
+    "asOf": "2027 intake",
+    "notes": "Taken from a search excerpt of the official Dates and deadlines/application pages."
+  },
   "testing": [
-    { "test": "SAT/ACT", "policy": "optional", "typicalRange": null, "sourceId": "s9", "confidence": "high", "notes": "Optional for applicants following the US curriculum; applicants are not disadvantaged for not submitting." }
+    {
+      "test": "SAT/ACT",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s9",
+      "confidence": "high",
+      "notes": "Optional for applicants following the US curriculum; applicants are not disadvantaged for not submitting."
+    }
   ],
   "english": [
-    { "test": "IELTS", "minOverall": "6.5", "minSection": "6.0", "waiver": "UBC lists nine ways to meet the English Language Admission Standard, including four or more consecutive years of full-time English-medium education immediately before UBC in Canada or in a country where English is the principal language.", "sourceId": "s4", "confidence": "high" },
-    { "test": "TOEFL_IBT", "minOverall": "90", "minSection": "22 Reading, 22 Listening, 21 Writing, 21 Speaking", "waiver": null, "sourceId": "s4", "confidence": "high" }
+    {
+      "test": "IELTS",
+      "minOverall": "6.5",
+      "minSection": "6.0",
+      "waiver": "UBC lists nine ways to meet the English Language Admission Standard, including four or more consecutive years of full-time English-medium education immediately before UBC in Canada or in a country where English is the principal language.",
+      "sourceId": "s4",
+      "confidence": "high"
+    },
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "90",
+      "minSection": "22 Reading, 22 Listening, 21 Writing, 21 Speaking",
+      "waiver": null,
+      "sourceId": "s4",
+      "confidence": "high"
+    }
   ],
   "costs": {
     "currency": "CAD",
-    "internationalTuition": { "value": { "min": 51530.4, "max": 53082, "period": "year" }, "sourceId": "s5", "confidence": "high", "asOf": "2026-27", "notes": "Vancouver campus, 30 credits/year: Faculty of Arts CAD 51,530.40 (CAD 1,717.68 per credit); Faculty of Science CAD 53,082.00 (CAD 1,769.40 per credit). Excludes non-instructional fees. Tuition for students starting in 2026/27 may rise by up to 3% per year; 2027-28 rates for the 2027 intake were not confirmed." },
-    "domesticTuition": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null },
-    "livingEstimate": { "value": null, "sourceId": null, "confidence": "requires-verification", "asOf": null }
+    "internationalTuition": {
+      "value": {
+        "min": 51530.4,
+        "max": 53082,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Vancouver campus, 30 credits/year: Faculty of Arts CAD 51,530.40 (CAD 1,717.68 per credit); Faculty of Science CAD 53,082.00 (CAD 1,769.40 per credit). Excludes non-instructional fees. Tuition for students starting in 2026/27 may rise by up to 3% per year; 2027-28 rates for the 2027 intake were not confirmed."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
   },
   "scholarships": [
-    { "name": "International Major Entrance Scholarship (IMES)", "kind": ["merit", "international", "partial", "automatic"], "eligibility": "New international undergraduate students on a Canadian study permit who apply by the international admissions deadline are automatically considered; based on outstanding academic achievement.", "coverage": "CAD 10,000-25,000 per year (2026/27)", "deadline": "2026-11-15", "renewable": true, "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/", "sourceId": "s6", "confidence": "high" },
-    { "name": "Outstanding International Student Award (OIS)", "kind": ["merit", "international", "partial", "automatic"], "eligibility": "New to UBC, entering from secondary school or post-secondary on a Canadian study permit; outstanding academic achievement and strong extracurricular involvement. Applicants who apply by the deadline are automatically considered.", "coverage": "CAD 10,000-25,000 (value stated for 2025/26)", "deadline": "2026-11-15", "renewable": null, "url": "https://students.ubc.ca/finances/awards-scholarships-bursaries/awards-international/", "sourceId": "s6", "confidence": "high" },
-    { "name": "UBC International Scholars Program", "kind": ["need", "international", "full", "competitive"], "eligibility": "Need-based program for international students with exceptional academics and leadership and significant financial need; separate award application required.", "coverage": "Up to the full cost of the academic program and living expenses, based on individual financial need assessment", "deadline": "2026-11-15", "renewable": null, "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/", "sourceId": "s6", "confidence": "high" }
+    {
+      "name": "International Major Entrance Scholarship (IMES)",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "automatic"
+      ],
+      "eligibility": "New international undergraduate students on a Canadian study permit who apply by the international admissions deadline are automatically considered; based on outstanding academic achievement.",
+      "coverage": "CAD 10,000-25,000 per year (2026/27)",
+      "deadline": "2026-11-15",
+      "renewable": true,
+      "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+      "sourceId": "s6",
+      "confidence": "high"
+    },
+    {
+      "name": "Outstanding International Student Award (OIS)",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "automatic"
+      ],
+      "eligibility": "New to UBC, entering from secondary school or post-secondary on a Canadian study permit; outstanding academic achievement and strong extracurricular involvement. Applicants who apply by the deadline are automatically considered.",
+      "coverage": "CAD 10,000-25,000 (value stated for 2025/26)",
+      "deadline": "2026-11-15",
+      "renewable": null,
+      "url": "https://students.ubc.ca/finances/awards-scholarships-bursaries/awards-international/",
+      "sourceId": "s6",
+      "confidence": "high"
+    },
+    {
+      "name": "UBC International Scholars Program",
+      "kind": [
+        "need",
+        "international",
+        "full",
+        "competitive"
+      ],
+      "eligibility": "Need-based program for international students with exceptional academics and leadership and significant financial need; separate award application required.",
+      "coverage": "Up to the full cost of the academic program and living expenses, based on individual financial need assessment",
+      "deadline": "2026-11-15",
+      "renewable": null,
+      "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+      "sourceId": "s6",
+      "confidence": "high"
+    }
   ],
   "deadlines": [
-    { "label": "Application deadline, Winter Session 2027/28 (international applicants consideration for International Scholars awards)", "date": "2026-11-15", "intake": "Fall 2027", "timezone": "America/Vancouver", "sourceId": "s3", "confidence": "high" },
-    { "label": "Application deadline (Winter Session starting September 2027)", "date": "2027-01-15", "intake": "Fall 2027", "timezone": "America/Vancouver", "sourceId": "s3", "confidence": "high" },
-    { "label": "Document deadline for out-of-country post-secondary applicants", "date": "2027-05-31", "intake": "Fall 2027", "timezone": "America/Vancouver", "sourceId": "s3", "confidence": "high" }
+    {
+      "label": "Application deadline, Winter Session 2027/28 (international applicants consideration for International Scholars awards)",
+      "date": "2026-11-15",
+      "intake": "Fall 2027",
+      "timezone": "America/Vancouver",
+      "sourceId": "s3",
+      "confidence": "high"
+    },
+    {
+      "label": "Application deadline (Winter Session starting September 2027)",
+      "date": "2027-01-15",
+      "intake": "Fall 2027",
+      "timezone": "America/Vancouver",
+      "sourceId": "s3",
+      "confidence": "high"
+    },
+    {
+      "label": "Document deadline for out-of-country post-secondary applicants",
+      "date": "2027-05-31",
+      "intake": "Fall 2027",
+      "timezone": "America/Vancouver",
+      "sourceId": "s3",
+      "confidence": "high"
+    }
   ],
   "opportunities": [
-    { "category": "internships", "name": "Computer Science Co-op Program", "description": "Salaried work terms of 8-20 months depending on program; BSc, BA or BCom students majoring in Computer Science can apply from the second term of first year after completing CPSC 110, 121 and 210 (or in progress).", "url": "https://www.cs.ubc.ca/students/undergrad/careers/computer-science-co-op-program", "sourceId": "s10" },
-    { "category": "research", "name": "Undergraduate Student Research Awards (USRA/SURE) in Computer Science", "description": "Summer research awards fund 16 weeks of full-time work in a department lab; SURE is open to domestic and international students.", "url": "https://www.cs.ubc.ca/undergraduate-research-opportunities", "sourceId": "s11" },
-    { "category": "research", "name": "Data Science for Social Good (DSSG)", "description": "Interdisciplinary summer research program on data-intensive projects open to full-time UBC students with 75 completed credits; eligible for Science and Arts Co-op credit.", "url": "https://www.cs.ubc.ca/undergraduate-research-opportunities", "sourceId": "s11" }
+    {
+      "category": "internships",
+      "name": "Computer Science Co-op Program",
+      "description": "Salaried work terms of 8-20 months depending on program; BSc, BA or BCom students majoring in Computer Science can apply from the second term of first year after completing CPSC 110, 121 and 210 (or in progress).",
+      "url": "https://www.cs.ubc.ca/students/undergrad/careers/computer-science-co-op-program",
+      "sourceId": "s10"
+    },
+    {
+      "category": "research",
+      "name": "Undergraduate Student Research Awards (USRA/SURE) in Computer Science",
+      "description": "Summer research awards fund 16 weeks of full-time work in a department lab; SURE is open to domestic and international students.",
+      "url": "https://www.cs.ubc.ca/undergraduate-research-opportunities",
+      "sourceId": "s11"
+    },
+    {
+      "category": "research",
+      "name": "Data Science for Social Good (DSSG)",
+      "description": "Interdisciplinary summer research program on data-intensive projects open to full-time UBC students with 75 completed credits; eligible for Science and Arts Co-op credit.",
+      "url": "https://www.cs.ubc.ca/undergraduate-research-opportunities",
+      "sourceId": "s11"
+    }
   ],
   "programs": [
     {
@@ -77,8 +247,19 @@
           "minimum": "IB Diploma with at least 24 points including bonus points is the general minimum; a higher score is required for most programs (UBC does not publish a specific figure in the retrieved pages)",
           "typical": null,
           "subjects": [
-            { "subject": "IB English A (Language and Literature or Literature)", "level": "SL or HL", "minGrade": "3", "status": "required" },
-            { "subject": "Mathematics: Analysis and Approaches (satisfies Pre-Calculus 12 equivalent for economics)", "level": "SL or HL", "minGrade": null, "status": "required", "notes": "Applications and Interpretations HL also accepted; Applications and Interpretations SL and Math Studies do not satisfy the math requirement for the Vancouver School of Economics." }
+            {
+              "subject": "IB English A (Language and Literature or Literature)",
+              "level": "SL or HL",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics: Analysis and Approaches (satisfies Pre-Calculus 12 equivalent for economics)",
+              "level": "SL or HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Applications and Interpretations HL also accepted; Applications and Interpretations SL and Math Studies do not satisfy the math requirement for the Vancouver School of Economics."
+            }
           ],
           "sourceId": "s7",
           "confidence": "high",
@@ -90,8 +271,19 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "English (GCSE, AS or A level)", "level": null, "minGrade": null, "status": "required" },
-            { "subject": "Any academic subjects", "level": "A-level / AS", "minGrade": null, "status": "required", "notes": "Standing in at least six academic subject areas (GCSE, AS and A level) with at least three academic A levels or six AS levels." }
+            {
+              "subject": "English (GCSE, AS or A level)",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Any academic subjects",
+              "level": "A-level / AS",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Standing in at least six academic subject areas (GCSE, AS and A level) with at least three academic A levels or six AS levels."
+            }
           ],
           "sourceId": "s8",
           "confidence": "high",
@@ -104,8 +296,20 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "Senior English", "level": "Class XII", "minGrade": "70%", "status": "required", "notes": "General minimum final grade of 70% in junior or senior English for English-medium schools." },
-            { "subject": "Mathematics (Pre-Calculus 12 equivalent for Economics)", "level": "Class XII", "minGrade": null, "status": "required", "notes": "UBC states program requirements for Canadian applicants are applied as appropriate to international curricula; exact Indian-board subject lists are determined by UBC Admissions." }
+            {
+              "subject": "Senior English",
+              "level": "Class XII",
+              "minGrade": "70%",
+              "status": "required",
+              "notes": "General minimum final grade of 70% in junior or senior English for English-medium schools."
+            },
+            {
+              "subject": "Mathematics (Pre-Calculus 12 equivalent for Economics)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "UBC states program requirements for Canadian applicants are applied as appropriate to international curricula; exact Indian-board subject lists are determined by UBC Admissions."
+            }
           ],
           "sourceId": "s8",
           "confidence": "high",
@@ -118,8 +322,18 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "Senior English", "level": "Class XII", "minGrade": "70%", "status": "required" },
-            { "subject": "Mathematics (Pre-Calculus 12 equivalent for Economics)", "level": "Class XII", "minGrade": null, "status": "required" }
+            {
+              "subject": "Senior English",
+              "level": "Class XII",
+              "minGrade": "70%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics (Pre-Calculus 12 equivalent for Economics)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s8",
           "confidence": "high",
@@ -132,7 +346,12 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "AP English Language and Composition (English 12 equivalent)", "level": "AP", "minGrade": null, "status": "accepted" }
+            {
+              "subject": "AP English Language and Composition (English 12 equivalent)",
+              "level": "AP",
+              "minGrade": null,
+              "status": "accepted"
+            }
           ],
           "sourceId": "s7",
           "confidence": "high",
@@ -145,8 +364,19 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "English (non-ESL), senior level", "level": "Grade 12", "minGrade": "70%", "status": "required" },
-            { "subject": "Mathematics", "level": "Junior level", "minGrade": null, "status": "required", "notes": "Three years of mathematics to the junior level; Economics requires Pre-Calculus 12 equivalent." }
+            {
+              "subject": "English (non-ESL), senior level",
+              "level": "Grade 12",
+              "minGrade": "70%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Junior level",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Three years of mathematics to the junior level; Economics requires Pre-Calculus 12 equivalent."
+            }
           ],
           "sourceId": "s9",
           "confidence": "high",
@@ -156,7 +386,17 @@
       ],
       "tests": [],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 51530.4,
+          "max": 51530.4,
+          "period": "year"
+        },
+        "sourceId": "s15",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Faculty of Arts, international, 30 credits (CAD 1,717.68 per credit)."
+      }
     },
     {
       "slug": "computer-science-bsc",
@@ -178,9 +418,26 @@
           "minimum": "IB Diploma with at least 24 points including bonus points is the general minimum; a higher score is required for most programs",
           "typical": null,
           "subjects": [
-            { "subject": "IB English A (Language and Literature or Literature)", "level": "SL or HL", "minGrade": "3", "status": "required" },
-            { "subject": "Mathematics: Analysis and Approaches", "level": "SL or HL", "minGrade": null, "status": "required", "notes": "Applications and Interpretations HL also accepted; Applications and Interpretations SL and Math Studies are not acceptable." },
-            { "subject": "Biology, Chemistry or Physics", "level": null, "minGrade": null, "status": "required", "notes": "One of the three is required, plus Grade 11 or equivalent Chemistry and Physics." }
+            {
+              "subject": "IB English A (Language and Literature or Literature)",
+              "level": "SL or HL",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics: Analysis and Approaches",
+              "level": "SL or HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Applications and Interpretations HL also accepted; Applications and Interpretations SL and Math Studies are not acceptable."
+            },
+            {
+              "subject": "Biology, Chemistry or Physics",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "One of the three is required, plus Grade 11 or equivalent Chemistry and Physics."
+            }
           ],
           "sourceId": "s7",
           "confidence": "high",
@@ -193,8 +450,19 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "English (GCSE, AS or A level)", "level": null, "minGrade": null, "status": "required" },
-            { "subject": "Mathematics (Pre-Calculus 12 equivalent)", "level": null, "minGrade": null, "status": "required", "notes": "Science program prerequisites for Canadian applicants (Pre-Calculus 12; one of Anatomy & Physiology 12, Chemistry 12 or Physics 12; Chemistry 11; Physics 11) are applied as appropriate to international curricula." }
+            {
+              "subject": "English (GCSE, AS or A level)",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics (Pre-Calculus 12 equivalent)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Science program prerequisites for Canadian applicants (Pre-Calculus 12; one of Anatomy & Physiology 12, Chemistry 12 or Physics 12; Chemistry 11; Physics 11) are applied as appropriate to international curricula."
+            }
           ],
           "sourceId": "s8",
           "confidence": "high",
@@ -207,9 +475,25 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "Senior English", "level": "Class XII", "minGrade": "70%", "status": "required" },
-            { "subject": "Mathematics (Pre-Calculus 12 equivalent)", "level": "Class XII", "minGrade": null, "status": "required" },
-            { "subject": "Chemistry or Physics (Grade 12 level) plus Grade 11-level Chemistry and Physics", "level": "Class XII", "minGrade": null, "status": "required", "notes": "Mapped from UBC's Science prerequisites for Canadian applicants; UBC says these are applied as appropriate to international curricula." }
+            {
+              "subject": "Senior English",
+              "level": "Class XII",
+              "minGrade": "70%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics (Pre-Calculus 12 equivalent)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry or Physics (Grade 12 level) plus Grade 11-level Chemistry and Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Mapped from UBC's Science prerequisites for Canadian applicants; UBC says these are applied as appropriate to international curricula."
+            }
           ],
           "sourceId": "s8",
           "confidence": "high",
@@ -222,9 +506,24 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "Senior English", "level": "Class XII", "minGrade": "70%", "status": "required" },
-            { "subject": "Mathematics (Pre-Calculus 12 equivalent)", "level": "Class XII", "minGrade": null, "status": "required" },
-            { "subject": "Chemistry or Physics (Grade 12 level) plus Grade 11-level Chemistry and Physics", "level": "Class XII", "minGrade": null, "status": "required" }
+            {
+              "subject": "Senior English",
+              "level": "Class XII",
+              "minGrade": "70%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics (Pre-Calculus 12 equivalent)",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry or Physics (Grade 12 level) plus Grade 11-level Chemistry and Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s8",
           "confidence": "high",
@@ -237,7 +536,13 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "AP Chemistry (Chemistry 12), AP Physics 2 or C (Physics 12), AP Biology (Biology 12)", "level": "AP", "minGrade": null, "status": "accepted", "notes": "Approved AP equivalents for Science prerequisites." }
+            {
+              "subject": "AP Chemistry (Chemistry 12), AP Physics 2 or C (Physics 12), AP Biology (Biology 12)",
+              "level": "AP",
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Approved AP equivalents for Science prerequisites."
+            }
           ],
           "sourceId": "s7",
           "confidence": "high",
@@ -250,8 +555,18 @@
           "minimum": null,
           "typical": null,
           "subjects": [
-            { "subject": "English (non-ESL), senior level", "level": "Grade 12", "minGrade": "70%", "status": "required" },
-            { "subject": "Mathematics", "level": "Junior level", "minGrade": null, "status": "required" }
+            {
+              "subject": "English (non-ESL), senior level",
+              "level": "Grade 12",
+              "minGrade": "70%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Junior level",
+              "minGrade": null,
+              "status": "required"
+            }
           ],
           "sourceId": "s9",
           "confidence": "high",
@@ -261,21 +576,169 @@
       ],
       "tests": [],
       "english": [],
-      "fees": null
+      "fees": {
+        "value": {
+          "min": 53082,
+          "max": 53082,
+          "period": "year"
+        },
+        "sourceId": "s15",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Faculty of Science, international, 30 credits (CAD 1,769.40 per credit)."
+      }
     }
   ],
   "sources": [
-    { "id": "s1", "label": "UBC Annual Enrolment Report 2025/26", "url": "https://pair.ubc.ca/wp-content/uploads/sites/145/2026/03/UBC-Annual-Enrolment-Report-2025-26.pdf", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s2", "label": "UBC ranked among top 50 in QS World University Rankings 2027 (Daily Hive)", "url": "https://dailyhive.com/vancouver/bc-unviversity-top-50", "type": "journalism", "retrievedAt": "2026-10-02" },
-    { "id": "s3", "label": "UBC Dates and deadlines", "url": "https://you.ubc.ca/applying-ubc/dates-deadlines/", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s4", "label": "UBC English language competency", "url": "https://you.ubc.ca/applying-ubc/requirements/english-language-competency/", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s5", "label": "UBC Undergraduate tuition fees", "url": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s6", "label": "UBC Scholarships and awards for international students", "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s7", "label": "UBC Calendar: Applicants with IB and AP Courses", "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-international-baccalaureate-and-advanced-placement-courses", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s8", "label": "UBC Calendar: Applicants Following Other International Secondary School Curricula", "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-following-other-international-secondary-school-curricula", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s9", "label": "UBC Calendar: Applicants Following American Secondary School Curriculum", "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-following-american-secondary-school-curriculum", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s10", "label": "UBC Computer Science Co-op Program", "url": "https://www.cs.ubc.ca/students/undergrad/careers/computer-science-co-op-program", "type": "university", "retrievedAt": "2026-10-02" },
-    { "id": "s11", "label": "UBC Computer Science Undergraduate Research Opportunities", "url": "https://www.cs.ubc.ca/undergraduate-research-opportunities", "type": "university", "retrievedAt": "2026-10-02" }
+    {
+      "id": "s1",
+      "label": "UBC Annual Enrolment Report 2025/26",
+      "url": "https://pair.ubc.ca/wp-content/uploads/sites/145/2026/03/UBC-Annual-Enrolment-Report-2025-26.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s2",
+      "label": "UBC ranked among top 50 in QS World University Rankings 2027 (Daily Hive)",
+      "url": "https://dailyhive.com/vancouver/bc-unviversity-top-50",
+      "type": "journalism",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s3",
+      "label": "UBC Dates and deadlines",
+      "url": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s4",
+      "label": "UBC English language competency",
+      "url": "https://you.ubc.ca/applying-ubc/requirements/english-language-competency/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "label": "UBC Undergraduate tuition fees",
+      "url": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s6",
+      "label": "UBC Scholarships and awards for international students",
+      "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s7",
+      "label": "UBC Calendar: Applicants with IB and AP Courses",
+      "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-international-baccalaureate-and-advanced-placement-courses",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s8",
+      "label": "UBC Calendar: Applicants Following Other International Secondary School Curricula",
+      "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-following-other-international-secondary-school-curricula",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s9",
+      "label": "UBC Calendar: Applicants Following American Secondary School Curriculum",
+      "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-following-american-secondary-school-curriculum",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s10",
+      "label": "UBC Computer Science Co-op Program",
+      "url": "https://www.cs.ubc.ca/students/undergrad/careers/computer-science-co-op-program",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s11",
+      "label": "UBC Computer Science Undergraduate Research Opportunities",
+      "url": "https://www.cs.ubc.ca/undergraduate-research-opportunities",
+      "type": "university",
+      "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s12",
+      "label": "UBC — Overview & facts",
+      "url": "https://www.ubc.ca/about/facts.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "UBC Campus + Community Planning — Background",
+      "url": "https://planning.ubc.ca/vision/about/background",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s14",
+      "label": "UBC Student Housing — First Year Guarantee",
+      "url": "https://vancouver.housing.ubc.ca/applications/how-we-assign-rooms/first-year-guarantee/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s15",
+      "label": "UBC Vancouver Academic Calendar — Undergraduate tuition fees",
+      "url": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 994,
+      "sourceId": "s13",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Vancouver campus: 402 hectares of academic and neighbourhood lands on the Point Grey peninsula."
+    },
+    "housing": {
+      "value": "Eligible first-year undergraduates are guaranteed a residence room if their UBC application and Winter Session residence application arrive by 1 May and they accept their offer by 1 June.",
+      "sourceId": "s14",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "2329 West Mall, Vancouver, BC V6T 1Z4, Canada",
+    "feeBreakdown": [
+      {
+        "item": "Tuition per credit — Arts, international",
+        "audience": "international",
+        "amount": {
+          "min": 1717.68,
+          "max": 1717.68,
+          "period": "credit"
+        },
+        "currency": "CAD",
+        "sourceId": "s15",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Tuition per credit — Science, international",
+        "audience": "international",
+        "amount": {
+          "min": 1769.4,
+          "max": 1769.4,
+          "period": "credit"
+        },
+        "currency": "CAD",
+        "sourceId": "s15",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  }
 }

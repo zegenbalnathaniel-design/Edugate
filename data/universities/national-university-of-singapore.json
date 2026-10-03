@@ -359,11 +359,15 @@
       "tests": [],
       "english": [],
       "fees": {
-        "value": null,
-        "sourceId": null,
-        "confidence": "requires-verification",
-        "asOf": null,
-        "notes": "Programme-specific fees not retrieved; see university-level costs note."
+        "value": {
+          "min": 39200,
+          "max": 39200,
+          "period": "year"
+        },
+        "sourceId": "s9",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "International students not receiving the MOE Tuition Grant, admitted AY2026/27, GST-inclusive; paid in two instalments. Read via a search excerpt of the Registrar's table — earlier excerpts conflicted, so confirm on the PDF."
       }
     }
   ],
@@ -493,7 +497,41 @@
       "url": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme",
       "type": "government",
       "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s19",
+      "label": "NUS Computing — GES 2025 results",
+      "url": "https://www.comp.nus.edu.sg/news/nus-computing-graduates-among-singapores-highest-earners-and-most-employable-ges-2025-shows/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s20",
+      "label": "Ministry of Education Singapore — NUS Graduate Employment Survey 2025",
+      "url": "https://www.moe.gov.sg/media/files/post-secondary/ges-2025/Web%20Publication%20NUS%20GES%202025.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "outcomes": [
+      {
+        "cohort": "Computer Science (Bachelor of Computing)",
+        "year": "2025",
+        "measure": "Joint Autonomous Universities Graduate Employment Survey 2025, about six months after final exams; salary is median gross monthly pay.",
+        "graduates": null,
+        "placed": null,
+        "higherStudies": null,
+        "employmentRate": "84.1% in full-time permanent jobs · median gross monthly salary S$6,400",
+        "medianSalary": null,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "SGD",
+        "sourceId": "s19",
+        "confidence": "official",
+        "notes": "Across the four School of Computing degrees, more than 88% were employed within six months. Full MOE tables are in the GES 2025 publication."
+      }
+    ]
+  }
 }

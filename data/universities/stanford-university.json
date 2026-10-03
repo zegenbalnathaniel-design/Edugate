@@ -56,7 +56,7 @@
       "org": "QS",
       "category": "World University Rankings",
       "edition": 2027,
-      "rank": "2",
+      "rank": "=2",
       "sourceId": "s10"
     }
   ],
@@ -678,7 +678,148 @@
       "url": "https://economics.stanford.edu/undergraduate/major/economics-ba",
       "type": "university",
       "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s16",
+      "label": "QS World University Rankings 2027",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s17",
+      "label": "Stanford Facts — Class of 2029 profile",
+      "url": "https://facts.stanford.edu/academics/undergraduate-education/class-2029-profile",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s18",
+      "label": "Stanford Report — larger first-year and transfer classes (Nov 2025)",
+      "url": "https://news.stanford.edu/stories/2025/11/enrollment-first-year-transfer-class",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s19",
+      "label": "Stanford Report — undergraduate tuition held steady for 2026-27",
+      "url": "https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s20",
+      "label": "Stanford Housing — By the numbers",
+      "url": "https://housinginfo.stanford.edu/by-the-numbers",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s21",
+      "label": "Stanford R&DE — Frosh and transfer students housing",
+      "url": "https://rde.stanford.edu/studenthousing/freshmen-and-transfer-students",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 8000,
+      "sourceId": "s20",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "\"Over 8,000 acres\" as stated by Stanford."
+    },
+    "housing": {
+      "value": "Housing is guaranteed for four years for students who enter as first-years; about 98% of eligible undergraduates live on campus (6,727 in university undergraduate housing in autumn 2025).",
+      "sourceId": "s20",
+      "confidence": "high",
+      "asOf": "2025-26"
+    },
+    "address": "450 Jane Stanford Way, Stanford, CA 94305, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year class entering autumn 2025 (Class of 2029)",
+        "applicants": null,
+        "admitted": null,
+        "enrolled": 1866,
+        "acceptanceRate": null,
+        "sourceId": "s18",
+        "confidence": "official",
+        "notes": "Class of 2029 middle-50% scores among submitters: SAT 1520–1570, ACT 34–36; 13% international; 20% first-generation."
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition",
+        "audience": "all",
+        "amount": {
+          "min": 67731,
+          "max": 67731,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s19",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Held at the 2025-26 rate."
+      },
+      {
+        "item": "Room and board",
+        "audience": "all",
+        "amount": {
+          "min": 22944,
+          "max": 22944,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Student fees allowance",
+        "audience": "all",
+        "amount": {
+          "min": 2610,
+          "max": 2610,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Health service, activities, house dues, housing technology and course enrolment fees."
+      },
+      {
+        "item": "Books and supplies (allowance)",
+        "audience": "all",
+        "amount": {
+          "min": 855,
+          "max": 855,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "estimated",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Personal expenses (allowance)",
+        "audience": "all",
+        "amount": {
+          "min": 3405,
+          "max": 3405,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s5",
+        "confidence": "estimated",
+        "asOf": "2026-27",
+        "notes": "Total cost of attendance US$97,545 before travel."
+      }
+    ]
+  }
 }
