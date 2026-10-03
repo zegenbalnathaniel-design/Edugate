@@ -4,7 +4,7 @@ import { and, arrayOverlaps, asc, eq, gte, inArray, isNull, lte, max, or, sql, t
 import { getDb } from "@/lib/db";
 import { programs, universities } from "@/lib/db/schema";
 import { QS_BANDS, type Filters } from "./filters";
-import type { University } from "./schema";
+import { DetailsSchema, type University } from "./schema";
 
 /* Data access layer for the catalogue — pages never touch SQL directly. */
 
@@ -61,6 +61,10 @@ const cols = {
   data: universities.data,
 };
 
+/** Records saved before a schema addition lack its defaults; fill them on read. */
+const hydrate = (r: UniversityRow): UniversityRow =>
+  r.data.details ? r : { ...r, data: { ...r.data, details: DetailsSchema.parse({}) } };
+
 export async function searchUniversities(f: Filters): Promise<{ rows: UniversityRow[]; total: number; unknownFeesHidden: number }> {
   const db = await getDb();
   const order =
@@ -79,13 +83,13 @@ export async function searchUniversities(f: Filters): Promise<{ rows: University
       .where(and(where({ ...f, maxUsd: null }), isNull(universities.intlTuitionUsdMin)));
     unknownFeesHidden = n;
   }
-  return { rows, total, unknownFeesHidden };
+  return { rows: rows.map(hydrate), total, unknownFeesHidden };
 }
 
 export const getUniversity = cache(async (slug: string): Promise<UniversityRow | null> => {
   const db = await getDb();
   const [row] = await db.select(cols).from(universities).where(eq(universities.slug, slug));
-  return row ?? null;
+  return row ? hydrate(row) : null;
 });
 
 export const getUniversityId = cache(async (slug: string): Promise<number | null> => {
@@ -98,12 +102,13 @@ export async function getUniversitiesBySlugs(slugs: string[]): Promise<Universit
   if (!slugs.length) return [];
   const db = await getDb();
   const rows = await db.select(cols).from(universities).where(inArray(universities.slug, slugs));
-  return slugs.map((s) => rows.find((r) => r.slug === s)).filter((r): r is UniversityRow => !!r);
+  return slugs.map((s) => rows.find((r) => r.slug === s)).filter((r): r is UniversityRow => !!r).map(hydrate);
 }
 
 export async function allUniversities(): Promise<UniversityRow[]> {
   const db = await getDb();
-  return db.select(cols).from(universities).orderBy(sql`${universities.qsRank} asc nulls last`, asc(universities.name));
+  const rows = await db.select(cols).from(universities).orderBy(sql`${universities.qsRank} asc nulls last`, asc(universities.name));
+  return rows.map(hydrate);
 }
 
 export async function countryFacets(): Promise<{ code: string; name: string; regions: string[]; count: number }[]> {

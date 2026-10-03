@@ -568,7 +568,185 @@
       "url": "https://www.uceed.iitb.ac.in/2027/eligibility-exam.html",
       "type": "testing-org",
       "retrievedAt": "2026-10-02"
+    },
+    {
+      "id": "s19",
+      "label": "IIT Bombay — About",
+      "url": "https://www.iitb.ac.in/about",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s20",
+      "label": "IIT Bombay Pocket Statistics 2023-24",
+      "url": "https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-01/Pocket%20Statistics%202023_24.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s21",
+      "label": "Careers360 — IIT Bombay placements (reporting NIRF 2025 data)",
+      "url": "https://www.careers360.com/university/indian-institute-of-technology-bombay/placement",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s22",
+      "label": "NIRF 2025 data submitted by IIT Bombay (Overall category)",
+      "url": "https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-02/NIRF_IITBombay_2025_Overall_Category.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s23",
+      "label": "Careers360 — JoSAA 2025 IIT Bombay CSE opening/closing ranks",
+      "url": "https://news.careers360.com/josaa-2025-iit-bombay-btech-cse-again-top-choice-of-jee-advanced-toppers-engineering-iit-delhi-madras-kanpur-opening-closing-rank/amp",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
     }
   ],
-  "lastVerified": "2026-10-02"
+  "lastVerified": "2026-10-03",
+  "details": {
+    "campusAreaAcres": {
+      "value": 550,
+      "sourceId": "s19",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "The About page describes the campus as spread over 550 acres; other IIT Bombay pages give slightly different figures (about 480 acres / 200 ha)."
+    },
+    "faculty": {
+      "value": 733,
+      "sourceId": "s20",
+      "confidence": "high",
+      "asOf": "2023-24",
+      "notes": "Faculty on roll per Pocket Statistics 2023-24, read via a search result quoting the PDF."
+    },
+    "housing": {
+      "value": "Fully residential campus in Powai: students live in on-campus hostels and most faculty live in campus quarters.",
+      "sourceId": "s19",
+      "confidence": "high",
+      "asOf": null
+    },
+    "address": "Powai, Mumbai 400076, Maharashtra, India",
+    "schools": [
+      "14 academic departments",
+      "10 centres",
+      "2 schools",
+      "3 interdisciplinary programmes"
+    ],
+    "schoolsSourceId": "s19",
+    "admissionProcess": [
+      {
+        "step": "JEE (Main)",
+        "detail": "Qualify in JEE (Main) to be eligible to sit JEE (Advanced). Foreign nationals follow a separate route (see the JEE Advanced foreign-nationals page).",
+        "sourceId": "s5"
+      },
+      {
+        "step": "JEE (Advanced)",
+        "detail": "Rank in JEE (Advanced) and meet the Class XII performance criterion for IIT admission.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "JoSAA counselling",
+        "detail": "Register on JoSAA, fill branch choices, and accept a seat through the counselling rounds.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "B.Des via UCEED",
+        "detail": "The Bachelor of Design is admitted separately through UCEED, not JEE.",
+        "sourceId": "s9"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Academic fees (incl. tuition), per semester — B.Tech, Indian nationals",
+        "audience": "domestic",
+        "amount": {
+          "min": 134150,
+          "max": 134150,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Autumn 2026 figure from the 2026-27 fee circular, read via a search result. SC/ST/PwD students are exempt from the tuition component."
+      },
+      {
+        "item": "Hostel fees, per semester",
+        "audience": "all",
+        "amount": {
+          "min": 19950,
+          "max": 19950,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Mess advance, per semester",
+        "audience": "all",
+        "amount": {
+          "min": 22500,
+          "max": 22500,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Paid separately; refundable hostel-mess security deposit charged once."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "All programmes — campus placements",
+        "year": "2023-24",
+        "measure": "IIT Bombay Placement Office annual report: students placed through campus placements (all degree programmes) as of 30 June 2024; average of salaries offered.",
+        "graduates": null,
+        "placed": 1475,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": null,
+        "averageSalary": 2350000,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s17",
+        "confidence": "high",
+        "notes": "364 companies made 1,650 offers; 78 international offers and 22 offers above ₹1 crore were accepted."
+      },
+      {
+        "cohort": "UG 4-year programmes",
+        "year": "2023-24",
+        "measure": "NIRF 2025 submission: median salary of UG 4-year graduates placed through campus placement.",
+        "graduates": null,
+        "placed": 731,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": 1961000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s21",
+        "confidence": "secondary",
+        "notes": "As reported by Careers360 from IIT Bombay's NIRF 2025 data; the official NIRF PDF is linked in the sources but its table could not be read directly."
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "JEE (Advanced) · JoSAA",
+        "program": "B.Tech Computer Science and Engineering (4 years)",
+        "category": "OPEN · Gender-neutral",
+        "round": "Round 6",
+        "year": 2025,
+        "opening": null,
+        "closing": "66",
+        "sourceId": "s23",
+        "confidence": "secondary",
+        "notes": "Closing All-India Rank (JEE Advanced) in the final JoSAA 2025 round, as reported by Careers360."
+      }
+    ]
+  }
 }

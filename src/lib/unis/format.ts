@@ -59,3 +59,12 @@ export function qsLabel(u: University) {
 export function dateLabel(iso: string) {
   return new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 }
+
+/** Salaries the way each system reports them: Indian packages in lakh per annum, others as annual amounts. */
+export function salary(n: number, currency: string) {
+  if (currency === "INR") return `₹${(n / 100000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} LPA`;
+  return `${money(n, currency)}/yr`;
+}
+
+export const CONTROL_LABEL: Record<string, string> = { public: "Public", private: "Private", "public-private": "Public–private" };
+export const ORG_LABEL: Record<string, string> = { QS: "QS", THE: "Times Higher Education", US_NEWS: "U.S. News", ARWU: "ARWU (Shanghai)", NIRF: "NIRF (India)", OTHER: "Other" };

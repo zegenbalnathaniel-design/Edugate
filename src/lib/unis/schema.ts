@@ -127,6 +127,91 @@ export const Ranking = z.object({
   sourceId: z.string().nullable(),
 });
 
+export const Currency = z.enum(["INR", "USD", "GBP", "EUR", "CAD", "AUD", "SGD", "HKD", "CHF", "AED", "JPY", "KRW", "QAR"]);
+
+/*
+ * Detail sections (the depth students expect from portals like Shiksha),
+ * held to the same rule: every figure names its source, year and confidence.
+ */
+
+/** Graduate outcomes as the publisher reports them — NIRF placement data, UK Graduate Outcomes, US College Scorecard, a university's own report. */
+export const OutcomeRecord = z.object({
+  cohort: z.string().min(1), // "UG 4-year programmes", "All bachelor's graduates", "BTech CSE"
+  year: z.string().min(1), // graduating year or survey year as published: "2023-24"
+  measure: z.string().min(1), // what the numbers mean, in the publisher's terms
+  graduates: z.number().nullable(),
+  placed: z.number().nullable(),
+  higherStudies: z.number().nullable(),
+  employmentRate: z.string().nullable(), // "94% in work or study 15 months after graduating"
+  medianSalary: z.number().nullable(),
+  averageSalary: z.number().nullable(),
+  highestSalary: z.number().nullable(),
+  currency: Currency,
+  sourceId: z.string().nullable(),
+  confidence: Confidence,
+  notes: z.string().optional(),
+});
+
+/** Published opening/closing ranks or scores (e.g. JoSAA for IITs/IIITs/NITs). */
+export const Cutoff = z.object({
+  exam: z.string().min(1),
+  program: z.string().min(1),
+  category: z.string().min(1), // "OPEN · Gender-neutral"
+  round: z.string().nullable(),
+  year: z.number().int(),
+  opening: z.string().nullable(),
+  closing: z.string().min(1),
+  sourceId: z.string().nullable(),
+  confidence: Confidence,
+  notes: z.string().optional(),
+});
+
+/** Applicants / admits as published (Common Data Set, UCAS, the university's own figures). Never a predicted chance. */
+export const AdmissionStat = z.object({
+  year: z.string().min(1),
+  scope: z.string().min(1), // "First-year applicants, Class of 2029"
+  applicants: z.number().nullable(),
+  admitted: z.number().nullable(),
+  enrolled: z.number().nullable(),
+  acceptanceRate: z.string().nullable(),
+  sourceId: z.string().nullable(),
+  confidence: Confidence,
+  notes: z.string().optional(),
+});
+
+export const FeeItem = z.object({
+  item: z.string().min(1), // "Tuition", "Hostel", "Mess", "Student services fee"
+  audience: z.enum(["domestic", "international", "all"]),
+  amount: MoneyRange,
+  currency: Currency,
+  sourceId: z.string().nullable(),
+  confidence: Confidence,
+  asOf: z.string().nullable(),
+  notes: z.string().optional(),
+});
+
+const NOT_VERIFIED = { value: null, sourceId: null, confidence: "requires-verification" as const, asOf: null };
+
+export const DetailsSchema = z.object({
+  campusAreaAcres: sourced(z.number()).default(NOT_VERIFIED),
+  faculty: sourced(z.number()).default(NOT_VERIFIED),
+  housing: sourced(z.string()).default(NOT_VERIFIED), // on-campus accommodation, as the university describes it
+  address: z.string().nullable().default(null),
+  schools: z.array(z.string()).default([]), // faculties / schools / departments as officially named
+  schoolsSourceId: z.string().nullable().default(null),
+  facilities: z.array(z.object({ name: z.string().min(1), description: z.string().nullable(), sourceId: z.string().nullable() })).default([]),
+  admissionProcess: z.array(z.object({ step: z.string().min(1), detail: z.string().min(1), sourceId: z.string().nullable() })).default([]),
+  admissionStats: z.array(AdmissionStat).default([]),
+  cutoffs: z.array(Cutoff).default([]),
+  feeBreakdown: z.array(FeeItem).default([]),
+  outcomes: z.array(OutcomeRecord).default([]),
+  recruiters: z
+    .object({ names: z.array(z.string().min(1)).min(1), year: z.string().nullable(), sourceId: z.string().nullable(), confidence: Confidence })
+    .nullable()
+    .default(null),
+  alumni: z.array(z.object({ name: z.string().min(1), note: z.string().min(1), sourceId: z.string().nullable() })).default([]),
+});
+
 export const CurriculumYear = z.object({
   year: z.number().int().min(1).max(7),
   courses: z.array(z.string().min(1)),
@@ -189,7 +274,7 @@ export const UniversitySchema = z
     testing: z.array(TestRequirement),
     english: z.array(EnglishRequirement),
     costs: z.object({
-      currency: z.enum(["INR", "USD", "GBP", "EUR", "CAD", "AUD", "SGD", "HKD", "CHF", "AED", "JPY", "KRW", "QAR"]),
+      currency: Currency,
       internationalTuition: sourced(MoneyRange),
       domesticTuition: sourced(MoneyRange),
       livingEstimate: sourced(MoneyRange),
@@ -198,6 +283,7 @@ export const UniversitySchema = z
     deadlines: z.array(Deadline),
     opportunities: z.array(Opportunity),
     programs: z.array(ProgramSchema).min(1),
+    details: DetailsSchema.default(DetailsSchema.parse({})),
     sources: z.array(SourceSchema).min(1),
     lastVerified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   })
@@ -208,7 +294,7 @@ export const UniversitySchema = z
       if (Array.isArray(node)) node.forEach((n, i) => walk(n, [...path, i]));
       else if (node && typeof node === "object") {
         for (const [k, v] of Object.entries(node)) {
-          if ((k === "sourceId" || k === "curriculumSourceId") && typeof v === "string" && !ids.has(v)) {
+          if ((k === "sourceId" || k === "curriculumSourceId" || k === "schoolsSourceId") && typeof v === "string" && !ids.has(v)) {
             ctx.addIssue({ code: "custom", path: [...path, k], message: `unknown sourceId "${v}"` });
           }
           walk(v, [...path, k]);
@@ -229,3 +315,7 @@ export type OpportunityItem = z.infer<typeof Opportunity>;
 export type RankingItem = z.infer<typeof Ranking>;
 export type ConfidenceLevel = z.infer<typeof Confidence>;
 export type Field = z.infer<typeof FieldKey>;
+export type CurrencyCode = z.infer<typeof Currency>;
+export type Details = z.infer<typeof DetailsSchema>;
+export type Outcome = z.infer<typeof OutcomeRecord>;
+export type CutoffItem = z.infer<typeof Cutoff>;
