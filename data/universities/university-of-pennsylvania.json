@@ -1,0 +1,492 @@
+{
+  "slug": "university-of-pennsylvania",
+  "name": "University of Pennsylvania",
+  "officialName": "University of Pennsylvania",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Pennsylvania",
+  "city": "Philadelphia",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1740,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.upenn.edu/",
+  "admissionsUrl": "https://admissions.upenn.edu/",
+  "financialAidUrl": "https://srfs.upenn.edu/",
+  "internationalUrl": "https://admissions.upenn.edu/how-to-apply/international-applicants",
+  "summary": "Penn, which dates its founding to 1740, is a private university in Philadelphia with about 10,000 undergraduates; its undergraduate schools include the College of Arts and Sciences and the Wharton School. Wharton's BS in Economics combines a business core with one of more than 19 concentrations.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": 10000,
+      "sourceId": "s11",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "\"6,000 of the University's 10,000 undergraduates\" are in the College."
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=16",
+      "sourceId": "s1"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null,
+    "notes": "See Penn's first-year applicants page for accepted application platforms."
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT or ACT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "Reinstated from the 2025-26 admission cycle."
+    }
+  ],
+  "english": [
+    {
+      "test": "IELTS",
+      "minOverall": "7.0 (competitive, not a minimum)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s13",
+      "confidence": "official"
+    },
+    {
+      "test": "DUOLINGO",
+      "minOverall": "130 (competitive, not a minimum)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s13",
+      "confidence": "official"
+    },
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "5 on the 1–6 band scale (competitive)",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s13",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 65670,
+        "max": 65670,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Tuition only; required fees add US$8,308."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 65670,
+        "max": 65670,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 20604,
+        "max": 20604,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "On-campus housing US$13,644 plus food US$6,960."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Quaker Commitment",
+      "kind": [
+        "need",
+        "full",
+        "domestic"
+      ],
+      "eligibility": "US students from families earning US$200,000 or less with typical assets receive full-tuition scholarships; those earning US$75,000 or less attend tuition-free.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s8",
+      "confidence": "official"
+    },
+    {
+      "name": "Need-based aid for international students",
+      "kind": [
+        "need",
+        "international"
+      ],
+      "eligibility": "International applicants (not citizens or permanent residents of the US, Canada or Mexico). Admission is need-aware for this group, and aid must be requested with the application — requests after admission are not considered.",
+      "coverage": "100% of demonstrated need with grants and work-study",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s7",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Early Decision application",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-01-05",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "wharton-bs-economics",
+      "name": "BS in Economics (Wharton School)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": "Economics and business",
+      "school": "The Wharton School",
+      "durationYears": 4,
+      "url": "https://undergrad.wharton.upenn.edu/",
+      "summary": "Wharton's undergraduate degree: a business-fundamentals core plus a concentration chosen from more than 19 options, including Finance, Business Analytics, Behavioral Economics, Statistics and Data Science, and Business Economics & Public Policy.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 65670,
+          "max": 65670,
+          "period": "year"
+        },
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 300,
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"Approximately 300 acres\"."
+    },
+    "faculty": {
+      "value": 6049,
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Total faculty members (all schools, including the health system)."
+    },
+    "address": "1 College Hall, Philadelphia, PA 19104, United States",
+    "admissionStats": [
+      {
+        "year": "2026",
+        "scope": "First-year applicants, Class of 2030",
+        "applicants": null,
+        "admitted": null,
+        "enrolled": null,
+        "acceptanceRate": "5.8%",
+        "sourceId": "s3",
+        "confidence": "secondary",
+        "notes": "As reported by The Daily Pennsylvanian; applicant and admit counts not recorded here."
+      },
+      {
+        "year": "2025",
+        "scope": "First-year applicants, Class of 2029",
+        "applicants": 72544,
+        "admitted": 3530,
+        "enrolled": null,
+        "acceptanceRate": "4.9%",
+        "sourceId": "s2",
+        "confidence": "secondary"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Choose a round",
+        "detail": "Early Decision by 1 November or Regular Decision by 5 January; decisions mid-December and by 1 April.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Submit testing",
+        "detail": "SAT or ACT scores are required again from the 2025-26 cycle.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "English proficiency",
+        "detail": "If English isn't your first language, send TOEFL, IELTS Academic or Duolingo scores.",
+        "sourceId": "s13"
+      },
+      {
+        "step": "Financial aid (international)",
+        "detail": "Apply for aid at the same time as admission; admission is need-aware for international applicants.",
+        "sourceId": "s7"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition",
+        "audience": "all",
+        "amount": {
+          "min": 65670,
+          "max": 65670,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Fees",
+        "audience": "all",
+        "amount": {
+          "min": 8308,
+          "max": 8308,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Housing (on campus)",
+        "audience": "all",
+        "amount": {
+          "min": 13644,
+          "max": 13644,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Food (on campus)",
+        "audience": "all",
+        "amount": {
+          "min": 6960,
+          "max": 6960,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Total on-campus budget US$99,082."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "QS World University Rankings 2027 — United States",
+      "url": "https://www.topuniversities.com/world-university-rankings?countries=us",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "The Daily Pennsylvanian — 4.9% acceptance rate for the Class of 2029",
+      "url": "https://www.thedp.com/article/2025/06/penn-admissions-rate-class-2029",
+      "type": "journalism",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "The Daily Pennsylvanian — 5.8% acceptance rate for the Class of 2030",
+      "url": "https://www.thedp.com/article/2026/06/penn-admissions-rate-test-mandatory-tuition-financial-aid",
+      "type": "journalism",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Penn Today — Penn reinstates standardized testing",
+      "url": "https://penntoday.upenn.edu/announcements/penn-reinstates-standardized-testing-undergraduate-admissions",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Ask Penn Admissions — First-year deadlines",
+      "url": "https://ask.admissions.upenn.edu/support/solutions/articles/157000361133-what-are-the-deadlines-to-apply-to-penn-as-a-first-year-student-",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Penn SRFS — Undergraduate cost of attendance",
+      "url": "https://srfs.upenn.edu/costs-budgeting/undergraduate-cost-attendance",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Penn Admissions — International aid",
+      "url": "https://admissions.upenn.edu/affording-penn/international-aid",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Penn Admissions — Financial aid (Quaker Commitment)",
+      "url": "https://admissions.upenn.edu/affording-penn/financial-aid",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Penn — Facts",
+      "url": "https://www.upenn.edu/about/facts",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Penn — History",
+      "url": "https://www.upenn.edu/about/history",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Penn College of Arts & Sciences — History of the College",
+      "url": "https://www.college.upenn.edu/about/history-college",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "Wharton Undergraduate — Concentrations",
+      "url": "https://undergrad.wharton.upenn.edu/concentrations/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "Penn Admissions — International application guidelines",
+      "url": "https://admissions.upenn.edu/how-to-apply/international-applicants/guidelines",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s14",
+      "label": "Penn Admissions — First-year applicants",
+      "url": "https://admissions.upenn.edu/how-to-apply/first-year-applicants",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

@@ -1,0 +1,526 @@
+{
+  "slug": "university-of-michigan",
+  "name": "University of Michigan",
+  "officialName": "University of Michigan–Ann Arbor",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Michigan",
+  "city": "Ann Arbor",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1817,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://umich.edu/",
+  "admissionsUrl": "https://admissions.umich.edu/",
+  "financialAidUrl": "https://finaid.umich.edu/",
+  "internationalUrl": "https://admissions.umich.edu/apply/international-applicants/exams-visas",
+  "summary": "The University of Michigan was founded in Detroit in 1817 and is now based in Ann Arbor, with 35,358 undergraduates on the Ann Arbor campus in fall 2025. Since fall 2025, applicants can choose the Ross School of Business as their first-year admitting unit on the Common App; Computer Science can be studied through either LSA or the College of Engineering with nearly identical requirements.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": 35358,
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": "Fall 2025",
+      "notes": "Ann Arbor campus."
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "51",
+      "sourceId": "s1"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "Common Application",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT or ACT",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "official",
+      "notes": "Test-optional for the 2027 cycle; applicants are not disadvantaged without scores."
+    }
+  ],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "100 range",
+      "minSection": "23+ listening & reading; 21+ speaking & writing",
+      "waiver": null,
+      "sourceId": "s14",
+      "confidence": "high"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": "7.0 range",
+      "minSection": "6.5+",
+      "waiver": null,
+      "sourceId": "s14",
+      "confidence": "high"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 67096,
+        "max": 75836,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Nonresident tuition & fees by college and level: LSA lower division US$67,096 (upper US$71,798); Ross US$67,730 lower / US$75,836 upper; Engineering US$33,744 per semester lower division."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 17220,
+        "max": 17220,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Living expenses in the standard budget."
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "Early Action application",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": "America/Detroit",
+      "sourceId": "s4",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-02-01",
+      "intake": "Fall 2027",
+      "timezone": "America/Detroit",
+      "sourceId": "s4",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "ross-bba",
+      "name": "Bachelor of Business Administration (Ross School of Business)",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": "Stephen M. Ross School of Business",
+      "durationYears": 4,
+      "url": "https://michiganross.umich.edu/undergraduate/bba/admissions/first-year-applicants",
+      "summary": "Students can apply directly to Ross as their first-year admitting unit on the Common App (from fall 2025 entry).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "optional",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 67730,
+          "max": 75836,
+          "period": "year"
+        },
+        "sourceId": "s9",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Nonresident tuition: US$67,730 lower division, US$75,836 upper division."
+      }
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science (BS via Engineering or BA/BS via LSA)",
+      "degree": "BS / BA",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-lsa-vs-computer-science-engineering/",
+      "summary": "Computer Science can be earned through the College of Engineering or LSA; the major requirements are almost the same, and the choice mainly changes the college-level requirements around it.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s14",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "optional",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 67096,
+          "max": 75718,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Nonresident: LSA lower division US$67,096; Engineering about US$67,488 (lower) to US$75,718 (upper) a year."
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 3200,
+      "sourceId": "s13",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Ann Arbor, across Central, North, Medical Center, East Medical and Ross Athletic campuses."
+    },
+    "address": "500 S. State Street, Ann Arbor, MI 48109, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, fall 2025",
+        "applicants": 109112,
+        "admitted": 17915,
+        "enrolled": null,
+        "acceptanceRate": "≈16%",
+        "sourceId": "s3",
+        "confidence": "official"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply on the Common App",
+        "detail": "Choose your first-year admitting unit (e.g. LSA, Engineering or Ross).",
+        "sourceId": "s8"
+      },
+      {
+        "step": "Pick a deadline",
+        "detail": "Early Action by 1 November (decisions by late January) or Regular Decision by 1 February (decisions by early April).",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Testing (optional)",
+        "detail": "Submit SAT/ACT only if you want them considered.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "English proficiency",
+        "detail": "International applicants submit TOEFL or IELTS results unless exempt.",
+        "sourceId": "s14"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "LSA nonresident tuition & fees, lower division",
+        "audience": "international",
+        "amount": {
+          "min": 67096,
+          "max": 67096,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Engineering nonresident tuition, per semester (lower division)",
+        "audience": "international",
+        "amount": {
+          "min": 33744,
+          "max": 33744,
+          "period": "semester"
+        },
+        "currency": "USD",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Upper division US$37,859 per semester."
+      },
+      {
+        "item": "Ross BBA nonresident tuition, lower division",
+        "audience": "international",
+        "amount": {
+          "min": 67730,
+          "max": 67730,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s9",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Mandatory registration fee, per term",
+        "audience": "all",
+        "amount": {
+          "min": 246.89,
+          "max": 246.89,
+          "period": "semester"
+        },
+        "currency": "USD",
+        "sourceId": "s9",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Living expenses (budget)",
+        "audience": "all",
+        "amount": {
+          "min": 17220,
+          "max": 17220,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Xuanxiao — QS World University Rankings 2027 listing",
+      "url": "https://xuanxiao.org/en/rankings/qs/world-university-rankings?page=2",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "The University Record — record applications for fall 2025",
+      "url": "https://record.umich.edu/articles/u-m-receivesrecord-numberof-applicationsfor-fall-2025/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "U-M Office of Budget and Planning — First-year class profile (fall 2025)",
+      "url": "https://obp.umich.edu/wp-content/uploads/pubdata/factsfigures/firstyearsprofile_umaa_2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "U-M Admissions — Requirements & deadlines",
+      "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "U-M Admissions — Application changes (test-optional)",
+      "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines/application-changes",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "U-M Admissions — Costs",
+      "url": "https://admissions.umich.edu/costs-aid/costs",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "U-M Ann Arbor tuition and fees schedule FY2027",
+      "url": "https://provost.umich.edu/wp-content/uploads/FY-2027-Tuition-Fee-Table-FINAL-1.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Michigan Ross — Ross added as a first-year admitting unit",
+      "url": "https://michiganross.umich.edu/undergraduate/bba/admissions/admissions-blog/2024/06/06/ross-school-business-added-first-year",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Michigan Ross — BBA financial aid and costs",
+      "url": "https://rossweb.bus.umich.edu/financial-aid/program-overview/bba/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "U-M CSE — Computer Science LSA vs Engineering",
+      "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-lsa-vs-computer-science-engineering/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "University of Michigan — Facts & figures",
+      "url": "https://umich.edu/facts-figures/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "U-M Heritage — Timeline",
+      "url": "https://heritage.umich.edu/timeline/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "U-M Campus Plan 2050 — U-M presence in Michigan",
+      "url": "https://campusplan2050.umich.edu/about/um-presence-michigan/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s14",
+      "label": "U-M Admissions — Exams & visas (international)",
+      "url": "https://admissions.umich.edu/apply/international-applicants/exams-visas",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

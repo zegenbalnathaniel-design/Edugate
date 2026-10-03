@@ -1,0 +1,392 @@
+{
+  "slug": "university-of-delhi",
+  "name": "University of Delhi",
+  "officialName": "University of Delhi",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Delhi",
+  "city": "Delhi",
+  "campuses": [
+    "North Campus",
+    "South Campus",
+    "Colleges across Delhi"
+  ],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1922,
+  "setting": null,
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "website": "https://www.du.ac.in/",
+  "admissionsUrl": "https://admission.uod.ac.in/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "The University of Delhi was founded in 1922 with three colleges — St. Stephen's, Hindu and Ramjas — and now spans 77 colleges, 16 faculties and 86 departments across the city. Undergraduate seats in every college are filled through CUET (UG) scores and DU's Common Seat Allocation System (CSAS).",
+  "stats": {
+    "totalStudents": {
+      "value": 132435,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Regular students (UG 114,494; PG 17,941), excluding about 2.6 lakh in non-formal programmes, as stated on the About page."
+    },
+    "undergraduates": {
+      "value": 114494,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Regular undergraduate students."
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "322",
+      "sourceId": "s6"
+    },
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "5",
+      "sourceId": "s7"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "15",
+      "sourceId": "s7"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "CUET (UG) by NTA, then DU's CSAS (UG) portal for programme and college preferences; seats allotted in rounds by CUET score",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "CUET (UG)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "notes": "Merit is the CUET score in the programme-specific subject combination; Class XII marks only decide eligibility and ties."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Fees are set by each college and programme; current (2026-27) college fee tables were not verified."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "ba-hons-economics",
+      "name": "B.A. (Hons.) Economics",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://admission.uod.ac.in/",
+      "summary": "Four-year undergraduate programme offered by many DU colleges. Seats are allotted through CSAS on CUET (UG) score; Mathematics is compulsory in CUET for this programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "Pass Class XII; CUET (UG) with a language from List A, Mathematics/Applied Mathematics and two subjects from List B",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics or Applied Mathematics",
+              "level": "CUET (UG) paper",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Mathematics must be taken in CUET (UG) for B.A. (Hons.) Economics."
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Admission is by CUET score; Class XII marks are used only for eligibility and tie-breaking."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "Pass Class XII; CUET (UG) with a language from List A, Mathematics/Applied Mathematics and two subjects from List B",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics or Applied Mathematics",
+              "level": "CUET (UG) paper",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Mathematics must be taken in CUET (UG) for B.A. (Hons.) Economics."
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Admission is by CUET score; Class XII marks are used only for eligibility and tie-breaking."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "Pass Class XII; CUET (UG) with a language from List A, Mathematics/Applied Mathematics and two subjects from List B",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics or Applied Mathematics",
+              "level": "CUET (UG) paper",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Mathematics must be taken in CUET (UG) for B.A. (Hons.) Economics."
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Admission is by CUET score; Class XII marks are used only for eligibility and tie-breaking."
+        }
+      ],
+      "tests": [
+        {
+          "test": "CUET (UG)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s2",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bcom-hons",
+      "name": "B.Com (Hons.)",
+      "degree": "BCom (Hons)",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://admission.uod.ac.in/",
+      "summary": "Four-year commerce programme offered across DU colleges, including Shri Ram College of Commerce and Hindu College; admission by CUET (UG) score through CSAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "Pass Class XII; CUET (UG) in the subject combination DU prescribes for B.Com (Hons.)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "See the UG Bulletin / FAQs for the exact combination; merit is the CUET score."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "Pass Class XII; CUET (UG) in the subject combination DU prescribes for B.Com (Hons.)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "See the UG Bulletin / FAQs for the exact combination; merit is the CUET score."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "Pass Class XII; CUET (UG) in the subject combination DU prescribes for B.Com (Hons.)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "See the UG Bulletin / FAQs for the exact combination; merit is the CUET score."
+        }
+      ],
+      "tests": [
+        {
+          "test": "CUET (UG)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s2",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "address": "University Road, Delhi 110007, India (North Campus)",
+    "schools": [
+      "16 faculties",
+      "86 academic departments",
+      "77 colleges and 5 other recognised institutes"
+    ],
+    "schoolsSourceId": "s1",
+    "admissionProcess": [
+      {
+        "step": "Take CUET (UG)",
+        "detail": "Sit the papers DU requires for your programme — including every subject you passed in Class XII.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Register on CSAS (UG)",
+        "detail": "Fill DU's Common Seat Allocation System form and rank programme–college combinations.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Seat allocation rounds",
+        "detail": "DU allots seats by CUET score round by round; accept, upgrade or freeze each allocation.",
+        "sourceId": "s3"
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "CUET (UG) · DU CSAS",
+        "program": "B.Com (Hons.) — Shri Ram College of Commerce",
+        "category": "Unreserved",
+        "round": "Round 1",
+        "year": 2026,
+        "opening": null,
+        "closing": "924",
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "notes": "CUET composite score (four papers × 250). The official round-one cut-off list is linked in the sources."
+      },
+      {
+        "exam": "CUET (UG) · DU CSAS",
+        "program": "B.A. (Hons.) Economics — Shri Ram College of Commerce",
+        "category": "Unreserved",
+        "round": "Round 1",
+        "year": 2026,
+        "opening": null,
+        "closing": "897",
+        "sourceId": "s5",
+        "confidence": "secondary"
+      },
+      {
+        "exam": "CUET (UG) · DU CSAS",
+        "program": "B.Com (Hons.) — Hindu College",
+        "category": "Unreserved",
+        "round": "Round 1",
+        "year": 2026,
+        "opening": null,
+        "closing": "919.87",
+        "sourceId": "s5",
+        "confidence": "secondary"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Delhi — About DU",
+      "url": "https://www.du.ac.in/index.php?page=About-DU",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "University of Delhi — UG Admissions 2026-27 FAQs (updated)",
+      "url": "https://admission.uod.ac.in/userfiles/downloads/2026/17052026_Updated_FAQsUG%202026-final.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "University of Delhi — Common Seat Allocation System (UG) 2026",
+      "url": "https://dr.du.ac.in/sites/default/files/2026-07/UG-CSAS_26062026.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "University of Delhi — UG Admissions 2026-27 Round One cut-offs",
+      "url": "https://admission.uod.ac.in/userfiles/17072026-CutOff_UG_Round_One_compressed.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Physics Wallah — DU CSAS 2026 round 1 cut-off",
+      "url": "https://www.pw.live/news/du-ug-admission-2026-csas-cutoff-released-round-1-seat-allotment-pdf-download-link",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Asianet Newsable — Delhi University climbs to 322 in QS World University Rankings 2027",
+      "url": "https://newsable.asianetnews.com/india/delhi-university-climbs-to-322-in-qs-world-university-rankings-2027-articleshow-st1l59r",
+      "type": "journalism",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Careers360 — NIRF 2025 ranking for DU",
+      "url": "https://university.careers360.com/articles/nirf-ranking-for-du",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

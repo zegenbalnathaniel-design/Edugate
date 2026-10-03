@@ -1,0 +1,535 @@
+{
+  "slug": "harvard-university",
+  "name": "Harvard University",
+  "officialName": "President and Fellows of Harvard College",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Massachusetts",
+  "city": "Cambridge",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1636,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.harvard.edu/",
+  "admissionsUrl": "https://college.harvard.edu/admissions",
+  "financialAidUrl": "https://college.harvard.edu/financial-aid",
+  "internationalUrl": "https://college.harvard.edu/admissions/apply/international-applicants",
+  "summary": "Harvard College is the undergraduate school of Harvard University in Cambridge, Massachusetts. Students apply to the College rather than a major and declare a concentration, such as Economics or Computer Science, in their third semester. First-years live in Harvard Yard and later move to one of 12 residential Houses; housing is guaranteed for four years.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": 7103,
+      "sourceId": "s10",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Harvard College students, as stated on the College's About page."
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": "7:1",
+      "sourceId": "s10",
+      "confidence": "official",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "5",
+      "sourceId": "s1"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "Common Application or Coalition Application by Scoir, plus Harvard's supplement",
+    "sourceId": "s11",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT or ACT",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "If neither is accessible, AP, IB, A-level or externally assessed national exam results can meet the requirement in exceptional cases."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 62226,
+        "max": 62226,
+        "period": "year"
+      },
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Tuition only; Harvard's billed fees add US$6,216. Same for domestic and international students."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 62226,
+        "max": 62226,
+        "period": "year"
+      },
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 23192,
+        "max": 23192,
+        "period": "year"
+      },
+      "sourceId": "s8",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Billed housing (US$14,250) plus food (US$8,942)."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Harvard College need-based financial aid",
+      "kind": [
+        "need",
+        "full",
+        "partial",
+        "international",
+        "domestic"
+      ],
+      "eligibility": "All admitted students, including international students; aid is based on family need. Families earning US$100,000 or less pay nothing; families earning US$200,000 or less pay no tuition.",
+      "coverage": "Up to the full cost of attendance, plus start-up and launch grants for families under US$100,000",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://college.harvard.edu/financial-aid",
+      "sourceId": "s9",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Restrictive Early Action application",
+      "date": "2026-11-01",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s5",
+      "confidence": "high"
+    },
+    {
+      "label": "Regular Decision application",
+      "date": "2027-01-01",
+      "intake": "Fall 2027",
+      "timezone": "America/New_York",
+      "sourceId": "s5",
+      "confidence": "high"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-concentration",
+      "name": "Economics (AB concentration)",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://economics.harvard.edu/",
+      "summary": "Students are admitted to Harvard College, not to a major, and formally declare Economics as their concentration in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    },
+    {
+      "slug": "computer-science-concentration",
+      "name": "Computer Science (AB or SB concentration)",
+      "degree": "AB / SB",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "John A. Paulson School of Engineering and Applied Sciences",
+      "durationYears": 4,
+      "url": "https://seas.harvard.edu/computer-science",
+      "summary": "Computer Science is a concentration declared after admission to Harvard College, offered as an AB or the more technical SB through the John A. Paulson School of Engineering and Applied Sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "First-years live in Harvard Yard; sophomores to seniors live in one of 12 residential Houses of 400–500 students. Housing is guaranteed for four years.",
+      "sourceId": "s13",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "86 Brattle Street, Cambridge, MA 02138, United States (Admissions)",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, Class of 2029",
+        "applicants": 47893,
+        "admitted": 2003,
+        "enrolled": 1675,
+        "acceptanceRate": "4.2%",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Yield 83.6%; 90% among international admits. Harvard did not publish admission figures for the Class of 2030."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Choose a round",
+        "detail": "Restrictive Early Action by 1 November or Regular Decision by 1 January.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Submit the application",
+        "detail": "Apply through the Common App or the Coalition Application by Scoir, with Harvard's supplement and school materials.",
+        "sourceId": "s11"
+      },
+      {
+        "step": "Testing",
+        "detail": "Send SAT or ACT scores (REA: preferably by end of October). English tests are optional and cannot replace the SAT/ACT.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Financial aid",
+        "detail": "Apply for aid alongside your application. Admission is need-blind for all applicants, including international students, who are eligible for the same aid.",
+        "sourceId": "s6"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition",
+        "audience": "all",
+        "amount": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Fees",
+        "audience": "all",
+        "amount": {
+          "min": 6216,
+          "max": 6216,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Housing",
+        "audience": "all",
+        "amount": {
+          "min": 14250,
+          "max": 14250,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Food",
+        "audience": "all",
+        "amount": {
+          "min": 8942,
+          "max": 8942,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Health insurance (unless covered by a family plan)",
+        "audience": "all",
+        "amount": {
+          "min": 4954,
+          "max": 4954,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Personal, books and travel (estimates)",
+        "audience": "all",
+        "amount": {
+          "min": 3500,
+          "max": 8500,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "estimated",
+        "asOf": "2026-27",
+        "notes": "Personal US$2,500, books US$1,000, travel US$0–5,000."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "QS World University Rankings 2027",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "Harvard College — Admissions statistics",
+      "url": "https://college.harvard.edu/admissions/admissions-statistics",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Harvard Gazette — Class of 2029 yield tops 83%",
+      "url": "https://news.harvard.edu/gazette/story/2025/10/class-of-2029-yield-tops-83-with-international-students-at-90/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "Harvard College — Application requirements",
+      "url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "Harvard College — First-year applicants",
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "Harvard College — International applicants",
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Harvard College FAQ — What if English is not my first language?",
+      "url": "https://college.harvard.edu/resources/faq/what-if-english-not-my-first-language",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Harvard College — How aid works (cost of attendance)",
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "Harvard Gazette — Harvard expands financial aid (March 2025)",
+      "url": "https://news.harvard.edu/gazette/story/2025/03/harvard-expands-financial-aid/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Harvard College — About",
+      "url": "https://college.harvard.edu/about",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Harvard College — Apply",
+      "url": "https://college.harvard.edu/admissions/apply",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "Harvard College — Concentrations explained",
+      "url": "https://college.harvard.edu/student-life/student-stories/concentrations-explained",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "Harvard College — How housing works",
+      "url": "https://college.harvard.edu/student-life/student-stories/how-housing-works-first-years-seniors",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

@@ -1,0 +1,557 @@
+{
+  "slug": "university-of-california-berkeley",
+  "name": "UC Berkeley",
+  "officialName": "University of California, Berkeley",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "California",
+  "city": "Berkeley",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1868,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.berkeley.edu/",
+  "admissionsUrl": "https://admissions.berkeley.edu/",
+  "financialAidUrl": "https://financialaid.berkeley.edu/",
+  "internationalUrl": "https://admissions.berkeley.edu/requirements-for-international-students/",
+  "summary": "UC Berkeley, founded in 1868, is the founding campus of the University of California. It is test-free — SAT and ACT scores are not used in admission or scholarships. Computer Science admits students directly into the College of Computing, Data Science, and Society, while Economics is declared after completing prerequisite courses.",
+  "stats": {
+    "totalStudents": {
+      "value": 45882,
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "33,070 undergraduates and 12,812 graduate students."
+    },
+    "undergraduates": {
+      "value": 33070,
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": "19.4:1",
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "=22",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "UC Application (one application for all UC campuses)",
+    "sourceId": "s16",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAT / ACT",
+      "policy": "test-blind",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "official",
+      "notes": "Berkeley calls this \"test-free\": scores are not used for review, selection or scholarships."
+    }
+  ],
+  "english": [
+    {
+      "test": "TOEFL_IBT",
+      "minOverall": "90",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    },
+    {
+      "test": "IELTS",
+      "minOverall": "6.5",
+      "minSection": null,
+      "waiver": null,
+      "sourceId": "s6",
+      "confidence": "official"
+    },
+    {
+      "test": "DUOLINGO",
+      "minOverall": "115",
+      "minSection": null,
+      "waiver": "Three or more years of schooling with English as the language of instruction",
+      "sourceId": "s6",
+      "confidence": "official"
+    }
+  ],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 53472,
+        "max": 53472,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Tuition US$7,101 plus Nonresident Supplemental Tuition US$19,635 per semester (2026-27 cohort), two semesters; campus fees extra. International students also pay a US$100 service fee from fall 2026."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 14202,
+        "max": 14202,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "California residents: tuition US$7,101 per semester (2026-27 cohort); campus fees extra."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "International Leaders Scholarship",
+      "kind": [
+        "need",
+        "merit",
+        "international"
+      ],
+      "eligibility": "Admitted international undergraduates with academic excellence and leadership; considered automatically.",
+      "coverage": "Need-based assistance for up to four years",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s14",
+      "confidence": "official"
+    },
+    {
+      "name": "Regents' and Chancellor's Scholarship",
+      "kind": [
+        "merit",
+        "competitive"
+      ],
+      "eligibility": "Berkeley's most prestigious undergraduate scholarship, for students showing creativity, leadership and service; admitted students are considered automatically.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s15",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "UC Application filing period closes",
+      "date": "2026-11-30",
+      "intake": "Fall 2027",
+      "timezone": "America/Los_Angeles",
+      "sourceId": "s4",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "computer-science-cdss",
+      "name": "Computer Science (BA, College of Computing, Data Science, and Society)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "College of Computing, Data Science, and Society",
+      "durationYears": 4,
+      "url": "https://cdss.berkeley.edu/admissions",
+      "summary": "Students apply to CDSS for the Computer Science major and, if admitted, are enrolled in the major directly.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Holistic review; Berkeley publishes no minimum grades for international curricula."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Holistic review; Berkeley publishes no minimum grades for international curricula."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Holistic review; Berkeley publishes no minimum grades for international curricula."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Holistic review; Berkeley publishes no minimum grades for international curricula."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT / ACT",
+          "policy": "test-blind",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 53472,
+          "max": 53472,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "International (nonresident) tuition, see university note."
+      }
+    },
+    {
+      "slug": "economics-ba",
+      "name": "Economics (BA, College of Letters & Science)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "College of Letters & Science",
+      "durationYears": 4,
+      "url": "https://econ.berkeley.edu/undergraduate/admissions",
+      "summary": "Admission to the Economics major happens after enrolment: students complete prerequisites (introductory economics, calculus, statistics and intermediate theory) and apply. A 3.0 prerequisite GPA is needed to be considered; recent admits averaged 3.4.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Entry to Berkeley is holistic; the major itself is declared later on prerequisite grades."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Entry to Berkeley is holistic; the major itself is declared later on prerequisite grades."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Entry to Berkeley is holistic; the major itself is declared later on prerequisite grades."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Entry to Berkeley is holistic; the major itself is declared later on prerequisite grades."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT / ACT",
+          "policy": "test-blind",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 53472,
+          "max": 53472,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27"
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 1085,
+      "sourceId": "s10",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Including the Hill campus; the central campus is 178 acres."
+    },
+    "faculty": {
+      "value": 1500,
+      "sourceId": "s9",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"More than 1,500 faculty members\"."
+    },
+    "housing": {
+      "value": "New first-years in 2026-27 have a two-year housing guarantee if they meet all deadlines; about 96% of first-years live on campus.",
+      "sourceId": "s11",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "address": "Berkeley, CA 94720, United States",
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants for fall 2025",
+        "applicants": 126798,
+        "admitted": 14500,
+        "enrolled": null,
+        "acceptanceRate": "≈11%",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Admits are approximate (\"about 14,500\")."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "UC Application",
+        "detail": "Apply between 1 October and 30 November 2026 for fall 2027; select Berkeley and your major.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Test-free review",
+        "detail": "Applications are reviewed holistically without SAT/ACT scores.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "English proficiency (international)",
+        "detail": "TOEFL 90, IELTS 6.5 or Duolingo 115 — or three years of English-medium schooling.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Decisions",
+        "detail": "Fall 2027 decisions are released between 1 and 31 March 2027.",
+        "sourceId": "s4"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition, per semester (2026-27 cohort)",
+        "audience": "all",
+        "amount": {
+          "min": 7101,
+          "max": 7101,
+          "period": "semester"
+        },
+        "currency": "USD",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Nonresident Supplemental Tuition, per semester",
+        "audience": "international",
+        "amount": {
+          "min": 19635,
+          "max": 19635,
+          "period": "semester"
+        },
+        "currency": "USD",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "International student service fee",
+        "audience": "international",
+        "amount": {
+          "min": 100,
+          "max": 100,
+          "period": "total"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Assessed from fall 2026; how often it is billed was not confirmed."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "UC Berkeley — History & discoveries",
+      "url": "https://www.berkeley.edu/about/history-discoveries/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "QS World University Rankings 2027 — United States",
+      "url": "https://www.topuniversities.com/world-university-rankings?countries=us",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "Berkeley News — over 700 additional admission offers for fall 2025",
+      "url": "https://news.berkeley.edu/2025/07/28/uc-berkeley-extends-over-700-additional-admission-offers-to-first-year-students-for-fall-2025/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "UC Admissions — First-year dates & deadlines",
+      "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "UC Berkeley Admissions — Application FAQs (test-free)",
+      "url": "https://admissions.berkeley.edu/application-faqs/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "UC Berkeley Admissions — Requirements for international students",
+      "url": "https://admissions.berkeley.edu/requirements-for-international-students/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "UC Berkeley Registrar — Fee schedule",
+      "url": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "UC Berkeley Financial Aid — Student budgets (cost of attendance)",
+      "url": "https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "UC Berkeley — By the numbers",
+      "url": "https://www.berkeley.edu/about/by-the-numbers/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "UC Berkeley Facilities — Campus operations",
+      "url": "https://facilities.berkeley.edu/operating-units/campus-operations",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Berkeley Housing — Housing guarantee",
+      "url": "https://housing.berkeley.edu/apply/how-to-apply-for-undergraduate-housing/housing-guarantee/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "UC Berkeley Catalog — College of Computing, Data Science, and Society",
+      "url": "https://undergraduate.catalog.berkeley.edu/colleges/computing-data-science-society",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "UC Berkeley Economics — Applying to the major",
+      "url": "https://econ.berkeley.edu/undergraduate/admissions",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s14",
+      "label": "UC Berkeley Financial Aid — Scholarships for international students",
+      "url": "https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/international-student-scholarships/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s15",
+      "label": "UC Berkeley — Regents' & Chancellor's Scholarship",
+      "url": "https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s16",
+      "label": "UC Admissions — Applying as a first year",
+      "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}

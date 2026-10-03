@@ -1,0 +1,565 @@
+{
+  "slug": "indian-institute-of-technology-madras",
+  "name": "IIT Madras",
+  "officialName": "Indian Institute of Technology Madras",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "institute-of-national-importance",
+  "founded": 1959,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.iitm.ac.in/",
+  "admissionsUrl": "https://www.iitm.ac.in/admissions",
+  "financialAidUrl": null,
+  "internationalUrl": "https://ge.iitm.ac.in/",
+  "summary": "IIT Madras is a public Institute of National Importance in Chennai, on a 617-acre campus carved from the Guindy forest. It is ranked #1 in both the NIRF 2025 Overall and Engineering tables. B.Tech admission is through JEE (Advanced) and JoSAA; its online BS in Data Science and Applications is open to anyone who has passed Class XII, via a qualifier exam instead of JEE.",
+  "stats": {
+    "totalStudents": {
+      "value": 10000,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "\"10,000+ students\" as stated by IIT Madras."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "World University Rankings",
+      "edition": 2027,
+      "rank": "170",
+      "sourceId": "s3"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "1",
+      "sourceId": "s4"
+    },
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "1",
+      "sourceId": "s5"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "B.Tech: JoSAA counselling after JEE (Main) and JEE (Advanced). BS Data Science: IIT Madras online application and qualifier.",
+    "sourceId": "s6",
+    "confidence": "official",
+    "asOf": "2027-28"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "JEE (Advanced)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s6",
+      "confidence": "official",
+      "notes": "For B.Tech and other JoSAA-admitted programmes."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 200000,
+        "max": 200000,
+        "period": "year"
+      },
+      "sourceId": "s7",
+      "confidence": "high",
+      "asOf": "2025-26",
+      "notes": "₹1,00,000 per semester for General/OBC/EWS with family income above ₹5 lakh; reduced for incomes ₹1–5 lakh and below ₹1 lakh; SC/ST/PwD exempt. Hostel and mess are separate."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Tuition fee remission (Government of India scheme)",
+      "kind": [
+        "need",
+        "domestic",
+        "automatic"
+      ],
+      "eligibility": "Indian B.Tech students by family income and category: SC/ST/PwD exempt from tuition; reduced fees for General/OBC/EWS with family income ₹1–5 lakh; tuition waived below ₹1 lakh.",
+      "coverage": "Up to 100% of tuition",
+      "deadline": null,
+      "renewable": true,
+      "url": null,
+      "sourceId": "s7",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "btech-computer-science-engineering",
+      "name": "B.Tech Computer Science and Engineering",
+      "degree": "BTech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "Department of Computer Science and Engineering",
+      "durationYears": 4,
+      "url": "https://www.cse.iitm.ac.in/",
+      "summary": "Four-year B.Tech in Computer Science and Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      }
+    },
+    {
+      "slug": "bs-data-science-applications",
+      "name": "BS in Data Science and Applications (online)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": "Data science",
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.iitm.ac.in/ds/",
+      "summary": "Online degree with foundation, diploma and degree levels and exit options at each. Open to anyone who has passed Class XII — selection is by a four-week qualifier course and an in-person qualifier exam, not JEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "OTHER",
+          "accepted": true,
+          "minimum": "Pass Class XII (any stream or board); Mathematics and English studied in Class X",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XI students may take the qualifier and join after passing Class XII."
+        }
+      ],
+      "tests": [
+        {
+          "test": "IITM BS Qualifier",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s8",
+          "confidence": "official",
+          "notes": "Four weeks of coursework in four foundation courses, then a 4-hour in-person exam."
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 386000,
+          "max": 450000,
+          "period": "total"
+        },
+        "sourceId": "s9",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Total for the full BS (142 credits); depends on courses taken."
+      }
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 617,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "2.5 km², formerly part of the adjoining Guindy National Park."
+    },
+    "faculty": {
+      "value": 638,
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "\"Nearly 638 faculty members\"."
+    },
+    "housing": {
+      "value": "Residential campus with 22 hostels named after Indian rivers — 16 for men and 6 for women — in a dedicated hostel zone.",
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    },
+    "address": "IIT P.O., Chennai 600036, Tamil Nadu, India",
+    "schools": [
+      "Aerospace Engineering",
+      "Applied Mechanics & Biomedical Engineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Data Science & Artificial Intelligence",
+      "Electrical Engineering",
+      "Engineering Design",
+      "Humanities and Social Sciences",
+      "Management Studies",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Medical Science and Technology",
+      "Metallurgical and Materials Engineering",
+      "Ocean Engineering",
+      "Physics"
+    ],
+    "schoolsSourceId": "s1",
+    "admissionProcess": [
+      {
+        "step": "JEE (Main)",
+        "detail": "Qualify JEE (Main) to become eligible for JEE (Advanced).",
+        "sourceId": "s6"
+      },
+      {
+        "step": "JEE (Advanced)",
+        "detail": "Get a JEE (Advanced) rank and meet the Class XII performance criterion.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "JoSAA counselling",
+        "detail": "Fill choices and accept a seat through the JoSAA rounds.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Online BS route",
+        "detail": "Apply on the IITM BS portal, complete the 4-week qualifier coursework and pass the qualifier exam.",
+        "sourceId": "s8"
+      }
+    ],
+    "feeBreakdown": [
+      {
+        "item": "Tuition, per semester (family income above ₹5 lakh)",
+        "audience": "domestic",
+        "amount": {
+          "min": 100000,
+          "max": 100000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Seat rent, per semester",
+        "audience": "domestic",
+        "amount": {
+          "min": 7500,
+          "max": 7500,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Other semester fees (enrolment, medical, extra-curricular, wellness, insurance)",
+        "audience": "domestic",
+        "amount": {
+          "min": 7902,
+          "max": 7902,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "₹1,500 + ₹1,500 + ₹2,000 + ₹500 + ₹2,402."
+      },
+      {
+        "item": "One-time fees at admission",
+        "audience": "domestic",
+        "amount": {
+          "min": 20000,
+          "max": 20000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Admission, welfare, career pathway facility and alumni services."
+      },
+      {
+        "item": "BS Data Science — application fee",
+        "audience": "all",
+        "amount": {
+          "min": 4000,
+          "max": 4000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "₹2,000 for SC/ST or PwD; ₹1,000 for SC/ST who are also PwD."
+      }
+    ],
+    "outcomes": [
+      {
+        "cohort": "UG 4-year programmes",
+        "year": "2023-24",
+        "measure": "NIRF 2025 submission: median salary of UG 4-year graduates placed through campus placement.",
+        "graduates": 714,
+        "placed": 549,
+        "higherStudies": null,
+        "employmentRate": null,
+        "medianSalary": 1750000,
+        "averageSalary": null,
+        "highestSalary": null,
+        "currency": "INR",
+        "sourceId": "s10",
+        "confidence": "secondary",
+        "notes": "As reported by Careers360 from IIT Madras's NIRF 2025 data."
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "JEE (Advanced) · JoSAA",
+        "program": "B.Tech Computer Science and Engineering (4 years)",
+        "category": "OPEN · Gender-neutral",
+        "round": "Final round",
+        "year": 2025,
+        "opening": null,
+        "closing": "171",
+        "sourceId": "s11",
+        "confidence": "secondary"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "IIT Madras — About the institute",
+      "url": "https://www.iitm.ac.in/the-institute/about-iit-madras/overview",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s2",
+      "label": "IIT Madras — Hostel life",
+      "url": "https://www.iitm.ac.in/campus-life/hostel-life",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "label": "TopUniversities — IIT Madras (QS World University Rankings 2027)",
+      "url": "https://www.topuniversities.com/node/294238",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "label": "NIRF India Rankings 2025 — Overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html",
+      "type": "government",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "NIRF India Rankings 2025 — Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+      "type": "government",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "JEE (Advanced) — Admission criteria (IITs)",
+      "url": "https://jeeadv.ac.in/admission_criteria.html",
+      "type": "testing-org",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "IIT Madras — Institute fee circular, Jul–Nov 2025",
+      "url": "https://fees.iitm.ac.in/assets/circular/institute_fee_circular_jul_nov_2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "IIT Madras BS in Data Science and Applications — Admissions",
+      "url": "https://study.iitm.ac.in/ds/admissions.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "IIT Madras BS in Data Science and Applications — Academics",
+      "url": "https://study.iitm.ac.in/ds/academics.html",
+      "type": "university",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "Careers360 — IIT Madras placements (reporting NIRF 2025 data)",
+      "url": "https://www.careers360.com/university/indian-institute-of-technology-madras/placement",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Careers360 — JoSAA 2025 IIT cut-offs",
+      "url": "https://engineering.careers360.com/articles/josaa-iit-cutoff-2025",
+      "type": "secondary",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "lastVerified": "2026-10-03"
+}
