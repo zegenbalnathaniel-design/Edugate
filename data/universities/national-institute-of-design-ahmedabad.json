@@ -272,5 +272,6 @@
         "sourceId": "s3"
       }
     ]
-  }
+  },
+  "institutionType": "institute-of-national-importance"
 }

@@ -135,9 +135,1112 @@
       "confidence": "high"
     }
   ],
-  "deadlines": [],
+  "deadlines": [
+    {
+      "label": "B.S. (IAT) final-round seat allotment",
+      "date": "2026-07-22",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s17",
+      "confidence": "official"
+    }
+  ],
   "opportunities": [],
   "programs": [
+    {
+      "slug": "bs-chemistry",
+      "name": "B.S. Chemistry",
+      "degree": "B.S.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://ugadmissions.iitm.ac.in/bsiat/",
+      "summary": "Four-year B.S. in Chemistry with an option to upgrade to an M.S.; started in 2024–25.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 36,
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with science, and a valid IISER Aptitude Test (IAT) score.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "IISER Aptitude Test (IAT)"
+        ],
+        "reservation": "Seats by category (OPEN, GEN-EWS, OBC-NCL, SC, ST) with female-only seats, as in the brochure's seat matrix.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Take the IAT",
+            "detail": "IISER Aptitude Test score required."
+          },
+          {
+            "step": "Register on the IITM B.S. portal",
+            "detail": "Registration opened 6 April 2026."
+          },
+          {
+            "step": "Seat allotment",
+            "detail": "Final-round allotment on 22 July 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Admission at IIT Madras on 24 July 2026."
+          }
+        ],
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "The Class XII subject requirement is in the brochure."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bs-medical-sciences-engineering",
+      "name": "B.S. Medical Sciences and Engineering",
+      "degree": "B.S.",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/",
+      "summary": "Four-year interdisciplinary programme bridging medicine and engineering, with a hospital internship and electives in AI in healthcare, device development, drug discovery, medical imaging and digital twins.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 50,
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with science, and a valid IISER Aptitude Test (IAT) score.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "IISER Aptitude Test (IAT)"
+        ],
+        "reservation": "Seats by category (OPEN, GEN-EWS, OBC-NCL, SC, ST) with female-only seats, as in the brochure's seat matrix.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Take the IAT",
+            "detail": "IISER Aptitude Test score required."
+          },
+          {
+            "step": "Register on the IITM B.S. portal",
+            "detail": "Registration opened 6 April 2026."
+          },
+          {
+            "step": "Seat allotment",
+            "detail": "Final-round allotment on 22 July 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Admission at IIT Madras on 24 July 2026."
+          }
+        ],
+        "sourceId": "s16",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "The Class XII subject requirement is in the brochure."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-aerospace-engineering",
+      "name": "B.Tech Aerospace Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Aerospace Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-ai-data-analytics",
+      "name": "B.Tech Artificial Intelligence and Data Analytics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://wsai.iitm.ac.in/admissions/btech-ai-data-analytics/",
+      "summary": "B.Tech offered by the Wadhwani School of Data Science and AI since 2024–25 (course code 412L), 50 seats through JEE (Advanced).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 50,
+        "sourceId": "s15",
+        "confidence": "official",
+        "asOf": "2024-25"
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-chemical-engineering",
+      "name": "B.Tech Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Chemical Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-civil-engineering",
+      "name": "B.Tech Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Civil Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computational-engineering-mechanics",
+      "name": "B.Tech Computational Engineering and Mechanics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://apm.iitm.ac.in/pages/new_programs",
+      "summary": "Interdisciplinary B.Tech launched in 2025–26 (course code 412U), 40 seats.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s14",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
     {
       "slug": "btech-computer-science-engineering",
       "name": "B.Tech Computer Science and Engineering",
@@ -263,7 +1366,1180 @@
         "confidence": "high",
         "asOf": "2025-26",
         "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
       }
+    },
+    {
+      "slug": "btech-electrical-engineering",
+      "name": "B.Tech Electrical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Electrical Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-engineering-physics",
+      "name": "B.Tech Engineering Physics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Engineering Physics, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-instrumentation-biomedical-engineering",
+      "name": "B.Tech Instrumentation and Biomedical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://apm.iitm.ac.in/pages/new_programs",
+      "summary": "Interdisciplinary B.Tech launched in 2025–26 (course code 412V), 40 seats.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s14",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-mechanical-engineering",
+      "name": "B.Tech Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Mechanical Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-metallurgical-and-materials-engineering",
+      "name": "B.Tech Metallurgical and Materials Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Metallurgical and Materials Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-naval-architecture-and-ocean-engineering",
+      "name": "B.Tech Naval Architecture and Ocean Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Four-year B.Tech in Naval Architecture and Ocean Engineering, admitted through JEE (Advanced) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
     },
     {
       "slug": "bs-data-science-applications",
@@ -313,6 +2589,1892 @@
         "asOf": null,
         "notes": "Total for the full BS (142 credits); depends on courses taken."
       }
+    },
+    {
+      "slug": "bs-ms-physics",
+      "name": "B.S. & M.S. Physics (Dual Degree)",
+      "degree": "B.S. + M.S.",
+      "level": "integrated",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year B.S. and M.S. dual degree in Physics, as listed in the institute's 2019 dual-degree curriculum.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-aerospace-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Aerospace Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Aerospace Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-biological-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Biological Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Biological Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-chemical-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Chemical Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Chemical Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-civil-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Civil Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Civil Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-computer-science-and-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Computer Science and Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Computer Science and Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-electrical-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Electrical Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Electrical Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-engineering-design",
+      "name": "Dual Degree (B.Tech + M.Tech) Engineering Design",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Engineering Design, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [
+        "design"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-mechanical-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Mechanical Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Mechanical Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "dual-degree-metallurgical-and-materials-engineering",
+      "name": "Dual Degree (B.Tech + M.Tech) Metallurgical and Materials Engineering",
+      "degree": "B.Tech. + M.Tech.",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.iitm.ac.in/academics/academic-curricula",
+      "summary": "Five-year dual degree in Metallurgical and Materials Engineering, as listed in the institute's 2019 dual-degree curriculum — check the current JoSAA seat matrix for the year you apply.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Class XII (65% for SC/ST/PwD), or in the top 20 percentile of your board — the JEE (Advanced) performance criterion for IIT admission",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Selection is by JEE (Advanced) rank; Class XII is an eligibility condition, not a ranking factor."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Advanced)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s6",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 200000,
+          "max": 200000,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Tuition only; see the fee breakdown for semester charges."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Qualify JEE (Main), rank in JEE (Advanced), and meet the Class XII performance criterion (75% aggregate, 65% for SC/ST/PwD, or top 20 percentile of your board).",
+        "minimumPercent": "75% in Class XII (65% SC/ST/PwD) or top 20 percentile of the board",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "JEE (Main)",
+          "JEE (Advanced)"
+        ],
+        "reservation": "Central reservation: GEN-EWS, OBC-NCL, SC, ST, PwD; female-only supernumerary seats in JoSAA.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "JEE (Main)",
+            "detail": "Qualify among the top candidates eligible for JEE (Advanced)."
+          },
+          {
+            "step": "JEE (Advanced)",
+            "detail": "Obtain a Common Rank List (or category) rank."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat allotment across IITs, NITs, IIITs and GFTIs."
+          },
+          {
+            "step": "Report to IIT Madras",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
     }
   ],
   "details": {
@@ -377,6 +4539,16 @@
         "step": "Online BS route",
         "detail": "Apply on the IITM BS portal, complete the 4-week qualifier coursework and pass the qualifier exam.",
         "sourceId": "s8"
+      },
+      {
+        "step": "Sports Excellence Admission (SEA)",
+        "detail": "A separate admission route for sporting achievers, with its own seat matrix.",
+        "sourceId": "s18"
+      },
+      {
+        "step": "Fine Arts and Culture Excellence (FACE)",
+        "detail": "A separate admission route for achievers in the fine arts and culture, with its own seat matrix.",
+        "sourceId": "s19"
       }
     ],
     "feeBreakdown": [
@@ -558,7 +4730,58 @@
       "url": "https://engineering.careers360.com/articles/josaa-iit-cutoff-2025",
       "type": "secondary",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s14",
+      "label": "IIT Madras — Two new B.Tech programmes (CEM, iBME)",
+      "url": "https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-launches-two-new-btech-programs-focused-latest",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s15",
+      "label": "IIT Madras — B.Tech in AI and Data Analytics",
+      "url": "https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-launches-btech-ai-and-data-analytics",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s16",
+      "label": "IIT Madras — B.S. admissions through IAT, brochure 2026",
+      "url": "https://ugadmissions.iitm.ac.in/bsiat/pdf/Brochure_BS_2026_V1.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s17",
+      "label": "IIT Madras — B.S. (IAT) important dates",
+      "url": "https://ugadmissions.iitm.ac.in/bsiat/imp_dates.php",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s18",
+      "label": "IIT Madras — Sports Excellence Admission seat matrix",
+      "url": "https://ugadmissions.iitm.ac.in/sea/seatmatrix.html",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s19",
+      "label": "IIT Madras — Fine Arts and Culture Excellence seat matrix",
+      "url": "https://ugadmissions.iitm.ac.in/face/seatmatrix.html",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
     }
   ],
-  "lastVerified": "2026-10-03"
+  "lastVerified": "2026-10-04",
+  "institutionType": "institute-of-national-importance",
+  "gender": "co-ed",
+  "locality": "Guindy",
+  "affiliation": {
+    "value": "Institute of National Importance — awards its own degrees",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
 }

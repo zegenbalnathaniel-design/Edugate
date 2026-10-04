@@ -1,0 +1,4549 @@
+{
+  "slug": "sathyabama-institute-of-science-and-technology",
+  "name": "Sathyabama Institute of Science and Technology",
+  "officialName": "Sathyabama Institute of Science and Technology (Deemed to be University)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "private",
+  "category": "multidisciplinary",
+  "founded": 1987,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.sathyabama.ac.in/",
+  "admissionsUrl": "https://www.sathyabama.ac.in/admissions/under-graduate",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Sathyabama was founded in 1987 by Dr Jeppiaar as Sathyabama Engineering College and became a deemed university under Section 3 of the UGC Act in 2001. From Jeppiaar Nagar on Rajiv Gandhi Salai it offers about 50 undergraduate programmes across engineering, architecture, science, arts, management, law, pharmacy, nursing and education. It holds NAAC's A++ grade and was ranked 53rd among universities in NIRF 2025. Engineering and architecture admissions are by rank in its own entrance exam, SAEEE.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "53",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "SAEEE (Sathyabama All India Entrance Examination)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s5",
+      "confidence": "official",
+      "notes": "For engineering, technology and architecture; online, on the Class XII syllabus."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-e-computer-science-and-engineering",
+      "name": "B.E. Computer Science and Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-with-specialization-in-artificial-intelligence",
+      "name": "B.E. Computer Science and Engineering with specialization in Artificial Intelligence",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering with specialization in Artificial Intelligence; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": "Artificial Intelligence",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-with-specialization-in-data-science",
+      "name": "B.E. Computer Science and Engineering with specialization in Data Science",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering with specialization in Data Science; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": "Data Science",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-with-specialization-in-internet-of-things",
+      "name": "B.E. Computer Science and Engineering with specialization in Internet of Things",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering with specialization in Internet of Things; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Internet of Things",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-with-specialization-in-artificial-intelligence-and-robotics",
+      "name": "B.E. Computer Science and Engineering with specialization in Artificial Intelligence and Robotics",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering with specialization in Artificial Intelligence and Robotics; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Artificial Intelligence and Robotics",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-with-specialization-in-artificial-intelligence-and-machine-learning",
+      "name": "B.E. Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-with-specialization-in-cyber-security",
+      "name": "B.E. Computer Science and Engineering with specialization in Cyber Security",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Engineering with specialization in Cyber Security; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Cyber Security",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-artificial-intelligence-and-data-science",
+      "name": "B.Tech. Artificial Intelligence and Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Tech. Artificial Intelligence and Data Science; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-business-systems",
+      "name": "B.E. Computer Science and Business Systems",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Computer Science and Business Systems; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electrical-and-electronics-engineering",
+      "name": "B.E. Electrical and Electronics Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Electrical and Electronics Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-engineering",
+      "name": "B.E. Electronics and Communication Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Electronics and Communication Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-engineering-with-specialization-in-data-science",
+      "name": "B.E. Electronics and Communication Engineering with specialization in Data Science",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Electronics and Communication Engineering with specialization in Data Science; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": "Data Science",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechanical-engineering",
+      "name": "B.E. Mechanical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Mechanical Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechatronics",
+      "name": "B.E. Mechatronics",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Mechatronics; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-aeronautical-engineering",
+      "name": "B.E. Aeronautical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Aeronautical Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-civil-engineering",
+      "name": "B.E. Civil Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.E. Civil Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-information-technology",
+      "name": "B.Tech. Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Tech. Information Technology; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-chemical-engineering",
+      "name": "B.Tech. Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Tech. Chemical Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-biotechnology",
+      "name": "B.Tech. Biotechnology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Tech. Biotechnology; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-biomedical-engineering",
+      "name": "B.Tech. Biomedical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Tech. Biomedical Engineering; four years; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Mathematics, Physics and one listed subject (45% reserved)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Pass in 10+2 with Mathematics, Physics and one of Chemistry / Computer Science / Electronics / IT / Biology / Informatics Practices / Biotechnology / a technical vocational subject / Agriculture / Engineering Graphics / Business Studies / Entrepreneurship, with at least 50% aggregate in the three (45% for reserved categories).",
+        "minimumPercent": "50% aggregate in the three subjects (45% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for SAEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write SAEEE",
+            "detail": "Online exam on Class XII Mathematics/Biology, Physics and Chemistry."
+          },
+          {
+            "step": "Admission by rank",
+            "detail": "Seats offered by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "barch",
+      "name": "B.Arch. Architecture",
+      "degree": "B.Arch.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "Five-year B.Arch; admission by SAEEE rank.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "SAEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write SAEEE",
+            "detail": "Architecture admission is by SAEEE rank."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Architecture eligibility is on the UG eligibility page."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-pharm-pharmacy",
+      "name": "B.Pharm. Pharmacy",
+      "degree": "B.Pharm.",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Pharm. Pharmacy at Sathyabama; 4 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-b-ed-integrated-teacher-education-programme-itep",
+      "name": "B.Sc. B.Ed. (Integrated Teacher Education Programme (ITEP))",
+      "degree": "B.Sc. B.Ed.",
+      "level": "bachelors",
+      "field": "education",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. B.Ed. (Integrated Teacher Education Programme (ITEP)) at Sathyabama; 4 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-b-ed-integrated-teacher-education-programme-itep",
+      "name": "B.A. B.Ed. (Integrated Teacher Education Programme (ITEP))",
+      "degree": "B.A. B.Ed.",
+      "level": "bachelors",
+      "field": "education",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.A. B.Ed. (Integrated Teacher Education Programme (ITEP)) at Sathyabama; 4 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-nursing",
+      "name": "B.Sc. Nursing",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "nursing",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Nursing at Sathyabama; 4 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-ll-b-hons",
+      "name": "B.A. LL.B. (Hons.)",
+      "degree": "B.A. LL.B. (Hons.)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.A. LL.B. (Hons.) at Sathyabama; 5 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-ll-b-hons",
+      "name": "B.B.A. LL.B. (Hons.)",
+      "degree": "B.B.A. LL.B. (Hons.)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.B.A. LL.B. (Hons.) at Sathyabama; 5 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-ll-b-hons",
+      "name": "B.Com. LL.B. (Hons.)",
+      "degree": "B.Com. LL.B. (Hons.)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Com. LL.B. (Hons.) at Sathyabama; 5 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "commerce"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ll-b",
+      "name": "LL.B.",
+      "degree": "LL.B.",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "LL.B. at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-business-administration",
+      "name": "B.B.A. Business Administration",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.B.A. Business Administration at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-commerce",
+      "name": "B.Com. Commerce",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Com. Commerce at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-financial-accounting",
+      "name": "B.Com. Financial Accounting",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Com. Financial Accounting at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-visual-communication",
+      "name": "B.Sc. Visual Communication",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Visual Communication at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-physics",
+      "name": "B.Sc. Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Physics at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-chemistry",
+      "name": "B.Sc. Chemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Chemistry at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-computer-science",
+      "name": "B.Sc. Computer Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Computer Science at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-mathematics",
+      "name": "B.Sc. Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Mathematics at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-biochemistry",
+      "name": "B.Sc. Biochemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Biochemistry at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-fashion-design",
+      "name": "B.Sc. Fashion Design",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Fashion Design at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-biotechnology",
+      "name": "B.Sc. Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Biotechnology at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-microbiology",
+      "name": "B.Sc. Microbiology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Microbiology at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-english",
+      "name": "B.A. English",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.A. English at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-bioinformatics-and-data-science",
+      "name": "B.Sc. Bioinformatics and Data Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Bioinformatics and Data Science at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-computer-science-with-specialization-in-artificial-intelligence",
+      "name": "B.Sc. Computer Science with specialization in Artificial Intelligence",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Computer Science with specialization in Artificial Intelligence at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-data-science",
+      "name": "B.Sc. Data Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Data Science at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-information-technology",
+      "name": "B.Sc. Information Technology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Information Technology at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-c-a-computer-applications",
+      "name": "B.C.A. Computer Applications",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.C.A. Computer Applications at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-forensic-sciences",
+      "name": "B.Sc. Forensic Sciences",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.sathyabama.ac.in/admissions/under-graduate",
+      "summary": "B.Sc. Forensic Sciences at Sathyabama; 3 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the university's UG eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "The selection method for this programme isn't stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Engineering & architecture",
+        "detail": "Apply for and write SAEEE (online); seats are offered by rank.",
+        "sourceId": "s5"
+      },
+      {
+        "step": "Other programmes",
+        "detail": "Eligibility is listed per programme on the UG eligibility page.",
+        "sourceId": "s4"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Sathyabama — About us",
+      "url": "https://www.sathyabama.ac.in/campuses/about-us",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Sathyabama — Approval, accreditation and accolades",
+      "url": "https://www.sathyabama.ac.in/about-us/accreditation-and-accolades",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "Sathyabama — UG eligibility",
+      "url": "https://www.sathyabama.ac.in/ug_eligibility",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "SAEEE 2026 — Sathyabama All India Entrance Examination",
+      "url": "https://saeee2026.sathyabama.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "deemed-university",
+  "hub": null,
+  "locality": "Jeppiaar Nagar, Rajiv Gandhi Salai",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Deemed to be university (Section 3 of the UGC Act, 1956; since 2001)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A++",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

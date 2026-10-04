@@ -1,0 +1,242 @@
+{
+  "slug": "madras-medical-college",
+  "name": "Madras Medical College",
+  "officialName": "Madras Medical College, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "medical-school",
+  "founded": 1835,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://mmc.ac.in/",
+  "admissionsUrl": "https://tnmedicalselection.net/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Madras Medical College opened on 2 February 1835, when a private medical hall run by Dr Mortimer was regularised as a medical school serving what is now the Rajiv Gandhi Government General Hospital. It is a Tamil Nadu government college; MBBS seats are filled through NEET (UG) — 15% through All India Quota counselling and 85% through Tamil Nadu state counselling — at government-college fees.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "Tamil Nadu medical selection committee (tnmedicalselection.net) for state-quota seats; MCC for All India Quota",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "NEET (UG)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official"
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 6000,
+        "max": 6000,
+        "period": "year"
+      },
+      "sourceId": "s3",
+      "confidence": "high",
+      "asOf": "2026-27",
+      "notes": "Government-college MBBS tuition ₹6,000 a year, plus a ₹2,000 special fee and other charges (caution deposit, library, university fees)."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "mbbs",
+      "name": "MBBS",
+      "degree": "MBBS",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mmc.ac.in/",
+      "summary": "Bachelor of Medicine and Bachelor of Surgery at Madras Medical College, through NEET (UG).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 197,
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Government-quota seats as reported for the year."
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Biology"
+        ],
+        "entranceTests": [
+          "NEET (UG)"
+        ],
+        "reservation": "85% state quota under Tamil Nadu reservation (including the 7.5% government-school reservation); 15% All India Quota.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Qualify NEET (UG)",
+            "detail": "NEET score and rank are the basis of selection."
+          },
+          {
+            "step": "Apply for state counselling",
+            "detail": "Through the Tamil Nadu medical selection committee."
+          },
+          {
+            "step": "Counselling & allotment",
+            "detail": "Rank-based allotment; 15% of seats go to All India Quota counselling."
+          },
+          {
+            "step": "Join",
+            "detail": "Report with documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII subject and percentage eligibility is in the state prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "MBBS tuition (government college)",
+        "audience": "domestic",
+        "amount": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Special fee",
+        "audience": "domestic",
+        "amount": {
+          "min": 2000,
+          "max": 2000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s3",
+      "label": "Selection Committee, DME Tamil Nadu — MBBS/BDS prospectus 2026",
+      "url": "https://tnmedicalselection.net/archives/21052026022251051.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "Selection Committee, DME Tamil Nadu",
+      "url": "https://tnmedicalselection.net/",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "standalone-institute",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed"
+}

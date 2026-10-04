@@ -1,0 +1,4068 @@
+{
+  "slug": "hindustan-institute-of-technology-and-science",
+  "name": "Hindustan Institute of Technology and Science",
+  "officialName": "Hindustan Institute of Technology and Science (HITS), Deemed to be University",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Padur",
+  "campuses": [],
+  "control": "private",
+  "category": "multidisciplinary",
+  "founded": 1985,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://hindustanuniv.ac.in/",
+  "admissionsUrl": "https://hindustanuniv.ac.in/admissions-eligibility/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Hindustan College of Engineering was started in 1985 under Dr K. C. G. Verghese and became a deemed university (Section 3 of the UGC Act) from 2008–09 as HITS. Its campus is at 1, Rajiv Gandhi Salai (OMR), Padur, via Kelambakkam. It is known for aeronautical and aerospace engineering and aviation programmes, and offers engineering, architecture, design, science, commerce and management degrees. B.Tech admission is through its entrance exam, HITSEEE.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "HITSEEE (Hindustan Institute of Technology and Science Engineering Entrance Exam)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "notes": "For B.Tech."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "HITSEEE 2026 — last date to apply",
+      "date": "2026-04-22",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s4",
+      "confidence": "official"
+    },
+    {
+      "label": "HITSEEE 2026 counselling begins",
+      "date": "2026-05-13",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s4",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-tech-aeronautical-engineering",
+      "name": "B.Tech. Aeronautical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech in Aeronautical Engineering at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-aerospace-engineering",
+      "name": "B.Tech. Aerospace Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering",
+      "name": "B.Tech. Computer Science and Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-artificial-intelligence-and-data-science",
+      "name": "B.Tech. Artificial Intelligence and Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-artificial-intelligence-and-machine-learning-with-ibm",
+      "name": "B.Tech. Computer Science and Engineering — Artificial Intelligence and Machine Learning (with IBM)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": "Artificial Intelligence and Machine Learning (with IBM)",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-cyber-security-with-ibm",
+      "name": "B.Tech. Computer Science and Engineering — Cyber Security (with IBM)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Cyber Security (with IBM)",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-iot-block-chain-cloud-computing-virtualization-with-ibm",
+      "name": "B.Tech. Computer Science and Engineering — IoT / Block Chain / Cloud Computing & Virtualization (with IBM)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "IoT / Block Chain / Cloud Computing & Virtualization (with IBM)",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-civil-engineering",
+      "name": "B.Tech. Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-communication-engineering",
+      "name": "B.Tech. Electronics and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-communication-engineering-electronics-manufacturing-technology",
+      "name": "B.Tech. Electronics and Communication Engineering — Electronics Manufacturing Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Electronics Manufacturing Technology",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-communication-engineering-data-science",
+      "name": "B.Tech. Electronics and Communication Engineering — Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": "Data Science",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-semiconductor-technology",
+      "name": "B.Tech. Semiconductor Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "physics"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-biomedical-engineering",
+      "name": "B.Tech. Biomedical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electrical-and-electronics-engineering",
+      "name": "B.Tech. Electrical and Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electrical-and-electronics-engineering-artificial-intelligence",
+      "name": "B.Tech. Electrical and Electronics Engineering — Artificial Intelligence",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": "Artificial Intelligence",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-mechatronics-engineering",
+      "name": "B.Tech. Mechatronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-robotics-and-artificial-intelligence",
+      "name": "B.Tech. Robotics and Artificial Intelligence",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "Four-year B.Tech at HITS; admission through HITSEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "Minimum average of 60% in Physics, Chemistry and Mathematics in +2 / Intermediate (average of these three only); at least 16½ years old on 31 July of the Class XII exam year.",
+        "minimumPercent": "60% average in Physics, Chemistry, Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "HITSEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for HITSEEE",
+            "detail": "Applications 5 Nov 2025 – 22 Apr 2026."
+          },
+          {
+            "step": "Write HITSEEE",
+            "detail": "27 April – 2 May 2026."
+          },
+          {
+            "step": "Counselling",
+            "detail": "13–20 May 2026."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm the seat."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-aviation-science-avionics",
+      "name": "B.Sc. Aviation Science (Avionics)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Sc. Aviation Science (Avionics) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "physics"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-aviation-science-aircraft-maintenance",
+      "name": "B.Sc. Aviation Science (Aircraft Maintenance)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Sc. Aviation Science (Aircraft Maintenance) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-artificial-intelligence-data-analytics",
+      "name": "B.Sc. Artificial Intelligence & Data Analytics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Sc. Artificial Intelligence & Data Analytics at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-data-science",
+      "name": "B.Sc. Data Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Sc. Data Science at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-computer-science",
+      "name": "B.Sc. Computer Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Sc. Computer Science at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-nutrition-dietetics-and-culinary-arts",
+      "name": "B.Sc. Nutrition, Dietetics and Culinary Arts",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Sc. Nutrition, Dietetics and Culinary Arts at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "hospitality"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-general",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Com. (General) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-accounting-and-finance",
+      "name": "B.Com. (Accounting and Finance)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Com. (Accounting and Finance) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-business-analytics",
+      "name": "B.Com. (Business Analytics)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Com. (Business Analytics) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-banking-and-fintech",
+      "name": "BBA — Banking and FinTech",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "BBA — Banking and FinTech at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-hospital-management-with-ired-hospital",
+      "name": "BBA — Hospital Management (with IRED Hospital)",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "BBA — Hospital Management (with IRED Hospital) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-digital-marketing",
+      "name": "BBA — Digital Marketing",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "BBA — Digital Marketing at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-logistics-with-logistics-sector-skill-council",
+      "name": "BBA — Logistics (with Logistics Sector Skill Council)",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "BBA — Logistics (with Logistics Sector Skill Council) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-aviation-management-with-iata-certification",
+      "name": "BBA — Aviation Management (with IATA certification)",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "BBA — Aviation Management (with IATA certification) at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-franchise-management",
+      "name": "BBA — Franchise Management",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "BBA — Franchise Management at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-arch-architecture",
+      "name": "B.Arch. Architecture",
+      "degree": "B.Arch.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Arch. Architecture at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-gaming-design",
+      "name": "B.Des. Gaming Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Des. Gaming Design at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-fashion-apparel-design",
+      "name": "B.Des. Fashion & Apparel Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Des. Fashion & Apparel Design at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-communication-design",
+      "name": "B.Des. Communication Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://hindustanuniv.ac.in/undergraduate-degree/",
+      "summary": "B.Des. Communication Design at HITS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "See the admissions eligibility page for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s5",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Selection method not stated on the pages Edugate checked."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "B.Tech",
+        "detail": "Apply for and write HITSEEE (27 Apr – 2 May 2026); counselling 13–20 May 2026.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Other programmes",
+        "detail": "Eligibility is listed on the admissions eligibility page.",
+        "sourceId": "s5"
+      }
+    ],
+    "studentLife": [
+      {
+        "category": "career-services",
+        "name": "Placements",
+        "description": "Placement support for HITS students.",
+        "sourceId": "s7"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "HITS — About",
+      "url": "https://hindustanuniv.ac.in/about/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "HITS — Home",
+      "url": "https://hindustanuniv.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "HITS — Ultimate guide to HITSEEE 2026",
+      "url": "https://hindustanuniv.ac.in/blogs/ultimate-guide-to-hitseee-2026/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "HITS — Admissions eligibility",
+      "url": "https://hindustanuniv.ac.in/admissions-eligibility/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s7",
+      "label": "HITS — Placements",
+      "url": "https://hindustanuniv.ac.in/placements/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "deemed-university",
+  "hub": "Chennai",
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Deemed to be university (Section 3 of the UGC Act, from 2008–09)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A+",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

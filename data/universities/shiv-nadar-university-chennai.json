@@ -1,0 +1,2808 @@
+{
+  "slug": "shiv-nadar-university-chennai",
+  "name": "Shiv Nadar University Chennai",
+  "officialName": "Shiv Nadar University, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Kalavakkam",
+  "campuses": [],
+  "control": "private",
+  "category": "multidisciplinary",
+  "founded": 2018,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.snuchennai.edu.in/",
+  "admissionsUrl": "https://www.snuchennai.edu.in/ug-admissions/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Shiv Nadar University Chennai was established under the Shiv Nadar University Act 2018 of the Tamil Nadu Legislative Assembly — the state's first private university. Its campus on Rajiv Gandhi Salai (OMR) at Kalavakkam has four schools: Engineering, Commerce & Management, the Shiv Nadar School of Law, and Science & Humanities. Undergraduates are admitted through its own entrance exam, SNUCEE, or (for B.Tech) a JEE Main score.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": "₹1,500 (one time, non-refundable)",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [
+    {
+      "test": "SNUCEE (Shiv Nadar University Chennai Entrance Exam)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "notes": "B.Tech may instead be admitted on a JEE Main score."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": {
+        "min": 600000,
+        "max": 700000,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Foreign national / OCI / PIO, per year. NRI: ₹4,50,000–5,25,000."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 300000,
+        "max": 350000,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Per year for Indian nationals: ₹3,50,000 for computing and electronics B.Tech branches; ₹3,00,000 for other B.Tech branches, B.Com and B.Sc Economics."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "btech-artificial-intelligence-data-science",
+      "name": "B.Tech Artificial Intelligence & Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Artificial Intelligence & Data Science at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-engineering",
+      "name": "B.Tech Computer Science & Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Computer Science & Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-engineering-internet-of-things",
+      "name": "B.Tech Computer Science & Engineering (Internet of Things)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Computer Science & Engineering (Internet of Things) at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-engineering-cyber-security",
+      "name": "B.Tech Computer Science & Engineering (Cyber Security)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Computer Science & Engineering (Cyber Security) at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electrical-electronics-engineering",
+      "name": "B.Tech Electrical & Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Electrical & Electronics Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-communication-engineering",
+      "name": "B.Tech Electronics & Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Electronics & Communication Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-communication-engineering-vlsi-design-technology",
+      "name": "B.Tech Electronics & Communication Engineering (VLSI Design & Technology)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Electronics & Communication Engineering (VLSI Design & Technology) at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-information-technology",
+      "name": "B.Tech Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Information Technology at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 350000,
+          "max": 350000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-biomedical-engineering",
+      "name": "B.Tech Biomedical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Biomedical Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-chemical-engineering",
+      "name": "B.Tech Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Chemical Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-civil-engineering",
+      "name": "B.Tech Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Civil Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-mechanical-engineering",
+      "name": "B.Tech Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Tech Mechanical Engineering at SNU Chennai; admission through SNUCEE or JEE Main.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII with Mathematics, Physics and Chemistry (mandatory).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "SNUCEE",
+          "JEE Main (alternative track)"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Choose a track",
+            "detail": "B.Tech: SNUCEE or JEE Main score."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Offers on SNUCEE or JEE Main performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom",
+      "name": "B.Com.",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Com. at SNU Chennai; admission through SNUCEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII in any stream (Commerce, Arts or Science); no mandatory subjects, Mathematics desirable.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "SNUCEE"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Take SNUCEE",
+            "detail": "Admission is on SNUCEE performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-honours",
+      "name": "B.Com. (Hons.)",
+      "degree": "B.Com. (Hons.)",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Com. (Hons.) at SNU Chennai; admission through SNUCEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII in any stream (Commerce, Arts or Science); no mandatory subjects, Mathematics desirable.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "SNUCEE"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Take SNUCEE",
+            "detail": "Admission is on SNUCEE performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-professional-accounting",
+      "name": "B.Com. (Professional Accounting)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Com. (Professional Accounting) at SNU Chennai; admission through SNUCEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII in any stream (Commerce, Arts or Science); no mandatory subjects, Mathematics desirable.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "SNUCEE"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Take SNUCEE",
+            "detail": "Admission is on SNUCEE performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-economics-data-science",
+      "name": "B.Sc. Economics (Data Science)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "summary": "B.Sc. Economics (Data Science) at SNU Chennai; admission through SNUCEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 300000,
+          "max": 300000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Indian nationals, per year."
+      },
+      "alsoFields": [
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Class XII in any stream (Commerce, Arts or Science); no mandatory subjects, Mathematics desirable.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "SNUCEE"
+        ],
+        "reservation": null,
+        "international": "NRI and foreign-national / OCI / PIO applicants pay separate published tuition.",
+        "applicationFee": "₹1,500",
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "₹1,500 application fee."
+          },
+          {
+            "step": "Take SNUCEE",
+            "detail": "Admission is on SNUCEE performance."
+          },
+          {
+            "step": "Pay fees and join",
+            "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 230,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"230 acres of greenery\"."
+    },
+    "schools": [
+      "School of Engineering",
+      "School of Commerce & Management",
+      "Shiv Nadar School of Law",
+      "School of Science & Humanities"
+    ],
+    "schoolsSourceId": "s5",
+    "feeBreakdown": [
+      {
+        "item": "Admission fee (one time, non-refundable)",
+        "audience": "all",
+        "amount": {
+          "min": 20000,
+          "max": 20000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "University caution deposit (one time, refundable)",
+        "audience": "all",
+        "amount": {
+          "min": 20000,
+          "max": 20000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Career Development Cell fee (one time)",
+        "audience": "all",
+        "amount": {
+          "min": 6000,
+          "max": 6000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Tuition, NRI (per year)",
+        "audience": "international",
+        "amount": {
+          "min": 450000,
+          "max": 525000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "₹1,500 application fee.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Choose a track",
+        "detail": "B.Tech: SNUCEE or JEE Main score.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Merit list",
+        "detail": "Offers on SNUCEE or JEE Main performance.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Pay fees and join",
+        "detail": "Admission fee ₹20,000, refundable caution deposit ₹20,000 and CDC fee ₹6,000, one time.",
+        "sourceId": "s4"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Shiv Nadar University Chennai — Home",
+      "url": "https://www.snuchennai.edu.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "SNU Chennai — UG admissions",
+      "url": "https://www.snuchennai.edu.in/ug-admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "SNU Chennai — Fees structure",
+      "url": "https://www.snuchennai.edu.in/fees-structure/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "SNU Chennai — Brochure",
+      "url": "https://www.snuchennai.edu.in/SNUC-Brochure.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "state-private-university",
+  "hub": "Chennai",
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "State private university (Shiv Nadar University Act 2018) — awards its own degrees",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

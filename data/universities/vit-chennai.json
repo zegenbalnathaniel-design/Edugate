@@ -1,0 +1,2217 @@
+{
+  "slug": "vit-chennai",
+  "name": "VIT Chennai",
+  "officialName": "Vellore Institute of Technology, Chennai Campus",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "private",
+  "category": "technical",
+  "founded": 2010,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://chennai.vit.ac.in/",
+  "admissionsUrl": "https://chennai.vit.ac.in/admissions/ug/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "VIT Chennai is the Chennai campus of Vellore Institute of Technology, a deemed university, on the Vandalur–Kelambakkam road. B.Tech admission is through VITEEE; it also offers B.Sc., B.B.A. (Hons.), B.Com. (Hons.) and five-year integrated law degrees, admitted through separate applications.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "VITEEE",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s6",
+      "confidence": "official",
+      "notes": "For B.Tech."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 195000,
+        "max": 490000,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page. VIT publishes one UG fee structure; confirm it applies to the Chennai campus."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "GV School Development Programme (VITEEE rank)",
+      "kind": [
+        "merit",
+        "partial",
+        "automatic",
+        "domestic"
+      ],
+      "eligibility": "Top 500 VITEEE rankers.",
+      "coverage": "Ranks 1–10: 100% tuition waiver; 11–50: 75%; 51–100: 50%; 101–500: 25% — for four years.",
+      "deadline": null,
+      "renewable": true,
+      "url": "https://vit.ac.in/scholarship",
+      "sourceId": "s7",
+      "confidence": "high"
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "B.B.A. (Hons.) / B.Com. (Hons.) — last date to apply",
+      "date": "2026-05-15",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s3",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-tech-computer-science-and-engineering",
+      "name": "B.Tech. Computer Science and Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-artificial-intelligence-and-machine-learning",
+      "name": "B.Tech. Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-artificial-intelligence-and-robotics",
+      "name": "B.Tech. Computer Science and Engineering (Artificial Intelligence and Robotics)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Artificial Intelligence and Robotics",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-cyber-security",
+      "name": "B.Tech. Computer Science and Engineering (Cyber Security)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Cyber Security",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-cyber-security-2-2-dual-degree-with-deakin-university-australia",
+      "name": "B.Tech. Computer Science and Engineering (Cyber Security — 2+2 dual degree with Deakin University, Australia)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": "Cyber Security — 2+2 dual degree with Deakin University, Australia",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-data-science",
+      "name": "B.Tech. Computer Science and Engineering (Data Science)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": "Data Science",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-quantum-computing",
+      "name": "B.Tech. Computer Science and Engineering (Quantum Computing)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "physics"
+      ],
+      "specialization": "Quantum Computing",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-mechanical-engineering",
+      "name": "B.Tech. Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-mechanical-engineering-electric-vehicles",
+      "name": "B.Tech. Mechanical Engineering (Electric Vehicles)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Electric Vehicles",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-mechatronics-and-automation",
+      "name": "B.Tech. Mechatronics and Automation",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-civil-engineering",
+      "name": "B.Tech. Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-civil-engineering-in-collaboration-with-l-t",
+      "name": "B.Tech. Civil Engineering (in collaboration with L&T)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "in collaboration with L&T",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-communication-engineering",
+      "name": "B.Tech. Electronics and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-computer-engineering",
+      "name": "B.Tech. Electronics and Computer Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-engineering-vlsi-design-and-technology",
+      "name": "B.Tech. Electronics Engineering (VLSI Design and Technology)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "VLSI Design and Technology",
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-fashion-technology",
+      "name": "B.Tech. Fashion Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electrical-and-electronics-engineering",
+      "name": "B.Tech. Electrical and Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electrical-and-computer-science-engineering",
+      "name": "B.Tech. Electrical and Computer Science Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-biotechnology",
+      "name": "B.Tech. Biotechnology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://chennai.vit.ac.in/admissions/ug/",
+      "summary": "B.Tech at VIT Chennai; admission through VITEEE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Chennai",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "VITEEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for VITEEE",
+            "detail": "Online application."
+          },
+          {
+            "step": "Write VITEEE",
+            "detail": "Computer-based test."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats and fee category allotted by rank."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and report."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Fee category (1–5) is allotted at counselling by rank."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-computer-science",
+      "name": "B.Sc. Computer Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.Sc. Computer Science at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-economics-hons",
+      "name": "B.Sc. Economics (Hons.)",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.Sc. Economics (Hons.) at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-fashion-design",
+      "name": "B.Sc. Fashion Design",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.Sc. Fashion Design at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-multimedia-and-animation",
+      "name": "B.Sc. Multimedia and Animation",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.Sc. Multimedia and Animation at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "design"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-visual-communication",
+      "name": "B.Sc. Visual Communication",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.Sc. Visual Communication at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-hons-2-2-with-rochester-institute-of-technology-usa",
+      "name": "B.B.A. (Hons.) — 2+2 with Rochester Institute of Technology, USA",
+      "degree": "B.B.A. (Hons.)",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.B.A. (Hons.) — 2+2 with Rochester Institute of Technology, USA at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "Born on or after 1 July 2006 (age condition for 2026–27).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Last date to apply 15 May 2026."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-hons",
+      "name": "B.Com. (Hons.)",
+      "degree": "B.Com. (Hons.)",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.Com. (Hons.) at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": "Born on or after 1 July 2006 (age condition for 2026–27).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Last date to apply 15 May 2026."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-ll-b-hons",
+      "name": "B.A., LL.B. (Hons.)",
+      "degree": "B.A., LL.B. (Hons.)",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.A., LL.B. (Hons.) at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-ll-b-hons",
+      "name": "B.B.A., LL.B. (Hons.)",
+      "degree": "B.B.A., LL.B. (Hons.)",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://chennai.vit.ac.in/undergraduate/",
+      "summary": "B.B.A., LL.B. (Hons.) at VIT Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Apply through VIT Chennai's online application."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "requires-verification",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "B.Tech CSE tuition — Category 1 (best ranks)",
+        "audience": "domestic",
+        "amount": {
+          "min": 195000,
+          "max": 195000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Year not confirmed — see tuition note."
+      },
+      {
+        "item": "B.Tech CSE tuition — Category 5",
+        "audience": "domestic",
+        "amount": {
+          "min": 490000,
+          "max": 490000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Year not confirmed; a secondary source reports ₹4.30 lakh for 2026-27."
+      },
+      {
+        "item": "Caution deposit (refundable, first year)",
+        "audience": "domestic",
+        "amount": {
+          "min": 3000,
+          "max": 3000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "B.Tech tuition — international / NRI",
+        "audience": "international",
+        "amount": {
+          "min": 9000,
+          "max": 9000,
+          "period": "year"
+        },
+        "currency": "USD",
+        "sourceId": "s8",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Plus a refundable US$100 caution deposit; all payments in USD."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s2",
+      "label": "VIT Chennai — Programmes offered",
+      "url": "https://chennai.vit.ac.in/admissions/programmes-offered/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "VIT Chennai — B.B.A. & B.Com. courses",
+      "url": "https://chennai.vit.ac.in/apply-now/bba-b-com-courses/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "VIT Chennai — B.Sc.",
+      "url": "https://chennai.vit.ac.in/apply-now/b-sc/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "VIT — Fee structure for UG courses",
+      "url": "https://vit.ac.in/admission/ug/fee-structure",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "VITEEE 2026 — B.Tech admissions",
+      "url": "https://viteee.vit.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s7",
+      "label": "VIT — Scholarships",
+      "url": "https://vit.ac.in/scholarship",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s8",
+      "label": "VIT — International admissions fee structure",
+      "url": "https://vit.ac.in/admissions/international/fee",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "deemed-university",
+  "hub": null,
+  "locality": "Vandalur–Kelambakkam Road",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Vellore Institute of Technology (deemed to be university) — Chennai campus",
+    "sourceId": "s2",
+    "confidence": "official",
+    "asOf": null
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "slug": "tndalu-school-of-excellence-in-law",
+  "name": "School of Excellence in Law (TNDALU)",
+  "officialName": "School of Excellence in Law, The Tamil Nadu Dr. Ambedkar Law University",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "law-school",
+  "founded": 2002,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.tndalu.ac.in/",
+  "admissionsUrl": "https://www.tndalu.ac.in/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "The Tamil Nadu Dr. Ambedkar Law University was established by Tamil Nadu Act No. 43 of 1997 — the country's first full-fledged affiliating law university. Its School of Excellence in Law, set up in 2002 on its own campus and modelled on the national law schools, offers five-year integrated B.A./B.B.A./B.Com./B.C.A. LL.B. (Hons.) degrees and a three-year LL.B. Admission is on Class XII marks under Tamil Nadu's reservation rules — no entrance test.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "ba-llb-hons",
+      "name": "B.A. LL.B. (Hons.)",
+      "degree": "B.A. LL.B. (Hons.)",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.tndalu.ac.in/",
+      "summary": "Five-year integrated B.A. LL.B. (Hons.) at the School of Excellence in Law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (10+2) with at least 45% aggregate (40% for SC/ST).",
+        "minimumPercent": "45% aggregate in Class XII (40% SC/ST)",
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu Government rules of reservation apply.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Apply to the university's School of Excellence in Law as per its admission notification."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Selection on marks in the qualifying examination, under Tamil Nadu reservation rules."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Seats and fees for the current year are in the university's notification and prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-llb-hons",
+      "name": "B.B.A. LL.B. (Hons.)",
+      "degree": "B.B.A. LL.B. (Hons.)",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.tndalu.ac.in/",
+      "summary": "Five-year integrated B.B.A. LL.B. (Hons.) at the School of Excellence in Law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (10+2) with at least 45% aggregate (40% for SC/ST).",
+        "minimumPercent": "45% aggregate in Class XII (40% SC/ST)",
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu Government rules of reservation apply.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Apply to the university's School of Excellence in Law as per its admission notification."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Selection on marks in the qualifying examination, under Tamil Nadu reservation rules."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Seats and fees for the current year are in the university's notification and prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-llb-hons",
+      "name": "B.Com. LL.B. (Hons.)",
+      "degree": "B.Com. LL.B. (Hons.)",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.tndalu.ac.in/",
+      "summary": "Five-year integrated B.Com. LL.B. (Hons.) at the School of Excellence in Law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "commerce"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (10+2) with at least 45% aggregate (40% for SC/ST).",
+        "minimumPercent": "45% aggregate in Class XII (40% SC/ST)",
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu Government rules of reservation apply.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Apply to the university's School of Excellence in Law as per its admission notification."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Selection on marks in the qualifying examination, under Tamil Nadu reservation rules."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Seats and fees for the current year are in the university's notification and prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bca-llb-hons",
+      "name": "B.C.A. LL.B. (Hons.)",
+      "degree": "B.C.A. LL.B. (Hons.)",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.tndalu.ac.in/",
+      "summary": "Five-year integrated B.C.A. LL.B. (Hons.) at the School of Excellence in Law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% aggregate (40% SC/ST)",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (10+2) with at least 45% aggregate (40% for SC/ST).",
+        "minimumPercent": "45% aggregate in Class XII (40% SC/ST)",
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu Government rules of reservation apply.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Apply to the university's School of Excellence in Law as per its admission notification."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Selection on marks in the qualifying examination, under Tamil Nadu reservation rules."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees and confirm."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Seats and fees for the current year are in the university's notification and prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Merit-based admission",
+        "detail": "On qualifying-examination marks, under Tamil Nadu reservation rules; no entrance test.",
+        "sourceId": "s2"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "TNDALU — About",
+      "url": "https://tndalu.ac.in/about-us",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "TNDALU — Notification for admission",
+      "url": "https://tndalu.ac.in/pdf/Notificationforaddmission.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "state-university",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "The Tamil Nadu Dr. Ambedkar Law University (the university's own school)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "contact": {
+    "phone": "044-24641919 / 24957414",
+    "email": "thechairmanlawadmissions@gmail.com",
+    "sourceId": "s2"
+  }
+}

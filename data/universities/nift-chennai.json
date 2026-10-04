@@ -1,0 +1,578 @@
+{
+  "slug": "nift-chennai",
+  "name": "NIFT Chennai",
+  "officialName": "National Institute of Fashion Technology, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "design-school",
+  "founded": 1995,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.nift.ac.in/chennai/",
+  "admissionsUrl": "https://www.nift.ac.in/admissions",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "NIFT Chennai has run since 1995 on Rajiv Gandhi Salai, Taramani. It is a campus of the National Institute of Fashion Technology, set up by the Ministry of Textiles in 1986 and made a statutory institute by the NIFT Act 2006. Its four-year B.Des. and B.F.Tech. programmes start with a two-semester foundation; admission is through the NIFT entrance examination conducted with NTA.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "NTA website (NIFT entrance examination)",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": "₹2,000 (₹500 SC/ST/PwD); two programmes ₹3,000 (₹750)",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [
+    {
+      "test": "NIFT entrance examination (via NTA)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s4",
+      "confidence": "official"
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 169800,
+        "max": 169800,
+        "period": "year"
+      },
+      "sourceId": "s6",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Approximate yearly total of tuition, library, mediclaim and exam fees in NIFT's fee schedule; confirm the year's circular."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "NIFT 2026 — last date to apply (NTA)",
+      "date": "2026-01-06",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s4",
+      "confidence": "official"
+    },
+    {
+      "label": "NIFT 2026 entrance examination",
+      "date": "2026-02-08",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s4",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-des-accessory-design",
+      "name": "B.Des. Accessory Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nift.ac.in/ugprogrammes",
+      "summary": "Four-year B.Des. Accessory Design at NIFT Chennai, starting with a two-semester foundation programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NIFT entrance examination 2026 (NTA)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹2,000 (₹500 SC/ST/PwD)",
+        "process": [
+          {
+            "step": "Register with NTA",
+            "detail": "Online application closed 6 January 2026."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "8 February 2026."
+          },
+          {
+            "step": "Seat allocation",
+            "detail": "Campus and programme allotted by rank."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility and any situation test are in the admission prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-f-tech-apparel-production",
+      "name": "B.F.Tech. Apparel Production",
+      "degree": "B.F.Tech.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nift.ac.in/ugprogrammes",
+      "summary": "Four-year B.F.Tech. Apparel Production at NIFT Chennai, starting with a two-semester foundation programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NIFT entrance examination 2026 (NTA)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹2,000 (₹500 SC/ST/PwD)",
+        "process": [
+          {
+            "step": "Register with NTA",
+            "detail": "Online application closed 6 January 2026."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "8 February 2026."
+          },
+          {
+            "step": "Seat allocation",
+            "detail": "Campus and programme allotted by rank."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility and any situation test are in the admission prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-fashion-communication",
+      "name": "B.Des. Fashion Communication",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nift.ac.in/ugprogrammes",
+      "summary": "Four-year B.Des. Fashion Communication at NIFT Chennai, starting with a two-semester foundation programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NIFT entrance examination 2026 (NTA)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹2,000 (₹500 SC/ST/PwD)",
+        "process": [
+          {
+            "step": "Register with NTA",
+            "detail": "Online application closed 6 January 2026."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "8 February 2026."
+          },
+          {
+            "step": "Seat allocation",
+            "detail": "Campus and programme allotted by rank."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility and any situation test are in the admission prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-knitwear-design",
+      "name": "B.Des. Knitwear Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nift.ac.in/ugprogrammes",
+      "summary": "Four-year B.Des. Knitwear Design at NIFT Chennai, starting with a two-semester foundation programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NIFT entrance examination 2026 (NTA)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹2,000 (₹500 SC/ST/PwD)",
+        "process": [
+          {
+            "step": "Register with NTA",
+            "detail": "Online application closed 6 January 2026."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "8 February 2026."
+          },
+          {
+            "step": "Seat allocation",
+            "detail": "Campus and programme allotted by rank."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility and any situation test are in the admission prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-leather-design",
+      "name": "B.Des. Leather Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nift.ac.in/ugprogrammes",
+      "summary": "Four-year B.Des. Leather Design at NIFT Chennai, starting with a two-semester foundation programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NIFT entrance examination 2026 (NTA)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹2,000 (₹500 SC/ST/PwD)",
+        "process": [
+          {
+            "step": "Register with NTA",
+            "detail": "Online application closed 6 January 2026."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "8 February 2026."
+          },
+          {
+            "step": "Seat allocation",
+            "detail": "Campus and programme allotted by rank."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility and any situation test are in the admission prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des-textile-design",
+      "name": "B.Des. Textile Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nift.ac.in/ugprogrammes",
+      "summary": "Four-year B.Des. Textile Design at NIFT Chennai, starting with a two-semester foundation programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NIFT entrance examination 2026 (NTA)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹2,000 (₹500 SC/ST/PwD)",
+        "process": [
+          {
+            "step": "Register with NTA",
+            "detail": "Online application closed 6 January 2026."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "8 February 2026."
+          },
+          {
+            "step": "Seat allocation",
+            "detail": "Campus and programme allotted by rank."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility and any situation test are in the admission prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "NIFT Chennai — Home",
+      "url": "https://nift.ac.in/chennai/chennai/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "NIFT — NTA information bulletin 2026",
+      "url": "https://www.nift.ac.in/sites/default/files/inline-files/NTA-Information-Bulletin-2026.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "NIFT — Fee circular",
+      "url": "https://nift.ac.in/sites/default/files/2025-05/Fee%20Circular%20Academic%20Year%202025-26%20dated%2019.05.2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "standalone-institute",
+  "hub": null,
+  "locality": "Taramani",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "National Institute of Fashion Technology (statutory institute under the NIFT Act 2006)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

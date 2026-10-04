@@ -1,0 +1,318 @@
+{
+  "slug": "ihm-chennai",
+  "name": "IHM Chennai",
+  "officialName": "Institute of Hotel Management, Catering Technology and Applied Nutrition, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "specialist",
+  "founded": 1963,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://ihmchennai.org/",
+  "admissionsUrl": "https://ihmchennai.org/bachelor-of-science-admission/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "The Institute of Hotel Management, Chennai, at Taramani, was established in 1963. Its three-year B.Sc. in Hospitality and Hotel Administration is run by the National Council for Hotel Management (NCHMCT); admission is through the NCHM Joint Entrance Examination and all-India counselling, with on-campus hostels for men and women.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "NCHM JEE",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 172520,
+        "max": 172520,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "About ₹1,72,520 a year including uniform and kitchen kit; hostel ₹80,000 a year extra."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bsc-hospitality-hotel-administration",
+      "name": "B.Sc. Hospitality and Hotel Administration",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "hospitality",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ihmchennai.org/bachelor-of-science-admission/",
+      "summary": "Three-year (six-semester) NCHMCT degree at IHM Chennai.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 172520,
+          "max": 172520,
+          "period": "year"
+        },
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Including uniform and kitchen kit."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 246,
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NCHM JEE 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write NCHM JEE",
+            "detail": "National entrance exam."
+          },
+          {
+            "step": "All-India counselling",
+            "detail": "Institutes allotted on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay fees; hostel places are limited."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII eligibility is in the NCHM JEE brochure."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "Separate on-campus hostels for boys and girls; limited places.",
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    },
+    "feeBreakdown": [
+      {
+        "item": "Tuition (incl. uniform & kitchen kit), per year",
+        "audience": "all",
+        "amount": {
+          "min": 172520,
+          "max": 172520,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "Hostel, per year",
+        "audience": "all",
+        "amount": {
+          "min": 80000,
+          "max": 80000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "Admission fee (one time)",
+        "audience": "all",
+        "amount": {
+          "min": 1600,
+          "max": 1600,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "NCHMCT enrolment fee (one time)",
+        "audience": "all",
+        "amount": {
+          "min": 3600,
+          "max": 3600,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "JNU fee (one time)",
+        "audience": "all",
+        "amount": {
+          "min": 10215,
+          "max": 10215,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "Examination fee",
+        "audience": "all",
+        "amount": {
+          "min": 3000,
+          "max": 3000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "Caution money (one time)",
+        "audience": "all",
+        "amount": {
+          "min": 8000,
+          "max": 8000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s1",
+        "confidence": "high",
+        "asOf": null
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "IHM Chennai — B.Sc. Hospitality & Hotel Administration admission",
+      "url": "https://ihmchennai.org/bachelor-of-science-admission/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "NCHM JEE 2026 — Brochure",
+      "url": "https://nchm.gov.in/sites/default/files/2025-12/NCHM-JEE%202026%20Brochure.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "NCHMCT — B.Sc. Hospitality and Hotel Administration",
+      "url": "https://nchm.gov.in/admission/bsc-hospitality-and-hotel-administration-generic",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "standalone-institute",
+  "hub": null,
+  "locality": "Taramani",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": null
+  }
+}
