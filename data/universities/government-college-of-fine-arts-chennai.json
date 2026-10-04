@@ -1,0 +1,755 @@
+{
+  "slug": "government-college-of-fine-arts-chennai",
+  "name": "Government College of Fine Arts, Chennai",
+  "officialName": "Government College of Fine Arts, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "design-school",
+  "founded": 1850,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+  "admissionsUrl": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "The Government College of Fine Arts, Chennai, on EVR Periyar Salai, Periyamet, was established in 1850 and is run by Tamil Nadu's Department of Art and Culture. It offers four-year, full-time BFA degrees in Painting, Sculpture, Print Making, Visual Communication Design, Textile Design and Ceramic Design, with admission by a practical and written entrance test plus an interview.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bfa-painting",
+      "name": "B.F.A. Painting",
+      "degree": "B.F.A.",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "summary": "Four-year, full-time Bachelor of Fine Arts in Painting.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Painting",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "portfolio",
+          "interview"
+        ],
+        "eligibility": "Higher Secondary (+2) pass or equivalent; age limit 23 (26 for SC/ST).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "Government College of Fine Arts entrance examination"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Life model study",
+            "detail": "Practical."
+          },
+          {
+            "step": "Subject-related exam",
+            "detail": "Practical."
+          },
+          {
+            "step": "Objective test",
+            "detail": "Written, at +2 level on art-related subjects."
+          },
+          {
+            "step": "Personal interview",
+            "detail": "Final stage."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bfa-sculpture",
+      "name": "B.F.A. Sculpture",
+      "degree": "B.F.A.",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "summary": "Four-year, full-time Bachelor of Fine Arts in Sculpture.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Sculpture",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "portfolio",
+          "interview"
+        ],
+        "eligibility": "Higher Secondary (+2) pass or equivalent; age limit 23 (26 for SC/ST).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "Government College of Fine Arts entrance examination"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Life model study",
+            "detail": "Practical."
+          },
+          {
+            "step": "Subject-related exam",
+            "detail": "Practical."
+          },
+          {
+            "step": "Objective test",
+            "detail": "Written, at +2 level on art-related subjects."
+          },
+          {
+            "step": "Personal interview",
+            "detail": "Final stage."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bfa-print-making",
+      "name": "B.F.A. Print Making",
+      "degree": "B.F.A.",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "summary": "Four-year, full-time Bachelor of Fine Arts in Print Making.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Print Making",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "portfolio",
+          "interview"
+        ],
+        "eligibility": "Higher Secondary (+2) pass or equivalent; age limit 23 (26 for SC/ST).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "Government College of Fine Arts entrance examination"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Life model study",
+            "detail": "Practical."
+          },
+          {
+            "step": "Subject-related exam",
+            "detail": "Practical."
+          },
+          {
+            "step": "Objective test",
+            "detail": "Written, at +2 level on art-related subjects."
+          },
+          {
+            "step": "Personal interview",
+            "detail": "Final stage."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bfa-visual-communication-design",
+      "name": "B.F.A. Visual Communication Design",
+      "degree": "B.F.A.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "summary": "Four-year, full-time Bachelor of Fine Arts in Visual Communication Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ],
+      "specialization": "Visual Communication Design",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "portfolio",
+          "interview"
+        ],
+        "eligibility": "Higher Secondary (+2) pass or equivalent; age limit 23 (26 for SC/ST).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "Government College of Fine Arts entrance examination"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Life model study",
+            "detail": "Practical."
+          },
+          {
+            "step": "Subject-related exam",
+            "detail": "Practical."
+          },
+          {
+            "step": "Objective test",
+            "detail": "Written, at +2 level on art-related subjects."
+          },
+          {
+            "step": "Personal interview",
+            "detail": "Final stage."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bfa-textile-design",
+      "name": "B.F.A. Textile Design",
+      "degree": "B.F.A.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "summary": "Four-year, full-time Bachelor of Fine Arts in Textile Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Textile Design",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "portfolio",
+          "interview"
+        ],
+        "eligibility": "Higher Secondary (+2) pass or equivalent; age limit 23 (26 for SC/ST).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "Government College of Fine Arts entrance examination"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Life model study",
+            "detail": "Practical."
+          },
+          {
+            "step": "Subject-related exam",
+            "detail": "Practical."
+          },
+          {
+            "step": "Objective test",
+            "detail": "Written, at +2 level on art-related subjects."
+          },
+          {
+            "step": "Personal interview",
+            "detail": "Final stage."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bfa-ceramic-design",
+      "name": "B.F.A. Ceramic Design",
+      "degree": "B.F.A.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "summary": "Four-year, full-time Bachelor of Fine Arts in Ceramic Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": null
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Ceramic Design",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "portfolio",
+          "interview"
+        ],
+        "eligibility": "Higher Secondary (+2) pass or equivalent; age limit 23 (26 for SC/ST).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "Government College of Fine Arts entrance examination"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Life model study",
+            "detail": "Practical."
+          },
+          {
+            "step": "Subject-related exam",
+            "detail": "Practical."
+          },
+          {
+            "step": "Objective test",
+            "detail": "Written, at +2 level on art-related subjects."
+          },
+          {
+            "step": "Personal interview",
+            "detail": "Final stage."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Department of Art and Culture, Tamil Nadu — Government College of Fine Arts",
+      "url": "https://artandculture.tn.gov.in/government%C2%A0college%C2%A0-fine-arts",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Department of Art and Culture, Tamil Nadu — Fine Arts College, Chennai",
+      "url": "https://artandculture.tn.gov.in/fine-arts-college-chennai",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "standalone-institute",
+  "hub": null,
+  "locality": "Periyamet",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Department of Art and Culture, Government of Tamil Nadu",
+    "sourceId": "s2",
+    "confidence": "official",
+    "asOf": null
+  }
+}

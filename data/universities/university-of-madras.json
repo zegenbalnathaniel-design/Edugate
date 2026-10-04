@@ -1,0 +1,621 @@
+{
+  "slug": "university-of-madras",
+  "name": "University of Madras",
+  "officialName": "University of Madras",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "multidisciplinary",
+  "founded": 1857,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.unom.ac.in/",
+  "admissionsUrl": "https://www.unom.ac.in/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "The University of Madras, established in 1857, is one of India's first three universities. Its main campus is at Chepauk, with campuses at Marina, Guindy, Taramani, Chetpet and Maduravoyal; most science departments are at Guindy. It is chiefly an affiliating university — most Chennai arts and science colleges award its degrees — and its own departments mainly teach postgraduate programmes. Its own undergraduate offering listed here is the B.Sc. (Blended), run with the University of Melbourne at the Guindy campus.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "B.Sc. (Blended) — last date to apply (2025 cycle)",
+      "date": "2025-06-20",
+      "intake": "2025-26",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bsc-blended-physics",
+      "name": "B.Sc. (Blended) Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unom.ac.in/webportal/uploads/announcements/BSc_Blended_Prospectus%202025-2026_20250506054756_94770.pdf",
+      "summary": "B.Sc. (Blended) Physics, offered jointly with the University of Melbourne on regular mode at the Guindy campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Physics",
+      "department": null,
+      "campus": "Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Plus Two with Physics, Chemistry and Mathematics, with all Plus One and Plus Two papers cleared (no arrears).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "University of Madras B.Sc. (Blended) entrance examination"
+        ],
+        "reservation": "Seats are limited and filled under the reservation policy.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Prospectus and application online 5 May – 20 June 2025."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "26–30 June 2025."
+          },
+          {
+            "step": "Selection",
+            "detail": "50% weight on Plus Two marks and 50% on the entrance examination, under the reservation policy."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-blended-chemistry",
+      "name": "B.Sc. (Blended) Chemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unom.ac.in/webportal/uploads/announcements/BSc_Blended_Prospectus%202025-2026_20250506054756_94770.pdf",
+      "summary": "B.Sc. (Blended) Chemistry, offered jointly with the University of Melbourne on regular mode at the Guindy campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Chemistry",
+      "department": null,
+      "campus": "Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Plus Two with Physics, Chemistry and Mathematics, with all Plus One and Plus Two papers cleared (no arrears).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "University of Madras B.Sc. (Blended) entrance examination"
+        ],
+        "reservation": "Seats are limited and filled under the reservation policy.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Prospectus and application online 5 May – 20 June 2025."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "26–30 June 2025."
+          },
+          {
+            "step": "Selection",
+            "detail": "50% weight on Plus Two marks and 50% on the entrance examination, under the reservation policy."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-blended-mathematics",
+      "name": "B.Sc. (Blended) Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unom.ac.in/webportal/uploads/announcements/BSc_Blended_Prospectus%202025-2026_20250506054756_94770.pdf",
+      "summary": "B.Sc. (Blended) Mathematics, offered jointly with the University of Melbourne on regular mode at the Guindy campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2025-26",
+          "notes": "No arrears in Plus One or Plus Two."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Mathematics",
+      "department": null,
+      "campus": "Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Plus Two with Physics, Chemistry and Mathematics, with all Plus One and Plus Two papers cleared (no arrears).",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "University of Madras B.Sc. (Blended) entrance examination"
+        ],
+        "reservation": "Seats are limited and filled under the reservation policy.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Prospectus and application online 5 May – 20 June 2025."
+          },
+          {
+            "step": "Entrance examination",
+            "detail": "26–30 June 2025."
+          },
+          {
+            "step": "Selection",
+            "detail": "50% weight on Plus Two marks and 50% on the entrance examination, under the reservation policy."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "University of Madras — Self-study report (history and campuses)",
+      "url": "https://www.unom.ac.in/webportal/uploads/naac/ssr_report.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "University of Madras — U.G. B.Sc. (Blended) prospectus 2025–26",
+      "url": "https://www.unom.ac.in/webportal/uploads/announcements/BSc_Blended_Prospectus%202025-2026_20250506054756_94770.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "state-university",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "State university (affiliating)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}
