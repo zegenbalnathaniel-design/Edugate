@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Block, DataTable, NotYet } from "@/components/unis/Blocks";
 import { Sourced } from "@/components/unis/Sourced";
+import Link from "next/link";
+import { CURRICULUM_LABELS } from "@/lib/profile/schema";
+import { BASIS_LABEL } from "@/lib/unis/filters";
 import { dateLabel, TEST_POLICY_LABEL } from "@/lib/unis/format";
 import { isPast } from "@/lib/unis/freshness";
 import { getUniversity } from "@/lib/unis/repo";
@@ -21,6 +24,23 @@ export default async function AdmissionsPage({ params }: Props) {
   const S = u.sources;
   const d = u.details;
   const cutoffsByYear = Object.entries(Object.groupBy(d.cutoffs, (c) => `${c.exam} ${c.year}${c.round ? ` · ${c.round}` : ""}`));
+
+  // Exam → policy → applicable programmes (programme tests, programme entrance tests, then institution-wide tests).
+  const examMap = new Map<string, { policy: string; programs: Set<string>; sourceId: string | null }>();
+  const addExam = (test: string, policy: string, program: string, sourceId: string | null) => {
+    const k = `${test}::${policy}`;
+    const e = examMap.get(k) ?? { policy, programs: new Set<string>(), sourceId };
+    e.programs.add(program);
+    examMap.set(k, e);
+  };
+  for (const p of u.programs) {
+    for (const t of p.tests) addExam(t.test, t.policy, p.name, t.sourceId);
+    for (const t of p.admission?.entranceTests ?? []) if (!p.tests.some((x) => x.test === t)) addExam(t, "required", p.name, p.admission?.sourceId ?? null);
+  }
+  for (const t of u.testing) addExam(t.test, t.policy, "All courses", t.sourceId);
+  const exams = [...examMap.entries()].map(([k, v]) => ({ test: k.split("::")[0], ...v }));
+  const withAdmission = u.programs.filter((p) => p.admission);
+  const allProgramsCount = u.programs.length;
 
   return (
     <div className="space-y-14">
@@ -65,14 +85,67 @@ export default async function AdmissionsPage({ params }: Props) {
         )}
       </Block>
 
+      <Block title="Entrance exams by course" note="Which exam each course uses, and whether it is required or optional.">
+        {exams.length === 0 ? (
+          <NotYet>No entrance exam is listed for any course here{withAdmission.some((p) => p.admission!.basis.includes("merit")) ? " — admission is on Class XII marks (merit)" : ""}.</NotYet>
+        ) : (
+          <DataTable
+            caption="Entrance exams"
+            head={["Exam", "Required / optional", "Applies to"]}
+            rows={exams.map((e) => [
+              e.test,
+              <Sourced key="p" sourceId={e.sourceId} sources={S}>{TEST_POLICY_LABEL[e.policy] ?? e.policy}</Sourced>,
+              e.programs.size >= allProgramsCount && allProgramsCount > 1 ? "All courses on Edugate" : [...e.programs].join(", "),
+            ])}
+          />
+        )}
+      </Block>
+
+      <Block title="Eligibility by course" note="Minimum marks, Class XI–XII subjects and how the institution selects, per course.">
+        {withAdmission.length === 0 ? (
+          <NotYet>Course-level eligibility isn&apos;t itemised yet — see each course page for curriculum requirements.</NotYet>
+        ) : (
+          <DataTable
+            caption="Eligibility by course"
+            minWidth={880}
+            head={["Course", "Eligibility", "Minimum marks", "Required subjects", "Selection"]}
+            rows={withAdmission.map((p) => [
+              <Link key="n" href={`/universities/${u.slug}/programs/${p.slug}`} className="hover:text-cyan">{p.name}{p.stream && <span className="block text-[0.75rem] font-normal text-paper/50">{p.stream}</span>}</Link>,
+              <Sourced key="e" sourceId={p.admission!.sourceId} sources={S} confidence={p.admission!.confidence} asOf={p.admission!.asOf} notes={p.admission!.notes}>{p.admission!.eligibility ?? "See course"}</Sourced>,
+              p.admission!.minimumPercent ?? "—",
+              p.admission!.requiredSubjects.join(", ") || "—",
+              p.admission!.basis.map((b) => BASIS_LABEL[b]).join(", ") || "—",
+            ])}
+          />
+        )}
+        {(() => {
+          const boards = [...new Set(u.programs.flatMap((p) => p.requirements.filter((r) => r.accepted !== false).map((r) => r.curriculum)))];
+          return boards.length ? (
+            <p className="mt-4 text-[0.875rem] text-paper/70">
+              Boards and curricula with published requirements: {boards.map((b) => CURRICULUM_LABELS[b as keyof typeof CURRICULUM_LABELS] ?? b).join(", ")}. Details on each course page.
+            </p>
+          ) : null;
+        })()}
+        {withAdmission.some((p) => p.admission!.reservation || p.admission!.international) && (
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {[...new Set(withAdmission.map((p) => p.admission!.reservation).filter(Boolean))].slice(0, 1).map((r) => (
+              <div key="res" className="glass p-4"><p className="meta text-paper/50">Reservation</p><p className="mt-1 text-[0.875rem]">{r}</p></div>
+            ))}
+            {[...new Set(withAdmission.map((p) => p.admission!.international).filter(Boolean))].slice(0, 1).map((r) => (
+              <div key="intl" className="glass p-4"><p className="meta text-paper/50">International, NRI & OCI applicants</p><p className="mt-1 text-[0.875rem]">{r}</p></div>
+            ))}
+          </div>
+        )}
+      </Block>
+
       <Block title="Important dates">
-        {u.deadlines.length === 0 ? (
+        {[...u.deadlines, ...u.programs.flatMap((p) => p.deadlines)].length === 0 ? (
           <NotYet>No dated deadline for the next intake is verified yet — check the admissions page.</NotYet>
         ) : (
           <DataTable
             caption="Admission deadlines"
             head={["Date", "Event", "Intake"]}
-            rows={[...u.deadlines]
+            rows={[...u.deadlines, ...u.programs.flatMap((p) => p.deadlines.map((d) => ({ ...d, label: `${p.name}: ${d.label}` })))]
               .sort((a, b) => a.date.localeCompare(b.date))
               .map((dl) => [
                 <span key="d" className={isPast(dl.date) ? "text-paper/45 line-through" : ""}>{dateLabel(dl.date)}</span>,

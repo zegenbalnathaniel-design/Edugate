@@ -1,7 +1,10 @@
 import type { StudentProfile } from "../profile/schema";
 import { CURRICULUM_LABELS } from "../profile/schema";
 import type { CurriculumReq, Program, University } from "./schema";
-import { annualIntlTuitionUsd } from "./extract";
+import { programCostInr } from "./extract";
+import { PER_USD } from "./fx";
+import { inrCompact } from "./format";
+import { programSubjects } from "./taxonomy";
 
 /*
  * Per-dimension fit (docs/07 §10). Never an admission probability: each
@@ -77,6 +80,20 @@ function levelMeets(required: string | null, actual: string | null): boolean | n
   return true;
 }
 
+/** The student's score for a named test; undefined when Edugate doesn't track that test. */
+export function testScore(profile: StudentProfile, test: string): number | null | undefined {
+  const t = test.toUpperCase();
+  if (/^SAT\b/.test(t)) return profile.tests.SAT;
+  if (/^ACT\b/.test(t)) return profile.tests.ACT;
+  if (/JEE\W*ADV/.test(t)) return profile.tests.JEE_ADV;
+  if (/JEE\W*MAIN/.test(t)) return profile.tests.JEE_MAIN;
+  if (/\bNEET\b/.test(t)) return profile.tests.NEET;
+  if (/\bCUET\b/.test(t)) return profile.tests.CUET;
+  if (/\bCLAT\b/.test(t)) return profile.tests.CLAT;
+  if (/\bIPMAT\b/.test(t)) return profile.tests.IPMAT;
+  return undefined;
+}
+
 /* -------------------------- gap analysis --------------------------- */
 
 export type GapStatus = "meets" | "missing" | "unclear" | "exceeds" | "not-applicable";
@@ -140,9 +157,9 @@ export function gapAnalysis(u: University, program: Program, profile: StudentPro
   }
   for (const t of [...program.tests, ...u.testing.filter((t) => !program.tests.some((p) => p.test === t.test))]) {
     if (t.policy !== "required" && t.policy !== "recommended") continue;
-    const key = t.test.toUpperCase();
-    const trackable = key === "SAT" || key === "ACT";
-    const score = trackable ? profile.tests[key as "SAT" | "ACT"] : null;
+    const score0 = testScore(profile, t.test);
+    const trackable = score0 !== undefined;
+    const score = score0 ?? null;
     rows.push({
       requirement: t.test,
       university: t.policy + (t.typicalRange ? ` (typical ${t.typicalRange})` : ""),
@@ -194,9 +211,19 @@ const has = (u: University, cat: string) => u.opportunities.filter((o) => o.cate
 export function fitDimensions(u: University, profile: StudentProfile, program?: Program): FitDimension[] {
   const dims: FitDimension[] = [];
 
-  // Program fit
-  if (profile.fields.length) {
-    const offered = u.programs.filter((p) => profile.fields.includes(p.field));
+  // Program fit — by every subject a programme's official name names, not just its primary field.
+  if (profile.fields.length && program) {
+    const hit = programSubjects(program).filter((s) => profile.fields.includes(s));
+    dims.push({
+      key: "program",
+      label: "Course fit",
+      weight: "academics",
+      state: hit.length ? "aligned" : "misaligned",
+      reasons: hit.length ? [`${program.name} covers ${hit.length} of your chosen subjects`] : [`${program.name} isn't in the subjects you chose`],
+      sourceIds: [],
+    });
+  } else if (profile.fields.length) {
+    const offered = u.programs.filter((p) => programSubjects(p).some((s) => profile.fields.includes(s)));
     dims.push({
       key: "program",
       label: "Program fit",
@@ -208,7 +235,7 @@ export function fitDimensions(u: University, profile: StudentProfile, program?: 
   } else dims.push({ key: "program", label: "Program fit", weight: "academics", state: "unknown", reasons: ["Add the fields you want to study to your profile"], sourceIds: [] });
 
   // Curriculum + subjects (for a specific program, or best program in field)
-  const target = program ?? u.programs.find((p) => profile.fields.includes(p.field)) ?? u.programs[0];
+  const target = program ?? u.programs.find((p) => programSubjects(p).some((s) => profile.fields.includes(s))) ?? u.programs[0];
   if (profile.curriculum) {
     const gaps = gapAnalysis(u, target, profile);
     const academic = gaps.filter((g) => !/English|SAT|ACT/i.test(g.requirement));
@@ -230,8 +257,8 @@ export function fitDimensions(u: University, profile: StudentProfile, program?: 
   // Testing — a required test you haven't taken yet is a to-do, not a misfit;
   // tests the profile can't record are unknown.
   const tests = [...target.tests, ...u.testing.filter((t) => !target.tests.some((x) => x.test === t.test))].filter((t) => t.policy === "required");
-  const trackable = (name: string) => ["SAT", "ACT"].includes(name.toUpperCase());
-  const hasScore = (name: string) => (name.toUpperCase() === "SAT" ? profile.tests.SAT : profile.tests.ACT) != null;
+  const trackable = (name: string) => testScore(profile, name) !== undefined;
+  const hasScore = (name: string) => testScore(profile, name) != null;
   const done = tests.filter((t) => trackable(t.test) && hasScore(t.test));
   const todo = tests.filter((t) => trackable(t.test) && !hasScore(t.test));
   const untracked = tests.filter((t) => !trackable(t.test));
@@ -251,41 +278,53 @@ export function fitDimensions(u: University, profile: StudentProfile, program?: 
     sourceIds: tests.map((t) => t.sourceId).filter((s): s is string => !!s),
   });
 
-  // Financial
-  const usd = annualIntlTuitionUsd(u);
-  const domestic = profile.citizenship === u.countryCode;
-  if (profile.budgetUsdPerYear == null) dims.push({ key: "cost", label: "Financial fit", weight: "cost", state: "unknown", reasons: ["Add a yearly budget to your profile"], sourceIds: [] });
-  else if (domestic) dims.push({ key: "cost", label: "Financial fit", weight: "cost", state: "unknown", reasons: ["You'd pay domestic fees here — compare them on the university page"], sourceIds: [] });
-  else if (usd == null) dims.push({ key: "cost", label: "Financial fit", weight: "cost", state: "unknown", reasons: ["International tuition isn't verified yet"], sourceIds: [] });
+  // Financial — what a student in India pays per year, in rupees: domestic fees for Indian institutions, international tuition abroad.
+  const budgetInr = profile.budgetInrPerYear ?? (profile.budgetUsdPerYear != null ? Math.round(profile.budgetUsdPerYear * PER_USD.INR) : null);
+  const costs = (program ? [program] : u.programs).map((p) => programCostInr(u, p)).filter((n): n is number => n != null);
+  const cost = costs.length ? Math.min(...costs) : null;
+  const tuitionSource = program?.fees?.sourceId ?? (u.countryCode === "IN" ? u.costs.domesticTuition.sourceId : u.costs.internationalTuition.sourceId);
+  if (budgetInr == null) dims.push({ key: "cost", label: "Financial fit", weight: "cost", state: "unknown", reasons: ["Add a yearly budget to your profile"], sourceIds: [] });
+  else if (cost == null) dims.push({ key: "cost", label: "Financial fit", weight: "cost", state: "unknown", reasons: ["Tuition for this isn't verified yet"], sourceIds: [] });
   else {
-    const within = usd <= profile.budgetUsdPerYear;
-    const close = usd <= profile.budgetUsdPerYear * 1.2;
+    const within = cost <= budgetInr;
+    const close = cost <= budgetInr * 1.2;
     dims.push({
       key: "cost",
       label: "Financial fit",
       weight: "cost",
       state: within ? "aligned" : close ? "partial" : "misaligned",
       reasons: [
-        `Published international tuition ≈ USD ${usd.toLocaleString("en-US")}/yr vs your USD ${profile.budgetUsdPerYear.toLocaleString("en-US")}/yr budget (tuition only, before aid)`,
-        ...(u.scholarships.length ? [`${u.scholarships.length} scholarship/aid programme(s) listed`] : []),
+        `${program ? "Tuition" : "Lowest published tuition"} ${u.countryCode === "IN" ? "" : "≈ "}${inrCompact(cost)}/yr vs your ${inrCompact(budgetInr)}/yr budget (tuition only, before aid or scholarships)`,
+        ...(u.scholarships.length ? [`${u.scholarships.length} scholarship/aid option(s) listed`] : []),
       ],
-      sourceIds: u.costs.internationalTuition.sourceId ? [u.costs.internationalTuition.sourceId] : [],
+      sourceIds: tuitionSource ? [tuitionSource] : [],
     });
   }
 
-  // Geography
-  dims.push(
-    profile.countries.length
-      ? {
-          key: "location",
-          label: "Location",
-          weight: "location",
-          state: profile.countries.includes(u.countryCode) ? "aligned" : "misaligned",
-          reasons: [profile.countries.includes(u.countryCode) ? `${u.country} is in your preferred countries` : `${u.country} isn't in your preferred countries`],
-          sourceIds: [],
-        }
-      : { key: "location", label: "Location", weight: "location", state: "unknown", reasons: ["No country preference set"], sourceIds: [] },
-  );
+  // Geography — Indian states first for Indian institutions, then countries.
+  const stateMatch = u.countryCode === "IN" && profile.preferredStates.length ? profile.preferredStates.includes(u.region) : null;
+  if (stateMatch != null) {
+    dims.push({
+      key: "location",
+      label: "Location",
+      weight: "location",
+      state: stateMatch ? "aligned" : "misaligned",
+      reasons: [stateMatch ? `${u.region} is one of your preferred states` : `${u.region} isn't one of your preferred states`],
+      sourceIds: [],
+    });
+  } else
+    dims.push(
+      profile.countries.length
+        ? {
+            key: "location",
+            label: "Location",
+            weight: "location",
+            state: profile.countries.includes(u.countryCode) ? "aligned" : "misaligned",
+            reasons: [profile.countries.includes(u.countryCode) ? `${u.country} is in your preferred countries` : `${u.country} isn't in your preferred countries`],
+            sourceIds: [],
+          }
+        : { key: "location", label: "Location", weight: "location", state: "unknown", reasons: ["No location preference set"], sourceIds: [] },
+    );
 
   // Opportunities
   for (const [key, label, cat, weight] of [

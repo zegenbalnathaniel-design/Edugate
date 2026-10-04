@@ -34,11 +34,14 @@ export async function saveProfile(_prev: ProfileState, form: FormData): Promise<
     curriculum: curriculum && (CURRICULA as readonly string[]).includes(curriculum) ? curriculum : null,
     predictedTotal: str(form.get("predictedTotal")),
     subjects,
-    tests: { SAT: num(form.get("SAT")), ACT: num(form.get("ACT")), IELTS: num(form.get("IELTS")), TOEFL_IBT: num(form.get("TOEFL_IBT")), DUOLINGO: num(form.get("DUOLINGO")) },
+    tests: Object.fromEntries(["SAT", "ACT", "IELTS", "TOEFL_IBT", "DUOLINGO", "JEE_MAIN", "JEE_ADV", "NEET", "CUET", "CLAT", "IPMAT"].map((k) => [k, num(form.get(k))])),
     fields: form.getAll("fields").map(String).filter((f) => (FieldKey.options as readonly string[]).includes(f)),
     careerInterests: str(form.get("careerInterests")),
     countries: form.getAll("countries").map(String),
     budgetUsdPerYear: num(form.get("budgetUsdPerYear")),
+    budgetInrPerYear: num(form.get("budgetInrPerYear")),
+    preferredStates: form.getAll("preferredStates").map(String),
+    preferredCities: form.getAll("preferredCities").map(String),
     weights: Object.fromEntries(WEIGHT_KEYS.map((k) => [k, Number(form.get(`w.${k}`) ?? 0)])),
   };
   const parsed = StudentProfileSchema.safeParse(candidate);

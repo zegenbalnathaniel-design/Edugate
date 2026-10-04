@@ -21,7 +21,11 @@ export default async function PlacementsPage({ params }: Props) {
   const u = row.data;
   const S = u.sources;
   const d = u.details;
-  const outcomes = [...d.outcomes].sort((a, b) => b.year.localeCompare(a.year));
+  // Institution-wide records plus per-course records (labelled with the course).
+  const outcomes = [...d.outcomes, ...u.programs.flatMap((p) => p.outcomes.map((o) => ({ ...o, cohort: `${p.name}: ${o.cohort}` })))].sort((a, b) => b.year.localeCompare(a.year));
+  const hasLowest = outcomes.some((o) => o.lowestSalary != null);
+  const sectors = outcomes.filter((o) => o.sectors.length);
+  const programRecruiters = u.programs.filter((p) => p.recruiters);
   const hasCounts = outcomes.some((o) => o.graduates != null || o.placed != null || o.higherStudies != null);
   const hasSalary = outcomes.some((o) => o.medianSalary != null || o.averageSalary != null || o.highestSalary != null);
 
@@ -32,7 +36,7 @@ export default async function PlacementsPage({ params }: Props) {
         note="Figures exactly as each publisher defines them — NIRF placement data, national graduate surveys, or the university's own career report. Different countries measure differently, so compare like with like."
       >
         {outcomes.length === 0 ? (
-          <NotYet>No verified placement or graduate-outcome figures yet. We don&apos;t show unverified package claims.</NotYet>
+          <NotYet>Data not publicly available — {u.name} hasn&apos;t published placement or graduate-outcome figures that Edugate could verify. We don&apos;t show unverified package claims.</NotYet>
         ) : (
           <div className="space-y-6">
             <DataTable
@@ -42,7 +46,7 @@ export default async function PlacementsPage({ params }: Props) {
                 "Cohort",
                 "Year",
                 ...(hasCounts ? ["Graduates", "Placed", "Higher studies"] : []),
-                ...(hasSalary ? ["Median", "Average", "Highest"] : []),
+                ...(hasSalary ? ["Median", "Average", "Highest", ...(hasLowest ? ["Lowest"] : [])] : []),
                 "Employment",
                 "Source",
               ]}
@@ -61,6 +65,7 @@ export default async function PlacementsPage({ params }: Props) {
                       <strong key="m">{o.medianSalary != null ? salary(o.medianSalary, o.currency) : "—"}</strong>,
                       o.averageSalary != null ? salary(o.averageSalary, o.currency) : "—",
                       o.highestSalary != null ? salary(o.highestSalary, o.currency) : "—",
+                      ...(hasLowest ? [o.lowestSalary != null ? salary(o.lowestSalary, o.currency) : "—"] : []),
                     ]
                   : []),
                 o.employmentRate ?? (pct(o.placed, o.graduates) ? `${pct(o.placed, o.graduates)} placed` : "—"),
@@ -78,6 +83,45 @@ export default async function PlacementsPage({ params }: Props) {
         )}
       </Block>
 
+      {sectors.length > 0 && (
+        <Block title="Where graduates went, by sector">
+          <div className="grid gap-5 md:grid-cols-2">
+            {sectors.map((o) => (
+              <div key={`${o.cohort}-${o.year}`} className="glass p-5">
+                <p className="meta text-paper/50">{o.cohort} · {o.year}</p>
+                <ul className="mt-3 space-y-2">
+                  {o.sectors.map((x) => {
+                    const n = parseFloat(x.share);
+                    return (
+                      <li key={x.sector} className="text-[0.875rem]">
+                        <span className="flex justify-between gap-3"><span>{x.sector}</span><span className="tabular text-paper/70">{x.share}</span></span>
+                        {Number.isFinite(n) && /%/.test(x.share) && <span className="mt-1 block h-1.5 rounded-full bg-paper/10"><span className="block h-1.5 rounded-full bg-electric" style={{ width: `${Math.min(n, 100)}%` }} /></span>}
+                      </li>
+                    );
+                  })}
+                </ul>
+                <p className="mt-3 text-[0.75rem]"><Sourced sourceId={o.sourceId} sources={S} confidence={o.confidence} asOf={o.year}>Source</Sourced></p>
+              </div>
+            ))}
+          </div>
+        </Block>
+      )}
+
+      {programRecruiters.length > 0 && (
+        <Block title="Recruiters by course">
+          <div className="space-y-4">
+            {programRecruiters.map((p) => (
+              <div key={p.slug}>
+                <p className="font-medium">{p.name}</p>
+                <p className="mt-1 text-[0.875rem] text-paper/75">
+                  <Sourced sourceId={p.recruiters!.sourceId} sources={S} confidence={p.recruiters!.confidence} asOf={p.recruiters!.year}>{p.recruiters!.names.join(", ")}</Sourced>
+                </p>
+              </div>
+            ))}
+          </div>
+        </Block>
+      )}
+
       <Block title="Recruiters">
         {d.recruiters ? (
           <>
@@ -93,7 +137,7 @@ export default async function PlacementsPage({ params }: Props) {
             </p>
           </>
         ) : (
-          <NotYet>No verified recruiter list yet.</NotYet>
+          <NotYet>Data not publicly available — no recruiter list verified yet.</NotYet>
         )}
       </Block>
     </div>

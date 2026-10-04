@@ -22,7 +22,8 @@ const NEVER_ALWAYS: [string, string][] = [
   ["“You should study X”", "“One pathway worth exploring”"],
   ["“Your perfect career”", "“Where this could lead”"],
   ["“You are 87% entrepreneur”", "“Strong signal: Creation”"],
-  ["“Best match”", "“Why this appears” + criteria list"],
+  ["“Best match” with no reasons", "Match % with every reason listed, labelled “not an admission chance”"],
+  ["“Safety school” from reputation", "Reach / Target / Safety only from a published cut-off or acceptance rate"],
 ];
 
 /**
@@ -116,6 +117,42 @@ export default function MethodologyPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+        </section>
+
+        <section className="mb-14">
+          <h2 className="meta mb-4 text-current/50">How college matching works</h2>
+          <div className="measure space-y-4 text-[0.9375rem] text-current/70">
+            <p>
+              <strong className="text-current">Match %</strong> is a weighted share of the checks we can make for a course — does it cover the
+              subjects you chose, do your board and Class XI–XII subjects meet its published requirements, do you have the tests it needs,
+              is its tuition within your budget, is it where you want to study, does it document internships, research or entrepreneurship.
+              Your own priority weights decide how much each check counts. Checks we can&apos;t make (because data isn&apos;t published) are
+              left out and reported as &ldquo;unknown&rdquo;, never counted for or against.
+            </p>
+            <p>
+              <strong className="text-current">Reach / Target / Safety</strong> uses only published evidence, in this order: your JEE Advanced
+              rank against the last published JoSAA closing rank for that course (≤ 70% of the closing rank is Safety, up to the closing rank
+              Target, beyond it Reach); your Class XII percentage against a published merit-list cut-off (3+ points above is Safety, within a
+              point Target, below Reach); otherwise the institution&apos;s published acceptance rate. If you&apos;re missing a published
+              requirement, the course shows &ldquo;Not yet eligible&rdquo;. With none of that evidence, it&apos;s &ldquo;Unclassified&rdquo; —
+              we don&apos;t guess from reputation.
+            </p>
+            <p>
+              <strong className="text-current">Selectivity</strong> bands come from published acceptance rates: under 15% highly selective,
+              15–35% selective, 35–65% moderate, above 65% accessible. A JoSAA/JEE Advanced closing rank of 5,000 or better (open category)
+              for an institution&apos;s most competitive listed course also counts as highly selective.
+            </p>
+            <p>
+              <strong className="text-current">Fees in rupees</strong> are tuition per year as published. For institutions abroad we convert
+              at dated reference rates and mark the figure &ldquo;≈&rdquo;. A whole-degree total is yearly tuition × duration and is labelled
+              as calculated; a year&apos;s cost adds only items the institution publishes per year or semester.
+            </p>
+            <p>
+              <strong className="text-current">Courses are grouped by subject</strong> from their official names: &ldquo;B.Com (Accounting
+              &amp; Finance)&rdquo; appears under Commerce and Finance, &ldquo;PPE&rdquo; under Economics, Political Science and Philosophy.
+              The official name is always what&apos;s shown.
+            </p>
           </div>
         </section>
 

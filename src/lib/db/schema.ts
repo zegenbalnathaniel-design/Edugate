@@ -40,6 +40,15 @@ export const universities = pgTable(
     curricula: text("curricula").array().notNull().default(sql`'{}'::text[]`),
     satPolicy: text("sat_policy"),
     intlTuitionUsdMin: numeric("intl_tuition_usd_min", { mode: "number" }),
+    // Course-explorer columns (docs/09): Indian structure, degrees, admissions and cost for an Indian student.
+    hub: text("hub"),
+    institutionType: text("institution_type"),
+    degrees: text("degrees").array().notNull().default(sql`'{}'::text[]`),
+    admissionBases: text("admission_bases").array().notNull().default(sql`'{}'::text[]`),
+    tests: text("tests").array().notNull().default(sql`'{}'::text[]`),
+    costInrMin: numeric("cost_inr_min", { mode: "number" }),
+    selectivity: text("selectivity"),
+    dataHash: text("data_hash"),
     data: jsonb("data").$type<University>().notNull(),
     lastVerified: date("last_verified").notNull(),
     updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
@@ -48,6 +57,7 @@ export const universities = pgTable(
     uniqueIndex("universities_slug_idx").on(t.slug),
     index("universities_country_idx").on(t.countryCode),
     index("universities_qs_idx").on(t.qsRank),
+    index("universities_region_idx").on(t.countryCode, t.region, t.hub),
   ],
 );
 
@@ -63,11 +73,17 @@ export const programs = pgTable(
     field: text("field").notNull(),
     level: text("level").notNull(),
     degree: text("degree").notNull(),
+    subjects: text("subjects").array().notNull().default(sql`'{}'::text[]`),
+    degreeNorm: text("degree_norm"),
+    costInr: numeric("cost_inr", { mode: "number" }),
+    admissionBases: text("admission_bases").array().notNull().default(sql`'{}'::text[]`),
+    tests: text("tests").array().notNull().default(sql`'{}'::text[]`),
     data: jsonb("data").$type<Program>().notNull(),
   },
   (t) => [
     uniqueIndex("programs_uni_slug_idx").on(t.universityId, t.slug),
     index("programs_field_idx").on(t.field),
+    index("programs_subjects_idx").using("gin", t.subjects),
   ],
 );
 

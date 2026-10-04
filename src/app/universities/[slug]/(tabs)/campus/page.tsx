@@ -6,6 +6,11 @@ import { getUniversity } from "@/lib/unis/repo";
 
 type Props = { params: Promise<{ slug: string }> };
 
+const FACILITY_GROUPS: [string, string][] = [
+  ["library", "Libraries"], ["lab", "Labs & research facilities"], ["it", "IT & computing"], ["sports", "Sports"], ["hostel", "Hostels"],
+  ["dining", "Dining"], ["health", "Health & wellbeing"], ["transport", "Transport"], ["auditorium", "Auditoriums & venues"], ["other", "Other facilities"],
+];
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const row = await getUniversity((await params).slug);
   return { title: row ? `${row.name} campus, facilities & hostels` : "Campus" };
@@ -25,7 +30,8 @@ export default async function CampusPage({ params }: Props) {
         <dl className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           <div className="glass p-4">
             <dt className="meta text-paper/50">Location</dt>
-            <dd className="mt-1">{u.city}, {u.region}, {u.country}</dd>
+            <dd className="mt-1">{u.locality ? `${u.locality}, ` : ""}{u.city}, {u.region}, {u.country}</dd>
+            {u.hub && u.hub !== u.city && <dd className="mt-1 text-[0.8125rem] text-paper/60">Listed under {u.hub} on Edugate</dd>}
             {d.address && <dd className="mt-1 text-[0.8125rem] text-paper/60">{d.address}</dd>}
           </div>
           <div className="glass p-4">
@@ -59,21 +65,41 @@ export default async function CampusPage({ params }: Props) {
         )}
       </Block>
 
-      <Block title="Facilities">
+      <Block title="Facilities" note="Libraries, labs, sports, dining, health and transport, as the institution describes them.">
         {d.facilities.length === 0 ? (
           <NotYet>No facilities documented on Edugate yet.</NotYet>
         ) : (
-          <ul className="grid gap-4 sm:grid-cols-2">
-            {d.facilities.map((f) => (
-              <li key={f.name} className="glass p-4">
-                <p className="font-medium">
-                  <Sourced sourceId={f.sourceId} sources={S}>{f.name}</Sourced>
-                </p>
-                {f.description && <p className="mt-1 text-[0.875rem] text-paper/70">{f.description}</p>}
-              </li>
-            ))}
-          </ul>
+          <div className="space-y-8">
+            {FACILITY_GROUPS.map(([cat, label]) => {
+              const list = d.facilities.filter((f) => (f.category ?? "other") === cat);
+              if (!list.length) return null;
+              return (
+                <div key={cat}>
+                  <h3 className="meta mb-3 text-paper/50">{label}</h3>
+                  <ul className="grid gap-4 sm:grid-cols-2">
+                    {list.map((f) => (
+                      <li key={f.name} className="glass p-4">
+                        <p className="font-medium">
+                          <Sourced sourceId={f.sourceId} sources={S}>{f.name}</Sourced>
+                        </p>
+                        {f.description && <p className="mt-1 text-[0.875rem] text-paper/70">{f.description}</p>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
         )}
+      </Block>
+
+      <Block title="Contact">
+        <dl className="grid gap-4 text-[0.9375rem] sm:grid-cols-2 lg:grid-cols-4">
+          <div className="glass p-4"><dt className="meta text-paper/50">Website</dt><dd className="mt-1 break-words"><a href={u.website} target="_blank" rel="noopener noreferrer" className="text-cyan hover:underline">{u.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}</a></dd></div>
+          {u.admissionsUrl && <div className="glass p-4"><dt className="meta text-paper/50">Admissions</dt><dd className="mt-1"><a href={u.admissionsUrl} target="_blank" rel="noopener noreferrer" className="text-cyan hover:underline">Admissions site ↗</a></dd></div>}
+          {u.contact?.phone && <div className="glass p-4"><dt className="meta text-paper/50">Phone</dt><dd className="mt-1"><Sourced sourceId={u.contact.sourceId} sources={S}>{u.contact.phone}</Sourced></dd></div>}
+          {u.contact?.email && <div className="glass p-4"><dt className="meta text-paper/50">Email</dt><dd className="mt-1 break-words"><Sourced sourceId={u.contact.sourceId} sources={S}>{u.contact.email}</Sourced></dd></div>}
+        </dl>
       </Block>
 
       <Block title="Schools & departments">

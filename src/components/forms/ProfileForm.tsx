@@ -4,6 +4,9 @@ import { useActionState, useState } from "react";
 import { saveProfile, type ProfileState } from "@/lib/user/actions";
 import { CURRICULA, CURRICULUM_LABELS, WEIGHT_KEYS, WEIGHT_LABELS, type StudentProfile } from "@/lib/profile/schema";
 import { COUNTRIES } from "@/lib/profile/countries";
+import { INDIA_STATE_ORDER, stateLabel } from "@/lib/unis/geo";
+
+const INDIA_STATES = [...INDIA_STATE_ORDER, "Andaman and Nicobar Islands", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Goa", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Madhya Pradesh", "Odisha", "Puducherry", "Uttarakhand"];
 import { FIELD_NAMES } from "@/lib/unis/filters";
 import { inputCls, labelCls, primaryBtnCls } from "./styles";
 
@@ -81,6 +84,24 @@ export function ProfileForm({ profile }: { profile: StudentProfile }) {
             </label>
           ))}
         </div>
+        <p className={`${labelCls} mt-5`}>Indian entrance tests</p>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+          {(
+            [
+              ["JEE_MAIN", "JEE Main percentile", 0, 100, 0.01],
+              ["JEE_ADV", "JEE Advanced CRL rank", 1, 500000, 1],
+              ["NEET", "NEET score", 0, 720, 1],
+              ["CUET", "CUET total score", 0, 1000, 0.01],
+              ["CLAT", "CLAT rank", 1, 100000, 1],
+              ["IPMAT", "IPMAT score", 0, 500, 1],
+            ] as const
+          ).map(([k, label, min, max, step]) => (
+            <label key={k} className="block">
+              <span className={labelCls}>{label}</span>
+              <input name={k} type="number" min={min} max={max} step={step} defaultValue={profile.tests[k] ?? ""} className={inputCls} />
+            </label>
+          ))}
+        </div>
       </Fieldset>
 
       <Fieldset legend="What you want" hint="Fields, countries and a yearly budget for tuition.">
@@ -104,9 +125,23 @@ export function ProfileForm({ profile }: { profile: StudentProfile }) {
             ))}
           </div>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div>
+          <p className={labelCls}>Indian states you&apos;d consider</p>
+          <div className="flex flex-wrap gap-2">
+            {INDIA_STATES.map((st) => (
+              <label key={st} className="flex items-center gap-1.5 rounded-full border border-paper/20 px-3 py-1.5 text-[0.8125rem] has-[:checked]:border-electric has-[:checked]:text-electric">
+                <input type="checkbox" name="preferredStates" value={st} defaultChecked={profile.preferredStates.includes(st)} className="sr-only" /> {stateLabel(st)}
+              </label>
+            ))}
+          </div>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-3">
           <label className="block">
-            <span className={labelCls}>Max tuition per year (US$)</span>
+            <span className={labelCls}>Max tuition per year (₹)</span>
+            <input name="budgetInrPerYear" type="number" min={0} step={10000} defaultValue={profile.budgetInrPerYear ?? ""} placeholder="e.g. 300000" className={inputCls} />
+          </label>
+          <label className="block">
+            <span className={labelCls}>…or in US$ (used if ₹ is blank)</span>
             <input name="budgetUsdPerYear" type="number" min={0} step={1000} defaultValue={profile.budgetUsdPerYear ?? ""} placeholder="e.g. 30000" className={inputCls} />
           </label>
           <label className="block">

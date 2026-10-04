@@ -28,3 +28,18 @@ export function toUsd(amount: number, currency: string): number | null {
   const rate = PER_USD[currency];
   return rate ? amount / rate : null;
 }
+
+export function toInr(amount: number, currency: string): number | null {
+  const usd = toUsd(amount, currency);
+  return usd == null ? null : usd * PER_USD.INR;
+}
+
+/** A money range expressed per academic year, or null when the period can't be annualised honestly (per-credit fees). */
+export function perYear(r: { min: number; period: string } | null, durationYears: number | null): number | null {
+  if (!r) return null;
+  if (r.period === "year") return r.min;
+  if (r.period === "semester") return r.min * 2;
+  if (r.period === "total") return durationYears ? r.min / durationYears : null;
+  if (r.period === "month") return r.min * 12;
+  return null;
+}

@@ -99,20 +99,28 @@ export const Deadline = z.object({
   confidence: Confidence,
 });
 
+export const ScholarshipKind = z.enum([
+  "merit", "need", "international", "domestic", "full", "partial", "automatic", "competitive", "departmental", "external",
+  "sports", "women", "government", "category-based", "first-generation", "minority",
+]);
+
 export const ScholarshipEntry = z.object({
   name: z.string().min(1),
-  kind: z.array(z.enum(["merit", "need", "international", "domestic", "full", "partial", "automatic", "competitive", "departmental", "external"])).min(1),
+  kind: z.array(ScholarshipKind).min(1),
   eligibility: z.string().min(1),
-  coverage: z.string().nullable(),
+  coverage: z.string().nullable(), // amount / percentage as published: "₹50,000 a year", "100% tuition"
   deadline: z.string().nullable(),
   renewable: z.boolean().nullable(),
   url: z.string().url().nullable(),
   sourceId: z.string().nullable(),
   confidence: Confidence,
+  provider: z.enum(["institution", "government", "external"]).nullable().default(null),
+  applicationProcess: z.string().nullable().default(null),
+  renewalConditions: z.string().nullable().default(null),
 });
 
 export const Opportunity = z.object({
-  category: z.enum(["research", "entrepreneurship", "networking", "internships", "careers", "international", "student-life"]),
+  category: z.enum(["research", "entrepreneurship", "networking", "internships", "careers", "international", "student-life", "exchange", "industry"]),
   name: z.string().min(1),
   description: z.string().min(1),
   url: z.string().url().nullable(),
@@ -146,6 +154,8 @@ export const OutcomeRecord = z.object({
   medianSalary: z.number().nullable(),
   averageSalary: z.number().nullable(),
   highestSalary: z.number().nullable(),
+  lowestSalary: z.number().nullable().default(null),
+  sectors: z.array(z.object({ sector: z.string().min(1), share: z.string().min(1) })).default([]), // "IT services", "42%"
   currency: Currency,
   sourceId: z.string().nullable(),
   confidence: Confidence,
@@ -190,6 +200,21 @@ export const FeeItem = z.object({
   notes: z.string().optional(),
 });
 
+export const FacilityCategory = z.enum(["library", "lab", "sports", "hostel", "dining", "health", "transport", "it", "auditorium", "other"]);
+
+/** Clubs, societies, festivals and student services, each named as the institution names it. */
+export const StudentLifeItem = z.object({
+  category: z.enum([
+    "club", "society", "festival", "sport", "mun", "entrepreneurship", "investment", "cultural", "service",
+    "exchange", "student-support", "career-services", "other",
+  ]),
+  name: z.string().min(1),
+  description: z.string().nullable(),
+  sourceId: z.string().nullable(),
+});
+
+export const Recruiters = z.object({ names: z.array(z.string().min(1)).min(1), year: z.string().nullable(), sourceId: z.string().nullable(), confidence: Confidence });
+
 const NOT_VERIFIED = { value: null, sourceId: null, confidence: "requires-verification" as const, asOf: null };
 
 export const DetailsSchema = z.object({
@@ -199,18 +224,73 @@ export const DetailsSchema = z.object({
   address: z.string().nullable().default(null),
   schools: z.array(z.string()).default([]), // faculties / schools / departments as officially named
   schoolsSourceId: z.string().nullable().default(null),
-  facilities: z.array(z.object({ name: z.string().min(1), description: z.string().nullable(), sourceId: z.string().nullable() })).default([]),
+  facilities: z
+    .array(z.object({ name: z.string().min(1), description: z.string().nullable(), sourceId: z.string().nullable(), category: FacilityCategory.default("other") }))
+    .default([]),
+  studentLife: z.array(StudentLifeItem).default([]),
   admissionProcess: z.array(z.object({ step: z.string().min(1), detail: z.string().min(1), sourceId: z.string().nullable() })).default([]),
   admissionStats: z.array(AdmissionStat).default([]),
   cutoffs: z.array(Cutoff).default([]),
   feeBreakdown: z.array(FeeItem).default([]),
   outcomes: z.array(OutcomeRecord).default([]),
-  recruiters: z
-    .object({ names: z.array(z.string().min(1)).min(1), year: z.string().nullable(), sourceId: z.string().nullable(), confidence: Confidence })
-    .nullable()
-    .default(null),
+  recruiters: Recruiters.nullable().default(null),
   alumni: z.array(z.object({ name: z.string().min(1), note: z.string().min(1), sourceId: z.string().nullable() })).default([]),
 });
+
+/** How a student gets into one program, in the institution's own terms. */
+export const AdmissionBasis = z.enum([
+  "merit", // marks-based merit list (Class XII / board marks)
+  "entrance", // a written entrance test (national, state or institutional)
+  "interview",
+  "group-discussion",
+  "portfolio",
+  "audition",
+  "holistic", // application review without a single cut-off (essays, activities)
+  "counselling", // centralised seat allocation (JoSAA, TNEA, NEET counselling)
+]);
+
+export const ProgramAdmission = z.object({
+  basis: z.array(AdmissionBasis),
+  eligibility: z.string().nullable(), // the official wording, condensed
+  minimumPercent: z.string().nullable(), // "50% in Class XII (45% SC/ST)"
+  requiredSubjects: z.array(z.string().min(1)), // Class XI–XII subjects
+  entranceTests: z.array(z.string().min(1)), // "CUET (UG)", "JEE Main", "TNEA (no test; Class XII marks)"
+  reservation: z.string().nullable(), // community/category reservation as published
+  international: z.string().nullable(), // foreign nationals / NRI / OCI route
+  applicationFee: z.string().nullable(),
+  process: z.array(z.object({ step: z.string().min(1), detail: z.string().min(1) })),
+  sourceId: z.string().nullable(),
+  confidence: Confidence,
+  asOf: z.string().nullable(),
+  notes: z.string().optional(),
+});
+
+export const InstitutionType = z.enum([
+  "central-university",
+  "state-university",
+  "state-private-university",
+  "deemed-university",
+  "institute-of-national-importance",
+  "autonomous-college", // affiliated college with academic autonomy
+  "affiliated-college",
+  "constituent-college",
+  "standalone-institute",
+  "foreign-university",
+]);
+
+export const Accreditation = z.object({
+  body: z.enum(["NAAC", "NBA", "NIRF", "AICTE", "UGC", "NMC", "BCI", "COA", "PCI", "INC", "NCTE", "AACSB", "EQUIS", "AMBA", "ABET", "OTHER"]),
+  label: z.string().nullable(), // "UGC 2(f) & 12(B)", "NBA — B.E. CSE"
+  grade: z.string().nullable(), // NAAC "A++" / CGPA "3.71"
+  cycle: z.string().nullable(), // NAAC "Cycle 4"
+  validUntil: z.string().nullable(),
+  sourceId: z.string().nullable(),
+  confidence: Confidence,
+  asOf: z.string().nullable(),
+});
+
+/** Only images whose licence permits reuse, credited. Empty until such an image is sourced. */
+export const MediaImage = z.object({ url: z.string().url(), alt: z.string().min(1), credit: z.string().min(1), license: z.string().min(1), sourceUrl: z.string().url() });
 
 export const CurriculumYear = z.object({
   year: z.number().int().min(1).max(7),
@@ -221,6 +301,10 @@ export const FieldKey = z.enum([
   "economics", "business", "finance", "computer-science", "engineering", "medicine", "law", "psychology",
   "mathematics", "physics", "biology", "chemistry", "political-science", "international-relations",
   "humanities", "architecture", "design", "media", "social-sciences", "environmental", "liberal-arts",
+  // Added for Indian undergraduate programmes (see src/lib/unis/taxonomy.ts).
+  "commerce", "data-science", "statistics", "sports-management", "languages-literature", "history", "sociology",
+  "social-work", "biotechnology", "geography", "hospitality", "pharmacy", "nursing", "allied-health",
+  "agriculture", "education", "visual-arts", "performing-arts", "philosophy",
 ]);
 
 export const ProgramSchema = z.object({
@@ -240,6 +324,27 @@ export const ProgramSchema = z.object({
   tests: z.array(TestRequirement),
   english: z.array(EnglishRequirement), // empty → use university-level
   fees: sourced(MoneyRange).nullable(), // program-specific fees when they differ
+
+  // Depth added for the course explorer. All optional: absent means "not verified", never "none".
+  alsoFields: z.array(FieldKey).default([]), // secondary subjects beyond what the taxonomy infers from the name
+  specialization: z.string().nullable().default(null),
+  department: z.string().nullable().default(null),
+  campus: z.string().nullable().default(null),
+  stream: z.string().nullable().default(null), // Indian colleges: "Aided (Shift I)", "Self-financed (Shift II)"
+  mode: z.enum(["full-time", "part-time", "online", "distance", "hybrid"]).nullable().default(null),
+  intake: sourced(z.number()).default(NOT_VERIFIED),
+  admission: ProgramAdmission.nullable().default(null),
+  deadlines: z.array(Deadline).default([]),
+  feeBreakdown: z.array(FeeItem).default([]),
+  electives: z.array(z.string().min(1)).default([]),
+  opportunities: z.array(Opportunity).default([]), // internships, exchange, research specific to this program
+  careers: z
+    .object({ paths: z.array(z.string().min(1)), higherStudy: z.array(z.string().min(1)), sourceId: z.string().nullable(), confidence: Confidence })
+    .nullable()
+    .default(null),
+  outcomes: z.array(OutcomeRecord).default([]),
+  recruiters: Recruiters.nullable().default(null),
+  scholarships: z.array(z.string().min(1)).default([]), // names of the institution's scholarships that apply
 });
 
 export const UniversitySchema = z
@@ -252,8 +357,11 @@ export const UniversitySchema = z
     region: z.string().min(1),
     city: z.string().min(1),
     campuses: z.array(z.string()),
-    control: z.enum(["public", "private", "public-private"]),
-    category: z.enum(["research-university", "liberal-arts", "technical", "business-school", "specialist", "polytechnic", "institute-of-national-importance"]),
+    control: z.enum(["public", "private", "public-private", "government-aided"]),
+    category: z.enum([
+      "research-university", "liberal-arts", "technical", "business-school", "specialist", "polytechnic", "institute-of-national-importance",
+      "arts-and-science", "medical-school", "law-school", "design-school", "multidisciplinary",
+    ]),
     founded: z.number().int().min(1000).max(2100),
     setting: z.enum(["urban", "suburban", "rural", "mixed"]).nullable(),
     languages: z.array(z.string()).min(1),
@@ -284,6 +392,20 @@ export const UniversitySchema = z
     opportunities: z.array(Opportunity),
     programs: z.array(ProgramSchema).min(1),
     details: DetailsSchema.default(DetailsSchema.parse({})),
+
+    // Indian higher-education structure. Optional so international records stay valid.
+    institutionType: InstitutionType.nullable().default(null),
+    hub: z.string().nullable().default(null), // the city students search under, when the campus sits outside it ("Chennai" for Kattankulathur)
+    locality: z.string().nullable().default(null), // neighbourhood / town: "Tambaram", "Nungambakkam"
+    gender: z.enum(["co-ed", "women", "men"]).nullable().default(null),
+    affiliation: sourced(z.string()).default(NOT_VERIFIED), // "University of Madras", "Anna University"
+    accreditation: z.array(Accreditation).default([]),
+    minorityStatus: sourced(z.string()).default(NOT_VERIFIED), // "Christian (Jesuit) minority institution"
+    contact: z
+      .object({ phone: z.string().nullable(), email: z.string().nullable(), sourceId: z.string().nullable() })
+      .nullable()
+      .default(null),
+    media: z.object({ logo: MediaImage.nullable(), photos: z.array(MediaImage) }).default({ logo: null, photos: [] }),
     sources: z.array(SourceSchema).min(1),
     lastVerified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   })
@@ -319,3 +441,8 @@ export type CurrencyCode = z.infer<typeof Currency>;
 export type Details = z.infer<typeof DetailsSchema>;
 export type Outcome = z.infer<typeof OutcomeRecord>;
 export type CutoffItem = z.infer<typeof Cutoff>;
+export type ProgramAdmissionInfo = z.infer<typeof ProgramAdmission>;
+export type AdmissionBasisKey = z.infer<typeof AdmissionBasis>;
+export type InstitutionTypeKey = z.infer<typeof InstitutionType>;
+export type AccreditationItem = z.infer<typeof Accreditation>;
+export type StudentLife = z.infer<typeof StudentLifeItem>;

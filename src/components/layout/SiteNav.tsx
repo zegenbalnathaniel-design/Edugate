@@ -7,7 +7,8 @@ import { Button } from "@/components/primitives/Button";
 import { AccountLink } from "./AccountLink";
 
 const NAV = [
-  { label: "Universities", href: "/universities" },
+  { label: "Colleges", href: "/explore" },
+  { label: "Courses", href: "/courses" },
   { label: "Compare", href: "/compare" },
   { label: "Scholarships", href: "/scholarships" },
   { label: "Passion Projector", href: "/passion-projector" },

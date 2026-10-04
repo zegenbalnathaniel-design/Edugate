@@ -1,98 +1,159 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Block, DataTable, NotYet } from "@/components/unis/Blocks";
+import { Block, NotYet } from "@/components/unis/Blocks";
 import { Sourced } from "@/components/unis/Sourced";
-import { CURRICULUM_LABELS } from "@/lib/profile/schema";
-import { FIELD_NAMES } from "@/lib/unis/filters";
-import { moneyRange, TEST_POLICY_LABEL, usdApprox } from "@/lib/unis/format";
+import { programCostInr } from "@/lib/unis/extract";
+import { BASIS_LABEL, FIELD_NAMES } from "@/lib/unis/filters";
+import { inrCompact, moneyRange } from "@/lib/unis/format";
 import { getUniversity } from "@/lib/unis/repo";
+import type { Program } from "@/lib/unis/schema";
+import { DEGREES, normalizeDegree, programSubjects } from "@/lib/unis/taxonomy";
 
-type Props = { params: Promise<{ slug: string }> };
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps<"/universities/[slug]/courses">): Promise<Metadata> {
   const row = await getUniversity((await params).slug);
-  return { title: row ? `${row.name} courses & fees` : "Courses & fees" };
+  return { title: row ? `${row.name} courses — every programme, eligibility & fees` : "Courses" };
 }
 
-export default async function CoursesPage({ params }: Props) {
+const LEVEL_LABEL: Record<Program["level"], string> = { bachelors: "Undergraduate", integrated: "Integrated (UG + PG)", masters: "Postgraduate" };
+const box = "rounded-[var(--radius-md)] border border-current/20 bg-navy-800 px-3 py-2 text-[0.875rem]";
+
+/**
+ * Every programme the institution offers that Edugate has verified, grouped
+ * Level → Degree → Programme (e.g. Undergraduate → B.Com → B.Com Corporate
+ * Secretaryship), searchable and comparable.
+ */
+export default async function CoursesPage({ params, searchParams }: PageProps<"/universities/[slug]/courses">) {
   const { slug } = await params;
+  const sp = await searchParams;
   const row = await getUniversity(slug);
   if (!row) notFound();
   const u = row.data;
   const S = u.sources;
-  const ct = u.costs;
-  const fees = u.details.feeBreakdown;
+  const q = typeof sp.q === "string" ? sp.q.trim().toLowerCase().slice(0, 80) : "";
+  const deg = typeof sp.degree === "string" ? sp.degree : "";
+  const subj = typeof sp.subject === "string" ? sp.subject : "";
+  const stream = typeof sp.stream === "string" ? sp.stream : "";
+
+  const all = u.programs.map((p) => ({ p, degree: normalizeDegree(p.degree, p.level), subjects: programSubjects(p) }));
+  const list = all.filter(
+    (x) =>
+      (!q || `${x.p.name} ${x.p.specialization ?? ""} ${x.p.department ?? ""}`.toLowerCase().includes(q)) &&
+      (!deg || x.degree === deg) &&
+      (!subj || x.subjects.includes(subj as never)) &&
+      (!stream || x.p.stream === stream),
+  );
+  const degrees = DEGREES.filter((d) => all.some((x) => x.degree === d));
+  const subjects = [...new Set(all.flatMap((x) => x.subjects))].sort((a, b) => (FIELD_NAMES[a] ?? a).localeCompare(FIELD_NAMES[b] ?? b));
+  const streams = [...new Set(all.map((x) => x.p.stream).filter((s): s is string => !!s))];
+  const levels = (["bachelors", "integrated", "masters"] as const).filter((l) => list.some((x) => x.p.level === l));
+  const base = `/universities/${u.slug}`;
 
   return (
-    <div className="space-y-14">
+    <div className="space-y-12">
       <Block
-        title={`Courses & fees (${u.programs.length})`}
-        note="The courses Edugate has verified in detail. The university offers more — see its official course list."
+        title={`All courses (${u.programs.length})`}
+        note={
+          <>
+            Every programme Edugate has verified at {u.name}, under its official name. Grouped by level and degree; tick any to compare them — with each other or with courses elsewhere.
+            {u.website && <> The institution&apos;s own list is the final word.</>}
+          </>
+        }
       >
-        <DataTable
-          caption="Courses, fees and eligibility"
-          minWidth={820}
-          head={["Course", "Degree · duration", "Tuition", "Eligibility published for", "Tests"]}
-          rows={u.programs.map((p) => {
-            const fee = p.fees ?? ct.internationalTuition;
-            return [
-              <Link key="n" href={`/universities/${u.slug}/programs/${p.slug}`} className="hover:text-cyan">
-                {p.name}
-                <span className="block text-[0.75rem] font-normal text-paper/50">{FIELD_NAMES[p.field]}{p.school ? ` · ${p.school}` : ""}</span>
-              </Link>,
-              `${p.degree}${p.durationYears ? ` · ${p.durationYears} yrs` : ""}`,
-              <Sourced key="f" sourceId={fee.sourceId} sources={S} confidence={fee.confidence} asOf={fee.asOf} notes={fee.notes}>
-                {moneyRange(fee.value, ct.currency)}
-                <span className="block text-[0.75rem] text-paper/50">{p.fees ? "Course-specific" : "International, university-wide"}</span>
-              </Sourced>,
-              p.requirements.filter((r) => r.accepted !== false).map((r) => CURRICULUM_LABELS[r.curriculum]).join(", ") || <span className="text-paper/50">See course page</span>,
-              p.tests.length ? p.tests.map((t) => `${t.test}: ${TEST_POLICY_LABEL[t.policy].toLowerCase()}`).join("; ") : <span className="text-paper/50">—</span>,
-            ];
+        <form method="get" className="glass grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-[1fr_10rem_12rem_12rem_auto]" aria-label="Filter courses">
+          <input name="q" defaultValue={q} placeholder="Search courses, e.g. Corporate Secretaryship" className={box} aria-label="Search courses" />
+          <select name="degree" defaultValue={deg} className={box} aria-label="Degree">
+            <option value="">All degrees</option>
+            {degrees.map((d) => <option key={d} value={d}>{d}</option>)}
+          </select>
+          <select name="subject" defaultValue={subj} className={box} aria-label="Subject">
+            <option value="">All subjects</option>
+            {subjects.map((s) => <option key={s} value={s}>{FIELD_NAMES[s] ?? s}</option>)}
+          </select>
+          {streams.length > 1 ? (
+            <select name="stream" defaultValue={stream} className={box} aria-label="Stream">
+              <option value="">All streams</option>
+              {streams.map((s) => <option key={s} value={s}>{s}</option>)}
+            </select>
+          ) : <span className="hidden lg:block" />}
+          <div className="flex gap-2">
+            <button className="h-10 rounded-full bg-electric px-5 text-[0.875rem] font-semibold text-[var(--on-electric)]">Filter</button>
+            {(q || deg || subj || stream) && <Link href={`${base}/courses`} className="inline-flex h-10 items-center rounded-full border border-paper/25 px-4 text-[0.875rem]">Clear</Link>}
+          </div>
+        </form>
+      </Block>
+
+      {list.length === 0 ? (
+        <NotYet>No course here matches those filters.</NotYet>
+      ) : (
+        <form action="/compare/programs" method="get" className="space-y-12">
+          <div className="flex justify-end">
+            <button className="rounded-full border border-paper/25 px-4 py-2 text-[0.8125rem] hover:border-paper/60">Compare selected (up to 5) →</button>
+          </div>
+          {levels.map((level) => {
+            const inLevel = list.filter((x) => x.p.level === level);
+            const byDegree = DEGREES.map((d) => ({ d, items: inLevel.filter((x) => x.degree === d) })).filter((g) => g.items.length);
+            return (
+              <section key={level} aria-labelledby={`lvl-${level}`}>
+                <h2 id={`lvl-${level}`} className="font-display text-[1.5rem]">
+                  {LEVEL_LABEL[level]} <span className="text-paper/45">({inLevel.length})</span>
+                </h2>
+                <div className="mt-5 space-y-6">
+                  {byDegree.map(({ d, items }) => (
+                    <details key={d} open className="glass group">
+                      <summary className="flex cursor-pointer items-baseline justify-between gap-3 px-5 py-4">
+                        <span className="font-display text-[1.125rem]">{d === "Other" ? "Other degrees" : d}</span>
+                        <span className="text-[0.8125rem] text-paper/50">{items.length} programme{items.length === 1 ? "" : "s"}</span>
+                      </summary>
+                      <ul className="border-t border-paper/10 px-5">
+                        {items.map(({ p }) => {
+                          const fee = p.fees ?? (u.countryCode === "IN" ? u.costs.domesticTuition : u.costs.internationalTuition);
+                          const inr = programCostInr(u, p);
+                          return (
+                            <li key={p.slug} className="grid gap-3 border-b border-paper/8 py-4 last:border-0 md:grid-cols-[auto_1fr_9rem_10rem_11rem] md:items-start">
+                              <input type="checkbox" name="p" value={`${u.slug}/${p.slug}`} aria-label={`Compare ${p.name}`} className="mt-1.5 size-4 accent-[var(--color-electric)]" />
+                              <div className="min-w-0">
+                                <Link href={`${base}/programs/${p.slug}`} className="font-medium hover:text-cyan">{p.name}</Link>
+                                {p.specialization && <span className="text-paper/60"> · {p.specialization}</span>}
+                                <p className="mt-0.5 text-[0.75rem] text-paper/50">
+                                  {[p.department ?? p.school, p.stream, p.campus, p.mode].filter(Boolean).join(" · ") || FIELD_NAMES[p.field]}
+                                </p>
+                              </div>
+                              <div className="text-[0.8125rem]">
+                                <span className="meta block text-paper/45">Duration · seats</span>
+                                {p.durationYears ? `${p.durationYears} yrs` : "—"}
+                                {p.intake.value != null && (
+                                  <> · <Sourced sourceId={p.intake.sourceId} sources={S} confidence={p.intake.confidence} asOf={p.intake.asOf}>{p.intake.value}</Sourced></>
+                                )}
+                              </div>
+                              <div className="text-[0.8125rem]">
+                                <span className="meta block text-paper/45">Tuition</span>
+                                {fee.value ? (
+                                  <Sourced sourceId={fee.sourceId} sources={S} confidence={fee.confidence} asOf={fee.asOf} notes={fee.notes}>
+                                    {moneyRange(fee.value, u.costs.currency)}
+                                  </Sourced>
+                                ) : (
+                                  <span className="text-paper/50">Not verified</span>
+                                )}
+                                {!p.fees && fee.value && <span className="block text-[0.6875rem] text-paper/45">Institution-wide figure</span>}
+                                {u.costs.currency !== "INR" && inr != null && <span className="block text-[0.6875rem] text-paper/45">≈ {inrCompact(inr)}/yr</span>}
+                              </div>
+                              <div className="text-[0.8125rem]">
+                                <span className="meta block text-paper/45">Admission</span>
+                                {p.admission?.basis.length ? p.admission.basis.map((b) => BASIS_LABEL[b]).join(", ") : p.tests.length ? p.tests.map((t) => t.test).join(", ") : <span className="text-paper/50">See course</span>}
+                              </div>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            );
           })}
-        />
-      </Block>
-
-      <Block title="Tuition & living costs" note="Before scholarships or aid. Amounts in the university's own currency, with a dated approximate US$ conversion.">
-        <dl className="grid gap-5 sm:grid-cols-3">
-          {(
-            [
-              ["International tuition", ct.internationalTuition],
-              ["Domestic tuition", ct.domesticTuition],
-              ["Living estimate", ct.livingEstimate],
-            ] as const
-          ).map(([label, v]) => (
-            <div key={label} className="glass p-4">
-              <dt className="meta text-paper/50">{label}</dt>
-              <dd className="mt-1 tabular">
-                <Sourced sourceId={v.sourceId} sources={S} confidence={v.confidence} asOf={v.asOf} notes={v.notes}>
-                  {moneyRange(v.value, ct.currency)}
-                </Sourced>
-                {v.value && usdApprox(v.value, ct.currency) && <span className="block text-[0.75rem] text-paper/45">{usdApprox(v.value, ct.currency)}</span>}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </Block>
-
-      <Block title="Fee breakdown" note="Itemised as the university publishes it.">
-        {fees.length === 0 ? (
-          <NotYet>No itemised fee schedule verified yet. The tuition figures above are the verified totals; check the official fee page for hostel, mess and other charges.</NotYet>
-        ) : (
-          <DataTable
-            caption="Fee breakdown"
-            head={["Item", "Applies to", "Amount", "Approx. US$"]}
-            rows={fees.map((f) => [
-              f.item,
-              f.audience === "all" ? "All students" : f.audience === "domestic" ? "Domestic" : "International",
-              <Sourced key="a" sourceId={f.sourceId} sources={S} confidence={f.confidence} asOf={f.asOf} notes={f.notes}>
-                {moneyRange(f.amount, f.currency)}
-              </Sourced>,
-              <span key="u" className="text-paper/55">{usdApprox(f.amount, f.currency) ?? "—"}</span>,
-            ])}
-          />
-        )}
-      </Block>
+        </form>
+      )}
     </div>
   );
 }

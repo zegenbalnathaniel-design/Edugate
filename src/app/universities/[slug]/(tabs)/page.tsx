@@ -9,7 +9,9 @@ import { Sourced } from "@/components/unis/Sourced";
 import { getCurrentUser } from "@/lib/auth/session";
 import { FIELD_NAMES } from "@/lib/unis/filters";
 import { CONTROL_LABEL, moneyRange, ORG_LABEL, salary, TEST_POLICY_LABEL } from "@/lib/unis/format";
+import { INSTITUTION_TYPE_LABEL } from "@/lib/unis/geo";
 import { getUniversity } from "@/lib/unis/repo";
+import { selectivity, SELECTIVITY_LABEL } from "@/lib/unis/selectivity";
 import type { ConfidenceLevel } from "@/lib/unis/schema";
 import { getProfile } from "@/lib/user/repo";
 
@@ -63,6 +65,22 @@ export default async function UniversityOverview({ params }: Props) {
   const rows: [string, ReactNode][] = [
     ["Established", u.founded],
     ["Ownership", `${CONTROL_LABEL[u.control]} · ${u.category.replaceAll("-", " ")}`],
+    ...(u.institutionType ? ([["Institution type", INSTITUTION_TYPE_LABEL[u.institutionType]]] as [string, ReactNode][]) : []),
+    ...(u.affiliation.value || u.countryCode === "IN" ? ([["Affiliation", num(u.affiliation)]] as [string, ReactNode][]) : []),
+    ...(u.accreditation.length
+      ? ([[
+          "Accreditation & approvals",
+          <span key="acc" className="flex flex-wrap gap-x-4 gap-y-1">
+            {u.accreditation.map((a) => (
+              <Sourced key={`${a.body}${a.label}`} sourceId={a.sourceId} sources={S} confidence={a.confidence} asOf={a.asOf}>
+                {a.body === "OTHER" ? a.label : a.body}{a.grade ? ` ${a.grade}` : ""}{a.cycle ? ` (${a.cycle})` : ""}{a.body !== "OTHER" && a.label ? ` — ${a.label}` : ""}
+              </Sourced>
+            ))}
+          </span>,
+        ]] as [string, ReactNode][])
+      : []),
+    ...(u.gender && u.gender !== "co-ed" ? ([["Campus", u.gender === "women" ? "Women's college" : "Men's college"]] as [string, ReactNode][]) : []),
+    ...(u.minorityStatus.value ? ([["Minority status", num(u.minorityStatus)]] as [string, ReactNode][]) : []),
     ["Location", `${u.city}, ${u.region}, ${u.country}${u.campuses.length > 1 ? ` (${u.campuses.length} campuses)` : ""}`],
     ["Campus size", d.campusAreaAcres.value != null ? src(d.campusAreaAcres, `${d.campusAreaAcres.value.toLocaleString("en-US")} acres`) : num(d.campusAreaAcres)],
     ["Students", num(u.stats.totalStudents)],
@@ -92,6 +110,17 @@ export default async function UniversityOverview({ params }: Props) {
     ["Tuition, international", src(ct.internationalTuition, moneyRange(ct.internationalTuition.value, ct.currency))],
     ["Tuition, domestic", src(ct.domesticTuition, moneyRange(ct.domesticTuition.value, ct.currency))],
   ];
+  const sel = selectivity(u);
+  rows.push([
+    "Selectivity",
+    sel ? (
+      <Sourced key="sel" sourceId={sel.sourceId} sources={S} asOf={sel.year}>
+        {SELECTIVITY_LABEL[sel.band]} <span className="text-paper/55">({sel.reason})</span>
+      </Sourced>
+    ) : (
+      <span className="text-paper/50">Not enough published data</span>
+    ),
+  ]);
   if (stat?.acceptanceRate)
     rows.push([
       "Acceptance rate",
@@ -123,7 +152,7 @@ export default async function UniversityOverview({ params }: Props) {
 
         <Block title={`Courses on Edugate (${u.programs.length})`}>
           <div className="grid gap-4 sm:grid-cols-2">
-            {u.programs.map((p) => (
+            {u.programs.slice(0, 6).map((p) => (
               <Link key={p.slug} href={`${base}/programs/${p.slug}`} className="glass glass-interactive block p-5">
                 <p className="meta text-paper/50">
                   {FIELD_NAMES[p.field]} · {p.degree}
@@ -136,7 +165,9 @@ export default async function UniversityOverview({ params }: Props) {
             ))}
           </div>
           <p className="mt-4 text-[0.875rem]">
-            <Link href={`${base}/courses`} className="text-cyan hover:underline">Compare courses, fees and eligibility →</Link>
+            <Link href={`${base}/courses`} className="text-cyan hover:underline">
+              {u.programs.length > 6 ? `See all ${u.programs.length} courses` : "Compare courses, fees and eligibility"} →
+            </Link>
           </p>
         </Block>
 
@@ -186,8 +217,12 @@ export default async function UniversityOverview({ params }: Props) {
           <p className="meta text-paper/50">Jump to</p>
           <ul className="mt-3 space-y-2">
             <li><Link href={`${base}/admissions`} className="text-cyan hover:underline">How to apply, deadlines{d.cutoffs.length ? " & cutoffs" : ""} →</Link></li>
-            <li><Link href={`${base}/placements`} className="text-cyan hover:underline">Placements & graduate outcomes →</Link></li>
+            <li><Link href={`${base}/fees`} className="text-cyan hover:underline">Fees, hostel & total cost →</Link></li>
             <li><Link href={`${base}/scholarships`} className="text-cyan hover:underline">Scholarships ({u.scholarships.length}) →</Link></li>
+            <li><Link href={`${base}/placements`} className="text-cyan hover:underline">Placements & graduate outcomes →</Link></li>
+            <li><Link href={`${base}/careers`} className="text-cyan hover:underline">Careers & higher study →</Link></li>
+            <li><Link href={`${base}/student-life`} className="text-cyan hover:underline">Clubs, festivals & student life →</Link></li>
+            <li><Link href={`${base}/compare`} className="text-cyan hover:underline">Compare with similar institutions →</Link></li>
           </ul>
         </div>
       </aside>

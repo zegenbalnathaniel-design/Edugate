@@ -5,8 +5,11 @@ const GROUPS = [
   {
     title: "Platform",
     links: [
-      { label: "Universities", href: "/universities" },
-      { label: "By country", href: "/universities/countries" },
+      { label: "Explore colleges", href: "/explore" },
+      { label: "Chennai", href: "/explore/chennai" },
+      { label: "Courses", href: "/courses" },
+      { label: "All colleges (filters)", href: "/universities" },
+      { label: "Abroad", href: "/explore/abroad" },
       { label: "Compare", href: "/compare" },
       { label: "Scholarships", href: "/scholarships" },
       { label: "Passion Projector", href: "/passion-projector" },

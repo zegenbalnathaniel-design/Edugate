@@ -79,6 +79,8 @@ Per §25: **no mock tests, no exam prep, no practice tests, no test-preparation 
 | "Best match" | "Why this appears" + criteria list |
 | Personality type codes | Interest signals with evidence |
 
+**Revised 2026-10-04 (college matching).** Students asked for a match percentage and Reach / Target / Safety. Both are now shown, under two conditions that keep the contract's intent: a match % always comes with the reasons behind it and the label "fit with your priorities — not an admission chance"; Reach / Target / Safety is assigned only from published evidence (closing ranks, merit cut-offs, acceptance rates) and otherwise reads "Unclassified". "Best matches for you" is permitted as a heading over a ranked, explained list. See `09-college-intelligence.md` §7.
+
 Every recommendation surface renders an evidence trail — the specific responses or profile fields that produced it (§102). This is a data-model requirement, not a copywriting one: see `04-passion-engine.md` → Provenance.
 
 ---

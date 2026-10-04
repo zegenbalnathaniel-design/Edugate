@@ -7,8 +7,26 @@ import { getCurrentUser } from "@/lib/auth/session";
 import { getDb } from "@/lib/db";
 import { savedSearches } from "@/lib/db/schema";
 import { CURRICULA, CURRICULUM_LABELS } from "@/lib/profile/schema";
-import { activeFilterCount, FIELD_NAMES, filtersToQuery, parseFilters, QS_BANDS, SORTS } from "@/lib/unis/filters";
-import { countryFacets, latestQsEdition, searchUniversities } from "@/lib/unis/repo";
+import { activeFilterCount, BASIS_LABEL, COST_BANDS, FIELD_NAMES, filtersToQuery, parseFilters, QS_BANDS, SORTS } from "@/lib/unis/filters";
+import { INSTITUTION_TYPE_LABEL, sortStates, stateLabel, TIER_LABEL, TIERS } from "@/lib/unis/geo";
+import { countryFacets, geoFacets, latestQsEdition, searchUniversities } from "@/lib/unis/repo";
+import { SELECTIVITY, SELECTIVITY_LABEL } from "@/lib/unis/selectivity";
+import { DEGREES, TESTS } from "@/lib/unis/taxonomy";
+
+function Checks({ legend, name, options, selected }: { legend: string; name: string; options: [string, string][]; selected: string[] }) {
+  return (
+    <fieldset className="grid gap-1.5">
+      <legend className="meta mb-1.5 text-paper/55">{legend}</legend>
+      <div className="grid max-h-40 gap-1 overflow-y-auto pr-1">
+        {options.map(([v, l]) => (
+          <label key={v} className="flex items-center gap-2 text-[0.875rem]">
+            <input type="checkbox" name={name} value={v} defaultChecked={selected.includes(v)} className="accent-[var(--color-electric)]" /> {l}
+          </label>
+        ))}
+      </div>
+    </fieldset>
+  );
+}
 import { deleteSearch, saveSearch } from "@/lib/user/actions";
 
 export const metadata: Metadata = { title: "Universities" };
@@ -18,12 +36,15 @@ const box = "rounded-[var(--radius-md)] border border-current/20 bg-navy-800 px-
 export default async function UniversitiesPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const sp = await searchParams;
   const f = parseFilters(sp);
-  const [{ rows, total, unknownFeesHidden }, countries, qsEdition, user] = await Promise.all([
+  const [{ rows, total, unknownFeesHidden }, countries, qsEdition, user, geo] = await Promise.all([
     searchUniversities(f),
     countryFacets(),
     latestQsEdition(),
     getCurrentUser(),
+    geoFacets(),
   ]);
+  const inStates = sortStates([...new Set(geo.filter((g) => g.countryCode === "IN").map((g) => g.region))].map((name) => ({ name })));
+  const inCities = [...new Set(geo.filter((g) => g.countryCode === "IN").map((g) => g.hub))].sort();
   const saved = user ? await (await getDb()).select().from(savedSearches).where(eq(savedSearches.userId, user.id)).orderBy(desc(savedSearches.createdAt)) : [];
   const query = filtersToQuery(f);
   const nActive = activeFilterCount(f);
@@ -55,6 +76,9 @@ export default async function UniversitiesPage({ searchParams }: { searchParams:
                   ))}
                 </div>
               </fieldset>
+              <Checks legend="Where" name="tier" options={TIERS.map((t) => [t, TIER_LABEL[t]])} selected={f.tiers} />
+              <Checks legend="Indian state" name="state" options={inStates.map((x) => [x.name, stateLabel(x.name)])} selected={f.states} />
+              <Checks legend="City" name="city" options={inCities.map((c) => [c, c])} selected={f.hubs} />
               <fieldset className="grid gap-1.5">
                 <legend className="meta mb-1.5 text-paper/55">Country</legend>
                 <div className="grid max-h-40 gap-1 overflow-y-auto pr-1">
@@ -73,8 +97,16 @@ export default async function UniversitiesPage({ searchParams }: { searchParams:
                   {CURRICULA.map((c) => <option key={c} value={c}>{CURRICULUM_LABELS[c]}</option>)}
                 </select>
               </label>
-              <details open={Boolean(f.qs.length || f.sat || f.maxUsd || f.control.length || f.sort !== "qs")} className="space-y-4">
+              <Checks legend="Yearly fee (₹)" name="cost" options={Object.entries(COST_BANDS).map(([k, v]) => [k, v.label])} selected={f.costBands} />
+              <details open={Boolean(f.qs.length || f.sat || f.maxUsd || f.control.length || f.sort !== "qs" || f.degrees.length || f.bases.length || f.tests.length || f.selectivity.length || f.types.length)} className="space-y-4">
                 <summary className="cursor-pointer text-[0.875rem] text-cyan">Advanced filters</summary>
+                <div className="mt-3 space-y-4">
+                  <Checks legend="Degree" name="degree" options={DEGREES.filter((d) => d !== "Other").map((d) => [d, d])} selected={f.degrees} />
+                  <Checks legend="How you get in" name="basis" options={Object.entries(BASIS_LABEL)} selected={f.bases} />
+                  <Checks legend="Entrance test" name="test" options={TESTS.map((t) => [t.key, t.label])} selected={f.tests} />
+                  <Checks legend="Selectivity (published evidence)" name="sel" options={SELECTIVITY.map((x) => [x, SELECTIVITY_LABEL[x]])} selected={f.selectivity} />
+                  <Checks legend="Institution type" name="type" options={Object.entries(INSTITUTION_TYPE_LABEL)} selected={f.types} />
+                </div>
                 <fieldset className="mt-3 grid gap-1">
                   <legend className="meta mb-1.5 text-paper/55">QS World University Rankings{qsEdition ? ` ${qsEdition}` : ""}</legend>
                   {Object.keys(QS_BANDS).map((b) => (
@@ -97,7 +129,7 @@ export default async function UniversitiesPage({ searchParams }: { searchParams:
                 </label>
                 <fieldset className="mt-3 grid gap-1">
                   <legend className="meta mb-1.5 text-paper/55">Type</legend>
-                  {["public", "private", "public-private"].map((c) => (
+                  {["public", "government-aided", "private", "public-private"].map((c) => (
                     <label key={c} className="flex items-center gap-2 text-[0.875rem] capitalize">
                       <input type="checkbox" name="control" value={c} defaultChecked={f.control.includes(c)} className="accent-[var(--color-electric)]" /> {c.replace("-", "–")}
                     </label>

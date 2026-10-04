@@ -15,6 +15,13 @@
       "when": 1790965746535,
       "tag": "0001_architect",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791116667724,
+      "tag": "0002_college_explorer",
+      "breakpoints": true
     }
   ]
 }

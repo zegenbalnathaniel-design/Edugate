@@ -66,5 +66,17 @@ export function salary(n: number, currency: string) {
   return `${money(n, currency)}/yr`;
 }
 
-export const CONTROL_LABEL: Record<string, string> = { public: "Public", private: "Private", "public-private": "Public–private" };
+export const CONTROL_LABEL: Record<string, string> = { public: "Public", private: "Private", "public-private": "Public–private", "government-aided": "Government-aided" };
 export const ORG_LABEL: Record<string, string> = { QS: "QS", THE: "Times Higher Education", US_NEWS: "U.S. News", ARWU: "ARWU (Shanghai)", NIRF: "NIRF (India)", OTHER: "Other" };
+
+/** ₹45,000 · ₹1.2 lakh · ₹1.05 crore — how Indian families read fees. */
+export function inrCompact(n: number) {
+  if (n < 100000) return `₹${Math.round(n).toLocaleString("en-IN")}`;
+  if (n < 10000000) return `₹${(n / 100000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} lakh`;
+  return `₹${(n / 10000000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} crore`;
+}
+
+export const BASIS_SHORT: Record<string, string> = {
+  merit: "Merit", entrance: "Entrance", interview: "Interview", "group-discussion": "GD", portfolio: "Portfolio",
+  audition: "Audition", holistic: "Holistic", counselling: "Counselling",
+};
