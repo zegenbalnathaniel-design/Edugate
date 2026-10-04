@@ -1,0 +1,497 @@
+{
+  "slug": "indian-maritime-university-chennai",
+  "name": "Indian Maritime University, Chennai Campus",
+  "officialName": "Indian Maritime University (Central University), Chennai Campus",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "specialist",
+  "founded": 2008,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.imu.edu.in/imunew/",
+  "admissionsUrl": "https://imu.edu.in/imuadmissions/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Indian Maritime University was created by Act 22 of 2008 as a central university under the Ministry of Shipping, integrating six government maritime training institutes; its headquarters is at Semmencherry, Chennai, and its Chennai campus is on ECR at Uthandi. B.Sc. Nautical Science and B.Tech Marine Engineering are admitted through the IMU Common Entrance Test (CET); both have minimum English marks, and Marine Engineering has age limits.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": "₹1,000 (GEN, GEN-EWS, OBC-NCL); ₹700 (SC/ST)",
+    "sourceId": "s2",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [
+    {
+      "test": "IMU CET",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bsc-nautical-science",
+      "name": "B.Sc. Nautical Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://imu.edu.in/imuadmissions/",
+      "summary": "B.Sc. Nautical Science at IMU, admitted through IMU CET.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% average in PCM; 50% in English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% average in PCM; 50% in English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% average in PCM; 50% in English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "physics"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "10+2 or equivalent with Physics, Chemistry and Mathematics averaging 60%, and at least 50% in English in Class X or XII; unmarried candidates only.",
+        "minimumPercent": "60% aggregate in Physics, Chemistry, Mathematics; 50% in English",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "English"
+        ],
+        "entranceTests": [
+          "IMU CET"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for IMU CET",
+            "detail": "₹1,000 (₹700 SC/ST)."
+          },
+          {
+            "step": "Write IMU CET",
+            "detail": "All categories must qualify."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Programme and campus allotted by rank."
+          },
+          {
+            "step": "Confirm",
+            "detail": "Registration fee ₹10,000 and programme fee on admission."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-marine-engineering",
+      "name": "B.Tech Marine Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.imu.edu.in/imunew/course-programs?course=2",
+      "summary": "Four-year B.Tech Marine Engineering at IMU, admitted through IMU CET.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in PCM; 50% in English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in PCM; 50% in English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in PCM; 50% in English",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "10+2 with Physics, Chemistry and Mathematics at 60% aggregate and 50% in English; age limits apply (men: General 25, OBC-NCL 28, SC/ST 30; women: 27, 30, 32).",
+        "minimumPercent": "60% aggregate in Physics, Chemistry, Mathematics; 50% in English",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "English"
+        ],
+        "entranceTests": [
+          "IMU CET"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply for IMU CET",
+            "detail": "₹1,000 (₹700 SC/ST)."
+          },
+          {
+            "step": "Write IMU CET",
+            "detail": "All categories must qualify."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Programme and campus allotted by rank."
+          },
+          {
+            "step": "Confirm",
+            "detail": "Registration fee ₹10,000 and programme fee on admission."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "Registration fee (on admission)",
+        "audience": "domestic",
+        "amount": {
+          "min": 10000,
+          "max": 10000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Programme fee (on admission)",
+        "audience": "domestic",
+        "amount": {
+          "min": 30000,
+          "max": 30000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "IMU — Legacy",
+      "url": "https://www.imu.edu.in/imunew/legacy",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "IMU — Admissions",
+      "url": "https://imu.edu.in/imuadmissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "IMU — Programmes and eligibility criteria",
+      "url": "https://www.imu.edu.in/images/Admissions/2021/Programmes_EligibilityCriteria_01072021.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "central-university",
+  "hub": null,
+  "locality": "Uthandi (ECR)",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Central university (Indian Maritime University Act 22 of 2008)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

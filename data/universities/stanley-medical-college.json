@@ -1,0 +1,206 @@
+{
+  "slug": "stanley-medical-college",
+  "name": "Stanley Medical College",
+  "officialName": "Government Stanley Medical College, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "medical-school",
+  "founded": 1938,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.stanleymedicalcollege.in/",
+  "admissionsUrl": "https://tnmedicalselection.net/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Stanley Medical College is a Tamil Nadu government medical college with its hospital in north Chennai. The hospital is more than 200 years old; the medical college was formally established on 2 July 1938. MBBS admission is through NEET (UG) and state or All India Quota counselling.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "Tamil Nadu medical selection committee (state quota); MCC for All India Quota",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "NEET (UG)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "mbbs",
+      "name": "MBBS",
+      "degree": "MBBS",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.stanleymedicalcollege.in/",
+      "summary": "MBBS at Stanley Medical College, through NEET (UG).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 250,
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "250 MBBS seats, sanctioned in 2013–14."
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Biology"
+        ],
+        "entranceTests": [
+          "NEET (UG)"
+        ],
+        "reservation": "85% state quota under Tamil Nadu reservation (including the 7.5% government-school reservation); 15% All India Quota.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Qualify NEET (UG)",
+            "detail": "NEET rank is the basis of selection."
+          },
+          {
+            "step": "State counselling",
+            "detail": "Apply to the Tamil Nadu medical selection committee."
+          },
+          {
+            "step": "Allotment",
+            "detail": "Rank-based; 15% of seats through All India Quota counselling."
+          },
+          {
+            "step": "Join",
+            "detail": "Report and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Class XII subject and percentage eligibility is in the state prospectus."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Stanley Medical College — Press release (250 MBBS seats)",
+      "url": "https://www.stanleymedicalcollege.in/assets/pdf/press-english.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Selection Committee, DME Tamil Nadu — MBBS/BDS prospectus 2026",
+      "url": "https://tnmedicalselection.net/archives/21052026022251051.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "Selection Committee, DME Tamil Nadu",
+      "url": "https://tnmedicalselection.net/",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "standalone-institute",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed"
+}

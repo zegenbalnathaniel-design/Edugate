@@ -1,0 +1,394 @@
+{
+  "slug": "madras-veterinary-college",
+  "name": "Madras Veterinary College",
+  "officialName": "Madras Veterinary College (TANUVAS), Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "specialist",
+  "founded": 1903,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.tanuvas.ac.in/mvc_intro.php",
+  "admissionsUrl": "https://www.tanuvas.ac.in/ce_ugad.php",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Madras Veterinary College started in 1903 as an equine treatment school with five students at Saidapet, and is now at Vepery near Chennai Central on about 6 hectares. It is a constituent college of the Tamil Nadu Veterinary and Animal Sciences University (TANUVAS). Its 5½-year B.V.Sc. & A.H. (including a one-year internship) admits Tamil Nadu natives on Class XII marks, with 15% of seats filled through the Veterinary Council of India.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bvsc-ah",
+      "name": "B.V.Sc. & A.H. (Veterinary Science and Animal Husbandry)",
+      "degree": "B.V.Sc. & A.H.",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5.5,
+      "url": "https://www.tanuvas.ac.in/ce_ugad.php",
+      "summary": "5½-year degree (4½ years + 1-year internship) at Madras Veterinary College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "Aggregate 70% OC / 65% BC / 60% MBC-DNC",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Biology",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "Aggregate 70% OC / 65% BC / 60% MBC-DNC",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Biology",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "Aggregate 70% OC / 65% BC / 60% MBC-DNC",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Biology",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology",
+        "medicine"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 120,
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Native of Tamil Nadu; pass in Higher Secondary (10+2), CBSE or an equivalent regular-mode examination; aged 17–21 (no upper limit for SC, SCA, ST; 5 years' relaxation for differently abled and transgender candidates). Biology (or Botany + Zoology), Chemistry and Physics at 60% each for OC/BC, 55% for MBC/DNC; aggregate 70% OC, 65% BC, 60% MBC/DNC.",
+        "minimumPercent": "Aggregate 70% (OC), 65% (BC), 60% (MBC/DNC)",
+        "requiredSubjects": [
+          "Biology (or Botany and Zoology)",
+          "Chemistry",
+          "Physics"
+        ],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu communal reservation; 15% of seats filled through the Veterinary Council of India.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply to TANUVAS",
+            "detail": "Online UG admission for 2026–27."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Cut-off mark out of 200 on Class XII subjects."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seats allotted by rank and community."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "cutoffs": [
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "OC",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "197.50",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 197.50–198.50."
+      },
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "BC",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "194.50",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 194.50–195.50."
+      },
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "BCM",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "192.00",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 192.00–193.00."
+      },
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "MBC/DNC",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "194.00",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 194.00–196.50."
+      },
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "SC",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "191.50",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 191.50–195.50."
+      },
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "SCA",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "186.00",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 186.00–192.00."
+      },
+      {
+        "exam": "TANUVAS cut-off mark (out of 200), academic stream",
+        "program": "B.V.Sc. & A.H.",
+        "category": "ST",
+        "round": "2026–27 (two-year range)",
+        "year": 2026,
+        "opening": null,
+        "closing": "188.50",
+        "sourceId": "s3",
+        "confidence": "official",
+        "notes": "Published as a two-year range 188.50–191.50."
+      }
+    ],
+    "campusAreaAcres": {
+      "value": 14.8,
+      "sourceId": "s1",
+      "confidence": "estimated",
+      "asOf": null,
+      "notes": "\"Nearly 6 ha\" as stated by TANUVAS, converted to acres."
+    },
+    "housing": {
+      "value": "Hostel accommodation at the college.",
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": null
+    }
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "TANUVAS — History of Madras Veterinary College",
+      "url": "https://tanuvas.ac.in/mvc_history.php",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "TANUVAS — UG admission press notification 2026–27",
+      "url": "https://adm.tanuvas.ac.in/menudoc/New%20Doc/1.%20Press%20Notification%20in%20English%20-%202026-27.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "TANUVAS — UG admission cut-off 2026–27",
+      "url": "https://adm.tanuvas.ac.in/menudoc/New%20Doc/5.%20Cut%20off%20-26-27.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "Madras Veterinary College — Hostel",
+      "url": "https://www.tanuvas.ac.in/mvc_hostel.php",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "constituent-college",
+  "hub": null,
+  "locality": "Vepery",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Tamil Nadu Veterinary and Animal Sciences University (constituent college)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "slug": "kalakshetra-foundation",
+  "name": "Kalakshetra (Rukmini Devi College of Fine Arts)",
+  "officialName": "Kalakshetra Foundation — Rukmini Devi College of Fine Arts",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "specialist",
+  "founded": 1936,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://kalakshetra.in/",
+  "admissionsUrl": "https://kalakshetra.in/college/courses/carnatic-music/admission/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Kalakshetra was founded on 6 January 1936 by Rukmini Devi Arundale within the Theosophical Society in Adyar and moved to its 100-acre seaside campus at Thiruvanmiyur in 1962. It became an Institute of National Importance by an Act of Parliament in 1993 and is an autonomous body under the Ministry of Culture. Its Rukmini Devi College of Fine Arts runs four-year diploma courses in Bharatanatyam, Carnatic music and visual arts, admitted through a practical aptitude test and interview.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bharatanatyam-4-year-diploma",
+      "name": "Bharatanatyam — 4-year diploma",
+      "degree": "Diploma (4-year)",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://kalakshetra.in/college/courses/",
+      "summary": "Four-year diploma course at the Rukmini Devi College of Fine Arts.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "audition",
+          "interview"
+        ],
+        "eligibility": "Passed Class XII; aged 17–25 (age limit may be waived for foreign applicants).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": "Applicants from abroad apply through the Indian consulate in their country, naming Kalakshetra.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "As per the year's prospectus."
+          },
+          {
+            "step": "Practical aptitude test",
+            "detail": "Assessment of practical aptitude in the art form."
+          },
+          {
+            "step": "Interview",
+            "detail": "Selection by interview."
+          },
+          {
+            "step": "Probationary first year",
+            "detail": "The first year is probationary for all students."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "carnatic-music-vocal-and-instrumental-4-year-diploma",
+      "name": "Carnatic Music (Vocal and Instrumental) — 4-year diploma",
+      "degree": "Diploma (4-year)",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://kalakshetra.in/college/courses/",
+      "summary": "Four-year diploma course at the Rukmini Devi College of Fine Arts.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "audition",
+          "interview"
+        ],
+        "eligibility": "Passed Class XII; aged 17–25 (age limit may be waived for foreign applicants).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": "Applicants from abroad apply through the Indian consulate in their country, naming Kalakshetra.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "As per the year's prospectus."
+          },
+          {
+            "step": "Practical aptitude test",
+            "detail": "Assessment of practical aptitude in the art form."
+          },
+          {
+            "step": "Interview",
+            "detail": "Selection by interview."
+          },
+          {
+            "step": "Probationary first year",
+            "detail": "The first year is probationary for all students."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "visual-arts-4-year-diploma",
+      "name": "Visual Arts — 4-year diploma",
+      "degree": "Diploma (4-year)",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://kalakshetra.in/college/courses/",
+      "summary": "Four-year diploma course at the Rukmini Devi College of Fine Arts.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "design"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "audition",
+          "interview"
+        ],
+        "eligibility": "Passed Class XII; aged 17–25 (age limit may be waived for foreign applicants).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": "Applicants from abroad apply through the Indian consulate in their country, naming Kalakshetra.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "As per the year's prospectus."
+          },
+          {
+            "step": "Practical aptitude test",
+            "detail": "Assessment of practical aptitude in the art form."
+          },
+          {
+            "step": "Interview",
+            "detail": "Selection by interview."
+          },
+          {
+            "step": "Probationary first year",
+            "detail": "The first year is probationary for all students."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 100,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    }
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Kalakshetra — History",
+      "url": "https://kalakshetra.in/college/history/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Kalakshetra — Admission (Carnatic music)",
+      "url": "https://kalakshetra.in/college/courses/carnatic-music/admission/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "institute-of-national-importance",
+  "hub": null,
+  "locality": "Thiruvanmiyur",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Institute of National Importance (Kalakshetra Foundation Act, 1993) under the Ministry of Culture",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}
