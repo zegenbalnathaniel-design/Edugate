@@ -1,0 +1,3875 @@
+{
+  "slug": "dg-vaishnav-college",
+  "name": "D.G. Vaishnav College",
+  "officialName": "Dwaraka Doss Goverdhan Doss Vaishnav College (Autonomous)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "government-aided",
+  "category": "arts-and-science",
+  "founded": 1964,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.dgvaishnavcollege.edu.in/",
+  "admissionsUrl": "https://www.dgvaishnavcollege.edu.in/ticker/admission-announcement/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "D.G. Vaishnav College is a linguistic minority institution established in 1964 by the Rajasthani and Gujarati communities settled in Chennai. An autonomous college on E.V.R. Periyar High Road, Arumbakkam, it runs a government-aided day shift (Shift I) and a large self-financing evening shift (Shift II) with over 30 undergraduate programmes.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Colleges",
+      "edition": 2025,
+      "rank": "91",
+      "sourceId": "s6"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "College online application portal (open for 2026–27)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-a-economics-aided",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.A. Economics, Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-corporate-secretaryship-aided",
+      "name": "B.Com. (Corporate Secretaryship)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. (Corporate Secretaryship), Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-mathematics-man-aided",
+      "name": "B.Sc. Mathematics (MAN)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Mathematics (MAN), Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-mathematics-mpc-aided",
+      "name": "B.Sc. Mathematics (MPC)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Mathematics (MPC), Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-physics-aided",
+      "name": "B.Sc. Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Physics, Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-chemistry-aided",
+      "name": "B.Sc. Chemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Chemistry, Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-plant-biology-plant-biotechnology-aided",
+      "name": "B.Sc. Plant Biology & Plant Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Plant Biology & Plant Biotechnology, Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-general-aided",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. (General), Aided (Shift I, day).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided (Shift I, day)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-economics-sf",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.A. Economics, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-tamil-sf",
+      "name": "B.A. Tamil",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.A. Tamil, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-english-sf",
+      "name": "B.A. English",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.A. English, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-general-sf",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. (General), Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-corporate-secretaryship-sf",
+      "name": "B.Com. (Corporate Secretaryship)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. (Corporate Secretaryship), Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-honours-sf",
+      "name": "B.Com. (Honours)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. (Honours), Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-biochemistry-sf",
+      "name": "B.Sc. Biochemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Biochemistry, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-biotechnology-sf",
+      "name": "B.Sc. Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Biotechnology, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-computer-science-sf",
+      "name": "B.Sc. Computer Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Computer Science, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-visual-communication-sf",
+      "name": "B.Sc. Visual Communication",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Visual Communication, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-mathematics-with-computer-applications-sf",
+      "name": "B.Sc. Mathematics with Computer Applications",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Mathematics with Computer Applications, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-physics-with-computer-applications-sf",
+      "name": "B.Sc. Physics with Computer Applications",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Physics with Computer Applications, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-c-a-sf",
+      "name": "B.C.A.",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.C.A., Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-sf",
+      "name": "B.B.A.",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.B.A., Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary in any stream.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-with-mathematics-sf",
+      "name": "B.B.A. with Mathematics",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.B.A. with Mathematics, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "mathematics"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-bank-management-sf",
+      "name": "B.Com. Bank Management",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. Bank Management, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-accounting-finance-sf",
+      "name": "B.Com. Accounting & Finance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. Accounting & Finance, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-sociology-sf",
+      "name": "B.A. Sociology",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.A. Sociology, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-psychology-sf",
+      "name": "B.Sc. Psychology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Psychology, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-marketing-management-sf",
+      "name": "B.Com. Marketing Management",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. Marketing Management, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-finance-taxation-sf",
+      "name": "B.Com. Finance & Taxation",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. Finance & Taxation, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-journalism-sf",
+      "name": "B.A. Journalism",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.A. Journalism, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-statistics-applied-mathematics-sf",
+      "name": "B.Sc. Statistics / Applied Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Statistics / Applied Mathematics, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "mathematics"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-data-science-sf",
+      "name": "B.Sc. Data Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Data Science, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-computer-applications-sf",
+      "name": "B.Com. Computer Applications",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. Computer Applications, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-criminology-criminal-justice-science-sf",
+      "name": "B.Sc. Criminology & Criminal Justice Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Sc. Criminology & Criminal Justice Science, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "law"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "See the college's eligibility document for this programme.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-professional-accounting-sf",
+      "name": "B.Com. Professional Accounting",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.dgvaishnavcollege.edu.in/programs/",
+      "summary": "B.Com. Professional Accounting, Self-financing (Shift II, evening).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics, Business Mathematics or Computer Science",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2025-26"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II, evening)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (academic stream) with Mathematics, Business Mathematics or Computer Science.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics, Business Mathematics or Computer Science"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "On Class XII marks."
+          },
+          {
+            "step": "Admission checklist",
+            "detail": "Bring the documents in the 2026–27 checklist."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2025-26"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "College portal (2026–27 open).",
+        "sourceId": "s1"
+      },
+      {
+        "step": "Merit selection",
+        "detail": "On Class XII marks.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Admission checklist",
+        "detail": "Documents listed for 2026–27.",
+        "sourceId": "s5"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "D.G. Vaishnav College — Home",
+      "url": "https://www.dgvaishnavcollege.edu.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "D.G. Vaishnav College — UG & PG prospectus 2026–2027",
+      "url": "https://dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2026/04/UG-PG-Prospectus-2026-2027.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "D.G. Vaishnav College — Eligibility 2025–26",
+      "url": "https://www.dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2025/04/Eligibility-25-26.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "D.G. Vaishnav College — Admission checklist 2026–2027",
+      "url": "https://dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2026/05/Admission-checklist-2026-2027.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "Shiksha — DG Vaishnav College ranking (NIRF 2025)",
+      "url": "https://www.shiksha.com/college/dwaraka-doss-goverdhan-doss-vaishnav-college-arumbakkam-chennai-49449/ranking",
+      "type": "secondary",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": "Arumbakkam",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "University of Madras (autonomous college)",
+    "sourceId": "s2",
+    "confidence": "high",
+    "asOf": null
+  },
+  "minorityStatus": {
+    "value": "Linguistic minority institution (Rajasthani and Gujarati communities)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

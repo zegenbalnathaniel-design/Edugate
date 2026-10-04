@@ -1,0 +1,3082 @@
+{
+  "slug": "guru-nanak-college-chennai",
+  "name": "Guru Nanak College",
+  "officialName": "Guru Nanak College (Autonomous), Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "government-aided",
+  "category": "arts-and-science",
+  "founded": 1971,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://gurunanakcollege.edu.in/",
+  "admissionsUrl": "https://gurunanakcollege.edu.in/admission",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Guru Nanak College was founded in 1971 by the Guru Nanak Educational Society to mark the 500th birth anniversary of Guru Nanak Dev Ji. It is an autonomous Sikh minority college on a 25-acre campus on Guru Nanak Salai, Velachery, between Raj Bhavan and IIT Madras, with 28 UG programmes and 7,500+ students across a government-aided Shift I and self-financing streams. Admission is on Class XII marks through community-wise merit lists.",
+  "stats": {
+    "totalStudents": {
+      "value": 7500,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "\"7500+ students on campus across two shifts\"."
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Colleges",
+      "edition": 2025,
+      "rank": "101-150",
+      "sourceId": "s5"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bcom-general-aided",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (General) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-corporate-secretaryship-aided",
+      "name": "B.Com. (Corporate Secretaryship)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Corporate Secretaryship) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-mathematics-aided",
+      "name": "B.Sc. (Mathematics)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Mathematics) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-physics-aided",
+      "name": "B.Sc. (Physics)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Physics) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-chemistry-aided",
+      "name": "B.Sc. (Chemistry)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Chemistry) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-economics-aided",
+      "name": "B.A. (Economics)",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.A. (Economics) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-advanced-zoology-biotechnology-aided",
+      "name": "B.Sc. (Advanced Zoology and Biotechnology)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Advanced Zoology and Biotechnology) in the government-aided Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Government aided (Shift I)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-english-sf",
+      "name": "B.A. (English)",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.A. (English) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-sociology-sf",
+      "name": "B.A. (Sociology)",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.A. (Sociology) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-defence-strategic-studies-sf",
+      "name": "B.A. (Defence and Strategic Studies)",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.A. (Defence and Strategic Studies) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-political-science-sf",
+      "name": "B.A. (Political Science)",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.A. (Political Science) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-visual-communication-sf",
+      "name": "B.Sc. (Visual Communication)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Visual Communication) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 47500,
+          "max": 47500,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-biotechnology-sf",
+      "name": "B.Sc. (Biotechnology)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Biotechnology) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 27450,
+          "max": 27450,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-information-technology-sf",
+      "name": "B.Sc. (Information Technology)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Information Technology) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 32500,
+          "max": 32500,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-data-analytics-sf",
+      "name": "B.Sc. (Data Analytics)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Data Analytics) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 77500,
+          "max": 77500,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-computer-science-sf",
+      "name": "B.Sc. (Computer Science)",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Sc. (Computer Science) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 37500,
+          "max": 37500,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-general-sf",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (General) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 39900,
+          "max": 39900,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-corporate-secretaryship-sf",
+      "name": "B.Com. (Corporate Secretaryship)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Corporate Secretaryship) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 37400,
+          "max": 37400,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-honours-sf",
+      "name": "B.Com. (Honours)",
+      "degree": "B.Com. (Hons.)",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Honours) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 42600,
+          "max": 42600,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-professional-accounting-sf",
+      "name": "B.Com. (Professional Accounting)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Professional Accounting) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 42600,
+          "max": 42600,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-accounting-finance-sf",
+      "name": "B.Com. (Accounting & Finance)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Accounting & Finance) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 39900,
+          "max": 39900,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-computer-applications-sf",
+      "name": "B.Com. (Computer Applications)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Computer Applications) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 39950,
+          "max": 39950,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-information-system-management-sf",
+      "name": "B.Com. (Information System Management)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.Com. (Information System Management) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 37450,
+          "max": 37450,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-sf",
+      "name": "B.B.A.",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.B.A. in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 37400,
+          "max": 37400,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-retail-management-sf",
+      "name": "B.B.A. (Retail Management)",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.B.A. (Retail Management) in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bca-sf",
+      "name": "B.C.A.",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "summary": "B.C.A. in the self-financing stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 40000,
+          "max": 40000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Self-financing stream annual tuition."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Pass in Higher Secondary (+2) or equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Community-wise merit lists under Tamil Nadu reservation; Sikh minority institution.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published."
+          },
+          {
+            "step": "Merit lists",
+            "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Confirm the seat."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "high",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 25,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    },
+    "cutoffs": [
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "OC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "96%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "OC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "88.75%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "BC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "94.25%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "BC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "82.75%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "MBC/DNC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "92.75%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "MBC/DNC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "83.75%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "SC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "90.25%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Com. (General)",
+        "category": "SC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "85.25%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "OC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "96.5%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "OC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "97.25%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "BC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "95%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "BC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "94.75%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "MBC/DNC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "94.5%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "MBC/DNC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "92.5%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "SC · general stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "93.5%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      },
+      {
+        "exam": "Class XII merit list (Shift I, aided)",
+        "program": "B.Sc. (Advanced Zoology and Biotechnology)",
+        "category": "SC · vocational stream",
+        "round": "Merit list 2020–21",
+        "year": 2020,
+        "opening": null,
+        "closing": "87.75%",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Last published closing percentage Edugate could read; later merit lists exist but their figures weren't legible to us."
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "Shift I applications close on the 10th day after the Higher Secondary results are published.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Merit lists",
+        "detail": "Published by programme and community (OC, BC, MBC/DNC, SC…), separately for general and vocational streams.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Pay fees",
+        "detail": "Confirm the seat.",
+        "sourceId": "s2"
+      }
+    ],
+    "studentLife": [
+      {
+        "category": "club",
+        "name": "Student services & clubs",
+        "description": "Clubs and student services listed by the college.",
+        "sourceId": "s6"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Guru Nanak College — About us",
+      "url": "https://gurunanakcollege.edu.in/about-us",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Guru Nanak College — Admission 2026–27",
+      "url": "https://gurunanakcollege.edu.in/admission",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "Guru Nanak College — Fee structure 2026–27",
+      "url": "https://gurunanakcollege.edu.in/admission/fee-structure",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "Guru Nanak College — Shift I merit list (2020–21)",
+      "url": "https://gurunanakcollege.edu.in/files/GNC-Shift-I-Merit-List.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "Shiksha — Guru Nanak College ranking (NIRF 2025)",
+      "url": "https://www.shiksha.com/college/guru-nanak-college-velachery-chennai-48064/ranking",
+      "type": "secondary",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "Guru Nanak College — Student services & clubs",
+      "url": "https://gurunanakcollege.edu.in/students-services/hfghfgh",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": "Velachery",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "University of Madras (autonomous college)",
+    "sourceId": "s1",
+    "confidence": "high",
+    "asOf": null
+  },
+  "minorityStatus": {
+    "value": "Sikh minority institution",
+    "sourceId": "s2",
+    "confidence": "official",
+    "asOf": null
+  }
+}

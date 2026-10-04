@@ -1,0 +1,3798 @@
+{
+  "slug": "crescent-institute-of-science-and-technology",
+  "name": "B.S. Abdur Rahman Crescent Institute of Science and Technology",
+  "officialName": "B.S. Abdur Rahman Crescent Institute of Science and Technology (Deemed to be University)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Vandalur",
+  "campuses": [],
+  "control": "private",
+  "category": "multidisciplinary",
+  "founded": 1984,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://crescent.education/",
+  "admissionsUrl": "https://crescent.education/ug-admissions/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Crescent, near Tambaram at Vandalur, has run since 1984; the former Crescent Engineering College became a deemed university under Section 3 of the UGC Act on 16 December 2008. It is accredited A+ by NAAC and offers B.Tech, B.Arch, B.Des, pharmacy, law, commerce and science degrees. B.Tech admission combines Class XII merit with its own test, CIEAT, or a valid JEE (Main) score; tuition is charged in merit-linked slabs.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "CIEAT 2026 (Crescent Institute Engineering Admission Test)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "notes": "Or a valid JEE (Main) score for direct selection."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 75000,
+        "max": 300000,
+        "period": "year"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "B.Tech tuition per year, by programme and by the student's Class XII Mathematics, Physics and Chemistry marks; plus a one-time ₹40,000 amenities and service fee."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-tech-computer-science-and-engineering",
+      "name": "B.Tech. Computer Science and Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-artificial-intelligence-and-machine-learning",
+      "name": "B.Tech. Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-cyber-security",
+      "name": "B.Tech. Computer Science and Engineering (Cyber Security)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-engineering-internet-of-things",
+      "name": "B.Tech. Computer Science and Engineering (Internet of Things)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-biotechnology",
+      "name": "B.Tech. Biotechnology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-civil-engineering",
+      "name": "B.Tech. Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-mechanical-engineering",
+      "name": "B.Tech. Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-automobile-engineering",
+      "name": "B.Tech. Automobile Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-aeronautical-engineering",
+      "name": "B.Tech. Aeronautical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-polymer-engineering",
+      "name": "B.Tech. Polymer Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "chemistry"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electrical-and-electronics-engineering",
+      "name": "B.Tech. Electrical and Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-communication-engineering",
+      "name": "B.Tech. Electronics and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-communication-engineering-vlsi-design-and-technology",
+      "name": "B.Tech. Electronics and Communication Engineering (VLSI Design and Technology)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-computer-engineering",
+      "name": "B.Tech. Electronics and Computer Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-electronics-and-instrumentation-engineering",
+      "name": "B.Tech. Electronics and Instrumentation Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-artificial-intelligence-and-data-science",
+      "name": "B.Tech. Artificial Intelligence and Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-information-technology",
+      "name": "B.Tech. Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://crescent.education/ug/",
+      "summary": "Four-year B.Tech at Crescent; admission on merit with CIEAT or JEE (Main).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance"
+        ],
+        "eligibility": "Passed Class XII (State Board, CBSE, ISC or equivalent) with at least 50% aggregate in Physics, Chemistry and Mathematics.",
+        "minimumPercent": "50% aggregate in Physics, Chemistry and Mathematics",
+        "requiredSubjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "entranceTests": [
+          "CIEAT 2026",
+          "JEE (Main) — valid score gives direct selection"
+        ],
+        "reservation": null,
+        "international": "Separate NRI fee structure and admission.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply",
+            "detail": "Online for 2026–27."
+          },
+          {
+            "step": "CIEAT or JEE (Main)",
+            "detail": "Selection on Class XII merit plus CIEAT marks; a valid JEE (Main) score gives direct selection."
+          },
+          {
+            "step": "Fee slab",
+            "detail": "Tuition depends on programme and Class XII PCM marks."
+          },
+          {
+            "step": "Join",
+            "detail": "Pay tuition and the ₹40,000 amenities fee."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-arch",
+      "name": "B.Arch.",
+      "degree": "B.Arch.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Arch. at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-des",
+      "name": "B.Des.",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Des. at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-c-a",
+      "name": "B.C.A.",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.C.A. at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-general",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Com. (General) at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-accounts-finance",
+      "name": "B.Com. (Accounts & Finance)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Com. (Accounts & Finance) at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-professional-accounting",
+      "name": "B.Com. (Professional Accounting)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Com. (Professional Accounting) at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-aviation",
+      "name": "B.Sc. Aviation",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Sc. Aviation at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-psychology",
+      "name": "B.Sc. Psychology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Sc. Psychology at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-biotechnology",
+      "name": "B.Sc. Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Sc. Biotechnology at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-industry-integrated-biotechnology",
+      "name": "B.Sc. Industry Integrated Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Sc. Industry Integrated Biotechnology at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-computer-science",
+      "name": "B.Sc. Computer Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Sc. Computer Science at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-pharm",
+      "name": "B.Pharm.",
+      "degree": "B.Pharm.",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.Pharm. at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-b-a-ll-b-hons",
+      "name": "B.B.A. LL.B. (Hons.)",
+      "degree": "B.B.A.",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.B.A. LL.B. (Hons.) at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-ll-b-hons",
+      "name": "B.A. LL.B. (Hons.)",
+      "degree": "B.A.",
+      "level": "integrated",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://crescent.education/ug/",
+      "summary": "B.A. LL.B. (Hons.) at Crescent.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed per programme on Crescent's eligibility pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "B.Tech tuition (per year, by programme and Class XII PCM marks)",
+        "audience": "domestic",
+        "amount": {
+          "min": 75000,
+          "max": 300000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Amenities and service fee (one time)",
+        "audience": "domestic",
+        "amount": {
+          "min": 40000,
+          "max": 40000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Crescent — About our institution",
+      "url": "https://crescent.education/about-our-institution/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Crescent — Eligibility",
+      "url": "https://crescent.education/eligibility/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "Crescent — UG programmes",
+      "url": "https://crescent.education/ug/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "Crescent — Fee structure",
+      "url": "https://crescent.education/mandatory-disclosure-2/fee-structure/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "Crescent — Home",
+      "url": "https://crescent.education/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "deemed-university",
+  "hub": "Chennai",
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Deemed to be university (Section 3 of the UGC Act, since 16 December 2008)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A+",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

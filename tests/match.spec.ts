@@ -35,3 +35,15 @@ describe("admission bands use published evidence only", () => {
     expect(m.why.length).toBeGreaterThan(0);
   });
 });
+
+describe("stale cut-offs are not used for bands", () => {
+  it("ignores a merit cut-off older than three years", () => {
+    const u = UniversitySchema.parse(JSON.parse(readFileSync(join(__dirname, "..", "data", "universities", "guru-nanak-college-chennai.json"), "utf8")));
+    const p = u.programs.find((x) => x.slug === "bcom-general-aided")!;
+    const r = admissionBand(u, p, StudentProfileSchema.parse({ curriculum: "STATE_BOARD", predictedTotal: "97%" }), new Date("2026-10-04"));
+    expect(r.band).toBe("unclassified");
+    expect(r.reasons[0]).toMatch(/2020/);
+    const old = admissionBand(u, p, StudentProfileSchema.parse({ curriculum: "STATE_BOARD", predictedTotal: "97%" }), new Date("2022-10-04"));
+    expect(old.band).toBe("target");
+  });
+});

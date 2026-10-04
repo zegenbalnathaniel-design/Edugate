@@ -50,7 +50,12 @@ function boardPercent(profile: StudentProfile): number | null {
   return n != null && n <= 100 ? n : null;
 }
 
-export function admissionBand(u: University, p: Program, profile: StudentProfile): { band: Band; reasons: string[]; sourceIds: string[] } {
+/** Cut-offs older than this many years are too stale to band a current applicant against. */
+export const MAX_CUTOFF_AGE = 3;
+
+export function admissionBand(u: University, p: Program, profile: StudentProfile, today = new Date()): { band: Band; reasons: string[]; sourceIds: string[] } {
+  const minYear = today.getUTCFullYear() - MAX_CUTOFF_AGE;
+  const stale: string[] = [];
   // Eligibility first: a missing published requirement is not a "reach", it's ineligible.
   const gaps = profile.curriculum ? gapAnalysis(u, p, profile).filter((g) => !/English|SAT|ACT/i.test(g.requirement)) : [];
   const missing = gaps.filter((g) => g.status === "missing");
@@ -70,9 +75,9 @@ export function admissionBand(u: University, p: Program, profile: StudentProfile
   // (a) Rank vs published closing rank for this programme.
   const rank = profile.tests.JEE_ADV;
   if (rank != null) {
-    const c = u.details.cutoffs
-      .filter((x) => /jee\W*adv/i.test(x.exam) && /open/i.test(x.category) && sameProgram(x.program, p))
-      .sort((a, b) => b.year - a.year)[0];
+    const all = u.details.cutoffs.filter((x) => /jee\W*adv/i.test(x.exam) && /open/i.test(x.category) && sameProgram(x.program, p)).sort((a, b) => b.year - a.year);
+    const c = all.find((x) => x.year >= minYear);
+    if (!c && all[0]) stale.push(`Last published JEE Advanced closing rank is from ${all[0].year} — too old to compare against.`);
     const closing = c ? Number(c.closing.replace(/[^\d]/g, "")) : NaN;
     if (c && closing > 0) {
       const band: Band = rank <= closing * 0.7 ? "safety" : rank <= closing ? "target" : "reach";
@@ -86,7 +91,9 @@ export function admissionBand(u: University, p: Program, profile: StudentProfile
 
   // (b) Class XII % vs a published merit-list cut-off.
   if (pct != null) {
-    const c = u.details.cutoffs.filter((x) => /class xii|merit|12th|hsc/i.test(x.exam) && sameProgram(x.program, p)).sort((a, b) => b.year - a.year)[0];
+    const all = u.details.cutoffs.filter((x) => /class xii|merit|12th|hsc/i.test(x.exam) && sameProgram(x.program, p)).sort((a, b) => b.year - a.year);
+    const c = all.find((x) => x.year >= minYear);
+    if (!c && all[0]) stale.push(`Last published merit cut-off is from ${all[0].year} — too old to compare against.`);
     const cut = c ? pctOf(c.closing) : null;
     if (c && cut != null) {
       const band: Band = pct >= cut + 3 ? "safety" : pct >= cut - 1 ? "target" : "reach";
@@ -111,7 +118,7 @@ export function admissionBand(u: University, p: Program, profile: StudentProfile
 
   return {
     band: "unclassified",
-    reasons: ["No published acceptance rate or cut-off to compare against — Edugate won't guess from reputation."],
+    reasons: [...stale, "No current published acceptance rate or cut-off to compare against — Edugate won't guess from reputation."],
     sourceIds: [],
   };
 }
