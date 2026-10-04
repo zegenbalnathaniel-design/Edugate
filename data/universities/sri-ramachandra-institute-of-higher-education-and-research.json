@@ -1,0 +1,543 @@
+{
+  "slug": "sri-ramachandra-institute-of-higher-education-and-research",
+  "name": "Sri Ramachandra Institute of Higher Education and Research",
+  "officialName": "Sri Ramachandra Institute of Higher Education and Research (Deemed to be University)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Porur",
+  "campuses": [],
+  "control": "private",
+  "category": "medical-school",
+  "founded": 1985,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.sriramachandra.edu.in/",
+  "admissionsUrl": "https://admissions.sriramachandra.edu.in/admissions/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Sri Ramachandra Medical College was started on 11 September 1985 by the Sri Ramachandra Educational and Health Trust of N. P. V. Ramasamy Udayar — the first privately owned medical college in Tamil Nadu — and was declared a deemed university in September 1994. Now SRIHER, at Ramachandra Nagar, Porur, it has twelve faculties spanning medicine, dentistry, pharmacy, nursing, physiotherapy, allied health, engineering and management. It holds NAAC's A++ (CGPA 3.53) and UGC Category I status.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": "₹1,000 (non-refundable); applications issued till about the end of April 2026",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "mbbs",
+      "name": "MBBS",
+      "degree": "MBBS",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "MBBS at Sri Ramachandra Medical College, through NEET (UG).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NEET (UG)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Qualify NEET (UG)",
+            "detail": "Required for MBBS and BDS."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seat allotment through the applicable counselling."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bds",
+      "name": "BDS",
+      "degree": "BDS",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "BDS through NEET (UG).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "NEET (UG)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Qualify NEET (UG)",
+            "detail": "Required for MBBS and BDS."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Seat allotment through the applicable counselling."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-pharm",
+      "name": "B.Pharm.",
+      "degree": "B.Pharm.",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "B.Pharm. at SRIHER.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed on the institution's admission pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-nursing",
+      "name": "B.Sc. Nursing",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "nursing",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "B.Sc. Nursing at SRIHER.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed on the institution's admission pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bachelor-of-physiotherapy",
+      "name": "Bachelor of Physiotherapy",
+      "degree": "B.P.T.",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "Bachelor of Physiotherapy at SRIHER.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed on the institution's admission pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bachelor-of-occupational-therapy",
+      "name": "Bachelor of Occupational Therapy",
+      "degree": "B.O.T.",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "Bachelor of Occupational Therapy at SRIHER.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed on the institution's admission pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bachelor-of-audiology-and-speech-language-pathology",
+      "name": "Bachelor of Audiology and Speech Language Pathology",
+      "degree": "B.A.S.L.P.",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": null,
+      "summary": "Bachelor of Audiology and Speech Language Pathology at SRIHER.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Eligibility and selection are listed on the institution's admission pages."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "SRIHER — Student manual 2019–20 (history)",
+      "url": "https://digicampus.sriramachandra.edu.in/uploads/mainmenufiles/STUDENT%20MANUAL%202019-20%20-%20Final%20revised%2014.11.19.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "SRIHER — CBCS regulations (NAAC Cycle 3, A++)",
+      "url": "https://cbcs.sriramachandra.edu.in/assets/website/doc/regulations-of-cbcs-2021-22-for-ug-and-pg-degree-programs.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "SRIHER — Admissions 2026",
+      "url": "https://admissions.sriramachandra.edu.in/admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "deemed-university",
+  "hub": "Chennai",
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Deemed to be university (Section 3 of the UGC Act, since 1994)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "CGPA 3.53",
+      "grade": "A++",
+      "cycle": "Cycle 3",
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    },
+    {
+      "body": "UGC",
+      "label": "Category I university",
+      "grade": null,
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}
