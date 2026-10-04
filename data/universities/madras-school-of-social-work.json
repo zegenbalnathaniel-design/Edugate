@@ -1,0 +1,374 @@
+{
+  "slug": "madras-school-of-social-work",
+  "name": "Madras School of Social Work (MSSW)",
+  "officialName": "Madras School of Social Work (Autonomous)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "private",
+  "category": "arts-and-science",
+  "founded": 1952,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://mssw.in/",
+  "admissionsUrl": "https://mssw.in/u-g-admissions/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Madras School of Social Work, established in 1952, is an autonomous institution (since 5 July 2006) affiliated to the University of Madras and accredited by NAAC. It offers two undergraduate programmes — the Bachelor of Social Work and B.Sc. Psychology — alongside its postgraduate social work programmes. UG admission is on Class XII marks; there is no entrance test.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bsw",
+      "name": "Bachelor of Social Work (B.S.W.)",
+      "degree": "B.S.W.",
+      "level": "bachelors",
+      "field": "social-work",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://mssw.in/b-s-w-self-finance/",
+      "summary": "Three-year B.S.W. blending social work theory with field practice.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56000,
+          "max": 56000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2025-26",
+        "notes": "Published as the B.S.W. fee for the 2025 batch; Edugate reads it as the yearly fee — confirm in the fee structure."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Higher Secondary Examination (academic or vocational stream) of Tamil Nadu, or an examination accepted as equivalent by the University of Madras.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Seats reserved as per the Tamil Nadu quota.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications open after the Class XII State Board results (online from 1 April 2026) and close 10 working days after the results."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Ranked on the percentage in the four main Class XII subjects, excluding languages; no entrance test."
+          },
+          {
+            "step": "Pay the first-year fee",
+            "detail": "The full first-year fee is paid at admission; admission is confirmed only after payment."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-psychology",
+      "name": "B.Sc. Psychology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://mssw.in/u-g-admissions/",
+      "summary": "Three-year B.Sc. Psychology at MSSW.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Higher Secondary Examination (academic or vocational stream) of Tamil Nadu, or an examination accepted as equivalent by the University of Madras.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Seats reserved as per the Tamil Nadu quota.",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications open after the Class XII State Board results (online from 1 April 2026) and close 10 working days after the results."
+          },
+          {
+            "step": "Merit list",
+            "detail": "Ranked on the percentage in the four main Class XII subjects, excluding languages; no entrance test."
+          },
+          {
+            "step": "Pay the first-year fee",
+            "detail": "The full first-year fee is paid at admission; admission is confirmed only after payment."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "After Class XII State Board results; within 10 working days.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Merit list",
+        "detail": "On the four main Class XII subjects (excluding languages).",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Admission",
+        "detail": "Pay the full first-year fee to confirm the seat.",
+        "sourceId": "s4"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "MSSW — About",
+      "url": "https://mssw.in/about-mssw/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "MSSW — U.G. admissions",
+      "url": "https://mssw.in/u-g-admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "MSSW — PG & UG admission schedule 2026",
+      "url": "https://mssw.in/wp-content/uploads/2026/02/PG-UG-Admission-Schedule-1.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "MSSW — B.S.W. (Self Finance)",
+      "url": "https://mssw.in/b-s-w-self-finance/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "MSSW — Fee structure, batch 2025",
+      "url": "https://mssw.in/wp-content/uploads/2025/03/Fee-Structure-Batch-2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "University of Madras (autonomous since 5 July 2006)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "Accredited (grade not verified)",
+      "grade": null,
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

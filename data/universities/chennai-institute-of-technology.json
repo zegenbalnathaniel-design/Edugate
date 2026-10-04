@@ -1,0 +1,2486 @@
+{
+  "slug": "chennai-institute-of-technology",
+  "name": "Chennai Institute of Technology (CIT)",
+  "officialName": "Chennai Institute of Technology",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "private",
+  "category": "technical",
+  "founded": 2010,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.citchennai.edu.in/",
+  "admissionsUrl": "https://www.citchennai.edu.in/admission",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Chennai Institute of Technology, at Sarathy Nagar, Kundrathur, was founded in 2010. All its programmes are affiliated to Anna University and approved by AICTE, and it holds NAAC 'A+' accreditation. The college says it offers fourteen B.E./B.Tech programmes; Edugate lists the 13 it has verified. TNEA counselling code 1399.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "TNEA counselling (college code 1399) for government-quota seats",
+    "sourceId": "s6",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-e-computer-science-and-engineering",
+      "name": "B.E. Computer Science and Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Computer Science and Engineering at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-cyber-security",
+      "name": "B.E. Computer Science and Engineering (Cyber Security)",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Computer Science and Engineering (Cyber Security) at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-artificial-intelligence-and-machine-learning",
+      "name": "B.E. Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Computer Science and Engineering (Artificial Intelligence and Machine Learning) at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-engineering",
+      "name": "B.E. Electronics and Communication Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Electronics and Communication Engineering at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-advanced-communication-technology",
+      "name": "B.E. Electronics and Communication (Advanced Communication Technology)",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Electronics and Communication (Advanced Communication Technology) at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-engineering-vlsi-design-and-technology",
+      "name": "B.E. Electronics Engineering (VLSI Design and Technology)",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Electronics Engineering (VLSI Design and Technology) at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-biomedical-engineering",
+      "name": "B.E. Biomedical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Biomedical Engineering at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "allied-health"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electrical-and-electronics-engineering",
+      "name": "B.E. Electrical and Electronics Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Electrical and Electronics Engineering at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechanical-engineering",
+      "name": "B.E. Mechanical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Mechanical Engineering at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechatronics-engineering",
+      "name": "B.E. Mechatronics Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.E. Mechatronics Engineering at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-information-technology",
+      "name": "B.Tech. Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.Tech. Information Technology at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-artificial-intelligence-and-data-science",
+      "name": "B.Tech. Artificial Intelligence and Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.Tech. Artificial Intelligence and Data Science at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-business-systems",
+      "name": "B.Tech. Computer Science and Business Systems",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.citchennai.edu.in/",
+      "summary": "B.Tech. Computer Science and Business Systems at Chennai Institute of Technology (CIT); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s6",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "TNEA college code 1399."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Register on TNEA",
+        "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST).",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Rank list",
+        "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Special-reservation counselling",
+        "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "General counselling",
+        "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Report to the college",
+        "detail": "Confirm the allotted seat and pay fees.",
+        "sourceId": "s6"
+      }
+    ],
+    "cutoffs": [
+      {
+        "exam": "TNEA aggregate (out of 200)",
+        "program": "B.E. Computer Science and Engineering",
+        "category": "OC",
+        "round": null,
+        "year": 2025,
+        "opening": null,
+        "closing": "196.00",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Closing TNEA aggregate (Maths 100 + Physics 50 + Chemistry 50) as published by the college."
+      },
+      {
+        "exam": "TNEA aggregate (out of 200)",
+        "program": "B.E. Computer Science and Engineering",
+        "category": "BC",
+        "round": null,
+        "year": 2025,
+        "opening": null,
+        "closing": "194.00",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Closing TNEA aggregate (Maths 100 + Physics 50 + Chemistry 50) as published by the college."
+      },
+      {
+        "exam": "TNEA aggregate (out of 200)",
+        "program": "B.E. Computer Science and Engineering",
+        "category": "BCM",
+        "round": null,
+        "year": 2025,
+        "opening": null,
+        "closing": "194.00",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Closing TNEA aggregate (Maths 100 + Physics 50 + Chemistry 50) as published by the college."
+      },
+      {
+        "exam": "TNEA aggregate (out of 200)",
+        "program": "B.E. Computer Science and Engineering",
+        "category": "MBC",
+        "round": null,
+        "year": 2025,
+        "opening": null,
+        "closing": "193.00",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Closing TNEA aggregate (Maths 100 + Physics 50 + Chemistry 50) as published by the college."
+      },
+      {
+        "exam": "TNEA aggregate (out of 200)",
+        "program": "B.E. Computer Science and Engineering",
+        "category": "SC",
+        "round": null,
+        "year": 2025,
+        "opening": null,
+        "closing": "185.00",
+        "sourceId": "s4",
+        "confidence": "official",
+        "notes": "Closing TNEA aggregate (Maths 100 + Physics 50 + Chemistry 50) as published by the college."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "CIT Chennai — Engineering admission 2026",
+      "url": "https://www.citchennai.edu.in/admission",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "CIT Chennai — NAAC",
+      "url": "https://citchennai.edu.in/naac/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "CIT Chennai — Cut-off marks 2025",
+      "url": "https://citchennai.edu.in/admission/cut-off-marks/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "CIT Chennai — Contact",
+      "url": "https://www.citchennai.edu.in/contact-us",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "TNEA 2026 — Information brochure",
+      "url": "https://static.tneaonline.org/docs/2_Information_Brochure_2026.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "affiliated-college",
+  "hub": null,
+  "locality": "Kundrathur",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Anna University",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A+",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    }
+  ],
+  "contact": {
+    "phone": "044 7111 9111",
+    "email": "info@citchennai.net",
+    "address": "Sarathy Nagar, Kundrathur, Chennai 600069",
+    "sourceId": "s5"
+  }
+}

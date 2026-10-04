@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Section, Container, SectionLabel } from "@/components/primitives/Section";
+import { MAX_CUTOFF_AGE } from "@/lib/unis/match";
 
 export const metadata: Metadata = { title: "Methodology" };
 
@@ -135,8 +136,9 @@ export default function MethodologyPage() {
               rank against the last published JoSAA closing rank for that course (≤ 70% of the closing rank is Safety, up to the closing rank
               Target, beyond it Reach); your Class XII percentage against a published merit-list cut-off (3+ points above is Safety, within a
               point Target, below Reach); otherwise the institution&apos;s published acceptance rate. If you&apos;re missing a published
-              requirement, the course shows &ldquo;Not yet eligible&rdquo;. With none of that evidence, it&apos;s &ldquo;Unclassified&rdquo; —
-              we don&apos;t guess from reputation.
+              requirement, the course shows &ldquo;Not yet eligible&rdquo;. Ranks and cut-offs more than {MAX_CUTOFF_AGE} years old are
+              ignored and named as too old to compare against. With none of that evidence, it&apos;s &ldquo;Unclassified&rdquo; — we
+              don&apos;t guess from reputation.
             </p>
             <p>
               <strong className="text-current">Selectivity</strong> bands come from published acceptance rates: under 15% highly selective,

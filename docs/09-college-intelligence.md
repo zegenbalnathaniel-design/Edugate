@@ -66,7 +66,7 @@ URL state, OR within a filter, AND across: tier (Chennai / Tamil Nadu / Rest of 
 `src/lib/unis/match.ts`. Two separate answers, never blended:
 
 1. **Match %** — `preferenceAlignment` over per-dimension fit (course subjects, board/subject requirements, tests incl. JEE/NEET/CUET/CLAT/IPMAT, ₹ budget vs the programme's yearly tuition, preferred states/countries, documented research/entrepreneurship/internships), weighted by the student's own weights. Unknowns excluded and reported.
-2. **Admission band** — evidence only: (a) JEE Advanced rank vs last published closing rank for that course (≤ 0.7× Safety, ≤ 1× Target, else Reach); (b) Class XII % vs a published merit cut-off (≥ +3 Safety, ≥ −1 Target, else Reach); (c) institution acceptance rate (selectivity band). Missing a published requirement → *Not yet eligible*. No evidence → *Unclassified*.
+2. **Admission band** — evidence only: (a) JEE Advanced rank vs last published closing rank for that course (≤ 0.7× Safety, ≤ 1× Target, else Reach); (b) Class XII % vs a published merit cut-off (≥ +3 Safety, ≥ −1 Target, else Reach); (c) institution acceptance rate (selectivity band). Missing a published requirement → *Not yet eligible*. Ranks and cut-offs older than `MAX_CUTOFF_AGE` (3 years) are ignored and the reason is shown. No evidence → *Unclassified*.
 
 Selectivity (`selectivity.ts`): acceptance rate < 15% highly selective, 15–35 selective, 35–65 moderate, > 65 accessible; JEE Advanced OPEN closing rank ≤ 5,000 for the most competitive listed course → highly selective. Shown on the Methodology page.
 
