@@ -1,0 +1,3524 @@
+{
+  "slug": "presidency-college-chennai",
+  "name": "Presidency College, Chennai",
+  "officialName": "Presidency College (Autonomous), Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "arts-and-science",
+  "founded": 1840,
+  "setting": null,
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "website": "https://www.presidencycollegechennai.ac.in/",
+  "admissionsUrl": "https://www.tngasa.in/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Presidency College, established in 1840, is a government autonomous college affiliated to the University of Madras. Its undergraduate courses run in a morning shift (8 am–1 pm) and an afternoon shift (1–5 pm), many in both Tamil and English medium, with language programmes in Hindi, Malayalam and Urdu and B.Com and BCA sections reserved for hearing-impaired students. Fees are the nominal government-college rates.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Colleges",
+      "edition": 2025,
+      "rank": "15",
+      "sourceId": "s6"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "TNGASA — the common online portal for Tamil Nadu's 181 government arts and science colleges",
+    "sourceId": "s4",
+    "confidence": "high",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": "₹50 (₹2 for SC/SCA/ST applicants), paid on TNGASA",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 1295,
+        "max": 1315,
+        "period": "total"
+      },
+      "sourceId": "s3",
+      "confidence": "high",
+      "asOf": null,
+      "notes": "Fee schedule on the college's fee page: ₹1,295 for B.A./B.Com., ₹1,315 for B.Sc. (incl. ₹250 PTA). The page doesn't state whether this is per year or per admission."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Fee remission for backward-class students",
+      "kind": [
+        "need",
+        "category-based",
+        "full"
+      ],
+      "eligibility": "Poor students belonging to backward classes may be granted full fee remission on the same terms as the half-fee concession.",
+      "coverage": "Full fee remission",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "provider": "government",
+      "applicationProcess": null,
+      "renewalConditions": null
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "ba-history-shift-1",
+      "name": "B.A. History",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. History, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (30 seats), English (30 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 60,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-history-shift-2",
+      "name": "B.A. History",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. History, Shift II; taught in Tamil medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (30 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 30,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-political-science-shift-1",
+      "name": "B.A. Political Science",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Political Science, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (40 seats), English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 80,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-economics-shift-1",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Economics, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (40 seats), English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 80,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-economics-shift-2",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Economics, Shift II; taught in Tamil medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-tamil-literature-shift-1",
+      "name": "B.A. Tamil Literature",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Tamil Literature, Shift I; taught in Tamil medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-english-literature-shift-1",
+      "name": "B.A. English Literature",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. English Literature, Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-hindi-literature-shift-1",
+      "name": "B.A. Hindi Literature",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Hindi Literature, Shift I; taught in Hindi medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Hindi (10 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 10,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-malayalam-literature-shift-1",
+      "name": "B.A. Malayalam Literature",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Malayalam Literature, Shift I; taught in Malayalam medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Malayalam (15 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 15,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-urdu-literature-shift-1",
+      "name": "B.A. Urdu Literature",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.A. Urdu Literature, Shift I; taught in Urdu medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Urdu (10 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 10,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-corporate-secretaryship-shift-1",
+      "name": "B.Com. Corporate Secretaryship",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Com. Corporate Secretaryship, Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-corporate-secretaryship-shift-2",
+      "name": "B.Com. Corporate Secretaryship",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Com. Corporate Secretaryship, Shift II; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-general-shift-1",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Com. (General), Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-general-shift-2",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Com. (General), Shift II; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-hearing-impaired-shift-2",
+      "name": "B.Com. (for hearing-impaired students)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Com. (for hearing-impaired students), Shift II; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (15 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 15,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-mathematics-shift-1",
+      "name": "B.Sc. Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Mathematics, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (24 seats), English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 48,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-mathematics-shift-2",
+      "name": "B.Sc. Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Mathematics, Shift II; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (24 seats), English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 48,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-statistics-shift-1",
+      "name": "B.Sc. Statistics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Statistics, Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 24,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-physics-shift-1",
+      "name": "B.Sc. Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Physics, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (24 seats), English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 48,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-chemistry-shift-1",
+      "name": "B.Sc. Chemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Chemistry, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: Tamil (40 seats), English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 80,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-plant-biology-biotechnology-shift-1",
+      "name": "B.Sc. Plant Biology & Bio-Technology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Plant Biology & Bio-Technology, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": "Medium: Tamil (24 seats), English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 48,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-advanced-zoology-biotechnology-shift-1",
+      "name": "B.Sc. Advanced Zoology & Advanced Bio-Technology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Advanced Zoology & Advanced Bio-Technology, Shift I; taught in Tamil and English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": "Medium: Tamil (24 seats), English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 48,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-geology-shift-1",
+      "name": "B.Sc. Geology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Geology, Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 24,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-geography-shift-1",
+      "name": "B.Sc. Geography",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "geography",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Geography, Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (24 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 24,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-psychology-shift-1",
+      "name": "B.Sc. Psychology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.Sc. Psychology, Shift I; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1315,
+          "max": 1315,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (40 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift I (morning, 8 am–1 pm)",
+      "mode": null,
+      "intake": {
+        "value": 40,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bca-hearing-impaired-shift-2",
+      "name": "B.C.A. (for hearing-impaired students)",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "summary": "B.C.A. (for hearing-impaired students), Shift II; taught in English medium.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2024-25",
+          "notes": "Class XII or equivalent."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 1295,
+          "max": 1295,
+          "period": "total"
+        },
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "Amount on the college's fee page; the page doesn't state the period."
+      },
+      "alsoFields": [],
+      "specialization": "Medium: English (15 seats)",
+      "department": null,
+      "campus": null,
+      "stream": "Shift II (afternoon, 1–5 pm)",
+      "mode": null,
+      "intake": {
+        "value": 15,
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Seats as listed on the college's courses page, summed across media of instruction."
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Class XII (Higher Secondary) or an equivalent qualification.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu government reservation applies; the TNGASA application collects special-reservation details.",
+        "international": null,
+        "applicationFee": "₹50 (₹2 for SC/SCA/ST) via TNGASA",
+        "process": [
+          {
+            "step": "Register on TNGASA",
+            "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27)."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Personal, reservation, scholarship, school and academic details."
+          },
+          {
+            "step": "Choose colleges and courses",
+            "detail": "Choice filling across government colleges."
+          },
+          {
+            "step": "Pay the fee",
+            "detail": "₹50, or ₹2 for SC/SCA/ST."
+          },
+          {
+            "step": "Upload certificates",
+            "detail": "Then download the application."
+          },
+          {
+            "step": "Merit-based selection",
+            "detail": "Admission is on Class XII marks."
+          }
+        ],
+        "sourceId": "s5",
+        "confidence": "secondary",
+        "asOf": "2024-25"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "Admission fee",
+        "audience": "domestic",
+        "amount": {
+          "min": 5,
+          "max": 5,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "Medical fee",
+        "audience": "domestic",
+        "amount": {
+          "min": 5,
+          "max": 5,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "Laboratory fee (B.Sc. only)",
+        "audience": "domestic",
+        "amount": {
+          "min": 20,
+          "max": 20,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "PD-I",
+        "audience": "domestic",
+        "amount": {
+          "min": 385,
+          "max": 385,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "PD-II",
+        "audience": "domestic",
+        "amount": {
+          "min": 650,
+          "max": 650,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null
+      },
+      {
+        "item": "PTA",
+        "audience": "domestic",
+        "amount": {
+          "min": 250,
+          "max": 250,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": null
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Register on TNGASA",
+        "detail": "Create an account on the government arts and science colleges portal (opened 7 May 2026 for 2026–27).",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Fill the application",
+        "detail": "Personal, reservation, scholarship, school and academic details.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Choose colleges and courses",
+        "detail": "Choice filling across government colleges.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Pay the fee",
+        "detail": "₹50, or ₹2 for SC/SCA/ST.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Upload certificates",
+        "detail": "Then download the application.",
+        "sourceId": "s4"
+      },
+      {
+        "step": "Merit-based selection",
+        "detail": "Admission is on Class XII marks.",
+        "sourceId": "s5"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s2",
+      "label": "Presidency College — Courses (seats by shift and medium)",
+      "url": "https://www.presidencycollegechennai.ac.in/UI/Courses.aspx",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "Presidency College — Fees structure",
+      "url": "https://www.presidencycollegechennai.ac.in/UI/FeesStructurePage.aspx",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "TNGASA — Tamil Nadu Government Arts and Science Colleges admission portal",
+      "url": "https://www.tngasa.in/",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "Careers360 — Presidency College Chennai UG admission 2024",
+      "url": "https://news.careers360.com/presidency-college-chennai-ug-admission-2024-process-courses-offered-seats-fee",
+      "type": "secondary",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "Careers360 — Tamil Nadu in NIRF 2025 (college ranks)",
+      "url": "https://university.careers360.com/articles/tamil-nadu-leads-11-out-of-17-categories-in-nirf-2025-ranking",
+      "type": "secondary",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "University of Madras (autonomous college)",
+    "sourceId": "s5",
+    "confidence": "secondary",
+    "asOf": "2024-25"
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "B+",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s5",
+      "confidence": "secondary",
+      "asOf": "2024"
+    }
+  ]
+}

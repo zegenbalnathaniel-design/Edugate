@@ -1,0 +1,683 @@
+{
+  "slug": "chennai-mathematical-institute",
+  "name": "Chennai Mathematical Institute",
+  "officialName": "Chennai Mathematical Institute",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Siruseri",
+  "campuses": [],
+  "control": "private",
+  "category": "specialist",
+  "founded": 1989,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.cmi.ac.in/",
+  "admissionsUrl": "https://www.cmi.ac.in/admissions/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "CMI was founded in 1989 as part of the SPIC Science Foundation and was recognised as a university under Section 3 of the UGC Act in 2006. It is a research and teaching centre for the mathematical sciences on a fully residential campus in the SIPCOT IT Park at Siruseri, on Chennai's southern outskirts. Undergraduates are admitted to three four-year B.S. (Honours) programmes through one common entrance examination; the choice of programme is made after admission.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "CMI online application portal",
+    "sourceId": "s5",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "CMI B.S. entrance examination",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "notes": "Students with exceptionally good performance in the National Olympiads in Mathematics, Physics and Informatics are exempt."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 125000,
+        "max": 125000,
+        "period": "semester"
+      },
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "B.S. (Honours) tuition: ₹1,25,000 per semester, two semesters a year."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "CMI scholarship",
+      "kind": [
+        "merit",
+        "full",
+        "competitive"
+      ],
+      "eligibility": "Awarded to roughly 35 students a year.",
+      "coverage": "Full tuition waiver plus a monthly fellowship of ₹5,000",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "provider": "institution",
+      "applicationProcess": null,
+      "renewalConditions": null
+    },
+    {
+      "name": "Need-based tuition fee waiver",
+      "kind": [
+        "need",
+        "partial",
+        "full"
+      ],
+      "eligibility": "Based on the student's financial background.",
+      "coverage": "Partial or total tuition waiver",
+      "deadline": null,
+      "renewable": null,
+      "url": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "provider": "institution",
+      "applicationProcess": null,
+      "renewalConditions": null
+    }
+  ],
+  "deadlines": [
+    {
+      "label": "Online applications open",
+      "date": "2026-03-02",
+      "intake": "2026-27",
+      "timezone": null,
+      "sourceId": "s2",
+      "confidence": "official"
+    },
+    {
+      "label": "Application deadline",
+      "date": "2026-04-04",
+      "intake": "2026-27",
+      "timezone": null,
+      "sourceId": "s2",
+      "confidence": "official"
+    },
+    {
+      "label": "Entrance examination (2–5 pm)",
+      "date": "2026-05-02",
+      "intake": "2026-27",
+      "timezone": null,
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bs-hons-mathematics",
+      "name": "B.S. (Honours) Mathematics",
+      "degree": "B.S. (Hons.)",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.cmi.ac.in/teaching/bsc.php",
+      "summary": "Four-year honours programme in mathematics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "CMI B.S. entrance examination (common for all three programmes)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications were open 2 March – 4 April 2026."
+          },
+          {
+            "step": "Download admit card",
+            "detail": "Admit cards were released on 25 April 2026."
+          },
+          {
+            "step": "Write the entrance examination",
+            "detail": "One common examination for all B.S. (Honours) programmes, held on 2 May 2026."
+          },
+          {
+            "step": "Choose your programme after admission",
+            "detail": "You don't select a programme when applying; the choice is made after admission."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Exceptional performers in the National Olympiads in Mathematics, Physics and Informatics are exempt from the entrance examination."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": [
+        "CMI scholarship",
+        "Need-based tuition fee waiver"
+      ]
+    },
+    {
+      "slug": "bs-hons-mathematics-and-computer-science",
+      "name": "B.S. (Honours) Mathematics and Computer Science",
+      "degree": "B.S. (Hons.)",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.cmi.ac.in/teaching/bsc.php",
+      "summary": "Four-year honours programme combining mathematics and computer science.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "CMI B.S. entrance examination (common for all three programmes)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications were open 2 March – 4 April 2026."
+          },
+          {
+            "step": "Download admit card",
+            "detail": "Admit cards were released on 25 April 2026."
+          },
+          {
+            "step": "Write the entrance examination",
+            "detail": "One common examination for all B.S. (Honours) programmes, held on 2 May 2026."
+          },
+          {
+            "step": "Choose your programme after admission",
+            "detail": "You don't select a programme when applying; the choice is made after admission."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Exceptional performers in the National Olympiads in Mathematics, Physics and Informatics are exempt from the entrance examination."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": [
+        "CMI scholarship",
+        "Need-based tuition fee waiver"
+      ]
+    },
+    {
+      "slug": "bs-hons-mathematics-and-physics",
+      "name": "B.S. (Honours) Mathematics and Physics",
+      "degree": "B.S. (Hons.)",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.cmi.ac.in/teaching/bsc.php",
+      "summary": "Four-year honours programme combining mathematics and physics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "alsoFields": [
+        "physics"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance"
+        ],
+        "eligibility": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "CMI B.S. entrance examination (common for all three programmes)"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications were open 2 March – 4 April 2026."
+          },
+          {
+            "step": "Download admit card",
+            "detail": "Admit cards were released on 25 April 2026."
+          },
+          {
+            "step": "Write the entrance examination",
+            "detail": "One common examination for all B.S. (Honours) programmes, held on 2 May 2026."
+          },
+          {
+            "step": "Choose your programme after admission",
+            "detail": "You don't select a programme when applying; the choice is made after admission."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Exceptional performers in the National Olympiads in Mathematics, Physics and Informatics are exempt from the entrance examination."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": [
+        "CMI scholarship",
+        "Need-based tuition fee waiver"
+      ]
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "The programme is fully residential: all students live in the on-campus hostel.",
+      "sourceId": "s3",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "feeBreakdown": [
+      {
+        "item": "Tuition (B.S. Honours)",
+        "audience": "all",
+        "amount": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Hostel fee",
+        "audience": "all",
+        "amount": {
+          "min": 4000,
+          "max": 4000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Mess charges",
+        "audience": "all",
+        "amount": {
+          "min": 23000,
+          "max": 23000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      {
+        "item": "Establishment charges",
+        "audience": "all",
+        "amount": {
+          "min": 4000,
+          "max": 4000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      }
+    ],
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "Applications for 2026 were open 2 March – 4 April.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Entrance examination",
+        "detail": "One common B.S. entrance examination; Olympiad exemptions apply.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Programme choice",
+        "detail": "Choose Mathematics, Mathematics & Computer Science, or Mathematics & Physics after admission.",
+        "sourceId": "s2"
+      }
+    ],
+    "studentLife": [
+      {
+        "category": "career-services",
+        "name": "CMI Placement Cell",
+        "description": "Placement support at the institute.",
+        "sourceId": "s7"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Chennai Mathematical Institute — Home",
+      "url": "https://www.cmi.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "CMI — Admissions",
+      "url": "https://www.cmi.ac.in/admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "CMI — National Undergraduate and Postgraduate admissions brochure 2026",
+      "url": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "CMI Admissions 2026 — online application",
+      "url": "https://apply2026.cmi.ac.in/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "CMI — Annual Report 2019–20",
+      "url": "https://www.cmi.ac.in/about/reports/cmi-annual-report-2019-2020.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s7",
+      "label": "CMI Placement Cell",
+      "url": "https://www.cmi.ac.in/~placement/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "deemed-university",
+  "hub": "Chennai",
+  "locality": null,
+  "gender": null,
+  "affiliation": {
+    "value": "Deemed to be university (Section 3 of the UGC Act, 1956) — awards its own degrees",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "Accredited May 2016 — current cycle not verified",
+      "grade": "A",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s6",
+      "confidence": "official",
+      "asOf": "2016"
+    }
+  ]
+}

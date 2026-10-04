@@ -1,0 +1,5867 @@
+{
+  "slug": "anna-university",
+  "name": "Anna University",
+  "officialName": "Anna University, Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [
+    "College of Engineering, Guindy (CEG)",
+    "A.C. College of Technology (ACT), Guindy",
+    "School of Architecture and Planning (SAP), Guindy",
+    "Madras Institute of Technology (MIT), Chromepet"
+  ],
+  "control": "public",
+  "category": "technical",
+  "founded": 1978,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.annauniv.edu/",
+  "admissionsUrl": "https://cfa.annauniv.edu/cfa/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Anna University was established on 4 September 1978 as a unitary state university. Its Chennai university departments are the College of Engineering, Guindy (CEG — tracing its history back over 230 years), the A.C. College of Technology (ACT), the School of Architecture and Planning (SAP), both in Guindy, and the Madras Institute of Technology (MIT) in Chromepet. B.E./B.Tech. seats for Tamil Nadu students are filled through TNEA counselling on Class XII marks — there is no entrance test — while NRI, CIWGC and foreign-national seats are filled by the university's Centre for Admissions.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "State Public Universities",
+      "edition": 2025,
+      "rank": "2",
+      "sourceId": "s1"
+    },
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "20",
+      "sourceId": "s1"
+    },
+    {
+      "org": "NIRF",
+      "category": "University",
+      "edition": 2025,
+      "rank": "20",
+      "sourceId": "s1"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "29",
+      "sourceId": "s1"
+    },
+    {
+      "org": "NIRF",
+      "category": "Innovation",
+      "edition": 2025,
+      "rank": "9",
+      "sourceId": "s1"
+    },
+    {
+      "org": "NIRF",
+      "category": "Research",
+      "edition": 2025,
+      "rank": "26",
+      "sourceId": "s1"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "TNEA online counselling (tneaonline.org) for Tamil Nadu students; Anna University Centre for Admissions for NRI, CIWGC and foreign nationals",
+    "sourceId": "s8",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": "TNEA registration ₹500 (₹250 for SC/SCA/ST)",
+    "sourceId": "s8",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [
+    {
+      "test": "TNEA counselling (Class XII marks; no entrance test)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s8",
+      "confidence": "official"
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 6000,
+        "max": 6000,
+        "period": "semester"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2025-26",
+      "notes": "CEG tuition per semester; development, library, computer and lab charges are extra (see breakdown)."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "TNEA online registration closes",
+      "date": "2026-07-06",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s9",
+      "confidence": "official"
+    },
+    {
+      "label": "TNEA general counselling (online) begins",
+      "date": "2026-07-20",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s9",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-e-civil-engineering-ceg",
+      "name": "B.E. Civil Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Civil Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-geo-informatics-ceg",
+      "name": "B.E. Geo Informatics",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Geo Informatics at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [
+        "geography"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechanical-engineering-ceg",
+      "name": "B.E. Mechanical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Mechanical Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-material-science-and-engineering-ceg",
+      "name": "B.E. Material Science and Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Material Science and Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-industrial-engineering-ceg",
+      "name": "B.E. Industrial Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Industrial Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-manufacturing-engineering-ceg",
+      "name": "B.E. Manufacturing Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Manufacturing Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mining-engineering-ceg",
+      "name": "B.E. Mining Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Mining Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-printing-and-packaging-technology-ceg",
+      "name": "B.E. Printing and Packaging Technology",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Printing and Packaging Technology at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electrical-and-electronics-engineering-ceg",
+      "name": "B.E. Electrical and Electronics Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Electrical and Electronics Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-engineering-ceg",
+      "name": "B.E. Electronics and Communication Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Electronics and Communication Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-biomedical-engineering-ceg",
+      "name": "B.E. Biomedical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Biomedical Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-ceg",
+      "name": "B.E. Computer Science and Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Computer Science and Engineering at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-information-technology-ceg",
+      "name": "B.Tech. Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Information Technology at College of Engineering, Guindy; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition only; plus ₹3,000 development, ₹650 library, ₹1,000 computer and ₹1,000 lab charges each semester."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "College of Engineering, Guindy (CEG)",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-chemical-engineering-act",
+      "name": "B.Tech. Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Chemical Engineering at A.C. College of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "A.C. College of Technology (ACT), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-bio-technology-act",
+      "name": "B.Tech. Bio-Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Bio-Technology at A.C. College of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "A.C. College of Technology (ACT), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-ceramic-technology-act",
+      "name": "B.Tech. Ceramic Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Ceramic Technology at A.C. College of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "A.C. College of Technology (ACT), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-leather-technology-act",
+      "name": "B.Tech. Leather Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Leather Technology at A.C. College of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "A.C. College of Technology (ACT), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-textile-technology-act",
+      "name": "B.Tech. Textile Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Textile Technology at A.C. College of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "A.C. College of Technology (ACT), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-aeronautical-engineering-mit",
+      "name": "B.E. Aeronautical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Aeronautical Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-automobile-engineering-mit",
+      "name": "B.E. Automobile Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Automobile Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-instrumentation-engineering-mit",
+      "name": "B.E. Electronics and Instrumentation Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Electronics and Instrumentation Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-production-engineering-mit",
+      "name": "B.E. Production Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Production Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechanical-engineering-mit",
+      "name": "B.E. Mechanical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Mechanical Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-rubber-and-plastic-technology-mit",
+      "name": "B.Tech. Rubber and Plastic Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Rubber and Plastic Technology at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-engineering-mit",
+      "name": "B.E. Electronics and Communication Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Electronics and Communication Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-mit",
+      "name": "B.E. Computer Science and Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Computer Science and Engineering at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-information-technology-mit",
+      "name": "B.Tech. Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Information Technology at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-robotics-and-automation-mit",
+      "name": "B.E. Robotics and Automation",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.E. Robotics and Automation at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-artificial-intelligence-and-data-science-mit",
+      "name": "B.Tech. Artificial Intelligence and Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Tech. Artificial Intelligence and Data Science at Madras Institute of Technology; four years, eight semesters.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Madras Institute of Technology (MIT), Chromepet",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-arch-architecture-sap",
+      "name": "B.Arch. Architecture",
+      "degree": "B.Arch.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Arch. at the School of Architecture and Planning, Guindy.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "School of Architecture and Planning (SAP), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Register for TNEA B.Arch",
+            "detail": "TNEA runs a separate B.Arch admission with its own brochure, eligibility and rank list."
+          },
+          {
+            "step": "Counselling",
+            "detail": "Online counselling and allotment."
+          }
+        ],
+        "sourceId": "s10",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Eligibility and the aptitude-test requirement are set out in the TNEA B.Arch information brochure."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-plan-planning-sap",
+      "name": "B.Plan. Planning",
+      "degree": "B.Plan.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "summary": "B.Plan. at the School of Architecture and Planning, Guindy.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "School of Architecture and Planning (SAP), Guindy",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "applicationFee": "₹500 (₹250 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Upload certificates & verification",
+            "detail": "Certificates are verified online."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "Tuition (CEG, per semester)",
+        "audience": "domestic",
+        "amount": {
+          "min": 6000,
+          "max": 6000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Development fee (per semester)",
+        "audience": "domestic",
+        "amount": {
+          "min": 3000,
+          "max": 3000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Library fee (per semester)",
+        "audience": "domestic",
+        "amount": {
+          "min": 650,
+          "max": 650,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Computer charges (per semester)",
+        "audience": "domestic",
+        "amount": {
+          "min": 1000,
+          "max": 1000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Laboratory contingency (per semester)",
+        "audience": "domestic",
+        "amount": {
+          "min": 1000,
+          "max": 1000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Institutional deposit (refundable)",
+        "audience": "domestic",
+        "amount": {
+          "min": 5000,
+          "max": 5000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Hostel residential service charge (per semester)",
+        "audience": "all",
+        "amount": {
+          "min": 10800,
+          "max": 10800,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Hostel block maintenance & development (per semester)",
+        "audience": "all",
+        "amount": {
+          "min": 4950,
+          "max": 4950,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Hostel mess advance (per semester)",
+        "audience": "all",
+        "amount": {
+          "min": 17500,
+          "max": 17500,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Hostel electricity, water & room rent (per year)",
+        "audience": "all",
+        "amount": {
+          "min": 3675,
+          "max": 3675,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      },
+      {
+        "item": "Hostel mess deposit (refundable)",
+        "audience": "all",
+        "amount": {
+          "min": 3000,
+          "max": 3000,
+          "period": "total"
+        },
+        "currency": "INR",
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26"
+      }
+    ],
+    "housing": {
+      "value": "Hostels on campus; CEG publishes its UG hostel charges and deposits with the fee structure.",
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2025-26"
+    },
+    "schools": [
+      "College of Engineering, Guindy (CEG)",
+      "A.C. College of Technology (ACT), Guindy",
+      "School of Architecture and Planning (SAP), Guindy",
+      "Madras Institute of Technology (MIT), Chromepet"
+    ],
+    "schoolsSourceId": "s2",
+    "admissionProcess": [
+      {
+        "step": "Register on TNEA",
+        "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST).",
+        "sourceId": "s8"
+      },
+      {
+        "step": "Upload certificates & verification",
+        "detail": "Certificates are verified online.",
+        "sourceId": "s8"
+      },
+      {
+        "step": "Rank list",
+        "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200.",
+        "sourceId": "s8"
+      },
+      {
+        "step": "Special-reservation counselling",
+        "detail": "Government-school 7.5% reservation 13–14 July; other special reservations 15–18 July 2026.",
+        "sourceId": "s8"
+      },
+      {
+        "step": "General counselling",
+        "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026.",
+        "sourceId": "s9"
+      },
+      {
+        "step": "Report to the college",
+        "detail": "Confirm the allotted seat and pay fees.",
+        "sourceId": "s8"
+      },
+      {
+        "step": "NRI / CIWGC / foreign nationals",
+        "detail": "NRI, Children of Indian Workers in Gulf Countries (CIWGC) and foreign nationals apply to Anna University's Centre for Admissions; HSC or equivalent, or 8+4 / 9+3 foreign boards.",
+        "sourceId": "s3"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Anna University — IQAC (NAAC and NIRF 2025)",
+      "url": "https://iqac.annauniv.edu/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Anna University — Centre for Admissions",
+      "url": "https://cfa.annauniv.edu/cfa/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "Anna University — NRI category instructions 2026–27",
+      "url": "https://cfa.annauniv.edu/cfa/pdf/NRI_INSTRUCTION_2026.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "CEG — UG fee structure 2025–26",
+      "url": "https://www.annauniv.edu/pdf/CEG_UG_Fee_Structure.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s8",
+      "label": "TNEA 2026 — Information brochure",
+      "url": "https://static.tneaonline.org/docs/2_Information_Brochure_2026.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s9",
+      "label": "TNEA 2026 — Tentative schedule",
+      "url": "https://static.tneaonline.org/docs/TNEA_2026_Tentative_Schedule.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s10",
+      "label": "TNEA 2026 — B.Arch information brochure",
+      "url": "https://static.tneaonline.org/docs/BArch_Information_Brochure_2026.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "state-university",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "State university (awards its own degrees)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "Valid for 7 years, to 20 August 2030",
+      "grade": "A++",
+      "cycle": "Cycle 3",
+      "validUntil": "2030-08-20",
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2023"
+    }
+  ]
+}

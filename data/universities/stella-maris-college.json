@@ -1,0 +1,2501 @@
+{
+  "slug": "stella-maris-college",
+  "name": "Stella Maris College",
+  "officialName": "Stella Maris College (Autonomous), Chennai",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "government-aided",
+  "category": "arts-and-science",
+  "founded": 1947,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://stellamariscollege.edu.in/",
+  "admissionsUrl": "https://stellamariscollege.edu.in/Admission_FAQs",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Stella Maris College is a Catholic minority college for women founded on 15 August 1947 and run by the Franciscan Missionaries of Mary. It began with 32 students in Santhome and moved in 1960 to 'The Cloisters' on Cathedral Road. It is autonomous, affiliated to the University of Madras and partly residential. Programmes run in an aided section and a self-financing section (Shift II, 12:55–5:30 pm); students are selected purely on merit.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Colleges",
+      "edition": 2025,
+      "rank": "41",
+      "sourceId": "s5"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "Stella Maris College online application portal",
+    "sourceId": "s4",
+    "confidence": "official",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "ba-history-tourism",
+      "name": "B.A. History and Tourism",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.A. History and Tourism at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "hospitality"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-sociology",
+      "name": "B.A. Sociology",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.A. Sociology at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-economics",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.A. Economics at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-english",
+      "name": "B.A. English",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.A. English at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-english-communication-skills",
+      "name": "B.A. English and Communication Skills",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.A. English and Communication Skills at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bva-visual-arts",
+      "name": "B.V.A. Visual Arts (Art or Design)",
+      "degree": "B.V.A.",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.V.A. Visual Arts (Art or Design) at Stella Maris College. Aided section.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "design"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Any group in Higher Secondary.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-mathematics",
+      "name": "B.Sc. Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Sc. Mathematics at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-physics",
+      "name": "B.Sc. Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Sc. Physics at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-chemistry",
+      "name": "B.Sc. Chemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Sc. Chemistry at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-plant-biology-biotechnology",
+      "name": "B.Sc. Plant Biology & Plant Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Sc. Plant Biology & Plant Biotechnology at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-advanced-zoology-biotechnology",
+      "name": "B.Sc. Advanced Zoology & Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Sc. Advanced Zoology & Biotechnology at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-psychology",
+      "name": "B.Sc. Psychology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Sc. Psychology at Stella Maris College. Self-financing (Shift II) section.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financing (Shift II)",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Any group in Higher Secondary.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom",
+      "name": "B.Com. (Commerce)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Com. (Commerce) at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Commerce",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Accountancy",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics or Business Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Commerce",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Accountancy",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics or Business Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Commerce",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Accountancy",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics or Business Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Higher Secondary with Commerce, Accountancy and Mathematics / Business Mathematics.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Commerce",
+          "Accountancy",
+          "Mathematics or Business Mathematics"
+        ],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-corporate-secretaryship",
+      "name": "B.Com. Corporate Secretaryship",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Com. Corporate Secretaryship at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-accounting-finance",
+      "name": "B.Com. Accounting & Finance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Com. Accounting & Finance at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-honours",
+      "name": "B.Com. (Honours)",
+      "degree": "B.Com. (Hons.)",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Com. (Honours) at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba",
+      "name": "B.B.A. Business Administration",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.B.A. Business Administration at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bca",
+      "name": "B.C.A. Computer Applications",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.C.A. Computer Applications at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsw",
+      "name": "B.S.W. Social Work",
+      "degree": "B.S.W.",
+      "level": "bachelors",
+      "field": "social-work",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.S.W. Social Work at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bvoc-food-processing-quality-control",
+      "name": "B.Voc. Food Processing & Quality Control",
+      "degree": "B.Voc.",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Voc. Food Processing & Quality Control at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bvoc-sustainable-energy-management",
+      "name": "B.Voc. Sustainable Energy Management",
+      "degree": "B.Voc.",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Voc. Sustainable Energy Management at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bvoc-banking-financial-services-insurance",
+      "name": "B.Voc. Banking, Financial Services and Insurance",
+      "degree": "B.Voc.",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Voc. Banking, Financial Services and Insurance at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bvoc-tourism-hospitality",
+      "name": "B.Voc. Tourism and Hospitality",
+      "degree": "B.Voc.",
+      "level": "bachelors",
+      "field": "hospitality",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "summary": "B.Voc. Tourism and Hospitality at Stella Maris College.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "Passed the Plus Two examination or its equivalent.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Through the college's online application portal."
+          },
+          {
+            "step": "Merit selection",
+            "detail": "Candidates are selected purely on merit."
+          },
+          {
+            "step": "Join",
+            "detail": "Selected candidates complete admission and pay fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "housing": {
+      "value": "The college is partly residential.",
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    },
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "Through the college's online application portal.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Merit selection",
+        "detail": "Candidates are selected purely on merit.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Join",
+        "detail": "Selected candidates complete admission and pay fees.",
+        "sourceId": "s2"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Stella Maris College — About",
+      "url": "https://stellamariscollege.edu.in/conference/about_stella.html",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "Stella Maris College — Admission FAQs",
+      "url": "https://stellamariscollege.edu.in/Admission_FAQs",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "Stella Maris College — Programmes",
+      "url": "https://stellamariscollege.edu.in/Programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "Stella Maris College — Online application",
+      "url": "https://reg.stellamariscollege.edu.in/OnlineApp_Home.aspx",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "Shiksha — Stella Maris College ranking (NIRF 2025)",
+      "url": "https://www.shiksha.com/college/stella-maris-college-cathedral-road-chennai-3786/ranking",
+      "type": "secondary",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": null,
+  "gender": "women",
+  "affiliation": {
+    "value": "University of Madras (autonomous college)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "minorityStatus": {
+    "value": "Catholic minority institution run by the Franciscan Missionaries of Mary",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

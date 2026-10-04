@@ -1,0 +1,3693 @@
+{
+  "slug": "madras-christian-college",
+  "name": "Madras Christian College",
+  "officialName": "Madras Christian College (Autonomous)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "government-aided",
+  "category": "arts-and-science",
+  "founded": 1837,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://mcc.edu.in/",
+  "admissionsUrl": "https://mcc.edu.in/admission-2026-2027/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Madras Christian College began on 3 April 1837 as the General Assembly School, founded by Rev. John Anderson of the Church of Scotland, and moved to its Tambaram campus — a 390-acre stretch of the Selaiyur forest — in 1937. It became one of the earliest autonomous colleges in 1978 and is affiliated to the University of Madras. Undergraduate courses run in an aided stream and a self-financed stream; admission is on Class XII marks.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Colleges",
+      "edition": 2025,
+      "rank": "16",
+      "sourceId": "s10"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "MCC online application portal (opened 23 Feb 2026 for 2026–27)",
+    "sourceId": "s2",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "ba-history-aided",
+      "name": "B.A. History",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. History in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-history-archaeology-museology-aided",
+      "name": "B.A. History — Archaeology and Museology",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. History — Archaeology and Museology in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-political-science-aided",
+      "name": "B.A. Political Science",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. Political Science in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-economics-aided",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. Economics in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-philosophy-aided",
+      "name": "B.A. Philosophy",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. Philosophy in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-tamil-aided",
+      "name": "B.A. Tamil",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. Tamil in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-english-aided",
+      "name": "B.A. English",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.A. English in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-aided",
+      "name": "B.Com.",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Com. in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Commerce / Business Studies",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Accountancy",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Commerce / Business Studies",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Accountancy",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Commerce / Business Studies",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Accountancy",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Commerce / Business Studies",
+          "Accountancy"
+        ],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-mathematics-aided",
+      "name": "B.Sc. Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Sc. Mathematics in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-statistics-aided",
+      "name": "B.Sc. Statistics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Sc. Statistics in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-physics-aided",
+      "name": "B.Sc. Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Sc. Physics in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-chemistry-aided",
+      "name": "B.Sc. Chemistry",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Sc. Chemistry in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-plant-biology-plant-biotechnology-aided",
+      "name": "B.Sc. Plant Biology and Plant Biotechnology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Sc. Plant Biology and Plant Biotechnology in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biotechnology"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-zoology-aided",
+      "name": "B.Sc. Zoology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/courses-offered/",
+      "summary": "B.Sc. Zoology in MCC's aided stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Aided",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-english-language-literature-sfs",
+      "name": "B.A. English Language and Literature",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.A. English Language and Literature in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "ba-journalism-sfs",
+      "name": "B.A. Journalism",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.A. Journalism in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsw-sfs",
+      "name": "B.S.W. (Social Work)",
+      "degree": "B.S.W.",
+      "level": "bachelors",
+      "field": "social-work",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.S.W. (Social Work) in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-sfs",
+      "name": "B.B.A.",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.B.A. in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-general-sfs",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Com. (General) in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-accounting-finance-sfs",
+      "name": "B.Com. Accounting and Finance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Com. Accounting and Finance in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-professional-accounting-sfs",
+      "name": "B.Com. Professional Accounting",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Com. Professional Accounting in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bca-sfs",
+      "name": "B.C.A.",
+      "degree": "B.C.A.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.C.A. in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-computer-science-sfs",
+      "name": "B.Sc. Computer Science",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Computer Science in MCC's self-financed stream. Preference for students who studied Computer Science in Class XII.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics"
+        ],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Preference for students who studied Computer Science in Class XII."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-microbiology-sfs",
+      "name": "B.Sc. Microbiology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Microbiology in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-mathematics-sfs",
+      "name": "B.Sc. Mathematics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Mathematics in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-physics-sfs",
+      "name": "B.Sc. Physics",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Physics in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-physical-education-sfs",
+      "name": "B.Sc. Physical Education, Health Education and Sports",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "sports-management",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Physical Education, Health Education and Sports in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-geography-sfs",
+      "name": "B.Sc. Geography",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "geography",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Geography in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-hospitality-tourism-sfs",
+      "name": "B.Sc. Hospitality and Tourism",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "hospitality",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Hospitality and Tourism in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-visual-communication-sfs",
+      "name": "B.Sc. Visual Communication",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Visual Communication in MCC's self-financed stream.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bsc-psychology-sfs",
+      "name": "B.Sc. Psychology",
+      "degree": "B.Sc.",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://mcc.edu.in/self-financed-stream/",
+      "summary": "B.Sc. Psychology in MCC's self-financed stream. Any Class XII group is eligible.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "TN HSC or equivalent; other boards need a University of Madras eligibility certificate."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Self-financed",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit"
+        ],
+        "eligibility": "A pass in the Tamil Nadu Higher Secondary or an equivalent examination; Plus Two marks are required to apply. Boards other than the Tamil Nadu State Board, CBSE (AISSCE) and CISCE need an eligibility certificate from the University of Madras, as do private-study and open-school candidates.",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": "Selection lists are drawn up by community category (e.g. OC).",
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results."
+          },
+          {
+            "step": "Selection lists",
+            "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category."
+          },
+          {
+            "step": "Pay fees",
+            "detail": "Admitted students pay the course fee to confirm the seat."
+          },
+          {
+            "step": "Apply for a hall (optional)",
+            "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees."
+          }
+        ],
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Any Class XII group is eligible."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "campusAreaAcres": {
+      "value": 390,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null,
+      "notes": "Described by the college as a 390-acre stretch of the Selaiyur forest."
+    },
+    "housing": {
+      "value": "Six halls of residence: Selaiyur, St Thomas's and Bishop Heber for men; Martin, Margaret and Barnes for women. Admission to a course doesn't guarantee a hall place — apply separately to the Dean of Students' Affairs after paying course fees.",
+      "sourceId": "s7",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "facilities": [
+      {
+        "name": "Selaiyur Hall",
+        "description": null,
+        "sourceId": "s8",
+        "category": "hostel"
+      },
+      {
+        "name": "St Thomas's Hall",
+        "description": null,
+        "sourceId": "s8",
+        "category": "hostel"
+      },
+      {
+        "name": "Bishop Heber Hall",
+        "description": null,
+        "sourceId": "s8",
+        "category": "hostel"
+      },
+      {
+        "name": "Martin Hall",
+        "description": null,
+        "sourceId": "s8",
+        "category": "hostel"
+      },
+      {
+        "name": "Margaret Hall",
+        "description": null,
+        "sourceId": "s8",
+        "category": "hostel"
+      },
+      {
+        "name": "Barnes Hall",
+        "description": null,
+        "sourceId": "s8",
+        "category": "hostel"
+      }
+    ],
+    "cutoffs": [],
+    "admissionProcess": [
+      {
+        "step": "Apply online",
+        "detail": "The 2026–27 portal opened on 23 February 2026; admissions begin after the Tamil Nadu Class XII results.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Selection lists",
+        "detail": "Selection lists are published by programme, ranked on Class XII percentage within each community category.",
+        "sourceId": "s6"
+      },
+      {
+        "step": "Pay fees",
+        "detail": "Admitted students pay the course fee to confirm the seat.",
+        "sourceId": "s2"
+      },
+      {
+        "step": "Apply for a hall (optional)",
+        "detail": "Hall (hostel) places are applied for separately to the Dean of Students' Affairs after paying course fees.",
+        "sourceId": "s2"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "MCC — History and milestones",
+      "url": "https://mcc.edu.in/history-and-milestones/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "MCC — Admission 2026–2027",
+      "url": "https://mcc.edu.in/admission-2026-2027/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "MCC — Annual Quality Assurance Report 2021–22",
+      "url": "https://mcc.edu.in/wp-content/uploads/2024/05/AQAR-2021-2022.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s6",
+      "label": "MCC — Commerce selection list 2023 (by percentage and community)",
+      "url": "https://mcc.edu.in/wp-content/uploads/2023/05/Commerce.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s7",
+      "label": "MCC — Hall Admission 2026–2027",
+      "url": "https://mcc.edu.in/hall-admission-2026-2027/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s8",
+      "label": "MCC — Students' accommodation",
+      "url": "https://mcc.edu.in/students-accommodation/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s10",
+      "label": "Careers360 — Tamil Nadu in NIRF 2025 (college ranks)",
+      "url": "https://university.careers360.com/articles/tamil-nadu-leads-11-out-of-17-categories-in-nirf-2025-ranking",
+      "type": "secondary",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": "East Tambaram",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "University of Madras (autonomous college)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "Re-accredited 'A' in 2019; a later cycle not verified",
+      "grade": "A",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s5",
+      "confidence": "official",
+      "asOf": "2019"
+    }
+  ]
+}
