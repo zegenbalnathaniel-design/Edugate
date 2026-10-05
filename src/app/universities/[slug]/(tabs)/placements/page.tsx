@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Block, DataTable, NotYet } from "@/components/unis/Blocks";
+import { Block, DataTable, Empty, NotYet } from "@/components/unis/Blocks";
 import { Sourced } from "@/components/unis/Sourced";
 import { salary } from "@/lib/unis/format";
 import { getUniversity } from "@/lib/unis/repo";
@@ -36,7 +36,7 @@ export default async function PlacementsPage({ params }: Props) {
         note="Figures exactly as each publisher defines them — NIRF placement data, national graduate surveys, or the university's own career report. Different countries measure differently, so compare like with like."
       >
         {outcomes.length === 0 ? (
-          <NotYet>Data not publicly available — {u.name} hasn&apos;t published placement or graduate-outcome figures that Edugate could verify. We don&apos;t show unverified package claims.</NotYet>
+          <Empty>Data not publicly available — {u.name} hasn&apos;t published placement or graduate-outcome figures.</Empty>
         ) : (
           <div className="space-y-6">
             <DataTable
@@ -137,7 +137,7 @@ export default async function PlacementsPage({ params }: Props) {
             </p>
           </>
         ) : (
-          <NotYet>Data not publicly available — no recruiter list verified yet.</NotYet>
+          <Empty>Data not publicly available.</Empty>
         )}
       </Block>
     </div>

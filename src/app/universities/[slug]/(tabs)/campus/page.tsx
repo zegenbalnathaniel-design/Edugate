@@ -42,10 +42,12 @@ export default async function CampusPage({ params }: Props) {
               </Sourced>
             </dd>
           </div>
-          <div className="glass p-4">
-            <dt className="meta text-paper/50">Setting</dt>
-            <dd className="mt-1 capitalize">{u.setting ?? <span className="text-paper/50 normal-case">Not verified</span>}</dd>
-          </div>
+          {u.setting && (
+            <div className="glass p-4">
+              <dt className="meta text-paper/50">Setting</dt>
+              <dd className="mt-1 capitalize">{u.setting}</dd>
+            </div>
+          )}
           <div className="glass p-4">
             <dt className="meta text-paper/50">Campuses</dt>
             <dd className="mt-1">{u.campuses.length ? u.campuses.join(", ") : u.city}</dd>

@@ -72,8 +72,16 @@ Selectivity (`selectivity.ts`): acceptance rate < 15% highly selective, 15–35 
 
 ## 8. Data quality rules (unchanged, restated for Indian data)
 
-Source priority: official institution site/prospectus → admission portal → syllabus/handbook → government (UGC, AICTE, state DoTE/DCE, TNEA) → NIRF → NAAC → institutional reports (AQAR/SSR, NIRF data submissions) → reputable secondary (labelled *secondary*). Every value names a source, a date and a confidence. Fees, deadlines, requirements, tests, rankings and placement figures carry `asOf`; freshness flags compute at read time. Absent data reads "Not verified yet" or "Data not publicly available" — never an estimate. Placement packages are only shown from the institution's own report or its NIRF submission.
+Source priority: official institution site/prospectus → admission portal → syllabus/handbook → government (UGC, AICTE, state DoTE/DCE, TNEA) → NIRF → NAAC → institutional reports (AQAR/SSR, NIRF data submissions) → reputable secondary (labelled *secondary*). Every value names a source, a date and a confidence. Fees, deadlines, requirements, tests, rankings and placement figures carry `asOf`; freshness flags compute at read time. Unverified fields, boxes and tabs are never shown (2026-10-05): a field with no verified value is left out, a section with nothing verified hides itself (`.block-section:has(> .block-body:empty)`), and profile tabs with no content are dropped. The one stated absence is "Data not publicly available" for placement figures an institution doesn't publish. Never an estimate. Placement packages are only shown from the institution's own report or its NIRF submission.
 
-## 9. Coverage roadmap
+## 9. Chennai roster
+
+`data/directories/chennai-gcc-colleges.json` holds the Greater Chennai Corporation's list of colleges in the city (arts & science, engineering, dental, pharmacy, nursing, homoeopathy, Ayurveda, hotel management), names exactly as published, each linked to its Edugate profile where one exists. The Chennai city page shows it in full with coverage counts; Phase 1 is complete when every entry has a profile. (The Corporation's management, polytechnic and ITI lists are outside the undergraduate scope.)
+
+## 10. Performance
+
+College profile pages never wait on the database cold start: on a preview deploy (embedded in-memory PGlite, ~5 s WASM start + ~1 s seed) `getUniversity` serves the validated data files until the database is warm, and `src/instrumentation.ts` starts the warm-up at server boot. Slow secondary blocks (similar courses) stream behind `<Suspense>`; `universities/[slug]/loading.tsx` gives instant navigation feedback.
+
+## 11. Coverage roadmap
 
 Phase 1 Chennai (deep: every UG programme per institution) → Phase 2 Tamil Nadu → Phase 3 India by state → Phase 4 abroad deepening. The current count per tier is shown live on `/explore`; the coverage gap is stated, not hidden.

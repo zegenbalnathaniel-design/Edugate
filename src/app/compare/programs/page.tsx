@@ -19,7 +19,7 @@ import { getProfile } from "@/lib/user/repo";
 export const metadata: Metadata = { title: "Compare programmes" };
 const MAX = 5;
 const NA = <span className="text-paper/45">Data not publicly available</span>;
-const NV = <span className="text-paper/45">Not verified yet</span>;
+const NV = <span className="text-paper/40">—</span>;
 
 type Col = { u: University; p: Program };
 

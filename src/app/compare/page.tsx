@@ -14,7 +14,7 @@ import { getProfile } from "@/lib/user/repo";
 
 export const metadata: Metadata = { title: "Compare universities" };
 const MAX = 5;
-const NV = <span className="text-paper/45">Not currently verified</span>;
+const NV = <span className="text-paper/40">—</span>;
 
 export default async function ComparePage({ searchParams }: { searchParams: Promise<{ u?: string }> }) {
   const sel = ((await searchParams).u ?? "").split(",").filter(Boolean).slice(0, MAX);
@@ -33,7 +33,7 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
         const reqs = u.programs.flatMap((p) => p.requirements.map((r) => ({ p, r })));
         if (profile?.curriculum) {
           const m = reqs.filter((x) => x.r.curriculum === profile.curriculum);
-          if (!m.length) return <span className="text-paper/55">Not published</span>;
+          if (!m.length) return <span className="text-paper/40">—</span>;
           return m.map(({ p, r }) => (
             <span key={p.slug} className="block"><Sourced sourceId={r.sourceId} sources={u.sources} confidence={r.confidence} notes={r.notes}>{p.degree}: {r.accepted === false ? "not accepted" : r.minimum ?? r.typical ?? "accepted"}</Sourced></span>
           ));
@@ -44,7 +44,7 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
     ["SAT", (u) => { const s = satPolicy(u); return s ? TEST_POLICY_LABEL[s] : NV; }],
     ["English (IELTS)", (u) => { const e = u.english.find((x) => x.test === "IELTS"); return e ? <Sourced sourceId={e.sourceId} sources={u.sources} confidence={e.confidence}>≥ {e.minOverall ?? "?"}{e.minSection ? ` (≥ ${e.minSection} each)` : ""}</Sourced> : NV; }],
     ["International tuition", (u) => { const t = u.costs.internationalTuition; return t.value ? <><Sourced sourceId={t.sourceId} sources={u.sources} confidence={t.confidence} asOf={t.asOf} notes={t.notes}>{moneyRange(t.value, u.costs.currency)}</Sourced><span className="block text-[0.75rem] text-paper/45">{usdApprox(t.value, u.costs.currency)}</span></> : NV; }],
-    ["Scholarships & aid", (u) => (u.scholarships.length ? u.scholarships.map((s) => <span key={s.name} className="block">{s.name}</span>) : <span className="text-paper/55">None verified yet</span>)],
+    ["Scholarships & aid", (u) => (u.scholarships.length ? u.scholarships.map((s) => <span key={s.name} className="block">{s.name}</span>) : <span className="text-paper/40">—</span>)],
     ["Research", (u) => u.opportunities.filter((o) => o.category === "research").map((o) => <span key={o.name} className="block">{o.name}</span>)],
     ["Entrepreneurship", (u) => u.opportunities.filter((o) => o.category === "entrepreneurship").map((o) => <span key={o.name} className="block">{o.name}</span>)],
     ["Internships & careers", (u) => u.opportunities.filter((o) => o.category === "internships" || o.category === "careers").map((o) => <span key={o.name} className="block">{o.name}</span>)],

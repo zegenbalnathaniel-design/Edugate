@@ -1,7 +1,9 @@
 import "server-only";
 import { cache } from "react";
 import { and, arrayOverlaps, asc, eq, gte, inArray, isNull, lte, max, or, sql, type SQL } from "drizzle-orm";
-import { getDb } from "@/lib/db";
+import { catalogueFromFiles, getDb, warmDb } from "@/lib/db";
+import { loadUniversityFiles } from "@/lib/db/seed";
+import { extractColumns } from "./extract";
 import { programs, universities } from "@/lib/db/schema";
 import { COST_BANDS, QS_BANDS, subjectsInQuery, type Filters } from "./filters";
 import { HOME_HUB, type Tier } from "./geo";
@@ -131,7 +133,29 @@ export async function searchUniversities(f: Filters): Promise<{ rows: University
   return { rows: rows.map(hydrate), total, unknownFeesHidden };
 }
 
+/* The validated data files as rows, for cold starts of the in-memory preview database. */
+const fg = globalThis as unknown as { __edugateFileRows?: Map<string, UniversityRow> };
+function fileRows(): Map<string, UniversityRow> {
+  if (!fg.__edugateFileRows) {
+    fg.__edugateFileRows = new Map(
+      loadUniversityFiles().records.map((u) => {
+        const c = extractColumns(u);
+        const row: UniversityRow = {
+          slug: c.slug, region: c.region, hub: c.hub, institutionType: c.institutionType, selectivity: c.selectivity, costInrMin: c.costInrMin, name: c.name,
+          country: c.country, countryCode: c.countryCode, city: c.city, control: c.control, qsRank: c.qsRank, qsEdition: c.qsEdition, intlTuitionUsdMin: c.intlTuitionUsdMin, data: u,
+        };
+        return [u.slug, row];
+      }),
+    );
+  }
+  return fg.__edugateFileRows;
+}
+
 export const getUniversity = cache(async (slug: string): Promise<UniversityRow | null> => {
+  if (catalogueFromFiles()) {
+    warmDb();
+    return fileRows().get(slug) ?? null;
+  }
   const db = await getDb();
   const [row] = await db.select(cols).from(universities).where(eq(universities.slug, slug));
   return row ? hydrate(row) : null;
@@ -172,6 +196,11 @@ export async function countryFacets(): Promise<{ code: string; name: string; reg
 }
 
 export const latestQsEdition = cache(async (): Promise<number | null> => {
+  if (catalogueFromFiles()) {
+    warmDb();
+    const eds = [...fileRows().values()].map((r) => r.qsEdition).filter((e): e is number => e != null);
+    return eds.length ? Math.max(...eds) : null;
+  }
   const db = await getDb();
   const [r] = await db.select({ e: max(universities.qsEdition) }).from(universities);
   return r?.e ?? null;

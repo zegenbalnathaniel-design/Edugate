@@ -610,3 +610,8 @@ html.lenis body {
     opacity: 0.4;
   }
 }
+
+/* A profile section whose content is empty (nothing verified to show) is not rendered at all. */
+.block-section:has(> .block-body:empty) {
+  display: none;
+}

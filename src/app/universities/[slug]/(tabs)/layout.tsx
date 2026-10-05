@@ -51,19 +51,29 @@ export default async function UniversityLayout({ children, params }: LayoutProps
   const d = u.details;
   const base = `/universities/${u.slug}`;
 
+  const ct = u.costs;
+  const hasFees = !!(ct.domesticTuition.value || ct.internationalTuition.value || ct.livingEstimate.value || d.feeBreakdown.length || u.programs.some((p) => p.fees?.value || p.feeBreakdown.length));
+  const hasLife = d.studentLife.length > 0 || u.opportunities.some((o) => ["student-life", "international", "exchange"].includes(o.category));
+  const hasCareers =
+    d.alumni.length > 0 ||
+    u.programs.some((p) => (p.careers && (p.careers.paths.length || p.careers.higherStudy.length)) || p.opportunities.some((o) => ["internships", "industry", "research"].includes(o.category))) ||
+    u.opportunities.some((o) => ["careers", "internships", "industry", "entrepreneurship", "networking"].includes(o.category));
   const tabs = [
     { href: base, label: "Overview" },
     { href: `${base}/courses`, label: "Courses", count: u.programs.length },
     { href: `${base}/admissions`, label: "Admissions" },
-    { href: `${base}/fees`, label: "Fees" },
-    { href: `${base}/scholarships`, label: "Scholarships", count: u.scholarships.length },
+    { href: `${base}/fees`, label: "Fees", show: hasFees },
+    { href: `${base}/scholarships`, label: "Scholarships", count: u.scholarships.length, show: u.scholarships.length > 0 },
     { href: `${base}/placements`, label: "Placements" },
     { href: `${base}/campus`, label: "Campus" },
-    { href: `${base}/student-life`, label: "Student Life" },
-    { href: `${base}/careers`, label: "Careers" },
-    { href: `${base}/rankings`, label: "Rankings", count: u.rankings.length },
+    { href: `${base}/student-life`, label: "Student Life", show: hasLife },
+    { href: `${base}/careers`, label: "Careers", show: hasCareers },
+    { href: `${base}/rankings`, label: "Rankings", count: u.rankings.length, show: u.rankings.length > 0 },
     { href: `${base}/compare`, label: "Compare" },
-  ];
+  ]
+    // Tabs with nothing verified to show are left out rather than opened onto an empty page.
+    .filter((t) => t.show !== false)
+    .map(({ show: _show, ...t }) => t);
   const naac = u.accreditation.find((a) => a.body === "NAAC" && a.grade);
   const nirf = u.rankings.filter((r) => r.org === "NIRF" && !/subject/i.test(r.category)).sort((a, b) => b.edition - a.edition)[0];
 

@@ -86,8 +86,8 @@ export default function MethodologyPage() {
             </li>
           </ul>
           <p className="measure mt-4 text-[0.9375rem] text-current/70">
-            Where no verification exists, the field says "Not yet verified" —
-            not a fabricated number. Figures that imply measurement (cost,
+            Where no verification exists, the field is simply left out —
+            never filled with a fabricated or estimated number. Figures that imply measurement (cost,
             outcomes) are shown as ranges, never as a single suspiciously
             precise statistic, unless they're arithmetic over numbers you
             entered yourself.

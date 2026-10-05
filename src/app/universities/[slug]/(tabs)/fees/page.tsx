@@ -41,8 +41,11 @@ export default async function FeesPage({ params }: PageProps<"/universities/[slu
     .filter((x): x is { f: (typeof living)[number]; y: number } => x.y != null);
   const coa = lowTuition != null && livingYear.length ? lowTuition + livingYear.reduce((a, x) => a + x.y, 0) : null;
 
+  const tuitionBoxes = [ct.domesticTuition, ct.internationalTuition, ct.livingEstimate].filter((v) => v.value && v.sourceId);
+
   return (
     <div className="space-y-14">
+      {tuitionBoxes.length > 0 && (
       <Block title="Tuition" note={india ? "Per year, before scholarships. Aided and self-financed streams at the same college often charge very different fees — check each course." : "Before scholarships or aid. In the university's own currency, with a dated approximate conversion."}>
         <dl className="grid gap-5 sm:grid-cols-3">
           {(
@@ -51,7 +54,7 @@ export default async function FeesPage({ params }: PageProps<"/universities/[slu
               [india ? "International / NRI tuition" : "Domestic tuition", india ? ct.internationalTuition : ct.domesticTuition],
               ["Living estimate", ct.livingEstimate],
             ] as const
-          ).map(([label, v]) => (
+          ).filter(([, v]) => v.value && v.sourceId).map(([label, v]) => (
             <div key={label} className="glass p-4">
               <dt className="meta text-paper/50">{label}</dt>
               <dd className="mt-1 tabular">
@@ -64,6 +67,7 @@ export default async function FeesPage({ params }: PageProps<"/universities/[slu
           ))}
         </dl>
       </Block>
+      )}
 
       <Block title="Fees by course" note="Programme-specific tuition where the institution publishes it. Whole-degree totals are calculated as yearly tuition × duration; fees usually rise each year.">
         {programFees.length === 0 ? (
@@ -115,11 +119,10 @@ export default async function FeesPage({ params }: PageProps<"/universities/[slu
         )}
       </Block>
 
+      {coa != null && (
       <Block title="What a year could cost" note="An illustration from published figures only — not a quote. Add books, travel and personal costs yourself.">
         {coa == null ? (
-          <NotYet>
-            Not enough published figures to add up a year&apos;s cost here. {u.details.housing.value ? "See Campus for hostel details." : ""}
-          </NotYet>
+          null
         ) : (
           <div className="glass p-5">
             <p className="font-display text-[1.75rem] tabular">{moneyRange({ min: coa, max: coa, period: "year" }, ct.currency)}</p>
@@ -140,6 +143,7 @@ export default async function FeesPage({ params }: PageProps<"/universities/[slu
           <Link href={`/universities/${u.slug}/scholarships`} className="text-cyan hover:underline">Scholarships that can reduce this →</Link>
         </p>
       </Block>
+      )}
     </div>
   );
 }

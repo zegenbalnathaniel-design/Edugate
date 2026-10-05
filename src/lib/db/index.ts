@@ -11,7 +11,7 @@ import { loadUniversityFiles, seedUniversities } from "./seed";
 // One instance per process, shared across Next's separate server bundles
 // (pages, server actions and route handlers each get their own module graph,
 // so a module-level variable would open a second embedded database).
-const g = globalThis as unknown as { __edugateDb?: Promise<{ db: DB; mode: DbMode }> | null };
+const g = globalThis as unknown as { __edugateDb?: Promise<{ db: DB; mode: DbMode }> | null; __edugateDbReady?: boolean };
 
 async function init() {
   const conn = await connect();
@@ -21,6 +21,7 @@ async function init() {
     for (const e of errors) console.warn(`[edugate] skipped invalid university file — ${e}`);
     await seedUniversities(conn.db, records);
   }
+  g.__edugateDbReady = true;
   return conn;
 }
 
@@ -30,6 +31,21 @@ function ready() {
     throw e;
   });
   return g.__edugateDb;
+}
+
+/** Start connecting (and, for the embedded database, migrating and seeding) without waiting for it. */
+export function warmDb() {
+  void ready().catch((e) => console.error("[edugate] database warm-up failed", e));
+}
+
+/**
+ * True while an in-memory preview database is still starting. PGlite's WASM
+ * start-up plus seeding takes several seconds on a cold start; read-only
+ * catalogue pages serve the (identical) validated data files meanwhile.
+ */
+export function catalogueFromFiles(): boolean {
+  const memory = !process.env.DATABASE_URL && (process.env.NODE_ENV === "production" || process.env.EDUGATE_DB === "memory");
+  return memory && !g.__edugateDbReady;
 }
 
 export async function getDb(): Promise<DB> {

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 import { Crumbs } from "@/components/explore/Crumbs";
 import { Container, Section } from "@/components/primitives/Section";
-import { Block, DataTable, NotYet } from "@/components/unis/Blocks";
+import { Block, DataTable, Empty, NotYet } from "@/components/unis/Blocks";
 import { FitPanel } from "@/components/unis/FitPanel";
 import { ReportForm } from "@/components/unis/ReportForm";
 import { Sourced, TrustBar } from "@/components/unis/Sourced";
@@ -22,6 +22,7 @@ import { BAND_GLYPH, BAND_LABEL, matchProgram } from "@/lib/unis/match";
 import { placeCrumbs } from "@/lib/unis/paths";
 import { getUniversity, searchPrograms } from "@/lib/unis/repo";
 import { normalizeDegree, programSubjects } from "@/lib/unis/taxonomy";
+import type { Program, University } from "@/lib/unis/schema";
 import { getProfile, trackedSlugs } from "@/lib/user/repo";
 
 type Props = { params: Promise<{ slug: string; program: string }> };
@@ -80,9 +81,6 @@ export default async function ProgramPage({ params }: Props) {
   const opps = [...p.opportunities, ...u.opportunities.filter((o) => ["internships", "exchange", "international", "industry", "research"].includes(o.category))];
   const outcomes = [...p.outcomes].sort((x, y) => y.year.localeCompare(x.year));
   const instOutcomes = outcomes.length ? [] : [...u.details.outcomes].sort((x, y) => y.year.localeCompare(x.year));
-  const similar = (await searchPrograms({ ...parseFilters({}), fields: [subjects.includes(p.field) ? p.field : subjects[0]] }))
-    .filter((h) => !(h.uni.slug === u.slug && h.program.slug === p.slug) && tierOf(h.uni) === tierOf({ countryCode: u.countryCode, region: u.region, hub: u.hub, city: u.city }))
-    .slice(0, 6);
 
   return (
     <Section register="deep" className="min-h-screen pt-32 pb-24">
@@ -115,7 +113,7 @@ export default async function ProgramPage({ params }: Props) {
           </div>
           <div className="flex flex-wrap gap-2">
             <TrackButton university={u.slug} program={p.slug} back={`${base}/programs/${p.slug}`} tracked={tracked.has(`${u.slug}/${p.slug}`)} />
-            <Link href={`/compare/programs?p=${u.slug}/${p.slug}${similar[0] ? `&p=${similar[0].uni.slug}/${similar[0].program.slug}` : ""}`} className="inline-flex h-10 items-center rounded-full border border-paper/25 px-4 text-[0.875rem] hover:border-paper/60">Compare</Link>
+            <Link href={`/compare/programs?p=${u.slug}/${p.slug}`} className="inline-flex h-10 items-center rounded-full border border-paper/25 px-4 text-[0.875rem] hover:border-paper/60">Compare</Link>
             {p.url && <a href={p.url} target="_blank" rel="noopener noreferrer" className="inline-flex h-10 items-center rounded-full border border-paper/25 px-4 text-[0.875rem] hover:border-paper/60">Official page ↗</a>}
           </div>
         </div>
@@ -123,26 +121,22 @@ export default async function ProgramPage({ params }: Props) {
 
         <dl className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Fact label="Degree · level">{p.degree} · {LEVEL_LABEL[p.level]}</Fact>
-          <Fact label="Duration">{p.durationYears ? `${p.durationYears} years` : <span className="text-paper/50">Not verified</span>}</Fact>
-          <Fact label="Mode">{p.mode ? <span className="capitalize">{p.mode}</span> : <span className="text-paper/50">Not stated</span>}</Fact>
-          <Fact label="Seats (intake)">
-            {p.intake.value != null ? (
+          {p.durationYears != null && <Fact label="Duration">{p.durationYears} years</Fact>}
+          {p.mode && <Fact label="Mode"><span className="capitalize">{p.mode}</span></Fact>}
+          {p.intake.value != null && p.intake.sourceId && (
+            <Fact label="Seats (intake)">
               <Sourced sourceId={p.intake.sourceId} sources={S} confidence={p.intake.confidence} asOf={p.intake.asOf} notes={p.intake.notes}>{p.intake.value}</Sourced>
-            ) : (
-              <span className="text-paper/50">Not published</span>
-            )}
-          </Fact>
-          <Fact label="Tuition">
-            {fees.value ? (
+            </Fact>
+          )}
+          {fees.value && fees.sourceId && (
+            <Fact label="Tuition">
               <Sourced sourceId={fees.sourceId} sources={S} confidence={fees.confidence} asOf={fees.asOf} notes={fees.notes}>{moneyRange(fees.value, u.costs.currency)}</Sourced>
-            ) : (
-              <span className="text-paper/50">Not verified</span>
-            )}
-            {!india && inr != null && <span className="block text-[0.75rem] text-paper/45">≈ {inrCompact(inr)}/yr</span>}
-          </Fact>
-          <Fact label="How you get in">{a?.basis.length ? a.basis.map((b) => BASIS_LABEL[b]).join(", ") : <span className="text-paper/50">See admissions below</span>}</Fact>
+              {!india && inr != null && <span className="block text-[0.75rem] text-paper/45">≈ {inrCompact(inr)}/yr</span>}
+            </Fact>
+          )}
+          {a?.basis.length ? <Fact label="How you get in">{a.basis.map((b) => BASIS_LABEL[b]).join(", ")}</Fact> : null}
           <Fact label="Campus">{p.campus ?? u.locality ?? u.city}</Fact>
-          <Fact label="Department">{p.department ?? p.school ?? <span className="text-paper/50">Not stated</span>}</Fact>
+          {(p.department ?? p.school) && <Fact label="Department">{p.department ?? p.school}</Fact>}
         </dl>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_22rem]">
@@ -186,15 +180,21 @@ export default async function ProgramPage({ params }: Props) {
               </section>
             )}
 
-            <Block title="Admission" note={a ? undefined : "Course-level admission details aren't itemised yet — institution-wide information is shown."}>
+            <Block title="Admission">
               {a && (
                 <dl className="grid gap-4 sm:grid-cols-2">
-                  <Fact label="Eligibility">
-                    <Sourced sourceId={a.sourceId} sources={S} confidence={a.confidence} asOf={a.asOf} notes={a.notes}>{a.eligibility ?? "See official page"}</Sourced>
-                  </Fact>
-                  <Fact label="Minimum marks">{a.minimumPercent ?? <span className="text-paper/50">Not published</span>}</Fact>
-                  <Fact label="Class XI–XII subjects">{a.requiredSubjects.length ? a.requiredSubjects.join(", ") : <span className="text-paper/50">None specified</span>}</Fact>
-                  <Fact label="Entrance tests">{a.entranceTests.length ? a.entranceTests.join(", ") : <span className="text-paper/50">None — {a.basis.includes("merit") ? "merit on Class XII marks" : "see process"}</span>}</Fact>
+                  {a.eligibility && (
+                    <Fact label="Eligibility">
+                      <Sourced sourceId={a.sourceId} sources={S} confidence={a.confidence} asOf={a.asOf}>{a.eligibility}</Sourced>
+                    </Fact>
+                  )}
+                  {a.minimumPercent && <Fact label="Minimum marks">{a.minimumPercent}</Fact>}
+                  {a.requiredSubjects.length > 0 && <Fact label="Class XI–XII subjects">{a.requiredSubjects.join(", ")}</Fact>}
+                  {a.entranceTests.length > 0 ? (
+                    <Fact label="Entrance tests">{a.entranceTests.join(", ")}</Fact>
+                  ) : a.basis.includes("merit") ? (
+                    <Fact label="Entrance tests">None — merit on Class XII marks</Fact>
+                  ) : null}
                   {a.applicationFee && <Fact label="Application fee">{a.applicationFee}</Fact>}
                   {a.reservation && <Fact label="Reservation">{a.reservation}</Fact>}
                   {a.international && <Fact label="International / NRI / OCI">{a.international}</Fact>}
@@ -207,7 +207,7 @@ export default async function ProgramPage({ params }: Props) {
                 <ol className="mt-6 space-y-3">
                   {process.map((st, i) => (
                     <li key={i} className="flex gap-4">
-                      <span className="flex size-7 shrink-0 items-center justify-center rounded-full border border-electric/60 text-[0.8125rem] text-electric">{i + 1}</span>
+                      <span aria-hidden className="mt-2 size-1.5 shrink-0 rounded-full bg-electric" />
                       <div>
                         <p className="font-medium">{st.step}</p>
                         <p className="text-[0.9375rem] text-paper/70">{st.detail}</p>
@@ -240,7 +240,7 @@ export default async function ProgramPage({ params }: Props) {
                         <h3 className="font-display text-[1.125rem]">{CURRICULUM_LABELS[r.curriculum as keyof typeof CURRICULUM_LABELS] ?? r.curriculum}</h3>
                         <Sourced sourceId={r.sourceId} sources={S} confidence={r.confidence} asOf={r.asOf} notes={r.notes}>
                           <span className={r.accepted === false ? "text-attention" : r.accepted ? "text-verified" : "text-paper/60"}>
-                            {r.accepted === false ? "✗ Not accepted" : r.accepted ? "✓ Accepted" : "○ Not stated"}
+                            {r.accepted === false ? "✗ Not accepted" : r.accepted ? "✓ Accepted" : "—"}
                           </span>
                         </Sourced>
                       </div>
@@ -383,7 +383,7 @@ export default async function ProgramPage({ params }: Props) {
 
             <Block title="Placements" note={outcomes.length ? "For this course, as published." : instOutcomes.length ? "This course's own figures aren't published; these are institution-wide." : undefined}>
               {outcomes.length + instOutcomes.length === 0 ? (
-                <NotYet>Data not publicly available.</NotYet>
+                <Empty>Data not publicly available.</Empty>
               ) : (
                 <DataTable
                   caption="Placement outcomes"
@@ -408,7 +408,25 @@ export default async function ProgramPage({ params }: Props) {
               )}
             </Block>
 
-            {similar.length > 0 && (
+            <Suspense fallback={null}>
+              <SimilarCourses u={u} p={p} field={subjects.includes(p.field) ? p.field : subjects[0]} />
+            </Suspense>
+            <ReportForm university={u.slug} program={p.slug} />
+          </div>
+          <aside><FitPanel u={u} profile={profile} program={p} /></aside>
+        </div>
+      </Container>
+    </Section>
+  );
+}
+
+/** Same subject, same tier. Streams in after the page so the profile never waits on the course index. */
+async function SimilarCourses({ u, p, field }: { u: University; p: Program; field: Program["field"] }) {
+  const similar = (await searchPrograms({ ...parseFilters({}), fields: [field] }))
+    .filter((h) => !(h.uni.slug === u.slug && h.program.slug === p.slug) && tierOf(h.uni) === tierOf({ countryCode: u.countryCode, region: u.region, hub: u.hub, city: u.city }))
+    .slice(0, 6);
+  if (!similar.length) return null;
+  return (
               <Block title="Similar courses nearby" note="Same subject, same part of the map. Pick one to compare side by side.">
                 <ul className="grid gap-3 sm:grid-cols-2">
                   {similar.map((h) => (
@@ -422,12 +440,5 @@ export default async function ProgramPage({ params }: Props) {
                   ))}
                 </ul>
               </Block>
-            )}
-            <ReportForm university={u.slug} program={p.slug} />
-          </div>
-          <aside><FitPanel u={u} profile={profile} program={p} /></aside>
-        </div>
-      </Container>
-    </Section>
   );
 }

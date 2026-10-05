@@ -56,7 +56,7 @@ function Row({ h }: { h: ProgramHit }) {
       </div>
       <div className="text-[0.875rem]">
         <span className="meta block text-paper/45">Yearly fee</span>
-        {h.costInr != null ? <span className="tabular">{india ? "" : "≈ "}{inrCompact(h.costInr)}</span> : <span className="text-paper/50">Not verified</span>}
+        {h.costInr != null ? <span className="tabular">{india ? "" : "≈ "}{inrCompact(h.costInr)}</span> : <span className="text-paper/40">—</span>}
         {local && <span className="block text-[0.75rem] text-paper/45">{local.trim()}</span>}
       </div>
       <div className="text-[0.875rem]">

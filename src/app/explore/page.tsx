@@ -54,14 +54,13 @@ export default async function ExplorePage() {
           <button className="h-12 rounded-full bg-electric px-6 text-[0.9375rem] font-semibold text-[var(--on-electric)]">Find courses</button>
         </form>
 
-        <ol className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-          {(["chennai", "tamil-nadu", "india", "abroad"] as Tier[]).map((t, i) => {
+        <ul className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          {(["chennai", "tamil-nadu", "india", "abroad"] as Tier[]).map((t) => {
             const n = tally(t);
             return (
               <li key={t}>
                 <Link href={TIER_COPY[t].href} className="glass glass-interactive flex h-full flex-col p-6">
-                  <span className="meta text-paper/45">Level {i + 1}</span>
-                  <span className="mt-2 font-display text-[1.75rem] leading-tight">{t === "india" ? "India" : TIER_LABEL[t]}</span>
+                  <span className="font-display text-[1.75rem] leading-tight">{t === "india" ? "India" : TIER_LABEL[t]}</span>
                   <span className="mt-2 text-[0.875rem] text-paper/65">{TIER_COPY[t].blurb}</span>
                   <span className="mt-auto pt-5 text-[0.875rem]">
                     <strong className="tabular">{n.institutions}</strong> institution{n.institutions === 1 ? "" : "s"} · <strong className="tabular">{n.programs}</strong> programmes
@@ -70,7 +69,7 @@ export default async function ExplorePage() {
               </li>
             );
           })}
-        </ol>
+        </ul>
 
         <div className="mt-16 grid gap-10 lg:grid-cols-[1fr_22rem]">
           <section aria-labelledby="by-course">

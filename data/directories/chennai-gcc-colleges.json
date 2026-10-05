@@ -1,0 +1,811 @@
+{
+  "source": {
+    "label": "Greater Chennai Corporation — About Chennai: Colleges",
+    "url": "https://chennaicorporation.gov.in/gcc/about-GCC/about-chennai/colleges/",
+    "type": "government",
+    "retrievedAt": "2026-10-05",
+    "notes": "College names exactly as the Corporation lists them. The page also lists management colleges (postgraduate), polytechnics and ITIs, which are outside Edugate's undergraduate scope."
+  },
+  "categories": [
+    {
+      "key": "arts-and-science",
+      "label": "Arts & Science",
+      "complete": true,
+      "colleges": [
+        {
+          "name": "Asan Memorial College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Bhaktavatsalam Memorial College for Women",
+          "slug": null
+        },
+        {
+          "name": "Meenakshi College for Women",
+          "slug": null
+        },
+        {
+          "name": "Sriram College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Vels University (Vel's College of Science)",
+          "slug": "vels-institute-of-science-technology-and-advanced-studies"
+        },
+        {
+          "name": "A.M. Jain College (Men)",
+          "slug": null
+        },
+        {
+          "name": "Bharathi's Women's College (Autonomous)",
+          "slug": null
+        },
+        {
+          "name": "C. Kandasami Naidu College for Men",
+          "slug": null
+        },
+        {
+          "name": "Chellammal Women's College of the Pachaiyappa's Trust",
+          "slug": null
+        },
+        {
+          "name": "Dhanraj Baid Jain College (Autonomous)",
+          "slug": null
+        },
+        {
+          "name": "Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu (D.R.B.C.C.C.H.) College",
+          "slug": null
+        },
+        {
+          "name": "Dr. Ambedkar Government Arts College",
+          "slug": null
+        },
+        {
+          "name": "Dwaraka Doss Goverdhan Doss Vaishnav College",
+          "slug": "dg-vaishnav-college"
+        },
+        {
+          "name": "Ethiraj College for Women (Autonomous)",
+          "slug": "ethiraj-college-for-women"
+        },
+        {
+          "name": "Arts College for Men (Autonomous)",
+          "slug": null
+        },
+        {
+          "name": "Guru Nanak College",
+          "slug": "guru-nanak-college-chennai"
+        },
+        {
+          "name": "Justice Basheer Ahmed Syed College for Women",
+          "slug": "justice-basheer-ahmed-sayeed-college-for-women"
+        },
+        {
+          "name": "Loyola College (Autonomous)",
+          "slug": "loyola-college-chennai"
+        },
+        {
+          "name": "Madras Christian College (Autonomous)",
+          "slug": "madras-christian-college"
+        },
+        {
+          "name": "New College (Autonomous)",
+          "slug": null
+        },
+        {
+          "name": "Pachaiyappa's College",
+          "slug": "pachaiyappas-college"
+        },
+        {
+          "name": "Presidency College (Autonomous)",
+          "slug": "presidency-college-chennai"
+        },
+        {
+          "name": "Quaid-e-Millet College",
+          "slug": null
+        },
+        {
+          "name": "Quaid-e-Millet Government Arts College for Women (Autonomous)",
+          "slug": null
+        },
+        {
+          "name": "Queen Mary's College (Autonomous)",
+          "slug": "queen-marys-college-chennai"
+        },
+        {
+          "name": "Ramakrishna Mission Vivekananda College (Men)",
+          "slug": "ramakrishna-mission-vivekananda-college"
+        },
+        {
+          "name": "S.D.N. Bhatt Vaishnav College for Women",
+          "slug": null
+        },
+        {
+          "name": "S.I.V.E.T. College",
+          "slug": null
+        },
+        {
+          "name": "St. Louis College for the Deaf",
+          "slug": null
+        },
+        {
+          "name": "Stella Maris College for Women (Autonomous)",
+          "slug": "stella-maris-college"
+        },
+        {
+          "name": "Women's Christian College (Autonomous)",
+          "slug": "womens-christian-college-chennai"
+        },
+        {
+          "name": "A.A. Arts and Science College (Women)",
+          "slug": null
+        },
+        {
+          "name": "Alpha Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Anna Adarsh College for Women",
+          "slug": "anna-adarsh-college-for-women"
+        },
+        {
+          "name": "Annai Veilankanni's College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Annai Violet Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "C.T.M. College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Chevaliar T. Thomas Elizabeth College for Women",
+          "slug": null
+        },
+        {
+          "name": "Dr. M.G.R. Janaki College of Arts and Science for Women",
+          "slug": null
+        },
+        {
+          "name": "Guru Shree Shanti Vijai Jain College for Women",
+          "slug": null
+        },
+        {
+          "name": "Hindustan College of Arts and Science, Kelambakkam",
+          "slug": null
+        },
+        {
+          "name": "Indian Harvard Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "J.A. Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Jayagovind Harigopal Agarwal Agarsen College",
+          "slug": null
+        },
+        {
+          "name": "K.C.S. Kasi Nadar College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Kumara Rani Meena Muthiah College of Arts and Science for Women",
+          "slug": null
+        },
+        {
+          "name": "M.O.P. Vaishnav College for Women (Autonomous)",
+          "slug": "mop-vaishnav-college-for-women"
+        },
+        {
+          "name": "Madha Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Mahalakshmi College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Mar Gregorios Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Mohamed Sathak College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Nazareth College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "New Prince Shri Bhavani Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Patrician College of Arts and Science",
+          "slug": "patrician-college-of-arts-and-science"
+        },
+        {
+          "name": "Poonga College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Prince Shri Venkateshwara Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Prof. Dhanapalan College for Women",
+          "slug": null
+        },
+        {
+          "name": "R.B. Gothi Jain College for Women",
+          "slug": null
+        },
+        {
+          "name": "S.R.M. Arts and Science College, Chengalpattu Taluk",
+          "slug": null
+        },
+        {
+          "name": "Shri Shankarlal Sundarbai Shasun Jain College for Women",
+          "slug": "shasun-jain-college-for-women"
+        },
+        {
+          "name": "Sindhi College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Sir Theagaraya College",
+          "slug": null
+        },
+        {
+          "name": "Soka Ikeda Arts and Science College for Women",
+          "slug": null
+        },
+        {
+          "name": "Sri Kanniga Parameswari Arts and Science College for Women",
+          "slug": null
+        },
+        {
+          "name": "Sri Muthukumarasamy College",
+          "slug": null
+        },
+        {
+          "name": "St. Joseph's College (Arts and Science)",
+          "slug": null
+        },
+        {
+          "name": "St. Thomas College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "T.M.G. College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "T.S. Narayanasamy College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Tamilnadu Arts and Science College",
+          "slug": null
+        },
+        {
+          "name": "Thirumurugan College of Arts and Science, Thiruvallur",
+          "slug": null
+        },
+        {
+          "name": "Thiruthangal Nadar College",
+          "slug": null
+        },
+        {
+          "name": "Vailakanni Malathy Pannicker College of Arts and Science",
+          "slug": null
+        },
+        {
+          "name": "Valliammal College for Women",
+          "slug": null
+        },
+        {
+          "name": "Vel Sri Ranga Sanku College",
+          "slug": null
+        },
+        {
+          "name": "Tagore College of Arts and Science",
+          "slug": null
+        }
+      ]
+    },
+    {
+      "key": "engineering",
+      "label": "Engineering",
+      "complete": true,
+      "colleges": [
+        {
+          "name": "Aalim Muhammed Salegh College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Aarupadai Veedu Institute of Technology, Kanchipuram",
+          "slug": null
+        },
+        {
+          "name": "Agni College of Technology",
+          "slug": null
+        },
+        {
+          "name": "B.S. Abdur Rahman University (B.S. Abdur Rahman Crescent Engineering College)",
+          "slug": "crescent-institute-of-science-and-technology"
+        },
+        {
+          "name": "Bharath University (Bharath Institute of Higher Education and Research)",
+          "slug": null
+        },
+        {
+          "name": "Chennai Institute of Technology",
+          "slug": "chennai-institute-of-technology"
+        },
+        {
+          "name": "Dhanalakshmi College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Dr. MGR University (Dr. M.G.R. Educational and Research Institute)",
+          "slug": "dr-mgr-educational-and-research-institute"
+        },
+        {
+          "name": "Easwari Engineering College",
+          "slug": "easwari-engineering-college"
+        },
+        {
+          "name": "G.K.M. College of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "Hindustan University (Hindustan College of Engineering)",
+          "slug": "hindustan-institute-of-technology-and-science"
+        },
+        {
+          "name": "Jerusalem College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "K.C.G. College of Technology",
+          "slug": "kcg-college-of-technology"
+        },
+        {
+          "name": "Meenakshi Sundararajan Engineering College",
+          "slug": null
+        },
+        {
+          "name": "PERI Institute of Technology",
+          "slug": null
+        },
+        {
+          "name": "Raja Rajeswari Engineering College",
+          "slug": null
+        },
+        {
+          "name": "S.A. Engineering College, Thiruverkadu",
+          "slug": null
+        },
+        {
+          "name": "S.K.R. Engineering College, Thiruvallur",
+          "slug": null
+        },
+        {
+          "name": "Sree Sastha Institute of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "Sri Lakshmi Ammal Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Sri Sai Ram Institute of Technology",
+          "slug": null
+        },
+        {
+          "name": "Sri Sairam Engineering College",
+          "slug": "sri-sairam-engineering-college"
+        },
+        {
+          "name": "St. Peter's University (St. Peters Engineering College)",
+          "slug": null
+        },
+        {
+          "name": "T.J. Institute of Technology",
+          "slug": null
+        },
+        {
+          "name": "Tagore Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Thangavelu Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Central Institute of Plastic Engineering and Technology (CIPET)",
+          "slug": null
+        },
+        {
+          "name": "University Departments of Anna University Chennai, ACT Campus",
+          "slug": "anna-university"
+        },
+        {
+          "name": "University Departments of Anna University Chennai, CEG Campus",
+          "slug": "anna-university"
+        },
+        {
+          "name": "University Departments of Anna University Chennai, MIT Campus",
+          "slug": "anna-university"
+        },
+        {
+          "name": "Alpha College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Anand Institute of Higher Technology, Chengalpattu Taluk",
+          "slug": null
+        },
+        {
+          "name": "Annai Veilankanni's College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Davinci School of Design and Architecture",
+          "slug": null
+        },
+        {
+          "name": "Dhaanish Ahmed College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Gojan School of Business and Technology",
+          "slug": null
+        },
+        {
+          "name": "Gopal Ramalingam Memorial Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Jawahar Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Jeppiaar Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Loyola-ICAM College of Engineering and Technology",
+          "slug": "loyola-icam-college-of-engineering-and-technology"
+        },
+        {
+          "name": "Madha Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Madha Institute of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "Magna College of Engineering, Tiruvallur",
+          "slug": null
+        },
+        {
+          "name": "Measi Academy of Architecture",
+          "slug": null
+        },
+        {
+          "name": "Meenakshi College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Misrimal Navajee Munoth Jain Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Mohamed Sathak A.J. College of Engineering, Chengalpattu Taluk",
+          "slug": null
+        },
+        {
+          "name": "New Prince Shri Bhavani College of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "P.M.R. Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Panimalar Engineering College",
+          "slug": "panimalar-engineering-college"
+        },
+        {
+          "name": "Panimalar Institute of Technology",
+          "slug": null
+        },
+        {
+          "name": "Prince Dr. K. Vasudevan College of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "Prince Shri Venkateshwara Padmavathy Engineering College, Chengalpattu",
+          "slug": null
+        },
+        {
+          "name": "S.R.R. Engineering College, Chengalpattu",
+          "slug": null
+        },
+        {
+          "name": "Sathyabama University (Sathyabama Engineering College)",
+          "slug": "sathyabama-institute-of-science-and-technology"
+        },
+        {
+          "name": "Sree Sastha College of Engineering",
+          "slug": null
+        },
+        {
+          "name": "Sri Krishna Engineering College, Sriperumbudur",
+          "slug": null
+        },
+        {
+          "name": "Sri Krishna Institute of Technology",
+          "slug": null
+        },
+        {
+          "name": "Sri Muthukumaran Institute of Technology",
+          "slug": null
+        },
+        {
+          "name": "Sri Ramanujar Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Sri Sivasubramaniya Nadar College of Engineering",
+          "slug": "ssn-college-of-engineering"
+        },
+        {
+          "name": "Srinivasa Institute of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "St. Joseph's College of Engineering, Kanchipuram",
+          "slug": "st-josephs-college-of-engineering"
+        },
+        {
+          "name": "St. Peter's College of Engineering and Technology",
+          "slug": null
+        },
+        {
+          "name": "University Departments of Anna University Chennai, SAP Campus",
+          "slug": "anna-university"
+        },
+        {
+          "name": "Vel Tech",
+          "slug": null
+        },
+        {
+          "name": "Vel Tech Dr. RR and Dr. SR Technical University (Vel Tech Engineering College)",
+          "slug": "vel-tech-rangarajan-dr-sagunthala-rd-institute"
+        },
+        {
+          "name": "Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College",
+          "slug": null
+        },
+        {
+          "name": "Velammal Engineering College",
+          "slug": "velammal-engineering-college"
+        }
+      ]
+    },
+    {
+      "key": "dental",
+      "label": "Dental",
+      "complete": false,
+      "colleges": [
+        {
+          "name": "Dr. MGR University (Thai Moogambigai Dental College and Hospital)",
+          "slug": "dr-mgr-educational-and-research-institute"
+        },
+        {
+          "name": "S.R.M. Dental College and Hospital",
+          "slug": "srm-institute-of-science-and-technology"
+        },
+        {
+          "name": "Saveetha University (Saveetha Dental College and Hospital)",
+          "slug": null
+        },
+        {
+          "name": "Sree Balaji Dental College and Hospital",
+          "slug": null
+        },
+        {
+          "name": "Madha Dental College and Hospital",
+          "slug": null
+        },
+        {
+          "name": "Meenakshi University (Meenakshi Ammal Dental College and Hospital)",
+          "slug": null
+        },
+        {
+          "name": "Ragas Dental College and Hospital",
+          "slug": null
+        },
+        {
+          "name": "Sri Ramachandra University (Sri Ramachandra Dental College)",
+          "slug": "sri-ramachandra-institute-of-higher-education-and-research"
+        },
+        {
+          "name": "Tagore Dental College and Hospital",
+          "slug": null
+        }
+      ]
+    },
+    {
+      "key": "pharmacy",
+      "label": "Pharmacy",
+      "complete": false,
+      "colleges": [
+        {
+          "name": "Vels University (Vel's College of Pharmacy)",
+          "slug": "vels-institute-of-science-technology-and-advanced-studies"
+        },
+        {
+          "name": "College of Pharmacy, Madras Medical College",
+          "slug": "madras-medical-college"
+        },
+        {
+          "name": "A.J. College of Pharmacy",
+          "slug": null
+        },
+        {
+          "name": "Annai Veilankanni Pharmacy College",
+          "slug": null
+        },
+        {
+          "name": "C.L. Baid Metha College of Pharmacy",
+          "slug": null
+        },
+        {
+          "name": "K.K. College of Pharmacy",
+          "slug": null
+        },
+        {
+          "name": "Madras College of Pharmacy",
+          "slug": null
+        },
+        {
+          "name": "Maharaji College of Pharmacy",
+          "slug": null
+        },
+        {
+          "name": "Sri Ramachandra University (Sri Ramachandra Medical College and Research Institute)",
+          "slug": "sri-ramachandra-institute-of-higher-education-and-research"
+        }
+      ]
+    },
+    {
+      "key": "nursing",
+      "label": "Nursing",
+      "complete": false,
+      "colleges": [
+        {
+          "name": "Billroth College of Nursing",
+          "slug": null
+        },
+        {
+          "name": "College of Nursing, Vel R.S. Medical College",
+          "slug": null
+        },
+        {
+          "name": "J.V. College of Nursing",
+          "slug": null
+        }
+      ]
+    },
+    {
+      "key": "homoeopathy",
+      "label": "Homoeopathy",
+      "complete": false,
+      "colleges": [
+        {
+          "name": "Sri Sairam Homoeopathy Medical College",
+          "slug": null
+        },
+        {
+          "name": "Venkateswara Homoeopathy Medical College",
+          "slug": null
+        }
+      ]
+    },
+    {
+      "key": "ayurveda",
+      "label": "Ayurveda",
+      "complete": false,
+      "colleges": [
+        {
+          "name": "Sri Sairam Ayurveda Medical College and Research Center",
+          "slug": null
+        }
+      ]
+    },
+    {
+      "key": "hotel-management",
+      "label": "Hotel Management",
+      "complete": false,
+      "colleges": [
+        {
+          "name": "Asan Memorial Institute of Hotel Management and Catering Technology",
+          "slug": null
+        },
+        {
+          "name": "Canan School of Catering and Hotel Management",
+          "slug": null
+        },
+        {
+          "name": "Empee Institute of Hotel Management",
+          "slug": null
+        },
+        {
+          "name": "The Hotel Academy",
+          "slug": null
+        },
+        {
+          "name": "Annamal Institute of Hotel Management and Catering Technology",
+          "slug": null
+        },
+        {
+          "name": "Benson College of Hotel Management and Culinary Arts",
+          "slug": null
+        },
+        {
+          "name": "Dr. M.G.R. International Institute of Hotel Management and Catering Technology",
+          "slug": null
+        },
+        {
+          "name": "Global Institute of Hotel Management",
+          "slug": null
+        },
+        {
+          "name": "Hi-Tech Hotel Management",
+          "slug": null
+        },
+        {
+          "name": "Institute of Hotel Management, Catering Technology and Applied Nutrition",
+          "slug": "ihm-chennai"
+        },
+        {
+          "name": "M.G.R. Institute of Hotel Management and Catering Technology, Ambattur",
+          "slug": null
+        },
+        {
+          "name": "Madras Institute of Hotel Management and Catering Technology",
+          "slug": null
+        },
+        {
+          "name": "Measi Institute of Hotel Management and Catering Technology",
+          "slug": null
+        },
+        {
+          "name": "Sathyabama Institute of Hotel Management and Catering Technology",
+          "slug": "sathyabama-institute-of-science-and-technology"
+        },
+        {
+          "name": "Sooriya Institute of Hotel Management and Catering Technology",
+          "slug": null
+        },
+        {
+          "name": "V.G.P. Hotel Management Academy",
+          "slug": null
+        }
+      ]
+    }
+  ]
+}

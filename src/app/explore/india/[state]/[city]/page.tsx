@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ChennaiDirectory } from "@/components/explore/ChennaiDirectory";
 import { Crumbs } from "@/components/explore/Crumbs";
 import { Container, Section, SectionLabel } from "@/components/primitives/Section";
 import { UniversityCard } from "@/components/unis/UniversityCard";
@@ -128,6 +129,7 @@ export default async function CityPage({ params, searchParams }: PageProps<"/exp
             No institution here matches those filters yet. <Link href={explorePath.city(f.region, f.hub)} className="text-cyan">Clear filters</Link>
           </p>
         )}
+        {home && <ChennaiDirectory />}
       </Container>
     </Section>
   );

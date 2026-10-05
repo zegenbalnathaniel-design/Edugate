@@ -67,7 +67,7 @@ export default async function AdmissionsPage({ params }: Props) {
           <ol className="mt-6 space-y-4">
             {d.admissionProcess.map((s, i) => (
               <li key={i} className="flex gap-4">
-                <span className="flex size-7 shrink-0 items-center justify-center rounded-full border border-electric/60 text-[0.8125rem] text-electric">{i + 1}</span>
+                <span aria-hidden className="mt-2 size-1.5 shrink-0 rounded-full bg-electric" />
                 <div>
                   <p className="font-medium">
                     <Sourced sourceId={s.sourceId} sources={S}>{s.step}</Sourced>
@@ -178,11 +178,11 @@ export default async function AdmissionsPage({ params }: Props) {
               </ul>
             )}
           </div>
+          {u.english.length > 0 && (
           <div>
             <h3 className="meta mb-2 text-paper/50">English proficiency</h3>
-            {u.english.length === 0 ? (
-              <p className="text-[0.9375rem] text-paper/60">Not applicable or not verified.</p>
-            ) : (
+            {(
+
               <ul className="space-y-2 text-[0.9375rem]">
                 {u.english.map((e) => (
                   <li key={e.test}>
@@ -195,6 +195,7 @@ export default async function AdmissionsPage({ params }: Props) {
               </ul>
             )}
           </div>
+          )}
         </div>
       </Block>
 

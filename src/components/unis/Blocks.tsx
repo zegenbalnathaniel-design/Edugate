@@ -4,10 +4,10 @@ import type { ReactNode } from "react";
 
 export function Block({ title, children, note, id }: { title: string; children: ReactNode; note?: ReactNode; id?: string }) {
   return (
-    <section id={id} className="scroll-mt-36">
+    <section id={id} className="block-section scroll-mt-36">
       <h2 className="font-display text-[1.5rem] leading-tight tracking-[-0.01em]">{title}</h2>
       {note && <p className="mt-1 max-w-3xl text-[0.8125rem] text-paper/55">{note}</p>}
-      <div className="mt-5">{children}</div>
+      <div className="block-body mt-5">{children}</div>
     </section>
   );
 }
@@ -48,7 +48,17 @@ export function DataTable({ head, rows, caption, minWidth = 560 }: { head: strin
   );
 }
 
-/** An honest empty state: absence of verified data is not absence of the thing. */
-export function NotYet({ children }: { children: ReactNode }) {
+/**
+ * Placeholder for data Edugate hasn't verified. Renders nothing: unverified
+ * boxes are never shown, and a Block left with no content hides itself
+ * (globals.css, `.block-section:has(> .block-body:empty)`).
+ */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function NotYet(_: { children: ReactNode }) {
+  return null;
+}
+
+/** A real empty state worth stating — no filter match, or data the institution doesn't publish. */
+export function Empty({ children }: { children: ReactNode }) {
   return <p className="rounded-[var(--radius-md)] border border-paper/10 px-4 py-3 text-[0.9375rem] text-paper/60">{children}</p>;
 }

@@ -46,6 +46,7 @@ export default async function UniversityOverview({ params }: Props) {
       {shown}
     </Sourced>
   );
+  const has = (v: V) => v.value != null && v.value !== "" && !(v.confidence === "requires-verification" && !v.sourceId);
   const num = (v: V) => src(v, typeof v.value === "number" ? v.value.toLocaleString("en-US") : (v.value as string));
 
   // Latest edition per ranking organisation, overall tables first.
@@ -66,7 +67,7 @@ export default async function UniversityOverview({ params }: Props) {
     ["Established", u.founded],
     ["Ownership", `${CONTROL_LABEL[u.control]} · ${u.category.replaceAll("-", " ")}`],
     ...(u.institutionType ? ([["Institution type", INSTITUTION_TYPE_LABEL[u.institutionType]]] as [string, ReactNode][]) : []),
-    ...(u.affiliation.value || u.countryCode === "IN" ? ([["Affiliation", num(u.affiliation)]] as [string, ReactNode][]) : []),
+    ...(u.affiliation.value ? ([["Affiliation", num(u.affiliation)]] as [string, ReactNode][]) : []),
     ...(u.accreditation.length
       ? ([[
           "Accreditation & approvals",
@@ -82,45 +83,41 @@ export default async function UniversityOverview({ params }: Props) {
     ...(u.gender && u.gender !== "co-ed" ? ([["Campus", u.gender === "women" ? "Women's college" : "Men's college"]] as [string, ReactNode][]) : []),
     ...(u.minorityStatus.value ? ([["Minority status", num(u.minorityStatus)]] as [string, ReactNode][]) : []),
     ["Location", `${u.city}, ${u.region}, ${u.country}${u.campuses.length > 1 ? ` (${u.campuses.length} campuses)` : ""}`],
-    ["Campus size", d.campusAreaAcres.value != null ? src(d.campusAreaAcres, `${d.campusAreaAcres.value.toLocaleString("en-US")} acres`) : num(d.campusAreaAcres)],
-    ["Students", num(u.stats.totalStudents)],
-    ["Undergraduates", num(u.stats.undergraduates)],
-    ["International students", num(u.stats.internationalShare)],
-    ["Faculty", num(d.faculty)],
-    ["Student : faculty ratio", num(u.stats.studentFacultyRatio)],
-    [
-      "Rankings",
-      latest.length ? (
-        <span className="flex flex-wrap gap-x-4 gap-y-1">
-          {latest.map((r) => (
-            <Sourced key={r.org + r.edition} sourceId={r.sourceId} sources={S}>
-              {ORG_LABEL[r.org]} {r.edition}: <strong>#{r.rank}</strong>
-            </Sourced>
-          ))}
-        </span>
-      ) : (
-        <span className="text-paper/50">None verified</span>
-      ),
-    ],
-    [
-      "Entrance tests",
-      u.testing.length ? u.testing.map((t) => `${t.test} (${TEST_POLICY_LABEL[t.policy].toLowerCase()})`).join(", ") : <span className="text-paper/50">See each course</span>,
-    ],
-    ["Apply via", num(u.applicationPlatform)],
-    ["Tuition, international", src(ct.internationalTuition, moneyRange(ct.internationalTuition.value, ct.currency))],
-    ["Tuition, domestic", src(ct.domesticTuition, moneyRange(ct.domesticTuition.value, ct.currency))],
+    ...(d.campusAreaAcres.value != null ? ([["Campus size", src(d.campusAreaAcres, `${d.campusAreaAcres.value.toLocaleString("en-US")} acres`)]] as [string, ReactNode][]) : []),
+    ...([
+      ["Students", u.stats.totalStudents],
+      ["Undergraduates", u.stats.undergraduates],
+      ["International students", u.stats.internationalShare],
+      ["Faculty", d.faculty],
+      ["Student : faculty ratio", u.stats.studentFacultyRatio],
+    ] as [string, V][])
+      .filter(([, v]) => has(v))
+      .map(([label, v]) => [label, num(v)] as [string, ReactNode]),
+    ...(latest.length
+      ? ([[
+          "Rankings",
+          <span key="rk" className="flex flex-wrap gap-x-4 gap-y-1">
+            {latest.map((r) => (
+              <Sourced key={r.org + r.edition} sourceId={r.sourceId} sources={S}>
+                {ORG_LABEL[r.org]} {r.edition}: <strong>#{r.rank}</strong>
+              </Sourced>
+            ))}
+          </span>,
+        ]] as [string, ReactNode][])
+      : []),
+    ...(u.testing.length ? ([["Entrance tests", u.testing.map((t) => `${t.test} (${TEST_POLICY_LABEL[t.policy].toLowerCase()})`).join(", ")]] as [string, ReactNode][]) : []),
+    ...(has(u.applicationPlatform) ? ([["Apply via", num(u.applicationPlatform)]] as [string, ReactNode][]) : []),
+    ...(ct.internationalTuition.value ? ([["Tuition, international", src(ct.internationalTuition, moneyRange(ct.internationalTuition.value, ct.currency))]] as [string, ReactNode][]) : []),
+    ...(ct.domesticTuition.value ? ([["Tuition, domestic", src(ct.domesticTuition, moneyRange(ct.domesticTuition.value, ct.currency))]] as [string, ReactNode][]) : []),
   ];
   const sel = selectivity(u);
-  rows.push([
-    "Selectivity",
-    sel ? (
+  if (sel)
+    rows.push([
+      "Selectivity",
       <Sourced key="sel" sourceId={sel.sourceId} sources={S} asOf={sel.year}>
         {SELECTIVITY_LABEL[sel.band]} <span className="text-paper/55">({sel.reason})</span>
-      </Sourced>
-    ) : (
-      <span className="text-paper/50">Not enough published data</span>
-    ),
-  ]);
+      </Sourced>,
+    ]);
   if (stat?.acceptanceRate)
     rows.push([
       "Acceptance rate",

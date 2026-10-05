@@ -65,12 +65,17 @@ export async function upsertUniversity(db: DB, u: University, opts: { force?: bo
     id = row.id;
   }
 
-  for (const p of u.programs) {
-    const values = { universityId: id, slug: p.slug, name: p.name, field: p.field, level: p.level, degree: p.degree, ...programColumns(u, p), data: p };
-    await db
-      .insert(programs)
-      .values(values)
-      .onConflictDoUpdate({ target: [programs.universityId, programs.slug], set: values });
+  const rows = u.programs.map((p) => ({ universityId: id, slug: p.slug, name: p.name, field: p.field, level: p.level, degree: p.degree, ...programColumns(u, p), data: p }));
+  if (!existing) {
+    // A new institution has no programme rows yet: one multi-row insert (a cold-start seed does ~2,000 of these).
+    if (rows.length) await db.insert(programs).values(rows);
+  } else {
+    for (const values of rows) {
+      await db
+        .insert(programs)
+        .values(values)
+        .onConflictDoUpdate({ target: [programs.universityId, programs.slug], set: values });
+    }
   }
   const keep = u.programs.map((p) => p.slug);
   await db.delete(programs).where(and(eq(programs.universityId, id), notInArray(programs.slug, keep)));

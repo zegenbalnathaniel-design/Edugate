@@ -33,9 +33,8 @@ export function Sourced({
 }) {
   const src = sources.find((s) => s.id === sourceId) ?? null;
   const conf: ConfidenceLevel = confidence ?? (src ? "official" : "requires-verification");
-  if (!src && conf === "requires-verification") {
-    return <span className="text-current/50">Not currently verified</span>;
-  }
+  // Unverified or empty values are never shown.
+  if ((!src && conf === "requires-verification") || children == null || children === "" || children === false) return null;
   return (
     <SourceToggle dot={DOT[conf]} label={CONFIDENCE_LABEL[conf]} asOf={asOf ?? null} notes={notes ?? null}
       source={src ? { label: src.label, url: src.url, type: SOURCE_TYPE_LABEL[src.type], retrieved: dateLabel(src.retrievedAt) } : null}>

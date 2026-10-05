@@ -44,24 +44,24 @@ export function UniversityCard({ row, why }: { row: UniversityRow; why?: string[
         {u.programs.length} programme{u.programs.length === 1 ? "" : "s"} on Edugate{degrees.length ? ` · ${degrees.slice(0, 6).join(", ")}${degrees.length > 6 ? "…" : ""}` : ""}
       </p>
       <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-[0.8125rem]">
-        <div>
-          <dt className="meta text-current/45">{india ? "Yearly fee from" : "Intl tuition"}</dt>
-          <dd className="tabular">{india ? (row.costInrMin != null ? inrCompact(row.costInrMin) : "Not verified") : intlFee ?? "Not verified"}</dd>
-        </div>
-        <div>
-          <dt className="meta text-current/45">{india ? "Admission" : "SAT"}</dt>
-          <dd>
-            {india
-              ? [...routes.map((r) => BASIS_SHORT[r] ?? r), ...tests.map((t) => TEST_LABEL[t] ?? t)].slice(0, 3).join(", ") || "See profile"
-              : sat
-                ? TEST_POLICY_LABEL[sat]
-                : "—"}
-          </dd>
-        </div>
-        <div>
-          <dt className="meta text-current/45">Next deadline</dt>
-          <dd>{next ? dateLabel(next.date) : "None listed"}</dd>
-        </div>
+        {(india ? row.costInrMin != null : !!intlFee) && (
+          <div>
+            <dt className="meta text-current/45">{india ? "Yearly fee from" : "Intl tuition"}</dt>
+            <dd className="tabular">{india ? inrCompact(row.costInrMin!) : intlFee}</dd>
+          </div>
+        )}
+        {(india ? routes.length + tests.length > 0 : !!sat) && (
+          <div>
+            <dt className="meta text-current/45">{india ? "Admission" : "SAT"}</dt>
+            <dd>{india ? [...routes.map((r) => BASIS_SHORT[r] ?? r), ...tests.map((t) => TEST_LABEL[t] ?? t)].slice(0, 3).join(", ") : TEST_POLICY_LABEL[sat!]}</dd>
+          </div>
+        )}
+        {next && (
+          <div>
+            <dt className="meta text-current/45">Next deadline</dt>
+            <dd>{dateLabel(next.date)}</dd>
+          </div>
+        )}
         <div>
           <dt className="meta text-current/45">Verified</dt>
           <dd>{dateLabel(u.lastVerified)}</dd>

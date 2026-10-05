@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Block, NotYet } from "@/components/unis/Blocks";
+import { Block, Empty, NotYet } from "@/components/unis/Blocks";
 import { Sourced } from "@/components/unis/Sourced";
 import { programCostInr } from "@/lib/unis/extract";
 import { BASIS_LABEL, FIELD_NAMES } from "@/lib/unis/filters";
@@ -84,7 +84,7 @@ export default async function CoursesPage({ params, searchParams }: PageProps<"/
       </Block>
 
       {list.length === 0 ? (
-        <NotYet>No course here matches those filters.</NotYet>
+        <Empty>No course here matches those filters.</Empty>
       ) : (
         <form action="/compare/programs" method="get" className="space-y-12">
           <div className="flex justify-end">
@@ -119,29 +119,37 @@ export default async function CoursesPage({ params, searchParams }: PageProps<"/
                                   {[p.department ?? p.school, p.stream, p.campus, p.mode].filter(Boolean).join(" · ") || FIELD_NAMES[p.field]}
                                 </p>
                               </div>
-                              <div className="text-[0.8125rem]">
-                                <span className="meta block text-paper/45">Duration · seats</span>
-                                {p.durationYears ? `${p.durationYears} yrs` : "—"}
-                                {p.intake.value != null && (
-                                  <> · <Sourced sourceId={p.intake.sourceId} sources={S} confidence={p.intake.confidence} asOf={p.intake.asOf}>{p.intake.value}</Sourced></>
-                                )}
-                              </div>
-                              <div className="text-[0.8125rem]">
-                                <span className="meta block text-paper/45">Tuition</span>
-                                {fee.value ? (
+                              {p.durationYears || (p.intake.value != null && p.intake.sourceId) ? (
+                                <div className="text-[0.8125rem]">
+                                  <span className="meta block text-paper/45">{p.durationYears && p.intake.value != null && p.intake.sourceId ? "Duration · seats" : p.durationYears ? "Duration" : "Seats"}</span>
+                                  {p.durationYears ? `${p.durationYears} yrs` : null}
+                                  {p.intake.value != null && p.intake.sourceId && (
+                                    <>{p.durationYears ? " · " : ""}<Sourced sourceId={p.intake.sourceId} sources={S} confidence={p.intake.confidence} asOf={p.intake.asOf}>{p.intake.value}</Sourced></>
+                                  )}
+                                </div>
+                              ) : (
+                                <div aria-hidden />
+                              )}
+                              {fee.value && fee.sourceId ? (
+                                <div className="text-[0.8125rem]">
+                                  <span className="meta block text-paper/45">Tuition</span>
                                   <Sourced sourceId={fee.sourceId} sources={S} confidence={fee.confidence} asOf={fee.asOf} notes={fee.notes}>
                                     {moneyRange(fee.value, u.costs.currency)}
                                   </Sourced>
-                                ) : (
-                                  <span className="text-paper/50">Not verified</span>
-                                )}
-                                {!p.fees && fee.value && <span className="block text-[0.6875rem] text-paper/45">Institution-wide figure</span>}
-                                {u.costs.currency !== "INR" && inr != null && <span className="block text-[0.6875rem] text-paper/45">≈ {inrCompact(inr)}/yr</span>}
-                              </div>
-                              <div className="text-[0.8125rem]">
-                                <span className="meta block text-paper/45">Admission</span>
-                                {p.admission?.basis.length ? p.admission.basis.map((b) => BASIS_LABEL[b]).join(", ") : p.tests.length ? p.tests.map((t) => t.test).join(", ") : <span className="text-paper/50">See course</span>}
-                              </div>
+                                  {!p.fees && <span className="block text-[0.6875rem] text-paper/45">Institution-wide figure</span>}
+                                  {u.costs.currency !== "INR" && inr != null && <span className="block text-[0.6875rem] text-paper/45">≈ {inrCompact(inr)}/yr</span>}
+                                </div>
+                              ) : (
+                                <div aria-hidden />
+                              )}
+                              {p.admission?.basis.length || p.tests.length ? (
+                                <div className="text-[0.8125rem]">
+                                  <span className="meta block text-paper/45">Admission</span>
+                                  {p.admission?.basis.length ? p.admission.basis.map((b) => BASIS_LABEL[b]).join(", ") : p.tests.map((t) => t.test).join(", ")}
+                                </div>
+                              ) : (
+                                <div aria-hidden />
+                              )}
                             </li>
                           );
                         })}
