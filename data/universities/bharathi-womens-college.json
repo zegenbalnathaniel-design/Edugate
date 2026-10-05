@@ -1,0 +1,278 @@
+{
+  "slug": "bharathi-womens-college",
+  "name": "Bharathi Women's College",
+  "officialName": "Bharathi Women's College (Autonomous)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Chennai",
+  "campuses": [],
+  "control": "public",
+  "category": "arts-and-science",
+  "founded": 1964,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://bwc.edu.in/",
+  "admissionsUrl": "https://bwc.edu.in/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Bharathi Women's College in Broadway, North Chennai, was founded in 1964 as the Government Arts College for Women and renamed in 1981–82 for the centenary of the poet Subramania Bharathi. A Government college affiliated to the University of Madras, it became autonomous in 1998 and is re-accredited 'A' by NAAC; it has more than 4,000 students. It runs 13 UG programmes across two shifts, in English and Tamil medium; Edugate lists the programmes it has verified so far.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-a-english-shift-i",
+      "name": "B.A. English",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://bwc.edu.in/wp-content/uploads/2023/02/COURSES-OFFERED.pdf",
+      "summary": "Three-year B.A. English at Bharathi Women's College — Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Shift I",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": null,
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-historical-studies-shift-i",
+      "name": "B.A. Historical Studies",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://bwc.edu.in/wp-content/uploads/2023/02/COURSES-OFFERED.pdf",
+      "summary": "Three-year B.A. Historical Studies at Bharathi Women's College — Shift I.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Shift I",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": null,
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-a-economics-both",
+      "name": "B.A. Economics",
+      "degree": "B.A.",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://bwc.edu.in/wp-content/uploads/2023/02/COURSES-OFFERED.pdf",
+      "summary": "Three-year B.A. Economics at Bharathi Women's College — Shift I and II.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Shift I and II",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": null,
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-com-general-both",
+      "name": "B.Com. (General)",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://bwc.edu.in/wp-content/uploads/2023/02/COURSES-OFFERED.pdf",
+      "summary": "Three-year B.Com. (General) at Bharathi Women's College — Shift I and II.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": "Shift I and II",
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": null,
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Bharathi Women's College — About",
+      "url": "https://bwc.edu.in/about-bwc/",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    }
+  ],
+  "lastVerified": "2026-10-05",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": "Broadway",
+  "gender": "women",
+  "affiliation": {
+    "value": "University of Madras (Government autonomous college)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}
