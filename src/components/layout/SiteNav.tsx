@@ -84,7 +84,7 @@ export function SiteNav() {
 
         <div className="ml-auto flex items-center gap-2 xl:ml-0">
           <AccountLink className="link-underline hidden px-2 text-[0.8125rem] text-paper/62 transition-colors hover:text-paper sm:block" />
-          <Button href="/discover" size="sm" magnetic={false}>
+          <Button href="/wrapped" size="sm" magnetic={false}>
             Find your fit
           </Button>
           <button

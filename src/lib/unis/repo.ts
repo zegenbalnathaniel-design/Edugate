@@ -175,6 +175,10 @@ export async function getUniversitiesBySlugs(slugs: string[]): Promise<Universit
 }
 
 export async function allUniversities(): Promise<UniversityRow[]> {
+  if (catalogueFromFiles()) {
+    warmDb();
+    return [...fileRows().values()].sort((a, b) => (a.qsRank ?? Infinity) - (b.qsRank ?? Infinity) || a.name.localeCompare(b.name));
+  }
   const db = await getDb();
   const rows = await db.select(cols).from(universities).orderBy(sql`${universities.qsRank} asc nulls last`, asc(universities.name));
   return rows.map(hydrate);

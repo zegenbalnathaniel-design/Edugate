@@ -141,6 +141,14 @@ export default function MethodologyPage() {
               don&apos;t guess from reputation.
             </p>
             <p>
+              <strong className="text-current">University Wrapped</strong> scores every institution on course fit (20%), career fit (15%),
+              academic fit (15%), financial fit (15%), campus fit (10%), admission odds (10%), location (5%), flexibility (5%) and career
+              ROI (5%) — leaving out any dimension we have no data for. Hard limits come first: places you won&apos;t go, single-gender
+              colleges unless you opt in, subjects a course requires that you don&apos;t take, and costs beyond what your budget and loan
+              comfort can stretch to. Dream / Reach / Target / Safety use the same published evidence as above; colleges that publish no
+              cut-offs are shown as &ldquo;odds unpublished&rdquo;.
+            </p>
+            <p>
               <strong className="text-current">Selectivity</strong> bands come from published acceptance rates: under 15% highly selective,
               15–35% selective, 35–65% moderate, above 65% accessible. A JoSAA/JEE Advanced closing rank of 5,000 or better (open category)
               for an institution&apos;s most competitive listed course also counts as highly selective.

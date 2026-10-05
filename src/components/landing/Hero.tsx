@@ -76,8 +76,8 @@ export function Hero() {
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
               <div className="moving-border w-full sm:w-auto">
-                <Button href="/discover" size="lg" magnetic={false} className="w-full sm:w-auto">
-                  Start exploring
+                <Button href="/wrapped" size="lg" magnetic={false} className="w-full sm:w-auto">
+                  Start my University Wrapped
                 </Button>
               </div>
               <Button

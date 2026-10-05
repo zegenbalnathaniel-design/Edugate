@@ -398,8 +398,8 @@ export function ClosingSection() {
 
             <Reveal delay={160}>
               <div className="mt-11 flex flex-wrap gap-3">
-                <Button href="/discover" size="lg">
-                  Start exploring
+                <Button href="/wrapped" size="lg">
+                  Start my University Wrapped
                 </Button>
                 <Button href="/passion-projector" variant="secondary" size="lg">
                   Try Passion Projector

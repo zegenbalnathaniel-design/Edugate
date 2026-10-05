@@ -48,6 +48,11 @@ export function catalogueFromFiles(): boolean {
   return memory && !g.__edugateDbReady;
 }
 
+/** Same answer as accountsAvailable(), without waiting for the database to start. */
+export function accountsConfigured(): boolean {
+  return !!process.env.DATABASE_URL || (process.env.NODE_ENV !== "production" && process.env.EDUGATE_DB !== "memory");
+}
+
 export async function getDb(): Promise<DB> {
   return (await ready()).db;
 }

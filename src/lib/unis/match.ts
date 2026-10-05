@@ -53,12 +53,17 @@ function boardPercent(profile: StudentProfile): number | null {
 /** Cut-offs older than this many years are too stale to band a current applicant against. */
 export const MAX_CUTOFF_AGE = 3;
 
-export function admissionBand(u: University, p: Program, profile: StudentProfile, today = new Date()): { band: Band; reasons: string[]; sourceIds: string[] } {
+/**
+ * `testsPlanned`: the student hasn't sat the entrance tests yet (e.g. a Class 11–12
+ * student planning NEET), so a missing test score is not treated as ineligibility.
+ */
+export function admissionBand(u: University, p: Program, profile: StudentProfile, today = new Date(), opts: { testsPlanned?: boolean } = {}): { band: Band; reasons: string[]; sourceIds: string[] } {
   const minYear = today.getUTCFullYear() - MAX_CUTOFF_AGE;
   const stale: string[] = [];
   // Eligibility first: a missing published requirement is not a "reach", it's ineligible.
   const gaps = profile.curriculum ? gapAnalysis(u, p, profile).filter((g) => !/English|SAT|ACT/i.test(g.requirement)) : [];
-  const missing = gaps.filter((g) => g.status === "missing");
+  const testNames = new Set([...p.tests, ...u.testing].map((t) => t.test));
+  const missing = gaps.filter((g) => g.status === "missing" && !(opts.testsPlanned && testNames.has(g.requirement)));
   if (missing.length) {
     return {
       band: "not-eligible",

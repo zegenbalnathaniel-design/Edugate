@@ -615,3 +615,37 @@ html.lenis body {
 .block-section:has(> .block-body:empty) {
   display: none;
 }
+
+/* University Wrapped */
+@keyframes wr-float {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-30px, 24px, 0) scale(1.08); }
+}
+.wr-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 14px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.25);
+  outline: none;
+}
+.wr-range:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+.wr-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: white;
+  border: 5px solid rgb(11 29 33 / 0.85);
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.3);
+  cursor: grab;
+}
+.wr-range::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: white;
+  border: 5px solid rgb(11 29 33 / 0.85);
+  cursor: grab;
+}
