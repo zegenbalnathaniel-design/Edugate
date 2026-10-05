@@ -1,0 +1,1250 @@
+{
+  "slug": "tamil-nadu-agricultural-university",
+  "name": "Tamil Nadu Agricultural University (TNAU)",
+  "officialName": "Tamil Nadu Agricultural University",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Coimbatore",
+  "campuses": [],
+  "control": "public",
+  "category": "multidisciplinary",
+  "founded": 1868,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://tnau.ac.in/",
+  "admissionsUrl": "https://tnau.ac.in/site/ugadmission/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Tamil Nadu Agricultural University traces its origin to an agricultural school set up at Saidapet, Chennai, in 1868, which moved to Coimbatore in 1906. It admits students to 14 undergraduate degree programmes across 18 constituent and 28 affiliated colleges through a single online application and counselling on Class XII marks.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "Online at tnau.ucanapply.com, 6 May – 8 June 2026",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": "₹600 (₹300 for SC, SCA and ST)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [
+    {
+      "label": "UG application window closes",
+      "date": "2026-06-08",
+      "intake": "2026-27",
+      "timezone": "Asia/Kolkata",
+      "sourceId": "s1",
+      "confidence": "official"
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-sc-hons-agriculture",
+      "name": "B.Sc. (Hons.) Agriculture",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Agriculture, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": 1335,
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Sanctioned strength across colleges."
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-horticulture",
+      "name": "B.Sc. (Hons.) Horticulture",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Horticulture, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-agriculture-tamil-medium",
+      "name": "B.Sc. (Hons.) Agriculture (Tamil medium)",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Agriculture (Tamil medium), admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-horticulture-tamil-medium",
+      "name": "B.Sc. (Hons.) Horticulture (Tamil medium)",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Horticulture (Tamil medium), admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-forestry",
+      "name": "B.Sc. (Hons.) Forestry",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Forestry, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "environmental"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-food-nutrition-and-dietetics",
+      "name": "B.Sc. (Hons.) Food, Nutrition and Dietetics",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Food, Nutrition and Dietetics, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "agriculture"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-agricultural-engineering",
+      "name": "B.Tech. Agricultural Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Tech. Agricultural Engineering, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "agriculture"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-sericulture",
+      "name": "B.Sc. (Hons.) Sericulture",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Sericulture, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-food-technology",
+      "name": "B.Tech. Food Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Tech. Food Technology, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "agriculture"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-biotechnology",
+      "name": "B.Tech. Biotechnology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Tech. Biotechnology, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "agriculture"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-energy-and-environmental-engineering",
+      "name": "B.Tech. Energy and Environmental Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Tech. Energy and Environmental Engineering, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "environmental"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-sc-hons-agri-business-management",
+      "name": "B.Sc. (Hons.) Agri-Business Management",
+      "degree": "B.Sc. (Hons.)",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Sc. (Hons.) Agri-Business Management, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "agriculture"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-bioinformatics",
+      "name": "B.Tech. Bioinformatics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Tech. Bioinformatics, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-agricultural-information-technology",
+      "name": "B.Tech. Agricultural Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "summary": "Four-year B.Tech. Agricultural Information Technology, admitted through TNAU's common UG counselling.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "agriculture"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "counselling"
+        ],
+        "eligibility": "Class XII from the Tamil Nadu board, CBSE, CISCE, other state boards or recognised international boards, with the subject combination the programme requires (Mathematics or Biology, Physics and Chemistry for most programmes).",
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "None — rank on Class XII marks"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹600 (₹300 SC/SCA/ST)",
+        "process": [
+          {
+            "step": "Register online",
+            "detail": "6 May – 8 June 2026 at tnau.ucanapply.com."
+          },
+          {
+            "step": "Fill the application",
+            "detail": "Choose programmes and colleges."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Published by TNAU."
+          },
+          {
+            "step": "Online counselling and seat allotment",
+            "detail": "Followed by certificate verification."
+          },
+          {
+            "step": "Upward movement (sliding)",
+            "detail": "Provisional allotment, then certificate verification and submission."
+          }
+        ],
+        "sourceId": "s1",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionStats": [
+      {
+        "year": "2026-27",
+        "scope": "Seats: 2,516 in constituent colleges; 4,736 in affiliated colleges (3,051 government quota + 1,685 management quota)",
+        "applicants": null,
+        "admitted": null,
+        "enrolled": null,
+        "acceptanceRate": null,
+        "sourceId": "s1",
+        "confidence": "official"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "TNAU — Undergraduate and diploma admissions 2026–27 (press note)",
+      "url": "https://agritech.tnau.ac.in/tnaupressnotes/pdf/2026/Undergraduate%20and%20Diploma%20Admissions%202026-2027%20-%20Eng.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s3",
+      "label": "TNAU — B.Sc. (Hons.) Agriculture",
+      "url": "https://tnau.ac.in/b-sc-hons-agriculture/",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    }
+  ],
+  "lastVerified": "2026-10-05",
+  "institutionType": "state-university",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "State agricultural university (18 constituent and 28 affiliated colleges)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}

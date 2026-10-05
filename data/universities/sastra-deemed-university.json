@@ -1,0 +1,3708 @@
+{
+  "slug": "sastra-deemed-university",
+  "name": "SASTRA Deemed University",
+  "officialName": "Shanmugha Arts, Science, Technology & Research Academy (SASTRA Deemed to be University)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Thanjavur",
+  "campuses": [],
+  "control": "private",
+  "category": "technical",
+  "founded": 1984,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.sastra.edu/",
+  "admissionsUrl": "https://sastra.edu/admissions-2026.html",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "SASTRA began in 1984 as Shanmugha Engineering College and became a deemed-to-be university on 26 April 2001 under Section 3 of the UGC Act. Based in Thanjavur, it teaches engineering, management, law, sciences, humanities and education. NAAC re-accredited it in its fourth cycle with A++ (3.76/4.00), and it is a UGC Category I institution. B.Tech admission combines Class XII marks and JEE (Main) scores.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "JEE (Main)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "Combined with normalised Class XII aggregate for B.Tech merit."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "btech-aerospace-engineering",
+      "name": "B.Tech. Aerospace Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Aerospace Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-bioengineering",
+      "name": "B.Tech. Bioengineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Bioengineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-bioinformatics",
+      "name": "B.Tech. Bioinformatics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Bioinformatics at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-biotechnology",
+      "name": "B.Tech. Biotechnology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Biotechnology at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-chemical-engineering",
+      "name": "B.Tech. Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Chemical Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "chemistry"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-civil-engineering",
+      "name": "B.Tech. Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Civil Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering",
+      "name": "B.Tech. Computer Science and Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Computer Science and Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering-artificial-intelligence-and-data-science",
+      "name": "B.Tech. Computer Science and Engineering (Artificial Intelligence and Data Science)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Computer Science and Engineering (Artificial Intelligence and Data Science) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering-cyber-security-and-block-chain-technology",
+      "name": "B.Tech. Computer Science and Engineering (Cyber Security and Block Chain Technology)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Computer Science and Engineering (Cyber Security and Block Chain Technology) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering-iot-and-automation",
+      "name": "B.Tech. Computer Science and Engineering (IoT and Automation)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Computer Science and Engineering (IoT and Automation) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering-networks",
+      "name": "B.Tech. Computer Science and Engineering (Networks)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Computer Science and Engineering (Networks) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electrical-and-electronics-engineering",
+      "name": "B.Tech. Electrical and Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electrical and Electronics Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electrical-and-electronics-engineering-smart-grid-and-electric-vehicles",
+      "name": "B.Tech. Electrical and Electronics Engineering (Smart Grid and Electric Vehicles)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electrical and Electronics Engineering (Smart Grid and Electric Vehicles) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-and-communication-engineering",
+      "name": "B.Tech. Electronics and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electronics and Communication Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-and-communication-engineering-cyber-physical-systems",
+      "name": "B.Tech. Electronics and Communication Engineering (Cyber Physical Systems)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electronics and Communication Engineering (Cyber Physical Systems) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-and-computer-engineering",
+      "name": "B.Tech. Electronics and Computer Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electronics and Computer Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-and-instrumentation-engineering",
+      "name": "B.Tech. Electronics and Instrumentation Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electronics and Instrumentation Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-engineering-vlsi-design-and-technology",
+      "name": "B.Tech. Electronics Engineering (VLSI Design and Technology)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Electronics Engineering (VLSI Design and Technology) at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-mechanical-engineering",
+      "name": "B.Tech. Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Mechanical Engineering at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-mechatronics",
+      "name": "B.Tech. Mechatronics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Mechatronics at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-robotics-and-artificial-intelligence",
+      "name": "B.Tech. Robotics and Artificial Intelligence",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.sastra.edu/admissions/ug-pg.html",
+      "summary": "Four-year B.Tech in Robotics and Artificial Intelligence at SASTRA's Thanjavur campus; minors are available alongside the major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Plus Chemistry, Biotechnology, Computer Science or Biology; single sitting."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Thanjavur",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "merit",
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": "At least 60% aggregate in Class XII with Mathematics and Physics compulsory, plus one of Chemistry, Biotechnology, Computer Science or Biology, from a recognised board in a single sitting.",
+        "minimumPercent": "60% aggregate in Class XII",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics"
+        ],
+        "entranceTests": [
+          "JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications opened 27 March 2026."
+          },
+          {
+            "step": "Merit",
+            "detail": "Seats are allotted on normalised Class XII aggregate and JEE (Main) 2026 scores taken together."
+          },
+          {
+            "step": "Counselling rounds",
+            "detail": "Choice submission and provisional allotment rounds, with sliding."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "SASTRA's FAQ describes the Class XII / JEE (Main) weighting differently in two places (50:50 and 75:25); check the current FAQ before you rely on either."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [
+        "Minor: Programming & Applications Development",
+        "Minor: Robotics & Automation",
+        "Minor: Artificial Intelligence & Machine Learning",
+        "Minor: Supply Chain & Project Management",
+        "Minor: Cyber Security & IoT",
+        "Minor: Innovation & Entrepreneurship",
+        "Minor: Quantum Computing & Quantum Technologies",
+        "Minor: Nanotechnology",
+        "Minor: Public Policy & Management",
+        "Minor: Sustainability Engineering",
+        "Minor: Nuclear Technologies"
+      ],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "studentLife": []
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "SASTRA — About",
+      "url": "https://www.sastra.edu/about-us/sastra.html",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s2",
+      "label": "SASTRA — Accreditation & ranking",
+      "url": "https://www.sastra.edu/about-us/accreditation-ranking.html",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s3",
+      "label": "SASTRA — Admissions 2026 FAQ",
+      "url": "https://www.sastra.edu/admissions-2026/4528-admissions-2026-faq.html",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    }
+  ],
+  "lastVerified": "2026-10-05",
+  "institutionType": "deemed-university",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Deemed to be university (since 26 April 2001)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "3.76 / 4.00",
+      "grade": "A++",
+      "cycle": "Cycle 4",
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    },
+    {
+      "body": "UGC",
+      "label": "Category I (graded autonomy, 2018)",
+      "grade": null,
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

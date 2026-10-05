@@ -1,0 +1,1015 @@
+{
+  "slug": "amrita-vishwa-vidyapeetham-coimbatore",
+  "name": "Amrita Vishwa Vidyapeetham, Coimbatore",
+  "officialName": "Amrita Vishwa Vidyapeetham (Deemed to be University) — Coimbatore campus",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Coimbatore",
+  "campuses": [],
+  "control": "private",
+  "category": "multidisciplinary",
+  "founded": 1994,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.amrita.edu/campus/coimbatore/",
+  "admissionsUrl": "https://www.amrita.edu/admissions/engineering/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Amrita's Coimbatore campus at Ettimadai, in the foothills of the Western Ghats, opened on 27 October 1994 as the Amrita Institute of Technology and Science with 120 students; it is now the administrative headquarters of Amrita Vishwa Vidyapeetham, a deemed-to-be university accredited A++ by NAAC. B.Tech admission is by AEEE 2026 rank or JEE (Main) 2026 percentile, through centralised seat allotment.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": "₹1,300 (AEEE, or AEEE + JEE route); ₹500 (JEE route only)",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "testing": [
+    {
+      "test": "AEEE",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "AEEE 2026 rank or JEE (Main) 2026 percentile."
+    },
+    {
+      "test": "JEE (Main)",
+      "policy": "optional",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "Percentile accepted instead of AEEE."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": "s3",
+      "confidence": "requires-verification",
+      "asOf": "2026-27",
+      "notes": "Tuition depends on programme and on the scholarship slab earned through AEEE rank or JEE (Main) percentile — see the B.Tech fee structure."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "btech-aerospace-engineering",
+      "name": "B.Tech. Aerospace Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Aerospace Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-chemical-engineering",
+      "name": "B.Tech. Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Chemical Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "chemistry"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-civil-engineering",
+      "name": "B.Tech. Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Civil Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-automation-and-robotics",
+      "name": "B.Tech. Automation and Robotics",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Automation and Robotics at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-artificial-intelligence-and-data-science",
+      "name": "B.Tech. Artificial Intelligence and Data Science",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Artificial Intelligence and Data Science at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering",
+      "name": "B.Tech. Computer Science and Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Computer Science and Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering-artificial-intelligence",
+      "name": "B.Tech. Computer Science and Engineering (Artificial Intelligence)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Computer Science and Engineering (Artificial Intelligence) at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering-cyber-security",
+      "name": "B.Tech. Computer Science and Engineering (Cyber Security)",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Computer Science and Engineering (Cyber Security) at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-and-communication-engineering",
+      "name": "B.Tech. Computer and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Computer and Communication Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-and-communication-engineering",
+      "name": "B.Tech. Electronics and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Electronics and Communication Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electrical-and-electronics-engineering",
+      "name": "B.Tech. Electrical and Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Electrical and Electronics Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-mechanical-engineering",
+      "name": "B.Tech. Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.amrita.edu/school/engineering/coimbatore/",
+      "summary": "Four-year B.Tech in Mechanical Engineering at Amrita's Coimbatore campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": "Coimbatore",
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "AEEE 2026 or JEE (Main) 2026"
+        ],
+        "reservation": null,
+        "international": null,
+        "applicationFee": "₹1,300 (₹500 JEE-only)",
+        "process": [
+          {
+            "step": "Register",
+            "detail": "AEEE, AEEE + JEE, or JEE-only route."
+          },
+          {
+            "step": "Write AEEE or submit JEE (Main) percentile",
+            "detail": "Rank decides seat and scholarship slab."
+          },
+          {
+            "step": "Centralised Seat Allotment Process (CSAP)",
+            "detail": "Online seat allotment across Amrita campuses."
+          }
+        ],
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Amrita Coimbatore — About",
+      "url": "https://www.amrita.edu/campus/coimbatore/about/",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s2",
+      "label": "Amrita Vishwa Vidyapeetham — Home",
+      "url": "https://www.amrita.edu/",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s3",
+      "label": "Amrita — AEEE 2026 information handbook",
+      "url": "https://webfiles.amrita.edu/2025/11/aeee-2026-information-handbook.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s4",
+      "label": "Amrita — B.Tech centralised seat allotment handbook 2026",
+      "url": "https://webfiles.amrita.edu/2026/04/btech-csap-hanbook-2026.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    }
+  ],
+  "lastVerified": "2026-10-05",
+  "institutionType": "deemed-university",
+  "hub": null,
+  "locality": "Ettimadai",
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Amrita Vishwa Vidyapeetham (deemed to be university) — Coimbatore campus",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A++",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s2",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

@@ -1,0 +1,1050 @@
+{
+  "slug": "nit-tiruchirappalli",
+  "name": "NIT Tiruchirappalli (NIT Trichy)",
+  "officialName": "National Institute of Technology, Tiruchirappalli",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Tiruchirappalli",
+  "campuses": [],
+  "control": "public",
+  "category": "technical",
+  "founded": 1964,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.nitt.edu/",
+  "admissionsUrl": "https://www.nitt.edu/home/admissions/btech/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "NIT Tiruchirappalli began on 13 July 1964 as Regional Engineering College, a joint venture of the Government of India and the Government of Tamil Nadu, and was renamed a National Institute of Technology in 2003. It ranked 9th in NIRF 2025 Engineering and 30th Overall. B.Tech and B.Arch admission is through JEE (Main) and JoSAA/CSAB counselling (DASA for overseas candidates).",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "NIRF",
+      "category": "Engineering",
+      "edition": 2025,
+      "rank": "9",
+      "sourceId": "s2"
+    },
+    {
+      "org": "NIRF",
+      "category": "Overall",
+      "edition": 2025,
+      "rank": "30",
+      "sourceId": "s2"
+    },
+    {
+      "org": "NIRF",
+      "category": "Architecture",
+      "edition": 2025,
+      "rank": "9",
+      "sourceId": "s2"
+    }
+  ],
+  "applicationPlatform": {
+    "value": "JoSAA 2026 and CSAB 2026 counselling; DASA 2026 for overseas candidates",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [
+    {
+      "test": "JEE (Main)",
+      "policy": "required",
+      "typicalRange": null,
+      "sourceId": "s3",
+      "confidence": "official",
+      "notes": "Seats allotted through JoSAA / CSAB counselling; overseas candidates through DASA."
+    }
+  ],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 62500,
+        "max": 62500,
+        "period": "semester"
+      },
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": "2025-26",
+      "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "btech-civil-engineering",
+      "name": "B.Tech. Civil Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Civil Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-computer-science-and-engineering",
+      "name": "B.Tech. Computer Science and Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Computer Science and Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electrical-and-electronics-engineering",
+      "name": "B.Tech. Electrical and Electronics Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Electrical and Electronics Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-electronics-and-communication-engineering",
+      "name": "B.Tech. Electronics and Communication Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Electronics and Communication Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-instrumentation-and-control-engineering",
+      "name": "B.Tech. Instrumentation and Control Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Instrumentation and Control Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-mechanical-engineering",
+      "name": "B.Tech. Mechanical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Mechanical Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-metallurgical-and-materials-engineering",
+      "name": "B.Tech. Metallurgical and Materials Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Metallurgical and Materials Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-production-engineering",
+      "name": "B.Tech. Production Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Production Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "btech-chemical-engineering",
+      "name": "B.Tech. Chemical Engineering",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nitt.edu/home/academics/programmes/btech/",
+      "summary": "Four-year (eight-semester) B.Tech in Chemical Engineering at NIT Trichy, through JEE (Main) and JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [
+        "chemistry"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "barch",
+      "name": "B.Arch.",
+      "degree": "B.Arch.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.nitt.edu/home/admissions/btech/",
+      "summary": "Five-year B.Arch at NIT Trichy, admitted through JoSAA.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62500,
+          "max": 62500,
+          "period": "semester"
+        },
+        "sourceId": "s5",
+        "confidence": "official",
+        "asOf": "2025-26",
+        "notes": "Tuition for OPEN, OPEN-EWS and OBC-NCL students. Those with family income under ₹1 lakh a year get full tuition remission; institute and other fees are extra."
+      },
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "entrance",
+          "counselling"
+        ],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [
+          "JEE (Main)"
+        ],
+        "reservation": "Central reservation through JoSAA (GEN-EWS, OBC-NCL, SC, ST, PwD), including NIT home-state and other-state quotas.",
+        "international": "Overseas and foreign nationals: DASA 2026.",
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Write JEE (Main)",
+            "detail": "National entrance test."
+          },
+          {
+            "step": "JoSAA counselling",
+            "detail": "Register, fill choices and accept a seat; CSAB rounds follow for vacant seats."
+          },
+          {
+            "step": "Report to NIT Trichy",
+            "detail": "Verify documents and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "NIT Trichy — About",
+      "url": "https://www.nitt.edu/home/about/nitt/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s2",
+      "label": "NIT Trichy — NIRF",
+      "url": "https://www.nitt.edu/home/academics/nirf/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s3",
+      "label": "NIT Trichy — B.Tech / B.Arch admissions",
+      "url": "https://www.nitt.edu/home/admissions/btech/",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s4",
+      "label": "NIT Trichy — B.Tech fee structure 2025",
+      "url": "https://www.nitt.edu/home/admissions/btech/B.Tech._Fee%20Structure_2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s5",
+      "label": "NIT Trichy — B.Arch fee structure 2025",
+      "url": "https://www.nitt.edu/home/admissions/btech/B.Arch._Fee%20Structure_2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-04"
+    }
+  ],
+  "lastVerified": "2026-10-04",
+  "institutionType": "institute-of-national-importance",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Institute of National Importance (National Institute of Technology since 2003)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  }
+}
