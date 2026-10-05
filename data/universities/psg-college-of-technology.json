@@ -2890,7 +2890,7 @@
   "accreditation": [
     {
       "body": "NAAC",
-      "label": "Accredited (grade not verified)",
+      "label": null,
       "grade": null,
       "cycle": null,
       "validUntil": null,

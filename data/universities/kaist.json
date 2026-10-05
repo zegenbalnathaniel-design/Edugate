@@ -75,8 +75,7 @@
       "value": null,
       "sourceId": null,
       "confidence": "requires-verification",
-      "asOf": null,
-      "notes": "The tuition amount was not verified, but it is covered in full by the scholarship every admitted international undergraduate receives."
+      "asOf": null
     },
     "domesticTuition": {
       "value": null,

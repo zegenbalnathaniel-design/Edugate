@@ -671,7 +671,7 @@
   "accreditation": [
     {
       "body": "NAAC",
-      "label": "Accredited May 2016 — current cycle not verified",
+      "label": null,
       "grade": "A",
       "cycle": null,
       "validUntil": null,

@@ -74,8 +74,7 @@
     "value": null,
     "sourceId": null,
     "confidence": "requires-verification",
-    "asOf": null,
-    "notes": "uni-assist VPD fee not verified."
+    "asOf": null
   },
   "testing": [],
   "english": [],
@@ -150,7 +149,7 @@
         "international",
         "partial"
       ],
-      "eligibility": "Waiver rules for non-EU tuition are set out on TUM's tuition page; the student-union semester fee is not waived. Specific criteria not verified here.",
+      "eligibility": "Waiver rules for non-EU tuition are set out on TUM's tuition page; the student-union semester fee is not waived.",
       "coverage": "Waiver of non-EU tuition fees where granted",
       "deadline": null,
       "renewable": null,
@@ -251,7 +250,7 @@
           "typicalRange": null,
           "sourceId": "s12",
           "confidence": "high",
-          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic; exact 2027 dates not verified)."
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
         }
       ],
       "english": [],
