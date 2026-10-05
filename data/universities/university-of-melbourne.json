@@ -221,13 +221,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "University of Melbourne — About",
-      "url": "https://about.unimelb.edu.au/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — The University of Melbourne",
       "url": "https://www.topuniversities.com/universities/university-melbourne",
@@ -259,13 +252,6 @@
       "id": "s6",
       "label": "University of Melbourne — Commerce undergraduate international merit scholarships",
       "url": "https://scholarships.unimelb.edu.au/awards/international-undergraduate-merit-scholarships",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s7",
-      "label": "Melbourne — Computing and Software Systems major",
-      "url": "https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/structure/",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

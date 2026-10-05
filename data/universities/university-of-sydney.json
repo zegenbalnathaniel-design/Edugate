@@ -185,13 +185,6 @@
   "details": {},
   "sources": [
     {
-      "id": "s1",
-      "label": "University of Sydney — Our history",
-      "url": "https://www.sydney.edu.au/about-us/our-story/our-history.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — The University of Sydney",
       "url": "https://www.topuniversities.com/universities/university-sydney",

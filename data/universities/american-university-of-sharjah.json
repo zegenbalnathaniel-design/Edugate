@@ -363,13 +363,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "AUS — History",
-      "url": "https://www.aus.edu/about/aus-at-a-glance/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "AUS — Facts and figures",
       "url": "https://www.aus.edu/about/aus-at-a-glance/facts-figures",
@@ -387,20 +380,6 @@
       "id": "s4",
       "label": "AUS — Application requirements",
       "url": "https://www.aus.edu/admissions/bachelors-degrees/application-requirements",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s5",
-      "label": "AUS — Department of Computer Science and Engineering",
-      "url": "https://www.aus.edu/cen/department-of-computer-science-and-engineering",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s6",
-      "label": "AUS — Bachelor of Arts in Economics",
-      "url": "https://www.aus.edu/sba/undergraduate-degree/bachelor-of-arts-in-economics",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

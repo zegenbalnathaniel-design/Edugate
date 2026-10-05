@@ -312,20 +312,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "Khalifa University — History",
-      "url": "https://www.ku.ac.ae/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s2",
-      "label": "Khalifa University — Is KU a government or a private university?",
-      "url": "https://www.ku.ac.ae/faqs/is-khalifa-university-a-government-university-or-a-private-university",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s3",
       "label": "TopUniversities — Khalifa University",
       "url": "https://www.topuniversities.com/universities/khalifa-university",

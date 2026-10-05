@@ -418,13 +418,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "About Us - IIT Delhi",
-      "url": "https://home.iitd.ac.in/about.php",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s2",
       "label": "QS World University Rankings 2027: IIT Delhi remains India's highest-ranked institution (All India Radio News)",
       "url": "https://newsonair.gov.in/iit-delhi-remains-indias-highest-ranked-institution-in-qs-world-university-rankings-2027/",
@@ -453,13 +446,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s6",
-      "label": "JEE (Advanced) 2026 - Foreign national candidates",
-      "url": "https://jeeadv.ac.in/foreign.html",
-      "type": "testing-org",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s7",
       "label": "Institute Fee structure for 2025 Entry B.Tech and Dual Degree - IIT Delhi",
       "url": "https://home.iitd.ac.in/uploads/ug/25-26/Fee%20Structure_2025-26_UG%20Entry%20Students.pdf",
@@ -474,13 +460,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s9",
-      "label": "UG Admissions - IIT Delhi",
-      "url": "https://home.iitd.ac.in/ug-admissions.php",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s10",
       "label": "FITT - Incubation, IIT Delhi",
       "url": "https://fitt-iitd.in/web/incubation",
@@ -491,27 +470,6 @@
       "id": "s11",
       "label": "Startup@IITD - IIT Delhi",
       "url": "https://home.iitd.ac.in/startup-all.php",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s12",
-      "label": "IIT Delhi Curriculum (2025 onwards): Mathematics and Computing (MT1)",
-      "url": "https://curriculum.iitd.ac.in/view_program.php?program_code=MT1",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s13",
-      "label": "All Courses - Computer Science and Engineering, IIT Delhi",
-      "url": "https://homecse.iitd.ac.in/all-courses/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s14",
-      "label": "Fee Structure 2026-27 UG entry (IIT Delhi Academic Section)",
-      "url": "https://academics.iitd.ac.in/wp-content/uploads/2026/07/UG-26_compressed.pdf",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },

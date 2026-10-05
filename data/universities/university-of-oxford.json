@@ -367,13 +367,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "University of Oxford — Our history",
-      "url": "https://www.ox.ac.uk/about/organisation/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "QS World University Rankings 2027",
       "url": "https://www.topuniversities.com/world-university-rankings",

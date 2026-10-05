@@ -240,13 +240,6 @@
   "details": {},
   "sources": [
     {
-      "id": "s1",
-      "label": "UNSW — History",
-      "url": "https://www.unsw.edu.au/about-us/our-story/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — UNSW Sydney",
       "url": "https://www.topuniversities.com/universities/university-new-south-wales-unsw-sydney",

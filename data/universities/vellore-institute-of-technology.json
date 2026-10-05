@@ -288,13 +288,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "About VIT — official site",
-      "url": "https://vit.ac.in/about-vit",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
       "id": "s3",
       "label": "VIT — Ranking and Recognition",
       "url": "https://vit.ac.in/ranking-and-recognition/",

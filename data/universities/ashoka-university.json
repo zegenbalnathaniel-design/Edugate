@@ -193,20 +193,6 @@
       "retrievedAt": "2026-09-28"
     },
     {
-      "id": "s2",
-      "label": "Merit and Need-Based Scholarships — Ashoka University official site",
-      "url": "https://www.ashoka.edu.in/admissions/scholarships/",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
-      "id": "s3",
-      "label": "Ashoka University Undergraduate Fee Structure (August 2025 intake)",
-      "url": "https://www.ashoka.edu.in/wp-content/uploads/2024/11/Fee-Structure-and-Refund-Policy_August-2025-Intake.docx.pdf",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
       "id": "s4",
       "label": "Ashoka University — Undergraduate fee structure",
       "url": "https://www.ashoka.edu.in/undergraduate-fee-structure/",
@@ -231,13 +217,6 @@
       "id": "s7",
       "label": "Ashoka University — Holistic admissions and process",
       "url": "https://www.ashoka.edu.in/undergraduate-programme-holistic-admissions-and-process/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s8",
-      "label": "Ashoka University — Undergraduate international students",
-      "url": "https://www.ashoka.edu.in/admissions/undergraduate-international-students/",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

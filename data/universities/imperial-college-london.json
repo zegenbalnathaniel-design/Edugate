@@ -539,13 +539,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s8",
-      "label": "Undergraduate tuition fees 2026-27, Imperial Business School",
-      "url": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/imperial-business-school/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s9",
       "label": "Imperial Inspires scholarships (2027 entry)",
       "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
@@ -574,13 +567,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s13",
-      "label": "Imperial College London — Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Imperial_College_London",
-      "type": "secondary",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s14",
       "label": "English language requirements — Imperial",
       "url": "https://www.imperial.ac.uk/study/apply/english-language/",
@@ -605,20 +591,6 @@
       "id": "s17",
       "label": "Careers — BSc Economics, Finance and Data Science",
       "url": "https://www.imperial.ac.uk/business-school/undergraduate/economics-finance-data-science/careers/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s18",
-      "label": "Dates and deadlines for uni applications — UCAS",
-      "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
-      "type": "testing-org",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s19",
-      "label": "South Asia — Imperial international students by region",
-      "url": "https://www.imperial.ac.uk/study/international-students/information-by-region/south-asia/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },

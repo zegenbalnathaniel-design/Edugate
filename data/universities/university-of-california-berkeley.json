@@ -440,13 +440,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "UC Berkeley — History & discoveries",
-      "url": "https://www.berkeley.edu/about/history-discoveries/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "QS World University Rankings 2027 — United States",
       "url": "https://www.topuniversities.com/world-university-rankings?countries=us",
@@ -513,20 +506,6 @@
       "id": "s11",
       "label": "Berkeley Housing — Housing guarantee",
       "url": "https://housing.berkeley.edu/apply/how-to-apply-for-undergraduate-housing/housing-guarantee/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s12",
-      "label": "UC Berkeley Catalog — College of Computing, Data Science, and Society",
-      "url": "https://undergraduate.catalog.berkeley.edu/colleges/computing-data-science-society",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s13",
-      "label": "UC Berkeley Economics — Applying to the major",
-      "url": "https://econ.berkeley.edu/undergraduate/admissions",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

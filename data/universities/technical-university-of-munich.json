@@ -77,16 +77,7 @@
     "asOf": null,
     "notes": "uni-assist VPD fee not verified."
   },
-  "testing": [
-    {
-      "test": "SAT",
-      "policy": "not-applicable",
-      "typicalRange": null,
-      "sourceId": null,
-      "confidence": "requires-verification",
-      "notes": "No general SAT/ACT requirement found on TUM pages; admission is by program-level aptitude assessment."
-    }
-  ],
+  "testing": [],
   "english": [],
   "costs": {
     "currency": "EUR",
@@ -243,17 +234,6 @@
           "confidence": "high",
           "asOf": "2026-27",
           "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
-        },
-        {
-          "curriculum": "US_HIGH_SCHOOL",
-          "accepted": null,
-          "minimum": null,
-          "typical": null,
-          "subjects": [],
-          "sourceId": null,
-          "confidence": "requires-verification",
-          "asOf": null,
-          "notes": "Not verified. All non-German certificates require a uni-assist VPD; if not comparable to the Abitur, the Studienkolleg route applies."
         }
       ],
       "tests": [
@@ -391,13 +371,6 @@
       "label": "QS Rankings: TUM once again named the best university in the EU (Research in Bavaria, 18 June 2026)",
       "url": "https://www.research-in-bavaria.de/research-news/details/article/qs-rankings-tum-once-again-named-the-best-university-in-the-eu/",
       "type": "secondary",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s3",
-      "label": "History of TUM",
-      "url": "https://www.tum.de/en/about-tum/facts-and-figures/history",
-      "type": "university",
       "retrievedAt": "2026-10-02"
     },
     {

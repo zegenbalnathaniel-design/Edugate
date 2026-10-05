@@ -452,13 +452,6 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s10",
-      "label": "Penn — History",
-      "url": "https://www.upenn.edu/about/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s11",
       "label": "Penn College of Arts & Sciences — History of the College",
       "url": "https://www.college.upenn.edu/about/history-college",
@@ -466,23 +459,9 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s12",
-      "label": "Wharton Undergraduate — Concentrations",
-      "url": "https://undergrad.wharton.upenn.edu/concentrations/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s13",
       "label": "Penn Admissions — International application guidelines",
       "url": "https://admissions.upenn.edu/how-to-apply/international-applicants/guidelines",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s14",
-      "label": "Penn Admissions — First-year applicants",
-      "url": "https://admissions.upenn.edu/how-to-apply/first-year-applicants",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

@@ -332,13 +332,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "History — MAHE official site",
-      "url": "https://www.manipal.edu/mu/about-us/history.html",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
       "id": "s3",
       "label": "MAHE — advances to top 3 in NIRF rankings (2025)",
       "url": "https://www.manipal.edu/mu/news-events/mahe-advances-to-top-3-position-in-nirf-rankings--reinforcing-ac.html",
@@ -363,13 +356,6 @@
       "id": "s6",
       "label": "MAHE — UG Eligibility & Admission Process 2026 (General / Foreign / NRI)",
       "url": "https://www.manipal.edu/content/dam/manipal/mu/documents/Admissions/adm2026/UG%20Eligibility%202026.pdf",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s7",
-      "label": "KMC Manipal — MBBS programme page",
-      "url": "https://manipal.edu/kmc-manipal/program-list/mbbs-graduation-in-medicine.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },
@@ -406,13 +392,6 @@
       "label": "Careers360 — MAHE Manipal placements (reporting NIRF 2025 data)",
       "url": "https://www.careers360.com/university/manipal-academy-of-higher-education-manipal/placement",
       "type": "secondary",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s13",
-      "label": "MAHE — Fee & refunds 2026",
-      "url": "https://www.manipal.edu/mu/admission/fees.html",
-      "type": "university",
       "retrievedAt": "2026-10-03"
     }
   ],

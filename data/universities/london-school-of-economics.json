@@ -239,13 +239,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "LSE — History overview",
-      "url": "https://www.lse.ac.uk/about-lse/our-history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — LSE",
       "url": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse",

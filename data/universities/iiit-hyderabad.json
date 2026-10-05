@@ -266,20 +266,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "Undergraduate Admissions — IIIT Hyderabad official site",
-      "url": "https://www.iiit.ac.in/undergraduate-admissions/",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
-      "id": "s2",
-      "label": "History — IIIT Hyderabad official site",
-      "url": "https://www.iiit.ac.in/history/",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
       "id": "s3",
       "label": "IIIT Hyderabad — UG Admissions portal",
       "url": "https://ugadmissions.iiit.ac.in/",

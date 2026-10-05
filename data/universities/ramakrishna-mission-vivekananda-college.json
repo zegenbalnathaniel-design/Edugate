@@ -114,21 +114,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -167,21 +153,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -220,21 +192,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -273,21 +231,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -326,21 +270,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -379,21 +309,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -434,21 +350,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -487,21 +389,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s3",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -561,9 +449,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -614,9 +501,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -669,9 +555,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -724,9 +609,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -779,9 +663,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -834,9 +717,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -887,9 +769,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -950,9 +831,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -1013,9 +893,8 @@
         "applicationFee": "₹200 (SC/ST exempt)",
         "process": [],
         "sourceId": "s4",
-        "confidence": "requires-verification",
-        "asOf": "2025-26",
-        "notes": "Selection method not stated on the pages Edugate checked."
+        "confidence": "official",
+        "asOf": "2025-26"
       },
       "deadlines": [],
       "feeBreakdown": [],
@@ -1040,13 +919,6 @@
       "id": "s2",
       "label": "RKMVC — NAAC A+ grade (college notice)",
       "url": "https://rkmvc.ac.in/alumni/?p=103",
-      "type": "university",
-      "retrievedAt": "2026-10-04"
-    },
-    {
-      "id": "s3",
-      "label": "RKMVC — Shift I (Day College) prospectus 2025–26",
-      "url": "https://rkmvc.ac.in/wp-content/uploads/2025/05/shift-I-Prospectus-2025-26.pdf",
       "type": "university",
       "retrievedAt": "2026-10-04"
     },

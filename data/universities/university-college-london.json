@@ -246,13 +246,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "UCL — History",
-      "url": "https://www.ucl.ac.uk/about/who-we-are/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "QS World University Rankings 2027",
       "url": "https://www.topuniversities.com/world-university-rankings",

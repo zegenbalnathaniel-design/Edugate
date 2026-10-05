@@ -325,20 +325,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "NYU Abu Dhabi — NYUAD opens doors to Downtown Campus",
-      "url": "https://nyuad.nyu.edu/en/news/latest-news/community-life/2009/december/nyuad-opens-doors-to-downtown-campus.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s2",
-      "label": "NYU Abu Dhabi — History",
-      "url": "https://nyuad.nyu.edu/en/about/the-nyuad-campus/history.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s3",
       "label": "NYU Abu Dhabi — Cost of attendance",
       "url": "https://nyuad.nyu.edu/en/apply/undergraduate/scholarships-and-financial-aid/cost-of-attendance.html",
@@ -356,20 +342,6 @@
       "id": "s5",
       "label": "NYU Abu Dhabi — Apply for financial aid",
       "url": "https://nyuad.nyu.edu/en/apply/undergraduate/scholarships-and-financial-aid/apply-for-financial-aid.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s6",
-      "label": "NYU Abu Dhabi — Computer Science major: program structure",
-      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/computer-science-major/program-structure.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s7",
-      "label": "NYU Abu Dhabi — Economics major",
-      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/economics-major.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

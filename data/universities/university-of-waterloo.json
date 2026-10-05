@@ -242,13 +242,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "University of Waterloo — History",
-      "url": "https://uwaterloo.ca/about/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — University of Waterloo",
       "url": "https://www.topuniversities.com/universities/university-waterloo",

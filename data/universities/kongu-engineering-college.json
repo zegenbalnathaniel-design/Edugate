@@ -2511,21 +2511,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s1",
-        "confidence": "requires-verification",
-        "asOf": "2026-27",
-        "notes": "B.Arch is not admitted through TNEA engineering counselling; check the college's admission notice."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],

@@ -258,13 +258,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "NTU — Our history",
-      "url": "https://www.ntu.edu.sg/about-us/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "NTU — Discover NTU",
       "url": "https://www.ntu.edu.sg/about-us/discover-ntu",

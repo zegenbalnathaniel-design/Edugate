@@ -575,13 +575,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "Application and Testing Deadlines — Stanford Undergraduate Admission",
-      "url": "https://admission.stanford.edu/apply/deadlines/index.html",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s2",
       "label": "First-Year Applicants — Stanford Undergraduate Admission",
       "url": "https://admission.stanford.edu/apply/first-year/",
@@ -652,48 +645,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s12",
-      "label": "Admission Statistics — Stanford Undergraduate Admission",
-      "url": "https://admission.stanford.edu/apply/selection/statistics.html",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s13",
-      "label": "Our History — Stanford University",
-      "url": "https://www.stanford.edu/about/history",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s14",
-      "label": "CS-BS Program — Stanford Bulletin",
-      "url": "https://bulletin.stanford.edu/programs/CS-BS",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s15",
-      "label": "Economics BA — Stanford Economics Department",
-      "url": "https://economics.stanford.edu/undergraduate/major/economics-ba",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s16",
-      "label": "QS World University Rankings 2027",
-      "url": "https://www.topuniversities.com/world-university-rankings",
-      "type": "ranking-org",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s17",
-      "label": "Stanford Facts — Class of 2029 profile",
-      "url": "https://facts.stanford.edu/academics/undergraduate-education/class-2029-profile",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s18",
       "label": "Stanford Report — larger first-year and transfer classes (Nov 2025)",
       "url": "https://news.stanford.edu/stories/2025/11/enrollment-first-year-transfer-class",
@@ -711,13 +662,6 @@
       "id": "s20",
       "label": "Stanford Housing — By the numbers",
       "url": "https://housinginfo.stanford.edu/by-the-numbers",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s21",
-      "label": "Stanford R&DE — Frosh and transfer students housing",
-      "url": "https://rde.stanford.edu/studenthousing/freshmen-and-transfer-students",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

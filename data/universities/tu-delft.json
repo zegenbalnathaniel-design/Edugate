@@ -310,13 +310,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "TU Delft — BSc programmes brochure",
-      "url": "https://filelist.tudelft.nl/TUDelft/Onderwijs/Opleidingen/Bachelor/01._Brochures/TU%20Delft-BSc%20programmes%20EN.pdf",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — Delft University of Technology",
       "url": "https://www.topuniversities.com/universities/delft-university-technology",
@@ -362,13 +355,6 @@
       "id": "s8",
       "label": "TU Delft — Admission requirements Aerospace Engineering BSc",
       "url": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/ae/bsc-aerospace-engineering/from-application-to-enrolment/admission-requirements",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s9",
-      "label": "TU Delft — BSc Aerospace Engineering: new bilingual track (NL/EN)",
-      "url": "https://www.tudelft.nl/en/2026/lr/bsc-aerospace-engineering-new-bilingual-track-nl-en-alongside-the-english-track",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

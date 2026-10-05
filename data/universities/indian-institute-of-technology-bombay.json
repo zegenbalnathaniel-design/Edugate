@@ -444,13 +444,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "About IIT Bombay",
-      "url": "https://www.iitb.ac.in/about-iit-bombay",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s2",
       "label": "IIT Bombay in brief - Pocket statistics 2022-23",
       "url": "https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-03/Pocket%20statistics%202022_2023.pdf",
@@ -475,13 +468,6 @@
       "id": "s5",
       "label": "JEE (Advanced) 2026 - Admission criteria",
       "url": "https://jeeadv.ac.in/admission_criteria.html",
-      "type": "testing-org",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s6",
-      "label": "JEE (Advanced) 2026 - Foreign national candidates",
-      "url": "https://jeeadv.ac.in/foreign.html",
       "type": "testing-org",
       "retrievedAt": "2026-10-02"
     },
@@ -521,13 +507,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s12",
-      "label": "B.Des Admission - IDC School of Design",
-      "url": "https://www.idc.iitb.ac.in/admission/bdes-admission",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s13",
       "label": "SINE - Society for Innovation and Entrepreneurship, IIT Bombay",
       "url": "https://www.sineiitb.org/",
@@ -563,13 +542,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s18",
-      "label": "UCEED 2027: Eligibility for Exam",
-      "url": "https://www.uceed.iitb.ac.in/2027/eligibility-exam.html",
-      "type": "testing-org",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s19",
       "label": "IIT Bombay — About",
       "url": "https://www.iitb.ac.in/about",
@@ -588,13 +560,6 @@
       "label": "Careers360 — IIT Bombay placements (reporting NIRF 2025 data)",
       "url": "https://www.careers360.com/university/indian-institute-of-technology-bombay/placement",
       "type": "secondary",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s22",
-      "label": "NIRF 2025 data submitted by IIT Bombay (Overall category)",
-      "url": "https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-02/NIRF_IITBombay_2025_Overall_Category.pdf",
-      "type": "university",
       "retrievedAt": "2026-10-03"
     },
     {

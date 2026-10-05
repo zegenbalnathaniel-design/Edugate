@@ -210,13 +210,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "SNU — Timeline",
-      "url": "https://en.snu.ac.kr/about/history/timeline",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "Korea JoongAng Daily — SNU leads Korean campuses in latest QS world rankings",
       "url": "https://www.koreajoongangdaily.com/korea/snu-leads-korean-campuses-in-latest-qs-world-rankings-as-yonsei-ku-hit-historic-highs/12727249",

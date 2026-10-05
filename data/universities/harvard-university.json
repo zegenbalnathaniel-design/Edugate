@@ -446,13 +446,6 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s2",
-      "label": "Harvard College — Admissions statistics",
-      "url": "https://college.harvard.edu/admissions/admissions-statistics",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s3",
       "label": "Harvard Gazette — Class of 2029 yield tops 83%",
       "url": "https://news.harvard.edu/gazette/story/2025/10/class-of-2029-yield-tops-83-with-international-students-at-90/",
@@ -481,13 +474,6 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s7",
-      "label": "Harvard College FAQ — What if English is not my first language?",
-      "url": "https://college.harvard.edu/resources/faq/what-if-english-not-my-first-language",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s8",
       "label": "Harvard College — How aid works (cost of attendance)",
       "url": "https://college.harvard.edu/financial-aid/how-aid-works",
@@ -512,13 +498,6 @@
       "id": "s11",
       "label": "Harvard College — Apply",
       "url": "https://college.harvard.edu/admissions/apply",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s12",
-      "label": "Harvard College — Concentrations explained",
-      "url": "https://college.harvard.edu/student-life/student-stories/concentrations-explained",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

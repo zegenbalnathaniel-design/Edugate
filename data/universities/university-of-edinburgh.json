@@ -236,13 +236,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "University of Edinburgh — Our history",
-      "url": "https://www.ed.ac.uk/about/our-history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "QS World University Rankings 2027 — United Kingdom",
       "url": "https://www.topuniversities.com/world-university-rankings?countries=gb",

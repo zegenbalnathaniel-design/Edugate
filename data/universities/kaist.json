@@ -191,13 +191,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "KAIST — Founding philosophy",
-      "url": "https://www.kaist.ac.kr/en/html/kaist/011701.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — KAIST",
       "url": "https://www.topuniversities.com/universities/kaist-korea-advanced-institute-science-technology",

@@ -246,13 +246,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "SMU — History",
-      "url": "https://www.smu.edu.sg/about/history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "SMU — About",
       "url": "https://www.smu.edu.sg/about",

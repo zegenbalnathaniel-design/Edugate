@@ -330,13 +330,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "New Georgia Encyclopedia — Georgia Institute of Technology",
-      "url": "https://www.georgiaencyclopedia.org/articles/education/georgia-institute-of-technology-georgia-tech/",
-      "type": "secondary",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "Georgia Tech Admission — First-year application plans and deadlines",
       "url": "https://admission.gatech.edu/first-year/deadlines",
@@ -375,13 +368,6 @@
       "id": "s7",
       "label": "Georgia Tech Admission — International first-year admission",
       "url": "https://admission.gatech.edu/international/first-year",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s8",
-      "label": "Georgia Tech College of Computing — BS in Computer Science",
-      "url": "https://cc.gatech.edu/degree-programs/bachelor-science-computer-science",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

@@ -299,13 +299,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "UTokyo — Chronology",
-      "url": "https://www.u-tokyo.ac.jp/en/about/chronology.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "QS World University Rankings 2027",
       "url": "https://www.topuniversities.com/world-university-rankings",
@@ -316,13 +309,6 @@
       "id": "s3",
       "label": "UTokyo PEAK — Programs in English at Komaba",
       "url": "https://peak.c.u-tokyo.ac.jp/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s4",
-      "label": "UTokyo Komaba — PEAK general information",
-      "url": "https://www.c.u-tokyo.ac.jp/eng_site/info/academics/zenki/peak/",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

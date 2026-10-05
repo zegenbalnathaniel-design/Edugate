@@ -448,13 +448,6 @@
       "retrievedAt": "2026-09-29"
     },
     {
-      "id": "s10",
-      "label": "Computer Science — Future Students, University of Toronto",
-      "url": "https://future.utoronto.ca/undergraduate-programs/computer-science/",
-      "type": "university",
-      "retrievedAt": "2026-09-29"
-    },
-    {
       "id": "s11",
       "label": "Computer Science Major (ASMAJ1689) — Arts & Science Academic Calendar",
       "url": "https://artsci.calendar.utoronto.ca/program/asmaj1689",
@@ -472,13 +465,6 @@
       "id": "s13",
       "label": "Admission Requirements — International High School Students, University of Toronto",
       "url": "https://future.utoronto.ca/requirements-international-high-schools",
-      "type": "university",
-      "retrievedAt": "2026-09-29"
-    },
-    {
-      "id": "s14",
-      "label": "Economics — Future Students, University of Toronto",
-      "url": "https://future.utoronto.ca/program/economics",
       "type": "university",
       "retrievedAt": "2026-09-29"
     },

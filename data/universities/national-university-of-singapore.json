@@ -92,16 +92,7 @@
       "notes": "ACT with Writing; same conditions as SAT."
     }
   ],
-  "english": [
-    {
-      "test": "IELTS",
-      "minOverall": null,
-      "minSection": null,
-      "waiver": null,
-      "sourceId": null,
-      "confidence": "requires-verification"
-    }
-  ],
+  "english": [],
   "costs": {
     "currency": "SGD",
     "internationalTuition": {
@@ -408,20 +399,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s6",
-      "label": "NUS OAM — Programme Pre-requisites (international qualifications)",
-      "url": "https://www.nus.edu.sg/oam/apply-to-nus/international-qualifications/before-you-apply/programme-pre-requisites",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s7",
-      "label": "NUS OAM — IB Diploma programme prerequisites (IBDP May 2021 and beyond)",
-      "url": "https://nus.edu.sg/oam/docs/default-source/international-baccalaureate/ibdp-may-2021-and-beyond-sdp-pre-req.pdf",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s8",
       "label": "NUS OAM — Undergraduate Admissions (application fee, platform)",
       "url": "https://www.nus.edu.sg/oam/admissions/admissions",
@@ -436,23 +413,9 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s10",
-      "label": "MOE — Tuition Grant Scheme: bond matters",
-      "url": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters",
-      "type": "government",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s11",
       "label": "NUS OAM — NUS International Undergraduate Scholarship",
       "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s12",
-      "label": "NUS OAM — Indicative Grade Profile (IGP)",
-      "url": "https://www.nus.edu.sg/oam/admissions/indicative-grade-profile",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
@@ -478,38 +441,10 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s16",
-      "label": "NUS Department of Economics — Requirements for Economics Major",
-      "url": "https://fass.nus.edu.sg/ecs/requirements-for-economics-major/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s17",
-      "label": "NUS Computing — BComp (Computer Science) curriculum",
-      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/curr/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s18",
-      "label": "MOE — Tuition Grant Scheme",
-      "url": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme",
-      "type": "government",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s19",
       "label": "NUS Computing — GES 2025 results",
       "url": "https://www.comp.nus.edu.sg/news/nus-computing-graduates-among-singapores-highest-earners-and-most-employable-ges-2025-shows/",
       "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s20",
-      "label": "Ministry of Education Singapore — NUS Graduate Employment Survey 2025",
-      "url": "https://www.moe.gov.sg/media/files/post-secondary/ges-2025/Web%20Publication%20NUS%20GES%202025.pdf",
-      "type": "government",
       "retrievedAt": "2026-10-03"
     }
   ],

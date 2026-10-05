@@ -430,13 +430,6 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s2",
-      "label": "The University Record — record applications for fall 2025",
-      "url": "https://record.umich.edu/articles/u-m-receivesrecord-numberof-applicationsfor-fall-2025/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s3",
       "label": "U-M Office of Budget and Planning — First-year class profile (fall 2025)",
       "url": "https://obp.umich.edu/wp-content/uploads/pubdata/factsfigures/firstyearsprofile_umaa_2025.pdf",
@@ -486,23 +479,9 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s10",
-      "label": "U-M CSE — Computer Science LSA vs Engineering",
-      "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-lsa-vs-computer-science-engineering/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s11",
       "label": "University of Michigan — Facts & figures",
       "url": "https://umich.edu/facts-figures/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s12",
-      "label": "U-M Heritage — Timeline",
-      "url": "https://heritage.umich.edu/timeline/",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

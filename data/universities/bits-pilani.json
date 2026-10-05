@@ -306,20 +306,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "BITS Pilani Admissions — official site",
-      "url": "https://www.bits-pilani.ac.in/admissions/",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
-      "id": "s2",
-      "label": "BITS Pilani — Wikipedia (founding history)",
-      "url": "https://en.wikipedia.org/wiki/BITS_Pilani",
-      "type": "secondary",
-      "retrievedAt": "2026-09-28"
-    },
-    {
       "id": "s3",
       "label": "BITS Pilani — First Degree admissions (BITSAT-2026)",
       "url": "https://admissions.bits-pilani.ac.in/FD/FD.html",

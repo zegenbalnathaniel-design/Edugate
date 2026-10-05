@@ -392,13 +392,6 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s6",
-      "label": "CMU School of Computer Science — Undergraduate admissions",
-      "url": "https://www.cs.cmu.edu/academics/undergraduate/admissions",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s7",
       "label": "CMU Student Financial Services — 2026-27 undergraduate tuition",
       "url": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
@@ -416,13 +409,6 @@
       "id": "s9",
       "label": "CMU — Financial aid policy statement",
       "url": "https://www.cmu.edu/policies/student-and-student-life/financial-aid-statement.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s10",
-      "label": "Carnegie Mellon — History",
-      "url": "https://www.cmu.edu/about/history",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

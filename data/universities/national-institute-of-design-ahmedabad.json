@@ -194,13 +194,6 @@
   ],
   "sources": [
     {
-      "id": "s1",
-      "label": "History of NID — official site",
-      "url": "https://www.nid.edu/about/history-of-nid",
-      "type": "university",
-      "retrievedAt": "2026-09-28"
-    },
-    {
       "id": "s3",
       "label": "NID — B.Des / M.Des (Integrated Pathway) admissions handbook 2027-28",
       "url": "https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf",
@@ -225,13 +218,6 @@
       "id": "s6",
       "label": "NID — Life at NID",
       "url": "https://www.nid.edu/studyofnid/life",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s7",
-      "label": "NID — Main campus Ahmedabad",
-      "url": "https://www.nid.edu/about/campuses/ahmedabad-campus",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

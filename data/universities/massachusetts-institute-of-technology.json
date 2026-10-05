@@ -629,13 +629,6 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s3",
-      "label": "Class profile — MIT Admissions (Class of 2029)",
-      "url": "https://mitadmissions.org/apply/process/profile/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s4",
       "label": "Academic foundations (high school preparation) — MIT Admissions",
       "url": "https://mitadmissions.org/apply/prepare/foundations/",
@@ -643,23 +636,9 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s5",
-      "label": "International applicants — MIT Admissions",
-      "url": "https://mitadmissions.org/apply/firstyear/international/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s6",
       "label": "Cost of attendance 2026-27 — MIT Student Financial Services / MIT Catalog",
       "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/coa/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s7",
-      "label": "Making MIT affordable — MIT Student Financial Services",
-      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
@@ -706,30 +685,9 @@
       "retrievedAt": "2026-10-02"
     },
     {
-      "id": "s14",
-      "label": "Computer Science and Engineering (Course 6-3) degree chart — MIT Catalog",
-      "url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s15",
-      "label": "Economics (Course 14-1) degree chart — MIT Catalog",
-      "url": "https://catalog.mit.edu/degree-charts/economics-course-14/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
       "id": "s16",
       "label": "Need-blind and full-need aid — MIT Admissions",
       "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
-      "type": "university",
-      "retrievedAt": "2026-10-02"
-    },
-    {
-      "id": "s17",
-      "label": "How do international students apply to MIT? — MIT Admissions FAQ",
-      "url": "https://mitadmissions.org/help/faq/international-admissions/",
       "type": "university",
       "retrievedAt": "2026-10-02"
     },
@@ -751,13 +709,6 @@
       "id": "s20",
       "label": "MIT Student Financial Services — Return on investment",
       "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/return-on-investment/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s21",
-      "label": "MIT Facts — Undergraduate tuition & aid",
-      "url": "https://facts.mit.edu/undergraduate-admissions/undergraduate-tuition/",
       "type": "university",
       "retrievedAt": "2026-10-03"
     }

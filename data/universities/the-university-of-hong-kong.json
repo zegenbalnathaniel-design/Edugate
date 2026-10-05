@@ -268,13 +268,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "HKU — University history: the early years",
-      "url": "https://www.hku.hk/about/university-history/the-early-years.html",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "RTHK — QS World University Rankings 2027 (Hong Kong universities)",
       "url": "https://news.rthk.hk/rthk/en/component/k2/1858962-20260618.htm",

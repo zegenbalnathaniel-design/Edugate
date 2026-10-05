@@ -290,20 +290,6 @@
       "url": "https://join.hkust.edu.hk/admissions/international-qualifications/application-procedures",
       "type": "university",
       "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s6",
-      "label": "HKUST CSE — BEng in Computer Science",
-      "url": "https://cse.hkust.edu.hk/ug/comp/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s7",
-      "label": "HKUST — Economics and Finance",
-      "url": "https://join.hkust.edu.hk/our-programs/school-of-business-and-management/economics-and-finance",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
     }
   ],
   "lastVerified": "2026-10-03"

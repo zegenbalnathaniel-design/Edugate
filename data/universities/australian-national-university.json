@@ -198,13 +198,6 @@
   "details": {},
   "sources": [
     {
-      "id": "s1",
-      "label": "ANU — Our history",
-      "url": "https://www.anu.edu.au/about/our-history",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "TopUniversities — Australian National University",
       "url": "https://www.topuniversities.com/universities/australian-national-university-anu",

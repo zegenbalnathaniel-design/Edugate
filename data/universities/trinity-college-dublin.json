@@ -321,13 +321,6 @@
   },
   "sources": [
     {
-      "id": "s1",
-      "label": "Trinity College Dublin — History",
-      "url": "https://www.tcd.ie/about/history/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s2",
       "label": "Trinity College Dublin — About Trinity",
       "url": "https://www.tcd.ie/about/",
@@ -363,23 +356,9 @@
       "retrievedAt": "2026-10-03"
     },
     {
-      "id": "s7",
-      "label": "Trinity — Business, Economics and Social Studies",
-      "url": "https://www.tcd.ie/courses/undergraduate/courses/business-economics-and-social-studies/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
       "id": "s8",
       "label": "Trinity — Computer Science",
       "url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science/",
-      "type": "university",
-      "retrievedAt": "2026-10-03"
-    },
-    {
-      "id": "s9",
-      "label": "Trinity — 2025 CAO end-of-season minimum entry levels",
-      "url": "https://www.tcd.ie/study/assets/pdfs/2025-cao-minimum-entry-points-final.pdf",
       "type": "university",
       "retrievedAt": "2026-10-03"
     },

@@ -1654,21 +1654,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s2",
-        "confidence": "requires-verification",
-        "asOf": "2026-27",
-        "notes": "Not admitted through TNEA engineering counselling; check TCE's admission notice for this programme."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -1707,21 +1693,7 @@
         "confidence": "requires-verification",
         "asOf": null
       },
-      "admission": {
-        "basis": [],
-        "eligibility": null,
-        "minimumPercent": null,
-        "requiredSubjects": [],
-        "entranceTests": [],
-        "reservation": null,
-        "international": null,
-        "applicationFee": null,
-        "process": [],
-        "sourceId": "s2",
-        "confidence": "requires-verification",
-        "asOf": "2026-27",
-        "notes": "Not admitted through TNEA engineering counselling; check TCE's admission notice for this programme."
-      },
+      "admission": null,
       "deadlines": [],
       "feeBreakdown": [],
       "electives": [],
@@ -1766,13 +1738,6 @@
       "id": "s1",
       "label": "TCE — About the college",
       "url": "https://www.tce.edu/about/about-the-college",
-      "type": "university",
-      "retrievedAt": "2026-10-05"
-    },
-    {
-      "id": "s2",
-      "label": "TCE — Undergraduate programmes",
-      "url": "https://www.tce.edu/academics/study-at-tce/undergraduate-programmes",
       "type": "university",
       "retrievedAt": "2026-10-05"
     },
