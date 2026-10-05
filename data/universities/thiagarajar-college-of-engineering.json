@@ -1,0 +1,1820 @@
+{
+  "slug": "thiagarajar-college-of-engineering",
+  "name": "Thiagarajar College of Engineering (TCE)",
+  "officialName": "Thiagarajar College of Engineering (Autonomous)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Madurai",
+  "campuses": [],
+  "control": "government-aided",
+  "category": "technical",
+  "founded": 1957,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.tce.edu/",
+  "admissionsUrl": "https://www.tce.edu/academics/study-at-tce/undergraduate-programmes",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Thiagarajar College of Engineering, Madurai, was established in 1957 by Karumuttu Thiagarajan Chettiar. It is a government-aided college affiliated to Anna University, autonomous since 1987, accredited A++ (CGPA 3.56, cycle 2) by NAAC, with NBA-accredited programmes since 1998. Besides B.E./B.Tech it offers B.Arch and B.Des.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": "TNEA counselling for government-quota seats",
+    "sourceId": "s3",
+    "confidence": "official",
+    "asOf": "2026-27"
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "b-e-civil-engineering",
+      "name": "B.E. Civil Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Civil Engineering at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechanical-engineering",
+      "name": "B.E. Mechanical Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Mechanical Engineering at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electrical-and-electronics-engineering",
+      "name": "B.E. Electrical and Electronics Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Electrical and Electronics Engineering at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-electronics-and-communication-engineering",
+      "name": "B.E. Electronics and Communication Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Electronics and Communication Engineering at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering",
+      "name": "B.E. Computer Science and Engineering",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Computer Science and Engineering at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-mechatronics",
+      "name": "B.E. Mechatronics",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Mechatronics at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-e-computer-science-and-engineering-artificial-intelligence-and-machine-learning",
+      "name": "B.E. Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "degree": "B.E.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.E. Computer Science and Engineering (Artificial Intelligence and Machine Learning) at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering",
+        "data-science"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-information-technology",
+      "name": "B.Tech. Information Technology",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.Tech. Information Technology at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "b-tech-computer-science-and-business-systems",
+      "name": "B.Tech. Computer Science and Business Systems",
+      "degree": "B.Tech.",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tce.edu/",
+      "summary": "B.Tech. Computer Science and Business Systems at Thiagarajar College of Engineering (TCE); four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "45% average in Mathematics, Physics and Chemistry (40% for reserved categories)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business",
+        "engineering"
+      ],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [
+          "counselling",
+          "merit"
+        ],
+        "eligibility": "Pass in HSC (+2) or equivalent with Mathematics, Physics and Chemistry, with an average of at least 45% in the three subjects (40% for BC, BCM, MBC/DNC, SC, SCA and ST).",
+        "minimumPercent": "45% average in Maths, Physics, Chemistry (40% reserved categories)",
+        "requiredSubjects": [
+          "Mathematics",
+          "Physics",
+          "Chemistry"
+        ],
+        "entranceTests": [
+          "TNEA counselling (Class XII marks; no entrance test)"
+        ],
+        "reservation": "Tamil Nadu communal reservation (OC, BC, BCM, MBC/DNC, SC, SCA, ST) plus 7.5% for government-school students and other special reservations.",
+        "international": null,
+        "applicationFee": "₹500 (₹250 SC/SCA/ST) for TNEA",
+        "process": [
+          {
+            "step": "Register on TNEA",
+            "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST)."
+          },
+          {
+            "step": "Rank list",
+            "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200."
+          },
+          {
+            "step": "Special-reservation counselling",
+            "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026."
+          },
+          {
+            "step": "General counselling",
+            "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026."
+          },
+          {
+            "step": "Report to the college",
+            "detail": "Confirm the allotted seat and pay fees."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "barch",
+      "name": "B.Arch. Architecture",
+      "degree": "B.Arch.",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.tce.edu/academics/study-at-tce/undergraduate-programmes",
+      "summary": "Five-year B.Arch at TCE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s2",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Not admitted through TNEA engineering counselling; check TCE's admission notice for this programme."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bdes-interior-design",
+      "name": "B.Des. Interior Design",
+      "degree": "B.Des.",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": null,
+      "url": "https://www.tce.edu/academics/study-at-tce/undergraduate-programmes",
+      "summary": "B.Des. in Interior Design at TCE.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": null,
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [],
+        "sourceId": "s2",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Not admitted through TNEA engineering counselling; check TCE's admission notice for this programme."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "admissionProcess": [
+      {
+        "step": "Register on TNEA",
+        "detail": "Online registration ran 3 May – 6 July 2026; fee ₹500 (₹250 SC/SCA/ST).",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Rank list",
+        "detail": "Merit rank on Mathematics (100) + Physics (50) + Chemistry (50) = 200.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Special-reservation counselling",
+        "detail": "Government-school 7.5% and other special reservations, 13–18 July 2026.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "General counselling",
+        "detail": "Online choice filling and allotment rounds, 20 July – 30 August 2026.",
+        "sourceId": "s3"
+      },
+      {
+        "step": "Report to the college",
+        "detail": "Confirm the allotted seat and pay fees.",
+        "sourceId": "s3"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "TCE — About the college",
+      "url": "https://www.tce.edu/about/about-the-college",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s2",
+      "label": "TCE — Undergraduate programmes",
+      "url": "https://www.tce.edu/academics/study-at-tce/undergraduate-programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s3",
+      "label": "TNEA 2026 — Information brochure",
+      "url": "https://static.tneaonline.org/docs/2_Information_Brochure_2026.pdf",
+      "type": "government",
+      "retrievedAt": "2026-10-05"
+    }
+  ],
+  "lastVerified": "2026-10-05",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": null,
+  "gender": "co-ed",
+  "affiliation": {
+    "value": "Anna University (autonomous college)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": "Cycle 2, CGPA 3.56",
+      "grade": "A++",
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    },
+    {
+      "body": "NBA",
+      "label": "Programmes accredited since 1998",
+      "grade": null,
+      "cycle": null,
+      "validUntil": null,
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}

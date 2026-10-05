@@ -1,0 +1,1173 @@
+{
+  "slug": "psg-college-of-arts-and-science",
+  "name": "PSG College of Arts & Science",
+  "officialName": "PSG College of Arts & Science (Autonomous)",
+  "country": "India",
+  "countryCode": "IN",
+  "region": "Tamil Nadu",
+  "city": "Coimbatore",
+  "campuses": [],
+  "control": "government-aided",
+  "category": "arts-and-science",
+  "founded": 1947,
+  "setting": null,
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.psgcas.ac.in/",
+  "admissionsUrl": "https://applications.psgcas.ac.in/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "PSG College of Arts & Science, on Avinashi Road in Coimbatore, was established in 1947 and was among nine colleges given autonomy by the UGC in its first phase in 1978. NAAC accredited it A++ in its fourth cycle. It offers 47 undergraduate programmes in government-aided and self-financing streams; Edugate lists the commerce and management programmes it has verified so far.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "INR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bcom-accounting-finance",
+      "name": "B.Com. Accounting & Finance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Accounting & Finance) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Accounting & Finance",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-banking-insurance",
+      "name": "B.Com. Banking & Insurance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Banking & Insurance) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Banking & Insurance",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-business-analytics",
+      "name": "B.Com. Business Analytics",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Business Analytics) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": "Business Analytics",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-business-process-services",
+      "name": "B.Com. Business Process Services",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Business Process Services) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Business Process Services",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-computer-applications",
+      "name": "B.Com. Computer Applications",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Computer Applications) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": "Computer Applications",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-corporate-secretaryship",
+      "name": "B.Com. Corporate Secretaryship",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Corporate Secretaryship) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Corporate Secretaryship",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-e-commerce",
+      "name": "B.Com. E-Commerce",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (E-Commerce) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "computer-science"
+      ],
+      "specialization": "E-Commerce",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-financial-system",
+      "name": "B.Com. Financial System",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Financial System) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Financial System",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-foreign-trade",
+      "name": "B.Com. Foreign Trade",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Foreign Trade) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Foreign Trade",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-professional-accounting",
+      "name": "B.Com. Professional Accounting",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Professional Accounting) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Professional Accounting",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-retail-marketing",
+      "name": "B.Com. Retail Marketing",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Retail Marketing) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Retail Marketing",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-banking-finance",
+      "name": "B.Com. Banking & Finance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Banking & Finance) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Banking & Finance",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-banking-stock-insurance",
+      "name": "B.Com. Banking, Stock & Insurance",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Banking, Stock & Insurance) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Banking, Stock & Insurance",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bcom-cost-management-accounting",
+      "name": "B.Com. Cost & Management Accounting",
+      "degree": "B.Com.",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.Com. (Cost & Management Accounting) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Cost & Management Accounting",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-information-systems",
+      "name": "B.B.A. Information Systems",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.B.A. (Information Systems) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Information Systems",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-logistics",
+      "name": "B.B.A. Logistics",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.B.A. (Logistics) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Logistics",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    },
+    {
+      "slug": "bba-retail-management",
+      "name": "B.B.A. Retail Management",
+      "degree": "B.B.A.",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.psgcas.ac.in/programmes/",
+      "summary": "Three-year B.B.A. (Retail Management) at PSG CAS.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [],
+      "specialization": "Retail Management",
+      "department": null,
+      "campus": null,
+      "stream": null,
+      "mode": null,
+      "intake": {
+        "value": null,
+        "sourceId": null,
+        "confidence": "requires-verification",
+        "asOf": null
+      },
+      "admission": {
+        "basis": [],
+        "eligibility": null,
+        "minimumPercent": null,
+        "requiredSubjects": [],
+        "entranceTests": [],
+        "reservation": null,
+        "international": null,
+        "applicationFee": null,
+        "process": [
+          {
+            "step": "Apply online",
+            "detail": "Applications from 25 March 2026; aided and self-financing choices on the same form, by stream (B.A., B.Sc., B.Com., B.B.A.)."
+          }
+        ],
+        "sourceId": "s3",
+        "confidence": "requires-verification",
+        "asOf": "2026-27",
+        "notes": "Stream (aided or self-financing) and selection criteria by programme are in the college's 2026–27 eligibility list."
+      },
+      "deadlines": [],
+      "feeBreakdown": [],
+      "electives": [],
+      "opportunities": [],
+      "careers": null,
+      "outcomes": [],
+      "recruiters": null,
+      "scholarships": []
+    }
+  ],
+  "details": {
+    "feeBreakdown": [
+      {
+        "item": "Government-aided programmes (approximate)",
+        "audience": "domestic",
+        "amount": {
+          "min": 10000,
+          "max": 10000,
+          "period": "year"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "The college describes aided programme fees as about ₹10,000 a year."
+      },
+      {
+        "item": "Self-financing programmes (approximate)",
+        "audience": "domestic",
+        "amount": {
+          "min": 50000,
+          "max": 60000,
+          "period": "semester"
+        },
+        "currency": "INR",
+        "sourceId": "s3",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Described as about ₹50,000–60,000 a semester."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "PSG CAS — Self-study report",
+      "url": "https://www.psgcas.ac.in/documents/iqac/SSR/SSR_PSGCAS.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s3",
+      "label": "PSG CAS — Admissions FAQs 2026–27",
+      "url": "https://www.psgcas.ac.in/admissions/files/FAQs_2026-27.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    },
+    {
+      "id": "s4",
+      "label": "PSG CAS — Home",
+      "url": "https://www.psgcas.ac.in/homepage/",
+      "type": "university",
+      "retrievedAt": "2026-10-05"
+    }
+  ],
+  "lastVerified": "2026-10-05",
+  "institutionType": "autonomous-college",
+  "hub": null,
+  "locality": "Avinashi Road",
+  "gender": null,
+  "affiliation": {
+    "value": "Autonomous college (UGC autonomy since 1978)",
+    "sourceId": "s1",
+    "confidence": "official",
+    "asOf": null
+  },
+  "accreditation": [
+    {
+      "body": "NAAC",
+      "label": null,
+      "grade": "A++",
+      "cycle": "Cycle 4",
+      "validUntil": null,
+      "sourceId": "s4",
+      "confidence": "official",
+      "asOf": null
+    }
+  ]
+}
