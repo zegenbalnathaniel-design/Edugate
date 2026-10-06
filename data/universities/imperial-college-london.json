@@ -56,6 +56,13 @@
       "edition": 2027,
       "rank": "=2",
       "sourceId": "s12"
+    },
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "29",
+      "sourceId": "s31"
     }
   ],
   "applicationPlatform": {
@@ -847,9 +854,16 @@
       "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s31",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
     }
   ],
-  "lastVerified": "2026-10-03",
+  "lastVerified": "2026-10-06",
   "details": {
     "housing": {
       "value": "First-years who make Imperial their firm choice are guaranteed a place in College halls if they apply by the deadline (17 July 2026 for 2026 entry). Rent includes bills, internet and basic contents insurance.",

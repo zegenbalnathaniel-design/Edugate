@@ -380,6 +380,11 @@ function UniversityCard({ c }: { c: UniCard }) {
           <h4 className="mt-1 text-[1.35rem] font-black leading-tight">{c.name}</h4>
           <p className="mt-0.5 text-[0.95rem] font-semibold opacity-75">{c.program.name}</p>
           <p className="mt-1.5 inline-block rounded-full bg-[var(--wr-ink)]/8 px-2.5 py-0.5 text-[0.72rem] font-extrabold uppercase tracking-wide">Your degree: {c.degree.label}</p>
+          {c.knownFor && (
+            <p className="mt-1 text-[0.8rem] font-semibold">
+              <span className="opacity-60">Known for:</span> {c.knownFor} <span className="opacity-50">· Edugate editors&apos; list</span>
+            </p>
+          )}
         </div>
         <div className="shrink-0 text-right">
           <p className="text-[2.2rem] font-black leading-none tabular-nums">{c.fit}%</p>

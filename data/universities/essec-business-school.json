@@ -1,0 +1,130 @@
+{
+  "slug": "essec-business-school",
+  "name": "ESSEC Business School",
+  "officialName": "ESSEC Business School",
+  "country": "France",
+  "countryCode": "FR",
+  "region": "Île-de-France",
+  "city": "Cergy",
+  "campuses": [],
+  "control": "private",
+  "category": "business-school",
+  "founded": 1907,
+  "setting": "suburban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.essec.edu/en/",
+  "admissionsUrl": "https://www.essec.edu/en/program/global-bba-international/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Business school with campuses in Cergy near Paris, Singapore and Rabat. Its four-year Global BBA admits students with international high-school diplomas.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "EUR",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null,
+      "notes": "Global BBA fees are charged as a four-year package; Singapore-campus starters pay SGD 22,600 a year including GST."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "global-bba",
+      "name": "ESSEC Global BBA",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.essec.edu/en/program/global-bba-international/",
+      "summary": "Four-year bachelor in business administration; fees are set as a package for the whole programme, whatever the campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance",
+        "economics"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "ESSEC Registrar — Tuition fees: Grande École & Global BBA",
+      "url": "https://ernest.essec.edu/en/support/solutions/articles/7000012624-tuition-fees-grande-%C3%A9cole-global-bba",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "ESSEC — Global BBA (international diploma)",
+      "url": "https://www.essec.edu/en/program/global-bba-international/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

@@ -52,6 +52,13 @@
       "edition": 2027,
       "rank": "6",
       "sourceId": "s2"
+    },
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "10",
+      "sourceId": "s21"
     }
   ],
   "applicationPlatform": {
@@ -643,7 +650,14 @@
       "url": "https://www.undergraduate.study.cam.ac.uk/courses/linguistics-ba-hons",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s21",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
     }
   ],
-  "lastVerified": "2026-10-03"
+  "lastVerified": "2026-10-06"
 }

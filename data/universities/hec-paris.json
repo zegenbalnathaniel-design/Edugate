@@ -1,0 +1,169 @@
+{
+  "slug": "hec-paris",
+  "name": "HEC Paris",
+  "officialName": "HEC Paris (École des hautes études commerciales de Paris)",
+  "country": "France",
+  "countryCode": "FR",
+  "region": "Île-de-France",
+  "city": "Jouy-en-Josas",
+  "campuses": [],
+  "control": "public-private",
+  "category": "business-school",
+  "founded": 1881,
+  "setting": "suburban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.hec.edu/en",
+  "admissionsUrl": "https://www.hec.edu/en/bachelor-programs/admissions",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Business school near Paris best known for its master's and MBA programmes. Its only bachelor's is a double degree with Bocconi: the Bachelor of Arts & Science in Data, Society and Organisations.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "EUR",
+    "internationalTuition": {
+      "value": {
+        "min": 23000,
+        "max": 23000,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Year 1 (2026/27); year 2 €25,750 and year 3 €26,750."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "HEC Foundation Excellence Scholarship",
+      "kind": [
+        "merit",
+        "need",
+        "international",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "For candidates with a non-French diploma; awarded as a reduction in tuition fees.",
+      "coverage": "Tuition fee reduction",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.hec.edu/en/hec-paris-scholarships",
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "basc-data-society-organisations",
+      "name": "Bachelor of Arts & Science in Data, Society and Organisations (with Bocconi)",
+      "degree": "BASc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.hec.edu/en/basc-data-society-organisations",
+      "summary": "Double-degree bachelor's with Bocconi University combining data, social science and organisations.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 23000,
+          "max": 23000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Year 1; rising to €25,750 and €26,750 in years 2 and 3."
+      },
+      "alsoFields": [
+        "economics",
+        "business"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "HEC Paris — Fees and financing: Bachelor Data, Society & Organizations",
+      "url": "https://www.hec.edu/en/bachelor-programs/fees-and-financing",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "HEC Paris — Scholarships",
+      "url": "https://www.hec.edu/en/hec-paris-scholarships",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "HEC Paris — Bachelor in Data, Society and Organisations",
+      "url": "https://www.hec.edu/en/basc-data-society-organisations",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

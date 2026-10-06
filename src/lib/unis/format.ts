@@ -3,7 +3,7 @@ import { FX_AS_OF, toUsd } from "./fx";
 
 type Range = { min: number; max: number; period: string };
 
-const SYMBOL: Record<string, string> = { USD: "US$", GBP: "£", EUR: "€", INR: "₹", CAD: "C$", AUD: "A$", SGD: "S$", HKD: "HK$", CHF: "CHF ", AED: "AED ", JPY: "¥", KRW: "₩", QAR: "QAR " };
+const SYMBOL: Record<string, string> = { USD: "US$", GBP: "£", EUR: "€", INR: "₹", CAD: "C$", AUD: "A$", SGD: "S$", HKD: "HK$", CHF: "CHF ", AED: "AED ", JPY: "¥", KRW: "₩", QAR: "QAR ", CNY: "CN¥" };
 
 export function money(n: number, currency: string) {
   return `${SYMBOL[currency] ?? `${currency} `}${Math.round(n).toLocaleString("en-US")}`;

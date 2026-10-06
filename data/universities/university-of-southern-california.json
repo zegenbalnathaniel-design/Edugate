@@ -1,0 +1,285 @@
+{
+  "slug": "university-of-southern-california",
+  "name": "University of Southern California",
+  "officialName": "University of Southern California",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "California",
+  "city": "Los Angeles",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1880,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.usc.edu/",
+  "admissionsUrl": "https://admission.usc.edu/",
+  "financialAidUrl": "https://financialaid.usc.edu/",
+  "internationalUrl": null,
+  "summary": "Private research university in Los Angeles. The Marshall School of Business offers a BS in Business Administration with a Finance emphasis; Dornsife offers economics BAs.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 75384,
+        "max": 75384,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Full-time undergraduate tuition; fees US$1,952 extra."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 75384,
+        "max": 75384,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 21952,
+        "max": 21952,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Average on-campus housing US$13,510 plus meal plan US$8,442."
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "business-administration-bs",
+      "name": "Business Administration (BS)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": "Marshall School of Business",
+      "durationYears": 4,
+      "url": "https://www.marshall.usc.edu/programs/undergraduate-programs/undergraduate-degrees/business-administration-program",
+      "summary": "Marshall core in economics, accounting, corporate finance, marketing, analytics and strategy, with emphases including Finance.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ],
+      "specialization": "Finance emphasis available"
+    },
+    {
+      "slug": "economics-ba",
+      "name": "Economics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Dornsife College of Letters, Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=12&poid=12688",
+      "summary": "BA in Economics at USC Dornsife.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    }
+  ],
+  "details": {
+    "admissionStats": [
+      {
+        "year": "2026",
+        "scope": "First-year applicants, Class of 2030",
+        "applicants": 79331,
+        "admitted": 10006,
+        "enrolled": null,
+        "acceptanceRate": "12.6%",
+        "sourceId": "s2",
+        "confidence": "official"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "USC Financial Aid — Cost of attendance",
+      "url": "https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "USC Admission — First-year student profile",
+      "url": "https://admission.usc.edu/wp-content/uploads/first-year-student-profile.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "USC Admission — What we look for",
+      "url": "https://admission.usc.edu/prospective-students/how-to-apply/what-we-look-for/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "USC Marshall — BS Business Administration",
+      "url": "https://www.marshall.usc.edu/programs/undergraduate-programs/undergraduate-degrees/business-administration-program",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "USC Catalogue — Economics (BA)",
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=12&poid=12688",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

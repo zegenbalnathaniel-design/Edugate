@@ -1,0 +1,275 @@
+{
+  "slug": "university-of-washington",
+  "name": "University of Washington",
+  "officialName": "University of Washington",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Washington",
+  "city": "Seattle",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1861,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.washington.edu/",
+  "admissionsUrl": "https://admit.washington.edu/",
+  "financialAidUrl": "https://www.washington.edu/financialaid/",
+  "internationalUrl": null,
+  "summary": "Public research university in Seattle. Economics is offered as a BA or a more quantitative BS, and the Foster School of Business offers a Finance major.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 44580,
+        "max": 44580,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Nonresident tuition and fees for the academic year; UW does not provide financial aid or scholarships to international undergraduates."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba-bs",
+      "name": "Economics (BA or BS)",
+      "degree": "BA / BS",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://econ.washington.edu/choosing-your-economics-degree",
+      "summary": "BA for an analytical route into policy, law and business; BS with more maths and statistics for graduate economics, computational finance and data science.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "business-administration-finance",
+      "name": "Business Administration (Finance)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": "Foster School of Business",
+      "durationYears": 4,
+      "url": "https://foster.uw.edu/academics/degree-programs/undergraduate-programs/curriculum/options/",
+      "summary": "Foster major covering corporate finance, investments, financial markets and international finance.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business"
+      ]
+    }
+  ],
+  "details": {
+    "admissionStats": [
+      {
+        "year": "2023–2025",
+        "scope": "First-year applicants from outside Washington (three-year average)",
+        "applicants": null,
+        "admitted": null,
+        "enrolled": null,
+        "acceptanceRate": "39%",
+        "sourceId": "s2",
+        "confidence": "official"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "UW International Student Services — Estimated annual expenses 2026-2027",
+      "url": "https://iss.washington.edu/annual-expenses/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "UW Admissions — First-year students by the numbers",
+      "url": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "UW Admissions — Apply",
+      "url": "https://admit.washington.edu/apply/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "UW Economics — Choosing your economics degree",
+      "url": "https://econ.washington.edu/choosing-your-economics-degree",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "UW Foster — Majors",
+      "url": "https://foster.uw.edu/academics/degree-programs/undergraduate-programs/curriculum/options/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

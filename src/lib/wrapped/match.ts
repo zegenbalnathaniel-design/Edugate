@@ -7,6 +7,7 @@ import { admissionBand } from "../unis/match";
 import type { Field, Program, University } from "../unis/schema";
 import { selectivity } from "../unis/selectivity";
 import { normalizeTests, programSubjects, SUBJECT_BY_KEY } from "../unis/taxonomy";
+import EDITORS_LIST from "../../../data/lists/economics-finance.json";
 import type { Answers } from "./model";
 import {
   BUDGET_MAX_INR,
@@ -39,7 +40,7 @@ import {
  * cut-offs, closing ranks) via admissionBand — never from reputation.
  */
 
-export const WEIGHTS = { course: 20, career: 15, academic: 15, financial: 15, environment: 10, admissions: 10, location: 5, flexibility: 5, roi: 5 } as const;
+export const WEIGHTS = { course: 20, career: 15, academic: 15, financial: 15, environment: 10, admissions: 10, location: 5, flexibility: 5, roi: 5, subject: 8 } as const;
 export type Dim = keyof typeof WEIGHTS;
 export const DIM_LABEL: Record<Dim, string> = {
   course: "Course fit",
@@ -51,7 +52,28 @@ export const DIM_LABEL: Record<Dim, string> = {
   location: "Location fit",
   flexibility: "Flexibility",
   roi: "Career ROI",
+  subject: "Subject strength",
 };
+
+/** Degrees where the QS Economics & Econometrics subject ranking says something about the department. */
+const ECON_FAMILY = new Set(["econ-finance", "economics", "finance"]);
+const EDITORS = new Map(EDITORS_LIST.entries.map((e) => [e.slug, e]));
+
+/** QS 2026 Economics & Econometrics rank as a number ("=12" → 12), when the record carries it. */
+function econRank(u: University): number | null {
+  const r = u.rankings.find((x) => x.org === "QS" && x.category === "Subject: Economics & Econometrics");
+  const n = r ? Number(r.rank.replace(/[^\d]/g, "")) : NaN;
+  return Number.isFinite(n) && n > 0 ? n : null;
+}
+
+/** What a university's published scholarships promise an Indian (international) applicant. */
+function aidFor(u: University) {
+  const intl = u.scholarships.filter((s) => s.kind.includes("international"));
+  const fullNeed = intl.find((s) => s.kind.includes("need") && s.kind.includes("full") && !/limited|small group|20.25|extremely/i.test(s.eligibility));
+  const limitedNeed = intl.find((s) => s.kind.includes("need") && /need-aware|limited|small group|20.25|extremely/i.test(s.eligibility));
+  const merit = intl.find((s) => s.kind.includes("merit"));
+  return { fullNeed, limitedNeed, merit, any: u.scholarships.length > 0 };
+}
 
 export type Bucket = "dream" | "reach" | "target" | "safety" | "open";
 export const BUCKET: Record<Bucket | "value", { emoji: string; label: string; line: string }> = {
@@ -149,6 +171,8 @@ export type UniCard = {
   program: { slug: string; name: string };
   /** The degree (from the student's best-fit list) this programme is. */
   degree: { key: string; label: string };
+  /** From the Edugate editors' economics & finance list, for economics/finance degrees. */
+  knownFor: string | null;
   fit: number;
   knownShare: number;
   dims: { key: Dim; label: string; pct: number }[];
@@ -201,6 +225,9 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
     .slice(0, COURSE_COUNT);
   const topScore = ranked[0]?.s || 1;
   const marks = f.marksPct;
+  // 0–1: how much the student cares about prestige, and about scholarships (drives subject strength and aid-dependent options).
+  const prestige = p.motivation.prestige / 100;
+  const wantsAid = Math.max(0, Math.min(1, ((f.scholarshipImportance ?? 5) - 1) / 9));
 
   for (const u of unis) {
     const dest = destinationOf(u.countryCode);
@@ -286,6 +313,9 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
     const flexNeed = p.trait.flexibility / 100;
     const flexibility = clamp(Math.min(100, breadthScore) * flexNeed + 82 * (1 - flexNeed));
     const living = annualLivingInr(u);
+    const aid = aidFor(u);
+    const rankEcon = econRank(u);
+    const editors = EDITORS.get(u.slug);
 
     let anyCourse = false;
     let anyEligible = false;
@@ -320,15 +350,20 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
       // ---- hard filter: realistic cost
       const tuition = programCostInr(u, prog);
       const cost = tuition != null ? tuition + (living ?? 0) : null;
-      const hasAid = u.scholarships.length > 0 || prog.scholarships.length > 0;
+      const hasAid = aid.any || prog.scholarships.length > 0;
       let financial: number | null = null;
+      let needsAid = false;
       if (cost != null && max != null) {
         if (cost <= max) financial = 100 - Math.round((cost / Math.max(max, 1)) * 10);
         else if (cost <= max * 1.15) financial = 80;
         else if (cost <= max * stretch) financial = 60 - Math.round(((cost / max - 1.15) / Math.max(stretch - 1.15, 0.1)) * 25);
-        else if (hasAid && cost <= max * stretch * 1.6) financial = 15;
+        // Meets 100% of demonstrated need for international students: the sticker price isn't what a family with need pays.
+        else if (aid.fullNeed) (financial = 30 + Math.round(wantsAid * 15)), (needsAid = true);
+        else if (hasAid && cost <= max * stretch * 1.6) (financial = 15), (needsAid = true);
         else continue;
-        if (hasAid && financial < 100) financial = Math.min(100, financial + 5);
+        if (aid.fullNeed && !needsAid) financial = Math.min(100, financial + 10);
+        else if (aid.merit) financial = Math.min(100, financial + 6);
+        else if (hasAid && financial < 100) financial = Math.min(100, financial + 3);
       }
 
       // ---- admissions & academics, evidence only
@@ -355,7 +390,12 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
       const salary = out1 ? toInr((out1.medianSalary ?? out1.averageSalary)!, out1.currency) : null;
       const roi = salary != null && cost != null && cost > 0 ? clamp(salary / cost >= 3 ? 100 : salary / cost >= 2 ? 85 : salary / cost >= 1 ? 65 : 40) : null;
 
-      const dims: Record<Dim, number | null> = { course: clamp(bestCourse), career, academic, financial, environment, admissions, location, flexibility, roi };
+      // ---- subject strength: the department's QS Economics standing, for economics and finance degrees only;
+      // a student who values prestige feels it more, one who doesn't barely at all.
+      const econDegree = ECON_FAMILY.has(bestCat.key);
+      const subject = econDegree && rankEcon != null ? clamp(70 + (100 - Math.min(rankEcon, 50) * 0.6 - 70) * (0.4 + prestige * 0.8)) : null;
+
+      const dims: Record<Dim, number | null> = { course: clamp(bestCourse), career, academic, financial, environment, admissions, location, flexibility, roi, subject };
       let wsum = 0;
       let acc = 0;
       for (const k of Object.keys(WEIGHTS) as Dim[]) {
@@ -367,17 +407,24 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
       const fit = clamp(acc / wsum);
 
       // ---- plain-language reasons, from the data that drove the score
-      const why: string[] = [`It's a ${bestCat.label} degree — one of your best-fit fields.`];
+      const why: string[] = [`It's ${/^[AEIOU]/.test(bestCat.label) ? "an" : "a"} ${bestCat.label} degree — one of your best-fit fields.`];
+      // When aid is what makes it possible, say so first.
+      if (needsAid && aid.fullNeed) why.push(`${aid.fullNeed.name}: ${aid.fullNeed.coverage ?? "meets full demonstrated need"} — open to international students.`);
+      if (econDegree && rankEcon != null) why.push(`Ranked #${rankEcon} in the world for Economics (QS 2026 subject ranking).`);
       if (financial != null && financial >= 85) why.push(`Within your comfortable budget${living == null ? " on tuition" : ""}.`);
       if (environment != null && environment >= 85) why.push("The campus matches what you said you want.");
       if (bucket === "safety" || bucket === "target") why.push(ab.reasons[0] ?? "");
-      if (hasAid) why.push("Scholarships are published for this institution.");
+      if (aid.fullNeed && !needsAid) why.push(`${aid.fullNeed.name}: ${aid.fullNeed.coverage ?? "meets full demonstrated need"} — open to international students.`);
+      else if (aid.merit) why.push(`${aid.merit.name}${aid.merit.coverage ? ` (${aid.merit.coverage})` : ""} is open to international students.`);
+      else if (hasAid) why.push("Scholarships are published for this institution.");
       if (roi != null && roi >= 85) why.push("Published graduate outcomes look strong against the cost.");
       const watch: string[] = [];
       if (usualGap) watch.push(`Courses like this usually need ${usualGap} in your final school years — check the eligibility before applying.`);
       if (bucket === "dream") watch.push(`Extremely competitive — ${sel?.reason ?? "published selectivity"}. Admission is never guaranteed.`);
       if (bucket === "reach") watch.push(ab.reasons[0] ?? "A reach on published data.");
-      if (financial != null && financial < 60) watch.push(financial <= 15 ? "Beyond your budget unless a substantial scholarship comes through." : "Stretches your budget — you'd need a loan or aid.");
+      if (needsAid && aid.fullNeed) watch.push("Affordable for you only through need-based aid — apply for it with your application.");
+      else if (financial != null && financial < 60) watch.push(financial <= 15 ? "Beyond your budget unless a substantial scholarship comes through." : "Stretches your budget — you'd need a loan or aid.");
+      if (aid.limitedNeed && (needsAid || (financial ?? 100) < 60)) watch.push(`Aid for international students is limited or need-aware here (${aid.limitedNeed.name}).`);
       if (cost == null) watch.push("Fees aren't published in a form Edugate could verify — check before you apply.");
       if (cost != null && living == null && !india) watch.push("Living, travel and visa costs come on top of tuition.");
       const needsExams = normalizeTests([...(prog.admission?.entranceTests ?? []), ...prog.tests.filter((t) => t.policy === "required").map((t) => t.test)]);
@@ -392,6 +439,7 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
         flag: countryFlag(u.countryCode) ?? dest?.flag ?? "🌐",
         program: { slug: prog.slug, name: prog.name },
         degree: { key: bestCat.key, label: bestCat.label },
+        knownFor: econDegree && editors ? editors.knownFor : null,
         degrees,
         fit,
         knownShare: Math.round(wsum),

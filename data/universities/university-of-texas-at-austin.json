@@ -1,0 +1,184 @@
+{
+  "slug": "university-of-texas-at-austin",
+  "name": "UT Austin",
+  "officialName": "The University of Texas at Austin",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Texas",
+  "city": "Austin",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1883,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.utexas.edu/",
+  "admissionsUrl": "https://admissions.utexas.edu/",
+  "financialAidUrl": null,
+  "internationalUrl": "https://admissions.utexas.edu/apply/international-students/",
+  "summary": "Flagship public research university of Texas. The McCombs School of Business offers a BBA with a Finance major; by state law about 90% of first-year places go to Texas residents.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bba-finance",
+      "name": "BBA in Finance (McCombs)",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": "McCombs School of Business",
+      "durationYears": 4,
+      "url": "https://www.mccombs.utexas.edu/undergraduate-programs/bba/admissions-and-cost/",
+      "summary": "McCombs Bachelor of Business Administration with a Finance major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s1",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 23249,
+          "max": 23249,
+          "period": "semester"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-resident (including international) tuition per semester; room and board about US$7,482 a semester."
+      },
+      "alsoFields": [
+        "business",
+        "economics"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "UT Austin Admissions — International students",
+      "url": "https://admissions.utexas.edu/apply/international-students/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "McCombs — BBA admissions and cost",
+      "url": "https://www.mccombs.utexas.edu/undergraduate-programs/bba/admissions-and-cost/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

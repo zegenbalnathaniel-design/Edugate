@@ -135,7 +135,7 @@ export const Ranking = z.object({
   sourceId: z.string().nullable(),
 });
 
-export const Currency = z.enum(["INR", "USD", "GBP", "EUR", "CAD", "AUD", "SGD", "HKD", "CHF", "AED", "JPY", "KRW", "QAR"]);
+export const Currency = z.enum(["INR", "USD", "GBP", "EUR", "CAD", "AUD", "SGD", "HKD", "CHF", "AED", "JPY", "KRW", "QAR", "CNY"]);
 
 /*
  * Detail sections (the depth students expect from portals like Shiksha),

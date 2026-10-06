@@ -1,0 +1,323 @@
+{
+  "slug": "yale-university",
+  "name": "Yale University",
+  "officialName": "Yale University",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Connecticut",
+  "city": "New Haven",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1701,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.yale.edu/",
+  "admissionsUrl": "https://admissions.yale.edu/",
+  "financialAidUrl": "https://finaid.yale.edu/",
+  "internationalUrl": "https://admissions.yale.edu/international",
+  "summary": "Private research university in New Haven, Connecticut. Yale College undergraduates live in residential colleges and choose from majors including Economics and Economics & Mathematics.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "9",
+      "sourceId": "s7"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 72500,
+        "max": 72500,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Tuition only."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 72500,
+        "max": 72500,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 21600,
+        "max": 21600,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Housing US$12,080 plus food US$9,520."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Yale need-based financial aid",
+      "kind": [
+        "need",
+        "international",
+        "full",
+        "partial"
+      ],
+      "eligibility": "Admission is need-blind for every applicant, anywhere in the world; international students receive the same need-based aid as domestic students, including housing, meals and two trips a year.",
+      "coverage": "100% of demonstrated need",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://admissions.yale.edu/financial-aid-international-applicants",
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba",
+      "name": "Economics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://economics.yale.edu/undergraduate/major-requirements",
+      "summary": "Twelve credits: eleven economics courses and one mathematics course.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "economics-and-mathematics-ba",
+      "name": "Economics and Mathematics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/economics-mathematics/",
+      "summary": "Joint major in economics and mathematics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "mathematics"
+      ]
+    }
+  ],
+  "details": {
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, Class of 2029",
+        "applicants": 50228,
+        "admitted": 2308,
+        "enrolled": null,
+        "acceptanceRate": "4.6%",
+        "sourceId": "s3",
+        "confidence": "official"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Yale Financial Aid — Cost of attendance",
+      "url": "https://finaid.yale.edu/coa",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "Yale Admissions — Financial aid for international applicants",
+      "url": "https://admissions.yale.edu/financial-aid-international-applicants",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "Yale News — Yale admits 2,308 applicants to Class of 2029",
+      "url": "https://news.yale.edu/2025/03/27/yale-admits-2308-applicants-class-2029",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "Yale Admissions — International students",
+      "url": "https://admissions.yale.edu/international",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "Yale Economics — Major requirements",
+      "url": "https://economics.yale.edu/undergraduate/major-requirements",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s6",
+      "label": "Yale College Programs of Study — Economics and Mathematics",
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/economics-mathematics/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s7",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

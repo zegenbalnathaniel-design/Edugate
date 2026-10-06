@@ -1,0 +1,291 @@
+{
+  "slug": "university-of-california-los-angeles",
+  "name": "UCLA",
+  "officialName": "University of California, Los Angeles",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "California",
+  "city": "Los Angeles",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1919,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.ucla.edu/",
+  "admissionsUrl": "https://admission.ucla.edu/",
+  "financialAidUrl": "https://admission.ucla.edu/tuition-aid",
+  "internationalUrl": "https://admission.ucla.edu/sites/default/files/documents/UCLA-International-Admission-Guide-2025.pdf",
+  "summary": "Public research university in Los Angeles and the most-applied-to university in the US. Economics and Business Economics are offered as BA majors.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "=14",
+      "sourceId": "s6"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 55700,
+        "max": 55700,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "University fees US$16,430 plus Nonresident Supplemental Tuition US$39,270, which international students pay. Estimated nonresident cost of attendance is US$84,770."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba",
+      "name": "Economics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://economics.ucla.edu/undergraduate/current-students/majors-and-minors/economics",
+      "summary": "How people, markets and institutions shape the world — trade, poverty, taxes, crime and education. Students declare the major after completing pre-major courses.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "business-economics-ba",
+      "name": "Business Economics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://economics.ucla.edu/undergraduate/current-students/majors-and-minors/business-economics",
+      "summary": "Economics major with a business and accounting emphasis.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "business",
+        "finance"
+      ]
+    }
+  ],
+  "details": {
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, Fall 2025",
+        "applicants": 145085,
+        "admitted": 13659,
+        "enrolled": null,
+        "acceptanceRate": "9.4%",
+        "sourceId": "s2",
+        "confidence": "official"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "UCLA Admission — Tuition and fees",
+      "url": "https://admission.ucla.edu/tuition-aid/tuition-fees",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "UCLA Admission — First-Year Profile Fall 2025",
+      "url": "https://admission.ucla.edu/apply/first-year/first-year-profile/2025",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "UCLA Admission — International applicants guide",
+      "url": "https://admission.ucla.edu/sites/default/files/documents/UCLA-International-Admission-Guide-2025.pdf",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "UCLA Economics — Economics major",
+      "url": "https://economics.ucla.edu/undergraduate/current-students/majors-and-minors/economics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "UCLA Economics — Business Economics major",
+      "url": "https://economics.ucla.edu/undergraduate/current-students/majors-and-minors/business-economics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s6",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

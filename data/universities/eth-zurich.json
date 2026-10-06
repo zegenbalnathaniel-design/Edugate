@@ -58,6 +58,13 @@
       "edition": 2027,
       "rank": "8",
       "sourceId": "s2"
+    },
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "23",
+      "sourceId": "s15"
     }
   ],
   "applicationPlatform": {
@@ -433,9 +440,16 @@
       "url": "https://ethz.ch/en/campus/getting-to-know/living-and-family.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s15",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
     }
   ],
-  "lastVerified": "2026-10-03",
+  "lastVerified": "2026-10-06",
   "details": {
     "faculty": {
       "value": 543,

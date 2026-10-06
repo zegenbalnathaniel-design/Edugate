@@ -1,0 +1,198 @@
+{
+  "slug": "shanghai-jiao-tong-university",
+  "name": "Shanghai Jiao Tong University",
+  "officialName": "Shanghai Jiao Tong University",
+  "country": "China",
+  "countryCode": "CN",
+  "region": "Shanghai",
+  "city": "Shanghai",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1896,
+  "setting": "urban",
+  "languages": [
+    "Chinese",
+    "English"
+  ],
+  "website": "https://en.sjtu.edu.cn/",
+  "admissionsUrl": "https://gc.sjtu.edu.cn/admission/international-undergraduate-admission/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Public research university in Shanghai. Its English-taught undergraduate route for international students is the Engineering Cluster Program; Antai College of Economics and Management teaches economics and finance.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "46",
+      "sourceId": "s4"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "CNY",
+    "internationalTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "SJTU scholarships for international undergraduates",
+      "kind": [
+        "merit",
+        "international",
+        "full",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "First-, second- and third-class awards for outstanding students, alongside Chinese Government and Shanghai Government scholarships.",
+      "coverage": "First class: 4 years' full tuition plus living and housing allowances; second: 50% tuition; third: 25% tuition",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://gc.sjtu.edu.cn/admission/international-undergraduate-admission/fees-and-scholarships/",
+      "sourceId": "s1",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "engineering-cluster-program",
+      "name": "Undergraduate Engineering Cluster Program in English",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://isc.sjtu.edu.cn/En/content.aspx?info_lb=213&flag=2",
+      "summary": "English-taught engineering cluster spanning Global College, mechanical, electrical, materials, computer science, automation and energy programmes.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 120000,
+          "max": 120000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026",
+        "notes": "Estimated tuition (Global College admissions)."
+      },
+      "specialization": "Taught in English"
+    },
+    {
+      "slug": "finance-antai",
+      "name": "Finance (Antai College of Economics and Management)",
+      "degree": "BEcon",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": "Antai College of Economics and Management",
+      "durationYears": 4,
+      "url": "https://www.acem.sjtu.edu.cn/en/acem/finance.html",
+      "summary": "Undergraduate finance at Antai College's Department of Finance.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "economics"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "SJTU — Fees and scholarships (international undergraduate)",
+      "url": "https://gc.sjtu.edu.cn/admission/international-undergraduate-admission/fees-and-scholarships/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "SJTU — Undergraduate programs in English",
+      "url": "https://isc.sjtu.edu.cn/En/content.aspx?info_lb=213&flag=2",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "SJTU Antai — Department of Finance",
+      "url": "https://www.acem.sjtu.edu.cn/en/acem/finance.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

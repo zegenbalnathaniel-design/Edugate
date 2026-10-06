@@ -1,0 +1,170 @@
+{
+  "slug": "university-of-st-gallen",
+  "name": "University of St.Gallen (HSG)",
+  "officialName": "Universität St.Gallen",
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "region": "St. Gallen",
+  "city": "St. Gallen",
+  "campuses": [],
+  "control": "public",
+  "category": "business-school",
+  "founded": 1898,
+  "setting": "urban",
+  "languages": [
+    "German",
+    "English"
+  ],
+  "website": "https://www.unisg.ch/en/",
+  "admissionsUrl": "https://www.unisg.ch/en/studying/programmes/bachelor/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Public business university in St. Gallen, Switzerland. Its first-year Assessment Year can be taken fully in English, followed by majors such as Economics and International Affairs.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "CHF",
+    "internationalTuition": {
+      "value": {
+        "min": 3129,
+        "max": 3129,
+        "period": "semester"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Per semester for students from outside Switzerland (International Affairs: CHF 3,343.50). HSG suggests budgeting about CHF 25,000–30,000 a year in total."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bachelor-economics",
+      "name": "Bachelor Major in Economics",
+      "degree": "BA HSG",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unisg.ch/en/studying/programmes/bachelor/major-in-economics/",
+      "summary": "Economics major after the Assessment Year, which can be taken fully in English.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-international-affairs",
+      "name": "Bachelor Major in International Affairs (BIA)",
+      "degree": "BA HSG",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unisg.ch/en/studying/programmes/bachelor/major-international-affairs-bia/key-facts/",
+      "summary": "International affairs major combining economics, politics and law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 3343.5,
+          "max": 3343.5,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Per semester for foreign nationals."
+      },
+      "alsoFields": [
+        "economics",
+        "political-science"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "HSG — Registration and tuition fees",
+      "url": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "HSG — Major in Economics",
+      "url": "https://www.unisg.ch/en/studying/programmes/bachelor/major-in-economics/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "HSG — Major International Affairs key facts",
+      "url": "https://www.unisg.ch/en/studying/programmes/bachelor/major-international-affairs-bia/key-facts/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

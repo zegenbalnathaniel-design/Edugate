@@ -1,0 +1,221 @@
+{
+  "slug": "university-of-manchester",
+  "name": "University of Manchester",
+  "officialName": "The University of Manchester",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "England",
+  "city": "Manchester",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1824,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.manchester.ac.uk/",
+  "admissionsUrl": "https://www.manchester.ac.uk/study/undergraduate/",
+  "financialAidUrl": null,
+  "internationalUrl": "https://www.manchester.ac.uk/study/international/country-specific-information/india/",
+  "summary": "Large public research university in Manchester, England. Economics is offered as a BSc and as BAEcon degrees, including Economics and Finance.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "GBP",
+    "internationalTuition": {
+      "value": {
+        "min": 33100,
+        "max": 35300,
+        "period": "year"
+      },
+      "sourceId": "s5",
+      "confidence": "official",
+      "asOf": "2027 entry",
+      "notes": "International tuition: BAEcon Economics £33,100; BSc Economics £35,300."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Global Futures Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "Merit-based undergraduate scholarships for international students from selected countries, including India; Manchester must be your Firm UCAS choice by 15 May 2027.",
+      "coverage": "£36,000 over three years (£12,000 a year)",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.manchester.ac.uk/study/international/finance-and-scholarships/funding/global-futures-scholarship/",
+      "sourceId": "s1",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "bsc-economics",
+      "name": "BSc Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10224/bsc-economics/",
+      "summary": "Three-year BSc in Economics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      }
+    },
+    {
+      "slug": "baecon-economics-and-finance",
+      "name": "BAEcon Economics and Finance",
+      "degree": "BAEcon",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05136/baecon-economics-and-finance/entry-requirements/",
+      "summary": "Economics degree with a finance pathway.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "finance"
+      ]
+    },
+    {
+      "slug": "bsc-management-accounting-and-finance",
+      "name": "BSc Management (Accounting and Finance)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03520/bsc-management-accounting-and-finance/",
+      "summary": "Management degree specialising in accounting and finance at Alliance Manchester Business School.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "commerce",
+        "business"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Manchester — Global Futures Scholarship",
+      "url": "https://www.manchester.ac.uk/study/international/finance-and-scholarships/funding/global-futures-scholarship/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "Manchester — BSc Economics (2027 entry)",
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10224/bsc-economics/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "Manchester — BAEcon Economics and Finance (2027 entry)",
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05136/baecon-economics-and-finance/entry-requirements/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "Manchester — BSc Management (Accounting and Finance) (2027 entry)",
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03520/bsc-management-accounting-and-finance/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "Manchester — BAEcon Economics (2027 entry)",
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05134/baecon-economics/entry-requirements/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

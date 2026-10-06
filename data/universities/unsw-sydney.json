@@ -318,6 +318,46 @@
       "alsoFields": [
         "law"
       ]
+    },
+    {
+      "slug": "bachelor-of-economics",
+      "name": "Bachelor of Economics",
+      "degree": "BEc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics",
+      "summary": "Three-year degree in microeconomics, macroeconomics, econometrics and behavioural economics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-commerce-economics",
+      "name": "Bachelor of Commerce / Economics",
+      "degree": "BCom/BEc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-economics",
+      "summary": "Double degree combining economic theory and statistics with business fields such as finance.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "commerce",
+        "finance"
+      ]
     }
   ],
   "details": {},
@@ -396,6 +436,20 @@
       "id": "s12",
       "label": "UNSW Sydney — Bachelor of Psychological Science / Law",
       "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychological-science-law",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "UNSW Sydney — Bachelor of Economics",
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "UNSW Sydney — Bachelor of Commerce / Economics",
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-economics",
       "type": "university",
       "retrievedAt": "2026-10-06"
     }

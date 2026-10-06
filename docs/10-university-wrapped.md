@@ -48,6 +48,7 @@ Weights (renormalised over the dimensions Edugate has data for — an unknown ne
 | Location fit | 5 | distance and destination preferences |
 | Flexibility | 5 | breadth of subjects offered × how unsure the student is |
 | Career ROI | 5 | published median/average salary vs cost |
+| Subject strength | 8 | economics and finance degrees only: the department's QS 2026 Economics & Econometrics rank (#1 → 100, #50 → about 70), pulled towards neutral for students who don't care about prestige |
 
 **Hard filters run first:** excluded countries; distance ("stay in my city / state / India"); single-gender colleges unless the student opts in; programmes whose published requirements name a subject the student's stream lacks (published subjects and eligibility text); published cost beyond budget × loan stretch (×1.1 none … ×2.5 large), with a narrow allowance where scholarships are published. A planned entrance test (NEET, JEE…) is not ineligibility — it becomes a watch-out. The results card states how many institutions were set aside and why.
 
@@ -56,6 +57,10 @@ Weights (renormalised over the dimensions Edugate has data for — an unknown ne
 **Balance and depth.** A student open to both India and abroad gets both: when either side has fewer than five universities on the list, it is topped up with that side's best genuine course matches (course fit ≥ 60, overall ≥ 50, at most two per country). Any list shorter than eight is topped up the same way. Top-ups never bypass a hard filter: a budget that no university abroad fits still yields an India-only list, and the set-aside note says why. Cards show each university's own country flag. The #1 match card also shows the best match on the other side of the India/abroad line.
 
 **Buckets** use only published evidence (`admissionBand`, `selectivity`): Dream = highly selective on published data; Reach / Target / Safety = closing ranks, merit cut-offs or acceptance rates; colleges that publish none appear as "Strong fit, odds unpublished". Best Value = fit ≥ 75 and financial fit ≥ 85 on a published cost. A university is a "high fit" only when the course itself fits (course ≥ 65, overall ≥ 58), so a sixth-choice degree at a famous university can't outrank the student's real first choices. Lists cap two per destination for variety.
+
+**Scholarships.** Published scholarships are read for what they promise an Indian applicant. A university that meets 100% of demonstrated need for international students stays on the list even when its sticker price is far beyond the family budget — its financial fit reflects how much the student said scholarships matter, the first reason given is the aid itself, and a watch-out says it is affordable only through need-based aid. Merit scholarships open to international students (e.g. Monash, Manchester, BU, CUHK) lift financial fit and are named under "why you match"; need-aware or limited international aid (Columbia, Duke, Northwestern, Georgetown) is flagged.
+
+**Economics data.** Universities in the QS 2026 Economics & Econometrics top 50 carry that rank (London Business School and Paris School of Economics are absent: neither offers undergraduate degrees). `data/lists/economics-finance.json` is the Edugate editors' economics & finance list — an editorial shortlist, not a ranking — whose "known for" line appears on economics and finance cards.
 
 **Countries** are scored from preference, the catalogue's median published tuition vs budget, programmes in the student's best-fit subjects, and mobility motivation — and the reasons quote those figures.
 

@@ -1,0 +1,338 @@
+{
+  "slug": "boston-university",
+  "name": "Boston University",
+  "officialName": "Trustees of Boston University",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "Massachusetts",
+  "city": "Boston",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1839,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.bu.edu/",
+  "admissionsUrl": "https://www.bu.edu/admissions/",
+  "financialAidUrl": "https://www.bu.edu/finaid/",
+  "internationalUrl": "https://www.bu.edu/finaid/undergraduate-students/international/",
+  "summary": "Large private research university along the Charles River in Boston. Economics is offered as a BA, and jointly with Mathematics or Computer Science.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "=26",
+      "sourceId": "s7"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 73024,
+        "max": 73024,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Tuition only; fees US$1,570 extra."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 73024,
+        "max": 73024,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": {
+        "min": 20740,
+        "max": 20740,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Housing US$13,170 plus food US$7,570."
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Presidential Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "Open to first-year applicants, including international students, who apply for admission by 1 December; rewards grades plus talent, initiative and impact.",
+      "coverage": "Value as published on BU's merit scholarship page",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/",
+      "sourceId": "s2",
+      "confidence": "official"
+    },
+    {
+      "name": "Trustee Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "competitive"
+      ],
+      "eligibility": "BU's most competitive first-year merit scholarship; international students may be considered.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": "https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/",
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba",
+      "name": "Economics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "College of Arts & Sciences",
+      "durationYears": 4,
+      "url": "https://www.bu.edu/academics/cas/programs/economics/ba/",
+      "summary": "Core micro and macro theory plus econometrics, with electives from financial economics to development.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "economics-and-mathematics-ba",
+      "name": "Economics & Mathematics (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bu.edu/academics/cas/programs/economics/ba-mathematics/",
+      "summary": "Joint major in economics and mathematics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "mathematics"
+      ]
+    }
+  ],
+  "details": {
+    "admissionStats": [
+      {
+        "year": "2025",
+        "scope": "First-year applicants, Class of 2029",
+        "applicants": 76779,
+        "admitted": null,
+        "enrolled": null,
+        "acceptanceRate": "12.8%",
+        "sourceId": "s3",
+        "confidence": "official"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "label": "BU Financial Assistance — Cost of attendance for undergraduates",
+      "url": "https://www.bu.edu/finaid/undergraduate-students/undergraduate/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "BU Admissions — First-year merit scholarships",
+      "url": "https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "BU Today — Class of 2029, by the numbers",
+      "url": "https://www.bu.edu/articles/2025/class-of-2029-by-the-numbers/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "BU Financial Assistance — International students",
+      "url": "https://www.bu.edu/finaid/undergraduate-students/international/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "BU Academics — BA in Economics",
+      "url": "https://www.bu.edu/academics/cas/programs/economics/ba/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s6",
+      "label": "BU Academics — BA in Economics & Mathematics",
+      "url": "https://www.bu.edu/academics/cas/programs/economics/ba-mathematics/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s7",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

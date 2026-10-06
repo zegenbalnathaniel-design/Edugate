@@ -1,0 +1,283 @@
+{
+  "slug": "georgetown-university",
+  "name": "Georgetown University",
+  "officialName": "Georgetown University",
+  "country": "United States",
+  "countryCode": "US",
+  "region": "District of Columbia",
+  "city": "Washington, D.C.",
+  "campuses": [],
+  "control": "private",
+  "category": "research-university",
+  "founded": 1789,
+  "setting": "urban",
+  "languages": [
+    "English"
+  ],
+  "website": "https://www.georgetown.edu/",
+  "admissionsUrl": "https://uadmissions.georgetown.edu/",
+  "financialAidUrl": "https://finaid.georgetown.edu/",
+  "internationalUrl": "https://finaid.georgetown.edu/undergrad/international-students/",
+  "summary": "Private Jesuit research university in Washington, D.C. Economics is a STEM-designated major in Georgetown College, and the School of Foreign Service offers International Economics.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "USD",
+    "internationalTuition": {
+      "value": {
+        "min": 74520,
+        "max": 74520,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Undergraduate tuition."
+    },
+    "domesticTuition": {
+      "value": {
+        "min": 74520,
+        "max": 74520,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27"
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Georgetown need-based scholarships for international students",
+      "kind": [
+        "need",
+        "international",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "Extremely limited: admitted international students who requested aid (and file the CSS Profile) are considered for a limited number of need-based awards; Georgetown cannot meet the full need of all international students.",
+      "coverage": null,
+      "deadline": null,
+      "renewable": null,
+      "url": "https://finaid.georgetown.edu/undergrad/international-students/",
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "economics-ba",
+      "name": "Economics (Georgetown College)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Georgetown College",
+      "durationYears": 4,
+      "url": "https://econ.georgetown.edu/major/",
+      "summary": "Eleven-course, STEM-designated economics major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "international-economics-bsfs",
+      "name": "International Economics (BSFS)",
+      "degree": "BSFS",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "School of Foreign Service",
+      "durationYears": 4,
+      "url": "https://sfs.georgetown.edu/academics/undergraduate/majors/international-economics/",
+      "summary": "International economics major in the Walsh School of Foreign Service.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "international-relations"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "Georgetown — Fall 2026–Spring 2027 tuition rates",
+      "url": "https://www.georgetown.edu/news/announcing-fall-2026-spring-2027-tuition-rates-2/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "Georgetown Financial Aid — International students",
+      "url": "https://finaid.georgetown.edu/undergrad/international-students/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "Georgetown Undergraduate Admissions — Financial aid",
+      "url": "https://uadmissions.georgetown.edu/financial-aid/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "Georgetown Economics — Major in Economics",
+      "url": "https://econ.georgetown.edu/major/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "Georgetown SFS — International Economics",
+      "url": "https://sfs.georgetown.edu/academics/undergraduate/majors/international-economics/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

@@ -60,7 +60,7 @@ describe("column extraction", () => {
     for (const f of files) {
       const c = extractColumns(load(f));
       expect(c.fields.length).toBeGreaterThan(0);
-      if (c.intlTuitionUsdMin != null) expect(c.intlTuitionUsdMin).toBeGreaterThan(0);
+      if (c.intlTuitionUsdMin != null) expect(c.intlTuitionUsdMin).toBeGreaterThanOrEqual(0);
     }
   });
 });

@@ -5,12 +5,13 @@
  * always shown first.
  *
  * ECB euro reference rates, 1 Oct 2026 (converted to per-USD); AED and QAR
- * are fixed pegs set by their central banks.
+ * are fixed pegs set by their central banks. CNY uses the ECB rate of
+ * 1 Sep 2026 (7.7911 per euro), the latest one found.
  */
 export const FX_AS_OF = "2026-10-01";
 export const FX_SOURCE = "ECB euro reference rates (1 Oct 2026); AED/QAR central-bank pegs";
 
-const EUR_PER = { USD: 1.1298, GBP: 0.85373, INR: 108.832, JPY: 178.49, CHF: 0.9437, AUD: 1.6255, CAD: 1.6095, HKD: 8.8658, KRW: 1537.96, SGD: 1.446 };
+const EUR_PER = { USD: 1.1298, GBP: 0.85373, INR: 108.832, JPY: 178.49, CHF: 0.9437, AUD: 1.6255, CAD: 1.6095, HKD: 8.8658, KRW: 1537.96, SGD: 1.446, CNY: 7.7911 };
 
 export const PER_USD: Record<string, number> = {
   USD: 1,

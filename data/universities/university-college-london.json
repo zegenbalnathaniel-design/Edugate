@@ -53,6 +53,13 @@
       "edition": 2027,
       "rank": "=8",
       "sourceId": "s2"
+    },
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "17",
+      "sourceId": "s22"
     }
   ],
   "applicationPlatform": {
@@ -469,6 +476,34 @@
       "tests": [],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "economics-year-abroad-bsc-econ",
+      "name": "Economics with a Year Abroad BSc (Econ)",
+      "degree": "BSc (Econ)",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/economics-year-abroad-bsc-econ-2026",
+      "summary": "Economics BSc with a year studying abroad; overseas fees are fixed for the length of the programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 39200,
+          "max": 39200,
+          "period": "year"
+        },
+        "sourceId": "s23",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Overseas tuition; cohort fee guarantee."
+      }
     }
   ],
   "details": {
@@ -653,7 +688,21 @@
       "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/mathematics-msci-2026",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s22",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s23",
+      "label": "UCL — Economics with a Year Abroad BSc (Econ)",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/economics-year-abroad-bsc-econ-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
-  "lastVerified": "2026-10-03"
+  "lastVerified": "2026-10-06"
 }

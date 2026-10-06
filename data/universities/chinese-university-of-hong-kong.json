@@ -1,0 +1,221 @@
+{
+  "slug": "chinese-university-of-hong-kong",
+  "name": "CUHK",
+  "officialName": "The Chinese University of Hong Kong",
+  "country": "Hong Kong",
+  "countryCode": "HK",
+  "region": "Hong Kong",
+  "city": "Hong Kong",
+  "campuses": [],
+  "control": "public",
+  "category": "research-university",
+  "founded": 1963,
+  "setting": "suburban",
+  "languages": [
+    "English",
+    "Chinese"
+  ],
+  "website": "https://www.cuhk.edu.hk/",
+  "admissionsUrl": "https://admission.cuhk.edu.hk/",
+  "financialAidUrl": null,
+  "internationalUrl": null,
+  "summary": "Public research university in Sha Tin, Hong Kong, with a collegiate system. Its business school offers undergraduate programmes in Quantitative Finance and in Quantitative Finance and Risk Management Science.",
+  "stats": {
+    "totalStudents": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "undergraduates": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "internationalShare": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "studentFacultyRatio": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "rankings": [
+    {
+      "org": "QS",
+      "category": "Subject: Economics & Econometrics",
+      "edition": 2026,
+      "rank": "44",
+      "sourceId": "s5"
+    }
+  ],
+  "applicationPlatform": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "applicationFee": {
+    "value": null,
+    "sourceId": null,
+    "confidence": "requires-verification",
+    "asOf": null
+  },
+  "testing": [],
+  "english": [],
+  "costs": {
+    "currency": "HKD",
+    "internationalTuition": {
+      "value": {
+        "min": 214000,
+        "max": 214000,
+        "period": "year"
+      },
+      "sourceId": "s1",
+      "confidence": "official",
+      "asOf": "2026-27",
+      "notes": "Non-local undergraduates admitted in 2026-27 (HK$230,000 for 2027-28 entrants)."
+    },
+    "domesticTuition": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    },
+    "livingEstimate": {
+      "value": null,
+      "sourceId": null,
+      "confidence": "requires-verification",
+      "asOf": null
+    }
+  },
+  "scholarships": [
+    {
+      "name": "HKSAR Government Scholarship",
+      "kind": [
+        "merit",
+        "international",
+        "government",
+        "partial",
+        "competitive"
+      ],
+      "eligibility": "Admission scholarship for outstanding non-local students.",
+      "coverage": "HK$80,000 a year",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+      "sourceId": "s2",
+      "confidence": "official"
+    },
+    {
+      "name": "CUHK admission scholarships",
+      "kind": [
+        "merit",
+        "international",
+        "partial",
+        "full",
+        "competitive"
+      ],
+      "eligibility": "Academic and non-academic admission scholarships for new local and non-local undergraduates; CUHK does not offer need-based financial aid to international students.",
+      "coverage": "Non-academic awards HK$50,000–214,000; some merit awards cover tuition and living costs",
+      "deadline": null,
+      "renewable": null,
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+      "sourceId": "s2",
+      "confidence": "official"
+    }
+  ],
+  "deadlines": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "slug": "quantitative-finance",
+      "name": "BBA in Quantitative Finance",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": "CUHK Business School",
+      "durationYears": 4,
+      "url": "https://admission.cuhk.edu.hk/programme/qfinn/",
+      "summary": "Undergraduate quantitative finance programme at CUHK Business School.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "mathematics",
+        "economics"
+      ]
+    },
+    {
+      "slug": "quantitative-finance-and-risk-management-science",
+      "name": "Quantitative Finance and Risk Management Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://admission.cuhk.edu.hk/programme/qfrmn/",
+      "summary": "Undergraduate programme in quantitative finance and risk management.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "statistics",
+        "mathematics"
+      ]
+    }
+  ],
+  "details": {},
+  "sources": [
+    {
+      "id": "s1",
+      "label": "CUHK Undergraduate Admissions — Fees",
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/fees/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s2",
+      "label": "CUHK — Admission scholarships (undergraduates)",
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "CUHK Admissions — Quantitative Finance",
+      "url": "https://admission.cuhk.edu.hk/programme/qfinn/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "CUHK Admissions — Quantitative Finance and Risk Management Science",
+      "url": "https://admission.cuhk.edu.hk/programme/qfrmn/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "QS World University Rankings by Subject 2026 — Economics & Econometrics",
+      "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
+      "type": "ranking-org",
+      "retrievedAt": "2026-10-06"
+    }
+  ],
+  "lastVerified": "2026-10-06"
+}

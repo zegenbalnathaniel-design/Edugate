@@ -189,3 +189,46 @@ describe("balanced, full university lists", () => {
     }
   });
 });
+
+describe("economics: QS subject ranking, editors' list and scholarships", () => {
+  const ECON_IB = (budget: string) =>
+    complete({
+      talk: ["economics", "maths", "business"], math: 9, careers: ["finance", "consult"], projects: ["stocks", "fundraiser", "app"], saturday: ["invest", "business"],
+      home: "chennai", distance: "india-abroad", regions: ["usa", "uk", "europe", "singapore"], exclude: [], gendered: "coed", board: "IB", exams: ["SAT"], budget, loan: "small", scholarships: 10,
+      ibsubjects: ["Economics|HL|7", "Mathematics: Analysis and Approaches|HL|7", "Physics|HL|6", "English A: Literature|SL|6", "French|SL|6", "Business Management|SL|7", "CORE|3"],
+    });
+
+  it("carries the QS 2026 Economics & Econometrics rank on the top-50 universities that teach undergraduates", () => {
+    const ranked = UNIS.filter((u) => u.rankings.some((r) => r.org === "QS" && r.category === "Subject: Economics & Econometrics"));
+    // Top 50 minus London Business School and Paris School of Economics (no undergraduate degrees).
+    expect(ranked.length).toBeGreaterThanOrEqual(48);
+    for (const slug of ["harvard-university", "university-of-chicago", "princeton-university", "yale-university", "london-school-of-economics", "bocconi-university", "peking-university", "university-of-bonn"])
+      expect(ranked.map((u) => u.slug)).toContain(slug);
+  });
+
+  it("points every editors' list entry at a real university record", async () => {
+    const list = (await import("../data/lists/economics-finance.json")).default;
+    const slugs = new Set(UNIS.map((u) => u.slug));
+    expect(list.entries).toHaveLength(50);
+    for (const e of list.entries) expect(slugs.has(e.slug)).toBe(true);
+  });
+
+  it("keeps full-need universities open to a low-budget student, and says aid is what makes them possible", () => {
+    const r = computeWrapped(ECON_IB("3-6"), UNIS, TODAY);
+    const fullNeed = cards(r).filter((c) => c.watch.some((w) => /only through need-based aid/.test(w)));
+    expect(fullNeed.length).toBeGreaterThan(0);
+    for (const c of fullNeed) expect(c.why.join(" ")).not.toMatch(/Within your comfortable budget/);
+  });
+
+  it("shows subject strength and 'known for' only on economics and finance degrees", () => {
+    const r = computeWrapped(ECON_IB("50+"), UNIS, TODAY);
+    for (const c of cards(r)) {
+      const econ = ["econ-finance", "economics", "finance"].includes(c.degree.key);
+      if (!econ) {
+        expect(c.knownFor).toBeNull();
+        expect(c.dims.some((d) => d.key === "subject")).toBe(false);
+      }
+    }
+    expect(cards(r).some((c) => c.knownFor && c.dims.some((d) => d.key === "subject"))).toBe(true);
+  });
+});
