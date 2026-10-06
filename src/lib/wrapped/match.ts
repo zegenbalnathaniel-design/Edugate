@@ -12,8 +12,10 @@ import {
   BUDGET_MAX_INR,
   buildProfile,
   COURSES,
+  courseScore,
+  meetsNeed,
   NEEDS_LABEL,
-  STREAM_HAS,
+  programAlignment,
   careerMatches,
   careerSentence,
   coreType,
@@ -79,7 +81,6 @@ export const destinationOf = (cc: string) => DESTINATIONS.find((d) => d.countrie
 
 /* ----------------------------- student → profile ----------------------------- */
 
-const MARKS_PCT: Record<string, number> = { "95": 96, "90": 92, "80": 85, "70": 75, "60": 65, "50": 55 };
 const STREAM_SUBJECTS: Record<string, string[]> = {
   pcm: ["English", "Physics", "Chemistry", "Mathematics"],
   pcb: ["English", "Physics", "Chemistry", "Biology"],
@@ -93,12 +94,18 @@ const STREAM_SUBJECTS: Record<string, string[]> = {
 export function toStudentProfile(p: Profile): StudentProfile {
   const f = p.facts;
   const curriculum = f.board && ["CBSE", "STATE_BOARD", "ISC", "IB", "A_LEVELS", "OTHER"].includes(f.board) ? (f.board as StudentProfile["curriculum"]) : null;
-  const pct = f.marks ? MARKS_PCT[f.marks] : undefined;
-  const subjects = f.stream && STREAM_SUBJECTS[f.stream] ? STREAM_SUBJECTS[f.stream].map((name) => ({ name, level: "Class XII", grade: null })) : [];
+  const pct = f.marksPct;
+  const indian = !!curriculum && ["CBSE", "STATE_BOARD", "ISC"].includes(curriculum);
+  // IB / A-level students entered their real subjects, levels and predicted grades.
+  const subjects = f.taken.length
+    ? f.taken.slice(0, 12).map((t) => ({ name: t.name.slice(0, 80), level: t.level, grade: t.grade }))
+    : f.stream && STREAM_SUBJECTS[f.stream]
+      ? STREAM_SUBJECTS[f.stream].map((name) => ({ name, level: "Class XII", grade: null }))
+      : [];
   return {
     ...EMPTY_PROFILE,
     curriculum,
-    predictedTotal: pct != null && curriculum && ["CBSE", "STATE_BOARD", "ISC"].includes(curriculum) ? `${pct}%` : null,
+    predictedTotal: curriculum === "IB" && f.ibTotal != null ? `${f.ibTotal}/45` : pct != null && indian ? `${pct}%` : null,
     subjects,
   };
 }
@@ -140,6 +147,8 @@ export type UniCard = {
   country: string;
   flag: string;
   program: { slug: string; name: string };
+  /** The degree (from the student's best-fit list) this programme is. */
+  degree: { key: string; label: string };
   fit: number;
   knownShare: number;
   dims: { key: Dim; label: string; pct: number }[];
@@ -150,7 +159,7 @@ export type UniCard = {
   watch: string[];
 };
 
-type Scored = UniCard & { selective: boolean; financial: number | null };
+type Scored = UniCard & { selective: boolean; financial: number | null; degrees: string[] };
 
 const clamp = (n: number) => Math.max(0, Math.min(100, Math.round(n)));
 
@@ -167,18 +176,26 @@ function bandToBucket(band: string, highlySelective: boolean): Bucket | null {
 
 export type Filtered = { budget: number; location: number; eligibility: number; course: number; gender: number };
 
+/** How many best-fit degrees the student sees, and the only degrees universities are matched on. */
+export const COURSE_COUNT = 6;
+
 export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: University[], today = new Date()) {
   const f = p.facts;
   const sp = toStudentProfile(p);
-  const stream = sp.subjects.map((s) => s.name);
+  const taken = sp.subjects.map((s) => s.name);
   const max = f.budget ? BUDGET_MAX_INR[f.budget] : null;
   const stretch = f.loan ? LOAN_STRETCH[f.loan] : 1.35;
   const excluded = new Set(f.exclude);
   const wantedRegions = new Set(f.regions);
-  const topSubjects = new Set(p.subjects.slice(0, 8).map((s) => s.key));
   const filtered: Filtered = { budget: 0, location: 0, eligibility: 0, course: 0, gender: 0 };
   const out: Scored[] = [];
   const exams = new Set(f.exams);
+  // The student's strongest degrees — the same ones shown on the course card — and a programme only counts if it IS one of them.
+  const ranked = COURSES.map((c) => ({ c, s: courseScore(p, c) }))
+    .sort((a, b) => b.s - a.s)
+    .slice(0, COURSE_COUNT);
+  const topScore = ranked[0]?.s || 1;
+  const marks = f.marksPct;
 
   for (const u of unis) {
     const dest = destinationOf(u.countryCode);
@@ -217,76 +234,8 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
       continue;
     }
 
-    // ---- best programme for this student (eligible ones only)
-    let best: { p: Program; fit: number; subjects: Field[] } | null = null;
-    let ineligible = 0;
-    for (const prog of u.programs) {
-      if (prog.level === "masters") continue;
-      const subs = programSubjects(prog);
-      const w = [1, 0.5, 0.3];
-      const fit = subs.reduce((a, k, i) => a + subjectPct(p, k) * (w[i] ?? 0.2), 0) / subs.reduce((a, _, i) => a + (w[i] ?? 0.2), 0);
-      if (fit < 25) continue;
-      const lacks = streamLacks([...(prog.admission?.requiredSubjects ?? []), ...eligibilityNeeds(prog.admission?.eligibility)], stream);
-      const band = admissionBand(u, prog, sp, today, { testsPlanned: true }).band;
-      if (lacks.length || band === "not-eligible") {
-        ineligible++;
-        continue;
-      }
-      if (!best || fit > best.fit) best = { p: prog, fit, subjects: subs };
-    }
-    if (!best) {
-      if (ineligible) filtered.eligibility++;
-      else filtered.course++;
-      continue;
-    }
-    const prog = best.p;
-
-    // ---- hard filter: realistic cost
-    const tuition = programCostInr(u, prog);
-    const living = tuition != null ? annualLivingInr(u) : null;
-    const cost = tuition != null ? tuition + (living ?? 0) : null;
-    const hasAid = u.scholarships.length > 0 || prog.scholarships.length > 0;
-    let financial: number | null = null;
-    if (cost != null && max != null) {
-      if (cost <= max) financial = 100 - Math.round((cost / Math.max(max, 1)) * 10);
-      else if (cost <= max * 1.15) financial = 80;
-      else if (cost <= max * stretch) financial = 60 - Math.round(((cost / max - 1.15) / Math.max(stretch - 1.15, 0.1)) * 25);
-      else if (hasAid && cost <= max * stretch * 1.6) financial = 15;
-      else {
-        filtered.budget++;
-        continue;
-      }
-      if (hasAid && financial < 100) financial = Math.min(100, financial + 5);
-    }
-
-    // ---- admissions & academics, evidence only
-    const ab = admissionBand(u, prog, sp, today, { testsPlanned: true });
+    // ---- institution-level facts, shared by all its programmes
     const sel = selectivity(u);
-    const highly = sel?.band === "highly-selective";
-    const bucket = bandToBucket(ab.band, highly) ?? "open";
-    const admissions = bucket === "dream" ? 20 : bucket === "reach" ? 40 : bucket === "target" ? 70 : bucket === "safety" ? 92 : null;
-    const marks = f.marks && MARKS_PCT[f.marks] != null ? MARKS_PCT[f.marks] : null;
-    let academic: number | null = null;
-    if (marks != null && sel) {
-      const need = { "highly-selective": 95, selective: 88, moderate: 75, accessible: 60 }[sel.band];
-      academic = clamp(85 + (marks - need) * 3);
-    } else if (marks != null && prog.admission?.minimumPercent) {
-      const min = Number(prog.admission.minimumPercent.match(/[\d.]+/)?.[0]);
-      if (Number.isFinite(min)) academic = clamp(70 + (marks - min) * 1.2);
-    }
-
-    // ---- usual subject prerequisites for the field, when the programme doesn't publish its own
-    const primary = best.subjects[0];
-    const field = COURSES.find((c) => c.needs && c.subjects[0] === primary);
-    const has = f.stream ? STREAM_HAS[f.stream] : null;
-    const usualGap = field?.needs && has && !has[field.needs] ? NEEDS_LABEL[field.needs] : null;
-    if (usualGap) academic = Math.min(academic ?? 30, 30);
-
-    // ---- career fit: careers this programme leads toward, weighted by how well they fit the student
-    const careerPct = careers.filter((c) => c.subjects.some((s) => best!.subjects.includes(s))).map((c) => c.pct);
-    const career = careerPct.length ? clamp(Math.max(...careerPct) + (prog.careers?.paths.length ? 3 : 0)) : clamp(best.fit * 0.6);
-
-    // ---- campus environment, only on facts we hold
     const envChecks: number[] = [];
     const want = (k: keyof Profile["env"]) => p.env[k] >= 58;
     const big = u.setting ? u.setting === "urban" : METROS.has(hub);
@@ -306,8 +255,6 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
     if (want("sport") && (life.includes("sport") || u.details.facilities.some((x) => x.category === "sports"))) envChecks.push(100);
     if (want("culture") && life.some((c) => ["festival", "club", "society", "cultural"].includes(c))) envChecks.push(100);
     const environment = envChecks.length ? clamp(envChecks.reduce((a, b) => a + b, 0) / envChecks.length) : null;
-
-    // ---- location
     const prefRegion = dest && wantedRegions.has(dest.slug);
     const location =
       d === "abroad"
@@ -329,70 +276,136 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
             : india && inState
               ? 92
               : 85;
-
-    // ---- flexibility: how much room to change direction
     const breadth = new Set(u.programs.flatMap((x) => programSubjects(x))).size;
     const breadthScore = clamp(breadth >= 15 ? 100 : breadth >= 8 ? 78 : breadth >= 4 ? 58 : 38) + (u.category === "liberal-arts" || u.category === "multidisciplinary" ? 8 : 0);
-    const need = p.trait.flexibility / 100;
-    const flexibility = clamp(Math.min(100, breadthScore) * need + 82 * (1 - need));
+    const flexNeed = p.trait.flexibility / 100;
+    const flexibility = clamp(Math.min(100, breadthScore) * flexNeed + 82 * (1 - flexNeed));
+    const living = annualLivingInr(u);
 
-    // ---- ROI: published outcomes against cost
-    const out1 = [...prog.outcomes, ...u.details.outcomes].find((o) => o.medianSalary != null || o.averageSalary != null);
-    const salary = out1 ? toInr((out1.medianSalary ?? out1.averageSalary)!, out1.currency) : null;
-    const roi = salary != null && cost != null && cost > 0 ? clamp(salary / cost >= 3 ? 100 : salary / cost >= 2 ? 85 : salary / cost >= 1 ? 65 : 40) : null;
+    let anyCourse = false;
+    let anyEligible = false;
+    for (const prog of u.programs) {
+      if (prog.level === "masters") continue;
+      const subs = programSubjects(prog);
 
-    const dims: Record<Dim, number | null> = { course: clamp(best.fit + 3), career, academic, financial, environment, admissions, location, flexibility, roi };
-    let wsum = 0;
-    let acc = 0;
-    for (const k of Object.keys(WEIGHTS) as Dim[]) {
-      const v = dims[k];
-      if (v == null) continue;
-      wsum += WEIGHTS[k];
-      acc += v * WEIGHTS[k];
+      // ---- course fit: which of the student's degrees this programme actually is
+      let bestCourse = 0;
+      let bestCat: (typeof ranked)[number]["c"] | null = null;
+      const degrees: string[] = [];
+      for (const { c, s: cs } of ranked) {
+        const a = programAlignment(prog, subs, c);
+        if (!a) continue;
+        if (a >= 0.85) degrees.push(c.key);
+        const v = a * (0.6 * (cs / topScore) * 100 + 0.4 * cs);
+        if (v > bestCourse) {
+          bestCourse = v;
+          bestCat = c;
+        }
+      }
+      if (!bestCat || bestCourse < 40) continue;
+      anyCourse = true;
+
+      // ---- hard filter: published subject requirements and eligibility
+      const lacks = streamLacks([...(prog.admission?.requiredSubjects ?? []), ...eligibilityNeeds(prog.admission?.eligibility)], taken);
+      const ab = admissionBand(u, prog, sp, today, { testsPlanned: true });
+      if (lacks.length || ab.band === "not-eligible") continue;
+      anyEligible = true;
+
+      // ---- hard filter: realistic cost
+      const tuition = programCostInr(u, prog);
+      const cost = tuition != null ? tuition + (living ?? 0) : null;
+      const hasAid = u.scholarships.length > 0 || prog.scholarships.length > 0;
+      let financial: number | null = null;
+      if (cost != null && max != null) {
+        if (cost <= max) financial = 100 - Math.round((cost / Math.max(max, 1)) * 10);
+        else if (cost <= max * 1.15) financial = 80;
+        else if (cost <= max * stretch) financial = 60 - Math.round(((cost / max - 1.15) / Math.max(stretch - 1.15, 0.1)) * 25);
+        else if (hasAid && cost <= max * stretch * 1.6) financial = 15;
+        else continue;
+        if (hasAid && financial < 100) financial = Math.min(100, financial + 5);
+      }
+
+      // ---- admissions & academics, evidence only
+      const highly = sel?.band === "highly-selective";
+      const bucket = bandToBucket(ab.band, highly) ?? "open";
+      const admissions = bucket === "dream" ? 20 : bucket === "reach" ? 40 : bucket === "target" ? 70 : bucket === "safety" ? 92 : null;
+      let academic: number | null = null;
+      if (marks != null && sel) {
+        const need = { "highly-selective": 95, selective: 88, moderate: 75, accessible: 60 }[sel.band];
+        academic = clamp(85 + (marks - need) * 3);
+      } else if (marks != null && prog.admission?.minimumPercent) {
+        const min = Number(prog.admission.minimumPercent.match(/[\d.]+/)?.[0]);
+        if (Number.isFinite(min)) academic = clamp(70 + (marks - min) * 1.2);
+      }
+      const usualGap = bestCat.needs && meetsNeed(p, bestCat.needs) === false ? NEEDS_LABEL[bestCat.needs] : null;
+      if (usualGap) academic = Math.min(academic ?? 30, 30);
+
+      // ---- career fit: careers this programme leads toward, weighted by how well they fit the student
+      const careerPct = careers.filter((c) => c.subjects.some((s) => subs.includes(s))).map((c) => c.pct);
+      const career = careerPct.length ? clamp(Math.max(...careerPct) + (prog.careers?.paths.length ? 3 : 0)) : clamp(bestCourse * 0.6);
+
+      // ---- ROI: published outcomes against cost
+      const out1 = [...prog.outcomes, ...u.details.outcomes].find((o) => o.medianSalary != null || o.averageSalary != null);
+      const salary = out1 ? toInr((out1.medianSalary ?? out1.averageSalary)!, out1.currency) : null;
+      const roi = salary != null && cost != null && cost > 0 ? clamp(salary / cost >= 3 ? 100 : salary / cost >= 2 ? 85 : salary / cost >= 1 ? 65 : 40) : null;
+
+      const dims: Record<Dim, number | null> = { course: clamp(bestCourse), career, academic, financial, environment, admissions, location, flexibility, roi };
+      let wsum = 0;
+      let acc = 0;
+      for (const k of Object.keys(WEIGHTS) as Dim[]) {
+        const v = dims[k];
+        if (v == null) continue;
+        wsum += WEIGHTS[k];
+        acc += v * WEIGHTS[k];
+      }
+      const fit = clamp(acc / wsum);
+
+      // ---- plain-language reasons, from the data that drove the score
+      const why: string[] = [`It's a ${bestCat.label} degree — one of your best-fit fields.`];
+      if (financial != null && financial >= 85) why.push(`Within your comfortable budget${living == null ? " on tuition" : ""}.`);
+      if (environment != null && environment >= 85) why.push("The campus matches what you said you want.");
+      if (bucket === "safety" || bucket === "target") why.push(ab.reasons[0] ?? "");
+      if (hasAid) why.push("Scholarships are published for this institution.");
+      if (roi != null && roi >= 85) why.push("Published graduate outcomes look strong against the cost.");
+      const watch: string[] = [];
+      if (usualGap) watch.push(`Courses like this usually need ${usualGap} in your final school years — check the eligibility before applying.`);
+      if (bucket === "dream") watch.push(`Extremely competitive — ${sel?.reason ?? "published selectivity"}. Admission is never guaranteed.`);
+      if (bucket === "reach") watch.push(ab.reasons[0] ?? "A reach on published data.");
+      if (financial != null && financial < 60) watch.push(financial <= 15 ? "Beyond your budget unless a substantial scholarship comes through." : "Stretches your budget — you'd need a loan or aid.");
+      if (cost == null) watch.push("Fees aren't published in a form Edugate could verify — check before you apply.");
+      if (cost != null && living == null && !india) watch.push("Living, travel and visa costs come on top of tuition.");
+      const needsExams = normalizeTests([...(prog.admission?.entranceTests ?? []), ...prog.tests.filter((t) => t.policy === "required").map((t) => t.test)]);
+      const missingExam = needsExams.find((t) => ["JEE-MAIN", "JEE-ADV", "NEET", "CLAT", "IPMAT", "CUET", "NATA", "SAT"].includes(t) && !exams.has(t.split("-")[0]) && !(t === "SAT" && exams.has("SAT")));
+      if (missingExam) watch.push(`Needs ${missingExam.replace("-", " ").replace("ADV", "Advanced").replace("MAIN", "Main")} — it isn't on your exam list yet.`);
+
+      out.push({
+        slug: u.slug,
+        name: u.name,
+        city: hub,
+        country: u.country,
+        flag: dest?.flag ?? "🌐",
+        program: { slug: prog.slug, name: prog.name },
+        degree: { key: bestCat.key, label: bestCat.label },
+        degrees,
+        fit,
+        knownShare: Math.round(wsum),
+        dims: (Object.keys(WEIGHTS) as Dim[]).filter((k) => dims[k] != null).map((k) => ({ key: k, label: DIM_LABEL[k], pct: dims[k]! })),
+        bucket,
+        costInr: cost,
+        costIncludesLiving: living != null && cost != null,
+        why: why.filter(Boolean).slice(0, 3),
+        watch: watch.slice(0, 3),
+        selective: !!sel && (sel.band === "highly-selective" || sel.band === "selective"),
+        financial,
+      });
     }
-    const fit = clamp(acc / wsum);
-    const knownShare = Math.round(wsum);
-
-    // ---- plain-language reasons, from the data that drove the score
-    const why: string[] = [];
-    const subjLabels = best.subjects.filter((s) => topSubjects.has(s)).map((s) => SUBJECT_BY_KEY[s]?.label ?? s);
-    if (subjLabels.length) why.push(`${prog.name} lines up with your pull towards ${subjLabels.slice(0, 2).join(" and ").toLowerCase()}.`);
-    if (financial != null && financial >= 85) why.push(`Within your comfortable budget${living == null ? " on tuition" : ""}.`);
-    if (environment != null && environment >= 85) why.push("The campus matches what you said you want.");
-    if (bucket === "safety" || bucket === "target") why.push(ab.reasons[0] ?? "");
-    if (hasAid) why.push("Scholarships are published for this institution.");
-    if (roi != null && roi >= 85) why.push("Published graduate outcomes look strong against the cost.");
-    const watch: string[] = [];
-    if (bucket === "dream") watch.push(`Extremely competitive — ${sel?.reason ?? "published selectivity"}. Admission is never guaranteed.`);
-    if (bucket === "reach") watch.push(ab.reasons[0] ?? "A reach on published data.");
-    if (financial != null && financial < 60) watch.push(financial <= 15 ? "Beyond your budget unless a substantial scholarship comes through." : "Stretches your budget — you'd need a loan or aid.");
-    if (cost == null) watch.push("Fees aren't published in a form Edugate could verify — check before you apply.");
-    if (cost != null && living == null && !india) watch.push("Living, travel and visa costs come on top of tuition.");
-    if (usualGap) watch.unshift(`Courses like this usually need ${usualGap} in Class 11–12 — check the eligibility before applying.`);
-    const needsExams = normalizeTests([...(prog.admission?.entranceTests ?? []), ...prog.tests.filter((t) => t.policy === "required").map((t) => t.test)]);
-    const missingExam = needsExams.find((t) => ["JEE-MAIN", "JEE-ADV", "NEET", "CLAT", "IPMAT", "CUET", "NATA", "SAT"].includes(t) && !exams.has(t.split("-")[0]) && !(t === "SAT" && exams.has("SAT")));
-    if (missingExam) watch.push(`Needs ${missingExam.replace("-", " ").replace("ADV", "Advanced").replace("MAIN", "Main")} — it isn't on your exam list yet.`);
-
-    out.push({
-      slug: u.slug,
-      name: u.name,
-      city: hub,
-      country: u.country,
-      flag: dest?.flag ?? "🌐",
-      program: { slug: prog.slug, name: prog.name },
-      fit,
-      knownShare,
-      dims: (Object.keys(WEIGHTS) as Dim[]).filter((k) => dims[k] != null).map((k) => ({ key: k, label: DIM_LABEL[k], pct: dims[k]! })),
-      bucket,
-      costInr: cost,
-      costIncludesLiving: living != null,
-      why: why.filter(Boolean).slice(0, 3),
-      watch: watch.slice(0, 3),
-      selective: !!sel && (sel.band === "highly-selective" || sel.band === "selective"),
-      financial,
-    });
+    if (!out.some((x) => x.slug === u.slug)) {
+      if (!anyCourse) filtered.course++;
+      else if (!anyEligible) filtered.eligibility++;
+      else filtered.budget++;
+    }
   }
-  return { scored: out.sort((a, b) => b.fit - a.fit), filtered };
+  return { pairs: out.sort((a, b) => b.fit - a.fit), filtered };
 }
 
 /* -------------------------------- countries --------------------------------- */
@@ -447,11 +460,15 @@ export type WrappedResult = ReturnType<typeof computeWrapped>;
 
 export function computeWrapped(answers: Answers, unis: University[], today = new Date()) {
   const profile = buildProfile(answers);
-  const courses = courseMatches(profile);
+  const courses = courseMatches(profile, COURSE_COUNT);
   const careers = careerMatches(profile, answers);
-  const { scored, filtered } = scoreUniversities(profile, careerMatches(profile, answers, 12), unis, today);
+  const { pairs, filtered } = scoreUniversities(profile, careerMatches(profile, answers, 30), unis, today);
+  // One card per university: its best-fitting programme.
+  const seenUni = new Set<string>();
+  const scored = pairs.filter((x) => !seenUni.has(x.slug) && seenUni.add(x.slug));
   // "High fit" means the course itself fits — budget and location can't carry a weak course match.
-  const strong = scored.filter((s) => s.fit >= 58 && (s.dims.find((d) => d.key === "course")?.pct ?? 0) >= 55);
+  // A sixth-choice degree at a famous university mustn't outrank the student's real first choices.
+  const strong = scored.filter((s) => s.fit >= 58 && (s.dims.find((d) => d.key === "course")?.pct ?? 0) >= 65);
   /** Best n by fit, at most two per destination so one country can't crowd out the rest. */
   const take = (b: Bucket, n: number) => {
     const per = new Map<string, number>();
@@ -479,12 +496,30 @@ export function computeWrapped(answers: Answers, unis: University[], today = new
   // Prefer value picks the student hasn't already seen in another group.
   lists.value = [...valuePool.filter((s) => !shown.has(s.slug)).sort(byValue), ...valuePool.filter((s) => shown.has(s.slug)).sort(byValue)].slice(0, 3);
   const courseSubjects = [...new Set(courses.slice(0, 3).flatMap((c) => c.subjects.slice(0, 2)))];
+  // "Where to study it": for each best-fit degree, the strongest places that actually teach it.
+  const goodPair = (x: Scored) => x.fit >= 55;
+  const where = Object.fromEntries(
+    courses.map((c) => {
+      const seen = new Set<string>();
+      const list = pairs
+        .filter((x) => goodPair(x) && x.degrees.includes(c.key) && !seen.has(x.slug) && seen.add(x.slug))
+        .slice(0, 4)
+        .map((x) => ({ slug: x.slug, name: x.name, flag: x.flag, city: x.city, program: x.program, fit: x.fit, bucket: x.bucket }));
+      return [c.key, list];
+    }),
+  ) as Record<string, { slug: string; name: string; flag: string; city: string; program: { slug: string; name: string }; fit: number; bucket: Bucket }[]>;
+  // Honest gaps: a top degree the student would go abroad for, with nothing abroad on Edugate yet.
+  const abroadOk = profile.facts.distance === "abroad" || profile.facts.distance === "india-abroad";
+  const abroadGaps: string[] = abroadOk
+    ? courses.slice(0, 3).filter((c) => !pairs.some((x) => x.flag !== "🇮🇳" && x.degrees.includes(c.key))).map((c) => c.label)
+    : [];
   return {
     answered: profile.answered,
+    abroadGaps,
     type: coreType(profile),
     dna: interestDna(profile),
     dnaLine: interestSentence(profile),
-    courses,
+    courses: courses.map((c) => ({ ...c, where: where[c.key] ?? [] })),
     careers,
     careerLine: careerSentence(profile),
     campus: universityDna(profile),

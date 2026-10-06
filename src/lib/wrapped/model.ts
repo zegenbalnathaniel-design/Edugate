@@ -51,7 +51,12 @@ export type Effects = {
   trait?: Partial<Record<Trait, number>>;
   env?: Partial<Record<Env, number>>;
   subjects?: Partial<Record<Field, number>>;
+  /** Finer interests that one broad subject can't tell apart (archaeology vs history, film vs journalism…). */
+  tags?: Partial<Record<Tag, number>>;
 };
+
+export const TAGS = ["archaeology", "film", "journalism", "literature", "languages", "politics", "ir", "theatre", "creative-writing", "museums"] as const;
+export type Tag = (typeof TAGS)[number];
 
 export type Option = { id: string; label: string; emoji?: string; hint?: string; fx?: Effects };
 
@@ -81,12 +86,14 @@ export type Question =
   | (Base & { kind: "multi"; options: Option[]; max?: number; min?: number })
   | (Base & { kind: "versus"; options: [Option, Option] })
   | (Base & { kind: "rank"; options: Option[]; pick: number })
-  | (Base & { kind: "slider"; low: string; high: string; lowEmoji: string; highEmoji: string; fx: Effects });
+  | (Base & { kind: "slider"; low: string; high: string; lowEmoji: string; highEmoji: string; fx: Effects })
+  /** IB / A-level students list their actual subjects, levels and predicted grades. Answer: ["Physics|HL|6", …, "CORE|2"]. */
+  | (Base & { kind: "subjects"; scheme: "IB" | "A_LEVELS" });
 
 export type Answer = string | string[] | number;
 export type Answers = Record<string, Answer>;
 
-export const MODULE_IDS = ["money", "tech", "health", "design", "society", "science"] as const;
+export const MODULE_IDS = ["money", "tech", "health", "design", "society", "science", "humanities", "screen"] as const;
 export type ModuleId = (typeof MODULE_IDS)[number];
 
 export type AskContext = { answers: Answers; modules: ModuleId[] };

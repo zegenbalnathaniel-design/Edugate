@@ -17,7 +17,7 @@ import { revalidatePath } from "next/cache";
 
 /* University Wrapped server actions (docs/10). Answers are the only input; nothing is stored unless the student asks. */
 
-const AnswersSchema = z.record(z.string().max(40), z.union([z.string().max(40), z.array(z.string().max(40)).max(20), z.number().min(0).max(10)])).refine((a) => Object.keys(a).length <= 80);
+const AnswersSchema = z.record(z.string().max(40), z.union([z.string().max(40), z.array(z.string().max(100)).max(40), z.number().min(0).max(10)])).refine((a) => Object.keys(a).length <= 80);
 
 export async function runWrapped(raw: unknown): Promise<WrappedResult | { error: string }> {
   const parsed = AnswersSchema.safeParse(raw);

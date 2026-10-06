@@ -18,7 +18,8 @@ function complete(a: Answers): Answers {
   const out = { ...a };
   for (let pass = 0; pass < 3; pass++)
     for (const q of activeQuestions(out))
-      if (out[q.id] === undefined) out[q.id] = q.kind === "slider" ? 7 : q.kind === "single" || q.kind === "versus" ? q.options[0].id : q.kind === "rank" ? q.options.slice(0, q.pick).map((o) => o.id) : [q.options[0].id];
+      if (out[q.id] === undefined && q.kind !== "subjects")
+        out[q.id] = q.kind === "slider" ? 7 : q.kind === "single" || q.kind === "versus" ? q.options[0].id : q.kind === "rank" ? q.options.slice(0, q.pick).map((o) => o.id) : [q.options[0].id];
   return out;
 }
 
@@ -91,5 +92,64 @@ describe("university matching", () => {
 
   it("explains every recommendation", () => {
     for (const c of cards(fin)) expect(c.why.length + c.watch.length).toBeGreaterThan(0);
+  });
+});
+
+describe("degree → college mapping", () => {
+  const ECON = complete({
+    talk: ["economics", "maths", "business"], math: 8, careers: ["finance", "consult"], projects: ["stocks", "fundraiser", "app"], saturday: ["invest", "business"],
+    home: "chennai", distance: "india-abroad", regions: ["uk", "singapore"], gendered: "coed", budget: "25-50", loan: "worth", board: "CBSE", stream: "commerce-maths", marks: "90", exams: ["CUET", "IPMAT"],
+  });
+  const FILM = complete({
+    talk: ["film", "literature", "theatre"], math: 2, essay: 8, careers: ["film", "writer", "media"], projects: ["story", "brand", "fundraiser"], saturday: ["films", "write"],
+    home: "chennai", distance: "india-abroad", regions: ["uk", "usa"], gendered: "coed", budget: "25-50", loan: "worth", board: "CBSE", stream: "humanities", marks: "80",
+  });
+  const IB = complete({
+    talk: ["politics", "world", "history"], math: 4, essay: 9, careers: ["diplomat", "policy", "law"], projects: ["policy", "fundraiser", "story"], saturday: ["debate", "read"],
+    home: "chennai", distance: "india-abroad", regions: ["uk", "usa", "singapore"], gendered: "coed", budget: "50+", loan: "worth", board: "IB",
+    ibsubjects: ["Global Politics|HL|7", "History|HL|6", "English A: Literature|HL|6", "Economics|SL|6", "Mathematics: Applications and Interpretation|SL|5", "French|SL|6", "CORE|2"],
+  });
+
+  it("sends an economics student to economics programmes, never to an engineering institute", () => {
+    const r = computeWrapped(ECON, UNIS, TODAY);
+    expect(r.courses[0].key).toBe("econ-finance");
+    for (const c of cards(r)) {
+      expect(c.slug).not.toBe("iit-madras");
+      expect(c.program.name).toMatch(/econom|financ|commerce|B\.?\s?Com|business|management|analytics/i);
+    }
+    for (const w of r.courses[0].where) expect(w.program.name).toMatch(/econom/i);
+  });
+
+  it("lists only programmes that ARE each degree under 'where to study it'", () => {
+    for (const a of [ECON, FILM, IB]) {
+      const r = computeWrapped(a, UNIS, TODAY);
+      const byKey: Record<string, RegExp> = { history: /histor/i, literature: /literature|english|creative writing/i, politics: /politic|policy|governance|strategic/i, film: /film|cinema|screen|animation|multimedia/i, law: /LL\.?B|law/i };
+      for (const c of r.courses) if (byKey[c.key]) for (const w of c.where) expect(w.program.name).toMatch(byKey[c.key]);
+      // Every university card's degree is one the student was shown.
+      for (const card of cards(r)) expect(r.courses.map((c) => c.key)).toContain(card.degree.key);
+    }
+  });
+
+  it("doesn't count the language a course is taught in as a literature degree", () => {
+    const r = computeWrapped(FILM, UNIS, TODAY);
+    const lit = r.courses.find((c) => c.key === "literature" || c.key === "languages");
+    for (const w of lit?.where ?? []) expect(w.program.name).not.toMatch(/^B\.A\. History$/);
+  });
+
+  it("uses IB subjects and grades: predicted total, prerequisites and humanities depth", () => {
+    const p = buildProfile(IB);
+    expect(p.facts.ibTotal).toBe(38);
+    expect(p.facts.has?.maths).toBe(true);
+    expect(p.facts.has?.physics).toBe(false);
+    expect(activeQuestions(IB).some((q) => q.id === "stream" || q.id === "marks")).toBe(false);
+    const r = computeWrapped(IB, UNIS, TODAY);
+    expect(r.courses.slice(0, 3).map((c) => c.key)).toEqual(expect.arrayContaining(["politics"]));
+  });
+
+  it("lets students pick as many likes as they want", () => {
+    for (const id of ["talk", "saturday", "careers", "regions"]) {
+      const q = activeQuestions(ECON).find((x) => x.id === id);
+      expect(q && q.kind === "multi" && q.max).toBeFalsy();
+    }
   });
 });

@@ -93,8 +93,12 @@ export const SUBJECTS: Subject[] = [
 
 export const SUBJECT_BY_KEY = Object.fromEntries(SUBJECTS.map((s) => [s.key, s])) as Record<Field, Subject>;
 
+/** Language-of-teaching notes ("Medium: Tamil (30 seats)", "English-taught", "English track") say how a course is taught, not what it's about. */
+const MEDIUM_NOTE = /\bmedium\s*:[^·]*|\b(?:english|tamil|hindi|malayalam|telugu|urdu|french|german)[\s-]+(?:medium|track|taught)\b|\btaught in (?:english|tamil|hindi|french|german)\b/gi;
+export const stripMedium = (text: string) => text.replace(MEDIUM_NOTE, " ");
+
 function haystack(p: Pick<Program, "name" | "subfield" | "degree"> & { specialization?: string | null }) {
-  return [p.name, p.subfield, p.specialization, p.degree].filter(Boolean).join(" · ").toLowerCase();
+  return stripMedium([p.name, p.subfield, p.specialization, p.degree].filter(Boolean).join(" · ")).toLowerCase();
 }
 
 /** Every subject a program belongs to: its primary field, explicit extras, and what its official name says. */

@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { A_LEVEL_GRADES, A_LEVEL_SUBJECTS, IB_GRADES, IB_SUBJECTS, ibTotal, parseTaken } from "@/lib/wrapped/curricula";
 import type { Answer, Question } from "@/lib/wrapped/model";
 
 /*
  * One question per screen. Five interaction styles, rotated by the bank:
  * tap (single), multi-select, slider, this-or-that (versus) and rank.
- * Single and versus advance on tap; the others have a Next button.
+ * Single and versus advance on tap; the others have a Next button. IB and
+ * A-level students also get a subject picker with levels and predicted grades.
  */
 
 const optBase =
@@ -25,6 +27,7 @@ export function QuestionCard({ q, value, onAnswer, onNext }: { q: Question; valu
         {q.kind === "multi" && <Multi q={q} value={(value as string[] | undefined) ?? []} onChange={onAnswer} onNext={onNext} />}
         {q.kind === "rank" && <Rank q={q} value={(value as string[] | undefined) ?? []} onChange={onAnswer} onNext={onNext} />}
         {q.kind === "slider" && <Slider q={q} value={typeof value === "number" ? value : undefined} onChange={onAnswer} onNext={onNext} />}
+        {q.kind === "subjects" && <Subjects q={q} value={(value as string[] | undefined) ?? []} onChange={onAnswer} onNext={onNext} />}
       </div>
     </div>
   );
@@ -113,7 +116,8 @@ function Multi({ q, value, onChange, onNext }: { q: Extract<Question, { kind: "m
         })}
       </div>
       <p className="mt-4 text-[0.875rem] text-white/65" aria-live="polite">
-        {value.length}/{max} picked{min === 0 && value.length === 0 ? " — or skip" : ""}
+        {q.max ? `${value.length}/${max} picked` : value.length ? `${value.length} picked` : "Pick as many as you like"}
+        {min === 0 && value.length === 0 ? " — or skip" : ""}
       </p>
       <NextButton disabled={value.length < min} onClick={onNext} label={min === 0 && value.length === 0 ? "Skip" : "Next"} />
     </div>
@@ -193,6 +197,153 @@ function Slider({ q, value, onChange, onNext }: { q: Extract<Question, { kind: "
           onNext();
         }}
       />
+    </div>
+  );
+}
+
+/*
+ * IB / A-level subjects: tap to add, set HL/SL, tap a predicted grade.
+ * Stored as "Physics|HL|6" entries plus "CORE|2" for IB core points.
+ */
+function Subjects({ q, value, onChange, onNext }: { q: Extract<Question, { kind: "subjects" }>; value: string[]; onChange: (v: string[]) => void; onNext: () => void }) {
+  const ib = q.scheme === "IB";
+  const catalogue = ib ? IB_SUBJECTS : A_LEVEL_SUBJECTS;
+  const grades: readonly string[] = ib ? IB_GRADES : A_LEVEL_GRADES;
+  const { subjects, core } = parseTaken(value);
+  const [custom, setCustom] = useState("");
+  const write = (next: typeof subjects, c: number | null) =>
+    onChange([...next.map((x) => [x.name, x.level ?? "", x.grade ?? ""].join("|")), ...(ib && c != null ? [`CORE|${c}`] : [])]);
+  const add = (name: string) => {
+    const n = name.replace(/\|/g, " ").trim().slice(0, 80);
+    if (!n || subjects.some((x) => x.name.toLowerCase() === n.toLowerCase())) return;
+    const hl = subjects.filter((x) => x.level === "HL").length;
+    write([...subjects, { name: n, level: ib ? (hl < 3 ? "HL" : "SL") : null, grade: null }], core);
+  };
+  const patch = (i: number, p: Partial<(typeof subjects)[number]>) => write(subjects.map((x, j) => (j === i ? { ...x, ...p } : x)), core);
+  const remove = (i: number) => write(subjects.filter((_, j) => j !== i), core);
+  const picked = new Set(subjects.map((x) => x.name));
+  const total = ib ? ibTotal(subjects, core) : null;
+  const graded = subjects.filter((x) => x.grade).length;
+  const target = ib ? 6 : 3;
+  const ready = subjects.length >= 3 && graded === subjects.length;
+  const short = (name: string) => catalogue.find((x) => x.name === name)?.short ?? name;
+
+  return (
+    <div>
+      {subjects.length > 0 && (
+        <ul className="mb-6 grid gap-2.5" aria-label="Your subjects">
+          {subjects.map((x, i) => (
+            <li key={x.name} className="flex flex-wrap items-center gap-x-3 gap-y-2 rounded-2xl border border-white/25 bg-white/8 px-3.5 py-3 sm:px-4">
+              <span className="min-w-0 flex-1 basis-40 font-bold leading-tight" title={x.name}>
+                {short(x.name)}
+              </span>
+              {ib && (
+                <span role="radiogroup" aria-label={`${x.name} level`} className="flex overflow-hidden rounded-full border border-white/35 text-[0.8rem] font-extrabold">
+                  {(["HL", "SL"] as const).map((l) => (
+                    <button
+                      key={l}
+                      type="button"
+                      role="radio"
+                      aria-checked={x.level === l}
+                      onClick={() => patch(i, { level: l })}
+                      className={`px-3 py-1.5 transition ${x.level === l ? "bg-white text-[var(--wr-ink)]" : "text-white/75 hover:bg-white/10"}`}
+                    >
+                      {l}
+                    </button>
+                  ))}
+                </span>
+              )}
+              <span role="radiogroup" aria-label={`${x.name} predicted grade`} className="flex flex-wrap gap-1">
+                {grades.map((g) => (
+                  <button
+                    key={g}
+                    type="button"
+                    role="radio"
+                    aria-checked={x.grade === g}
+                    onClick={() => patch(i, { grade: g })}
+                    className={`flex h-8 min-w-8 items-center justify-center rounded-full px-1.5 text-[0.85rem] font-extrabold tabular-nums transition ${x.grade === g ? "bg-white text-[var(--wr-ink)] scale-110" : "border border-white/30 text-white/80 hover:border-white/70"}`}
+                  >
+                    {g}
+                  </button>
+                ))}
+              </span>
+              <button type="button" onClick={() => remove(i)} aria-label={`Remove ${x.name}`} className="flex size-8 items-center justify-center rounded-full text-white/60 transition hover:bg-white/15 hover:text-white">
+                ✕
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {ib && subjects.length > 0 && (
+        <div className="mb-6 flex flex-wrap items-center gap-2">
+          <span className="mr-1 text-[0.9rem] font-semibold text-white/80">TOK + EE core points</span>
+          {[0, 1, 2, 3].map((n) => (
+            <button
+              key={n}
+              type="button"
+              aria-pressed={core === n}
+              onClick={() => write(subjects, n)}
+              className={`flex size-8 items-center justify-center rounded-full text-[0.85rem] font-extrabold transition ${core === n ? "bg-white text-[var(--wr-ink)]" : "border border-white/30 text-white/80 hover:border-white/70"}`}
+            >
+              {n}
+            </button>
+          ))}
+        </div>
+      )}
+
+      <p className="mb-2.5 text-[0.8rem] font-bold uppercase tracking-[0.14em] text-white/60">{subjects.length ? "Add another" : "Tap your subjects"}</p>
+      <div role="group" aria-label="Subjects" className="flex flex-wrap gap-2">
+        {catalogue
+          .filter((c) => !picked.has(c.name))
+          .map((c) => (
+            <button
+              key={c.name}
+              type="button"
+              onClick={() => add(c.name)}
+              title={c.name}
+              className="rounded-full border border-white/30 bg-white/8 px-3 py-1.5 text-[0.88rem] font-semibold transition hover:border-white/70 hover:bg-white/14"
+            >
+              + {c.short}
+            </button>
+          ))}
+      </div>
+      <form
+        className="mt-3 flex max-w-md gap-2"
+        onSubmit={(e) => {
+          e.preventDefault();
+          add(custom);
+          setCustom("");
+        }}
+      >
+        <label className="sr-only" htmlFor={`${q.id}-other`}>
+          Another subject
+        </label>
+        <input
+          id={`${q.id}-other`}
+          value={custom}
+          onChange={(e) => setCustom(e.target.value)}
+          maxLength={80}
+          placeholder="Not listed? Type it"
+          className="h-10 min-w-0 flex-1 rounded-full border border-white/30 bg-white/8 px-4 text-[0.95rem] text-white placeholder:text-white/45 focus:border-white focus:outline-none"
+        />
+        <button type="submit" disabled={!custom.trim()} className="h-10 rounded-full border border-white/50 px-4 text-[0.9rem] font-bold transition hover:bg-white/15 disabled:opacity-40">
+          Add
+        </button>
+      </form>
+
+      <p className="mt-5 text-[0.9rem] text-white/75" aria-live="polite">
+        {subjects.length < 3
+          ? `Add at least ${3 - subjects.length} more subject${3 - subjects.length === 1 ? "" : "s"}.`
+          : graded < subjects.length
+            ? `Give each subject a predicted grade (${subjects.length - graded} to go).`
+            : ib && total != null
+              ? <>Predicted total: <strong className="text-[1.15rem] text-white tabular-nums">{total}/45</strong></>
+              : subjects.length < target
+                ? `${subjects.length} subjects — most IB students take ${target}.`
+                : `${subjects.length} subjects, all graded.`}
+      </p>
+      <NextButton disabled={!ready} onClick={onNext} />
     </div>
   );
 }
