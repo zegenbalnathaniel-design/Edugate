@@ -226,6 +226,144 @@
       "tests": [],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "history-ma-hons",
+      "name": "History MA (Hons)",
+      "degree": "MA (Hons)",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/301-history",
+      "summary": "Four-year Scottish undergraduate MA in history.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "english-literature-ma-hons",
+      "name": "English Literature MA (Hons)",
+      "degree": "MA (Hons)",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/197-english-literature",
+      "summary": "Literature written in English from around the globe, in a UNESCO World City of Literature.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "archaeology-ma-hons",
+      "name": "Archaeology MA (Hons)",
+      "degree": "MA (Hons)",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/310-archaeology",
+      "summary": "The human past, and the skills to discover, recover and analyse material remains.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "archaeology-and-ancient-history-ma-hons",
+      "name": "Archaeology and Ancient History MA (Hons)",
+      "degree": "MA (Hons)",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/648-archaeology-and-ancient-history",
+      "summary": "Archaeology combined with ancient history.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "english-literature-and-history-ma-hons",
+      "name": "English Literature and History MA (Hons)",
+      "degree": "MA (Hons)",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/236-english-literature-and-history",
+      "summary": "Joint honours in English literature and history.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "history"
+      ]
+    },
+    {
+      "slug": "law-ordinary-and-honours-llb",
+      "name": "Law (Ordinary and Honours) LLB",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/168-law-ordinary-and-honours",
+      "summary": "LLB in Scots law, the foundation for a legal career in Scotland.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "law-and-politics-llb-hons",
+      "name": "Law and Politics LLB (Hons)",
+      "degree": "LLB (Hons)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/171-law-and-politics",
+      "summary": "Courses from both the Law School and the School of Social and Political Science.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ]
     }
   ],
   "details": {
@@ -269,6 +407,55 @@
       "url": "https://science-engineering.ed.ac.uk/other/welcome-from-the-head-of-college/about-the-university-of-edinburgh",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "University of Edinburgh — History MA (Hons)",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/301-history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "University of Edinburgh — English Literature MA (Hons)",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/197-english-literature",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "University of Edinburgh — Archaeology MA (Hons)",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/310-archaeology",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "University of Edinburgh — Archaeology and Ancient History MA (Hons)",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/648-archaeology-and-ancient-history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "University of Edinburgh — English Literature and History MA (Hons)",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/236-english-literature-and-history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "University of Edinburgh — Law (Ordinary and Honours) LLB",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/168-law-ordinary-and-honours",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "University of Edinburgh — Law and Politics LLB (Hons)",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/171-law-and-politics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

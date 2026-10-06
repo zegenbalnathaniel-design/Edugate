@@ -193,6 +193,50 @@
         "asOf": null,
         "notes": "Annual indicative international fee."
       }
+    },
+    {
+      "slug": "bachelor-of-arts",
+      "name": "Bachelor of Arts",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://programsandcourses.anu.edu.au/program/barts",
+      "summary": "Three-year degree with over 50 majors.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "history",
+        "languages-literature"
+      ]
+    },
+    {
+      "slug": "bachelor-of-politics-philosophy-and-economics",
+      "name": "Bachelor of Politics, Philosophy and Economics",
+      "degree": "BPPE",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://cass.anu.edu.au/degrees/bachelor-politics-philosophy-and-economics",
+      "summary": "Limited-intake degree integrating philosophy, politics and economics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "philosophy",
+        "economics"
+      ]
     }
   ],
   "details": {},
@@ -231,6 +275,20 @@
       "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "ANU — Bachelor of Arts",
+      "url": "https://programsandcourses.anu.edu.au/program/barts",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "ANU — Bachelor of Politics, Philosophy and Economics",
+      "url": "https://cass.anu.edu.au/degrees/bachelor-politics-philosophy-and-economics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

@@ -191,6 +191,102 @@
         "asOf": "2026-27",
         "notes": "Two study terms, tuition and incidentals."
       }
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "BMath",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+      "summary": "Bachelor of Mathematics with a choice of majors.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BASc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://uwaterloo.ca/future-students/programs/mechanical-engineering",
+      "summary": "Mechanical engineering with Waterloo's co-op programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "degree": "BASc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://uwaterloo.ca/future-students/programs/biomedical-engineering",
+      "summary": "Biomedical engineering with co-op.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology"
+      ]
+    },
+    {
+      "slug": "mathematical-physics",
+      "name": "Mathematical Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://uwaterloo.ca/future-students/programs/mathematical-physics",
+      "summary": "Physics with a strong mathematical core.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "mathematics"
+      ]
+    },
+    {
+      "slug": "life-sciences",
+      "name": "Life Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://uwaterloo.ca/future-students/programs/life-sciences",
+      "summary": "Life sciences in the Faculty of Science.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -282,6 +378,41 @@
       "url": "https://uwaterloo.ca/future-students/admissions/admission-information-form",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "University of Waterloo — Mathematics",
+      "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "University of Waterloo — Mechanical Engineering",
+      "url": "https://uwaterloo.ca/future-students/programs/mechanical-engineering",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "University of Waterloo — Biomedical Engineering",
+      "url": "https://uwaterloo.ca/future-students/programs/biomedical-engineering",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "University of Waterloo — Mathematical Physics",
+      "url": "https://uwaterloo.ca/future-students/programs/mathematical-physics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "University of Waterloo — Life Sciences",
+      "url": "https://uwaterloo.ca/future-students/programs/life-sciences",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

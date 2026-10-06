@@ -237,6 +237,156 @@
       "tests": [],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "film",
+      "name": "Film",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/film/",
+      "summary": "Four-year single honours film degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "performing-arts"
+      ]
+    },
+    {
+      "slug": "film-studies-jh",
+      "name": "Film Studies (JH)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/film-studies-jh/",
+      "summary": "Joint honours film studies, combined with drama, English, music, a modern language or history.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "drama-and-theatre-studies",
+      "name": "Drama and Theatre Studies",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/drama-and-theatre-studies/",
+      "summary": "Costume, lighting, sound, devising, directing, design, dramaturgy and playwriting, with the culture and politics of theatre.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "english-studies-jh",
+      "name": "English Studies (JH)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/english-studies-jh/",
+      "summary": "Literatures written in English, from Chaucer to the present day, combined with a second subject.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "history-jh",
+      "name": "History (JH)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/history-jh/",
+      "summary": "Cultural, political, military, social and environmental history from the early Middle Ages to the recent past, with a second subject.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "law-jh",
+      "name": "Law (JH)",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/law-jh/",
+      "summary": "Law studied with business, history, political science, French or German.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "political-science-jh",
+      "name": "Political Science (JH)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/political-science-jh/",
+      "summary": "Political science with geography, history, law or social policy.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "classical-civilisation-jh",
+      "name": "Classical Civilisation (JH)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/classical-civilisation-jh/",
+      "summary": "Joint honours study of the classical world.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
     }
   ],
   "details": {
@@ -368,6 +518,62 @@
       "url": "https://www.tcd.ie/accommodation/1st-year-students/",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "Trinity College Dublin — Film",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/film/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "Trinity College Dublin — Film Studies (JH)",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/film-studies-jh/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "Trinity College Dublin — Drama and Theatre Studies",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/drama-and-theatre-studies/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "Trinity College Dublin — English Studies (JH)",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/english-studies-jh/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "Trinity College Dublin — History (JH)",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/history-jh/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s16",
+      "label": "Trinity College Dublin — Law (JH)",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/law-jh/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s17",
+      "label": "Trinity College Dublin — Political Science (JH)",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/political-science-jh/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s18",
+      "label": "Trinity College Dublin — Classical Civilisation (JH)",
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/classical-civilisation-jh/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

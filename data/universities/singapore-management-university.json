@@ -200,6 +200,46 @@
         "asOf": "2026-27",
         "notes": "With / without the Tuition Grant."
       }
+    },
+    {
+      "slug": "bachelor-of-laws-llb",
+      "name": "Bachelor of Laws (LLB)",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://law.smu.edu.sg/llb/curriculum",
+      "summary": "Four-year honours programme of 36 course units at the Yong Pung How School of Law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-social-science-politics-law-and-economics-major",
+      "name": "Bachelor of Social Science (Politics, Law and Economics major)",
+      "degree": "BSocSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://socsc.smu.edu.sg/bachelor-social-science/curriculum/politics-law-and-economics-ple-major",
+      "summary": "The relations among the political, legal and economic dimensions of society.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "law",
+        "economics"
+      ]
     }
   ],
   "details": {
@@ -279,6 +319,20 @@
       "url": "https://admissions.smu.edu.sg/admissions-requirements/international-and-other-qualifications",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "SMU — Bachelor of Laws (LLB)",
+      "url": "https://law.smu.edu.sg/llb/curriculum",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "SMU — Bachelor of Social Science (Politics, Law and Economics major)",
+      "url": "https://socsc.smu.edu.sg/bachelor-social-science/curriculum/politics-law-and-economics-ple-major",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

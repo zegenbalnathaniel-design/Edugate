@@ -235,6 +235,89 @@
         "asOf": "2026",
         "notes": "Indicative first-year fee, 2026."
       }
+    },
+    {
+      "slug": "bachelor-of-arts-law",
+      "name": "Bachelor of Arts/Law",
+      "degree": "BA/LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts-law",
+      "summary": "Double degree combining a Bachelor of Arts with the Bachelor of Laws.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "bachelor-of-arts",
+      "name": "Bachelor of Arts",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts",
+      "summary": "Over 30 disciplines across the humanities, creative arts and social sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "history",
+        "languages-literature"
+      ]
+    },
+    {
+      "slug": "bachelor-of-media",
+      "name": "Bachelor of Media",
+      "degree": "BMedia",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-media",
+      "summary": "Three years, with specialisations in cinema studies, communication & journalism, media studies, PR & advertising, or screen production.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "specialization": "Specialisations include cinema studies and screen production"
+    },
+    {
+      "slug": "bachelor-of-psychological-science-law",
+      "name": "Bachelor of Psychological Science / Law",
+      "degree": "BPsychSc/LLB",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychological-science-law",
+      "summary": "Accredited psychology degree combined with law.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "law"
+      ]
     }
   ],
   "details": {},
@@ -287,6 +370,34 @@
       "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "UNSW Sydney — Bachelor of Arts/Law",
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts-law",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "UNSW Sydney — Bachelor of Arts",
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "UNSW Sydney — Bachelor of Media",
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-media",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "UNSW Sydney — Bachelor of Psychological Science / Law",
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychological-science-law",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

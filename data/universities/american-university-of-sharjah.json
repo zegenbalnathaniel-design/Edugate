@@ -299,6 +299,159 @@
         "confidence": "official",
         "asOf": "2026-27"
       }
+    },
+    {
+      "slug": "bachelor-of-architecture",
+      "name": "Bachelor of Architecture",
+      "degree": "BArch",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.aus.edu/caad/department-of-architecture/bachelor-of-architecture",
+      "summary": "Five-year NAAB-accredited programme with on-the-job professional training.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "visual-communication",
+      "name": "Visual Communication",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/caad/programs",
+      "summary": "College of Architecture, Art and Design specialty.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "visual-arts"
+      ]
+    },
+    {
+      "slug": "multimedia-design",
+      "name": "Multimedia Design",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/caad/programs",
+      "summary": "College of Architecture, Art and Design specialty.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ]
+    },
+    {
+      "slug": "bachelor-of-arts-in-english-language-and-literature",
+      "name": "Bachelor of Arts in English Language and Literature",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/cas/department-of-english/bachelor-of-arts-in-english-language-and-literature",
+      "summary": "Critical reading, analysis of texts and language in context, and clear writing.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-arts-in-international-studies",
+      "name": "Bachelor of Arts in International Studies",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/cas/programs",
+      "summary": "Offered by the Department of International Studies.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ]
+    },
+    {
+      "slug": "mass-communication",
+      "name": "Mass Communication",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/cas/programs",
+      "summary": "Undergraduate programme in the College of Arts and Sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/cas/programs",
+      "summary": "Undergraduate programme in the College of Arts and Sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.aus.edu/cas/programs",
+      "summary": "Undergraduate programme in the College of Arts and Sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -382,6 +535,62 @@
       "url": "https://www.aus.edu/admissions/bachelors-degrees/application-requirements",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "label": "American University of Sharjah — Bachelor of Architecture",
+      "url": "https://www.aus.edu/caad/department-of-architecture/bachelor-of-architecture",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s6",
+      "label": "American University of Sharjah — Visual Communication",
+      "url": "https://www.aus.edu/caad/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s7",
+      "label": "American University of Sharjah — Multimedia Design",
+      "url": "https://www.aus.edu/caad/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "American University of Sharjah — Bachelor of Arts in English Language and Literature",
+      "url": "https://www.aus.edu/cas/department-of-english/bachelor-of-arts-in-english-language-and-literature",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "American University of Sharjah — Bachelor of Arts in International Studies",
+      "url": "https://www.aus.edu/cas/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "American University of Sharjah — Mass Communication",
+      "url": "https://www.aus.edu/cas/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "American University of Sharjah — Psychology",
+      "url": "https://www.aus.edu/cas/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "American University of Sharjah — Biology",
+      "url": "https://www.aus.edu/cas/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

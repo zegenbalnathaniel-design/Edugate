@@ -216,6 +216,85 @@
         "asOf": "2026-27",
         "notes": "Non-local, STEM."
       }
+    },
+    {
+      "slug": "bachelor-of-arts-and-bachelor-of-laws",
+      "name": "Bachelor of Arts and Bachelor of Laws",
+      "degree": "BA&LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-bachelor-of-laws",
+      "summary": "Five-year joint programme of the Faculty of Law and the Faculty of Arts.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "bachelor-of-psychology",
+      "name": "Bachelor of Psychology",
+      "degree": "BPsych",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-psychology",
+      "summary": "Four-year programme emphasising hands-on, research-intensive and multidisciplinary learning.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-social-sciences",
+      "name": "Bachelor of Social Sciences",
+      "degree": "BSocSc",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-social-sciences",
+      "summary": "Four-year programme; first majors include Politics and Public Administration, Sociology, Geography and Social Policy.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science",
+        "geography"
+      ]
+    },
+    {
+      "slug": "bachelor-of-arts-in-architectural-studies",
+      "name": "Bachelor of Arts in Architectural Studies",
+      "degree": "BA(AS)",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.arch.hku.hk/programmes/arch/bachelor-of-arts-in-architectural-studies/",
+      "summary": "Four-year first degree towards qualifying as an architect; a portfolio of creative work is required.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -322,6 +401,34 @@
       "url": "https://housing.cedars.hku.hk/university-accommodation/residence-options",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "label": "HKU — Bachelor of Arts and Bachelor of Laws",
+      "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-bachelor-of-laws",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "HKU — Bachelor of Psychology",
+      "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-psychology",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "HKU — Bachelor of Social Sciences",
+      "url": "https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-social-sciences",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "HKU — Bachelor of Arts in Architectural Studies",
+      "url": "https://www.arch.hku.hk/programmes/arch/bachelor-of-arts-in-architectural-studies/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

@@ -261,6 +261,28 @@
         "confidence": "official",
         "asOf": "2025-26"
       }
+    },
+    {
+      "slug": "international-program-on-japan-in-east-asia-peak",
+      "name": "International Program on Japan in East Asia (PEAK)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_english.html",
+      "summary": "English-taught PEAK programme at Komaba; no Japanese required for admission.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "history",
+        "international-relations"
+      ]
     }
   ],
   "details": {
@@ -325,6 +347,13 @@
       "url": "https://peak.c.u-tokyo.ac.jp/fees_scholarships/l3/Vcms3_00000232.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "University of Tokyo — International Program on Japan in East Asia (PEAK)",
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_english.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

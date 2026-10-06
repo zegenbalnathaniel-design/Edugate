@@ -92,7 +92,7 @@ export function ResultsStory({ r, answers, shareUrl, onEdit, onRestart }: { r: W
         </span>
       </div>
 
-      <div id="wr-scroll" className="relative flex-1 overflow-y-auto overflow-x-clip px-4 pb-28 pt-6 sm:px-8" onPointerDown={onPointerDown} onPointerUp={onPointerUp} onClick={onClick}>
+      <div id="wr-scroll" data-lenis-prevent className="relative min-h-0 flex-1 overflow-y-auto overflow-x-clip overscroll-contain px-4 pb-28 pt-6 sm:px-8" onPointerDown={onPointerDown} onPointerUp={onPointerUp} onClick={onClick}>
         <AnimatePresence mode="wait">
           <motion.section
             key={card.key}
@@ -676,6 +676,16 @@ function topMatch(r: WrappedResult): UniCard | undefined {
   return realistic[0] ?? [...L.reach, ...L.dream].sort((a, b) => b.fit - a.fit)[0];
 }
 
+/** The best match on the other side of the India / abroad line, and the next best overall. */
+function runnersUp(r: WrappedResult, top: UniCard | undefined): UniCard[] {
+  if (!top) return [];
+  const all = [...new Map(Object.values(r.lists).flat().map((c) => [c.slug, c])).values()].filter((c) => c.slug !== top.slug).sort((a, b) => b.fit - a.fit);
+  const india = (c: UniCard) => c.flag === "🇮🇳";
+  const other = all.find((c) => india(c) !== india(top));
+  const next = all.find((c) => c !== other);
+  return [other, next].filter((c) => c !== undefined) as UniCard[];
+}
+
 function buildCards(r: WrappedResult, answers: Answers, shareUrl: string, onEdit: () => void, onRestart: () => void): Card[] {
   const year = new Date().getFullYear();
   const total = Object.values(r.lists).reduce((a, l) => a + l.length, 0);
@@ -934,6 +944,21 @@ function buildCards(r: WrappedResult, answers: Answers, shareUrl: string, onEdit
             </Link>
           </motion.div>
           <p className="mt-4 text-[0.8125rem] text-white/70">{BUCKET[top.bucket].line}</p>
+          {runnersUp(r, top).length > 0 && (
+            <motion.div {...rise(1.2)} className="mx-auto mt-7 grid max-w-2xl gap-2.5 sm:grid-cols-2">
+              {runnersUp(r, top).map((c) => (
+                <Link key={c.slug} href={`/universities/${c.slug}/programs/${c.program.slug}`} className="rounded-2xl bg-white/14 px-4 py-3 text-left backdrop-blur-sm transition hover:bg-white/22">
+                  <span className="block text-[0.7rem] font-extrabold uppercase tracking-[0.18em] text-white/70">
+                    {c.flag === "🇮🇳" ? "Top in India" : `Top abroad · ${c.country}`}
+                  </span>
+                  <span className="mt-0.5 block text-[1rem] font-black leading-tight">{c.name}</span>
+                  <span className="block text-[0.82rem] font-semibold text-white/80">
+                    {c.program.name} · {c.fit}%
+                  </span>
+                </Link>
+              ))}
+            </motion.div>
+          )}
         </div>
       ),
     },

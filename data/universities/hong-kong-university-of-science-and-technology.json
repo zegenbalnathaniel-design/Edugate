@@ -224,6 +224,28 @@
         "confidence": "official",
         "asOf": "2026-27"
       }
+    },
+    {
+      "slug": "bsc-in-global-china-studies",
+      "name": "BSc in Global China Studies",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://join.hkust.edu.hk/our-programs/school-of-humanities-and-social-science/global-china-studies",
+      "summary": "China with a global outlook, through an interdisciplinary humanities and social science curriculum.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "history",
+        "political-science"
+      ]
     }
   ],
   "details": {
@@ -290,6 +312,13 @@
       "url": "https://join.hkust.edu.hk/admissions/international-qualifications/application-procedures",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "HKUST — BSc in Global China Studies",
+      "url": "https://join.hkust.edu.hk/our-programs/school-of-humanities-and-social-science/global-china-studies",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

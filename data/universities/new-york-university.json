@@ -337,6 +337,49 @@
         "asOf": "2026-27",
         "notes": "Tuition and fees."
       }
+    },
+    {
+      "slug": "film-and-television-bfa",
+      "name": "Film and Television (BFA)",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://bulletins.nyu.edu/undergraduate/arts/programs/film-television-bfa/",
+      "summary": "Tisch School of the Arts filmmaking degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "performing-arts"
+      ]
+    },
+    {
+      "slug": "dramatic-writing-bfa",
+      "name": "Dramatic Writing (BFA)",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://tisch.nyu.edu/dramatic-writing/undergradcourses",
+      "summary": "Four-year liberal-arts-based programme in writing for theatre, film and television.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media",
+        "languages-literature"
+      ]
     }
   ],
   "details": {
@@ -507,6 +550,20 @@
       "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "NYU — Film and Television (BFA)",
+      "url": "https://bulletins.nyu.edu/undergraduate/arts/programs/film-television-bfa/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "NYU — Dramatic Writing (BFA)",
+      "url": "https://tisch.nyu.edu/dramatic-writing/undergradcourses",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

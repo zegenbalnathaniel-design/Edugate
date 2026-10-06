@@ -176,6 +176,11 @@ function bandToBucket(band: string, highlySelective: boolean): Bucket | null {
 
 export type Filtered = { budget: number; location: number; eligibility: number; course: number; gender: number };
 
+/** "IE" → 🇮🇪 — the university's own country, not its destination group. */
+function countryFlag(code: string | null | undefined): string | null {
+  return code && /^[A-Z]{2}$/.test(code) ? String.fromCodePoint(...[...code].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65)) : null;
+}
+
 /** How many best-fit degrees the student sees, and the only degrees universities are matched on. */
 export const COURSE_COUNT = 6;
 
@@ -285,7 +290,8 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
     let anyCourse = false;
     let anyEligible = false;
     for (const prog of u.programs) {
-      if (prog.level === "masters") continue;
+      // Wrapped recommends campuses: masters-only and online/distance programmes are out of scope.
+      if (prog.level === "masters" || prog.mode === "online" || prog.mode === "distance") continue;
       const subs = programSubjects(prog);
 
       // ---- course fit: which of the student's degrees this programme actually is
@@ -383,7 +389,7 @@ export function scoreUniversities(p: Profile, careers: CareerMatch[], unis: Univ
         name: u.name,
         city: hub,
         country: u.country,
-        flag: dest?.flag ?? "🌐",
+        flag: countryFlag(u.countryCode) ?? dest?.flag ?? "🌐",
         program: { slug: prog.slug, name: prog.name },
         degree: { key: bestCat.key, label: bestCat.label },
         degrees,
@@ -490,7 +496,35 @@ export function computeWrapped(answers: Answers, unis: University[], today = new
     open: take("open", 5),
     value: [] as Scored[],
   };
-  const shown = new Set(Object.values(lists).flat().map((s) => s.slug));
+  // Balance and depth: a student open to both India and abroad sees both, and nobody gets a one-line list
+  // when real course matches exist. Top-ups still need a genuine course match (≥ 60) — never prestige alone.
+  const coursePct = (s: Scored) => s.dims.find((d) => d.key === "course")?.pct ?? 0;
+  const inList = () => new Set(Object.values(lists).flat().map((s) => s.slug));
+  const topUp = (want: number, pick: (s: Scored) => boolean) => {
+    const have = inList();
+    const perFlag = new Map<string, number>();
+    let added = 0;
+    for (const s of scored) {
+      if (added >= want) break;
+      if (have.has(s.slug) || !pick(s) || s.fit < 50 || coursePct(s) < 60) continue;
+      if ((perFlag.get(s.flag) ?? 0) >= 2) continue;
+      perFlag.set(s.flag, (perFlag.get(s.flag) ?? 0) + 1);
+      lists[s.bucket].push(s);
+      added++;
+    }
+  };
+  const india = (s: Scored) => s.flag === "🇮🇳";
+  if (profile.facts.distance === "india-abroad") {
+    const all = Object.values(lists).flat();
+    const abroadN = all.filter((s) => !india(s)).length;
+    const indiaN = all.length - abroadN;
+    if (abroadN < 5) topUp(5 - abroadN, (s) => !india(s));
+    if (indiaN < 5) topUp(5 - indiaN, india);
+  }
+  const listed = Object.values(lists).flat().length;
+  if (listed < 8) topUp(8 - listed, () => true);
+  for (const b of Object.keys(lists) as Bucket[]) lists[b].sort((a, c) => c.fit - a.fit);
+  const shown = inList();
   const valuePool = strong.filter((s) => s.fit >= 75 && s.financial != null && s.financial >= 85 && s.costInr != null);
   const byValue = (a: Scored, b: Scored) => b.fit + (b.financial ?? 0) * 0.3 - (a.fit + (a.financial ?? 0) * 0.3);
   // Prefer value picks the student hasn't already seen in another group.

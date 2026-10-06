@@ -172,6 +172,205 @@
         "asOf": "2027-28",
         "notes": "Overseas, fixed for the degree."
       }
+    },
+    {
+      "slug": "bsc-politics-and-international-relations",
+      "name": "BSc Politics and International Relations",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-politics-and-international-relations",
+      "summary": "Theory and practice of politics in the contemporary world, comparing ideologies and systems; 12 units over three years plus LSE100.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "international-relations"
+      ]
+    },
+    {
+      "slug": "bsc-international-relations",
+      "name": "BSc International Relations",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-relations",
+      "summary": "The functioning, history and theory of the international system; 12 units over three years plus LSE100.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ]
+    },
+    {
+      "slug": "bsc-international-relations-and-history",
+      "name": "BSc International Relations and History",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-relations-and-history",
+      "summary": "International relations studied with international history.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "history"
+      ]
+    },
+    {
+      "slug": "bsc-politics",
+      "name": "BSc Politics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-politics",
+      "summary": "Single honours politics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "llb-bachelor-of-laws",
+      "name": "LLB Bachelor of Laws",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/llb-bachelor-of-laws",
+      "summary": "Law from a social science perspective — its impact on society, politics, economics and business; 12 units plus LSE100.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bsc-sociology",
+      "name": "BSc Sociology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-sociology",
+      "summary": "Big questions about inclusive societies; 12 units over three years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "ba-history",
+      "name": "BA History",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/ba-history",
+      "summary": "International perspective on the past from the 15th century to today, with a 10,000-word dissertation.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bsc-history-and-politics",
+      "name": "BSc History and Politics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-history-and-politics",
+      "summary": "History studied with politics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ]
+    },
+    {
+      "slug": "bsc-philosophy-politics-and-economics",
+      "name": "BSc Philosophy, Politics and Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-philosophy-politics-and-economics",
+      "summary": "Four-year PPE: all three subjects studied for the first three years, then a Capstone course with external organisations.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science",
+        "economics"
+      ]
+    },
+    {
+      "slug": "bsc-politics-and-philosophy",
+      "name": "BSc Politics and Philosophy",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-politics-and-philosophy",
+      "summary": "Politics studied with philosophy.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "philosophy"
+      ]
     }
   ],
   "details": {
@@ -265,6 +464,76 @@
       "url": "https://www.lse.ac.uk/student-life/accommodation/apply",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "LSE — BSc Politics and International Relations",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-politics-and-international-relations",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s7",
+      "label": "LSE — BSc International Relations",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-relations",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "LSE — BSc International Relations and History",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-international-relations-and-history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "LSE — BSc Politics",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-politics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "LSE — LLB Bachelor of Laws",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/llb-bachelor-of-laws",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "LSE — BSc Sociology",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-sociology",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "LSE — BA History",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/ba-history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "LSE — BSc History and Politics",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-history-and-politics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "LSE — BSc Philosophy, Politics and Economics",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-philosophy-politics-and-economics",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "LSE — BSc Politics and Philosophy",
+      "url": "https://www.lse.ac.uk/study-at-lse/undergraduate/bsc-politics-and-philosophy",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

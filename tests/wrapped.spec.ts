@@ -153,3 +153,39 @@ describe("degree → college mapping", () => {
     }
   });
 });
+
+describe("balanced, full university lists", () => {
+  const HUMANITIES = complete({
+    talk: ["history", "literature", "politics"], math: 3, essay: 9, careers: ["writer", "diplomat", "law"], projects: ["story", "policy", "fundraiser"], saturday: ["read", "museum"],
+    home: "chennai", distance: "india-abroad", regions: ["uk", "europe"], gendered: "coed", budget: "50+", loan: "worth", board: "CBSE", stream: "humanities", marks: "90",
+  });
+  const ENGINEER = complete({
+    talk: ["maths", "physics", "computers"], math: 9, careers: ["engineer", "research"], projects: ["app", "robot", "disease"], saturday: ["build", "code"],
+    home: "chennai", distance: "india-abroad", regions: ["usa", "uk"], gendered: "coed", budget: "50+", loan: "worth", board: "CBSE", stream: "pcm", marks: "95", exams: ["JEE", "SAT"],
+  });
+
+  it("mixes Indian and international universities for a student open to both", () => {
+    for (const a of [HUMANITIES, ENGINEER]) {
+      const all = cards(computeWrapped(a, UNIS, TODAY));
+      const abroad = all.filter((c) => c.flag !== "🇮🇳").length;
+      expect(all.length).toBeGreaterThanOrEqual(8);
+      expect(abroad).toBeGreaterThanOrEqual(4);
+      expect(all.length - abroad).toBeGreaterThanOrEqual(4);
+    }
+  });
+
+  it("finds humanities degrees abroad, not only in India", () => {
+    const r = computeWrapped(HUMANITIES, UNIS, TODAY);
+    const abroadWhere = r.courses.flatMap((c) => c.where).filter((w) => w.flag !== "🇮🇳");
+    expect(abroadWhere.length).toBeGreaterThan(0);
+  });
+
+  it("never calls a programme MBBS or Computer Science unless its name says so", () => {
+    const r = computeWrapped(ENGINEER, UNIS, TODAY);
+    for (const c of cards(r)) {
+      if (c.degree.key === "medicine") expect(c.program.name).toMatch(/MBBS|MBChB|BDS|medicine/i);
+      if (c.degree.key === "cs") expect(c.program.name).toMatch(/computer|computing|software|information|informatics|BCA|cyber/i);
+      expect(c.program.name).not.toMatch(/online/i);
+    }
+  });
+});

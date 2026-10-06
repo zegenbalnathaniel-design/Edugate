@@ -228,6 +228,184 @@
         "asOf": "2027-28",
         "notes": "Shown on the course page for 2027-28, though Warwick also says 2027-28 overseas fees are not yet set — confirm before applying."
       }
+    },
+    {
+      "slug": "law-llb",
+      "name": "Law LLB",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/llb-law/",
+      "summary": "Three-year law degree studying legal rules in their social, political and economic context.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "english-literature-ba",
+      "name": "English Literature BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-literature/",
+      "summary": "Three-year degree in English literature.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "politics-and-international-studies-ba",
+      "name": "Politics and International Studies BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-politics-international-studies/",
+      "summary": "Politics at national and international level, with theoretical, qualitative and quantitative research skills.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "international-relations"
+      ]
+    },
+    {
+      "slug": "history-and-politics-ba",
+      "name": "History and Politics BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-history-politics/",
+      "summary": "How historical events and political forces shape society, institutions and global interactions.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ]
+    },
+    {
+      "slug": "philosophy-ba",
+      "name": "Philosophy BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-philosophy/",
+      "summary": "Major questions such as the nature of the mind and of freedom.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "politics-philosophy-and-law-ppl-ba",
+      "name": "Politics, Philosophy and Law (PPL) BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-politics-philosophy-law/",
+      "summary": "Politics, philosophy and law studied together.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science",
+        "philosophy"
+      ]
+    },
+    {
+      "slug": "film-studies-ba",
+      "name": "Film Studies BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-film-studies/",
+      "summary": "Film and television history, theory, analysis and interpretation.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "performing-arts"
+      ]
+    },
+    {
+      "slug": "film-and-literature-ba",
+      "name": "Film and Literature BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-film-literature/",
+      "summary": "Film studied alongside literature.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "languages-literature"
+      ]
+    },
+    {
+      "slug": "psychology-bsc",
+      "name": "Psychology BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-psychology/",
+      "summary": "British Psychological Society-accredited psychology degree with an emphasis on practical work.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -320,6 +498,69 @@
       "url": "https://warwick.ac.uk/fac/soc/economics/news/2024/10/graduate_outcomes_success_for_warwick_economics_students/",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "University of Warwick — Law LLB",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/llb-law/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "University of Warwick — English Literature BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-english-literature/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "University of Warwick — Politics and International Studies BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-politics-international-studies/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "University of Warwick — History and Politics BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-history-politics/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "University of Warwick — Philosophy BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-philosophy/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "University of Warwick — Politics, Philosophy and Law (PPL) BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-politics-philosophy-law/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "University of Warwick — Film Studies BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-film-studies/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "University of Warwick — Film and Literature BA",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/ba-film-literature/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "University of Warwick — Psychology BSc",
+      "url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-psychology/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

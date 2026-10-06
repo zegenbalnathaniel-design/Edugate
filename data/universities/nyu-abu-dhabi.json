@@ -207,6 +207,135 @@
         "confidence": "official",
         "asOf": "2026-27"
       }
+    },
+    {
+      "slug": "film-and-new-media",
+      "name": "Film and New Media",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/film-and-new-media-major.html",
+      "summary": "Making and understanding documentary, experimental, narrative and interactive film and new media.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "performing-arts"
+      ]
+    },
+    {
+      "slug": "political-science",
+      "name": "Political Science",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "summary": "Social Science major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "literature-and-creative-writing",
+      "name": "Literature and Creative Writing",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "summary": "Arts and Humanities major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "summary": "Arts and Humanities major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "summary": "Science major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "theater",
+      "name": "Theater",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "summary": "Arts and Humanities major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "summary": "Science major.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -344,6 +473,55 @@
       "url": "https://nyuad.nyu.edu/en/apply/undergraduate/scholarships-and-financial-aid/apply-for-financial-aid.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "label": "NYU Abu Dhabi — Film and New Media",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/film-and-new-media-major.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s7",
+      "label": "NYU Abu Dhabi — Political Science",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "NYU Abu Dhabi — Literature and Creative Writing",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "NYU Abu Dhabi — History",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "NYU Abu Dhabi — Psychology",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "NYU Abu Dhabi — Theater",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "NYU Abu Dhabi — Biology",
+      "url": "https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

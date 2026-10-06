@@ -193,6 +193,45 @@
         "asOf": "2027",
         "notes": "Indicative first-year fee."
       }
+    },
+    {
+      "slug": "bachelor-of-design",
+      "name": "Bachelor of Design",
+      "degree": "BDes",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-design/",
+      "summary": "Fourteen majors across the built environment, design, engineering, IT and the performing and visual arts.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "architecture"
+      ]
+    },
+    {
+      "slug": "bachelor-of-science-psychology-major",
+      "name": "Bachelor of Science (Psychology major)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/major/psychology/",
+      "summary": "Psychology major with an APAC-accredited sequence, also available in the Bachelor of Arts and Bachelor of Biomedicine.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -254,6 +293,20 @@
       "url": "https://scholarships.unimelb.edu.au/awards/international-undergraduate-merit-scholarships",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "University of Melbourne — Bachelor of Design",
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-design/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "University of Melbourne — Bachelor of Science (Psychology major)",
+      "url": "https://study.unimelb.edu.au/find/courses/major/psychology/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

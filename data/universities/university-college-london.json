@@ -200,6 +200,275 @@
       ],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "history-ba",
+      "name": "History BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/history-ba-2026",
+      "summary": "Ancient, medieval and modern history across a wide range of regions and periods.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 32000,
+          "max": 32000,
+          "period": "year"
+        },
+        "sourceId": "s9",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Overseas tuition."
+      }
+    },
+    {
+      "slug": "philosophy-ba",
+      "name": "Philosophy BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/philosophy-ba-2026",
+      "summary": "Covers the major areas of philosophy, including moral and political philosophy, metaphysics, epistemology and logic.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 32000,
+          "max": 32000,
+          "period": "year"
+        },
+        "sourceId": "s10",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Overseas tuition."
+      }
+    },
+    {
+      "slug": "law-llb",
+      "name": "Law LLB",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/laws/study/undergraduate/llb-law",
+      "summary": "Three-year Bachelor of Laws (Honours) from UCL Laws.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "archaeology-ba",
+      "name": "Archaeology BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/archaeology-ba-2026",
+      "summary": "Three-year degree with fieldwork in excavation, museum work and digital projects.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "archaeology-and-anthropology-ba",
+      "name": "Archaeology and Anthropology BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/archaeology-and-anthropology-ba",
+      "summary": "Archaeology studied alongside anthropology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "sociology"
+      ]
+    },
+    {
+      "slug": "fine-art-ba",
+      "name": "Fine Art BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/fine-art-ba-2026",
+      "summary": "Four-year practice-based degree at the Slade School of Fine Art: painting, fine art media and sculpture, with history and theory of art.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "french-and-film-studies-ba",
+      "name": "French and Film Studies BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/french-and-film-studies-ba",
+      "summary": "French language and culture studied with film.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "media"
+      ]
+    },
+    {
+      "slug": "psychology-bsc",
+      "name": "Psychology BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/psychology-bsc",
+      "summary": "Three-year full-time study of fundamental questions about the mind.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "psychology-and-language-sciences-bsc",
+      "name": "Psychology and Language Sciences BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/psychology-and-language-sciences-bsc-2026",
+      "summary": "Psychology combined with the study of language and communication.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "languages-literature"
+      ]
+    },
+    {
+      "slug": "architectural-and-interdisciplinary-studies-bsc",
+      "name": "Architectural and Interdisciplinary Studies BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/architectural-and-interdisciplinary-studies-bsc",
+      "summary": "Offered by the Bartlett School of Architecture.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "international-social-and-political-studies-ba",
+      "name": "International Social and Political Studies BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/international-social-and-political-studies-ba",
+      "summary": "International social and political studies.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "international-relations"
+      ]
+    },
+    {
+      "slug": "physics-bsc",
+      "name": "Physics BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/physics-bsc-2026",
+      "summary": "Three-year physics degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "mathematics-msci",
+      "name": "Mathematics MSci",
+      "degree": "MSci",
+      "level": "integrated",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/mathematics-msci-2026",
+      "summary": "Four-year integrated master's in mathematics.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -293,6 +562,97 @@
       "url": "https://www.ucl.ac.uk/careers/case-studies/2025/aug/what-are-ucls-2022-23-graduates-doing-now",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "label": "UCL — History BA",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/history-ba-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "UCL — Philosophy BA",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/philosophy-ba-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "UCL — Law LLB",
+      "url": "https://www.ucl.ac.uk/laws/study/undergraduate/llb-law",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "UCL — Archaeology BA",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/archaeology-ba-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "UCL — Archaeology and Anthropology BA",
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/archaeology-and-anthropology-ba",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "UCL — Fine Art BA",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/fine-art-ba-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "UCL — French and Film Studies BA",
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/french-and-film-studies-ba",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s16",
+      "label": "UCL — Psychology BSc",
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/psychology-bsc",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s17",
+      "label": "UCL — Psychology and Language Sciences BSc",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/psychology-and-language-sciences-bsc-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s18",
+      "label": "UCL — Architectural and Interdisciplinary Studies BSc",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/architectural-and-interdisciplinary-studies-bsc",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s19",
+      "label": "UCL — International Social and Political Studies BA",
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/international-social-and-political-studies-ba",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s20",
+      "label": "UCL — Physics BSc",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/physics-bsc-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s21",
+      "label": "UCL — Mathematics MSci",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/mathematics-msci-2026",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

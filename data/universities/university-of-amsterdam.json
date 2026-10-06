@@ -258,6 +258,141 @@
         "asOf": "2026-27",
         "notes": "Faculty of Economics and Business institutional fee (non-EEA)."
       }
+    },
+    {
+      "slug": "psychology-bsc",
+      "name": "Psychology (BSc)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/programmes/bachelors/psychology/psychology.html",
+      "summary": "Three-year English-taught psychology bachelor's (180 ECTS).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "literary-and-cultural-analysis-literary-studies-ba",
+      "name": "Literary and Cultural Analysis (Literary Studies) BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/programmes/bachelors/literary-and-cultural-analysis-literary-studies/literary-studies-literary-and-cultural-analysis.html",
+      "summary": "Three-year English-taught literary studies bachelor's (180 ECTS).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "english-language-and-culture-ba",
+      "name": "English Language and Culture BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/programmes/bachelors/english-language-and-culture/english-language-and-culture.html",
+      "summary": "English language, literature and culture.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "media-and-culture-ba",
+      "name": "Media and Culture BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/programmes/bachelors/media-and-culture/media-and-culture.html",
+      "summary": "English-taught bachelor's on the global media landscape (180 ECTS).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "archaeology-ba",
+      "name": "Archaeology BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/programmes/bachelors/archaeology/archaeology.html",
+      "summary": "English-taught: excavate and study the material remains of human activity and past societies.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "ancient-studies-ba",
+      "name": "Ancient Studies BA",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/programmes/bachelors/ancient-studies/ancient-studies.html",
+      "summary": "English-taught study of the ancient world.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "communication-science-bsc-english-taught",
+      "name": "Communication Science BSc (English-taught)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-of-social-and-behavioural-sciences/education/communication-science/bachelors.html",
+      "summary": "Communication science, offered in an English-taught version.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "sociology"
+      ]
     }
   ],
   "details": {
@@ -403,6 +538,55 @@
       "url": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/selection-procedure/selection-procedure.html",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "University of Amsterdam — Psychology (BSc)",
+      "url": "https://www.uva.nl/en/programmes/bachelors/psychology/psychology.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "University of Amsterdam — Literary and Cultural Analysis (Literary Studies) BA",
+      "url": "https://www.uva.nl/en/programmes/bachelors/literary-and-cultural-analysis-literary-studies/literary-studies-literary-and-cultural-analysis.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "University of Amsterdam — English Language and Culture BA",
+      "url": "https://www.uva.nl/en/programmes/bachelors/english-language-and-culture/english-language-and-culture.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "University of Amsterdam — Media and Culture BA",
+      "url": "https://www.uva.nl/en/programmes/bachelors/media-and-culture/media-and-culture.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s16",
+      "label": "University of Amsterdam — Archaeology BA",
+      "url": "https://www.uva.nl/en/programmes/bachelors/archaeology/archaeology.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s17",
+      "label": "University of Amsterdam — Ancient Studies BA",
+      "url": "https://www.uva.nl/en/programmes/bachelors/ancient-studies/ancient-studies.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s18",
+      "label": "University of Amsterdam — Communication Science BSc (English-taught)",
+      "url": "https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-of-social-and-behavioural-sciences/education/communication-science/bachelors.html",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

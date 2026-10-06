@@ -587,6 +587,84 @@
         "asOf": "2026-27",
         "notes": "Faculty of Science, international, 30 credits (CAD 1,769.40 per credit)."
       }
+    },
+    {
+      "slug": "political-science-ba",
+      "name": "Political Science (BA)",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://you.ubc.ca/ubc_programs/political-science-vancouver/",
+      "summary": "Bachelor of Arts major at the Vancouver campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "film-production-bfa",
+      "name": "Film Production (BFA)",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://you.ubc.ca/ubc_programs/film-production/",
+      "summary": "Four years of filmmaking technique, practice and theory, with documentary, alternative cinema and screenwriting options.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "performing-arts"
+      ]
+    },
+    {
+      "slug": "biology-bsc",
+      "name": "Biology (BSc)",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://you.ubc.ca/ubc_programs/biology-vancouver/",
+      "summary": "Four-year BSc with a co-op option; specialisations from animal to evolutionary and chemical biology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-design-in-architecture-landscape-architecture-and-urbanism",
+      "name": "Bachelor of Design in Architecture, Landscape Architecture, and Urbanism",
+      "degree": "BDes",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://sala.ubc.ca/program/bachelor-of-design-in-architecture-landscape-architecture-and-urbanism/",
+      "summary": "Four-year, 133-credit interdisciplinary design degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "design"
+      ]
     }
   ],
   "sources": [
@@ -687,6 +765,34 @@
       "url": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s16",
+      "label": "UBC — Political Science (BA)",
+      "url": "https://you.ubc.ca/ubc_programs/political-science-vancouver/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s17",
+      "label": "UBC — Film Production (BFA)",
+      "url": "https://you.ubc.ca/ubc_programs/film-production/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s18",
+      "label": "UBC — Biology (BSc)",
+      "url": "https://you.ubc.ca/ubc_programs/biology-vancouver/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s19",
+      "label": "UBC — Bachelor of Design in Architecture, Landscape Architecture, and Urbanism",
+      "url": "https://sala.ubc.ca/program/bachelor-of-design-in-architecture-landscape-architecture-and-urbanism/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03",

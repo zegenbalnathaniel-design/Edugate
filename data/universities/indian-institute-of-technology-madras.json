@@ -2588,7 +2588,8 @@
         "confidence": "high",
         "asOf": null,
         "notes": "Total for the full BS (142 credits); depends on courses taken."
-      }
+      },
+      "mode": "online"
     },
     {
       "slug": "bs-ms-physics",

@@ -345,6 +345,8 @@ export type CourseCategory = {
   primary: Field[];
   name?: RegExp;
   exclude?: RegExp;
+  /** Only programmes whose name says so count (a "Medical Sciences and Engineering" degree is not MBBS). */
+  strict?: boolean;
 };
 
 export const COURSES: CourseCategory[] = [
@@ -354,22 +356,22 @@ export const COURSES: CourseCategory[] = [
   { key: "commerce", label: "Commerce (B.Com)", emoji: "🧾", subjects: ["commerce", "finance", "business"], primary: ["commerce"], name: /\bB\.?\s?Com\b|commerce/i },
   { key: "business", label: "Business Management", emoji: "💼", subjects: ["business", "commerce"], primary: ["business"], name: /\bBBA\b|B\.B\.A|business|management/i, exclude: /hotel|hospital(?!ity)/i },
   { key: "analytics", label: "Business Analytics", emoji: "📊", subjects: ["business", "data-science", "statistics"], needs: "maths", primary: [], name: /analytics|business intelligence/i },
-  { key: "cs", label: "Computer Science", emoji: "💻", subjects: ["computer-science", "mathematics"], needs: "maths", primary: ["computer-science"], name: /computer science|computing|\bBCA\b|B\.C\.A|software|information technology/i },
+  { key: "cs", label: "Computer Science", emoji: "💻", subjects: ["computer-science", "mathematics"], needs: "maths", primary: ["computer-science"], name: /computer science|computing|\bBCA\b|B\.C\.A|software|information technology|informatics|computer (and|&) |computer engineering|computer applications|cyber/i, strict: true },
   { key: "ai", label: "Data Science & AI", emoji: "🤖", subjects: ["data-science", "computer-science", "statistics"], needs: "maths", primary: ["data-science"], name: /data science|artificial intelligence|machine learning|data analytics/i },
   { key: "engineering", label: "Engineering", emoji: "⚙️", subjects: ["engineering", "physics", "mathematics"], needs: "pcm", primary: ["engineering"], name: /engineering|B\.?\s?Tech|B\.E\./i },
   { key: "maths", label: "Mathematics & Statistics", emoji: "🧮", subjects: ["mathematics", "statistics"], needs: "maths", primary: ["mathematics", "statistics"], name: /mathemat|statistic/i },
   { key: "physics", label: "Physics", emoji: "⚛️", subjects: ["physics", "mathematics"], needs: "pcm", primary: ["physics"], name: /physics/i },
   { key: "chemistry", label: "Chemistry", emoji: "🧪", subjects: ["chemistry", "physics"], primary: ["chemistry"], name: /chemistry/i },
   { key: "bio", label: "Life Sciences & Biotechnology", emoji: "🧬", subjects: ["biology", "biotechnology", "chemistry"], needs: "biology", primary: ["biology", "biotechnology"] },
-  { key: "medicine", label: "Medicine (MBBS)", emoji: "🩺", subjects: ["medicine", "biology"], needs: "biology", primary: ["medicine"], name: /\bMBBS\b|\bBDS\b|medicine/i },
+  { key: "medicine", label: "Medicine (MBBS)", emoji: "🩺", subjects: ["medicine", "biology"], needs: "biology", primary: ["medicine"], name: /\bMBBS\b|\bMBChB\b|\bBDS\b|bachelor of medicine|\bmedicine\b|dental surgery/i, strict: true },
   { key: "health", label: "Nursing & Allied Health", emoji: "🏥", subjects: ["nursing", "allied-health", "biology"], needs: "biology", primary: ["nursing", "allied-health"] },
   { key: "pharmacy", label: "Pharmacy", emoji: "💊", subjects: ["pharmacy", "chemistry"], primary: ["pharmacy"] },
   { key: "psychology", label: "Psychology", emoji: "🧠", subjects: ["psychology", "sociology"], primary: ["psychology"], name: /psycholog/i },
   { key: "law", label: "Law", emoji: "⚖️", subjects: ["law", "political-science"], primary: ["law"], name: /\bLL\.?B|\blaw\b/i },
   { key: "politics", label: "Political Science", emoji: "🗳️", subjects: ["political-science", "history", "economics"], tags: ["politics"], primary: ["political-science"], name: /politic|public policy|governance/i },
   { key: "ir", label: "International Relations", emoji: "🌐", subjects: ["international-relations", "political-science"], tags: ["ir"], primary: ["international-relations"], name: /international relations|international studies|global affairs|diplomacy/i },
-  { key: "history", label: "History", emoji: "📜", subjects: ["history", "humanities"], primary: ["history"], name: /histor/i },
-  { key: "archaeology", label: "Archaeology & Ancient History", emoji: "🏺", subjects: ["history", "humanities"], tags: ["archaeology", "museums"], primary: [], name: /archaeolog|ancient|classics|egyptolog|heritage/i },
+  { key: "history", label: "History", emoji: "📜", subjects: ["history", "humanities"], primary: ["history"], name: /histor/i, strict: true },
+  { key: "archaeology", label: "Archaeology & Ancient History", emoji: "🏺", subjects: ["history", "humanities"], tags: ["archaeology", "museums"], primary: [], name: /archaeolog|ancient|classics|classical (civilisation|civilization|studies|archaeology)|egyptolog|heritage/i },
   { key: "philosophy", label: "Philosophy", emoji: "🤔", subjects: ["philosophy", "humanities"], primary: ["philosophy"], name: /philosoph/i },
   { key: "literature", label: "English & Literature", emoji: "📚", subjects: ["languages-literature", "humanities"], tags: ["literature", "creative-writing"], primary: [], name: /literature|\benglish\b|creative writing/i },
   { key: "languages", label: "Languages & Linguistics", emoji: "🗣️", subjects: ["languages-literature"], tags: ["languages"], primary: [], name: /linguistic|french|german|spanish|japanese|chinese|hindi|tamil|sanskrit|arabic|urdu|telugu|malayalam|languages/i },
@@ -422,8 +424,9 @@ export function programAlignment(prog: { name: string; specialization?: string |
   const text = stripMedium([prog.name, prog.specialization].filter(Boolean).join(" · "));
   if (c.exclude?.test(text)) return 0;
   const named = !!c.name?.test(text);
+  if (c.strict && !named) return 0;
   // The programme's main subject IS this degree.
-  if (c.primary.includes(subjects[0]) && (named || !c.name || c.primary.length > 0)) return 1;
+  if (c.primary.includes(subjects[0])) return 1;
   if (named) {
     // Name-defined degrees (film, archaeology, literature…) count on the name alone.
     if (!c.primary.length) return 1;

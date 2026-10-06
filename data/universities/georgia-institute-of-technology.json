@@ -234,6 +234,24 @@
         "asOf": "2026-27",
         "notes": "Out-of-country tuition."
       }
+    },
+    {
+      "slug": "mechanical-engineering-bs",
+      "name": "Mechanical Engineering (BS)",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/mechanical-engineering-bs",
+      "summary": "ABET-accredited mechanical engineering.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -370,6 +388,13 @@
       "url": "https://admission.gatech.edu/international/first-year",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Georgia Tech — Mechanical Engineering (BS)",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/mechanical-engineering-bs",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

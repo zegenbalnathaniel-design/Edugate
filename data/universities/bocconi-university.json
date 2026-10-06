@@ -211,6 +211,27 @@
         "asOf": "2026-27",
         "notes": "First-year tuition and fees."
       }
+    },
+    {
+      "slug": "bsc-in-international-politics-and-government",
+      "name": "BSc in International Politics and Government",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/international-politics-and-government",
+      "summary": "Bocconi's first political science bachelor's: economic and political systems from an international perspective, in small multicultural classes.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "international-relations"
+      ]
     }
   ],
   "details": {
@@ -282,6 +303,13 @@
       "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding/80-60-partial-tuition-waivers-ay-2026-27",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "Bocconi University — BSc in International Politics and Government",
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/international-politics-and-government",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

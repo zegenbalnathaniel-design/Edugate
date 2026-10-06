@@ -208,7 +208,7 @@ export function WrappedFlow() {
         </Link>
       </header>
 
-      <main className="flex flex-1 flex-col overflow-y-auto px-4 py-8 sm:px-8">
+      <main data-lenis-prevent className="flex min-h-0 flex-1 flex-col overflow-y-auto overscroll-contain px-4 py-8 sm:px-8">
         <AnimatePresence mode="wait">
           {stage === "intro" && (
             <motion.div key="intro" {...motionProps} transition={{ duration: 0.4 }} className="mx-auto my-auto w-full max-w-4xl">

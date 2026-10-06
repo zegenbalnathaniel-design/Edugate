@@ -229,6 +229,179 @@
         "asOf": "2027-28",
         "notes": "Overseas tuition; college fee extra."
       }
+    },
+    {
+      "slug": "law-ba-hons",
+      "name": "Law, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/law-ba-hons",
+      "summary": "Law in its historical and social contexts; prepares for qualification as a solicitor or barrister.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "history-ba-hons",
+      "name": "History, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/history-ba-hons",
+      "summary": "A broad course exploring the past from many angles and its links with politics, anthropology, sociology, economics and archaeology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "english-ba-hons",
+      "name": "English, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/english-ba-hons",
+      "summary": "English literature from the medieval period to the present: prose, fiction, drama and poetry.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "archaeology-ba-hons",
+      "name": "Archaeology, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/archaeology-ba-hons",
+      "summary": "Archaeology, biological anthropology, Egyptology and Assyriology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
+    },
+    {
+      "slug": "human-social-and-political-sciences-ba-hons",
+      "name": "Human, Social, and Political Sciences, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/human-social-political-sciences-ba-hons",
+      "summary": "Core subjects: politics, international relations, social anthropology and sociology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "international-relations",
+        "sociology"
+      ]
+    },
+    {
+      "slug": "architecture-ba-hons-and-march",
+      "name": "Architecture, BA (Hons) and MArch",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/architecture-ba-hons-march",
+      "summary": "History and philosophy of architecture, urbanism, construction, structural and environmental design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "natural-sciences-ba-hons-and-msci",
+      "name": "Natural Sciences, BA (Hons) and MSci",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/natural-sciences-ba-hons-msci",
+      "summary": "Physical and biological sciences from 14 departments before specialising.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "physics",
+        "chemistry"
+      ]
+    },
+    {
+      "slug": "psychological-and-behavioural-sciences-ba-hons",
+      "name": "Psychological and Behavioural Sciences, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/psychological-behavioural-sciences-ba-hons",
+      "summary": "Cognitive, social, developmental and biological psychology within the behavioural sciences.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "linguistics-ba-hons",
+      "name": "Linguistics, BA (Hons)",
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/linguistics-ba-hons",
+      "summary": "The scientific study of language.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "details": {
@@ -407,6 +580,69 @@
       "url": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-05/ug_admissions_statistics_2025_cycle.pdf",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "University of Cambridge — Law, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/law-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "University of Cambridge — History, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/history-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "University of Cambridge — English, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/english-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "University of Cambridge — Archaeology, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/archaeology-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s16",
+      "label": "University of Cambridge — Human, Social, and Political Sciences, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/human-social-political-sciences-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s17",
+      "label": "University of Cambridge — Architecture, BA (Hons) and MArch",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/architecture-ba-hons-march",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s18",
+      "label": "University of Cambridge — Natural Sciences, BA (Hons) and MSci",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/natural-sciences-ba-hons-msci",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s19",
+      "label": "University of Cambridge — Psychological and Behavioural Sciences, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/psychological-behavioural-sciences-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s20",
+      "label": "University of Cambridge — Linguistics, BA (Hons)",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/linguistics-ba-hons",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

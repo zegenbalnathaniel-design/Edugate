@@ -486,6 +486,183 @@
         "asOf": "2027 entry",
         "notes": "Course page lists GBP 44,800 Overseas for 2027 entry."
       }
+    },
+    {
+      "slug": "mechanical-engineering-meng",
+      "name": "Mechanical Engineering MEng",
+      "degree": "MEng",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mechanical-engineering/",
+      "summary": "Four-year course: solid mechanics, thermofluids and mechatronics, with hands-on workshop sessions.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "chemistry-bsc",
+      "name": "Chemistry BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/chemistry-bsc/",
+      "summary": "Inorganic, organic, physical, analytical, synthetic and computational chemistry with an extensive lab programme.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "AAA",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s26",
+          "confidence": "official",
+          "asOf": "2027 entry"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 points",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s26",
+          "confidence": "official",
+          "asOf": "2027 entry"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "physics-bsc",
+      "name": "Physics BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/physics-bsc/",
+      "summary": "Mechanics, relativity and quantum physics through modules, lab work and projects.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*A*A",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s27",
+          "confidence": "official",
+          "asOf": "2027 entry"
+        },
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "40 points",
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s27",
+          "confidence": "official",
+          "asOf": "2027 entry"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "mathematics-bsc",
+      "name": "Mathematics BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mathematics-bsc/",
+      "summary": "Algebra, analysis, probability and statistics, with over 50 specialised modules.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "biological-sciences-bsc",
+      "name": "Biological Sciences BSc",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biological-sciences/",
+      "summary": "Living systems from molecules to ecosystems, ending with an extensive research project.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "medicine-mbbs-bsc",
+      "name": "Medicine MBBS/BSc",
+      "degree": "MBBS/BSc",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 6,
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
+      "summary": "Six-year integrated course awarding both an MBBS and a BSc.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "A*AA",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Chemistry",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s30",
+          "confidence": "official",
+          "asOf": "2027 entry"
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology"
+      ]
     }
   ],
   "sources": [
@@ -628,6 +805,48 @@
       "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s25",
+      "label": "Imperial College London — Mechanical Engineering MEng",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mechanical-engineering/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s26",
+      "label": "Imperial College London — Chemistry BSc",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/chemistry-bsc/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s27",
+      "label": "Imperial College London — Physics BSc",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/physics-bsc/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s28",
+      "label": "Imperial College London — Mathematics BSc",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mathematics-bsc/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s29",
+      "label": "Imperial College London — Biological Sciences BSc",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/biological-sciences/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s30",
+      "label": "Imperial College London — Medicine MBBS/BSc",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03",

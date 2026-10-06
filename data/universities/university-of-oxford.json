@@ -253,6 +253,63 @@
         "asOf": null,
         "notes": "2027-28 overseas fee for Computer Science not confirmed; overseas fees range £39,620–£66,580."
       }
+    },
+    {
+      "slug": "law-jurisprudence",
+      "name": "Law (Jurisprudence)",
+      "degree": "BA (equivalent to LLB)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence",
+      "summary": "Course I is the standard three-year law course; Course II (Law with Law Studies in Europe) takes four years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/history",
+      "summary": "More than one hundred options spanning all areas of the globe and 1,500 years.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "classical-archaeology-and-ancient-history",
+      "name": "Classical Archaeology and Ancient History",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classical-archaeology-and-ancient-history",
+      "summary": "The history, archaeology and art of the classical world, centred on Greece and Rome.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "humanities"
+      ]
     }
   ],
   "details": {
@@ -442,6 +499,27 @@
       "url": "https://www.ox.ac.uk/admissions/undergraduate/college-life/college-listing",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "University of Oxford — Law (Jurisprudence)",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s14",
+      "label": "University of Oxford — History",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "University of Oxford — Classical Archaeology and Ancient History",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/classical-archaeology-and-ancient-history",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

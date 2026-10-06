@@ -194,6 +194,120 @@
         "asOf": "2026-27",
         "notes": "International, without the Tuition Grant."
       }
+    },
+    {
+      "slug": "bachelor-of-engineering-mechanical-engineering",
+      "name": "Bachelor of Engineering (Mechanical Engineering)",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Mechanical engineering degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-science-in-physics",
+      "name": "Bachelor of Science in Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Physics (or Applied Physics) degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-science-in-chemistry-biological-chemistry",
+      "name": "Bachelor of Science in Chemistry & Biological Chemistry",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Chemistry and biological chemistry degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology"
+      ]
+    },
+    {
+      "slug": "bachelor-of-science-in-mathematical-sciences",
+      "name": "Bachelor of Science in Mathematical Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Mathematical sciences degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-science-in-biological-sciences",
+      "name": "Bachelor of Science in Biological Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "summary": "Biological sciences degree.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "bachelor-of-medicine-and-bachelor-of-surgery-mbbs",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+      "degree": "MBBS",
+      "level": "bachelors",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 5,
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/medicine",
+      "summary": "Five-year MBBS at the Lee Kong Chian School of Medicine, awarded by NTU.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "biology"
+      ]
     }
   ],
   "details": {
@@ -298,6 +412,48 @@
       "url": "https://www.ntu.edu.sg/admissions/undergraduate/freshmen/freshmen-info/faq-for-international-freshmen",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "NTU Singapore — Bachelor of Engineering (Mechanical Engineering)",
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "NTU Singapore — Bachelor of Science in Physics",
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "NTU Singapore — Bachelor of Science in Chemistry & Biological Chemistry",
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s11",
+      "label": "NTU Singapore — Bachelor of Science in Mathematical Sciences",
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "label": "NTU Singapore — Bachelor of Science in Biological Sciences",
+      "url": "https://www.ntu.edu.sg/education/degree-programmes",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s13",
+      "label": "NTU Singapore — Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/medicine",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03"

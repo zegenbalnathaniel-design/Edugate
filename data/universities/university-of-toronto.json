@@ -381,6 +381,156 @@
         "asOf": "2026-27",
         "notes": "Year 1 at the general Arts & Science rate (CAD 66,110); upper years of Computer Science are charged a differentiated fee — CAD 69,030 in 2026-27 for students who entered in 2025."
       }
+    },
+    {
+      "slug": "cinema-studies-hba",
+      "name": "Cinema Studies (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/program/cinema-studies",
+      "summary": "Major, minor or specialist in the Faculty of Arts & Science (UTM and St. George).",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "history-hba",
+      "name": "History (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/undergraduate-programs/history/",
+      "summary": "Major, minor or specialist at all three campuses, with experiential learning.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "political-science-hba",
+      "name": "Political Science (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/undergraduate-programs/political-science/",
+      "summary": "Major, minor or specialist at all three campuses.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "international-relations-hba",
+      "name": "International Relations (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/program/international-relations",
+      "summary": "Major or specialist at the St. George campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "political-science"
+      ]
+    },
+    {
+      "slug": "psychology-hbsc",
+      "name": "Psychology (HBSc)",
+      "degree": "HBSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/undergraduate-programs/psychology",
+      "summary": "Major, minor or specialist at all three campuses.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "architectural-studies-hba",
+      "name": "Architectural Studies (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/undergraduate-programs/architectural-studies/",
+      "summary": "Specialist programme at the Daniels Faculty, St. George campus.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "alsoFields": [
+        "design"
+      ]
+    },
+    {
+      "slug": "english-hba",
+      "name": "English (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/program/english",
+      "summary": "Literature, language and cultural studies in the Faculty of Arts & Science.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
+    },
+    {
+      "slug": "philosophy-hba",
+      "name": "Philosophy (HBA)",
+      "degree": "HBA",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://future.utoronto.ca/undergraduate-programs/philosophy",
+      "summary": "Philosophy in the Faculty of Arts & Science.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null
     }
   ],
   "sources": [
@@ -495,6 +645,62 @@
       "url": "https://future.utoronto.ca/housing",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s19",
+      "label": "University of Toronto — Cinema Studies (HBA)",
+      "url": "https://future.utoronto.ca/program/cinema-studies",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s20",
+      "label": "University of Toronto — History (HBA)",
+      "url": "https://future.utoronto.ca/undergraduate-programs/history/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s21",
+      "label": "University of Toronto — Political Science (HBA)",
+      "url": "https://future.utoronto.ca/undergraduate-programs/political-science/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s22",
+      "label": "University of Toronto — International Relations (HBA)",
+      "url": "https://future.utoronto.ca/program/international-relations",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s23",
+      "label": "University of Toronto — Psychology (HBSc)",
+      "url": "https://future.utoronto.ca/undergraduate-programs/psychology",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s24",
+      "label": "University of Toronto — Architectural Studies (HBA)",
+      "url": "https://future.utoronto.ca/undergraduate-programs/architectural-studies/",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s25",
+      "label": "University of Toronto — English (HBA)",
+      "url": "https://future.utoronto.ca/program/english",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s26",
+      "label": "University of Toronto — Philosophy (HBA)",
+      "url": "https://future.utoronto.ca/undergraduate-programs/philosophy",
+      "type": "university",
+      "retrievedAt": "2026-10-06"
     }
   ],
   "lastVerified": "2026-10-03",
