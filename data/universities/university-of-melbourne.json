@@ -239,6 +239,972 @@
       "tests": [],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Science is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Commerce is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "arts",
+      "name": "Arts",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "liberal-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Arts is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "biomedicine",
+      "name": "Biomedicine",
+      "degree": "BBiomed",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Biomedicine is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "degree": "BDes",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Design is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "degree": "BMus",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Music is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "fine-arts",
+      "name": "Fine Arts",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Fine Arts is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "agriculture",
+      "name": "Agriculture",
+      "degree": "BAgr",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Agriculture is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "environments",
+      "name": "Environments",
+      "degree": "BEnv",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Environments is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "oral-health",
+      "name": "Oral Health",
+      "degree": "BOH",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Oral Health is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "computing-and-software-systems",
+      "name": "Computing and Software Systems",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Computing and Software Systems is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "data-science",
+      "name": "Data Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Data Science is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "mathematics-and-statistics",
+      "name": "Mathematics and Statistics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Mathematics and Statistics is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Economics is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Finance is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Accounting is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "management",
+      "name": "Management",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Management is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Psychology is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "politics-and-international-studies",
+      "name": "Politics and International Studies",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Politics and International Studies is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "History is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Philosophy is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "media-and-communications",
+      "name": "Media and Communications",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Media and Communications is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "criminology",
+      "name": "Criminology",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.unimelb.edu.au/find/",
+      "summary": "Criminology is an undergraduate degree listed by the University of Melbourne.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the course page for 2027 entry scores."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 56451,
+          "max": 62464,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2027",
+        "notes": "Indicative first-year fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
     }
   ],
   "details": {
@@ -321,6 +1287,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "University of Melbourne — Undergraduate Degrees",
+      "url": "https://study.unimelb.edu.au/find/",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

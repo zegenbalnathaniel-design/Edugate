@@ -302,6 +302,1672 @@
       ],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Chemical Engineering is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Civil Engineering is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Computer Science is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "electrical-and-electronics-engineering",
+      "name": "Electrical and Electronics Engineering",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Electrical and Electronics Engineering is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "electronics-and-instrumentation",
+      "name": "Electronics and Instrumentation",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Electronics and Instrumentation is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "electronics-and-communication",
+      "name": "Electronics and Communication",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Electronics and Communication is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Mechanical Engineering is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "manufacturing-engineering",
+      "name": "Manufacturing Engineering",
+      "degree": "BE",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Manufacturing Engineering is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "biological-sciences",
+      "name": "Biological Sciences",
+      "degree": "MSc",
+      "level": "integrated",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Biological Sciences is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "MSc",
+      "level": "integrated",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Chemistry is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "MSc",
+      "level": "integrated",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Economics is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "MSc",
+      "level": "integrated",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Mathematics is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "MSc",
+      "level": "integrated",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Physics is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "pharmacy",
+      "name": "Pharmacy",
+      "degree": "BPharm",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "summary": "Pharmacy is an undergraduate programme listed by BITS Pilani.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "75% aggregate in Physics, Chemistry and Mathematics, with at least 60% in each",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "60%",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Eligibility for BITSAT-2026 admission; merit is then decided by BITSAT score alone."
+        }
+      ],
+      "tests": [
+        {
+          "test": "BITSAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
     }
   ],
   "sources": [
@@ -388,6 +2054,13 @@
       "url": "https://news.careers360.com/bitsat-cut-off-2025-btech-computer-science-drops-increases-for-all-engineering-session-2-result-bits-pilani-hyderabad-goa/amp",
       "type": "secondary",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s15",
+      "label": "BITS Pilani — Admissions and Programmes",
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",

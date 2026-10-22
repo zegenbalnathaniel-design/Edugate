@@ -177,6 +177,1146 @@
         "commerce",
         "business"
       ]
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Economics is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "economics-and-finance",
+      "name": "Economics and Finance",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Economics and Finance is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "accounting-and-finance",
+      "name": "Accounting and Finance",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Accounting and Finance is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "management",
+      "name": "Management",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Management is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "international-business-finance-and-economics",
+      "name": "International Business, Finance and Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "International Business, Finance and Economics is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Computer Science is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Artificial Intelligence is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Mathematics is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "mathematics-and-statistics",
+      "name": "Mathematics and Statistics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Mathematics and Statistics is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "MPhys",
+      "level": "integrated",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Physics is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "MChem",
+      "level": "integrated",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Chemistry is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Biology is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "biomedical-sciences",
+      "name": "Biomedical Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Biomedical Sciences is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "pharmacy",
+      "name": "Pharmacy",
+      "degree": "MPharm",
+      "level": "integrated",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Pharmacy is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "degree": "MBChB",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Medicine is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "dentistry",
+      "name": "Dentistry",
+      "degree": "BDS",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Dentistry is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "nursing",
+      "name": "Nursing",
+      "degree": "BNurs",
+      "level": "bachelors",
+      "field": "nursing",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Nursing is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "MEng",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Civil Engineering is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "MEng",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Mechanical Engineering is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "electrical-and-electronic-engineering",
+      "name": "Electrical and Electronic Engineering",
+      "degree": "MEng",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Electrical and Electronic Engineering is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "MEng",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Chemical Engineering is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "aerospace-engineering",
+      "name": "Aerospace Engineering",
+      "degree": "MEng",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Aerospace Engineering is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "materials-science-and-engineering",
+      "name": "Materials Science and Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Materials Science and Engineering is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Architecture is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "planning-and-real-estate",
+      "name": "Planning and Real Estate",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Planning and Real Estate is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "law",
+      "name": "Law",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Law is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "politics-and-international-relations",
+      "name": "Politics and International Relations",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Politics and International Relations is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "History is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "english-literature",
+      "name": "English Literature",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "English Literature is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Philosophy is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Psychology is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Sociology is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "social-anthropology",
+      "name": "Social Anthropology",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Social Anthropology is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "geography",
+      "name": "Geography",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "geography",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Geography is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "earth-and-environmental-sciences",
+      "name": "Earth and Environmental Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Earth and Environmental Sciences is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "education",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Education is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "degree": "BMus",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Music is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
+    },
+    {
+      "slug": "modern-languages",
+      "name": "Modern Languages",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "summary": "Modern Languages is an undergraduate course listed by the University of Manchester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 35300,
+          "max": 35300,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2027 entry",
+        "notes": "International tuition."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s6"
     }
   ],
   "details": {},
@@ -215,6 +1355,13 @@
       "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05134/baecon-economics/entry-requirements/",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s6",
+      "label": "University of Manchester — Undergraduate Courses",
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

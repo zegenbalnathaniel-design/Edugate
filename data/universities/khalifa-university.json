@@ -266,6 +266,1836 @@
         "confidence": "official",
         "asOf": null
       }
+    },
+    {
+      "slug": "computer-engineering",
+      "name": "Computer Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Computer Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "computer-science-bsc",
+      "name": "Computer Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Computer Science is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "electrical-and-electronics-engineering",
+      "name": "Electrical and Electronics Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Electrical and Electronics Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Mechanical Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "civil-infrastructure-engineering",
+      "name": "Civil Infrastructure Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Civil Infrastructure Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Chemical Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "aerospace-engineering",
+      "name": "Aerospace Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Aerospace Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "petroleum-engineering",
+      "name": "Petroleum Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Petroleum Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Biomedical Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "industrial-and-systems-engineering",
+      "name": "Industrial and Systems Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Industrial and Systems Engineering is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "applied-mathematics-and-statistics",
+      "name": "Applied Mathematics and Statistics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Applied Mathematics and Statistics is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "applied-physics",
+      "name": "Applied Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Applied Physics is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "applied-chemistry",
+      "name": "Applied Chemistry",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Applied Chemistry is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "environmental-health-and-safety",
+      "name": "Environmental Health and Safety",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Environmental Health and Safety is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "degree": "MD",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ku.ac.ae/academics/",
+      "summary": "Medicine is an undergraduate programme listed by Khalifa University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": null,
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Physics, Chemistry or Biology",
+              "level": null,
+              "minGrade": null,
+              "status": "accepted",
+              "notes": "Optional."
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": null,
+          "notes": "Minimum grades depend on the curriculum; see the admission FAQs."
+        }
+      ],
+      "tests": [],
+      "english": [
+        {
+          "test": "IELTS",
+          "minOverall": "6.0",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        },
+        {
+          "test": "TOEFL_IBT",
+          "minOverall": "79",
+          "minSection": null,
+          "waiver": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "fees": {
+        "value": {
+          "min": 2500,
+          "max": 2500,
+          "period": "credit"
+        },
+        "sourceId": "s4",
+        "confidence": "official",
+        "asOf": null
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
     }
   ],
   "details": {
@@ -345,6 +2175,13 @@
       "url": "https://www.ku.ac.ae/partial-scholarships-for-international-students",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "label": "Khalifa University — Academic Programs",
+      "url": "https://www.ku.ac.ae/academics/",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03"

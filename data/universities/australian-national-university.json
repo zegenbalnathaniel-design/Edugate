@@ -244,6 +244,846 @@
         "philosophy",
         "economics"
       ]
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Science is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "advanced-computing-honours",
+      "name": "Advanced Computing Honours",
+      "degree": "BAdvComp(Hons)",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Advanced Computing Honours is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "information-technology",
+      "name": "Information Technology",
+      "degree": "BIT",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Information Technology is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce",
+      "degree": "BCom",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Commerce is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "BEc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Economics is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "degree": "BFin",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Finance is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "actuarial-studies",
+      "name": "Actuarial Studies",
+      "degree": "BActStud",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Actuarial Studies is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "degree": "BSt",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Statistics is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "arts",
+      "name": "Arts",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "liberal-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Arts is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "international-relations",
+      "name": "International Relations",
+      "degree": "BIR",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "International Relations is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "politics-philosophy-and-economics",
+      "name": "Politics, Philosophy and Economics",
+      "degree": "BPPE",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Politics, Philosophy and Economics is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "engineering-honours",
+      "name": "Engineering Honours",
+      "degree": "BEng(Hons)",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Engineering Honours is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "law-honours",
+      "name": "Law Honours",
+      "degree": "LLB(Hons)",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Law Honours is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "psychology-honours",
+      "name": "Psychology Honours",
+      "degree": "BPsych(Hons)",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Psychology Honours is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "health-science",
+      "name": "Health Science",
+      "degree": "BHlthSc",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Health Science is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "environment-and-sustainability",
+      "name": "Environment and Sustainability",
+      "degree": "BEnvSust",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Environment and Sustainability is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "asian-studies",
+      "name": "Asian Studies",
+      "degree": "BAsianStud",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Asian Studies is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "visual-arts",
+      "name": "Visual Arts",
+      "degree": "BVA",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Visual Arts is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "degree": "BMus",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Music is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "degree": "BPhil",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://study.anu.edu.au/programs",
+      "summary": "Philosophy is an undergraduate programme listed by the Australian National University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See ANU's IB indicative entry table (semester 1, 2027)."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 57640,
+          "max": 57640,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": null,
+        "notes": "Annual indicative international fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s10"
     }
   ],
   "details": {},
@@ -303,6 +1143,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s10",
+      "label": "Australian National University — Programs",
+      "url": "https://study.anu.edu.au/programs",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

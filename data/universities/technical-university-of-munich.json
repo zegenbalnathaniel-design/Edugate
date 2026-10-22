@@ -355,6 +355,2030 @@
         "asOf": "2026-27",
         "notes": "EUR 2,000 per semester for non-EU students (as quoted in search summary of the mgt.tum.de page). No English language certificate is required for this program; proficiency is assessed in the selection procedure. Application window for winter semester: until 15 July (generic)."
       }
+    },
+    {
+      "slug": "informatics",
+      "name": "Informatics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Informatics is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "information-systems",
+      "name": "Information Systems",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Information Systems is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Mathematics is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Physics is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Chemistry is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Mechanical Engineering is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "electrical-engineering-and-information-technology",
+      "name": "Electrical Engineering and Information Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Electrical Engineering and Information Technology is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Civil Engineering is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Architecture is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "aerospace-engineering",
+      "name": "Aerospace Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Aerospace Engineering is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "engineering-science",
+      "name": "Engineering Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Engineering Science is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "management-and-technology",
+      "name": "Management and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Management and Technology is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Biology is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "biochemistry",
+      "name": "Biochemistry",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Biochemistry is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "molecular-biotechnology",
+      "name": "Molecular Biotechnology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Molecular Biotechnology is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "nutritional-science",
+      "name": "Nutritional Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Nutritional Science is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "agricultural-science",
+      "name": "Agricultural Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Agricultural Science is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "forestry-science",
+      "name": "Forestry Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Forestry Science is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "environmental-engineering",
+      "name": "Environmental Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Environmental Engineering is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "sport-science",
+      "name": "Sport Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "sports-management",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Sport Science is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "degree": "BSc",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Medicine is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
+    },
+    {
+      "slug": "politics-and-technology",
+      "name": "Politics and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "summary": "Politics and Technology is a Bachelor's degree programme listed by the Technical University of Munich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "TUM classifies the IB Diploma as an international higher education entrance qualification; whether it gives general or subject-restricted access is decided by the uni-assist VPD. Program-specific IB subject/grade requirements not found. The program is German-taught: German proficiency certificate is required in addition."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": null,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "A-levels are listed by TUM among qualifications that are checked by uni-assist. TUM states that if a foreign certificate is not comparable to the German Abitur, admission is possible only after the Studienkolleg and Feststellungsprüfung. Program-specific A-level subjects/grades not found."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "NOT SUFFICIENT ON ITS OWN. DAAD India states that a Class XII certificate from any Indian board does not give direct admission to a German university (exception: valid JEE Advanced result for subject-specific access); otherwise Studienkolleg (about 1 year) plus the Feststellungsprüfung is needed. TUM additionally requires Indian applicants to submit school certificate, university entrance exam results, transcript and an APS certificate through uni-assist. Figures taken from search-result summaries; confirm with uni-assist VPD."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s13",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Same as CBSE: NOT SUFFICIENT ON ITS OWN (Class XII from any Indian board); Studienkolleg + Feststellungsprüfung, or JEE Advanced for subject-specific access; APS certificate required by TUM."
+        }
+      ],
+      "tests": [
+        {
+          "test": "TUM Informatics aptitude assessment (written test, 90 minutes, about 20-30 questions in English)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s18",
+          "confidence": "high",
+          "notes": "Two-stage procedure: stage 1 awards points from school grades, subject grades and relevant experience; applicants are admitted, rejected or invited to the written test depending on points."
+        },
+        {
+          "test": "German proficiency (TestDaF level 4 in all sections, DSH-2, telc Deutsch C1 Hochschule, Goethe C2, DSD II B2, Austrian Sprachdiplom C2)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s12",
+          "confidence": "high",
+          "notes": "Program is taught in German. Proof must be submitted before the application deadline. Winter-semester application period is 15 May to 15 July (generic"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6000,
+          "max": 6000,
+          "period": "year"
+        },
+        "sourceId": "s4",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "EUR 3,000 per semester for non-EU students, per the program page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s23"
     }
   ],
   "sources": [
@@ -469,6 +2493,13 @@
       "url": "https://www.tum.de/en/studies/during-your-studies/living-and-working/accommodations/student-halls-of-residence/",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s23",
+      "label": "Technical University of Munich — Degree Programs",
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",

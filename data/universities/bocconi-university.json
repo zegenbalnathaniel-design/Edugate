@@ -240,6 +240,424 @@
       "alsoFields": [
         "international-relations"
       ]
+    },
+    {
+      "slug": "economics-and-management",
+      "name": "Economics and Management",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Economics and Management is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "economics-and-finance",
+      "name": "Economics and Finance",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Economics and Finance is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "economics-and-social-sciences",
+      "name": "Economics and Social Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Economics and Social Sciences is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "international-economics-and-management",
+      "name": "International Economics and Management",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "International Economics and Management is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "international-economics-and-finance-bsc",
+      "name": "International Economics and Finance",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "International Economics and Finance is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "international-politics-and-government",
+      "name": "International Politics and Government",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "International Politics and Government is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "economics-management-and-computer-science-bsc",
+      "name": "Economics, Management and Computer Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Economics, Management and Computer Science is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "mathematical-and-computing-sciences-for-artificial-intelligence",
+      "name": "Mathematical and Computing Sciences for Artificial Intelligence",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Mathematical and Computing Sciences for Artificial Intelligence is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "world-bachelor-in-business",
+      "name": "World Bachelor in Business",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "World Bachelor in Business is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "global-law",
+      "name": "Global Law",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Global Law is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
+    },
+    {
+      "slug": "economics-and-management-for-arts-culture-and-communication",
+      "name": "Economics and Management for Arts, Culture and Communication",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "summary": "Economics and Management for Arts, Culture and Communication is a Bachelor of Science programme listed by Bocconi University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [
+        {
+          "test": "Bocconi online test, SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 17000,
+          "max": 17000,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "First-year tuition and fees."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s9"
     }
   ],
   "details": {
@@ -325,6 +743,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s9",
+      "label": "Bocconi University — Bachelor of Science Programs",
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

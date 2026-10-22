@@ -253,6 +253,826 @@
         "history",
         "political-science"
       ]
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Computer Science is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "data-science-and-technology",
+      "name": "Data Science and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Data Science and Technology is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Civil Engineering is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Mechanical Engineering is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "electronic-engineering",
+      "name": "Electronic Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Electronic Engineering is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Chemical Engineering is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "industrial-engineering-and-decision-analytics",
+      "name": "Industrial Engineering and Decision Analytics",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Industrial Engineering and Decision Analytics is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Mathematics is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Physics is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Chemistry is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "biotechnology",
+      "name": "Biotechnology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Biotechnology is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "ocean-science-and-technology",
+      "name": "Ocean Science and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Ocean Science and Technology is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Economics is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Finance is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Accounting is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "management",
+      "name": "Management",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Management is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Marketing is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "global-business",
+      "name": "Global Business",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Global Business is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "quantitative-finance",
+      "name": "Quantitative Finance",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Quantitative Finance is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "environmental-management-and-technology",
+      "name": "Environmental Management and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.ust.hk/study/undergraduate",
+      "summary": "Environmental Management and Technology is an undergraduate programme listed by HKUST.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See HKUST's international qualifications pages for programme requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 215000,
+          "max": 215000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
     }
   ],
   "details": {
@@ -333,6 +1153,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s8",
+      "label": "HKUST — Undergraduate Programs",
+      "url": "https://www.ust.hk/study/undergraduate",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

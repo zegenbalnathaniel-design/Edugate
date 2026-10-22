@@ -139,6 +139,96 @@
         "economics",
         "business"
       ]
+    },
+    {
+      "slug": "bachelor-in-business-administration",
+      "name": "Bachelor in Business Administration",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.hec.edu/en/grande-ecole-masters-programs/bachelor-programs",
+      "summary": "Bachelor in Business Administration is an undergraduate programme listed by HEC Paris.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 23000,
+          "max": 23000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Year 1; rising to €25,750 and €26,750 in years 2 and 3."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "bachelor-in-data-science-and-economics-for-business",
+      "name": "Bachelor in Data Science and Economics for Business",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.hec.edu/en/grande-ecole-masters-programs/bachelor-programs",
+      "summary": "Bachelor in Data Science and Economics for Business is an undergraduate programme listed by HEC Paris.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 23000,
+          "max": 23000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Year 1; rising to €25,750 and €26,750 in years 2 and 3."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "summer-school-business-fundamentals",
+      "name": "Summer School Business Fundamentals",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.hec.edu/en/grande-ecole-masters-programs/bachelor-programs",
+      "summary": "Summer School Business Fundamentals is an undergraduate programme listed by HEC Paris.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 23000,
+          "max": 23000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Year 1; rising to €25,750 and €26,750 in years 2 and 3."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
     }
   ],
   "details": {},
@@ -163,6 +253,13 @@
       "url": "https://www.hec.edu/en/basc-data-society-organisations",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "HEC Paris — Bachelor Programs",
+      "url": "https://www.hec.edu/en/grande-ecole-masters-programs/bachelor-programs",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

@@ -302,6 +302,846 @@
       "tests": [],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "business-administration",
+      "name": "Business Administration",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Business Administration is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "business-administration-in-accounting-and-finance",
+      "name": "Business Administration in Accounting and Finance",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Business Administration in Accounting and Finance is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "economics-and-finance",
+      "name": "Economics and Finance",
+      "degree": "BEcon&Fin",
+      "level": "bachelors",
+      "field": "finance",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Economics and Finance is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Computer Science is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Civil Engineering is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Mechanical Engineering is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "electrical-engineering",
+      "name": "Electrical Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Electrical Engineering is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "degree": "BEng",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Biomedical Engineering is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "degree": "BA(AS)",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Architecture is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "landscape-architecture",
+      "name": "Landscape Architecture",
+      "degree": "BA(LS)",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Landscape Architecture is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "arts",
+      "name": "Arts",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "liberal-arts",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Arts is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "social-sciences",
+      "name": "Social Sciences",
+      "degree": "BSocSc",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Social Sciences is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "journalism",
+      "name": "Journalism",
+      "degree": "BJ",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Journalism is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "law",
+      "name": "Law",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Law is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Science is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "medicine-and-surgery",
+      "name": "Medicine and Surgery",
+      "degree": "MBBS",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Medicine and Surgery is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "nursing",
+      "name": "Nursing",
+      "degree": "BNurs",
+      "level": "bachelors",
+      "field": "nursing",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Nursing is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "pharmacy",
+      "name": "Pharmacy",
+      "degree": "BPharm",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Pharmacy is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "degree": "BEd",
+      "level": "bachelors",
+      "field": "education",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Education is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "dental-surgery",
+      "name": "Dental Surgery",
+      "degree": "BDS",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "summary": "Dental Surgery is an undergraduate programme listed by the University of Hong Kong.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "See the programme page for subject requirements."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 224000,
+          "max": 224000,
+          "period": "year"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-local, non-STEM."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
     }
   ],
   "details": {
@@ -443,6 +1283,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "The University of Hong Kong — Undergraduate Programmes",
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

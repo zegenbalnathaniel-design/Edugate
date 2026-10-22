@@ -318,6 +318,3778 @@
         "confidence": "official",
         "asOf": "2026-27"
       }
+    },
+    {
+      "slug": "african-and-african-american-studies",
+      "name": "African and African American Studies",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "African and African American Studies is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "anthropology",
+      "name": "Anthropology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Anthropology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "applied-mathematics",
+      "name": "Applied Mathematics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Applied Mathematics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "astrophysics",
+      "name": "Astrophysics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Astrophysics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Biomedical Engineering is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "chemical-and-physical-biology",
+      "name": "Chemical and Physical Biology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Chemical and Physical Biology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Chemistry is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "chemistry-and-physics",
+      "name": "Chemistry and Physics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Chemistry and Physics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "classics",
+      "name": "Classics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Classics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "comparative-literature",
+      "name": "Comparative Literature",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Comparative Literature is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "earth-and-planetary-sciences",
+      "name": "Earth and Planetary Sciences",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Earth and Planetary Sciences is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "east-asian-studies",
+      "name": "East Asian Studies",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "East Asian Studies is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "electrical-engineering",
+      "name": "Electrical Engineering",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Electrical Engineering is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "engineering-sciences",
+      "name": "Engineering Sciences",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Engineering Sciences is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "english",
+      "name": "English",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "English is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "environmental-science-and-engineering",
+      "name": "Environmental Science and Engineering",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Environmental Science and Engineering is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "environmental-science-and-public-policy",
+      "name": "Environmental Science and Public Policy",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Environmental Science and Public Policy is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "folklore-and-mythology",
+      "name": "Folklore and Mythology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Folklore and Mythology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "germanic-languages-and-literatures",
+      "name": "Germanic Languages and Literatures",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Germanic Languages and Literatures is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "government",
+      "name": "Government",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Government is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "History is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "history-and-literature",
+      "name": "History and Literature",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "History and Literature is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "history-and-science",
+      "name": "History and Science",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "History and Science is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "history-of-art-and-architecture",
+      "name": "History of Art and Architecture",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "History of Art and Architecture is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "human-developmental-and-regenerative-biology",
+      "name": "Human Developmental and Regenerative Biology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Human Developmental and Regenerative Biology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "integrative-biology",
+      "name": "Integrative Biology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Integrative Biology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Linguistics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Mathematics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Mechanical Engineering is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "molecular-and-cellular-biology",
+      "name": "Molecular and Cellular Biology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Molecular and Cellular Biology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Music is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "near-eastern-languages-and-civilizations",
+      "name": "Near Eastern Languages and Civilizations",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Near Eastern Languages and Civilizations is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "neuroscience",
+      "name": "Neuroscience",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Neuroscience is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Philosophy is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Physics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Psychology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "comparative-study-of-religion",
+      "name": "Comparative Study of Religion",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Comparative Study of Religion is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "romance-languages-and-literatures",
+      "name": "Romance Languages and Literatures",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Romance Languages and Literatures is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "slavic-languages-and-literatures",
+      "name": "Slavic Languages and Literatures",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Slavic Languages and Literatures is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "social-studies",
+      "name": "Social Studies",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Social Studies is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Sociology is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "south-asian-studies",
+      "name": "South Asian Studies",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "South Asian Studies is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Statistics is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "theater-dance-and-media",
+      "name": "Theater, Dance, and Media",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Theater, Dance, and Media is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "art-film-and-visual-studies",
+      "name": "Art, Film, and Visual Studies",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Art, Film, and Visual Studies is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
+    },
+    {
+      "slug": "women-gender-and-sexuality-studies",
+      "name": "Women, Gender, and Sexuality Studies",
+      "degree": "AB",
+      "level": "bachelors",
+      "field": "social-sciences",
+      "subfield": null,
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "summary": "Women, Gender, and Sexuality Studies is an undergraduate concentration at Harvard College, declared in the third semester.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 62226,
+          "max": 62226,
+          "period": "year"
+        },
+        "sourceId": "s8",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s15"
     }
   ],
   "details": {
@@ -521,6 +4293,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s15",
+      "label": "Harvard College — Fields of Study",
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

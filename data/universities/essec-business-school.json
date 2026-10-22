@@ -107,6 +107,46 @@
         "finance",
         "economics"
       ]
+    },
+    {
+      "slug": "global-bachelor-in-business-administration",
+      "name": "Global Bachelor in Business Administration",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.essec.edu/en/program/bachelor-programs/",
+      "summary": "Global Bachelor in Business Administration is an undergraduate programme listed by ESSEC Business School.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s3"
+    },
+    {
+      "slug": "bachelor-in-data-science-and-business-analytics",
+      "name": "Bachelor in Data Science and Business Analytics",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.essec.edu/en/program/bachelor-programs/",
+      "summary": "Bachelor in Data Science and Business Analytics is an undergraduate programme listed by ESSEC Business School.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s3"
     }
   ],
   "details": {},
@@ -124,6 +164,13 @@
       "url": "https://www.essec.edu/en/program/global-bba-international/",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s3",
+      "label": "ESSEC Business School — Bachelor Programs",
+      "url": "https://www.essec.edu/en/program/bachelor-programs/",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

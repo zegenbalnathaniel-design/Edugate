@@ -159,6 +159,576 @@
         "asOf": "2026-27",
         "notes": "Non-EU / non-resident price."
       }
+    },
+    {
+      "slug": "economics-bsc",
+      "name": "Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Economics is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "business-management-and-administration",
+      "name": "Business Management and Administration",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Business Management and Administration is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "international-business-economics-bsc",
+      "name": "International Business Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "International Business Economics is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "political-and-administration-sciences",
+      "name": "Political and Administration Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Political and Administration Sciences is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "law",
+      "name": "Law",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Law is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "humanities",
+      "name": "Humanities",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "humanities",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Humanities is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "translation-and-interpreting",
+      "name": "Translation and Interpreting",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Translation and Interpreting is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "applied-languages",
+      "name": "Applied Languages",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Applied Languages is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "journalism",
+      "name": "Journalism",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Journalism is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "audiovisual-communication",
+      "name": "Audiovisual Communication",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Audiovisual Communication is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "advertising-and-public-relations",
+      "name": "Advertising and Public Relations",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Advertising and Public Relations is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "computer-engineering",
+      "name": "Computer Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Computer Engineering is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "telecommunications-network-engineering",
+      "name": "Telecommunications Network Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Telecommunications Network Engineering is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "audiovisual-systems-engineering",
+      "name": "Audiovisual Systems Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Audiovisual Systems Engineering is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "mathematical-engineering-in-data-science",
+      "name": "Mathematical Engineering in Data Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Mathematical Engineering in Data Science is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Biomedical Engineering is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "human-biology",
+      "name": "Human Biology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Human Biology is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "degree": "BSc",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Medicine is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
+    },
+    {
+      "slug": "global-studies",
+      "name": "Global Studies",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.upf.edu/en/web/graus",
+      "summary": "Global Studies is a Bachelor's degree listed by Universitat Pompeu Fabra.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 6800.32,
+          "max": 6800.32,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EU / non-resident price."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s5"
     }
   ],
   "details": {},
@@ -190,6 +760,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s5",
+      "label": "Universitat Pompeu Fabra — Bachelor's Degrees",
+      "url": "https://www.upf.edu/en/web/graus",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"

@@ -258,6 +258,861 @@
       "tests": [],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "aerospace-engineering-bsc",
+      "name": "Aerospace Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Aerospace Engineering is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "applied-earth-sciences",
+      "name": "Applied Earth Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Applied Earth Sciences is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "applied-mathematics",
+      "name": "Applied Mathematics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Applied Mathematics is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "applied-physics",
+      "name": "Applied Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Applied Physics is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "architecture-urbanism-and-building-sciences",
+      "name": "Architecture, Urbanism and Building Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Architecture, Urbanism and Building Sciences is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Civil Engineering is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "computer-science-and-engineering-bsc",
+      "name": "Computer Science and Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Computer Science and Engineering is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "electrical-engineering",
+      "name": "Electrical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Electrical Engineering is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "industrial-design-engineering",
+      "name": "Industrial Design Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Industrial Design Engineering is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "life-science-and-technology",
+      "name": "Life Science and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Life Science and Technology is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "marine-technology",
+      "name": "Marine Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Marine Technology is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Mechanical Engineering is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "molecular-science-and-technology",
+      "name": "Molecular Science and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Molecular Science and Technology is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "nanobiology",
+      "name": "Nanobiology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Nanobiology is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
+    },
+    {
+      "slug": "technology-policy-and-management",
+      "name": "Technology, Policy and Management",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "summary": "Technology, Policy and Management is a Bachelor's programme listed by TU Delft.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis & Approaches",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "TU Delft accepts only Mathematics Analysis & Approaches HL."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A level",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s6",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Six GCSEs (grades A–C / 9–4) and at least three A levels at grades A–C."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s11"
     }
   ],
   "details": {
@@ -364,6 +1219,13 @@
       "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/1-admission-requirements",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "label": "TU Delft — Bachelor's Programmes",
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03"

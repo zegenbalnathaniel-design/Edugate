@@ -244,6 +244,2384 @@
         "confidence": "official",
         "asOf": "2026-27"
       }
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "School of Computer Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Computer Science is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": "School of Computer Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Artificial Intelligence is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "computational-biology",
+      "name": "Computational Biology",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "School of Computer Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Computational Biology is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "human-computer-interaction",
+      "name": "Human-Computer Interaction",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": "School of Computer Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Human-Computer Interaction is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "robotics",
+      "name": "Robotics",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "School of Computer Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Robotics is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "College of Engineering",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Biomedical Engineering is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "College of Engineering",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Chemical Engineering is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "civil-and-environmental-engineering",
+      "name": "Civil and Environmental Engineering",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "College of Engineering",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Civil and Environmental Engineering is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "electrical-and-computer-engineering",
+      "name": "Electrical and Computer Engineering",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "College of Engineering",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Electrical and Computer Engineering is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "materials-science-and-engineering",
+      "name": "Materials Science and Engineering",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "College of Engineering",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Materials Science and Engineering is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": "College of Engineering",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Mechanical Engineering is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "business-administration",
+      "name": "Business Administration",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": "Tepper School of Business",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Business Administration is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Economics is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "economics-and-statistics",
+      "name": "Economics and Statistics",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Economics and Statistics is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "statistics-and-machine-learning",
+      "name": "Statistics and Machine Learning",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Statistics and Machine Learning is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Psychology is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "social-and-political-history",
+      "name": "Social and Political History",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Social and Political History is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "international-relations-and-politics",
+      "name": "International Relations and Politics",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "international-relations",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "International Relations and Politics is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "english",
+      "name": "English",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "English is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": "Dietrich College",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Philosophy is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "mathematical-sciences",
+      "name": "Mathematical Sciences",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": "Mellon College of Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Mathematical Sciences is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": "Mellon College of Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Physics is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": "Mellon College of Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Chemistry is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "biological-sciences",
+      "name": "Biological Sciences",
+      "degree": "BS",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": "Mellon College of Science",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Biological Sciences is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "degree": "BArch",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": "College of Fine Arts",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Architecture is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "degree": "BDes",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": "College of Fine Arts",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Design is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "drama",
+      "name": "Drama",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": "College of Fine Arts",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Drama is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "performing-arts",
+      "subfield": null,
+      "school": "College of Fine Arts",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Music is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "art",
+      "name": "Art",
+      "degree": "BFA",
+      "level": "bachelors",
+      "field": "visual-arts",
+      "subfield": null,
+      "school": "College of Fine Arts",
+      "durationYears": 4,
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "summary": "Art is an undergraduate programme listed by Carnegie Mellon University.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s8",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Accepted; no minimum grades are published for this curriculum."
+        }
+      ],
+      "tests": [
+        {
+          "test": "SAT or ACT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 69702,
+          "max": 69702,
+          "period": "year"
+        },
+        "sourceId": "s7",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
     }
   ],
   "details": {
@@ -425,6 +2803,13 @@
       "url": "https://www.cmu.edu/admission/campus-experience/housing-and-dining",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "Carnegie Mellon University — Undergraduate Programs",
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03"

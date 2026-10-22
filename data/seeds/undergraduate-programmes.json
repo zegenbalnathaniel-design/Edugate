@@ -1,0 +1,7449 @@
+{
+  "harvard-university": {
+    "source": {
+      "url": "https://college.harvard.edu/academics/fields-study",
+      "label": "Harvard College \u2014 Fields of Study",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "AB",
+      "level": "bachelors",
+      "school": "Faculty of Arts and Sciences",
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate concentration at Harvard College, declared in the third semester."
+    },
+    "programmes": [
+      {
+        "name": "African and African American Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Applied Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Astrophysics",
+        "field": "physics"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Chemical and Physical Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Chemistry and Physics",
+        "field": "chemistry"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Earth and Planetary Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "East Asian Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Engineering Sciences",
+        "field": "engineering"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Environmental Science and Engineering",
+        "field": "environmental"
+      },
+      {
+        "name": "Environmental Science and Public Policy",
+        "field": "environmental"
+      },
+      {
+        "name": "Folklore and Mythology",
+        "field": "humanities"
+      },
+      {
+        "name": "Germanic Languages and Literatures",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Government",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "History and Literature",
+        "field": "history"
+      },
+      {
+        "name": "History and Science",
+        "field": "history"
+      },
+      {
+        "name": "History of Art and Architecture",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Human Developmental and Regenerative Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Integrative Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Molecular and Cellular Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Near Eastern Languages and Civilizations",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Comparative Study of Religion",
+        "field": "philosophy"
+      },
+      {
+        "name": "Romance Languages and Literatures",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Slavic Languages and Literatures",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Social Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "South Asian Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Theater, Dance, and Media",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Art, Film, and Visual Studies",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Women, Gender, and Sexuality Studies",
+        "field": "social-sciences"
+      }
+    ]
+  },
+  "stanford-university": {
+    "source": {
+      "url": "https://bulletin.stanford.edu/programs?page=1&pq=",
+      "label": "Stanford Bulletin \u2014 Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BS",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the Stanford Bulletin."
+    },
+    "programmes": [
+      {
+        "name": "Aeronautics and Astronautics",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Bioengineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Management Science and Engineering",
+        "field": "business",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Product Design",
+        "field": "design",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Biology",
+        "field": "biology",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Human Biology",
+        "field": "biology",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Symbolic Systems",
+        "field": "computer-science",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "International Relations",
+        "field": "international-relations",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Communication",
+        "field": "media",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "History",
+        "field": "history",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      },
+      {
+        "name": "Earth Systems",
+        "field": "environmental",
+        "school": "Doerr School of Sustainability"
+      },
+      {
+        "name": "Urban Studies",
+        "field": "architecture",
+        "degree": "BA",
+        "school": "School of Humanities and Sciences"
+      }
+    ]
+  },
+  "massachusetts-institute-of-technology": {
+    "source": {
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "label": "MIT Course Catalog \u2014 Degree Charts",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "SB",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate degree programme listed in the MIT course catalog."
+    },
+    "programmes": [
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Biological Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Environmental Engineering",
+        "field": "environmental",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering and Computer Science",
+        "field": "computer-science",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Computer Science and Molecular Biology",
+        "field": "computer-science",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Artificial Intelligence and Decision Making",
+        "field": "data-science",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Nuclear Science and Engineering",
+        "field": "engineering",
+        "school": "School of Engineering"
+      },
+      {
+        "name": "Biology",
+        "field": "biology",
+        "school": "School of Science"
+      },
+      {
+        "name": "Brain and Cognitive Sciences",
+        "field": "psychology",
+        "school": "School of Science"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "school": "School of Science"
+      },
+      {
+        "name": "Earth, Atmospheric and Planetary Sciences",
+        "field": "environmental",
+        "school": "School of Science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "school": "School of Science"
+      },
+      {
+        "name": "Mathematics with Computer Science",
+        "field": "computer-science",
+        "school": "School of Science"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "school": "School of Science"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Linguistics and Philosophy",
+        "field": "philosophy",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Comparative Media Studies",
+        "field": "media",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Literature",
+        "field": "languages-literature",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "History",
+        "field": "history",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences",
+        "school": "School of Humanities, Arts, and Social Sciences"
+      },
+      {
+        "name": "Management",
+        "field": "business",
+        "school": "MIT Sloan School of Management"
+      },
+      {
+        "name": "Business Analytics",
+        "field": "data-science",
+        "school": "MIT Sloan School of Management"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "school": "MIT Sloan School of Management"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "school": "School of Architecture and Planning"
+      },
+      {
+        "name": "Urban Science and Planning with Computer Science",
+        "field": "architecture",
+        "school": "School of Architecture and Planning"
+      }
+    ]
+  },
+  "princeton-university": {
+    "source": {
+      "url": "https://ua.princeton.edu/contents/program-study",
+      "label": "Princeton \u2014 Undergraduate Programs of Study",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "AB",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate concentration listed in Princeton's Undergraduate Announcement."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Chemical and Biological Engineering",
+        "field": "engineering",
+        "degree": "BSE"
+      },
+      {
+        "name": "Civil and Environmental Engineering",
+        "field": "engineering",
+        "degree": "BSE"
+      },
+      {
+        "name": "Electrical and Computer Engineering",
+        "field": "engineering",
+        "degree": "BSE"
+      },
+      {
+        "name": "Mechanical and Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BSE"
+      },
+      {
+        "name": "Operations Research and Financial Engineering",
+        "field": "finance",
+        "degree": "BSE"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture"
+      },
+      {
+        "name": "Astrophysical Sciences",
+        "field": "physics"
+      },
+      {
+        "name": "Ecology and Evolutionary Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Molecular Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Geosciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Near Eastern Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "East Asian Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Public and International Affairs",
+        "field": "international-relations"
+      },
+      {
+        "name": "Spanish and Portuguese",
+        "field": "languages-literature"
+      },
+      {
+        "name": "French and Italian",
+        "field": "languages-literature"
+      },
+      {
+        "name": "German",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Slavic Languages and Literatures",
+        "field": "languages-literature"
+      }
+    ]
+  },
+  "yale-university": {
+    "source": {
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/",
+      "label": "Yale College Programs of Study",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in Yale College Programs of Study."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Applied Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Astronomy",
+        "field": "physics"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Environmental Engineering",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture"
+      },
+      {
+        "name": "Global Affairs",
+        "field": "international-relations"
+      },
+      {
+        "name": "Ethics, Politics, and Economics",
+        "field": "political-science"
+      },
+      {
+        "name": "Molecular, Cellular, and Developmental Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Ecology and Evolutionary Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Earth and Planetary Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Film and Media Studies",
+        "field": "media"
+      },
+      {
+        "name": "Theater and Performance Studies",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Cognitive Science",
+        "field": "psychology"
+      },
+      {
+        "name": "American Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "East Asian Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Near Eastern Languages and Civilizations",
+        "field": "languages-literature"
+      }
+    ]
+  },
+  "columbia-university": {
+    "source": {
+      "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/",
+      "label": "Columbia College Bulletin \u2014 Departments of Instruction",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the Columbia College Bulletin."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Financial Economics",
+        "field": "finance"
+      },
+      {
+        "name": "Political Economy",
+        "field": "economics"
+      },
+      {
+        "name": "Operations Research",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Earth and Environmental Engineering",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Applied Mathematics",
+        "field": "mathematics",
+        "degree": "BS"
+      },
+      {
+        "name": "Applied Physics",
+        "field": "physics",
+        "degree": "BS"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture"
+      },
+      {
+        "name": "Urban Studies",
+        "field": "architecture"
+      },
+      {
+        "name": "Film and Media Studies",
+        "field": "media"
+      },
+      {
+        "name": "Creative Writing",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Middle Eastern, South Asian, and African Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "East Asian Languages and Cultures",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Sustainable Development",
+        "field": "environmental"
+      }
+    ]
+  },
+  "university-of-pennsylvania": {
+    "source": {
+      "url": "https://catalog.upenn.edu/undergraduate/programs/",
+      "label": "University of Pennsylvania \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed in the Penn course catalog."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Marketing",
+        "field": "business",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Management",
+        "field": "business",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Business Analytics",
+        "field": "data-science",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Real Estate",
+        "field": "business",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Statistics and Data Science",
+        "field": "statistics",
+        "degree": "BS",
+        "school": "The Wharton School"
+      },
+      {
+        "name": "Bioengineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Chemical and Biomolecular Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Computer and Information Science",
+        "field": "computer-science",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Mechanical Engineering and Applied Mechanics",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Systems Science and Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "School of Engineering and Applied Science"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSN",
+        "school": "School of Nursing"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture"
+      },
+      {
+        "name": "Urban Studies",
+        "field": "architecture"
+      },
+      {
+        "name": "International Relations",
+        "field": "international-relations"
+      },
+      {
+        "name": "Criminology",
+        "field": "sociology"
+      },
+      {
+        "name": "Cognitive Science",
+        "field": "psychology"
+      },
+      {
+        "name": "Health and Societies",
+        "field": "allied-health"
+      }
+    ]
+  },
+  "cornell-university": {
+    "source": {
+      "url": "https://courses.cornell.edu/content.php?catoid=60&navoid=19965",
+      "label": "Cornell University \u2014 Undergraduate Majors",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the Cornell Courses of Study."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Agricultural Sciences",
+        "field": "agriculture",
+        "degree": "BS",
+        "school": "College of Agriculture and Life Sciences"
+      },
+      {
+        "name": "Animal Science",
+        "field": "agriculture",
+        "degree": "BS",
+        "school": "College of Agriculture and Life Sciences"
+      },
+      {
+        "name": "Food Science",
+        "field": "agriculture",
+        "degree": "BS",
+        "school": "College of Agriculture and Life Sciences"
+      },
+      {
+        "name": "Biological Sciences",
+        "field": "biology",
+        "degree": "BS",
+        "school": "College of Agriculture and Life Sciences"
+      },
+      {
+        "name": "Environmental and Sustainability Sciences",
+        "field": "environmental",
+        "degree": "BS",
+        "school": "College of Agriculture and Life Sciences"
+      },
+      {
+        "name": "Applied Economics and Management",
+        "field": "business",
+        "degree": "BS",
+        "school": "Cornell SC Johnson College of Business"
+      },
+      {
+        "name": "Hotel Administration",
+        "field": "hospitality",
+        "degree": "BS",
+        "school": "Cornell SC Johnson College of Business"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical and Computer Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Operations Research and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BArch",
+        "school": "College of Architecture, Art, and Planning"
+      },
+      {
+        "name": "Urban and Regional Studies",
+        "field": "architecture",
+        "school": "College of Architecture, Art, and Planning"
+      },
+      {
+        "name": "Industrial and Labor Relations",
+        "field": "sociology",
+        "degree": "BS",
+        "school": "ILR School"
+      },
+      {
+        "name": "Human Development",
+        "field": "psychology",
+        "degree": "BS",
+        "school": "College of Human Ecology"
+      },
+      {
+        "name": "Design and Environmental Analysis",
+        "field": "design",
+        "degree": "BS",
+        "school": "College of Human Ecology"
+      },
+      {
+        "name": "Nutritional Sciences",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "College of Human Ecology"
+      }
+    ]
+  },
+  "brown-university": {
+    "source": {
+      "url": "https://bulletin.brown.edu/the-college/concentrations/",
+      "label": "Brown University \u2014 Concentrations",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "AB",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate concentration listed in the Brown University bulletin."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Applied Mathematics",
+        "field": "mathematics",
+        "degree": "ScB"
+      },
+      {
+        "name": "Applied Mathematics-Economics",
+        "field": "economics",
+        "degree": "ScB"
+      },
+      {
+        "name": "Computer Science-Economics",
+        "field": "computer-science",
+        "degree": "ScB"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "ScB"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "ScB"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "ScB"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "ScB"
+      },
+      {
+        "name": "Engineering",
+        "field": "engineering",
+        "degree": "ScB"
+      },
+      {
+        "name": "Cognitive Neuroscience",
+        "field": "psychology"
+      },
+      {
+        "name": "Public Health",
+        "field": "allied-health"
+      },
+      {
+        "name": "International and Public Affairs",
+        "field": "international-relations"
+      },
+      {
+        "name": "Modern Culture and Media",
+        "field": "media"
+      },
+      {
+        "name": "Visual Art",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Literary Arts",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Egyptology and Assyriology",
+        "field": "history"
+      },
+      {
+        "name": "Science, Technology, and Society",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Education Studies",
+        "field": "education"
+      },
+      {
+        "name": "Urban Studies",
+        "field": "architecture"
+      }
+    ]
+  },
+  "university-of-chicago": {
+    "source": {
+      "url": "https://collegecatalog.uchicago.edu/thecollege/programsofstudy/",
+      "label": "University of Chicago \u2014 Programs of Study",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the University of Chicago College Catalog."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Business Economics",
+        "field": "business"
+      },
+      {
+        "name": "Econometrics and Quantitative Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Molecular Engineering",
+        "field": "engineering",
+        "degree": "BS"
+      },
+      {
+        "name": "Computational and Applied Mathematics",
+        "field": "mathematics",
+        "degree": "BS"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science",
+        "degree": "BS"
+      },
+      {
+        "name": "Public Policy Studies",
+        "field": "political-science"
+      },
+      {
+        "name": "Global Studies",
+        "field": "international-relations"
+      },
+      {
+        "name": "Law, Letters, and Society",
+        "field": "law"
+      },
+      {
+        "name": "Cinema and Media Studies",
+        "field": "media"
+      },
+      {
+        "name": "Creative Writing",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Geophysical Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Astrophysics",
+        "field": "physics"
+      },
+      {
+        "name": "Biological Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Comparative Human Development",
+        "field": "psychology"
+      },
+      {
+        "name": "Romance Languages and Literatures",
+        "field": "languages-literature"
+      },
+      {
+        "name": "South Asian Languages and Civilizations",
+        "field": "languages-literature"
+      }
+    ]
+  },
+  "northwestern-university": {
+    "source": {
+      "url": "https://catalogs.northwestern.edu/undergraduate/",
+      "label": "Northwestern University Undergraduate Catalog",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the Northwestern undergraduate catalog."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Journalism",
+        "field": "media",
+        "degree": "BSJ",
+        "school": "Medill School of Journalism"
+      },
+      {
+        "name": "Communication Studies",
+        "field": "media",
+        "degree": "BS",
+        "school": "School of Communication"
+      },
+      {
+        "name": "Radio/Television/Film",
+        "field": "media",
+        "degree": "BA",
+        "school": "School of Communication"
+      },
+      {
+        "name": "Theatre",
+        "field": "performing-arts",
+        "degree": "BA",
+        "school": "School of Communication"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Industrial Engineering and Management Sciences",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "McCormick School of Engineering"
+      },
+      {
+        "name": "Music Performance",
+        "field": "performing-arts",
+        "degree": "BMus",
+        "school": "Bienen School of Music"
+      },
+      {
+        "name": "Learning and Organizational Change",
+        "field": "education",
+        "school": "School of Education and Social Policy"
+      },
+      {
+        "name": "Social Policy",
+        "field": "social-sciences",
+        "school": "School of Education and Social Policy"
+      },
+      {
+        "name": "Human Development in Context",
+        "field": "psychology",
+        "school": "School of Education and Social Policy"
+      }
+    ]
+  },
+  "duke-university": {
+    "source": {
+      "url": "https://trinity.duke.edu/undergraduate/majors-minors-certificates",
+      "label": "Duke University \u2014 Majors, Minors and Certificates",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed by Duke University."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Comparative Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Public Policy Studies",
+        "field": "political-science"
+      },
+      {
+        "name": "Global Health",
+        "field": "allied-health"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "Pratt School of Engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "Pratt School of Engineering"
+      },
+      {
+        "name": "Electrical and Computer Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "Pratt School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BSE",
+        "school": "Pratt School of Engineering"
+      },
+      {
+        "name": "Environmental Sciences and Policy",
+        "field": "environmental"
+      },
+      {
+        "name": "Evolutionary Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Cultural Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Visual and Media Studies",
+        "field": "media"
+      },
+      {
+        "name": "African and African American Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Asian and Middle Eastern Studies",
+        "field": "social-sciences"
+      },
+      {
+        "name": "International Comparative Studies",
+        "field": "international-relations"
+      },
+      {
+        "name": "Program II",
+        "field": "liberal-arts"
+      }
+    ]
+  },
+  "carnegie-mellon-university": {
+    "source": {
+      "url": "https://www.cmu.edu/academics/undergraduate-programs.html",
+      "label": "Carnegie Mellon University \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BS",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by Carnegie Mellon University."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "school": "School of Computer Science"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "field": "data-science",
+        "school": "School of Computer Science"
+      },
+      {
+        "name": "Computational Biology",
+        "field": "biology",
+        "school": "School of Computer Science"
+      },
+      {
+        "name": "Human-Computer Interaction",
+        "field": "computer-science",
+        "school": "School of Computer Science"
+      },
+      {
+        "name": "Robotics",
+        "field": "engineering",
+        "school": "School of Computer Science"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Civil and Environmental Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical and Computer Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "school": "Tepper School of Business"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "Economics and Statistics",
+        "field": "economics",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "Statistics and Machine Learning",
+        "field": "statistics",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "Social and Political History",
+        "field": "history",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "International Relations and Politics",
+        "field": "international-relations",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "school": "Dietrich College"
+      },
+      {
+        "name": "Mathematical Sciences",
+        "field": "mathematics",
+        "school": "Mellon College of Science"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "school": "Mellon College of Science"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "school": "Mellon College of Science"
+      },
+      {
+        "name": "Biological Sciences",
+        "field": "biology",
+        "school": "Mellon College of Science"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BArch",
+        "school": "College of Fine Arts"
+      },
+      {
+        "name": "Design",
+        "field": "design",
+        "degree": "BDes",
+        "school": "College of Fine Arts"
+      },
+      {
+        "name": "Drama",
+        "field": "performing-arts",
+        "degree": "BFA",
+        "school": "College of Fine Arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BFA",
+        "school": "College of Fine Arts"
+      },
+      {
+        "name": "Art",
+        "field": "visual-arts",
+        "degree": "BFA",
+        "school": "College of Fine Arts"
+      }
+    ]
+  },
+  "university-of-california-berkeley": {
+    "source": {
+      "url": "https://guide.berkeley.edu/undergraduate/degree-programs/",
+      "label": "UC Berkeley Academic Guide \u2014 Undergraduate Degree Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the Berkeley Academic Guide."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical Engineering and Computer Sciences",
+        "field": "computer-science",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Bioengineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BS",
+        "school": "Haas School of Business"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science",
+        "degree": "BA",
+        "school": "College of Computing, Data Science, and Society"
+      },
+      {
+        "name": "Molecular and Cell Biology",
+        "field": "biology",
+        "degree": "BA"
+      },
+      {
+        "name": "Integrative Biology",
+        "field": "biology",
+        "degree": "BA"
+      },
+      {
+        "name": "Environmental Economics and Policy",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Environmental Sciences",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BA"
+      },
+      {
+        "name": "City Planning",
+        "field": "architecture",
+        "degree": "BA"
+      },
+      {
+        "name": "Legal Studies",
+        "field": "law",
+        "degree": "BA"
+      },
+      {
+        "name": "Media Studies",
+        "field": "media",
+        "degree": "BA"
+      },
+      {
+        "name": "Public Health",
+        "field": "allied-health",
+        "degree": "BA"
+      },
+      {
+        "name": "Cognitive Science",
+        "field": "psychology",
+        "degree": "BA"
+      },
+      {
+        "name": "Nutritional Sciences",
+        "field": "allied-health",
+        "degree": "BS"
+      }
+    ]
+  },
+  "university-of-california-los-angeles": {
+    "source": {
+      "url": "https://catalog.registrar.ucla.edu/",
+      "label": "UCLA General Catalog \u2014 Majors",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the UCLA General Catalog."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science",
+        "degree": "BS",
+        "school": "Samueli School of Engineering"
+      },
+      {
+        "name": "Business Economics",
+        "field": "business",
+        "degree": "BA"
+      },
+      {
+        "name": "Mathematics/Economics",
+        "field": "economics",
+        "degree": "BA"
+      },
+      {
+        "name": "Molecular, Cell, and Developmental Biology",
+        "field": "biology",
+        "degree": "BS"
+      },
+      {
+        "name": "Microbiology, Immunology, and Molecular Genetics",
+        "field": "biology",
+        "degree": "BS"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology",
+        "degree": "BS"
+      },
+      {
+        "name": "Psychobiology",
+        "field": "psychology",
+        "degree": "BS"
+      },
+      {
+        "name": "Environmental Science",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Communication",
+        "field": "media",
+        "degree": "BA"
+      },
+      {
+        "name": "Film and Television",
+        "field": "media",
+        "degree": "BA"
+      },
+      {
+        "name": "Design | Media Arts",
+        "field": "design",
+        "degree": "BA"
+      },
+      {
+        "name": "World Arts and Cultures",
+        "field": "performing-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Public Affairs",
+        "field": "political-science",
+        "degree": "BA"
+      },
+      {
+        "name": "Global Studies",
+        "field": "international-relations",
+        "degree": "BA"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BS",
+        "school": "School of Nursing"
+      }
+    ]
+  },
+  "university-of-california-san-diego": {
+    "source": {
+      "url": "https://catalog.ucsd.edu/front/courses.html",
+      "label": "UC San Diego Catalog \u2014 Undergraduate Majors",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BS",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the UC San Diego catalog."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Cognitive Science",
+        "field": "psychology",
+        "degree": "BS"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science",
+        "degree": "BS"
+      },
+      {
+        "name": "Bioengineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Nanoengineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Structural Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Jacobs School of Engineering"
+      },
+      {
+        "name": "Marine Biology",
+        "field": "biology",
+        "degree": "BS"
+      },
+      {
+        "name": "Oceanic and Atmospheric Sciences",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Public Health",
+        "field": "allied-health",
+        "degree": "BS"
+      },
+      {
+        "name": "International Studies",
+        "field": "international-relations",
+        "degree": "BA"
+      },
+      {
+        "name": "Visual Arts",
+        "field": "visual-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Theatre",
+        "field": "performing-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Urban Studies and Planning",
+        "field": "architecture",
+        "degree": "BA"
+      }
+    ]
+  },
+  "university-of-southern-california": {
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "label": "USC Catalogue \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed in the USC Catalogue."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Viterbi School of Engineering"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BS",
+        "school": "Marshall School of Business"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BS",
+        "school": "Marshall School of Business"
+      },
+      {
+        "name": "Cinematic Arts: Film and Television Production",
+        "field": "media",
+        "degree": "BA",
+        "school": "School of Cinematic Arts"
+      },
+      {
+        "name": "Writing for Screen and Television",
+        "field": "media",
+        "degree": "BFA",
+        "school": "School of Cinematic Arts"
+      },
+      {
+        "name": "Communication",
+        "field": "media",
+        "degree": "BA",
+        "school": "Annenberg School"
+      },
+      {
+        "name": "Journalism",
+        "field": "media",
+        "degree": "BA",
+        "school": "Annenberg School"
+      },
+      {
+        "name": "Public Relations",
+        "field": "media",
+        "degree": "BA",
+        "school": "Annenberg School"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BArch",
+        "school": "School of Architecture"
+      },
+      {
+        "name": "Music Industry",
+        "field": "performing-arts",
+        "degree": "BS",
+        "school": "Thornton School of Music"
+      },
+      {
+        "name": "Theatre",
+        "field": "performing-arts",
+        "degree": "BA",
+        "school": "School of Dramatic Arts"
+      },
+      {
+        "name": "Health and Human Sciences",
+        "field": "allied-health",
+        "degree": "BS"
+      },
+      {
+        "name": "Computer Science and Business Administration",
+        "field": "computer-science",
+        "degree": "BS"
+      }
+    ]
+  },
+  "university-of-texas-at-austin": {
+    "source": {
+      "url": "https://catalog.utexas.edu/undergraduate/",
+      "label": "UT Austin Undergraduate Catalog",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed in the UT Austin undergraduate catalog."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Petroleum Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Cockrell School of Engineering"
+      },
+      {
+        "name": "Business Honors",
+        "field": "business",
+        "degree": "BBA",
+        "school": "McCombs School of Business"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BBA",
+        "school": "McCombs School of Business"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BBA",
+        "school": "McCombs School of Business"
+      },
+      {
+        "name": "Management Information Systems",
+        "field": "data-science",
+        "degree": "BBA",
+        "school": "McCombs School of Business"
+      },
+      {
+        "name": "Marketing",
+        "field": "business",
+        "degree": "BBA",
+        "school": "McCombs School of Business"
+      },
+      {
+        "name": "Radio-Television-Film",
+        "field": "media",
+        "degree": "BS",
+        "school": "Moody College of Communication"
+      },
+      {
+        "name": "Journalism",
+        "field": "media",
+        "degree": "BJ",
+        "school": "Moody College of Communication"
+      },
+      {
+        "name": "Advertising",
+        "field": "media",
+        "degree": "BS",
+        "school": "Moody College of Communication"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BArch",
+        "school": "School of Architecture"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSN",
+        "school": "School of Nursing"
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "BS",
+        "school": "College of Pharmacy"
+      },
+      {
+        "name": "Geosystems Engineering and Hydrogeology",
+        "field": "environmental",
+        "degree": "BS"
+      }
+    ]
+  },
+  "georgia-institute-of-technology": {
+    "source": {
+      "url": "https://catalog.gatech.edu/programs/",
+      "label": "Georgia Tech Catalog \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BS",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate degree programme listed in the Georgia Tech catalog."
+    },
+    "programmes": [
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "school": "College of Computing"
+      },
+      {
+        "name": "Computational Media",
+        "field": "media",
+        "school": "College of Computing"
+      },
+      {
+        "name": "Computer Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Environmental Engineering",
+        "field": "environmental",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Nuclear and Radiological Engineering",
+        "field": "engineering",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "school": "Scheller College of Business"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "school": "Ivan Allen College"
+      },
+      {
+        "name": "International Affairs",
+        "field": "international-relations",
+        "school": "Ivan Allen College"
+      },
+      {
+        "name": "Public Policy",
+        "field": "political-science",
+        "school": "Ivan Allen College"
+      },
+      {
+        "name": "Literature, Media, and Communication",
+        "field": "media",
+        "school": "Ivan Allen College"
+      },
+      {
+        "name": "History, Technology, and Society",
+        "field": "history",
+        "school": "Ivan Allen College"
+      },
+      {
+        "name": "Applied Physics",
+        "field": "physics",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Biology",
+        "field": "biology",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Biochemistry",
+        "field": "chemistry",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Earth and Atmospheric Sciences",
+        "field": "environmental",
+        "school": "College of Sciences"
+      },
+      {
+        "name": "Industrial Design",
+        "field": "design",
+        "degree": "BSID",
+        "school": "College of Design"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BSArch",
+        "school": "College of Design"
+      },
+      {
+        "name": "Music Technology",
+        "field": "performing-arts",
+        "school": "College of Design"
+      }
+    ]
+  },
+  "university-of-washington": {
+    "source": {
+      "url": "https://www.washington.edu/uaa/advising/degree-overview/undergraduate-majors/",
+      "label": "University of Washington \u2014 Undergraduate Majors",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed by the University of Washington."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BS",
+        "school": "Paul G. Allen School"
+      },
+      {
+        "name": "Informatics",
+        "field": "data-science",
+        "degree": "BS",
+        "school": "Information School"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BA",
+        "school": "Foster School of Business"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSN",
+        "school": "School of Nursing"
+      },
+      {
+        "name": "Public Health",
+        "field": "allied-health",
+        "degree": "BA",
+        "school": "School of Public Health"
+      },
+      {
+        "name": "Environmental Science and Resource Management",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Marine Biology",
+        "field": "biology",
+        "degree": "BS"
+      },
+      {
+        "name": "Oceanography",
+        "field": "environmental",
+        "degree": "BS"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BA",
+        "school": "College of Built Environments"
+      },
+      {
+        "name": "Communication",
+        "field": "media",
+        "degree": "BA"
+      },
+      {
+        "name": "Drama",
+        "field": "performing-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work",
+        "degree": "BASW",
+        "school": "School of Social Work"
+      }
+    ]
+  },
+  "boston-university": {
+    "source": {
+      "url": "https://www.bu.edu/academics/programs/",
+      "label": "Boston University \u2014 Academic Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by Boston University."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Industrial Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "College of Engineering"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BSBA",
+        "school": "Questrom School of Business"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BSBA",
+        "school": "Questrom School of Business"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BSBA",
+        "school": "Questrom School of Business"
+      },
+      {
+        "name": "Journalism",
+        "field": "media",
+        "degree": "BS",
+        "school": "College of Communication"
+      },
+      {
+        "name": "Film and Television",
+        "field": "media",
+        "degree": "BS",
+        "school": "College of Communication"
+      },
+      {
+        "name": "Public Relations",
+        "field": "media",
+        "degree": "BS",
+        "school": "College of Communication"
+      },
+      {
+        "name": "International Relations",
+        "field": "international-relations",
+        "degree": "BA"
+      },
+      {
+        "name": "Health Science",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "Sargent College"
+      },
+      {
+        "name": "Nutrition",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "Sargent College"
+      },
+      {
+        "name": "Speech, Language and Hearing Sciences",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "Sargent College"
+      },
+      {
+        "name": "Hospitality Administration",
+        "field": "hospitality",
+        "degree": "BS",
+        "school": "School of Hospitality Administration"
+      },
+      {
+        "name": "Education and Human Development",
+        "field": "education",
+        "degree": "BS",
+        "school": "Wheelock College"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science",
+        "degree": "BS",
+        "school": "Faculty of Computing and Data Sciences"
+      },
+      {
+        "name": "Architectural Studies",
+        "field": "architecture",
+        "degree": "BA"
+      }
+    ]
+  },
+  "new-york-university": {
+    "source": {
+      "url": "https://bulletins.nyu.edu/undergraduate/",
+      "label": "New York University Undergraduate Bulletin",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed in the NYU bulletin."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Business and Technology Management",
+        "field": "business",
+        "degree": "BS",
+        "school": "Stern School of Business"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BS",
+        "school": "Stern School of Business"
+      },
+      {
+        "name": "Marketing",
+        "field": "business",
+        "degree": "BS",
+        "school": "Stern School of Business"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BS",
+        "school": "Stern School of Business"
+      },
+      {
+        "name": "Computer Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Tandon School of Engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Tandon School of Engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Tandon School of Engineering"
+      },
+      {
+        "name": "Chemical and Biomolecular Engineering",
+        "field": "engineering",
+        "degree": "BS",
+        "school": "Tandon School of Engineering"
+      },
+      {
+        "name": "Integrated Design and Media",
+        "field": "design",
+        "degree": "BS",
+        "school": "Tandon School of Engineering"
+      },
+      {
+        "name": "Film and Television",
+        "field": "media",
+        "degree": "BFA",
+        "school": "Tisch School of the Arts"
+      },
+      {
+        "name": "Drama",
+        "field": "performing-arts",
+        "degree": "BFA",
+        "school": "Tisch School of the Arts"
+      },
+      {
+        "name": "Dance",
+        "field": "performing-arts",
+        "degree": "BFA",
+        "school": "Tisch School of the Arts"
+      },
+      {
+        "name": "Photography and Imaging",
+        "field": "visual-arts",
+        "degree": "BFA",
+        "school": "Tisch School of the Arts"
+      },
+      {
+        "name": "Recorded Music",
+        "field": "performing-arts",
+        "degree": "BFA",
+        "school": "Tisch School of the Arts"
+      },
+      {
+        "name": "Media, Culture, and Communication",
+        "field": "media",
+        "degree": "BS",
+        "school": "Steinhardt"
+      },
+      {
+        "name": "Applied Psychology",
+        "field": "psychology",
+        "degree": "BS",
+        "school": "Steinhardt"
+      },
+      {
+        "name": "Nutrition and Dietetics",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "Steinhardt"
+      },
+      {
+        "name": "Music Education",
+        "field": "education",
+        "degree": "BMus",
+        "school": "Steinhardt"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work",
+        "degree": "BS",
+        "school": "Silver School of Social Work"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSN",
+        "school": "Rory Meyers College of Nursing"
+      },
+      {
+        "name": "Global Public Health",
+        "field": "allied-health",
+        "degree": "BS"
+      },
+      {
+        "name": "Liberal Studies",
+        "field": "liberal-arts",
+        "degree": "BA"
+      }
+    ]
+  },
+  "georgetown-university": {
+    "source": {
+      "url": "https://www.georgetown.edu/academics/undergraduate/",
+      "label": "Georgetown University \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate major listed by Georgetown University."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Art History",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "International Politics",
+        "field": "international-relations",
+        "school": "School of Foreign Service"
+      },
+      {
+        "name": "International Economics",
+        "field": "economics",
+        "school": "School of Foreign Service"
+      },
+      {
+        "name": "Culture and Politics",
+        "field": "political-science",
+        "school": "School of Foreign Service"
+      },
+      {
+        "name": "Regional and Comparative Studies",
+        "field": "international-relations",
+        "school": "School of Foreign Service"
+      },
+      {
+        "name": "Science, Technology and International Affairs",
+        "field": "international-relations",
+        "school": "School of Foreign Service"
+      },
+      {
+        "name": "Global Business",
+        "field": "business",
+        "degree": "BSBA",
+        "school": "McDonough School of Business"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BSBA",
+        "school": "McDonough School of Business"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BSBA",
+        "school": "McDonough School of Business"
+      },
+      {
+        "name": "Marketing",
+        "field": "business",
+        "degree": "BSBA",
+        "school": "McDonough School of Business"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSN",
+        "school": "School of Nursing"
+      },
+      {
+        "name": "Human Science",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "School of Health"
+      },
+      {
+        "name": "Global Health",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "School of Health"
+      },
+      {
+        "name": "Health Care Management and Policy",
+        "field": "allied-health",
+        "degree": "BS",
+        "school": "School of Health"
+      },
+      {
+        "name": "Government",
+        "field": "political-science"
+      },
+      {
+        "name": "Theology and Religious Studies",
+        "field": "philosophy"
+      },
+      {
+        "name": "Justice and Peace Studies",
+        "field": "social-sciences"
+      }
+    ]
+  },
+  "university-of-oxford": {
+    "source": {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses",
+      "label": "University of Oxford \u2014 Undergraduate Courses",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate course listed by the University of Oxford."
+    },
+    "programmes": [
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Biochemistry (Molecular and Cellular)",
+        "field": "biology",
+        "degree": "MBiochem",
+        "level": "integrated"
+      },
+      {
+        "name": "Biomedical Sciences",
+        "field": "biology"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "MChem",
+        "level": "integrated"
+      },
+      {
+        "name": "Earth Sciences (Geology)",
+        "field": "environmental",
+        "degree": "MEarthSc",
+        "level": "integrated"
+      },
+      {
+        "name": "Engineering Science",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated"
+      },
+      {
+        "name": "Materials Science",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Mathematics and Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics and Philosophy",
+        "field": "mathematics"
+      },
+      {
+        "name": "Mathematics and Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Computer Science and Philosophy",
+        "field": "computer-science"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "MPhys",
+        "level": "integrated"
+      },
+      {
+        "name": "Physics and Philosophy",
+        "field": "physics"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "BMBCh",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Experimental Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Psychology, Philosophy and Linguistics",
+        "field": "psychology"
+      },
+      {
+        "name": "Philosophy, Politics and Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Economics and Management",
+        "field": "economics"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Ancient and Modern History",
+        "field": "history"
+      },
+      {
+        "name": "History and Economics",
+        "field": "economics"
+      },
+      {
+        "name": "History and English",
+        "field": "history"
+      },
+      {
+        "name": "History and Modern Languages",
+        "field": "history"
+      },
+      {
+        "name": "History and Politics",
+        "field": "political-science"
+      },
+      {
+        "name": "History of Art",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Classics",
+        "field": "humanities"
+      },
+      {
+        "name": "Classics and English",
+        "field": "humanities"
+      },
+      {
+        "name": "Classics and Modern Languages",
+        "field": "humanities"
+      },
+      {
+        "name": "Classical Archaeology and Ancient History",
+        "field": "history"
+      },
+      {
+        "name": "Archaeology and Anthropology",
+        "field": "social-sciences"
+      },
+      {
+        "name": "English Language and Literature",
+        "field": "languages-literature"
+      },
+      {
+        "name": "English and Modern Languages",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Modern Languages",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Modern Languages and Linguistics",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Oriental Studies",
+        "field": "languages-literature"
+      },
+      {
+        "name": "European and Middle Eastern Languages",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy and Modern Languages",
+        "field": "philosophy"
+      },
+      {
+        "name": "Philosophy and Theology",
+        "field": "philosophy"
+      },
+      {
+        "name": "Theology and Religion",
+        "field": "philosophy"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Fine Art",
+        "field": "visual-arts",
+        "degree": "BFA"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Human Sciences",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Jurisprudence (Law)",
+        "field": "law",
+        "degree": "BA Jurisprudence"
+      },
+      {
+        "name": "Law with Law Studies in Europe",
+        "field": "law",
+        "degree": "BA Jurisprudence",
+        "years": 4
+      }
+    ]
+  },
+  "university-of-manchester": {
+    "source": {
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/",
+      "label": "University of Manchester \u2014 Undergraduate Courses",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate course listed by the University of Manchester."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BA"
+      },
+      {
+        "name": "Economics and Finance",
+        "field": "finance",
+        "degree": "BSc"
+      },
+      {
+        "name": "Accounting and Finance",
+        "field": "commerce",
+        "degree": "BSc"
+      },
+      {
+        "name": "Management",
+        "field": "business",
+        "degree": "BSc"
+      },
+      {
+        "name": "International Business, Finance and Economics",
+        "field": "business",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "field": "data-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Mathematics and Statistics",
+        "field": "statistics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "MPhys",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "MChem",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Biology",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biomedical Sciences",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "MPharm",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MBChB",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Dentistry",
+        "field": "medicine",
+        "degree": "BDS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BNurs"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Electrical and Electronic Engineering",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "MEng",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BA"
+      },
+      {
+        "name": "Planning and Real Estate",
+        "field": "architecture",
+        "degree": "BSc"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "LLB"
+      },
+      {
+        "name": "Politics and International Relations",
+        "field": "international-relations",
+        "degree": "BA"
+      },
+      {
+        "name": "History",
+        "field": "history",
+        "degree": "BA"
+      },
+      {
+        "name": "English Literature",
+        "field": "languages-literature",
+        "degree": "BA"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "degree": "BA"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology",
+        "degree": "BA"
+      },
+      {
+        "name": "Social Anthropology",
+        "field": "social-sciences",
+        "degree": "BA"
+      },
+      {
+        "name": "Geography",
+        "field": "geography",
+        "degree": "BA"
+      },
+      {
+        "name": "Earth and Environmental Sciences",
+        "field": "environmental",
+        "degree": "BSc"
+      },
+      {
+        "name": "Education",
+        "field": "education",
+        "degree": "BA"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      },
+      {
+        "name": "Modern Languages",
+        "field": "languages-literature",
+        "degree": "BA",
+        "years": 4
+      }
+    ]
+  },
+  "university-of-british-columbia": {
+    "source": {
+      "url": "https://you.ubc.ca/programs/",
+      "label": "University of British Columbia \u2014 Degree Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate degree programme listed by the University of British Columbia."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Microbiology and Immunology",
+        "field": "biology"
+      },
+      {
+        "name": "Biochemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Earth and Ocean Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Environmental Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BA"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science",
+        "degree": "BA"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BA"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology",
+        "degree": "BA"
+      },
+      {
+        "name": "History",
+        "field": "history",
+        "degree": "BA"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature",
+        "degree": "BA"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "degree": "BA"
+      },
+      {
+        "name": "Geography",
+        "field": "geography",
+        "degree": "BA"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "BCom",
+        "school": "Sauder School of Business"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BASc",
+        "school": "Faculty of Applied Science"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BASc",
+        "school": "Faculty of Applied Science"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BASc",
+        "school": "Faculty of Applied Science"
+      },
+      {
+        "name": "Chemical and Biological Engineering",
+        "field": "engineering",
+        "degree": "BASc",
+        "school": "Faculty of Applied Science"
+      },
+      {
+        "name": "Computer Engineering",
+        "field": "engineering",
+        "degree": "BASc",
+        "school": "Faculty of Applied Science"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSN"
+      },
+      {
+        "name": "Pharmaceutical Sciences",
+        "field": "pharmacy",
+        "degree": "BPSc"
+      },
+      {
+        "name": "Forestry",
+        "field": "agriculture",
+        "degree": "BSF"
+      },
+      {
+        "name": "Food, Nutrition and Health",
+        "field": "allied-health"
+      },
+      {
+        "name": "Land and Food Systems",
+        "field": "agriculture"
+      },
+      {
+        "name": "Kinesiology",
+        "field": "sports-management",
+        "degree": "BKin"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BED"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work",
+        "degree": "BSW"
+      },
+      {
+        "name": "Education",
+        "field": "education",
+        "degree": "BEd"
+      },
+      {
+        "name": "Media Studies",
+        "field": "media",
+        "degree": "BMS"
+      },
+      {
+        "name": "International Relations",
+        "field": "international-relations",
+        "degree": "BA"
+      }
+    ]
+  },
+  "mcgill-university": {
+    "source": {
+      "url": "https://www.mcgill.ca/undergraduate-admissions/programs",
+      "label": "McGill University \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by McGill University."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Biochemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Microbiology and Immunology",
+        "field": "biology"
+      },
+      {
+        "name": "Neuroscience",
+        "field": "biology"
+      },
+      {
+        "name": "Earth and Planetary Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Environment",
+        "field": "environmental"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BA"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science",
+        "degree": "BA"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BA"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology",
+        "degree": "BA"
+      },
+      {
+        "name": "History",
+        "field": "history",
+        "degree": "BA"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature",
+        "degree": "BA"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "degree": "BA"
+      },
+      {
+        "name": "Linguistics",
+        "field": "languages-literature",
+        "degree": "BA"
+      },
+      {
+        "name": "Geography",
+        "field": "geography",
+        "degree": "BA"
+      },
+      {
+        "name": "International Development Studies",
+        "field": "international-relations",
+        "degree": "BA"
+      },
+      {
+        "name": "Management",
+        "field": "business",
+        "degree": "BCom",
+        "school": "Desautels Faculty of Management"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BCom",
+        "school": "Desautels Faculty of Management"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BCom",
+        "school": "Desautels Faculty of Management"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Software Engineering",
+        "field": "computer-science",
+        "degree": "BEng"
+      },
+      {
+        "name": "Bioengineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mining Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BSc(Arch)"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MDCM",
+        "level": "integrated"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BScN"
+      },
+      {
+        "name": "Physical and Occupational Therapy",
+        "field": "allied-health",
+        "degree": "BSc"
+      },
+      {
+        "name": "Nutritional Sciences",
+        "field": "allied-health",
+        "degree": "BSc"
+      },
+      {
+        "name": "Agricultural and Environmental Sciences",
+        "field": "agriculture",
+        "degree": "BSc"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus",
+        "school": "Schulich School of Music"
+      },
+      {
+        "name": "Education",
+        "field": "education",
+        "degree": "BEd"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work",
+        "degree": "BSW"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "BCL/JD",
+        "level": "integrated"
+      }
+    ]
+  },
+  "university-of-melbourne": {
+    "source": {
+      "url": "https://study.unimelb.edu.au/find/",
+      "label": "University of Melbourne \u2014 Undergraduate Degrees",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate degree listed by the University of Melbourne."
+    },
+    "programmes": [
+      {
+        "name": "Science",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "BCom"
+      },
+      {
+        "name": "Arts",
+        "field": "liberal-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Biomedicine",
+        "field": "biology",
+        "degree": "BBiomed"
+      },
+      {
+        "name": "Design",
+        "field": "design",
+        "degree": "BDes"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      },
+      {
+        "name": "Fine Arts",
+        "field": "visual-arts",
+        "degree": "BFA"
+      },
+      {
+        "name": "Agriculture",
+        "field": "agriculture",
+        "degree": "BAgr"
+      },
+      {
+        "name": "Environments",
+        "field": "environmental",
+        "degree": "BEnv"
+      },
+      {
+        "name": "Oral Health",
+        "field": "allied-health",
+        "degree": "BOH"
+      },
+      {
+        "name": "Computing and Software Systems",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Mathematics and Statistics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BCom"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BCom"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BCom"
+      },
+      {
+        "name": "Management",
+        "field": "business",
+        "degree": "BCom"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Politics and International Studies",
+        "field": "international-relations",
+        "degree": "BA"
+      },
+      {
+        "name": "History",
+        "field": "history",
+        "degree": "BA"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "degree": "BA"
+      },
+      {
+        "name": "Media and Communications",
+        "field": "media",
+        "degree": "BA"
+      },
+      {
+        "name": "Criminology",
+        "field": "sociology",
+        "degree": "BA"
+      }
+    ]
+  },
+  "university-of-sydney": {
+    "source": {
+      "url": "https://www.sydney.edu.au/courses/",
+      "label": "University of Sydney \u2014 Courses",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate course listed by the University of Sydney."
+    },
+    "programmes": [
+      {
+        "name": "Science",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Advanced Computing",
+        "field": "computer-science",
+        "degree": "BAdvComp"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "BCom"
+      },
+      {
+        "name": "Arts",
+        "field": "liberal-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BEc"
+      },
+      {
+        "name": "Engineering Honours",
+        "field": "engineering",
+        "degree": "BE(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Project Management",
+        "field": "business",
+        "degree": "BPM"
+      },
+      {
+        "name": "Design in Architecture",
+        "field": "architecture",
+        "degree": "BDesArch"
+      },
+      {
+        "name": "Design Computing",
+        "field": "design",
+        "degree": "BDesComp"
+      },
+      {
+        "name": "Visual Arts",
+        "field": "visual-arts",
+        "degree": "BVA"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      },
+      {
+        "name": "Education",
+        "field": "education",
+        "degree": "BEd"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work",
+        "degree": "BSW"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BN"
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "BPharm",
+        "years": 4
+      },
+      {
+        "name": "Medical Science",
+        "field": "medicine",
+        "degree": "BMedSc"
+      },
+      {
+        "name": "Health Sciences",
+        "field": "allied-health",
+        "degree": "BHlthSc"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BPsych",
+        "years": 4
+      },
+      {
+        "name": "Liberal Arts and Science",
+        "field": "liberal-arts",
+        "degree": "BLAS"
+      },
+      {
+        "name": "Agricultural Science",
+        "field": "agriculture",
+        "degree": "BScAgr",
+        "years": 4
+      },
+      {
+        "name": "Veterinary Biology",
+        "field": "agriculture",
+        "degree": "BVetBiol"
+      },
+      {
+        "name": "Politics, Philosophy and Economics",
+        "field": "political-science",
+        "degree": "BPPE"
+      }
+    ]
+  },
+  "monash-university": {
+    "source": {
+      "url": "https://www.monash.edu/study/courses",
+      "label": "Monash University \u2014 Courses",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate course listed by Monash University."
+    },
+    "programmes": [
+      {
+        "name": "Science",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BCompSc"
+      },
+      {
+        "name": "Information Technology",
+        "field": "data-science",
+        "degree": "BIT"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "BCom"
+      },
+      {
+        "name": "Business",
+        "field": "business",
+        "degree": "BBus"
+      },
+      {
+        "name": "Arts",
+        "field": "liberal-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Engineering Honours",
+        "field": "engineering",
+        "degree": "BE(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Design",
+        "field": "design",
+        "degree": "BDes"
+      },
+      {
+        "name": "Fine Art",
+        "field": "visual-arts",
+        "degree": "BFA"
+      },
+      {
+        "name": "Architectural Design",
+        "field": "architecture",
+        "degree": "BArchDes"
+      },
+      {
+        "name": "Education Honours",
+        "field": "education",
+        "degree": "BEd(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BN"
+      },
+      {
+        "name": "Pharmacy Honours",
+        "field": "pharmacy",
+        "degree": "BPharm(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Biomedical Science",
+        "field": "biology",
+        "degree": "BBiomedSc"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MBBS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Law Honours",
+        "field": "law",
+        "degree": "LLB(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BPsych",
+        "years": 4
+      },
+      {
+        "name": "Public Health",
+        "field": "allied-health",
+        "degree": "BPubHlth"
+      },
+      {
+        "name": "Global Studies",
+        "field": "international-relations",
+        "degree": "BGlobStud"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      }
+    ]
+  },
+  "australian-national-university": {
+    "source": {
+      "url": "https://study.anu.edu.au/programs",
+      "label": "Australian National University \u2014 Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate programme listed by the Australian National University."
+    },
+    "programmes": [
+      {
+        "name": "Science",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Advanced Computing Honours",
+        "field": "computer-science",
+        "degree": "BAdvComp(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Information Technology",
+        "field": "data-science",
+        "degree": "BIT"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "BCom"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BEc"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BFin"
+      },
+      {
+        "name": "Actuarial Studies",
+        "field": "statistics",
+        "degree": "BActStud"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics",
+        "degree": "BSt"
+      },
+      {
+        "name": "Arts",
+        "field": "liberal-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "International Relations",
+        "field": "international-relations",
+        "degree": "BIR"
+      },
+      {
+        "name": "Politics, Philosophy and Economics",
+        "field": "political-science",
+        "degree": "BPPE"
+      },
+      {
+        "name": "Engineering Honours",
+        "field": "engineering",
+        "degree": "BEng(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Law Honours",
+        "field": "law",
+        "degree": "LLB(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Psychology Honours",
+        "field": "psychology",
+        "degree": "BPsych(Hons)",
+        "years": 4
+      },
+      {
+        "name": "Health Science",
+        "field": "allied-health",
+        "degree": "BHlthSc"
+      },
+      {
+        "name": "Environment and Sustainability",
+        "field": "environmental",
+        "degree": "BEnvSust"
+      },
+      {
+        "name": "Asian Studies",
+        "field": "social-sciences",
+        "degree": "BAsianStud"
+      },
+      {
+        "name": "Visual Arts",
+        "field": "visual-arts",
+        "degree": "BVA"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy",
+        "degree": "BPhil"
+      }
+    ]
+  },
+  "eth-zurich": {
+    "source": {
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "label": "ETH Zurich \u2014 Bachelor's Degree Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor's degree programme listed by ETH Zurich."
+    },
+    "programmes": [
+      {
+        "name": "Architecture",
+        "field": "architecture"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Environmental Engineering",
+        "field": "environmental"
+      },
+      {
+        "name": "Geospatial Engineering",
+        "field": "geography"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Electrical Engineering and Information Technology",
+        "field": "engineering"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Materials Science",
+        "field": "engineering"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Pharmaceutical Sciences",
+        "field": "pharmacy"
+      },
+      {
+        "name": "Health Sciences and Technology",
+        "field": "allied-health"
+      },
+      {
+        "name": "Agricultural Sciences",
+        "field": "agriculture"
+      },
+      {
+        "name": "Food Science",
+        "field": "agriculture"
+      },
+      {
+        "name": "Earth and Climate Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Environmental Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Management, Technology and Economics",
+        "field": "business"
+      },
+      {
+        "name": "Human Medicine",
+        "field": "medicine",
+        "degree": "BMed",
+        "level": "integrated"
+      }
+    ]
+  },
+  "technical-university-of-munich": {
+    "source": {
+      "url": "https://www.tum.de/en/studies/degree-programs",
+      "label": "Technical University of Munich \u2014 Degree Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor's degree programme listed by the Technical University of Munich."
+    },
+    "programmes": [
+      {
+        "name": "Informatics",
+        "field": "computer-science"
+      },
+      {
+        "name": "Information Systems",
+        "field": "data-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Electrical Engineering and Information Technology",
+        "field": "engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Engineering Science",
+        "field": "engineering"
+      },
+      {
+        "name": "Management and Technology",
+        "field": "business"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Biochemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Molecular Biotechnology",
+        "field": "biotechnology"
+      },
+      {
+        "name": "Nutritional Science",
+        "field": "allied-health"
+      },
+      {
+        "name": "Agricultural Science",
+        "field": "agriculture"
+      },
+      {
+        "name": "Forestry Science",
+        "field": "agriculture"
+      },
+      {
+        "name": "Environmental Engineering",
+        "field": "environmental"
+      },
+      {
+        "name": "Sport Science",
+        "field": "sports-management"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "level": "integrated"
+      },
+      {
+        "name": "Politics and Technology",
+        "field": "political-science"
+      }
+    ]
+  },
+  "tu-delft": {
+    "source": {
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "label": "TU Delft \u2014 Bachelor's Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor's programme listed by TU Delft."
+    },
+    "programmes": [
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Applied Earth Sciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Applied Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Applied Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Architecture, Urbanism and Building Sciences",
+        "field": "architecture"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Industrial Design Engineering",
+        "field": "design"
+      },
+      {
+        "name": "Life Science and Technology",
+        "field": "biotechnology"
+      },
+      {
+        "name": "Marine Technology",
+        "field": "engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Molecular Science and Technology",
+        "field": "chemistry"
+      },
+      {
+        "name": "Nanobiology",
+        "field": "biology"
+      },
+      {
+        "name": "Technology, Policy and Management",
+        "field": "political-science"
+      }
+    ]
+  },
+  "bocconi-university": {
+    "source": {
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science",
+      "label": "Bocconi University \u2014 Bachelor of Science Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor of Science programme listed by Bocconi University."
+    },
+    "programmes": [
+      {
+        "name": "Economics and Management",
+        "field": "economics"
+      },
+      {
+        "name": "Economics and Finance",
+        "field": "finance"
+      },
+      {
+        "name": "Economics and Social Sciences",
+        "field": "economics"
+      },
+      {
+        "name": "International Economics and Management",
+        "field": "business"
+      },
+      {
+        "name": "International Economics and Finance",
+        "field": "finance"
+      },
+      {
+        "name": "International Politics and Government",
+        "field": "political-science"
+      },
+      {
+        "name": "Economics, Management and Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematical and Computing Sciences for Artificial Intelligence",
+        "field": "data-science"
+      },
+      {
+        "name": "World Bachelor in Business",
+        "field": "business",
+        "years": 4
+      },
+      {
+        "name": "Global Law",
+        "field": "law"
+      },
+      {
+        "name": "Economics and Management for Arts, Culture and Communication",
+        "field": "media"
+      }
+    ]
+  },
+  "university-of-st-gallen": {
+    "source": {
+      "url": "https://www.unisg.ch/en/studium/bachelor/",
+      "label": "University of St. Gallen \u2014 Bachelor Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor programme listed by the University of St. Gallen."
+    },
+    "programmes": [
+      {
+        "name": "Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "International Affairs",
+        "field": "international-relations"
+      },
+      {
+        "name": "Law",
+        "field": "law"
+      },
+      {
+        "name": "Law and Economics",
+        "field": "law"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      }
+    ]
+  },
+  "erasmus-university-rotterdam": {
+    "source": {
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "label": "Erasmus University Rotterdam \u2014 Bachelor Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor programme listed by Erasmus University Rotterdam."
+    },
+    "programmes": [
+      {
+        "name": "International Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Economics and Business Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Econometrics and Operations Research",
+        "field": "statistics"
+      },
+      {
+        "name": "Business Analytics and Quantitative Marketing",
+        "field": "data-science"
+      },
+      {
+        "name": "International Bachelor Communication and Media",
+        "field": "media"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Criminology",
+        "field": "sociology"
+      },
+      {
+        "name": "Public Administration",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "LLB"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Health Sciences",
+        "field": "allied-health"
+      }
+    ]
+  },
+  "hec-paris": {
+    "source": {
+      "url": "https://www.hec.edu/en/grande-ecole-masters-programs/bachelor-programs",
+      "label": "HEC Paris \u2014 Bachelor Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate programme listed by HEC Paris."
+    },
+    "programmes": [
+      {
+        "name": "Bachelor in Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Bachelor in Data Science and Economics for Business",
+        "field": "data-science"
+      },
+      {
+        "name": "Summer School Business Fundamentals",
+        "field": "business"
+      }
+    ]
+  },
+  "essec-business-school": {
+    "source": {
+      "url": "https://www.essec.edu/en/program/bachelor-programs/",
+      "label": "ESSEC Business School \u2014 Bachelor Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BBA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by ESSEC Business School."
+    },
+    "programmes": [
+      {
+        "name": "Global Bachelor in Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Bachelor in Data Science and Business Analytics",
+        "field": "data-science"
+      }
+    ]
+  },
+  "universitat-pompeu-fabra": {
+    "source": {
+      "url": "https://www.upf.edu/en/web/graus",
+      "label": "Universitat Pompeu Fabra \u2014 Bachelor's Degrees",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is a Bachelor's degree listed by Universitat Pompeu Fabra."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Business Management and Administration",
+        "field": "business"
+      },
+      {
+        "name": "International Business Economics",
+        "field": "business"
+      },
+      {
+        "name": "Political and Administration Sciences",
+        "field": "political-science"
+      },
+      {
+        "name": "Law",
+        "field": "law"
+      },
+      {
+        "name": "Humanities",
+        "field": "humanities"
+      },
+      {
+        "name": "Translation and Interpreting",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Applied Languages",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Journalism",
+        "field": "media"
+      },
+      {
+        "name": "Audiovisual Communication",
+        "field": "media"
+      },
+      {
+        "name": "Advertising and Public Relations",
+        "field": "media"
+      },
+      {
+        "name": "Computer Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Telecommunications Network Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Audiovisual Systems Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Mathematical Engineering in Data Science",
+        "field": "data-science"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Human Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Global Studies",
+        "field": "international-relations"
+      }
+    ]
+  },
+  "ludwig-maximilians-universitat-munchen": {
+    "source": {
+      "url": "https://www.lmu.de/en/study/all-degrees-and-programs/",
+      "label": "LMU Munich \u2014 Degree Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor's degree programme listed by LMU Munich."
+    },
+    "programmes": [
+      {
+        "name": "Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Media Informatics",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Statistics and Data Science",
+        "field": "statistics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry and Biochemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Communication Science",
+        "field": "media"
+      },
+      {
+        "name": "Education",
+        "field": "education"
+      }
+    ]
+  },
+  "university-of-bonn": {
+    "source": {
+      "url": "https://www.uni-bonn.de/en/studying/study-programs",
+      "label": "University of Bonn \u2014 Study Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor's degree programme listed by the University of Bonn."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Molecular Biomedicine",
+        "field": "biology"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Geosciences",
+        "field": "environmental"
+      },
+      {
+        "name": "Agricultural Sciences",
+        "field": "agriculture"
+      },
+      {
+        "name": "Food and Resource Economics",
+        "field": "agriculture"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "level": "integrated",
+        "years": 4
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Asian Studies",
+        "field": "social-sciences"
+      }
+    ]
+  },
+  "university-of-zurich": {
+    "source": {
+      "url": "https://www.uzh.ch/en/studies/application/bachelor.html",
+      "label": "University of Zurich \u2014 Bachelor's Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Bachelor's programme listed by the University of Zurich."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Banking and Finance",
+        "field": "finance"
+      },
+      {
+        "name": "Informatics",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Biomedicine",
+        "field": "biology"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "level": "integrated",
+        "years": 3
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Dental Medicine",
+        "field": "medicine",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Veterinary Medicine",
+        "field": "agriculture",
+        "level": "integrated",
+        "years": 5
+      }
+    ]
+  },
+  "the-university-of-hong-kong": {
+    "source": {
+      "url": "https://www.hku.hk/programme/undergraduate.html",
+      "label": "The University of Hong Kong \u2014 Undergraduate Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by the University of Hong Kong."
+    },
+    "programmes": [
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BBA"
+      },
+      {
+        "name": "Business Administration in Accounting and Finance",
+        "field": "finance",
+        "degree": "BBA"
+      },
+      {
+        "name": "Economics and Finance",
+        "field": "finance",
+        "degree": "BEcon&Fin"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BEng"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BA(AS)"
+      },
+      {
+        "name": "Landscape Architecture",
+        "field": "architecture",
+        "degree": "BA(LS)"
+      },
+      {
+        "name": "Arts",
+        "field": "liberal-arts",
+        "degree": "BA"
+      },
+      {
+        "name": "Social Sciences",
+        "field": "social-sciences",
+        "degree": "BSocSc"
+      },
+      {
+        "name": "Journalism",
+        "field": "media",
+        "degree": "BJ"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "LLB"
+      },
+      {
+        "name": "Science",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Medicine and Surgery",
+        "field": "medicine",
+        "degree": "MBBS",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BNurs"
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "BPharm"
+      },
+      {
+        "name": "Education",
+        "field": "education",
+        "degree": "BEd"
+      },
+      {
+        "name": "Dental Surgery",
+        "field": "medicine",
+        "degree": "BDS",
+        "level": "integrated",
+        "years": 6
+      }
+    ]
+  },
+  "chinese-university-of-hong-kong": {
+    "source": {
+      "url": "https://www.cuhk.edu.hk/english/admissions/undergraduate.html",
+      "label": "Chinese University of Hong Kong \u2014 Undergraduate Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by the Chinese University of Hong Kong."
+    },
+    "programmes": [
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BBA"
+      },
+      {
+        "name": "Professional Accountancy",
+        "field": "commerce",
+        "degree": "BBA"
+      },
+      {
+        "name": "Quantitative Finance",
+        "field": "finance",
+        "degree": "BSc"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BSSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Artificial Intelligence: Systems and Technologies",
+        "field": "data-science",
+        "degree": "BEng"
+      },
+      {
+        "name": "Information Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mechanical and Automation Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biology",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BSSc"
+      },
+      {
+        "name": "Journalism and Communication",
+        "field": "media",
+        "degree": "BSSc"
+      },
+      {
+        "name": "Government and Public Administration",
+        "field": "political-science",
+        "degree": "BSSc"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BSSc"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology",
+        "degree": "BSSc"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "LLB"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MBChB",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BNurs"
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "BPharm"
+      }
+    ]
+  },
+  "hong-kong-university-of-science-and-technology": {
+    "source": {
+      "url": "https://www.ust.hk/study/undergraduate",
+      "label": "HKUST \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by HKUST."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BEng"
+      },
+      {
+        "name": "Data Science and Technology",
+        "field": "data-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Electronic Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Industrial Engineering and Decision Analytics",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biotechnology",
+        "field": "biotechnology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Ocean Science and Technology",
+        "field": "environmental",
+        "degree": "BSc"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Finance",
+        "field": "finance",
+        "degree": "BBA"
+      },
+      {
+        "name": "Accounting",
+        "field": "commerce",
+        "degree": "BBA"
+      },
+      {
+        "name": "Management",
+        "field": "business",
+        "degree": "BBA"
+      },
+      {
+        "name": "Marketing",
+        "field": "business",
+        "degree": "BBA"
+      },
+      {
+        "name": "Global Business",
+        "field": "business",
+        "degree": "BBA"
+      },
+      {
+        "name": "Quantitative Finance",
+        "field": "finance",
+        "degree": "BSc"
+      },
+      {
+        "name": "Environmental Management and Technology",
+        "field": "environmental",
+        "degree": "BSc"
+      }
+    ]
+  },
+  "singapore-management-university": {
+    "source": {
+      "url": "https://smu.edu.sg/programmes/undergraduate",
+      "label": "Singapore Management University \u2014 Undergraduate Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by Singapore Management University."
+    },
+    "programmes": [
+      {
+        "name": "Business Management",
+        "field": "business",
+        "degree": "BBM"
+      },
+      {
+        "name": "Accountancy",
+        "field": "commerce",
+        "degree": "BAcc"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Information Systems",
+        "field": "data-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computing and Law",
+        "field": "law",
+        "degree": "BSc"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "LLB"
+      },
+      {
+        "name": "Social Sciences",
+        "field": "social-sciences",
+        "degree": "BSocSc"
+      },
+      {
+        "name": "Integrative Studies",
+        "field": "liberal-arts",
+        "degree": "BSc"
+      }
+    ]
+  },
+  "khalifa-university": {
+    "source": {
+      "url": "https://www.ku.ac.ae/academics/",
+      "label": "Khalifa University \u2014 Academic Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by Khalifa University."
+    },
+    "programmes": [
+      {
+        "name": "Computer Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Electrical and Electronics Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Civil Infrastructure Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Petroleum Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Industrial and Systems Engineering",
+        "field": "engineering",
+        "degree": "BSc"
+      },
+      {
+        "name": "Applied Mathematics and Statistics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Applied Physics",
+        "field": "physics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Applied Chemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Environmental Health and Safety",
+        "field": "environmental",
+        "degree": "BSc"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MD",
+        "level": "integrated",
+        "years": 6
+      }
+    ]
+  },
+  "ashoka-university": {
+    "source": {
+      "url": "https://www.ashoka.edu.in/academics/",
+      "label": "Ashoka University \u2014 Academics",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate major listed by Ashoka University."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Economics and Finance",
+        "field": "finance"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "Sociology and Anthropology",
+        "field": "sociology"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "International Relations",
+        "field": "international-relations"
+      },
+      {
+        "name": "Environmental Studies",
+        "field": "environmental"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Creative Writing",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Visual Arts",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Performing Arts",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Media Studies",
+        "field": "media"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biology",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Entrepreneurial Leadership",
+        "field": "business"
+      }
+    ]
+  },
+  "bits-pilani": {
+    "source": {
+      "url": "https://www.bits-pilani.ac.in/admissions/",
+      "label": "BITS Pilani \u2014 Admissions and Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BE",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme listed by BITS Pilani."
+    },
+    "programmes": [
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BE"
+      },
+      {
+        "name": "Electrical and Electronics Engineering",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Electronics and Instrumentation",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Electronics and Communication",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Manufacturing Engineering",
+        "field": "engineering",
+        "degree": "BE"
+      },
+      {
+        "name": "Biological Sciences",
+        "field": "biology",
+        "degree": "MSc",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "MSc",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "MSc",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "MSc",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "MSc",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "BPharm"
+      }
+    ]
+  }
+}

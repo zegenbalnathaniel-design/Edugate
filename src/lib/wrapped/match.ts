@@ -548,14 +548,25 @@ export function computeWrapped(answers: Answers, unis: University[], today = new
   // when real course matches exist. Top-ups still need a genuine course match (≥ 60) — never prestige alone.
   const coursePct = (s: Scored) => s.dims.find((d) => d.key === "course")?.pct ?? 0;
   const inList = () => new Set(Object.values(lists).flat().map((s) => s.slug));
-  const topUp = (want: number, pick: (s: Scored) => boolean) => {
+  /**
+   * `flagCap` keeps one country from taking over a top-up — four US
+   * universities in a row is a worse list than four countries.
+   *
+   * It must be lifted when the top-up is deliberately scoped to a single
+   * flag. Every Indian university carries 🇮🇳, so a cap of 2 silently
+   * capped the India guarantee at two universities no matter how many
+   * qualified. That stayed invisible while the abroad catalogue was small
+   * enough that Indian universities reached the lists on their own; once
+   * abroad programmes grew, the India side collapsed to 2.
+   */
+  const topUp = (want: number, pick: (s: Scored) => boolean, flagCap = 2) => {
     const have = inList();
     const perFlag = new Map<string, number>();
     let added = 0;
     for (const s of scored) {
       if (added >= want) break;
       if (have.has(s.slug) || !pick(s) || s.fit < 50 || coursePct(s) < 60) continue;
-      if ((perFlag.get(s.flag) ?? 0) >= 2) continue;
+      if ((perFlag.get(s.flag) ?? 0) >= flagCap) continue;
       perFlag.set(s.flag, (perFlag.get(s.flag) ?? 0) + 1);
       lists[s.bucket].push(s);
       added++;
@@ -566,8 +577,10 @@ export function computeWrapped(answers: Answers, unis: University[], today = new
     const all = Object.values(lists).flat();
     const abroadN = all.filter((s) => !india(s)).length;
     const indiaN = all.length - abroadN;
+    // Abroad keeps the per-country cap; India is a single flag by definition,
+    // so capping it per-flag would defeat the guarantee this block exists for.
     if (abroadN < 5) topUp(5 - abroadN, (s) => !india(s));
-    if (indiaN < 5) topUp(5 - indiaN, india);
+    if (indiaN < 5) topUp(5 - indiaN, india, Number.POSITIVE_INFINITY);
   }
   const listed = Object.values(lists).flat().length;
   if (listed < 8) topUp(8 - listed, () => true);

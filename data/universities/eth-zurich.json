@@ -347,6 +347,3219 @@
       ],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Architecture is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Civil Engineering is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "environmental-engineering",
+      "name": "Environmental Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Environmental Engineering is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "geospatial-engineering",
+      "name": "Geospatial Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "geography",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Geospatial Engineering is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Mechanical Engineering is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "electrical-engineering-and-information-technology",
+      "name": "Electrical Engineering and Information Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Electrical Engineering and Information Technology is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Computer Science is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "materials-science",
+      "name": "Materials Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Materials Science is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "mathematics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Mathematics is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Physics is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "chemistry",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Chemistry is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Chemical Engineering is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Biology is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "pharmaceutical-sciences",
+      "name": "Pharmaceutical Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Pharmaceutical Sciences is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "health-sciences-and-technology",
+      "name": "Health Sciences and Technology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Health Sciences and Technology is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "agricultural-sciences",
+      "name": "Agricultural Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Agricultural Sciences is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "food-science",
+      "name": "Food Science",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "agriculture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Food Science is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "earth-and-climate-sciences",
+      "name": "Earth and Climate Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Earth and Climate Sciences is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "environmental-sciences",
+      "name": "Environmental Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "environmental",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Environmental Sciences is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "management-technology-and-economics",
+      "name": "Management, Technology and Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Management, Technology and Economics is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
+    },
+    {
+      "slug": "human-medicine",
+      "name": "Human Medicine",
+      "degree": "BMed",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "summary": "Human Medicine is a Bachelor's degree programme listed by ETH Zurich.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "IB",
+          "accepted": true,
+          "minimum": "38 of 42 points, without bonus points (for admission without entrance examination)",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics: Analysis and Approaches or Applications and Interpretation",
+              "level": "HL",
+              "minGrade": null,
+              "status": "required",
+              "notes": "Both AA and AI accepted for the no-exam route."
+            },
+            {
+              "subject": "Physics, chemistry or biology (one)",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; summary text was garbled, confirm HL/SL there."
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": null,
+              "minGrade": null,
+              "status": "required",
+              "notes": "Level requirement per ETH's 'Admission requirements' PDF; confirm HL/SL there."
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "IB holders who do not meet these conditions must sit a reduced or comprehensive ETH entrance examination. German C1 certificate is required regardless. Detail taken from search-result summaries of ethz.ch admission pages."
+        },
+        {
+          "curriculum": "A_LEVELS",
+          "accepted": true,
+          "minimum": "Three A-levels (or Cambridge Pre-U Principal Subjects), grade A in each, plus at least four additional AS/GCSE-type subjects from a list",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Physics or chemistry or biology",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            },
+            {
+              "subject": "Language of instruction or a foreign language",
+              "level": "A-level",
+              "minGrade": "A",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "Rule for England/Wales/Northern Ireland: at least four further (I)GCE AS, (I)GCSE or Pre-U short-course subjects from physics, chemistry, biology, computer science, another language, geography, history, economics. Otherwise a reduced ETH entrance examination is required. A-levels combined with other secondary credentials (e.g. German Gymnasium) require a comprehensive entrance exam. Exact grade thresholds quoted via search summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "US_HIGH_SCHOOL",
+          "accepted": true,
+          "minimum": "High school diploma plus at least three AP exams with a score of 3 or higher",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "Biology or physics or chemistry (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            },
+            {
+              "subject": "One language (AP)",
+              "level": "AP",
+              "minGrade": "3",
+              "status": "required"
+            }
+          ],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "US high school diploma alone is NOT sufficient: the three AP exams are required for no-exam admission; otherwise an entrance examination applies. Quoted via search summary."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN. For India ETH requires an upper secondary school-leaving certificate (e.g. All India Senior School Certificate, Indian School Certificate, HSC) PLUS a certificate of university admission in the desired subject from a recognised Indian university PLUS passing the reduced ETH entrance examination. Taken from ETH's country-list summary; confirm in ETH's PDF."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": false,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2025-26",
+          "notes": "NOT SUFFICIENT ON ITS OWN: same India rule as CBSE (Indian School Certificate named as an eligible base certificate; additionally a university admission certificate and the reduced entrance examination)."
+        }
+      ],
+      "tests": [
+        {
+          "test": "ETH entrance examination (reduced: 4 subjects; comprehensive: 8 subjects)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "high",
+          "notes": "Required for applicants whose certificate does not give direct access. Next sitting 18-28 January 2027 in Zurich; registration in eApply 15 September to 15 October. Applicants who must sit it can only start in autumn semester 2027 after passing."
+        },
+        {
+          "test": "German C1 certificate (Goethe C1, TestDaF, ÖSD C1, DSH-3, DSD, telc Deutsch C1; max. 2 years old)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s11",
+          "confidence": "high",
+          "notes": "Must be submitted by 31 March, otherwise the application is rejected. Waivers for native German speakers and for German/German-Swiss school-leaving certificates."
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s16"
     }
   ],
   "sources": [
@@ -447,6 +3660,13 @@
       "url": "https://www.topuniversities.com/university-subject-rankings/economics-econometrics",
       "type": "ranking-org",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s16",
+      "label": "ETH Zurich — Bachelor's Degree Programmes",
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes.html",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06",

@@ -145,6 +145,426 @@
         "mathematics"
       ],
       "specialization": "Taught in English"
+    },
+    {
+      "slug": "international-business-administration",
+      "name": "International Business Administration",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "International Business Administration is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "economics-and-business-economics",
+      "name": "Economics and Business Economics",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "economics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Economics and Business Economics is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "econometrics-and-operations-research",
+      "name": "Econometrics and Operations Research",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "statistics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Econometrics and Operations Research is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "business-analytics-and-quantitative-marketing",
+      "name": "Business Analytics and Quantitative Marketing",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Business Analytics and Quantitative Marketing is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "international-bachelor-communication-and-media",
+      "name": "International Bachelor Communication and Media",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "International Bachelor Communication and Media is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "psychology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Psychology is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Sociology is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "criminology",
+      "name": "Criminology",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "sociology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Criminology is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "public-administration",
+      "name": "Public Administration",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "political-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Public Administration is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "history",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "History is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "philosophy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Philosophy is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "law",
+      "name": "Law",
+      "degree": "LLB",
+      "level": "bachelors",
+      "field": "law",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Law is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "degree": "BSc",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Medicine is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
+    },
+    {
+      "slug": "health-sciences",
+      "name": "Health Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "summary": "Health Sciences is a Bachelor programme listed by Erasmus University Rotterdam.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 13500,
+          "max": 13500,
+          "period": "year"
+        },
+        "sourceId": "s2",
+        "confidence": "official",
+        "asOf": "2026-27",
+        "notes": "Non-EEA institutional fee."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s4"
     }
   ],
   "details": {},
@@ -169,6 +589,13 @@
       "url": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/facts-figures",
       "type": "university",
       "retrievedAt": "2026-10-06"
+    },
+    {
+      "id": "s4",
+      "label": "Erasmus University Rotterdam — Bachelor Programmes",
+      "url": "https://www.eur.nl/en/education/bachelor",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-06"
