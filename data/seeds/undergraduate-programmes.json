@@ -6317,6 +6317,10 @@
       {
         "name": "Summer School Business Fundamentals",
         "field": "business"
+      },
+      {
+        "name": "Bachelor in Management and Sustainability",
+        "field": "business"
       }
     ]
   },
@@ -6341,6 +6345,10 @@
       {
         "name": "Bachelor in Data Science and Business Analytics",
         "field": "data-science"
+      },
+      {
+        "name": "Bachelor in Management (BBA)",
+        "field": "business"
       }
     ]
   },
@@ -7443,6 +7451,1392 @@
         "name": "Pharmacy",
         "field": "pharmacy",
         "degree": "BPharm"
+      }
+    ]
+  },
+  "indian-institute-of-technology-bombay": {
+    "source": {
+      "url": "https://www.iitb.ac.in/en/education/academic-programmes",
+      "label": "IIT Bombay \u2014 Academic Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by IIT Bombay."
+    },
+    "programmes": [
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Engineering Physics",
+        "field": "engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Metallurgical Engineering and Materials Science",
+        "field": "engineering"
+      },
+      {
+        "name": "Environmental Science and Engineering",
+        "field": "environmental"
+      },
+      {
+        "name": "Energy Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "BS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Industrial Design",
+        "field": "design",
+        "degree": "B.Des"
+      },
+      {
+        "name": "Biosciences and Bioengineering",
+        "field": "biotechnology"
+      }
+    ]
+  },
+  "indian-institute-of-technology-delhi": {
+    "source": {
+      "url": "https://home.iitd.ac.in/academics.php",
+      "label": "IIT Delhi \u2014 Academic Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by IIT Delhi."
+    },
+    "programmes": [
+      {
+        "name": "Biotechnology and Biochemical Engineering",
+        "field": "biotechnology"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Electrical Engineering (Power and Automation)",
+        "field": "engineering"
+      },
+      {
+        "name": "Engineering Physics",
+        "field": "engineering"
+      },
+      {
+        "name": "Materials Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Mathematics and Computing",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Production and Industrial Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Textile Technology",
+        "field": "engineering"
+      },
+      {
+        "name": "Engineering and Computational Mechanics",
+        "field": "engineering"
+      },
+      {
+        "name": "Energy Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Design",
+        "field": "design",
+        "degree": "B.Des"
+      }
+    ]
+  },
+  "university-of-delhi": {
+    "source": {
+      "url": "https://www.du.ac.in/index.php?page=under-graduate",
+      "label": "University of Delhi \u2014 Undergraduate Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA (Hons)",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered across University of Delhi colleges."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Geography",
+        "field": "geography"
+      },
+      {
+        "name": "Hindi",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Sanskrit",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Urdu",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Persian",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Arabic",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Punjabi",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Bengali",
+        "field": "languages-literature"
+      },
+      {
+        "name": "French",
+        "field": "languages-literature"
+      },
+      {
+        "name": "German",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Spanish",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Italian",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Journalism",
+        "field": "media"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work"
+      },
+      {
+        "name": "Applied Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "B.Com (Hons)"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Botany",
+        "field": "biology",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Zoology",
+        "field": "biology",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Biomedical Science",
+        "field": "allied-health",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Biochemistry",
+        "field": "chemistry",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Microbiology",
+        "field": "biology",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Electronics",
+        "field": "engineering",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Geology",
+        "field": "environmental",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Anthropology",
+        "field": "social-sciences",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Food Technology",
+        "field": "agriculture",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Polymer Science",
+        "field": "chemistry",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Home Science",
+        "field": "allied-health",
+        "degree": "BSc (Hons)"
+      },
+      {
+        "name": "Management Studies",
+        "field": "business",
+        "degree": "BMS"
+      },
+      {
+        "name": "Business Administration (Financial Investment Analysis)",
+        "field": "finance",
+        "degree": "BBA (FIA)"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science",
+        "degree": "B.Tech"
+      },
+      {
+        "name": "Law",
+        "field": "law",
+        "degree": "LLB",
+        "level": "integrated",
+        "years": 3
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MBBS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Dental Surgery",
+        "field": "medicine",
+        "degree": "BDS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSc"
+      },
+      {
+        "name": "Ayurvedic Medicine and Surgery",
+        "field": "medicine",
+        "degree": "BAMS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Education",
+        "field": "education",
+        "degree": "B.Ed",
+        "years": 2
+      },
+      {
+        "name": "Elementary Education",
+        "field": "education",
+        "degree": "B.El.Ed"
+      },
+      {
+        "name": "Physical Education",
+        "field": "sports-management",
+        "degree": "B.P.Ed",
+        "years": 2
+      }
+    ]
+  },
+  "vellore-institute-of-technology": {
+    "source": {
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "label": "Vellore Institute of Technology \u2014 Programmes Offered",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by Vellore Institute of Technology."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+        "field": "data-science"
+      },
+      {
+        "name": "Computer Science and Engineering (Data Science)",
+        "field": "data-science"
+      },
+      {
+        "name": "Computer Science and Engineering (Cyber Security)",
+        "field": "computer-science"
+      },
+      {
+        "name": "Information Technology",
+        "field": "computer-science"
+      },
+      {
+        "name": "Electronics and Communication Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Electrical and Electronics Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Electronics and Computer Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Biotechnology",
+        "field": "biotechnology"
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BBA",
+        "years": 3
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "B.Com",
+        "years": 3
+      },
+      {
+        "name": "Computer Applications",
+        "field": "computer-science",
+        "degree": "BCA",
+        "years": 3
+      },
+      {
+        "name": "Design",
+        "field": "design",
+        "degree": "B.Des"
+      }
+    ]
+  },
+  "manipal-academy-of-higher-education": {
+    "source": {
+      "url": "https://manipal.edu/mu/program-list.html",
+      "label": "Manipal Academy of Higher Education \u2014 Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by Manipal Academy of Higher Education."
+    },
+    "programmes": [
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MBBS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Dental Surgery",
+        "field": "medicine",
+        "degree": "BDS",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "B.Pharm"
+      },
+      {
+        "name": "Nursing",
+        "field": "nursing",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physiotherapy",
+        "field": "allied-health",
+        "degree": "BPT"
+      },
+      {
+        "name": "Occupational Therapy",
+        "field": "allied-health",
+        "degree": "BOT"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Information Technology",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Electronics and Communication Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Biotechnology",
+        "field": "biotechnology"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "B.Arch",
+        "years": 5
+      },
+      {
+        "name": "Media and Communication",
+        "field": "media",
+        "degree": "BA",
+        "years": 3
+      },
+      {
+        "name": "Business Administration",
+        "field": "business",
+        "degree": "BBA",
+        "years": 3
+      },
+      {
+        "name": "Hotel Management",
+        "field": "hospitality",
+        "degree": "BHM"
+      },
+      {
+        "name": "Allied Health Sciences",
+        "field": "allied-health",
+        "degree": "BSc",
+        "years": 3
+      }
+    ]
+  },
+  "iiit-hyderabad": {
+    "source": {
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "label": "IIIT Hyderabad \u2014 Undergraduate Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by IIIT Hyderabad."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science"
+      },
+      {
+        "name": "Electronics and Communication Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Computer Science and Engineering with MS by Research",
+        "field": "computer-science",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Electronics and Communication Engineering with MS by Research",
+        "field": "engineering",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Computational Natural Sciences",
+        "field": "biology",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Computational Linguistics",
+        "field": "languages-literature",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Computer Science and Design",
+        "field": "design",
+        "level": "integrated",
+        "years": 5
+      },
+      {
+        "name": "Building Science",
+        "field": "architecture",
+        "level": "integrated",
+        "years": 5
+      }
+    ]
+  },
+  "university-of-madras": {
+    "source": {
+      "url": "https://www.unom.ac.in/index.php?route=department/department",
+      "label": "University of Madras \u2014 Departments and Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate programme offered by the University of Madras."
+    },
+    "programmes": [
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "English",
+        "field": "languages-literature"
+      },
+      {
+        "name": "History",
+        "field": "history"
+      },
+      {
+        "name": "Political Science",
+        "field": "political-science"
+      },
+      {
+        "name": "Philosophy",
+        "field": "philosophy"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Tamil",
+        "field": "languages-literature"
+      },
+      {
+        "name": "Commerce",
+        "field": "commerce",
+        "degree": "B.Com"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physics",
+        "field": "physics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Computer Science",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Zoology",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Botany",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biochemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Social Work",
+        "field": "social-work",
+        "degree": "BSW"
+      }
+    ]
+  },
+  "national-institute-of-design-ahmedabad": {
+    "source": {
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "label": "National Institute of Design \u2014 Bachelor of Design",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Des",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is a Bachelor of Design discipline offered by the National Institute of Design."
+    },
+    "programmes": [
+      {
+        "name": "Animation Film Design",
+        "field": "design"
+      },
+      {
+        "name": "Ceramic and Glass Design",
+        "field": "design"
+      },
+      {
+        "name": "Exhibition Design",
+        "field": "design"
+      },
+      {
+        "name": "Film and Video Communication",
+        "field": "media"
+      },
+      {
+        "name": "Furniture and Interior Design",
+        "field": "design"
+      },
+      {
+        "name": "Graphic Design",
+        "field": "design"
+      },
+      {
+        "name": "Product Design",
+        "field": "design"
+      },
+      {
+        "name": "Textile Design",
+        "field": "design"
+      }
+    ]
+  },
+  "nift-chennai": {
+    "source": {
+      "url": "https://www.nift.ac.in/chennai/academics",
+      "label": "NIFT Chennai \u2014 Academic Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "B.Des",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by NIFT Chennai."
+    },
+    "programmes": [
+      {
+        "name": "Fashion Design",
+        "field": "design"
+      },
+      {
+        "name": "Leather Design",
+        "field": "design"
+      },
+      {
+        "name": "Accessory Design",
+        "field": "design"
+      },
+      {
+        "name": "Textile Design",
+        "field": "design"
+      },
+      {
+        "name": "Knitwear Design",
+        "field": "design"
+      },
+      {
+        "name": "Fashion Communication",
+        "field": "media"
+      },
+      {
+        "name": "Apparel Production",
+        "field": "design",
+        "degree": "B.F.Tech"
+      }
+    ]
+  },
+  "chennai-mathematical-institute": {
+    "source": {
+      "url": "https://www.cmi.ac.in/admissions/ug-programmes.php",
+      "label": "Chennai Mathematical Institute \u2014 Undergraduate Programmes",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc (Hons)",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is an undergraduate programme offered by the Chennai Mathematical Institute."
+    },
+    "programmes": [
+      {
+        "name": "Mathematics and Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Mathematics and Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science"
+      }
+    ]
+  },
+  "the-university-of-tokyo": {
+    "source": {
+      "url": "https://www.u-tokyo.ac.jp/en/academics/undergraduate.html",
+      "label": "University of Tokyo \u2014 Undergraduate Faculties",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by the University of Tokyo."
+    },
+    "programmes": [
+      {
+        "name": "Law",
+        "field": "law"
+      },
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Letters",
+        "field": "humanities"
+      },
+      {
+        "name": "Education",
+        "field": "education"
+      },
+      {
+        "name": "Liberal Arts",
+        "field": "liberal-arts"
+      },
+      {
+        "name": "Science",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Agriculture",
+        "field": "agriculture",
+        "degree": "BSc"
+      },
+      {
+        "name": "Pharmaceutical Sciences",
+        "field": "pharmacy",
+        "degree": "BSc"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MD",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Programs in English at Komaba (PEAK) \u2014 International Program on Japan in East Asia",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Programs in English at Komaba (PEAK) \u2014 International Program on Environmental Sciences",
+        "field": "environmental"
+      }
+    ]
+  },
+  "seoul-national-university": {
+    "source": {
+      "url": "https://en.snu.ac.kr/academics/undergraduate/colleges",
+      "label": "Seoul National University \u2014 Colleges",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BA",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by Seoul National University."
+    },
+    "programmes": [
+      {
+        "name": "Business Administration",
+        "field": "business"
+      },
+      {
+        "name": "Economics",
+        "field": "economics"
+      },
+      {
+        "name": "Political Science and International Relations",
+        "field": "political-science"
+      },
+      {
+        "name": "Sociology",
+        "field": "sociology"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology"
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "field": "computer-science",
+        "degree": "BSc"
+      },
+      {
+        "name": "Electrical and Computer Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Civil and Environmental Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Chemical and Biological Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering",
+        "degree": "BEng"
+      },
+      {
+        "name": "Mathematical Sciences",
+        "field": "mathematics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Physics and Astronomy",
+        "field": "physics",
+        "degree": "BSc"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry",
+        "degree": "BSc"
+      },
+      {
+        "name": "Biological Sciences",
+        "field": "biology",
+        "degree": "BSc"
+      },
+      {
+        "name": "Medicine",
+        "field": "medicine",
+        "degree": "MD",
+        "level": "integrated",
+        "years": 6
+      },
+      {
+        "name": "Law",
+        "field": "law"
+      },
+      {
+        "name": "Education",
+        "field": "education"
+      },
+      {
+        "name": "Agricultural and Life Sciences",
+        "field": "agriculture",
+        "degree": "BSc"
+      },
+      {
+        "name": "Fine Arts",
+        "field": "visual-arts",
+        "degree": "BFA"
+      },
+      {
+        "name": "Music",
+        "field": "performing-arts",
+        "degree": "BMus"
+      }
+    ]
+  },
+  "kaist": {
+    "source": {
+      "url": "https://www.kaist.ac.kr/en/html/edu/0101.html",
+      "label": "KAIST \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by KAIST."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Civil and Environmental Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Chemical and Biomolecular Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Materials Science and Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Aerospace Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Industrial and Systems Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Nuclear and Quantum Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Bio and Brain Engineering",
+        "field": "engineering"
+      },
+      {
+        "name": "Mathematical Sciences",
+        "field": "mathematics"
+      },
+      {
+        "name": "Physics",
+        "field": "physics"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Biological Sciences",
+        "field": "biology"
+      },
+      {
+        "name": "Business and Technology Management",
+        "field": "business"
+      },
+      {
+        "name": "Industrial Design",
+        "field": "design"
+      }
+    ]
+  },
+  "universite-paris-1-pantheon-sorbonne": {
+    "source": {
+      "url": "https://www.pantheonsorbonne.fr/formation/licences",
+      "label": "Universit\u00e9 Paris 1 Panth\u00e9on-Sorbonne \u2014 Licences",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "Licence",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 3,
+      "summaryTemplate": "{name} is a Licence programme offered by Universit\u00e9 Paris 1 Panth\u00e9on-Sorbonne."
+    },
+    "programmes": [
+      {
+        "name": "Droit (Law)",
+        "field": "law"
+      },
+      {
+        "name": "\u00c9conomie (Economics)",
+        "field": "economics"
+      },
+      {
+        "name": "Gestion (Management)",
+        "field": "business"
+      },
+      {
+        "name": "Science Politique",
+        "field": "political-science"
+      },
+      {
+        "name": "Histoire",
+        "field": "history"
+      },
+      {
+        "name": "G\u00e9ographie et Am\u00e9nagement",
+        "field": "geography"
+      },
+      {
+        "name": "Philosophie",
+        "field": "philosophy"
+      },
+      {
+        "name": "Histoire de l'Art et Arch\u00e9ologie",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Arts Plastiques",
+        "field": "visual-arts"
+      },
+      {
+        "name": "Cin\u00e9ma",
+        "field": "media"
+      },
+      {
+        "name": "Math\u00e9matiques et Informatique appliqu\u00e9es (MIASHS)",
+        "field": "mathematics"
+      },
+      {
+        "name": "Administration \u00c9conomique et Sociale (AES)",
+        "field": "social-sciences"
+      },
+      {
+        "name": "Sociologie",
+        "field": "sociology"
+      }
+    ]
+  },
+  "university-of-waterloo": {
+    "source": {
+      "url": "https://uwaterloo.ca/future-students/programs",
+      "label": "University of Waterloo \u2014 Undergraduate Programs",
+      "retrievedAt": "2026-10-22"
+    },
+    "defaults": {
+      "degree": "BSc",
+      "level": "bachelors",
+      "school": null,
+      "durationYears": 4,
+      "summaryTemplate": "{name} is an undergraduate programme offered by the University of Waterloo."
+    },
+    "programmes": [
+      {
+        "name": "Computer Science",
+        "field": "computer-science"
+      },
+      {
+        "name": "Software Engineering",
+        "field": "computer-science",
+        "degree": "BSE"
+      },
+      {
+        "name": "Computer Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Electrical Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Mechatronics Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Civil Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Chemical Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Systems Design Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Nanotechnology Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "field": "engineering",
+        "degree": "BASc"
+      },
+      {
+        "name": "Architecture",
+        "field": "architecture",
+        "degree": "BAS"
+      },
+      {
+        "name": "Mathematics",
+        "field": "mathematics",
+        "degree": "BMath"
+      },
+      {
+        "name": "Statistics",
+        "field": "statistics",
+        "degree": "BMath"
+      },
+      {
+        "name": "Actuarial Science",
+        "field": "statistics",
+        "degree": "BMath"
+      },
+      {
+        "name": "Data Science",
+        "field": "data-science",
+        "degree": "BMath"
+      },
+      {
+        "name": "Accounting and Financial Management",
+        "field": "commerce",
+        "degree": "BAFM"
+      },
+      {
+        "name": "Biology",
+        "field": "biology"
+      },
+      {
+        "name": "Chemistry",
+        "field": "chemistry"
+      },
+      {
+        "name": "Physics and Astronomy",
+        "field": "physics"
+      },
+      {
+        "name": "Environmental Science",
+        "field": "environmental"
+      },
+      {
+        "name": "Planning",
+        "field": "architecture",
+        "degree": "BES"
+      },
+      {
+        "name": "Economics",
+        "field": "economics",
+        "degree": "BA"
+      },
+      {
+        "name": "Psychology",
+        "field": "psychology",
+        "degree": "BA"
+      },
+      {
+        "name": "Global Business and Digital Arts",
+        "field": "media",
+        "degree": "BGBDA"
+      },
+      {
+        "name": "Kinesiology",
+        "field": "sports-management",
+        "degree": "BSc"
+      },
+      {
+        "name": "Optometry",
+        "field": "allied-health",
+        "degree": "OD",
+        "level": "integrated"
+      },
+      {
+        "name": "Pharmacy",
+        "field": "pharmacy",
+        "degree": "BScPhm",
+        "level": "integrated"
       }
     ]
   }

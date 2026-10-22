@@ -262,6 +262,502 @@
       ],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "computer-science-and-engineering",
+      "name": "Computer Science and Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Computer Science and Engineering is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "electronics-and-communication-engineering",
+      "name": "Electronics and Communication Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Electronics and Communication Engineering is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "computer-science-and-engineering-with-ms-by-research",
+      "name": "Computer Science and Engineering with MS by Research",
+      "degree": "B.Tech",
+      "level": "integrated",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Computer Science and Engineering with MS by Research is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "electronics-and-communication-engineering-with-ms-by-research",
+      "name": "Electronics and Communication Engineering with MS by Research",
+      "degree": "B.Tech",
+      "level": "integrated",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Electronics and Communication Engineering with MS by Research is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "computational-natural-sciences",
+      "name": "Computational Natural Sciences",
+      "degree": "B.Tech",
+      "level": "integrated",
+      "field": "biology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Computational Natural Sciences is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "computational-linguistics",
+      "name": "Computational Linguistics",
+      "degree": "B.Tech",
+      "level": "integrated",
+      "field": "languages-literature",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Computational Linguistics is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "computer-science-and-design",
+      "name": "Computer Science and Design",
+      "degree": "B.Tech",
+      "level": "integrated",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Computer Science and Design is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
+    },
+    {
+      "slug": "building-science",
+      "name": "Building Science",
+      "degree": "B.Tech",
+      "level": "integrated",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "summary": "Building Science is an undergraduate programme offered by IIIT Hyderabad.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s4",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "Ranked on JEE (Main) score in IIIT Hyderabad's own admission process; see the JEE channel page for Class XII conditions."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE (Main)",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s4",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s12"
     }
   ],
   "sources": [
@@ -327,6 +823,13 @@
       "url": "https://news.careers360.com/iiit-hyderabad-cutoff-jee-mains-2025-btech-ece-cse-engineering-cut-off-closing-ranks-last-3-years-seat-intake-fees-eligibility",
       "type": "secondary",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "label": "IIIT Hyderabad — Undergraduate Programmes",
+      "url": "https://www.iiit.ac.in/academics/programmes/undergraduate/",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",

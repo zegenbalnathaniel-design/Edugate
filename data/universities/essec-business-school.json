@@ -147,6 +147,26 @@
       "fees": null,
       "addedBy": "catalogue-expansion",
       "addedSourceId": "s3"
+    },
+    {
+      "slug": "bachelor-in-management-bba",
+      "name": "Bachelor in Management (BBA)",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.essec.edu/en/program/bachelor-programs/",
+      "summary": "Bachelor in Management (BBA) is an undergraduate programme listed by ESSEC Business School.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [],
+      "tests": [],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s3"
     }
   ],
   "details": {},

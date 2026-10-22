@@ -284,6 +284,2070 @@
         "asOf": null,
         "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
       }
+    },
+    {
+      "slug": "computer-science-and-engineering",
+      "name": "Computer Science and Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Computer Science and Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "computer-science-and-engineering-artificial-intelligence-and-machine-learning",
+      "name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "computer-science-and-engineering-data-science",
+      "name": "Computer Science and Engineering (Data Science)",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Computer Science and Engineering (Data Science) is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "computer-science-and-engineering-cyber-security",
+      "name": "Computer Science and Engineering (Cyber Security)",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Computer Science and Engineering (Cyber Security) is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "information-technology",
+      "name": "Information Technology",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Information Technology is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "electronics-and-communication-engineering",
+      "name": "Electronics and Communication Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Electronics and Communication Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "electrical-and-electronics-engineering",
+      "name": "Electrical and Electronics Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Electrical and Electronics Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "electronics-and-computer-engineering",
+      "name": "Electronics and Computer Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Electronics and Computer Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Mechanical Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Civil Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Chemical Engineering is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "biotechnology",
+      "name": "Biotechnology",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Biotechnology is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "business-administration",
+      "name": "Business Administration",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Business Administration is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce",
+      "degree": "B.Com",
+      "level": "bachelors",
+      "field": "commerce",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Commerce is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "computer-applications",
+      "name": "Computer Applications",
+      "degree": "BCA",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Computer Applications is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "summary": "Design is an undergraduate programme offered by Vellore Institute of Technology.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "60% aggregate in Physics, Chemistry and Mathematics, with at least 50% in Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": "50%",
+              "status": "required"
+            },
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s7",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "VITEEE 2026 eligibility; admission and fee category are then decided by VITEEE rank at counselling."
+        }
+      ],
+      "tests": [
+        {
+          "test": "VITEEE",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s7",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 195000,
+          "max": 490000,
+          "period": "year"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": null,
+        "notes": "B.Tech CSE (Group B), per year, by fee category allotted at counselling: Cat 1 ₹1,95,000 · Cat 2 ₹3,04,000 · Cat 3 ₹4,02,000 · Cat 4 ₹4,45,000 · Cat 5 ₹4,90,000. The year of this table could not be confirmed and a secondary source reports ₹4.30 lakh for Category 5 in 2026-27 — check the official page."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
     }
   ],
   "sources": [
@@ -356,6 +2420,13 @@
       "url": "https://vit.ac.in/about/vision-mission",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "Vellore Institute of Technology — Programmes Offered",
+      "url": "https://vit.ac.in/academics/programmes-offered",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",

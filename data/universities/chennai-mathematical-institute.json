@@ -524,6 +524,195 @@
         "CMI scholarship",
         "Need-based tuition fee waiver"
       ]
+    },
+    {
+      "slug": "mathematics-and-computer-science",
+      "name": "Mathematics and Computer Science",
+      "degree": "BSc (Hons)",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.cmi.ac.in/admissions/ug-programmes.php",
+      "summary": "Mathematics and Computer Science is an undergraduate programme offered by the Chennai Mathematical Institute.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "mathematics-and-physics",
+      "name": "Mathematics and Physics",
+      "degree": "BSc (Hons)",
+      "level": "bachelors",
+      "field": "physics",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.cmi.ac.in/admissions/ug-programmes.php",
+      "summary": "Mathematics and Physics is an undergraduate programme offered by the Chennai Mathematical Institute.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
+    },
+    {
+      "slug": "data-science",
+      "name": "Data Science",
+      "degree": "BSc (Hons)",
+      "level": "bachelors",
+      "field": "data-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 3,
+      "url": "https://www.cmi.ac.in/admissions/ug-programmes.php",
+      "summary": "Data Science is an undergraduate programme offered by the Chennai Mathematical Institute.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s2",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Passed, or expecting to pass in 2026, the 12th standard (or equivalent) examination from a recognised board."
+        }
+      ],
+      "tests": [],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 125000,
+          "max": 125000,
+          "period": "semester"
+        },
+        "sourceId": "s3",
+        "confidence": "official",
+        "asOf": "2026-27"
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s8"
     }
   ],
   "details": {
@@ -655,6 +844,13 @@
       "url": "https://www.cmi.ac.in/~placement/",
       "type": "university",
       "retrievedAt": "2026-10-04"
+    },
+    {
+      "id": "s8",
+      "label": "Chennai Mathematical Institute — Undergraduate Programmes",
+      "url": "https://www.cmi.ac.in/admissions/ug-programmes.php",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-04",

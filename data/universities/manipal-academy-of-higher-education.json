@@ -328,6 +328,2199 @@
         "asOf": "2025-26",
         "notes": "General category, 2025-26 batch: ₹70,88,500 for the course including caution deposit (tuition ₹10,99,000 + other fees ₹6,71,000 a year). 2026-27 figures not confirmed."
       }
+    },
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "degree": "MBBS",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Medicine is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "dental-surgery",
+      "name": "Dental Surgery",
+      "degree": "BDS",
+      "level": "integrated",
+      "field": "medicine",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Dental Surgery is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "pharmacy",
+      "name": "Pharmacy",
+      "degree": "B.Pharm",
+      "level": "bachelors",
+      "field": "pharmacy",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Pharmacy is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "nursing",
+      "name": "Nursing",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "nursing",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Nursing is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "physiotherapy",
+      "name": "Physiotherapy",
+      "degree": "BPT",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Physiotherapy is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "occupational-therapy",
+      "name": "Occupational Therapy",
+      "degree": "BOT",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Occupational Therapy is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "computer-science-and-engineering",
+      "name": "Computer Science and Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Computer Science and Engineering is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "information-technology",
+      "name": "Information Technology",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Information Technology is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Mechanical Engineering is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Civil Engineering is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "electronics-and-communication-engineering",
+      "name": "Electronics and Communication Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Electronics and Communication Engineering is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "biotechnology",
+      "name": "Biotechnology",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Biotechnology is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "degree": "B.Arch",
+      "level": "bachelors",
+      "field": "architecture",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Architecture is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "media-and-communication",
+      "name": "Media and Communication",
+      "degree": "BA",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Media and Communication is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "business-administration",
+      "name": "Business Administration",
+      "degree": "BBA",
+      "level": "bachelors",
+      "field": "business",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Business Administration is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "hotel-management",
+      "name": "Hotel Management",
+      "degree": "BHM",
+      "level": "bachelors",
+      "field": "hospitality",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Hotel Management is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
+    },
+    {
+      "slug": "allied-health-sciences",
+      "name": "Allied Health Sciences",
+      "degree": "BSc",
+      "level": "bachelors",
+      "field": "allied-health",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://manipal.edu/mu/program-list.html",
+      "summary": "Allied Health Sciences is an undergraduate programme offered by Manipal Academy of Higher Education.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "50% aggregate in Physics, Chemistry and Mathematics",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "official",
+          "asOf": "2026-27",
+          "notes": "Merit for admission: MET score and Class XII marks weighted 50:50."
+        }
+      ],
+      "tests": [
+        {
+          "test": "MET",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": {
+        "value": {
+          "min": 2442000,
+          "max": 2442000,
+          "period": "total"
+        },
+        "sourceId": "s5",
+        "confidence": "high",
+        "asOf": "2026-27",
+        "notes": "Course total, paid in four annual instalments; includes a refundable ₹10,000 caution deposit."
+      },
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s13"
     }
   ],
   "sources": [
@@ -393,6 +2586,13 @@
       "url": "https://www.careers360.com/university/manipal-academy-of-higher-education-manipal/placement",
       "type": "secondary",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "label": "Manipal Academy of Higher Education — Programmes",
+      "url": "https://manipal.edu/mu/program-list.html",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",

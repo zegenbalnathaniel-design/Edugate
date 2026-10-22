@@ -190,6 +190,502 @@
       ],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "animation-film-design",
+      "name": "Animation Film Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Animation Film Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "ceramic-and-glass-design",
+      "name": "Ceramic and Glass Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Ceramic and Glass Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "exhibition-design",
+      "name": "Exhibition Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Exhibition Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "film-and-video-communication",
+      "name": "Film and Video Communication",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "media",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Film and Video Communication is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "furniture-and-interior-design",
+      "name": "Furniture and Interior Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Furniture and Interior Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "graphic-design",
+      "name": "Graphic Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Graphic Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "product-design",
+      "name": "Product Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Product Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
+    },
+    {
+      "slug": "textile-design",
+      "name": "Textile Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "summary": "Textile Design is a Bachelor of Design discipline offered by the National Institute of Design.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": null,
+          "typical": null,
+          "subjects": [],
+          "sourceId": "s3",
+          "confidence": "official",
+          "asOf": "2027-28",
+          "notes": "Class XII eligibility and age conditions are set out in the 2027-28 admissions handbook; selection is by DAT."
+        }
+      ],
+      "tests": [
+        {
+          "test": "NID DAT",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s3",
+          "confidence": "official"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s7"
     }
   ],
   "sources": [
@@ -220,6 +716,13 @@
       "url": "https://www.nid.edu/studyofnid/life",
       "type": "university",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "label": "National Institute of Design — Bachelor of Design",
+      "url": "https://www.nid.edu/academics/bachelor-of-design",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",

@@ -413,6 +413,1791 @@
       ],
       "english": [],
       "fees": null
+    },
+    {
+      "slug": "biotechnology-and-biochemical-engineering",
+      "name": "Biotechnology and Biochemical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "biotechnology",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Biotechnology and Biochemical Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Chemical Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Civil Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "computer-science-and-engineering",
+      "name": "Computer Science and Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Computer Science and Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "electrical-engineering",
+      "name": "Electrical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Electrical Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "electrical-engineering-power-and-automation",
+      "name": "Electrical Engineering (Power and Automation)",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Electrical Engineering (Power and Automation) is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "engineering-physics",
+      "name": "Engineering Physics",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Engineering Physics is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "materials-engineering",
+      "name": "Materials Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Materials Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "mathematics-and-computing",
+      "name": "Mathematics and Computing",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "computer-science",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Mathematics and Computing is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Mechanical Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "production-and-industrial-engineering",
+      "name": "Production and Industrial Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Production and Industrial Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "textile-technology",
+      "name": "Textile Technology",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Textile Technology is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "engineering-and-computational-mechanics",
+      "name": "Engineering and Computational Mechanics",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Engineering and Computational Mechanics is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "energy-engineering",
+      "name": "Energy Engineering",
+      "degree": "B.Tech",
+      "level": "bachelors",
+      "field": "engineering",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Energy Engineering is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "degree": "B.Des",
+      "level": "bachelors",
+      "field": "design",
+      "subfield": null,
+      "school": null,
+      "durationYears": 4,
+      "url": "https://home.iitd.ac.in/academics.php",
+      "summary": "Design is an undergraduate programme offered by IIT Delhi.",
+      "curriculum": [],
+      "curriculumSourceId": null,
+      "requirements": [
+        {
+          "curriculum": "CBSE",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "ISC",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        },
+        {
+          "curriculum": "STATE_BOARD",
+          "accepted": true,
+          "minimum": "At least 75% aggregate in five subjects in Class XII (65% for SC/ST/PwD), or within the category-wise top 20 percentile of the Class XII board",
+          "typical": null,
+          "subjects": [
+            {
+              "subject": "Physics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Chemistry",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            },
+            {
+              "subject": "Mathematics",
+              "level": "Class XII",
+              "minGrade": null,
+              "status": "required"
+            }
+          ],
+          "sourceId": "s5",
+          "confidence": "high",
+          "asOf": "2026-27",
+          "notes": "JEE Advanced 2026 cycle criteria; seat allotment is through JoSAA after JEE Main and JEE Advanced. Quoted by an official-domain search result; the page itself could not be fetched directly from the sandbox."
+        }
+      ],
+      "tests": [
+        {
+          "test": "JEE Advanced",
+          "policy": "required",
+          "typicalRange": null,
+          "sourceId": "s5",
+          "confidence": "high"
+        }
+      ],
+      "english": [],
+      "fees": null,
+      "addedBy": "catalogue-expansion",
+      "addedSourceId": "s18"
     }
   ],
   "sources": [
@@ -492,6 +2277,13 @@
       "url": "https://engineering.careers360.com/articles/jossa-opening-and-closing-rank",
       "type": "secondary",
       "retrievedAt": "2026-10-03"
+    },
+    {
+      "id": "s18",
+      "label": "IIT Delhi — Academic Programmes",
+      "url": "https://home.iitd.ac.in/academics.php",
+      "type": "university",
+      "retrievedAt": "2026-10-22"
     }
   ],
   "lastVerified": "2026-10-03",
