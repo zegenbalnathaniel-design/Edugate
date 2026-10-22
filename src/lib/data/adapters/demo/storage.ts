@@ -11,8 +11,24 @@ type ID = string;
 
 const NAMESPACE = "edugate:demo:v1:";
 
+/**
+ * Storage is usable only if its methods are actually callable.
+ *
+ * Checking the object exists is not enough: Safari in Lockdown Mode, some
+ * privacy extensions and a few test environments expose a localStorage whose
+ * methods are missing or throw. Reads already had try/catch; writes did not,
+ * so a broken-but-present storage threw straight out of writeCollection.
+ */
 function hasStorage(): boolean {
-  return typeof window !== "undefined" && !!window.localStorage;
+  try {
+    return (
+      typeof window !== "undefined" &&
+      typeof window.localStorage?.setItem === "function" &&
+      typeof window.localStorage?.getItem === "function"
+    );
+  } catch {
+    return false; // accessing localStorage itself can throw when blocked
+  }
 }
 
 export function readCollection<T>(key: string): T[] {
@@ -27,7 +43,12 @@ export function readCollection<T>(key: string): T[] {
 
 export function writeCollection<T>(key: string, items: T[]): void {
   if (!hasStorage()) return;
-  window.localStorage.setItem(NAMESPACE + key, JSON.stringify(items));
+  try {
+    window.localStorage.setItem(NAMESPACE + key, JSON.stringify(items));
+  } catch {
+    // Quota exceeded or storage blocked mid-session. Demo persistence is a
+    // convenience; losing it must not break the page the user is on.
+  }
 }
 
 export function readValue<T>(key: string): T | null {
@@ -42,7 +63,11 @@ export function readValue<T>(key: string): T | null {
 
 export function writeValue<T>(key: string, value: T): void {
   if (!hasStorage()) return;
-  window.localStorage.setItem(NAMESPACE + key, JSON.stringify(value));
+  try {
+    window.localStorage.setItem(NAMESPACE + key, JSON.stringify(value));
+  } catch {
+    // Same contract as writeCollection: persistence is best-effort.
+  }
 }
 
 /** Reset is a feature (docs/01-architecture.md): wipes only the demo namespace. */

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ProgramFilters } from "@/components/courses/ProgramFilters";
 import { ProgramResults } from "@/components/courses/ProgramResults";
+import { HairlineRule, HairlineTicks } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 import { Container, Section, SectionLabel } from "@/components/primitives/Section";
 import { FIELD_NAMES, parseFilters, subjectsInQuery } from "@/lib/unis/filters";
 import { geoFacets, searchPrograms, subjectCounts } from "@/lib/unis/repo";
@@ -37,10 +39,13 @@ export default async function CoursesPage({ searchParams }: PageProps<"/courses"
               <input id="cq" name="q" placeholder="e.g. Economics, B.Com, Psychology, Economics + Finance" className="h-12 min-w-0 flex-1 rounded-full border border-paper/20 bg-navy-800 px-5 text-[0.9375rem]" />
               <button className="h-12 rounded-full bg-electric px-6 text-[0.9375rem] font-semibold text-[var(--on-electric)]">Search</button>
             </form>
-            <div className="mt-12 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
+            <HairlineTicks count={48} className="mt-10 text-paper" />
+            <div className="mt-10 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
               {SUBJECT_GROUPS.map((g) => (
                 <section key={g} aria-labelledby={`g-${g}`}>
-                  <h2 id={`g-${g}`} className="meta mb-3 text-paper/50">{g}</h2>
+                  <h2 id={`g-${g}`} className="meta mb-2 text-paper/50">{g}</h2>
+                  <HairlineRule className="mb-3 text-paper" />
+                  <Reveal stagger>
                   <ul className="space-y-2">
                     {SUBJECTS.filter((s) => s.group === g).map((s) => (
                       <li key={s.key}>
@@ -54,6 +59,7 @@ export default async function CoursesPage({ searchParams }: PageProps<"/courses"
                       </li>
                     ))}
                   </ul>
+                  </Reveal>
                 </section>
               ))}
             </div>
@@ -73,7 +79,7 @@ export default async function CoursesPage({ searchParams }: PageProps<"/courses"
                   )}
                 </p>
               )}
-              <ProgramResults hits={hits} />
+              <ProgramResults hits={hits} f={f} action="/courses" />
             </div>
           </div>
         )}

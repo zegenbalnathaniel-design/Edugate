@@ -3,7 +3,7 @@ import { cache } from "react";
 import { and, arrayOverlaps, asc, eq, gte, inArray, isNull, lte, max, or, sql, type SQL } from "drizzle-orm";
 import { catalogueFromFiles, getDb, warmDb } from "@/lib/db";
 import { loadUniversityFiles } from "@/lib/db/seed";
-import { extractColumns } from "./extract";
+import { extractColumns, programColumns } from "./extract";
 import { programs, universities } from "@/lib/db/schema";
 import { COST_BANDS, QS_BANDS, subjectsInQuery, type Filters } from "./filters";
 import { HOME_HUB, type Tier } from "./geo";
@@ -151,6 +151,44 @@ function fileRows(): Map<string, UniversityRow> {
   return fg.__edugateFileRows;
 }
 
+/* ---------------------------------------------------------------------- *
+ * In-memory equivalents of the SQL filters above.
+ *
+ * The course explorer's three queries — geoFacets, subjectCounts and
+ * searchPrograms — used to go straight to the database with no file fallback,
+ * so /courses blocked on the cold-start seed while every other catalogue page
+ * had an instant path. That is the "have to click it twice" lag: the first
+ * request sat through PGlite's WASM start-up and a ~3,200-programme seed.
+ *
+ * These mirror sharedWhere/searchPrograms exactly and reuse programColumns,
+ * the same helper the seeder uses, so the two paths cannot drift apart.
+ * ---------------------------------------------------------------------- */
+
+const hubOf = (r: UniversityRow) => r.hub ?? r.city;
+
+function tierMatch(t: Tier, r: UniversityRow): boolean {
+  if (t === "abroad") return r.countryCode !== "IN";
+  if (t === "chennai") return r.countryCode === "IN" && hubOf(r) === HOME_HUB.city;
+  if (t === "tamil-nadu") return r.countryCode === "IN" && r.region === HOME_HUB.state && hubOf(r) !== HOME_HUB.city;
+  return r.countryCode === "IN" && r.region !== HOME_HUB.state;
+}
+
+/** Institution-level predicates shared by the file-backed queries. */
+function rowMatches(f: Filters, r: UniversityRow): boolean {
+  if (f.tiers.length && !f.tiers.some((t) => tierMatch(t, r))) return false;
+  if (f.states.length && !f.states.includes(r.region)) return false;
+  if (f.hubs.length && !f.hubs.includes(hubOf(r))) return false;
+  if (f.types.length && !(r.institutionType && f.types.includes(r.institutionType))) return false;
+  if (f.selectivity.length && !(r.selectivity && f.selectivity.includes(r.selectivity))) return false;
+  if (f.countries.length && !f.countries.includes(r.countryCode)) return false;
+  return true;
+}
+
+const overlaps = (a: readonly string[], b: readonly string[]) => a.some((x) => b.includes(x));
+const inCostBand = (cost: number | null, bands: (keyof typeof COST_BANDS)[]) =>
+  !bands.length || (cost != null && bands.some((b) => cost >= COST_BANDS[b].min && cost < COST_BANDS[b].max));
+
+
 export const getUniversity = cache(async (slug: string): Promise<UniversityRow | null> => {
   if (catalogueFromFiles()) {
     warmDb();
@@ -216,6 +254,20 @@ export type GeoFacet = { countryCode: string; country: string; region: string; h
 
 /** Institution and program counts per country → state/region → city hub. */
 export const geoFacets = cache(async (): Promise<GeoFacet[]> => {
+  if (catalogueFromFiles()) {
+    warmDb();
+    const by = new Map<string, GeoFacet>();
+    for (const r of fileRows().values()) {
+      const key = `${r.countryCode}|${r.region}|${hubOf(r)}`;
+      const g = by.get(key) ?? {
+        countryCode: r.countryCode, country: r.country, region: r.region, hub: hubOf(r), institutions: 0, programs: 0,
+      };
+      g.institutions += 1;
+      g.programs += r.data.programs.length;
+      by.set(key, g);
+    }
+    return [...by.values()].sort((a, b) => a.country.localeCompare(b.country) || a.region.localeCompare(b.region));
+  }
   const db = await getDb();
   return db
     .select({
@@ -262,6 +314,61 @@ export type ProgramHit = {
  * route, entrance test, selectivity and institution type.
  */
 export async function searchPrograms(f: Filters): Promise<ProgramHit[]> {
+  if (catalogueFromFiles()) {
+    warmDb();
+    const parsed = f.q ? subjectsInQuery(f.q) : null;
+    const needle = parsed?.rest ? parsed.rest.toLowerCase() : null;
+    const hits: ProgramHit[] = [];
+
+    for (const r of fileRows().values()) {
+      if (!rowMatches(f, r)) continue;
+      const uniNameHit = needle ? r.name.toLowerCase().includes(needle) : false;
+
+      for (const p of r.data.programs) {
+        const col = programColumns(r.data, p);
+        if (!inCostBand(col.costInr, f.costBands)) continue;
+        if (f.fields.length && !overlaps(col.subjects, f.fields)) continue;
+        if (f.degrees.length && !(col.degreeNorm && f.degrees.includes(col.degreeNorm))) continue;
+        if (f.bases.length && !overlaps(col.admissionBases, f.bases)) continue;
+        if (f.tests.length && !overlaps(col.tests, f.tests)) continue;
+        // `@>` in SQL: every parsed subject must be present, not merely one.
+        // subjects is a narrowed FieldKey[]; the parsed query is plain strings.
+        const subjects: readonly string[] = col.subjects;
+        if (parsed?.all.length && !parsed.all.every((k) => subjects.includes(k))) continue;
+        if (needle) {
+          const spec = String((p as { specialization?: string | null }).specialization ?? "").toLowerCase();
+          if (!uniNameHit && !p.name.toLowerCase().includes(needle) && !spec.includes(needle)) continue;
+        }
+        hits.push({
+          program: p,
+          subjects: col.subjects,
+          degreeNorm: col.degreeNorm,
+          costInr: col.costInr,
+          admissionBases: col.admissionBases,
+          tests: col.tests,
+          uni: {
+            slug: r.slug, name: r.name, city: r.city, hub: r.hub, region: r.region, country: r.country,
+            countryCode: r.countryCode, institutionType: r.institutionType, selectivity: r.selectivity,
+            qsRank: r.qsRank, lastVerified: r.data.lastVerified,
+            currency: r.data.costs?.currency ?? "INR",
+          },
+        });
+      }
+    }
+
+    const byCost = f.sort === "cost-inr" || f.sort === "cost";
+    hits.sort((a, b) => {
+      if (byCost) {
+        // "asc nulls last"
+        const ac = a.costInr ?? Number.POSITIVE_INFINITY;
+        const bc = b.costInr ?? Number.POSITIVE_INFINITY;
+        if (ac !== bc) return ac - bc;
+      }
+      return a.uni.name.localeCompare(b.uni.name) || a.program.name.localeCompare(b.program.name);
+    });
+    return hits.slice(0, 2000);
+  }
+
   const db = await getDb();
   const c: (SQL | undefined)[] = [...sharedWhere(f, sql`${programs.costInr}`)];
   if (f.countries.length) c.push(inArray(universities.countryCode, f.countries));
@@ -323,6 +430,14 @@ export async function searchPrograms(f: Filters): Promise<ProgramHit[]> {
 
 /** Programs per subject, for the course hub. */
 export const subjectCounts = cache(async (): Promise<Record<string, number>> => {
+  if (catalogueFromFiles()) {
+    warmDb();
+    const out: Record<string, number> = {};
+    for (const r of fileRows().values())
+      for (const p of r.data.programs)
+        for (const sub of programColumns(r.data, p).subjects) out[sub] = (out[sub] ?? 0) + 1;
+    return out;
+  }
   const db = await getDb();
   const rows = await db.execute<{ s: string; n: number }>(sql`select unnest(${programs.subjects}) as s, count(*)::int as n from ${programs} group by 1`);
   const list = (rows as unknown as { rows?: { s: string; n: number }[] }).rows ?? (rows as unknown as { s: string; n: number }[]);

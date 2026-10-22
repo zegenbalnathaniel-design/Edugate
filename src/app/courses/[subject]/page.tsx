@@ -45,7 +45,7 @@ export default async function SubjectPage({ params, searchParams }: PageProps<"/
             <ProgramFilters f={f} action={`/courses/${s.key}`} states={states} cities={cities} degrees={degrees} />
           </aside>
           <div>
-            <ProgramResults hits={hits} />
+            <ProgramResults hits={hits} f={f} action={`/courses/${s.key}`} />
           </div>
         </div>
       </Container>
