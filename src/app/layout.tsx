@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope, JetBrains_Mono } from "next/font/google";
+import { RouteReveal } from "@/components/motion/RouteReveal";
 import { SmoothScroll } from "@/components/motion/SmoothScroll";
 import { SiteNav } from "@/components/layout/SiteNav";
 import { SiteFooter } from "@/components/layout/SiteFooter";
@@ -62,7 +63,9 @@ export default function RootLayout({
         </a>
         <SmoothScroll>
           <SiteNav />
-          <main id="main">{children}</main>
+          <main id="main">
+            <RouteReveal>{children}</RouteReveal>
+          </main>
           <SiteFooter />
         </SmoothScroll>
       </body>

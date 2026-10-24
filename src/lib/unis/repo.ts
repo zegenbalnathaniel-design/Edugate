@@ -110,7 +110,72 @@ const hydrate = (r: UniversityRow): UniversityRow => {
   return parsed.success ? { ...r, data: parsed.data } : r;
 };
 
+
+/**
+ * Institution-level equivalent of where(f), for the file-backed path.
+ *
+ * Mirrors the SQL in `where` so /universities and /explore get the same
+ * instant cold start the catalogue pages already had. Anything the file rows
+ * cannot answer (curricula, control, QS bands, SAT policy) falls through to
+ * the database rather than being silently ignored — see uniFileEligible.
+ */
+function uniRowMatches(f: Filters, r: UniversityRow): boolean {
+  if (!rowMatches(f, r)) return false;
+  if (f.maxUsd && !(r.intlTuitionUsdMin != null && r.intlTuitionUsdMin <= f.maxUsd)) return false;
+  if (f.costBands.length && !inCostBand(r.costInrMin, f.costBands)) return false;
+  if (f.q) {
+    const n = f.q.toLowerCase();
+    const hit =
+      r.name.toLowerCase().includes(n) ||
+      r.city.toLowerCase().includes(n) ||
+      r.region.toLowerCase().includes(n) ||
+      (r.hub ?? "").toLowerCase().includes(n) ||
+      r.country.toLowerCase().includes(n) ||
+      r.data.programs.some((p) => p.name.toLowerCase().includes(n));
+    if (!hit) return false;
+  }
+  if (f.fields.length || f.degrees.length || f.bases.length || f.tests.length) {
+    const cols = r.data.programs.map((p) => programColumns(r.data, p));
+    const has = (key: "subjects" | "admissionBases" | "tests", want: string[]) =>
+      !want.length || cols.some((c) => (c[key] as readonly string[]).some((x) => want.includes(x)));
+    if (!has("subjects", f.fields)) return false;
+    if (!has("admissionBases", f.bases)) return false;
+    if (!has("tests", f.tests)) return false;
+    if (f.degrees.length && !cols.some((c) => c.degreeNorm && f.degrees.includes(c.degreeNorm))) return false;
+  }
+  return true;
+}
+
+/**
+ * Filters the file rows cannot evaluate faithfully. When one is active we wait
+ * for the database rather than return a subtly wrong list — a fast wrong
+ * answer is worse than a slow right one.
+ */
+function uniFileEligible(f: Filters): boolean {
+  return !f.curricula.length && !f.control.length && !f.qs.length && !f.sat;
+}
+
 export async function searchUniversities(f: Filters): Promise<{ rows: UniversityRow[]; total: number; unknownFeesHidden: number }> {
+  if (catalogueFromFiles() && uniFileEligible(f)) {
+    warmDb();
+    const all = [...fileRows().values()];
+    const rows = all.filter((r) => uniRowMatches(f, r));
+    const byName = (a: UniversityRow, b: UniversityRow) => a.name.localeCompare(b.name);
+    const nullsLast = (x: number | null) => x ?? Number.POSITIVE_INFINITY;
+    rows.sort((a, b) =>
+      f.sort === "name"
+        ? byName(a, b)
+        : f.sort === "cost"
+          ? nullsLast(a.intlTuitionUsdMin) - nullsLast(b.intlTuitionUsdMin) || byName(a, b)
+          : f.sort === "cost-inr"
+            ? nullsLast(a.costInrMin) - nullsLast(b.costInrMin) || byName(a, b)
+            : nullsLast(a.qsRank) - nullsLast(b.qsRank) || byName(a, b),
+    );
+    const unknownFeesHidden = f.maxUsd
+      ? all.filter((r) => uniRowMatches({ ...f, maxUsd: null }, r) && r.intlTuitionUsdMin == null).length
+      : 0;
+    return { rows, total: all.length, unknownFeesHidden };
+  }
   const db = await getDb();
   const order =
     f.sort === "name"
@@ -223,6 +288,19 @@ export async function allUniversities(): Promise<UniversityRow[]> {
 }
 
 export async function countryFacets(): Promise<{ code: string; name: string; regions: string[]; count: number }[]> {
+  if (catalogueFromFiles()) {
+    warmDb();
+    const by = new Map<string, { code: string; name: string; regions: Set<string>; count: number }>();
+    for (const r of fileRows().values()) {
+      const e = by.get(r.countryCode) ?? { code: r.countryCode, name: r.country, regions: new Set<string>(), count: 0 };
+      e.count += 1;
+      e.regions.add(r.region);
+      by.set(r.countryCode, e);
+    }
+    return [...by.values()]
+      .map((e) => ({ code: e.code, name: e.name, regions: [...e.regions], count: e.count }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }
   const db = await getDb();
   const rows = await db
     .select({
@@ -284,6 +362,22 @@ export const geoFacets = cache(async (): Promise<GeoFacet[]> => {
 });
 
 export async function universitiesWhere(opts: { countryCodes?: string[]; region?: string; hub?: string; notCountryCodes?: string[] }): Promise<UniversityRow[]> {
+  if (catalogueFromFiles()) {
+    warmDb();
+    return [...fileRows().values()]
+      .filter((r) => {
+        if (opts.countryCodes?.length && !opts.countryCodes.includes(r.countryCode)) return false;
+        if (opts.notCountryCodes?.length && opts.notCountryCodes.includes(r.countryCode)) return false;
+        if (opts.region && r.region !== opts.region) return false;
+        if (opts.hub && hubOf(r) !== opts.hub) return false;
+        return true;
+      })
+      .sort(
+        (a, b) =>
+          (a.qsRank ?? Number.POSITIVE_INFINITY) - (b.qsRank ?? Number.POSITIVE_INFINITY) ||
+          a.name.localeCompare(b.name),
+      );
+  }
   const db = await getDb();
   const c: (SQL | undefined)[] = [];
   if (opts.countryCodes?.length) c.push(inArray(universities.countryCode, opts.countryCodes));

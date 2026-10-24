@@ -702,7 +702,116 @@ html.lenis body {
 [data-stagger][data-shown="true"] > *:nth-child(6) { transition-delay: 200ms; }
 [data-stagger][data-shown="true"] > *:nth-child(n + 7) { transition-delay: 240ms; }
 
+/* ============================================================
+   HAIRLINE EDGE ON EVERY GLASS SURFACE
+
+   The single highest-leverage hairline in the product: one crisp line
+   along the top edge of every card, fading out before the corners so it
+   reads as a catch of light rather than a drawn border. A page of 160
+   cards gets 160 hairlines without any page having to ask for them.
+   ============================================================ */
+
+.glass::before {
+  content: "";
+  position: absolute;
+  inset-inline: 10%;
+  top: 0;
+  height: 1px;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, currentColor 34%, transparent) 25%,
+    color-mix(in srgb, currentColor 34%, transparent) 75%,
+    transparent
+  );
+  opacity: 0.75;
+  transition: inset-inline var(--dur-base) var(--ease-out-edu), opacity var(--dur-base) var(--ease-out-edu);
+}
+
+/* On hover the catch-light widens toward the corners — the whole of the
+   interaction, and the reason it reads as a surface rather than a box. */
+.glass-interactive:hover::before {
+  inset-inline: 2%;
+  opacity: 1;
+}
+
+/* Divided list: hairlines between children, never above the first or
+   below the last. Replaces per-row border utilities across the app. */
+.hr-stack > * + * {
+  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+}
+
+/* ============================================================
+   ROUTE ENTRANCE + PREMIUM MICRO-INTERACTIONS
+
+   The difference between "functional" and "premium" is almost never a
+   bigger effect — it is consistency and restraint. Everything below is
+   opacity/transform only so it stays on the compositor, and every
+   duration is drawn from the motion tokens rather than invented here.
+   ============================================================ */
+
+@keyframes route-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* `both` fill means the element ends visible whatever happens to the
+   animation — there is no state in which this can hide a page. */
+[data-route-reveal] {
+  animation: route-in var(--dur-base) var(--ease-out-edu) both;
+}
+
+/* Cards lift on the border and background, never on scale: scaling text
+   causes a reflow shimmer that reads as cheap. */
+.glass-interactive {
+  transition:
+    border-color var(--dur-quick) var(--ease-out-edu),
+    background-color var(--dur-quick) var(--ease-out-edu),
+    transform var(--dur-quick) var(--ease-out-edu);
+}
+.glass-interactive:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, currentColor 28%, transparent);
+}
+
+/* One focus treatment everywhere, and never removed. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-cyan, currentColor);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Disclosure arrows and checkboxes settle rather than snap. */
+summary,
+input[type="checkbox"] {
+  transition: color var(--dur-instant) var(--ease-out-edu);
+}
+
+/* Tabular figures never jitter as they change. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  /* Entrance and lift are motion; the hairlines and focus rings are not,
+     so they stay. */
+  [data-route-reveal] {
+    animation: none !important;
+  }
+  .glass-interactive:hover {
+    transform: none;
+  }
+  .glass::before,
+  .glass-interactive:hover::before {
+    transition: none;
+  }
   /* Content appears immediately; the hairlines themselves never moved. */
   [data-reveal],
   [data-stagger] > * {
