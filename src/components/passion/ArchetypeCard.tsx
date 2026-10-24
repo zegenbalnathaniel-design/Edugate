@@ -1,4 +1,5 @@
 import type { Archetype } from "@/lib/data/types";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 /**
  * docs/04-passion-engine.md §5. The caller decides whether to render this or
@@ -14,7 +15,8 @@ export function ArchetypeCard({
   return (
     <div className="space-y-8">
       <div>
-        <p className="meta mb-2 text-current/45">Your pattern</p>
+        <p className="meta text-current/45">Your pattern</p>
+        <HairlineRule className="mb-2 mt-2" />
         <h3 className="display-m">{archetype.name}</h3>
         {blend && (
           <p className="mt-3 text-[0.9375rem] text-current/70">

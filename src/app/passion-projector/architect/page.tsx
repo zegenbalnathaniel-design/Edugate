@@ -8,6 +8,7 @@ import { accountsAvailable } from "@/lib/db";
 import { architectConfigured } from "@/lib/architect/claude";
 import { dailyAllowance, listProjects, unitsUsedToday } from "@/lib/architect/repo";
 import { dateLabel } from "@/lib/unis/format";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 export const metadata: Metadata = {
   title: "Project Architect",
@@ -76,7 +77,8 @@ async function SignedIn({ userId }: { userId: string }) {
     <>
       {projects.length > 0 && (
         <div className="mb-10">
-          <p className="meta mb-3 text-paper/50">Your saved blueprints</p>
+          <p className="meta text-paper/50">Your saved blueprints</p>
+          <HairlineRule className="mb-3 mt-2 text-paper" />
           <ul className="flex flex-wrap gap-3">
             {projects.map((p) => (
               <li key={p.id}>

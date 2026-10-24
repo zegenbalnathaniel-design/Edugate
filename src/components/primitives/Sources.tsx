@@ -1,5 +1,6 @@
 import type { SourceRef } from "@/lib/data/types";
 import { formatDate } from "@/lib/unis/format";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 /**
  * Renders the citations behind a real, verified record (docs/00-decisions.md
@@ -12,7 +13,8 @@ export function Sources({ sources, className = "" }: { sources: SourceRef[]; cla
 
   return (
     <div className={className}>
-      <p className="meta mb-2 text-current/45">Sources</p>
+      <p className="meta text-current/45">Sources</p>
+      <HairlineRule className="mb-2 mt-2" />
       <ul className="space-y-1">
         {sources.map((s) => (
           <li key={s.url}>

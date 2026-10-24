@@ -55,7 +55,8 @@ export function ProjectCard({
       </dl>
 
       <div className="border-t border-current/10 pt-4">
-        <p className="meta mb-1 text-current/40">First step, today</p>
+        <p className="meta text-current/40">First step, today</p>
+        <HairlineRule className="mb-1 mt-2" />
         <p className="text-[0.9375rem] text-current/85">{template.firstStep}</p>
       </div>
 
@@ -83,7 +84,8 @@ export function ProjectCard({
           ))}
 
           <div className="border-t border-current/10 pt-3">
-            <p className="meta mb-1.5 text-current/40">Deliverables</p>
+            <p className="meta text-current/40">Deliverables</p>
+            <HairlineRule className="mb-1.5 mt-2" />
             <ul className="space-y-1">
               {template.deliverables.map((d, i) => (
                 <li key={i} className="text-[0.8125rem] text-current/70">{d}</li>

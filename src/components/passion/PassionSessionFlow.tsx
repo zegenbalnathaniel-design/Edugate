@@ -136,7 +136,8 @@ export function PassionSessionFlow() {
       <div className="relative z-10 mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center px-6 py-32">
         {stage === "intro" && (
           <div className="glass w-full max-w-lg p-8 text-center sm:p-10">
-            <p className="meta mb-4 text-current/50">Passion Projector</p>
+            <p className="meta text-current/50">Passion Projector</p>
+            <HairlineRule className="mb-4 mt-2" />
             <h1 className="display-l mb-6">What kinds of problems naturally pull your attention?</h1>
             <p className="measure mx-auto mb-10 text-body-l text-current/70">
               Around 15–20 quick scenario questions, no right answers. You&apos;ll leave with
@@ -219,7 +220,8 @@ export function PassionSessionFlow() {
         {stage === "reveal" && session?.profile && (
           <div className="w-full space-y-16 py-12">
             <div className="text-center">
-              <p className="meta mb-3 text-current/50">Your snapshot</p>
+              <p className="meta text-current/50">Your snapshot</p>
+              <HairlineRule className="mb-3 mt-2" />
               <p className="measure mx-auto text-[0.9375rem] text-current/60">
                 This is a snapshot of your current curiosity. Your interests can change.
               </p>
@@ -234,7 +236,8 @@ export function PassionSessionFlow() {
               </div>
             ) : (
               <div className="glass p-8 sm:p-10">
-                <p className="meta mb-2 text-current/50">No single pattern dominated</p>
+                <p className="meta text-current/50">No single pattern dominated</p>
+                <HairlineRule className="mb-2 mt-2" />
                 <p className="measure text-[0.9375rem] text-current/70">
                   Your signals didn&apos;t settle into one named pattern — that&apos;s a normal,
                   honest outcome. Here&apos;s what stood out instead.

@@ -16,7 +16,8 @@ import { DEGREES, TESTS } from "@/lib/unis/taxonomy";
 function Checks({ legend, name, options, selected }: { legend: string; name: string; options: [string, string][]; selected: string[] }) {
   return (
     <fieldset className="grid gap-1.5">
-      <legend className="meta mb-1.5 text-paper/55">{legend}</legend>
+      <legend className="meta text-paper/55">{legend}</legend>
+      <HairlineRule className="mb-1.5 mt-1.5 text-paper" />
       <div className="grid max-h-40 gap-1 overflow-y-auto pr-1">
         {options.map(([v, l]) => (
           <label key={v} className="flex items-center gap-2 text-[0.875rem]">
@@ -28,6 +29,7 @@ function Checks({ legend, name, options, selected }: { legend: string; name: str
   );
 }
 import { deleteSearch, saveSearch } from "@/lib/user/actions";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 export const metadata: Metadata = { title: "Universities" };
 
