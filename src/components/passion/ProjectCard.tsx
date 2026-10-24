@@ -38,7 +38,7 @@ export function ProjectCard({
         </p>
       </div>
 
-      <HairlineRule className="opacity-60" />
+      <HairlineRule />
       <dl className="grid grid-cols-2 gap-3 text-[0.8125rem] text-current/60 sm:grid-cols-4">
         <div>
           <dt className="meta text-current/40">Difficulty</dt>

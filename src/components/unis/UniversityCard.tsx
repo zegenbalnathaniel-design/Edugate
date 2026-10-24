@@ -44,7 +44,7 @@ export function UniversityCard({ row, why }: { row: UniversityRow; why?: string[
       <p className="mt-2 text-[0.8125rem] text-current/70">
         {u.programs.length} programme{u.programs.length === 1 ? "" : "s"} on Edugate{degrees.length ? ` · ${degrees.slice(0, 6).join(", ")}${degrees.length > 6 ? "…" : ""}` : ""}
       </p>
-      <HairlineRule className="mt-4 opacity-60" />
+      <HairlineRule className="mt-4" />
       <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-[0.8125rem]">
         {(india ? row.costInrMin != null : !!intlFee) && (
           <div>

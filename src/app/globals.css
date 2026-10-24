@@ -584,15 +584,35 @@ html.lenis body {
    divided without boxes, fills or drop shadows, which is what keeps
    a page of 400 programmes from reading as a wall.
 
-   Everything uses currentColor at low alpha, so a hairline inherits
-   whatever register it sits in and needs no light/dark variant.
+   Colour comes from --hairline, set per register below, so a rule is
+   the same weight wherever it is dropped and needs no light/dark
+   variant. It deliberately does NOT follow currentColor.
    ============================================================ */
+
+
+/* ---- hairline colour, per register ----------------------------------
+   Set here rather than taken from currentColor: a rule sitting beside
+   faded text used to inherit that fade and then apply its own, which
+   compounded to around 6% and made the whole system invisible. */
+:root {
+  --hairline: rgba(14, 10, 9, 0.2);
+  --hairline-strong: rgba(14, 10, 9, 0.34);
+}
+[data-register="dark"],
+[data-register="deep"] {
+  --hairline: rgba(247, 244, 238, 0.2);
+  --hairline-strong: rgba(247, 244, 238, 0.36);
+}
+[data-register="light"],
+[data-register="warm"] {
+  --hairline: rgba(14, 10, 9, 0.18);
+  --hairline-strong: rgba(14, 10, 9, 0.32);
+}
 
 .hr-line {
   height: 1px;
   width: 100%;
-  background: currentColor;
-  opacity: 0.14;
+  background: var(--hairline);
   border: 0;
 }
 
@@ -607,8 +627,7 @@ html.lenis body {
   content: "";
   flex: 1;
   height: 1px;
-  background: currentColor;
-  opacity: 0.14;
+  background: var(--hairline);
 }
 
 /* A measured tick scale. Every fifth tick is taller, like a real rule —
@@ -623,12 +642,11 @@ html.lenis body {
 .hr-ticks > i {
   width: 1px;
   height: 45%;
-  background: currentColor;
-  opacity: 0.14;
+  background: var(--hairline);
 }
 .hr-ticks > i:nth-child(5n + 1) {
   height: 100%;
-  opacity: 0.3;
+  background: var(--hairline-strong);
 }
 
 /* Corner marks instead of a full border: frames without enclosing, so
@@ -644,8 +662,7 @@ html.lenis body {
   position: absolute;
   width: 14px;
   height: 14px;
-  border-color: currentColor;
-  opacity: 0.3;
+  border-color: var(--hairline-strong);
   pointer-events: none;
 }
 .hr-frame::before { left: 0; top: 0; border-left: 1px solid; border-top: 1px solid; }
@@ -658,7 +675,7 @@ html.lenis body {
   display: flex;
   align-items: baseline;
   gap: 1rem;
-  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  border-top: 1px solid var(--hairline);
   padding-block: 0.75rem;
 }
 
@@ -760,19 +777,19 @@ html.lenis body {
 /* Table rows divided by hairlines. Scoped to tbody so the header keeps
    its own heavier rule. */
 .hr-stack-rows tbody tr + tr {
-  border-top: 1px solid color-mix(in srgb, currentColor 10%, transparent);
+  border-top: 1px solid var(--hairline);
 }
 
 /* A rule above a block — the "this is a separate note" divider, at the
    same weight as .hr-stack so the two never disagree visually. */
 .hr-top {
-  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  border-top: 1px solid var(--hairline);
 }
 
 /* Divided list: hairlines between children, never above the first or
    below the last. Replaces per-row border utilities across the app. */
 .hr-stack > * + * {
-  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  border-top: 1px solid var(--hairline);
 }
 
 /* ============================================================

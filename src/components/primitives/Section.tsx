@@ -92,7 +92,7 @@ export function SectionLabel({
         {index && <span className="mr-3">{index}</span>}
         {children}
       </p>
-      {rule && <HairlineRule className="mt-2.5 opacity-80" />}
+      {rule && <HairlineRule className="mt-2.5" />}
     </RevealBlock>
   );
 }
