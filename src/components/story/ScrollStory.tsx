@@ -14,6 +14,7 @@ import Link from "next/link";
 import { Kid } from "./Kid";
 import { EdugateScreen, GoogleScreen, InstaScreen, RedditScreen } from "./screens";
 import { TextEffect } from "@/components/motion/TextEffect";
+import { HairlineRule, HairlineTicks } from "@/components/primitives/Hairline";
 
 /*
  * Scroll map (0 → 1 across the pinned section):
@@ -136,6 +137,13 @@ export function ScrollStory() {
         >
           Keep scrolling — this is how most students choose a college
         </motion.p>
+        <motion.div
+          aria-hidden
+          style={{ opacity: introText }}
+          className="pointer-events-none absolute inset-x-0 top-[calc(14vh+2.1rem)] z-20 mx-auto w-[min(32rem,70vw)]"
+        >
+          <HairlineTicks count={48} />
+        </motion.div>
 
         <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-6 px-6 pt-14 md:flex-row md:gap-20 md:px-10 lg:gap-28">
           {/* Left: the kid, the chapter card, the thought */}
@@ -156,7 +164,8 @@ export function ScrollStory() {
                     exit={{ opacity: 0, filter: "blur(6px)", transition: { duration: 0.25 } }}
                   >
                     <p className="meta text-electric">{active.roman}</p>
-                    <TextEffect as="h2" className="display-m mt-2 text-paper" delay={0.05}>
+                    <HairlineRule className="mt-2.5 max-w-sm" />
+                    <TextEffect as="h2" className="display-m mt-3 text-paper" delay={0.05}>
                       {active.title}
                     </TextEffect>
                     <TextEffect

@@ -4,6 +4,7 @@ import { Button } from "@/components/primitives/Button";
 import { Container } from "@/components/primitives/Section";
 import { Spotlight } from "@/components/fx/Spotlight";
 import { TextEffect } from "@/components/motion/TextEffect";
+import { HairlineRule, HairlineTicks } from "@/components/primitives/Hairline";
 
 const ECOSYSTEM = [
   "Schools",
@@ -55,9 +56,10 @@ export function Hero() {
           className="flex flex-1 flex-col justify-center pb-24 pt-28 md:pb-28 md:pt-32"
         >
           <div className="max-w-[54rem]">
-            <p className="meta mb-7 text-cyan/75">
+            <p className="meta text-cyan/75">
               <span className="mr-3">01</span>Education decision intelligence
             </p>
+            <HairlineRule className="mb-7 mt-3 max-w-[34rem]" />
 
             <h1 className="display-xl text-paper" aria-label="Education is too important to guess.">
               {["Education", "is too", "important", "to guess."].map((line, i) => (
@@ -102,8 +104,10 @@ export function Hero() {
           </div>
         </Container>
 
-        <div className="relative z-10 border-t border-paper/12 pb-6 pt-5 md:pb-8 md:pt-6">
+        <div className="relative z-10 pb-6 pt-5 md:pb-8 md:pt-6">
           <Container width="wide">
+            <HairlineTicks count={64} className="mb-5" />
+            <HairlineRule className="mb-5" />
             <p className="meta mb-3.5 hidden text-paper/38 md:block">
               The education ecosystem, in one place
             </p>
