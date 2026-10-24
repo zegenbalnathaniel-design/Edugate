@@ -34,7 +34,7 @@ export default async function ArchitectPage() {
         <SectionLabel index="02">Passion Projector</SectionLabel>
         <h1 className="display-m mt-3 mb-3">Project Architect</h1>
         <p className="measure mb-10 text-body-l text-paper/70">
-          A conversation first: it asks about what you&apos;ve done, noticed and care about. Then 8–12 project concepts built from your
+          A conversation first: it asks about what you&apos;ve done, noticed and care about. Then 12–20 project concepts built from your
           answers, a fit matrix to compare them, and a full blueprint for the one you choose — with every fact marked as verified,
           assumed or unknown.
         </p>

@@ -189,7 +189,7 @@ export function PassionSessionFlow() {
                 Project Architect →
               </Link>
               <span className="mt-1 block text-[0.8125rem] text-current/45">
-                An adaptive interview, 8–12 concepts built from your answers, and a blueprint with budget, risks and a 12-week plan.
+                An adaptive interview, 12–20 concepts built from your answers, and a blueprint with budget, risks and a 12-week plan.
               </span>
             </p>
           </div>

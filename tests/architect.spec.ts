@@ -387,3 +387,29 @@ describe("Stage Twelve — iterative review", () => {
     expect(toMarkdown({ ...saved })).not.toContain("Reviewing it later");
   });
 });
+
+describe("the promise on the page matches the engine", () => {
+  /*
+   * The page copy quotes a concept count. When the prompt changed from
+   * 8–12 to 12–20 the copy kept promising 8–12, which is the kind of
+   * drift nobody notices until a student counts the cards.
+   */
+  const COPY = [
+    "src/app/passion-projector/architect/page.tsx",
+    "src/components/passion/PassionSessionFlow.tsx",
+  ];
+
+  it("quotes the same range the ideation prompt asks for", async () => {
+    const { readFile } = await import("node:fs/promises");
+    const prompt = ideatePrompt(discovery, "", []);
+    const range = prompt.match(/(\d+) to (\d+) distinct project concepts/);
+    expect(range).not.toBeNull();
+    const [, lo, hi] = range!;
+    for (const file of COPY) {
+      const src = await readFile(file, "utf8");
+      const quoted = src.match(/(\d+)[–-](\d+) (?:project )?concepts/);
+      expect(quoted, `${file} should quote a concept count`).not.toBeNull();
+      expect([quoted![1], quoted![2]], `${file} is out of step with the prompt`).toEqual([lo, hi]);
+    }
+  });
+});
