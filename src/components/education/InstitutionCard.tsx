@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Institution } from "@/lib/data/types";
 import { Provenance } from "@/components/primitives/Provenance";
+import { formatNumber } from "@/lib/unis/format";
 
 const SELECTIVITY_LABEL: Record<Institution["admissions"]["selectivity"], string> = {
   "highly-selective": "Highly selective",
@@ -33,8 +34,8 @@ export function InstitutionCard({ institution }: { institution: Institution }) {
         <div>
           <dt className="sr-only">Tuition</dt>
           <dd className="tabular">
-            {institution.tuition.currency} {institution.tuition.min.toLocaleString()}–
-            {institution.tuition.max.toLocaleString()} / {institution.tuition.period}
+            {institution.tuition.currency} {formatNumber(institution.tuition.min)}–
+            {formatNumber(institution.tuition.max)} / {institution.tuition.period}
           </dd>
         </div>
         <div>

@@ -1,4 +1,5 @@
 import type { SourceRef } from "@/lib/data/types";
+import { formatDate } from "@/lib/unis/format";
 
 /**
  * Renders the citations behind a real, verified record (docs/00-decisions.md
@@ -23,7 +24,7 @@ export function Sources({ sources, className = "" }: { sources: SourceRef[]; cla
             >
               {s.label}
             </a>
-            <span className="meta ml-2 text-current/35">retrieved {new Date(s.retrievedAt).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })}</span>
+            <span className="meta ml-2 text-current/35">retrieved {formatDate(s.retrievedAt)}</span>
           </li>
         ))}
       </ul>

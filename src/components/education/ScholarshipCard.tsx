@@ -1,6 +1,7 @@
 import type { Scholarship } from "@/lib/data/types";
 import { Provenance } from "@/components/primitives/Provenance";
 import { Sources } from "@/components/primitives/Sources";
+import { formatDate, formatNumber } from "@/lib/unis/format";
 
 const BASIS_LABEL: Record<string, string> = {
   merit: "Merit-based",
@@ -12,7 +13,7 @@ const BASIS_LABEL: Record<string, string> = {
 function coverageLabel(coverage: Scholarship["coverage"]): string {
   if (coverage.type === "full") return "Full coverage";
   if (coverage.amount) {
-    return `${coverage.amount.currency} ${coverage.amount.min.toLocaleString()}–${coverage.amount.max.toLocaleString()}`;
+    return `${coverage.amount.currency} ${formatNumber(coverage.amount.min)}–${formatNumber(coverage.amount.max)}`;
   }
   return coverage.type === "partial" ? "Partial coverage" : "Fixed amount";
 }
@@ -32,7 +33,7 @@ export function ScholarshipCard({ scholarship }: { scholarship: Scholarship }) {
         <div>
           <dt className="sr-only">Deadline</dt>
           <dd className="tabular">
-            Deadline: {new Date(scholarship.deadline).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })}
+            Deadline: {formatDate(scholarship.deadline)}
           </dd>
         </div>
       </dl>

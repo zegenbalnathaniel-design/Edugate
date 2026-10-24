@@ -5,6 +5,37 @@ type Range = { min: number; max: number; period: string };
 
 const SYMBOL: Record<string, string> = { USD: "US$", GBP: "£", EUR: "€", INR: "₹", CAD: "C$", AUD: "A$", SGD: "S$", HKD: "HK$", CHF: "CHF ", AED: "AED ", JPY: "¥", KRW: "₩", QAR: "QAR ", CNY: "CN¥" };
 
+/**
+ * Dates, with the locale pinned.
+ *
+ * `toLocaleDateString(undefined, …)` resolves to the runtime's locale, which
+ * is not the same on the server as in the browser: Node rendered
+ * "Sep 28, 2026" while the browser rendered "28 Sept 2026". React treats that
+ * as a hydration mismatch and throws the whole tree away to re-render it on
+ * the client — a correctness bug and a visible jank source.
+ *
+ * en-GB because the audience is India-first and day-month-year is what reads
+ * naturally there. Pinning it anywhere a date is shown is the only thing that
+ * keeps server and client agreeing.
+ */
+export function formatDate(
+  value: string | number | Date,
+  style: "short" | "long" = "short",
+): string {
+  const d = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-GB", {
+    year: "numeric",
+    month: style === "long" ? "long" : "short",
+    day: "numeric",
+  });
+}
+
+/** Thousands separators, locale pinned for the same reason as formatDate. */
+export function formatNumber(n: number): string {
+  return n.toLocaleString("en-IN");
+}
+
 export function money(n: number, currency: string) {
   return `${SYMBOL[currency] ?? `${currency} `}${Math.round(n).toLocaleString("en-US")}`;
 }

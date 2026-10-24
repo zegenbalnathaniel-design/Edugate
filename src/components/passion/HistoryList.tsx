@@ -5,6 +5,7 @@ import type { PassionSession } from "@/lib/data/types";
 import { SIGNAL_LABELS } from "@/lib/data/types";
 import { getLocalStudentId } from "@/lib/data/adapters/demo/storage";
 import { passionRepo } from "@/lib/data/repositories/passion";
+import { formatDate } from "@/lib/unis/format";
 
 /**
  * /student/passion-projector/history — docs/04 §9 (Evolution).
@@ -46,7 +47,7 @@ export function HistoryList() {
         return (
           <li key={s.id} className="glass p-6">
             <p className="meta mb-3 text-current/45">
-              {s.completedAt ? new Date(s.completedAt).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }) : ""}
+              {s.completedAt ? formatDate(s.completedAt, "long") : ""}
             </p>
             <div className="flex flex-wrap gap-2">
               {top5.map((sig) => (

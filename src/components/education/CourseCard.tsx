@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Course } from "@/lib/data/types";
 import { FIELD_LABELS } from "@/lib/data/types";
 import { Provenance } from "@/components/primitives/Provenance";
+import { formatNumber } from "@/lib/unis/format";
 
 const DEGREE_LABEL: Record<Course["degree"], string> = {
   diploma: "Diploma",
@@ -26,7 +27,7 @@ export function CourseCard({ course }: { course: Course }) {
           ? `${(course.durationMonths / 12).toFixed(course.durationMonths % 12 === 0 ? 0 : 1)} years`
           : `${course.durationMonths} months`}
         {" · "}
-        {course.fees.currency} {course.fees.min.toLocaleString()}–{course.fees.max.toLocaleString()} / {course.fees.period}
+        {course.fees.currency} {formatNumber(course.fees.min)}–{formatNumber(course.fees.max)} / {course.fees.period}
       </p>
       <Provenance kind={course.provenance} className="mt-4" />
     </Link>

@@ -736,6 +736,27 @@ html.lenis body {
   opacity: 1;
 }
 
+/* The cursor spotlight, on every interactive surface rather than the few
+   that were hand-wrapped. ::before is the hairline edge, so this takes
+   ::after. --mx/--my come from SurfaceFX's single delegated listener. */
+.glass-interactive::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--dur-base) var(--ease-out-edu);
+  background: radial-gradient(
+    320px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in srgb, var(--color-cyan) 10%, transparent),
+    transparent 70%
+  );
+}
+.glass-interactive:hover::after {
+  opacity: 1;
+}
+
 /* Divided list: hairlines between children, never above the first or
    below the last. Replaces per-row border utilities across the app. */
 .hr-stack > * + * {
@@ -809,8 +830,12 @@ input[type="checkbox"] {
     transform: none;
   }
   .glass::before,
-  .glass-interactive:hover::before {
+  .glass-interactive:hover::before,
+  .glass-interactive::after {
     transition: none;
+  }
+  .glass-interactive:hover::after {
+    opacity: 0;
   }
   /* Content appears immediately; the hairlines themselves never moved. */
   [data-reveal],

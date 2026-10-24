@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope, JetBrains_Mono } from "next/font/google";
 import { RouteReveal } from "@/components/motion/RouteReveal";
+import { SurfaceFX } from "@/components/motion/SurfaceFX";
 import { SmoothScroll } from "@/components/motion/SmoothScroll";
 import { SiteNav } from "@/components/layout/SiteNav";
 import { SiteFooter } from "@/components/layout/SiteFooter";
@@ -54,13 +55,14 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${fraunces.variable} ${manrope.variable} ${jetbrainsMono.variable}`}>
-      <body>
+      <body className="grain">
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-electric focus:px-4 focus:py-2 focus:text-ink"
         >
           Skip to content
         </a>
+        <SurfaceFX />
         <SmoothScroll>
           <SiteNav />
           <main id="main">
