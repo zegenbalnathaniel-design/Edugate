@@ -8,6 +8,8 @@ import {
   enforceVerification,
   Ideation,
   InterviewTurn,
+  CONCEPT_KINDS,
+  Discovery,
   MATRIX_KEYS,
   normaliseEnums,
   normaliseUrl,
@@ -15,7 +17,7 @@ import {
   SaveRequest,
 } from "@/lib/architect/schemas";
 import { toMarkdown } from "@/lib/architect/markdown";
-import { blueprintPrompt, SYSTEM } from "@/lib/architect/prompts";
+import { blueprintPrompt, ideatePrompt, SYSTEM } from "@/lib/architect/prompts";
 
 const profile = PersonalProfile.parse({
   summary: "Likes fixing bikes; notices broken bike racks at school.",
@@ -30,6 +32,12 @@ const concept = (id: string, title = `Concept ${id}`) =>
     whyItFitsYou: "x", uniqueAngle: "x", firstVersion: "x", longTermPotential: "x", skillsDeveloped: [], resourcesNeeded: [],
     difficulty: "Moderate", timeToFirstResult: "2 weeks", keyRisks: [],
   });
+
+const discovery = Discovery.parse({
+  orientation: "interests",
+  opening: "I fix bikes and keep noticing the racks at school are broken.",
+  transcript: [{ question: "How much time a week?", answer: "About three hours." }],
+});
 
 const row = (conceptId: string) => ({ conceptId, ...Object.fromEntries(MATRIX_KEYS.map((k) => [k, "High"])), tradeoff: "t" });
 
@@ -59,6 +67,11 @@ const extended = BlueprintExtended.parse({
   presence: { channels: [], contentIdeas: [] }, documentation: { system: [], evidence: [] },
   risks: [{ risk: "Injury", likelihood: "Low", impact: "High", mitigation: "m", contingency: "c" }],
   exceptional: [], evolution: { v1: "1", v2: "2", v3: "3" }, qualityCheck: [{ criterion: "Specific", pass: true, note: "n" }],
+});
+
+const saved = SaveRequest.parse({
+  title: "Bike Repair Station", profile, concepts: [concept("c1", "Bike Station")],
+  research: { notes: "", sources: [], available: false }, core: core([]), extended,
 });
 
 describe("verification guard (spec Part VI — no unsourced 'facts')", () => {
@@ -150,5 +163,97 @@ describe("markdown dossier", () => {
   it("omits commercial detail when not credible", () => {
     expect(md).toContain("No paying customer.");
     expect(md).not.toContain("**Revenue model.**");
+  });
+});
+
+/*
+ * Stage Three, Ten and Eleven of the Architect spec. These assert the shape
+ * of what the model is asked for and what survives a round-trip, not the
+ * model's wording — the prompt is the contract, so a silent edit to it is
+ * exactly what should fail here.
+ */
+describe("Stage Three — divergent ideation", () => {
+  it("asks for 12–20 concepts, not a shorter portfolio", () => {
+    const p = ideatePrompt(discovery, "", []);
+    expect(p).toContain("12 to 20");
+    expect(p).not.toContain("8 to 12");
+  });
+
+  it("organises ideas by shape, and names all four kinds", () => {
+    const p = ideatePrompt(discovery, "", []);
+    for (const k of CONCEPT_KINDS) expect(p).toContain(`"${k}"`);
+  });
+
+  it("requires the idea-card fields the spec lists", () => {
+    const p = ideatePrompt(discovery, "", []);
+    for (const f of ["centralQuestion", "medium", "estimatedCost", "potentialOutcome", "smallestTest", "difficultyNote"]) {
+      expect(p).toContain(f);
+    }
+  });
+
+  it("tells the model not to flatter every idea equally", () => {
+    expect(ideatePrompt(discovery, "", [])).toContain("Do NOT make every idea sound equally brilliant");
+  });
+
+  it("defaults kind so blueprints saved before the four categories still parse", () => {
+    const legacy = Concept.parse({
+      id: "c1", title: "t", category: "community", oneLine: "x", problem: "x", whyItMatters: "x",
+      whoBenefits: "x", coreIdea: "x", whyItFitsYou: "x", uniqueAngle: "x", firstVersion: "x",
+      longTermPotential: "x", skillsDeveloped: [], resourcesNeeded: [], difficulty: "Moderate",
+      timeToFirstResult: "2 weeks", keyRisks: [],
+    });
+    expect(legacy.kind).toBe("domain-first");
+    expect(legacy.smallestTest).toBe("");
+  });
+
+  it("carries the idea's own framing into the blueprint brief", () => {
+    const c = Concept.parse({
+      ...concept("c1"), centralQuestion: "Why do racks fail?", medium: "A field study",
+      smallestTest: "Count broken racks for a week", estimatedCost: "no cost beyond time",
+    });
+    const p = blueprintPrompt("core", discovery, [c], profile, { notes: "", sources: [], available: false });
+    expect(p).toContain("Why do racks fail?");
+    expect(p).toContain("Count broken racks for a week");
+  });
+});
+
+describe("Stage Ten — pre-mortem", () => {
+  it("asks for failure in the past tense, not a risk list", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    expect(p).toContain("preMortem");
+    expect(p).toContain("six months later");
+  });
+
+  it("round-trips, and defaults empty for blueprints saved before it existed", () => {
+    expect(extended.preMortem.scenario).toBe("");
+    const withIt = BlueprintExtended.parse({
+      ...extended,
+      preMortem: { scenario: "Nobody used it.", causes: ["Placed where no one walks"], preventNow: ["Count footfall first"] },
+    });
+    expect(withIt.preMortem.causes).toHaveLength(1);
+    expect(toMarkdown({ ...saved, extended: withIt })).toContain("Pre-mortem");
+  });
+});
+
+describe("Stage Eleven — start immediately", () => {
+  it("asks for the hour-long task, the minimum to begin, and what to leave alone", () => {
+    const p = blueprintPrompt("core", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    for (const f of ["firstHour", "minimumResources", "firstMilestone", "notYet"]) expect(p).toContain(f);
+  });
+
+  it("renders the additions into the dossier when present", () => {
+    const c = BlueprintCore.parse({
+      ...core([]),
+      nextActions: {
+        next24Hours: ["Sketch the stand"], next7Days: [], next30Days: [],
+        firstHour: "Photograph every rack on the route.",
+        minimumResources: ["A phone camera"], firstMilestone: "One rack repaired and still standing a week later.",
+        notYet: ["Do not order parts — you do not know which sizes fail yet."],
+      },
+    });
+    const md = toMarkdown({ ...saved, core: c });
+    expect(md).toContain("Do this in the next hour");
+    expect(md).toContain("Not yet");
+    expect(md).toContain("do not know which sizes fail yet");
   });
 });

@@ -78,6 +78,31 @@ export const PersonalProfile = z.object({
 });
 export type PersonalProfile = z.infer<typeof PersonalProfile>;
 
+/*
+ * The spec's four idea categories (Stage Three). These are structural —
+ * how an idea is built — not subject areas. Keeping them separate from
+ * `category` matters: a portfolio sorted by subject hides the fact that
+ * every idea is the same *shape*, which is the failure the categories
+ * exist to prevent.
+ */
+export const CONCEPT_KINDS = ["domain-first", "medium-pure", "experimental", "hybrid"] as const;
+export const ConceptKind = z.enum(CONCEPT_KINDS);
+export type ConceptKind = z.infer<typeof ConceptKind>;
+
+export const CONCEPT_KIND_LABELS: Record<ConceptKind, string> = {
+  "domain-first": "Domain-first",
+  "medium-pure": "Medium-pure",
+  experimental: "Experimental",
+  hybrid: "Hybrid",
+};
+
+export const CONCEPT_KIND_NOTES: Record<ConceptKind, string> = {
+  "domain-first": "Grows straight out of a subject you already care about.",
+  "medium-pure": "Takes one medium and uses it exceptionally well.",
+  experimental: "Not an obvious product or publication — a test, a demonstration, a format.",
+  hybrid: "Two interests combined, where the combination earns its keep.",
+};
+
 export const Concept = z.object({
   id: z.string(),
   title: z.string(),
@@ -94,8 +119,15 @@ export const Concept = z.object({
   skillsDeveloped: z.array(z.string()),
   resourcesNeeded: z.array(z.string()),
   difficulty: Level,
+  difficultyNote: z.string().default(""),
   timeToFirstResult: z.string(),
   keyRisks: z.array(z.string()),
+  kind: ConceptKind.default("domain-first"),
+  centralQuestion: z.string().default(""),
+  medium: z.string().default(""),
+  estimatedCost: z.string().default(""),
+  potentialOutcome: z.string().default(""),
+  smallestTest: z.string().default(""),
 });
 export type Concept = z.infer<typeof Concept>;
 
@@ -236,6 +268,10 @@ export const BlueprintCore = z.object({
     next24Hours: z.array(z.string()),
     next7Days: z.array(z.string()),
     next30Days: z.array(z.string()),
+    firstHour: z.string().default(""),
+    minimumResources: z.array(z.string()).default([]),
+    firstMilestone: z.string().default(""),
+    notYet: z.array(z.string()).default([]),
   }),
 });
 export type BlueprintCore = z.infer<typeof BlueprintCore>;
@@ -302,6 +338,13 @@ export const BlueprintExtended = z.object({
   risks: z.array(
     z.object({ risk: z.string(), likelihood: Level, impact: Level, mitigation: z.string(), contingency: z.string() }),
   ),
+  preMortem: z
+    .object({
+      scenario: z.string().default(""),
+      causes: z.array(z.string()).default([]),
+      preventNow: z.array(z.string()).default([]),
+    })
+    .default({ scenario: "", causes: [], preventNow: [] }),
   exceptional: z.array(z.string()),
   evolution: z.object({ v1: z.string(), v2: z.string(), v3: z.string() }),
   qualityCheck: z.array(z.object({ criterion: z.string(), pass: z.boolean(), note: z.string() })),

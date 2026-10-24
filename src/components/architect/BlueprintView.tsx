@@ -333,6 +333,17 @@ export function BlueprintView({ project }: { project: SavedProject }) {
           rows={x.risks.map((r) => [r.risk, <LevelPill key="l" level={r.likelihood} inverted />, <LevelPill key="i" level={r.impact} inverted />, r.mitigation, r.contingency])}
         />
         <List label="What would make it exceptional" items={x.exceptional} />
+        {x.preMortem?.scenario && (
+          <div className="hr-top pt-5">
+            <p className="meta text-pending">Pre-mortem — it is six months later and this failed</p>
+            <HairlineRule className="mt-2 mb-3" />
+            <p className="text-[0.9375rem] leading-relaxed text-paper/85">{x.preMortem.scenario}</p>
+            <div className="mt-4 grid gap-5 md:grid-cols-2">
+              <List label="Most plausible causes" items={x.preMortem.causes} ordered />
+              <List label="What to do now instead" items={x.preMortem.preventNow} />
+            </div>
+          </div>
+        )}
       </Block>
 
       <Block id="next" title="Next actions">
@@ -349,6 +360,20 @@ export function BlueprintView({ project }: { project: SavedProject }) {
             </div>
           ))}
         </div>
+        {(c.nextActions.firstHour || c.nextActions.firstMilestone || c.nextActions.minimumResources.length > 0) && (
+          <div className="mt-5 grid gap-5 md:grid-cols-3">
+            {c.nextActions.firstHour && <Field label="Do this in the next hour">{c.nextActions.firstHour}</Field>}
+            {c.nextActions.minimumResources.length > 0 && (
+              <List label="Minimum to begin" items={c.nextActions.minimumResources} />
+            )}
+            {c.nextActions.firstMilestone && <Field label="First milestone">{c.nextActions.firstMilestone}</Field>}
+          </div>
+        )}
+        {c.nextActions.notYet.length > 0 && (
+          <div className="hr-top pt-5">
+            <List label="Not yet — tempting, but it can wait" items={c.nextActions.notYet} />
+          </div>
+        )}
       </Block>
 
       <Block id="quality" title="Quality check" note="The Architect's own review of this blueprint.">

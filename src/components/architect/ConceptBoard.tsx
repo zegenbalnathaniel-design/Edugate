@@ -1,7 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { INVERTED_KEYS, MATRIX_KEYS, MATRIX_LABELS, type Ideation } from "@/lib/architect/schemas";
+import {
+  CONCEPT_KIND_LABELS,
+  CONCEPT_KIND_NOTES,
+  CONCEPT_KINDS,
+  INVERTED_KEYS,
+  MATRIX_KEYS,
+  MATRIX_LABELS,
+  type Ideation,
+} from "@/lib/architect/schemas";
+import { HairlineRule } from "@/components/primitives/Hairline";
 import { inputCls, primaryBtnCls, secondaryBtnCls } from "@/components/forms/styles";
 import { LevelPill } from "./LevelPill";
 
@@ -83,8 +92,16 @@ export function ConceptBoard({
         </div>
 
         {view === "cards" ? (
-          <div className="mt-6 grid gap-5 lg:grid-cols-2">
-            {concepts.map((c) => {
+          <div className="mt-6 space-y-10">
+            {CONCEPT_KINDS.filter((k) => concepts.some((c) => c.kind === k)).map((kind) => (
+              <div key={kind}>
+                <p className="meta text-paper/45">
+                  {CONCEPT_KIND_LABELS[kind]} · {concepts.filter((c) => c.kind === kind).length}
+                </p>
+                <p className="mt-1 text-[0.8125rem] text-paper/50">{CONCEPT_KIND_NOTES[kind]}</p>
+                <HairlineRule className="mt-2.5 text-paper" />
+                <div className="mt-5 grid gap-5 lg:grid-cols-2">
+            {concepts.filter((c) => c.kind === kind).map((c) => {
               const on = selected.includes(c.id);
               return (
                 <article key={c.id} className={`glass flex flex-col p-5 sm:p-6 ${on ? "ring-2 ring-electric" : ""}`}>
@@ -94,14 +111,21 @@ export function ConceptBoard({
                   <dl className="mt-4 space-y-2.5 text-[0.875rem]">
                     {(
                       [
+                        ["Central question", c.centralQuestion],
                         ["Problem", c.problem],
                         ["Why it fits you", c.whyItFitsYou],
                         ["Unique angle", c.uniqueAngle],
+                        ["Medium", c.medium],
                         ["First version", c.firstVersion],
                         ["Who benefits", c.whoBenefits],
                         ["Time to first result", c.timeToFirstResult],
+                        ["Estimated cost", c.estimatedCost],
+                        ["What exists at the end", c.potentialOutcome],
+                        ["Smallest test", c.smallestTest],
                       ] as const
-                    ).map(([k, v]) => (
+                    )
+                      .filter(([, v]) => Boolean(v))
+                      .map(([k, v]) => (
                       <div key={k}>
                         <dt className="meta text-paper/40">{k}</dt>
                         <dd className="text-paper/80">{v}</dd>
@@ -122,6 +146,9 @@ export function ConceptBoard({
                   <div className="mt-auto flex items-center justify-between gap-3 pt-5">
                     <span className="text-[0.8125rem] text-paper/55">
                       Difficulty <LevelPill level={c.difficulty} inverted />
+                      {c.difficultyNote && (
+                        <span className="mt-1 block text-[0.75rem] text-paper/45">{c.difficultyNote}</span>
+                      )}
                     </span>
                     <button
                       onClick={() => toggle(c.id)}
@@ -135,6 +162,9 @@ export function ConceptBoard({
                 </article>
               );
             })}
+                </div>
+              </div>
+            ))}
           </div>
         ) : (
           <div className="hr-stack-rows mt-6 overflow-x-auto">

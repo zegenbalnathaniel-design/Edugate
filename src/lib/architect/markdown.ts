@@ -207,6 +207,19 @@ export function toMarkdown(p: SavedProject): string {
     x.risks.map((r) => [r.risk, r.likelihood, r.impact, r.mitigation, r.contingency]),
   );
 
+  if (x.preMortem?.scenario) {
+    h(2, "Pre-mortem — six months on, it failed");
+    para(x.preMortem.scenario);
+    if (x.preMortem.causes.length) {
+      h(3, "Most plausible causes");
+      list(x.preMortem.causes);
+    }
+    if (x.preMortem.preventNow.length) {
+      h(3, "What to do now instead");
+      list(x.preMortem.preventNow);
+    }
+  }
+
   h(2, "Making it exceptional");
   list(x.exceptional);
 
@@ -224,6 +237,22 @@ export function toMarkdown(p: SavedProject): string {
   list(c.nextActions.next7Days);
   h(3, "Next 30 days");
   list(c.nextActions.next30Days);
+  if (c.nextActions.firstHour) {
+    h(3, "Do this in the next hour");
+    para(c.nextActions.firstHour);
+  }
+  if (c.nextActions.minimumResources.length) {
+    h(3, "Minimum to begin");
+    list(c.nextActions.minimumResources);
+  }
+  if (c.nextActions.firstMilestone) {
+    h(3, "First milestone");
+    para(c.nextActions.firstMilestone);
+  }
+  if (c.nextActions.notYet.length) {
+    h(3, "Not yet");
+    list(c.nextActions.notYet);
+  }
 
   h(2, "Quality check");
   table(["Criterion", "Pass", "Note"], x.qualityCheck.map((q) => [q.criterion, q.pass ? "Yes" : "No", q.note]));
@@ -237,11 +266,19 @@ export function toMarkdown(p: SavedProject): string {
   for (const k of concepts) {
     h(3, k.title);
     para(k.oneLine);
-    kv([
-      ["Why it fits you", k.whyItFitsYou],
-      ["Unique angle", k.uniqueAngle],
-      ["Difficulty", k.difficulty],
-    ]);
+    kv(
+      [
+        ["Kind", k.kind],
+        ["Central question", k.centralQuestion],
+        ["Medium", k.medium],
+        ["Why it fits you", k.whyItFitsYou],
+        ["Unique angle", k.uniqueAngle],
+        ["Estimated cost", k.estimatedCost],
+        ["What exists at the end", k.potentialOutcome],
+        ["Smallest test", k.smallestTest],
+        ["Difficulty", k.difficultyNote ? `${k.difficulty} — ${k.difficultyNote}` : k.difficulty],
+      ].filter((row): row is [string, string] => Boolean(row[1])),
+    );
   }
 
   return out.join("\n").replace(/\n{3,}/g, "\n\n").trim() + "\n";

@@ -49,7 +49,29 @@ ${feedback ? `\nThe student's direction for this round: ${feedback}` : ""}
 
 Task: Parts II–IV.
 1. profile — a personal profile synthesised only from what the student said. hiddenInterests are patterns they didn't name but their answers show; say what in the answers suggests each. Keep lists to 2–6 items. If something is unknown, leave it out rather than inventing it.
-2. concepts — 8 to 12 distinct project concepts across different categories that genuinely fit (research, building/engineering, community, creative/media, entrepreneurial, advocacy/policy, data/analysis, education — whichever fit). Each must be specific to this student; "whyItFitsYou" must point at things they actually said. "firstVersion" is something they could have running within a few weeks. difficulty uses Low / Moderate / High / Very High. ids "c1", "c2", …
+2. concepts — 12 to 20 distinct project concepts. Breadth before depth. ids "c1", "c2", …
+
+   Every concept carries a "kind", which is the SHAPE of the idea, not its subject:
+   - "domain-first": grows straight out of a subject the student named. Investigations, creative works, experiments, collections, analyses, events, fieldwork — whatever the domain makes natural.
+   - "medium-pure": one medium used exceptionally well. A documentary chasing a neglected question; a game built on one surprising mechanic; a photographic series with a rigorous visual concept; an installation that needs an audience to complete it; a study with a sharp question and a real method.
+   - "experimental": not an obvious product or publication. Controlled experiments, public demonstrations, alternative teaching formats, participatory research, archival reconstruction, prototypes, interactive storytelling, competitions, simulations, community collaborations, new ways of presenting what is already known, or a creative constraint that forces an unusual result.
+   - "hybrid": two interests combined, and ONLY where the combination earns its keep. Say what each discipline contributes. Neither may be decorative — an economics project using theatre must use theatrical technique to reveal something about economic behaviour, not just stage a presentation of economic facts.
+
+   Produce several of each kind. If one kind genuinely does not suit this student, give fewer rather than padding it with weak ideas, and let the others carry the portfolio.
+
+   Also set "category" to the subject area (research, building/engineering, community, creative/media, entrepreneurial, advocacy/policy, data/analysis, education — whichever fits).
+
+   Each must be specific to this student; "whyItFitsYou" must point at things they actually said. "firstVersion" is something they could have running within a few weeks.
+
+   Per concept also give:
+   - "centralQuestion": the question it investigates or the creative challenge it sets — not a restatement of the title.
+   - "medium": the actual form the finished thing takes.
+   - "estimatedCost": a labelled estimate with the assumption behind it, in the student's own currency where they named one (e.g. "about ₹4,000, assuming the camera is borrowed"). Say "no cost beyond time" when that is true. Never invent a precise figure.
+   - "potentialOutcome": the tangible thing that exists at the end.
+   - "smallestTest": the cheapest, lowest-risk way to find out whether the core premise holds, doable in days.
+   - "difficulty": Low / Moderate / High / Very High, with "difficultyNote" giving the one reason it sits there.
+
+   Do NOT make every idea sound equally brilliant. Some of these will be more original, more feasible, or more worth doing than others, and the student needs to see that difference. Where an idea is derivative, fragile, or likely to disappoint, "keyRisks" must say so plainly.
 3. matrix — one row per concept (conceptId matching), qualitative Low / Moderate / High / Very High only. resourceRequirement and riskLevel: High means more resources needed / more risk. "tradeoff" is one sentence naming the real cost of choosing it.
 4. recommendation — 2–3 sentences on which one or two concepts you would look at first and why, framed as a suggestion; the student decides.`;
 }
@@ -58,11 +80,12 @@ const conceptBrief = (concepts: Concept[]) =>
   concepts
     .map(
       (c) => `Title: ${c.title}
-Problem: ${c.problem}
+Kind: ${c.kind}
+Problem: ${c.problem}${c.centralQuestion ? `\nCentral question: ${c.centralQuestion}` : ""}
 Core idea: ${c.coreIdea}
 Who benefits: ${c.whoBenefits}
 First version: ${c.firstVersion}
-Unique angle: ${c.uniqueAngle}`,
+Unique angle: ${c.uniqueAngle}${c.medium ? `\nMedium: ${c.medium}` : ""}${c.estimatedCost ? `\nCost estimate given to the student: ${c.estimatedCost}` : ""}${c.potentialOutcome ? `\nOutcome promised: ${c.potentialOutcome}` : ""}${c.smallestTest ? `\nSmallest credible test: ${c.smallestTest}` : ""}`,
     )
     .join("\n\n");
 
@@ -119,7 +142,7 @@ Task: write the core of the project blueprint (Parts VI–XV and XXVII).
 - weeks: exactly 12 weeks; each week has a focus, 3–5 concrete tasks sized to the student's stated time, one deliverable and a checkpoint question.
 - laterMilestones: 4–6 milestones for months 4–12.
 - preview: what the finished first version looks/feels like; artifacts lists tangible outputs.
-- nextActions: 3–5 actions each for the next 24 hours, 7 days and 30 days — the 24-hour ones must be doable tonight with no money.
+- nextActions: 3–5 actions each for the next 24 hours, 7 days and 30 days — the 24-hour ones must be doable tonight with no money. Also: "firstHour" (one task finishable in under an hour, specific enough to start without asking what you meant), "minimumResources" (the least they need to begin at all — not the full kit), "firstMilestone" (the first point where they can tell it is working), and "notYet" (3–5 things that are tempting now but should wait, each with the reason in the same line).
 - title and tagline: short and plain.`;
   }
 
@@ -137,7 +160,8 @@ Task: write the extended blueprint (Parts XI and XVI–XXVIII).
 - scale: a staged path (e.g. school → city → region) and real constraints.
 - brand, presence: name ideas, positioning, voice, visual direction, channels, content ideas — modest and authentic.
 - documentation: how to keep a project log, evidence to collect (photos, data, feedback, metrics).
-- risks: 5–8 risks with likelihood/impact (Low / Moderate / High / Very High), mitigation and contingency. Include safety and ethics risks where relevant.
+- risks: 5–8 risks with likelihood/impact (Low / Moderate / High / Very High), mitigation and contingency, ranked most significant first. Cover the assumptions most likely to be wrong, the hardest technical or creative obstacle, resource bottlenecks, losing motivation, scope creep, privacy/consent/accessibility/safety, copyright and attribution, research limitations and bias, and financial exposure — whichever genuinely apply. Do not soften a serious weakness with optimistic language.
+- preMortem: imagine it is six months later and the project failed. "scenario" is 2–3 sentences describing that failure concretely, in the past tense. "causes" are the 3–5 most plausible reasons, most likely first. "preventNow" is what can be done this month to make each less likely. Be blunt; a pre-mortem that reads as reassuring has not done its job.
 - exceptional: 4–6 specific moves that would make this project genuinely excellent, not just bigger.
 - evolution: what v1, v2 and v3 look like.
 - qualityCheck: evaluate this blueprint against: Specific to this student; Feasible with stated resources; No unverified claims presented as fact; Clear first step; Measurable success; Safe and ethical. pass true/false with a one-line note.`;
