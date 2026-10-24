@@ -11,6 +11,7 @@ import {
   CONCEPT_KINDS,
   Discovery,
   MATRIX_KEYS,
+  SCALE_STAGES,
   normaliseEnums,
   normaliseUrl,
   PersonalProfile,
@@ -255,5 +256,134 @@ describe("Stage Eleven — start immediately", () => {
     expect(md).toContain("Do this in the next hour");
     expect(md).toContain("Not yet");
     expect(md).toContain("do not know which sizes fail yet");
+  });
+});
+
+describe("Stage Eight — audience, distribution and reach", () => {
+  it("requires cost and expected benefit per channel, not a list of platform names", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    for (const f of ["distribution", "expectedBenefit", "reachMatters"]) expect(p).toContain(f);
+    expect(p).toContain("different jobs");
+  });
+
+  it("forbids the manipulative channels the spec rules out", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    expect(p).toContain("Never suggest spam");
+  });
+
+  it("says plainly when reach is not the point, instead of inventing a marketing plan", () => {
+    const quiet = BlueprintExtended.parse({
+      ...extended,
+      presence: { channels: [], contentIdeas: [], reachMatters: false, reachReasoning: "They want this for themselves.", distribution: [] },
+    });
+    const md = toMarkdown({ ...saved, extended: quiet });
+    expect(md).toContain("Reach is not the point here");
+    expect(md).toContain("They want this for themselves.");
+  });
+
+  it("renders the channel table when reach does matter", () => {
+    const loud = BlueprintExtended.parse({
+      ...extended,
+      presence: {
+        channels: [], contentIdeas: [], reachMatters: true, reachReasoning: "",
+        distribution: [{ channel: "School noticeboard", purpose: "Reach cyclists", effort: "Low", cost: "Free", expectedBenefit: "A handful of users, not a crowd." }],
+      },
+    });
+    const md = toMarkdown({ ...saved, extended: loud });
+    expect(md).toContain("School noticeboard");
+    expect(md).toContain("not a crowd");
+  });
+});
+
+describe("Stage Nine — monetization and the scaling framework", () => {
+  it("asks for the parts that separate a projection from a wish", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    for (const f of ["acquisition", "operatingCosts", "pricingAssumptions", "scenarios", "breakEven", "ethicalConstraints", "evidenceNeeded"]) {
+      expect(p).toContain(f);
+    }
+    expect(p).toContain("revenue, not profit");
+  });
+
+  it("names the five maturity stages and rejects a reach ladder", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    for (const stage of SCALE_STAGES) expect(p).toContain(stage);
+    expect(p).toContain("do not substitute a reach ladder");
+  });
+
+  it("keeps growth optional — a project may be told to stop early", () => {
+    const capped = BlueprintExtended.parse({
+      ...extended,
+      scale: {
+        path: [{ stage: "Prototype", description: "One rack", framework: "Personal prototype", whatProvesIt: "It survives a term." }],
+        constraints: [], stopAt: "Stage two. It is a school project, not an organisation.",
+      },
+    });
+    const md = toMarkdown({ ...saved, extended: capped });
+    expect(md).toContain("should probably stop");
+    expect(md).toContain("not an organisation");
+  });
+
+  it("defaults the framework stage so older saves still parse", () => {
+    expect(extended.scale.path[0]?.framework ?? "Personal prototype").toBe("Personal prototype");
+    expect(extended.commercialization.scenarios).toEqual([]);
+    expect(extended.presence.reachMatters).toBe(true);
+  });
+});
+
+describe("Stage Seven — the proposal's missing elements", () => {
+  it("asks for prior work, limitations and a conclusion", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    for (const f of ["priorWork", "limitations", "conclusion"]) expect(p).toContain(f);
+  });
+
+  it("will not let an empty literature search imply novelty", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    expect(p).toContain("rather than implying novelty");
+  });
+
+  it("renders them into the dossier, and omits them when absent", () => {
+    expect(toMarkdown({ ...saved })).not.toContain("What this does not do");
+    const withIt = BlueprintExtended.parse({
+      ...extended,
+      proposal: { ...extended.proposal, priorWork: "Two schools run repair clubs.", limitations: "It will not prove cycling went up.", conclusion: "Worth a term." },
+    });
+    const md = toMarkdown({ ...saved, extended: withIt });
+    expect(md).toContain("Two schools run repair clubs.");
+    expect(md).toContain("It will not prove cycling went up.");
+  });
+});
+
+describe("Stage Twelve — iterative review", () => {
+  it("asks for a review protocol the student keeps after the tool", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    expect(p).toContain("reviewProtocol");
+    for (const d of ["continueIf", "pivotIf", "expandIf", "concludeIf"]) expect(p).toContain(d);
+  });
+
+  it("treats concluding on purpose as a legitimate outcome, not a failure", () => {
+    const p = blueprintPrompt("extended", discovery, [concept("c1")], profile, { notes: "", sources: [], available: false });
+    expect(p).toContain("not a failure");
+    expect(p).toContain("Do not tell the student to stay loyal to the original idea");
+  });
+
+  it("keeps the four states apart, and round-trips", () => {
+    const reviewed = BlueprintExtended.parse({
+      ...extended,
+      reviewProtocol: {
+        cadence: "At each 12-week checkpoint.",
+        atEachReview: ["Did the rack survive?"],
+        decide: { continueIf: "It held.", pivotIf: "Nobody used it.", expandIf: "Two more schools asked.", concludeIf: "The question is answered." },
+        recordKeeping: ["Original concept", "Changes since", "Current status", "Open decisions"],
+      },
+    });
+    const md = toMarkdown({ ...saved, extended: reviewed });
+    expect(md).toContain("Reviewing it later");
+    expect(md).toContain("Keep these four apart in writing");
+    expect(md).toContain("The question is answered.");
+  });
+
+  it("defaults empty so blueprints saved before it still parse and render", () => {
+    expect(extended.reviewProtocol.cadence).toBe("");
+    expect(toMarkdown({ ...saved })).not.toContain("Reviewing it later");
   });
 });

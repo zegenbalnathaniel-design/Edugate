@@ -278,6 +278,22 @@ export type BlueprintCore = z.infer<typeof BlueprintCore>;
 
 /* ---------------------- Parts XI, XVI – XXVIII ---------------------- */
 
+/*
+ * Stage Nine's scaling framework. These five are the spec's own, in order.
+ * They measure how proven a project is, not how far it has spread — a
+ * distinction worth keeping, because "school → city → region" sounds like
+ * progress while skipping the question of whether the thing works at all.
+ */
+export const SCALE_STAGES = [
+  "Personal prototype",
+  "Small-scale validation",
+  "Repeatable execution",
+  "Expansion",
+  "Long-term sustainability",
+] as const;
+export const ScaleStage = z.enum(SCALE_STAGES);
+export type ScaleStage = z.infer<typeof ScaleStage>;
+
 export const BlueprintExtended = z.object({
   proposal: z.object({
     title: z.string(),
@@ -286,7 +302,40 @@ export const BlueprintExtended = z.object({
     methodology: z.string(),
     expectedOutcomes: z.string(),
     evaluation: z.string(),
+    /* The three elements the spec lists that the rest of the dossier
+       cannot supply: what already exists, what this will not do, and
+       the closing argument. Everything else a proposal needs is
+       assembled from the blueprint it is written against. */
+    priorWork: z.string().default(""),
+    limitations: z.string().default(""),
+    conclusion: z.string().default(""),
   }),
+  /*
+   * Stage Twelve. A blueprint that is only a starting plan goes stale the
+   * first time reality disagrees with it. This is the protocol for the
+   * reviews themselves — carried in the dossier so it survives without
+   * the student coming back to the tool.
+   */
+  reviewProtocol: z
+    .object({
+      cadence: z.string().default(""),
+      atEachReview: z.array(z.string()).default([]),
+      decide: z
+        .object({
+          continueIf: z.string().default(""),
+          pivotIf: z.string().default(""),
+          expandIf: z.string().default(""),
+          concludeIf: z.string().default(""),
+        })
+        .default({ continueIf: "", pivotIf: "", expandIf: "", concludeIf: "" }),
+      recordKeeping: z.array(z.string()).default([]),
+    })
+    .default({
+      cadence: "",
+      atEachReview: [],
+      decide: { continueIf: "", pivotIf: "", expandIf: "", concludeIf: "" },
+      recordKeeping: [],
+    }),
   costCurrency: z.string(),
   costNote: z.string(),
   materials: z.array(
@@ -322,10 +371,28 @@ export const BlueprintExtended = z.object({
     revenueModel: z.string(),
     unitEconomics: z.string(),
     competitors: z.array(z.string()),
+    acquisition: z.array(z.string()).default([]),
+    operatingCosts: z.array(z.string()).default([]),
+    pricingAssumptions: z.array(z.string()).default([]),
+    scenarios: z
+      .array(z.object({ name: z.string(), assumptions: z.string(), revenue: z.string() }))
+      .default([]),
+    breakEven: z.string().default(""),
+    ethicalConstraints: z.array(z.string()).default([]),
+    evidenceNeeded: z.array(z.string()).default([]),
   }),
   scale: z.object({
-    path: z.array(z.object({ stage: z.string(), description: z.string() })),
+    path: z.array(
+      z.object({
+        stage: z.string(),
+        description: z.string(),
+        /* Which of the spec's five this step is. Defaults for older saves. */
+        framework: ScaleStage.default("Personal prototype"),
+        whatProvesIt: z.string().default(""),
+      }),
+    ),
     constraints: z.array(z.string()),
+    stopAt: z.string().default(""),
   }),
   brand: z.object({
     nameIdeas: z.array(z.string()),
@@ -333,7 +400,23 @@ export const BlueprintExtended = z.object({
     voice: z.string(),
     visualDirection: z.string(),
   }),
-  presence: z.object({ channels: z.array(z.string()), contentIdeas: z.array(z.string()) }),
+  presence: z.object({
+    channels: z.array(z.string()),
+    contentIdeas: z.array(z.string()),
+    reachMatters: z.boolean().default(true),
+    reachReasoning: z.string().default(""),
+    distribution: z
+      .array(
+        z.object({
+          channel: z.string(),
+          purpose: z.string(),
+          effort: Level,
+          cost: z.string(),
+          expectedBenefit: z.string(),
+        }),
+      )
+      .default([]),
+  }),
   documentation: z.object({ system: z.array(z.string()), evidence: z.array(z.string()) }),
   risks: z.array(
     z.object({ risk: z.string(), likelihood: Level, impact: Level, mitigation: z.string(), contingency: z.string() }),

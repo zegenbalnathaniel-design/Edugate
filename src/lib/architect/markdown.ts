@@ -145,6 +145,9 @@ export function toMarkdown(p: SavedProject): string {
     ["Methodology", x.proposal.methodology],
     ["Expected outcomes", x.proposal.expectedOutcomes],
     ["Evaluation", x.proposal.evaluation],
+    ["What already exists, and what this adds", x.proposal.priorWork],
+    ["What this does not do", x.proposal.limitations],
+    ["Conclusion", x.proposal.conclusion],
   ]);
 
   h(2, `Materials & costs (${x.costCurrency}, estimates)`);
@@ -179,12 +182,32 @@ export function toMarkdown(p: SavedProject): string {
       ["Revenue model", x.commercialization.revenueModel],
       ["Unit economics", x.commercialization.unitEconomics],
       ["Alternatives / competitors", x.commercialization.competitors.join("; ")],
+      ["How the first paying people find it", x.commercialization.acquisition.join("; ")],
+      ["Costs that recur", x.commercialization.operatingCosts.join("; ")],
+      ["What each price assumes", x.commercialization.pricingAssumptions.join("; ")],
+      ["Break-even", x.commercialization.breakEven],
+      ["What it must not do for money", x.commercialization.ethicalConstraints.join("; ")],
     ]);
+  if (x.commercialization.credible && x.commercialization.scenarios.length) {
+    h(3, "Revenue scenarios (revenue, not profit)");
+    table(
+      ["Scenario", "What it assumes", "Revenue"],
+      x.commercialization.scenarios.map((sc) => [sc.name, sc.assumptions, sc.revenue]),
+    );
+  }
+  if (x.commercialization.credible && x.commercialization.evidenceNeeded.length) {
+    h(3, "Test this before believing the projections");
+    list(x.commercialization.evidenceNeeded);
+  }
 
   h(2, "Scaling path");
-  list(x.scale.path.map((s) => `**${s.stage}** — ${s.description}`));
+  table(
+    ["Stage", "What this step is", "What proves it is done"],
+    x.scale.path.map((st) => [st.framework ?? st.stage, st.description, st.whatProvesIt]),
+  );
   h(3, "Constraints");
   list(x.scale.constraints);
+  if (x.scale.stopAt) para(`**Where this should probably stop.** ${x.scale.stopAt}`);
 
   h(2, "Brand & presence");
   kv([
@@ -195,6 +218,16 @@ export function toMarkdown(p: SavedProject): string {
     ["Channels", x.presence.channels.join(", ")],
   ]);
   list(x.presence.contentIdeas);
+  if (x.presence.reachMatters === false) {
+    para(`**Reach is not the point here.** ${x.presence.reachReasoning}`);
+  } else if (x.presence.distribution.length) {
+    h(3, "Distribution");
+    para("Making the project and getting it in front of people are two different jobs.");
+    table(
+      ["Channel", "What it is for", "Effort", "Cost", "What to realistically expect"],
+      x.presence.distribution.map((d) => [d.channel, d.purpose, d.effort, d.cost, d.expectedBenefit]),
+    );
+  }
 
   h(2, "Documentation");
   list(x.documentation.system);
@@ -252,6 +285,30 @@ export function toMarkdown(p: SavedProject): string {
   if (c.nextActions.notYet.length) {
     h(3, "Not yet");
     list(c.nextActions.notYet);
+  }
+
+  const rp = x.reviewProtocol;
+  if (rp?.cadence || rp?.atEachReview.length) {
+    h(2, "Reviewing it later");
+    para("This plan is a starting position, not a commitment. Evidence beats the original idea.");
+    if (rp.cadence) kv([["When to review", rp.cadence]]);
+    if (rp.atEachReview.length) {
+      h(3, "Ask these each time");
+      list(rp.atEachReview);
+    }
+    const decisions: [string, string][] = (
+      [
+        ["Continue", rp.decide.continueIf],
+        ["Pivot", rp.decide.pivotIf],
+        ["Expand", rp.decide.expandIf],
+        ["Conclude", rp.decide.concludeIf],
+      ] as [string, string][]
+    ).filter(([, v]) => Boolean(v));
+    if (decisions.length) table(["Decision", "Take it when"], decisions);
+    if (rp.recordKeeping.length) {
+      h(3, "Keep these four apart in writing");
+      list(rp.recordKeeping);
+    }
   }
 
   h(2, "Quality check");

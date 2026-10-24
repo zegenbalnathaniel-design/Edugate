@@ -26,6 +26,7 @@ const SECTIONS = [
   ["brand", "Brand"],
   ["risks", "Risks"],
   ["next", "Next actions"],
+  ["review", "Reviewing it later"],
   ["quality", "Quality check"],
 ] as const;
 
@@ -103,6 +104,7 @@ const grid = "grid gap-5 md:grid-cols-2";
 
 export function BlueprintView({ project }: { project: SavedProject }) {
   const { core: c, extended: x, concepts, research, profile } = project;
+  const r = x.reviewProtocol;
   return (
     <article className="space-y-10">
       <header>
@@ -259,7 +261,10 @@ export function BlueprintView({ project }: { project: SavedProject }) {
           <Field label="Methodology">{x.proposal.methodology}</Field>
           <Field label="Expected outcomes">{x.proposal.expectedOutcomes}</Field>
           <Field label="Evaluation">{x.proposal.evaluation}</Field>
+          {x.proposal.priorWork && <Field label="What already exists, and what this adds">{x.proposal.priorWork}</Field>}
+          {x.proposal.limitations && <Field label="What this does not do">{x.proposal.limitations}</Field>}
         </div>
+        {x.proposal.conclusion && <Field label="Conclusion">{x.proposal.conclusion}</Field>}
       </Block>
 
       <Block id="costs" title={`Materials & costs · ${x.costCurrency}`} note={`Estimates, not quotes. ${x.costNote}`}>
@@ -301,12 +306,39 @@ export function BlueprintView({ project }: { project: SavedProject }) {
             <Field label="Revenue model">{x.commercialization.revenueModel}</Field>
             <Field label="Unit economics">{x.commercialization.unitEconomics}</Field>
             <List label="Alternatives people use today" items={x.commercialization.competitors} />
+            <List label="How the first paying people find it" items={x.commercialization.acquisition} />
+            <List label="Costs that recur" items={x.commercialization.operatingCosts} />
+            <List label="What each price assumes" items={x.commercialization.pricingAssumptions} />
+            <List label="What it must not do to make money" items={x.commercialization.ethicalConstraints} />
           </div>
         ) : (
           <Field label="Not a business — and that's fine">{x.commercialization.reasoning}</Field>
         )}
-        <List label="Scaling path" items={x.scale.path.map((s) => `${s.stage}: ${s.description}`)} ordered />
+        {x.commercialization.credible && x.commercialization.scenarios.length > 0 && (
+          <>
+            <Table
+              head={["Scenario", "What it assumes", "Revenue (not profit)"]}
+              rows={x.commercialization.scenarios.map((sc) => [sc.name, sc.assumptions, sc.revenue])}
+            />
+            {x.commercialization.breakEven && <Field label="Break-even">{x.commercialization.breakEven}</Field>}
+          </>
+        )}
+        {x.commercialization.credible && x.commercialization.evidenceNeeded.length > 0 && (
+          <List
+            label="Before believing any of the above, test this"
+            items={x.commercialization.evidenceNeeded}
+          />
+        )}
+        <Table
+          head={["Stage", "What this step is", "What proves it is done"]}
+          rows={x.scale.path.map((st) => [st.framework ?? st.stage, st.description, st.whatProvesIt])}
+        />
         <List label="Constraints on scale" items={x.scale.constraints} />
+        {x.scale.stopAt && (
+          <Field label="Where this project should probably stop — growth is an option, not the goal">
+            {x.scale.stopAt}
+          </Field>
+        )}
         <div className="grid gap-4 md:grid-cols-3">
           <Field label="v1">{x.evolution.v1}</Field>
           <Field label="v2">{x.evolution.v2}</Field>
@@ -320,11 +352,34 @@ export function BlueprintView({ project }: { project: SavedProject }) {
           <Field label="Positioning">{x.brand.positioning}</Field>
           <Field label="Voice">{x.brand.voice}</Field>
           <Field label="Visual direction">{x.brand.visualDirection}</Field>
-          <List label="Channels" items={x.presence.channels} />
           <List label="Content ideas" items={x.presence.contentIdeas} />
           <List label="Documentation system" items={x.documentation.system} />
           <List label="Evidence to collect" items={x.documentation.evidence} />
         </div>
+        {x.presence.reachMatters === false ? (
+          <Field label="Reach is not the point here">
+            {x.presence.reachReasoning || "This project is worth doing whether or not anyone else sees it."}
+          </Field>
+        ) : x.presence.distribution.length > 0 ? (
+          <>
+            <p className="text-[0.875rem] text-paper/55">
+              Making the project and getting it in front of people are two different jobs. A good project does
+              not find its own audience.
+            </p>
+            <Table
+              head={["Channel", "What it is for", "Effort", "Cost", "What to realistically expect"]}
+              rows={x.presence.distribution.map((d) => [
+                d.channel,
+                d.purpose,
+                <LevelPill key="e" level={d.effort} inverted />,
+                d.cost,
+                d.expectedBenefit,
+              ])}
+            />
+          </>
+        ) : (
+          <List label="Channels" items={x.presence.channels} />
+        )}
       </Block>
 
       <Block id="risks" title="Risk register">
@@ -375,6 +430,33 @@ export function BlueprintView({ project }: { project: SavedProject }) {
           </div>
         )}
       </Block>
+
+      {(r.cadence || r.atEachReview.length > 0) && (
+        <Block
+          id="review"
+          title="Reviewing it later"
+          note="This plan is a starting position, not a commitment. Evidence beats the original idea."
+        >
+          {r.cadence && <Field label="When to review">{r.cadence}</Field>}
+          <List label="Ask these each time" items={r.atEachReview} ordered />
+          {(r.decide.continueIf || r.decide.pivotIf || r.decide.expandIf || r.decide.concludeIf) && (
+            <Table
+              head={["Decision", "Take it when"]}
+              rows={(
+                [
+                  ["Continue", r.decide.continueIf],
+                  ["Pivot", r.decide.pivotIf],
+                  ["Expand", r.decide.expandIf],
+                  ["Conclude", r.decide.concludeIf],
+                ] as const
+              )
+                .filter(([, v]) => Boolean(v))
+                .map(([k, v]) => [k, v])}
+            />
+          )}
+          <List label="Keep these four apart in writing" items={r.recordKeeping} />
+        </Block>
+      )}
 
       <Block id="quality" title="Quality check" note="The Architect's own review of this blueprint.">
         <ul className="space-y-2">
