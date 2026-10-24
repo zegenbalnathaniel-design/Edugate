@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { HairlineRule } from "./Hairline";
+import { Reveal as RevealBlock } from "./Reveal";
 
 export type Register = "dark" | "deep" | "light" | "warm";
 
@@ -86,12 +87,12 @@ export function SectionLabel({
   rule?: boolean;
 }) {
   return (
-    <div className={className}>
+    <RevealBlock className={className}>
       <p className="meta opacity-55">
         {index && <span className="mr-3">{index}</span>}
         {children}
       </p>
       {rule && <HairlineRule className="mt-2.5 opacity-80" />}
-    </div>
+    </RevealBlock>
   );
 }

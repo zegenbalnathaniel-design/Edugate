@@ -7,6 +7,7 @@ import { INSTITUTIONS } from "@/lib/data/fixtures/education/institutions";
 import { COURSES } from "@/lib/data/fixtures/education/courses";
 import { SCHOLARSHIPS } from "@/lib/data/fixtures/education/scholarships";
 import type { Institution } from "@/lib/data/types";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 /**
  * Live comparison of two real institutions from the sourced dataset.
@@ -78,7 +79,8 @@ export function InteractiveCompare() {
   return (
     <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
       <div>
-        <p className="meta mb-4 text-ink/55">Pick a dimension</p>
+        <p className="meta text-ink/55">Pick a dimension</p>
+        <HairlineRule className="mb-4 mt-2.5 text-ink" />
         <ul className="glass grid gap-px overflow-hidden p-1.5 sm:grid-cols-2 lg:grid-cols-1">
           {DIMENSIONS.map((d, i) => {
             const on = d.key === active.key;
@@ -119,7 +121,8 @@ export function InteractiveCompare() {
           ))}
         </div>
 
-        <p className="mt-8 border-t border-ink/15 pt-5 text-[0.875rem] leading-[1.55] text-ink/70">
+        <HairlineRule className="mt-8 text-ink" />
+        <p className="mt-5 text-[0.875rem] leading-[1.55] text-ink/70">
           Change the dimension and the better fit changes. This is why Edugate
           compares rather than ranks — a single ordering would have to pretend
           one of these rows matters more than the others to everyone.

@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import type { ConfidenceLevel, Source } from "@/lib/unis/schema";
 import { CONFIDENCE_LABEL, SOURCE_TYPE_LABEL, dateLabel } from "@/lib/unis/format";
 import { SourceToggle } from "./SourceToggle";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 const DOT: Record<ConfidenceLevel, string> = {
   official: "bg-verified",
@@ -51,16 +52,18 @@ export function TrustBar({ lastVerified, sources }: { lastVerified: string; sour
         <span>Sources: <strong>{sources.length}</strong></span>
         <span className="text-cyan">Where did this information come from? ▾</span>
       </summary>
-      <ol className="mt-4 space-y-1.5 text-[0.8125rem]">
+      <HairlineRule className="mt-3.5" />
+      <ol className="hr-stack mt-1 text-[0.8125rem]">
         {sources.map((s) => (
-          <li key={s.id} className="flex flex-wrap gap-x-2">
+          <li key={s.id} className="flex flex-wrap gap-x-2 py-1.5">
             <span className="tabular text-current/40">{s.id}</span>
             <a href={s.url} target="_blank" rel="noopener noreferrer" className="link-underline text-cyan">{s.label}</a>
             <span className="text-current/50">{SOURCE_TYPE_LABEL[s.type]} · {dateLabel(s.retrievedAt)}</span>
           </li>
         ))}
       </ol>
-      <p className="mt-4 text-[0.75rem] text-current/55">
+      <HairlineRule className="mt-3.5" />
+      <p className="mt-3 text-[0.75rem] text-current/55">
         Verify all admissions information with the university before applying. Figures marked “High confidence” were read from the official page via a search summary rather than fetched directly.
       </p>
     </details>

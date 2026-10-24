@@ -6,6 +6,8 @@ import { ABROAD_REGIONS, abroadRegionOf, HOME_HUB, sortStates, stateLabel, tierO
 import { explorePath } from "@/lib/unis/paths";
 import { geoFacets, subjectCounts } from "@/lib/unis/repo";
 import { SUBJECT_GROUPS, SUBJECTS } from "@/lib/unis/taxonomy";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 export const metadata: Metadata = {
   title: "Explore colleges",
@@ -78,7 +80,10 @@ export default async function ExplorePage() {
             <div className="mt-5 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
               {SUBJECT_GROUPS.map((g) => (
                 <div key={g}>
-                  <h3 className="meta mb-2 text-paper/50">{g}</h3>
+                  <Reveal>
+                    <h3 className="meta text-paper/50">{g}</h3>
+                    <HairlineRule className="mb-2 mt-2.5 text-paper" />
+                  </Reveal>
                   <ul className="space-y-1.5 text-[0.9375rem]">
                     {SUBJECTS.filter((s) => s.group === g).map((s) => (
                       <li key={s.key}>

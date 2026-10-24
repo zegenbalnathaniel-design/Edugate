@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Spotlight } from "@/components/fx/Spotlight";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 /**
  * The Decision Engine's transparency, made operable.
@@ -94,7 +95,8 @@ export function DecisionCriteria() {
   return (
     <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12">
       <div>
-        <p className="meta mb-4 text-paper/45">Your criteria</p>
+        <p className="meta text-paper/45">Your criteria</p>
+        <HairlineRule className="mb-4 mt-2.5 text-paper" />
         <ul className="space-y-2.5">
           {CRITERIA.map((c) => {
             const active = on.has(c.key);
@@ -150,12 +152,13 @@ export function DecisionCriteria() {
       </div>
 
       <div>
-        <div className="mb-4 flex items-baseline justify-between gap-4">
+        <div className="flex items-baseline justify-between gap-4">
           <p className="meta text-paper/45">Your shortlist</p>
           <p className="tabular text-[0.8125rem] text-paper/55">
             {shortlist.length} of {OPTIONS.length}
           </p>
         </div>
+        <HairlineRule className="mb-4 mt-2.5 text-paper" />
 
         {shortlist.length === 0 ? (
           <div className="glass border-dashed px-6 py-12 text-center">
@@ -199,7 +202,8 @@ export function DecisionCriteria() {
           </ul>
         )}
 
-        <p className="meta mt-6 text-paper/45">
+        <HairlineRule className="mt-6 text-paper" />
+        <p className="meta mt-3 text-paper/45">
           Example student profile · institutions, programs and fees are real
         </p>
       </div>

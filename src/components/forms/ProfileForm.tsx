@@ -9,6 +9,8 @@ import { INDIA_STATE_ORDER, stateLabel } from "@/lib/unis/geo";
 const INDIA_STATES = [...INDIA_STATE_ORDER, "Andaman and Nicobar Islands", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Goa", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Madhya Pradesh", "Odisha", "Puducherry", "Uttarakhand"];
 import { FIELD_NAMES } from "@/lib/unis/filters";
 import { inputCls, labelCls, primaryBtnCls } from "./styles";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 const Fieldset = ({ legend, hint, children }: { legend: string; hint?: string; children: React.ReactNode }) => (
   <fieldset className="glass space-y-4 p-5 sm:p-6">
@@ -16,6 +18,7 @@ const Fieldset = ({ legend, hint, children }: { legend: string; hint?: string; c
     <div>
       <h2 className="font-display text-[1.25rem]">{legend}</h2>
       {hint && <p className="mt-1 text-[0.8125rem] text-paper/60">{hint}</p>}
+      <HairlineRule className="mt-3.5 text-paper" />
     </div>
     {children}
   </fieldset>
@@ -28,7 +31,8 @@ export function ProfileForm({ profile }: { profile: StudentProfile }) {
   const total = Object.values(weights).reduce((a, b) => a + b, 0);
 
   return (
-    <form action={action} className="space-y-6">
+    <form action={action}>
+      <Reveal stagger className="space-y-6">
       <Fieldset legend="About you" hint="Used for international-student rules, fees and scholarship eligibility. Optional.">
         <div className="grid gap-4 sm:grid-cols-2">
           {(["citizenship", "residence"] as const).map((k) => (
@@ -168,6 +172,7 @@ export function ProfileForm({ profile }: { profile: StudentProfile }) {
         {state?.ok && <p role="status" className="text-verified">✓ Saved. <a href="/discover" className="text-cyan underline">See your discovery →</a></p>}
         {state?.error && <p role="alert" className="text-attention">⚠ {state.error}</p>}
       </div>
+      </Reveal>
     </form>
   );
 }

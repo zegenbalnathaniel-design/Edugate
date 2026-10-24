@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Section, Container, SectionLabel } from "@/components/primitives/Section";
 import { MAX_CUTOFF_AGE } from "@/lib/unis/match";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 export const metadata: Metadata = { title: "Methodology" };
 
@@ -45,7 +47,10 @@ export default function MethodologyPage() {
         </p>
 
         <section className="mb-14">
-          <h2 className="meta mb-4 text-current/50">No dead pages</h2>
+          <Reveal>
+            <h2 className="meta text-current/50">No dead pages</h2>
+            <HairlineRule className="mb-4 mt-2.5" />
+          </Reveal>
           <p className="measure mb-6 text-[0.9375rem] text-current/70">
             Every route ships with real data and real interactions. What
             varies between pages is how much a page can do, never whether
@@ -62,7 +67,10 @@ export default function MethodologyPage() {
         </section>
 
         <section className="mb-14">
-          <h2 className="meta mb-4 text-current/50">Where the data comes from</h2>
+          <Reveal>
+            <h2 className="meta text-current/50">Where the data comes from</h2>
+            <HairlineRule className="mb-4 mt-2.5" />
+          </Reveal>
           <p className="measure mb-4 text-[0.9375rem] text-current/70">
             Institution, course, career and scholarship records on this
             platform are marked with a provenance label wherever they
@@ -95,7 +103,10 @@ export default function MethodologyPage() {
         </section>
 
         <section className="mb-14">
-          <h2 className="meta mb-4 text-current/50">How we phrase recommendations</h2>
+          <Reveal>
+            <h2 className="meta text-current/50">How we phrase recommendations</h2>
+            <HairlineRule className="mb-4 mt-2.5" />
+          </Reveal>
           <p className="measure mb-6 text-[0.9375rem] text-current/70">
             Passion Projector and the recommendation surfaces on this site
             never claim certainty they don't have. Every recommendation
@@ -122,7 +133,10 @@ export default function MethodologyPage() {
         </section>
 
         <section className="mb-14">
-          <h2 className="meta mb-4 text-current/50">How college matching works</h2>
+          <Reveal>
+            <h2 className="meta text-current/50">How college matching works</h2>
+            <HairlineRule className="mb-4 mt-2.5" />
+          </Reveal>
           <div className="measure space-y-4 text-[0.9375rem] text-current/70">
             <p>
               <strong className="text-current">Match %</strong> is a weighted share of the checks we can make for a course — does it cover the
@@ -167,7 +181,10 @@ export default function MethodologyPage() {
         </section>
 
         <section>
-          <h2 className="meta mb-4 text-current/50">Free, structurally</h2>
+          <Reveal>
+            <h2 className="meta text-current/50">Free, structurally</h2>
+            <HairlineRule className="mb-4 mt-2.5" />
+          </Reveal>
           <p className="measure text-[0.9375rem] text-current/70">
             There is no pricing page, plan, subscription, or paid placement
             anywhere in this product — not as a feature we chose to omit,

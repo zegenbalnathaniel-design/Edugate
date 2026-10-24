@@ -8,6 +8,8 @@ import { careerRepo } from "@/lib/data/repositories/careers";
 import { courseRepo } from "@/lib/data/repositories/courses";
 import { institutionRepo } from "@/lib/data/repositories/institutions";
 import { FIELD_LABELS, type AxisKey, type AxisScore } from "@/lib/data/types";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 export async function generateMetadata({
   params,
@@ -48,7 +50,10 @@ export default async function CareerPage({
         <Provenance kind={career.provenance} className="mt-4" />
 
         <section className="mt-14">
-          <h2 className="meta mb-4 text-current/50">Skills involved</h2>
+          <Reveal>
+            <h2 className="meta text-current/50">Skills involved</h2>
+            <HairlineRule className="mb-4 mt-2.5" />
+          </Reveal>
           <div className="flex flex-wrap gap-2">
             {career.skills.map((s) => (
               <span key={s} className="meta rounded-full border border-current/15 px-2.5 py-1 text-current/60">{s}</span>
@@ -58,7 +63,10 @@ export default async function CareerPage({
 
         {axisScores.length > 0 && (
           <section className="mt-14">
-            <h2 className="meta mb-2 text-current/50">Working style this tends toward</h2>
+            <Reveal>
+              <h2 className="meta text-current/50">Working style this tends toward</h2>
+              <HairlineRule className="mb-2 mt-2.5" />
+            </Reveal>
             <p className="mb-4 text-[0.8125rem] text-current/45">
               Neither end is "more" — this describes a tendency, not a requirement.
             </p>
@@ -70,7 +78,10 @@ export default async function CareerPage({
 
         {realCourses.length > 0 && (
           <section className="mt-14">
-            <h2 className="meta mb-4 text-current/50">Related courses</h2>
+            <Reveal>
+              <h2 className="meta text-current/50">Related courses</h2>
+              <HairlineRule className="mb-4 mt-2.5" />
+            </Reveal>
             <ul className="space-y-2">
               {realCourses.map((c) => (
                 <li key={c.id}>
@@ -85,7 +96,10 @@ export default async function CareerPage({
 
         {realInstitutions.length > 0 && (
           <section className="mt-14">
-            <h2 className="meta mb-4 text-current/50">Where to study it</h2>
+            <Reveal>
+              <h2 className="meta text-current/50">Where to study it</h2>
+              <HairlineRule className="mb-4 mt-2.5" />
+            </Reveal>
             <ul className="space-y-2">
               {realInstitutions.map((inst) => (
                 <li key={inst.id}>

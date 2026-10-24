@@ -6,6 +6,8 @@ import { SIGNAL_LABELS } from "@/lib/data/types";
 import { getLocalStudentId } from "@/lib/data/adapters/demo/storage";
 import { passionRepo } from "@/lib/data/repositories/passion";
 import { formatDate } from "@/lib/unis/format";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 /**
  * /student/passion-projector/history — docs/04 §9 (Evolution).
@@ -39,16 +41,17 @@ export function HistoryList() {
   }
 
   return (
-    <ol className="space-y-6">
+    <Reveal as="ol" stagger className="space-y-6">
       {sessions.map((s) => {
         const top5 = [...(s.profile?.signals ?? [])]
           .sort((a, b) => b.normalized - a.normalized)
           .slice(0, 5);
         return (
           <li key={s.id} className="glass p-6">
-            <p className="meta mb-3 text-current/45">
+            <p className="meta text-current/45">
               {s.completedAt ? formatDate(s.completedAt, "long") : ""}
             </p>
+            <HairlineRule className="mb-3 mt-2.5" />
             <div className="flex flex-wrap gap-2">
               {top5.map((sig) => (
                 <span
@@ -67,6 +70,6 @@ export function HistoryList() {
           </li>
         );
       })}
-    </ol>
+    </Reveal>
   );
 }

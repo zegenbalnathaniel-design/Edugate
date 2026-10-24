@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Project, ProjectStatus, ProjectTemplate } from "@/lib/data/types";
 import { Button } from "@/components/primitives/Button";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 const DIFFICULTY_LABEL: Record<ProjectTemplate["difficulty"], string> = {
   starter: "Starter",
@@ -37,6 +38,7 @@ export function ProjectCard({
         </p>
       </div>
 
+      <HairlineRule className="opacity-60" />
       <dl className="grid grid-cols-2 gap-3 text-[0.8125rem] text-current/60 sm:grid-cols-4">
         <div>
           <dt className="meta text-current/40">Difficulty</dt>

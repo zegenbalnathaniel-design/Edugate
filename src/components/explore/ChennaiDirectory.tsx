@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 import { CHENNAI_DIRECTORY, directoryCoverage } from "@/lib/unis/directory";
 import { dateLabel } from "@/lib/unis/format";
 
@@ -7,7 +9,8 @@ export function ChennaiDirectory() {
   const d = CHENNAI_DIRECTORY;
   const cov = directoryCoverage(d);
   return (
-    <section aria-labelledby="gcc-directory" className="mt-16 border-t border-paper/10 pt-10">
+    <section aria-labelledby="gcc-directory" className="mt-16 pt-10">
+      <HairlineRule className="mb-8" />
       <h2 id="gcc-directory" className="font-display text-[1.5rem]">Every college in Chennai</h2>
       <p className="measure mt-2 text-[0.875rem] text-paper/60">
         The Greater Chennai Corporation&apos;s list of colleges in the city, by category — {cov.total} colleges, {cov.profiled} with a full Edugate profile so far.
@@ -15,7 +18,7 @@ export function ChennaiDirectory() {
         <a href={d.source.url} target="_blank" rel="noopener noreferrer" className="text-cyan hover:underline">{d.source.label} ↗</a>
         <span className="text-paper/45"> · retrieved {dateLabel(d.source.retrievedAt)}</span>
       </p>
-      <div className="mt-6 space-y-3">
+      <Reveal stagger className="mt-6 space-y-3">
         {d.categories.map((c) => {
           const profiled = c.colleges.filter((e) => e.slug).length;
           return (
@@ -42,7 +45,7 @@ export function ChennaiDirectory() {
             </details>
           );
         })}
-      </div>
+      </Reveal>
     </section>
   );
 }

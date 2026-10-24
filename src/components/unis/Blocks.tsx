@@ -1,13 +1,23 @@
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 import type { ReactNode } from "react";
 
 /* Shared building blocks for the university profile tabs. */
 
+/**
+ * The repeating section on every university tab.
+ *
+ * Treating it here rather than in eleven page files is what gives the whole
+ * institution profile one consistent rhythm: a hairline under each heading,
+ * and the body rising into place as it comes into view.
+ */
 export function Block({ title, children, note, id }: { title: string; children: ReactNode; note?: ReactNode; id?: string }) {
   return (
     <section id={id} className="block-section scroll-mt-36">
       <h2 className="font-display text-[1.5rem] leading-tight tracking-[-0.01em]">{title}</h2>
       {note && <p className="mt-1 max-w-3xl text-[0.8125rem] text-paper/55">{note}</p>}
-      <div className="block-body mt-5">{children}</div>
+      <HairlineRule className="mt-3" />
+      <Reveal className="block-body mt-5">{children}</Reveal>
     </section>
   );
 }
@@ -15,7 +25,7 @@ export function Block({ title, children, note, id }: { title: string; children: 
 export function DataTable({ head, rows, caption, minWidth = 560 }: { head: string[]; rows: ReactNode[][]; caption: string; minWidth?: number }) {
   return (
     <div className="glass overflow-x-auto">
-      <table className="w-full text-left text-[0.875rem]" style={{ minWidth }}>
+      <table className="hr-stack-rows w-full text-left text-[0.875rem]" style={{ minWidth }}>
         <caption className="sr-only">{caption}</caption>
         <thead>
           <tr className="border-b border-paper/10 text-paper/55">

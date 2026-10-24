@@ -21,6 +21,7 @@ import { inputCls, primaryBtnCls, secondaryBtnCls } from "@/components/forms/sty
 import { BlueprintView } from "./BlueprintView";
 import { ConceptBoard } from "./ConceptBoard";
 import { DownloadMarkdown } from "./DownloadMarkdown";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 /*
  * Client side of the Architect: orientation → adaptive interview → concepts
@@ -344,6 +345,7 @@ function Orient({
   return (
     <div className="glass p-6 sm:p-8">
       <h2 className="font-display text-[1.5rem]">Where are you starting from?</h2>
+      <HairlineRule className="mt-3.5 text-paper" />
       <div className="mt-5 grid gap-3 sm:grid-cols-2" role="radiogroup" aria-label="Starting point">
         {(Object.keys(ORIENTATIONS) as Orientation[]).map((k) => (
           <button
@@ -513,9 +515,10 @@ function Building({
     <div className="glass p-6 sm:p-8" role="status" aria-live="polite">
       <p className="meta text-cyan">{concepts.length > 1 ? "Combining" : "Building"}</p>
       <h2 className="mt-1 font-display text-[1.5rem]">{concepts.map((c) => c.title).join(" + ")}</h2>
-      <ul className="mt-6 space-y-3">
+      <HairlineRule className="mt-3.5 text-paper" />
+      <ul className="hr-stack mt-4">
         {rows.map(([label, done, note]) => (
-          <li key={label} className="flex items-start gap-3 text-[0.9375rem]">
+          <li key={label} className="flex items-start gap-3 py-2.5 text-[0.9375rem]">
             <span className={done ? "text-verified" : running ? "animate-pulse text-electric" : "text-paper/40"} aria-hidden>
               {done ? "✓" : "●"}
             </span>

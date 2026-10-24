@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/primitives/Section";
+import { HairlineRule, HairlineTicks } from "@/components/primitives/Hairline";
 
 const GROUPS = [
   {
@@ -33,6 +34,7 @@ export function SiteFooter() {
   return (
     <footer data-register="dark" className="border-t border-paper/10">
       <Container width="wide" className="py-16 md:py-24">
+        <HairlineTicks count={56} className="mb-12 text-paper/70" />
         <div className="grid gap-12 md:grid-cols-[1.4fr_2.6fr]">
           <div>
             <p className="font-display text-[1.25rem] font-semibold tracking-[-0.02em] text-paper">
@@ -51,6 +53,7 @@ export function SiteFooter() {
             {GROUPS.map((group) => (
               <div key={group.title}>
                 <p className="meta text-paper/40">{group.title}</p>
+                <HairlineRule className="mt-2.5 text-paper" />
                 <ul className="mt-4 space-y-2.5">
                   {group.links.map((l) => (
                     <li key={l.href}>
@@ -68,7 +71,8 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col gap-4 border-t border-paper/10 pt-8 md:flex-row md:items-center md:justify-between">
+        <HairlineRule className="mt-16 text-paper" />
+        <div className="flex flex-col gap-4 pt-8 md:flex-row md:items-center md:justify-between">
           {/*
             One of only two places sitewide where "free" appears (D3).
             Repetition would undercut it — it reads as philosophy, not a offer.

@@ -8,6 +8,8 @@ import { BASIS_LABEL } from "@/lib/unis/filters";
 import { dateLabel, TEST_POLICY_LABEL } from "@/lib/unis/format";
 import { isPast } from "@/lib/unis/freshness";
 import { getUniversity } from "@/lib/unis/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -162,7 +164,10 @@ export default async function AdmissionsPage({ params }: Props) {
       <Block title="Entrance tests & English">
         <div className="grid gap-6 sm:grid-cols-2">
           <div>
-            <h3 className="meta mb-2 text-paper/50">Tests</h3>
+            <Reveal>
+              <h3 className="meta text-paper/50">Tests</h3>
+              <HairlineRule className="mb-2 mt-2.5 text-paper" />
+            </Reveal>
             {u.testing.length === 0 ? (
               <p className="text-[0.9375rem] text-paper/60">Course-specific — see each course.</p>
             ) : (
@@ -180,7 +185,10 @@ export default async function AdmissionsPage({ params }: Props) {
           </div>
           {u.english.length > 0 && (
           <div>
-            <h3 className="meta mb-2 text-paper/50">English proficiency</h3>
+            <Reveal>
+              <h3 className="meta text-paper/50">English proficiency</h3>
+              <HairlineRule className="mb-2 mt-2.5 text-paper" />
+            </Reveal>
             {(
 
               <ul className="space-y-2 text-[0.9375rem]">
@@ -229,7 +237,10 @@ export default async function AdmissionsPage({ params }: Props) {
           <div className="space-y-8">
             {cutoffsByYear.map(([label, list]) => (
               <div key={label}>
-                <h3 className="meta mb-3 text-paper/55">{label}</h3>
+                <Reveal>
+                  <h3 className="meta text-paper/55">{label}</h3>
+                  <HairlineRule className="mb-3 mt-2.5 text-paper" />
+                </Reveal>
                 <DataTable
                   caption={`Cutoffs ${label}`}
                   head={["Course", "Category", "Opening rank", "Closing rank"]}

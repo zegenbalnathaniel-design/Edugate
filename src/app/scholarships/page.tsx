@@ -9,6 +9,8 @@ import { dateLabel } from "@/lib/unis/format";
 import { isPast } from "@/lib/unis/freshness";
 import { allUniversities } from "@/lib/unis/repo";
 import { getProfile } from "@/lib/user/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 export const metadata: Metadata = { title: "Scholarships" };
 
@@ -61,7 +63,10 @@ export default async function ScholarshipsPage({ searchParams }: { searchParams:
         </form>
 
         <section className="mb-16">
-          <h2 className="meta mb-4 text-paper/60">University aid ({institutional.length})</h2>
+          <Reveal>
+            <h2 className="meta text-paper/60">University aid ({institutional.length})</h2>
+            <HairlineRule className="mb-4 mt-2.5 text-paper" />
+          </Reveal>
           <div className="grid gap-4 md:grid-cols-2">
             {institutional.map(({ s, u }) => {
               const h = hint(u, s.kind);
@@ -85,7 +90,10 @@ export default async function ScholarshipsPage({ searchParams }: { searchParams:
 
         {!kind && !country && (
           <section>
-            <h2 className="meta mb-4 text-paper/60">External scholarships & fellowships ({SCHOLARSHIPS.length})</h2>
+            <Reveal>
+              <h2 className="meta text-paper/60">External scholarships & fellowships ({SCHOLARSHIPS.length})</h2>
+              <HairlineRule className="mb-4 mt-2.5 text-paper" />
+            </Reveal>
             <div className="grid gap-4 md:grid-cols-2">
               {SCHOLARSHIPS.map((s) => (
                 <article key={s.id} className="glass p-5">

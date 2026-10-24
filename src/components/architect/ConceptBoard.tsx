@@ -137,10 +137,10 @@ export function ConceptBoard({
             })}
           </div>
         ) : (
-          <div className="mt-6 overflow-x-auto rounded-[var(--radius-md)] border border-paper/10">
+          <div className="hr-stack-rows mt-6 overflow-x-auto">
             <table className="w-full min-w-[900px] border-collapse text-left text-[0.8125rem]">
               <caption className="sr-only">Project fit matrix — qualitative ratings, not scores</caption>
-              <thead className="bg-paper/5">
+              <thead className="border-b border-paper/15">
                 <tr>
                   <th scope="col" className="sticky left-0 bg-navy-900 px-3 py-2.5 font-normal text-paper/55">Concept</th>
                   {MATRIX_KEYS.map((k) => (
@@ -151,7 +151,7 @@ export function ConceptBoard({
                   <th scope="col" className="px-3 py-2.5 font-normal text-paper/55">Tradeoff</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-paper/10">
+              <tbody>
                 {matrix.map((r) => (
                   <tr key={r.conceptId} className={`align-top ${selected.includes(r.conceptId) ? "bg-electric/5" : ""}`}>
                     <th scope="row" className="sticky left-0 min-w-[190px] bg-navy-900 px-3 py-2.5 font-medium">

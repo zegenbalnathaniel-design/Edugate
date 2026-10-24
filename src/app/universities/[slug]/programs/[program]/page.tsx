@@ -24,6 +24,8 @@ import { getUniversity, searchPrograms } from "@/lib/unis/repo";
 import { normalizeDegree, programSubjects } from "@/lib/unis/taxonomy";
 import type { Program, University } from "@/lib/unis/schema";
 import { getProfile, trackedSlugs } from "@/lib/user/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Props = { params: Promise<{ slug: string; program: string }> };
 
@@ -161,7 +163,10 @@ export default async function ProgramPage({ params }: Props) {
 
             {profile && (
               <section>
-                <h2 className="meta mb-4 text-paper/60">Academic gap analysis — your profile vs published requirements</h2>
+                <Reveal>
+                  <h2 className="meta text-paper/60">Academic gap analysis — your profile vs published requirements</h2>
+                  <HairlineRule className="mb-4 mt-2.5 text-paper" />
+                </Reveal>
                 {gaps.length === 0 ? (
                   <p className="text-[0.9375rem] text-paper/65">Add your curriculum, subjects and test scores in <Link href="/profile" className="text-cyan">your profile</Link> to compare them against this course.</p>
                 ) : (
@@ -299,7 +304,10 @@ export default async function ProgramPage({ params }: Props) {
               )}
               {p.electives.length > 0 && (
                 <div className="mt-6">
-                  <h3 className="meta mb-2 text-paper/55">Electives</h3>
+                  <Reveal>
+                    <h3 className="meta text-paper/55">Electives</h3>
+                    <HairlineRule className="mb-2 mt-2.5 text-paper" />
+                  </Reveal>
                   <ul className="flex flex-wrap gap-2 text-[0.8125rem]">{p.electives.map((e) => <li key={e} className="rounded-full border border-paper/20 px-3 py-1">{e}</li>)}</ul>
                 </div>
               )}

@@ -10,6 +10,8 @@ import { freshnessFlags } from "@/lib/unis/freshness";
 import { allUniversities, latestQsEdition } from "@/lib/unis/repo";
 import { resolveReport } from "@/lib/user/actions";
 import { listReports } from "@/lib/user/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 export const metadata: Metadata = { title: "Data admin", robots: { index: false } };
 
@@ -32,7 +34,10 @@ export default async function AdminPage() {
         <h1 className="display-m mt-3 mb-10">Data integrity</h1>
         <div className="grid gap-8 lg:grid-cols-2">
           <section className="glass p-5">
-            <h2 className="meta mb-4 text-paper/60">User reports ({reports.length} open)</h2>
+            <Reveal>
+              <h2 className="meta text-paper/60">User reports ({reports.length} open)</h2>
+              <HairlineRule className="mb-4 mt-2.5 text-paper" />
+            </Reveal>
             {reports.length === 0 ? <p className="text-[0.875rem] text-paper/60">No open reports.</p> : (
               <ul className="divide-y divide-paper/10">
                 {reports.map(({ r, uniName, uniSlug, reporter }) => (
@@ -51,7 +56,10 @@ export default async function AdminPage() {
             )}
           </section>
           <section className="glass p-5">
-            <h2 className="meta mb-4 text-paper/60">Freshness queue ({flagged.length})</h2>
+            <Reveal>
+              <h2 className="meta text-paper/60">Freshness queue ({flagged.length})</h2>
+              <HairlineRule className="mb-4 mt-2.5 text-paper" />
+            </Reveal>
             {flagged.length === 0 ? <p className="text-[0.875rem] text-paper/60">Nothing stale right now.</p> : (
               <ul className="divide-y divide-paper/10 text-[0.875rem]">
                 {flagged.map(({ r, flags }) => (
@@ -66,7 +74,10 @@ export default async function AdminPage() {
         </div>
 
         <section className="glass mt-8 overflow-x-auto p-5">
-          <h2 className="meta mb-4 text-paper/60">Records ({rows.length})</h2>
+          <Reveal>
+            <h2 className="meta text-paper/60">Records ({rows.length})</h2>
+            <HairlineRule className="mb-4 mt-2.5 text-paper" />
+          </Reveal>
           <table className="w-full min-w-[640px] text-left text-[0.875rem]">
             <thead><tr className="text-paper/55"><th className="py-2 font-medium">University</th><th className="font-medium">Last verified</th><th className="font-medium">Sources</th><th className="font-medium">Needs verification</th><th /></tr></thead>
             <tbody>
@@ -84,7 +95,10 @@ export default async function AdminPage() {
         </section>
 
         <section className="glass mt-8 p-5">
-          <h2 className="meta mb-4 text-paper/60">Audit log</h2>
+          <Reveal>
+            <h2 className="meta text-paper/60">Audit log</h2>
+            <HairlineRule className="mb-4 mt-2.5 text-paper" />
+          </Reveal>
           <ul className="space-y-1.5 text-[0.8125rem]">
             {log.map(({ a, uni, who }) => (
               <li key={a.id}><span className="text-paper/45">{a.createdAt.toISOString().slice(0, 16).replace("T", " ")}</span> · <strong>{a.action}</strong> · {uni ?? "—"} · {who ?? "system"} — {a.summary}</li>

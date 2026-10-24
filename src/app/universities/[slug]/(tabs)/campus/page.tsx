@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { Block, NotYet } from "@/components/unis/Blocks";
 import { Sourced } from "@/components/unis/Sourced";
 import { getUniversity } from "@/lib/unis/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -77,7 +79,10 @@ export default async function CampusPage({ params }: Props) {
               if (!list.length) return null;
               return (
                 <div key={cat}>
-                  <h3 className="meta mb-3 text-paper/50">{label}</h3>
+                  <Reveal>
+                    <h3 className="meta text-paper/50">{label}</h3>
+                    <HairlineRule className="mb-3 mt-2.5 text-paper" />
+                  </Reveal>
                   <ul className="grid gap-4 sm:grid-cols-2">
                     {list.map((f) => (
                       <li key={f.name} className="glass p-4">

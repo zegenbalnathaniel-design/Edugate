@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import type { SavedProject } from "@/lib/architect/schemas";
 import { LevelPill } from "./LevelPill";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 /*
  * The final dossier (spec Part XXV). Renders on the server (saved projects)
@@ -29,10 +31,15 @@ const SECTIONS = [
 
 function Block({ id, title, children, note }: { id: string; title: string; children: ReactNode; note?: string }) {
   return (
-    <section id={`bp-${id}`} className="scroll-mt-28 border-t border-paper/10 pt-8">
-      <h2 className="font-display text-[1.5rem] leading-tight tracking-[-0.01em]">{title}</h2>
-      {note && <p className="mt-1 text-[0.8125rem] text-paper/50">{note}</p>}
-      <div className="mt-5 space-y-5">{children}</div>
+    <section id={`bp-${id}`} className="scroll-mt-28 pt-8">
+      <HairlineRule className="mb-7 text-paper" />
+      <Reveal>
+        <h2 className="font-display text-[1.5rem] leading-tight tracking-[-0.01em]">{title}</h2>
+        {note && <p className="mt-1 text-[0.8125rem] text-paper/50">{note}</p>}
+      </Reveal>
+      <Reveal stagger className="mt-5 space-y-5">
+        {children}
+      </Reveal>
     </section>
   );
 }
@@ -65,9 +72,9 @@ function List({ items, label, ordered }: { items: string[]; label?: string; orde
 function Table({ head, rows }: { head: string[]; rows: ReactNode[][] }) {
   if (!rows.length) return null;
   return (
-    <div className="overflow-x-auto rounded-[var(--radius-md)] border border-paper/10">
+    <div className="hr-stack-rows overflow-x-auto">
       <table className="w-full min-w-[560px] border-collapse text-left text-[0.875rem]">
-        <thead className="bg-paper/5">
+        <thead className="border-b border-paper/15">
           <tr>
             {head.map((h) => (
               <th key={h} scope="col" className="meta px-3 py-2.5 font-normal text-paper/55">
@@ -76,7 +83,7 @@ function Table({ head, rows }: { head: string[]; rows: ReactNode[][] }) {
             ))}
           </tr>
         </thead>
-        <tbody className="divide-y divide-paper/10">
+        <tbody>
           {rows.map((r, i) => (
             <tr key={i} className="align-top">
               {r.map((c, j) => (

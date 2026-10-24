@@ -14,6 +14,8 @@ import { getUniversity } from "@/lib/unis/repo";
 import { selectivity, SELECTIVITY_LABEL } from "@/lib/unis/selectivity";
 import type { ConfidenceLevel } from "@/lib/unis/schema";
 import { getProfile } from "@/lib/user/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -173,7 +175,10 @@ export default async function UniversityOverview({ params }: Props) {
             <div className="grid gap-6 sm:grid-cols-2">
               {oppGroups.map(([cat, list]) => (
                 <div key={cat}>
-                  <h3 className="meta mb-2 text-paper/50">{OPP_LABEL[cat] ?? cat}</h3>
+                  <Reveal>
+                    <h3 className="meta text-paper/50">{OPP_LABEL[cat] ?? cat}</h3>
+                    <HairlineRule className="mb-2 mt-2.5 text-paper" />
+                  </Reveal>
                   <ul className="space-y-3">
                     {list!.map((o) => (
                       <li key={o.name} className="text-[0.9375rem]">

@@ -757,6 +757,18 @@ html.lenis body {
   opacity: 1;
 }
 
+/* Table rows divided by hairlines. Scoped to tbody so the header keeps
+   its own heavier rule. */
+.hr-stack-rows tbody tr + tr {
+  border-top: 1px solid color-mix(in srgb, currentColor 10%, transparent);
+}
+
+/* A rule above a block — the "this is a separate note" divider, at the
+   same weight as .hr-stack so the two never disagree visually. */
+.hr-top {
+  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+}
+
 /* Divided list: hairlines between children, never above the first or
    below the last. Replaces per-row border utilities across the app. */
 .hr-stack > * + * {

@@ -4,6 +4,8 @@ import { Block, DataTable, NotYet } from "@/components/unis/Blocks";
 import { Sourced } from "@/components/unis/Sourced";
 import { ORG_LABEL } from "@/lib/unis/format";
 import { getUniversity } from "@/lib/unis/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -32,7 +34,10 @@ export default async function RankingsPage({ params }: Props) {
           <div className="space-y-8">
             {byOrg.map(([org, list]) => (
               <div key={org}>
-                <h3 className="meta mb-3 text-paper/55">{ORG_LABEL[org] ?? org}</h3>
+                <Reveal>
+                  <h3 className="meta text-paper/55">{ORG_LABEL[org] ?? org}</h3>
+                  <HairlineRule className="mb-3 mt-2.5 text-paper" />
+                </Reveal>
                 <DataTable
                   caption={`${ORG_LABEL[org] ?? org} rankings`}
                   head={["Table", "Edition", "Rank"]}

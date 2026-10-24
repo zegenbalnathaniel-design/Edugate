@@ -5,6 +5,8 @@ import { Container, Section } from "@/components/primitives/Section";
 import { UniversityCard } from "@/components/unis/UniversityCard";
 import { parseFilters } from "@/lib/unis/filters";
 import { searchUniversities } from "@/lib/unis/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Props = { params: Promise<{ code: string }> };
 
@@ -27,7 +29,10 @@ export default async function CountryPage({ params }: Props) {
         <h1 className="display-m mt-3 mb-10">{rows[0].country}</h1>
         {byRegion.map(([region, list]) => (
           <section key={region} className="mb-12">
-            <h2 className="meta mb-4 text-paper/60">{region}</h2>
+            <Reveal>
+              <h2 className="meta text-paper/60">{region}</h2>
+              <HairlineRule className="mb-4 mt-2.5 text-paper" />
+            </Reveal>
             <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">{list!.map((r) => <UniversityCard key={r.slug} row={r} />)}</div>
           </section>
         ))}

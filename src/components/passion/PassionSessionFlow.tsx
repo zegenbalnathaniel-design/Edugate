@@ -26,6 +26,8 @@ import { AxisIndicator } from "./AxisIndicator";
 import { ArchetypeCard } from "./ArchetypeCard";
 import { FieldConnections } from "./FieldConnections";
 import { ProjectCard } from "./ProjectCard";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 type Stage = "intro" | "active" | "completing" | "reveal";
 
@@ -241,12 +243,18 @@ export function PassionSessionFlow() {
             )}
 
             <section className="glass p-8 sm:p-10">
-              <h3 className="meta mb-4 text-current/50">Interest signals</h3>
+              <Reveal>
+                <h3 className="meta text-current/50">Interest signals</h3>
+                <HairlineRule className="mb-4 mt-2.5" />
+              </Reveal>
               <SignalList session={session} />
             </section>
 
             <section className="glass p-8 sm:p-10">
-              <h3 className="meta mb-4 text-current/50">Working style</h3>
+              <Reveal>
+                <h3 className="meta text-current/50">Working style</h3>
+                <HairlineRule className="mb-4 mt-2.5" />
+              </Reveal>
               <div className="space-y-1">
                 {session.profile.axes.map((axis) => (
                   <AxisIndicator key={axis.key} score={axis} />
@@ -255,13 +263,19 @@ export function PassionSessionFlow() {
             </section>
 
             <section className="glass p-8 sm:p-10">
-              <h3 className="meta mb-4 text-current/50">Fields worth exploring</h3>
+              <Reveal>
+                <h3 className="meta text-current/50">Fields worth exploring</h3>
+                <HairlineRule className="mb-4 mt-2.5" />
+              </Reveal>
               <FieldConnections connections={session.profile.fieldConnections} />
             </section>
 
             <section>
-              <h3 className="meta mb-6 text-current/50">Projects that fit what showed up</h3>
-              <div className="grid gap-5 sm:grid-cols-2">
+              <Reveal>
+                <h3 className="meta text-current/50">Projects that fit what showed up</h3>
+                <HairlineRule className="mb-6 mt-2.5" />
+              </Reveal>
+              <Reveal stagger className="grid gap-5 sm:grid-cols-2">
                 {recommendedProjects.map(({ template, reason, signals }) => (
                   <ProjectCard
                     key={template.id}
@@ -270,7 +284,7 @@ export function PassionSessionFlow() {
                     onAccept={() => acceptProject(template.id, reason, signals)}
                   />
                 ))}
-              </div>
+              </Reveal>
               {acceptedIds.size > 0 && (
                 <p className="mt-6 text-[0.875rem] text-current/60">
                   <a href="/student/projects" className="link-underline text-cyan-deep">

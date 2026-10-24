@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { UniversityRow } from "@/lib/unis/repo";
+import { HairlineRule } from "@/components/primitives/Hairline";
 import { BASIS_SHORT, dateLabel, inrCompact, moneyRange, qsLabel, TEST_POLICY_LABEL } from "@/lib/unis/format";
 import { satPolicy } from "@/lib/unis/extract";
 import { isPast } from "@/lib/unis/freshness";
@@ -43,7 +44,8 @@ export function UniversityCard({ row, why }: { row: UniversityRow; why?: string[
       <p className="mt-2 text-[0.8125rem] text-current/70">
         {u.programs.length} programme{u.programs.length === 1 ? "" : "s"} on Edugate{degrees.length ? ` · ${degrees.slice(0, 6).join(", ")}${degrees.length > 6 ? "…" : ""}` : ""}
       </p>
-      <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-[0.8125rem]">
+      <HairlineRule className="mt-4 opacity-60" />
+      <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-[0.8125rem]">
         {(india ? row.costInrMin != null : !!intlFee) && (
           <div>
             <dt className="meta text-current/45">{india ? "Yearly fee from" : "Intl tuition"}</dt>
@@ -69,7 +71,7 @@ export function UniversityCard({ row, why }: { row: UniversityRow; why?: string[
       </dl>
       {u.scholarships.length > 0 && <p className="mt-3 text-[0.8125rem] text-verified">● {u.scholarships.length} scholarship/aid option{u.scholarships.length > 1 ? "s" : ""}</p>}
       {why && why.length > 0 && (
-        <ul className="mt-4 space-y-1 border-t border-current/10 pt-3 text-[0.8125rem] text-current/75">
+        <ul className="hr-top mt-4 space-y-1 pt-3 text-[0.8125rem] text-current/75">
           <li className="meta text-current/45">Why this appeared for you</li>
           {why.map((w) => <li key={w}>{w}</li>)}
         </ul>

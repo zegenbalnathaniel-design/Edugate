@@ -6,6 +6,8 @@ import { useCallback, useEffect, useRef, useState, type MouseEvent, type Pointer
 import { buildMyList, saveWrappedToProfile } from "@/app/wrapped/actions";
 import { RIASEC_LABEL, type Answers, type Riasec } from "@/lib/wrapped/model";
 import { BUCKET, lakh, type Bucket, type UniCard, type WrappedResult } from "@/lib/wrapped/match";
+import { HairlineRule } from "@/components/primitives/Hairline";
+import { Reveal } from "@/components/primitives/Reveal";
 
 /*
  * The "Wrapped" itself: one big idea per full-screen card, in story order —
@@ -999,11 +1001,12 @@ function buildCards(r: WrappedResult, answers: Answers, shareUrl: string, onEdit
                   {m.emoji} {m.label}
                 </h3>
                 <p className="text-[0.95rem] text-white/80">{m.line}</p>
-                <div className="mt-4 grid gap-4 lg:grid-cols-2">
+                <HairlineRule className="mt-3" />
+                <Reveal stagger className="mt-4 grid gap-4 lg:grid-cols-2">
                   {list.map((c) => (
                     <UniversityCard key={`${b}-${c.slug}`} c={c} />
                   ))}
-                </div>
+                </Reveal>
               </section>
             );
           })}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { HairlineRule } from "@/components/primitives/Hairline";
 
 /**
  * §78, made operable.
@@ -68,7 +69,8 @@ export function RankingNotForSale() {
       </div>
 
       <div>
-        <p className="meta mb-4 text-ink/45">Results for this student</p>
+        <p className="meta text-ink/45">Results for this student</p>
+        <HairlineRule className="mb-4 mt-2.5 text-ink" />
         <ol className="glass divide-y divide-current/10 overflow-hidden">
           {RESULTS.map((r, i) => {
             const isPayer = i === PAYER;
